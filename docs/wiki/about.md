@@ -12,7 +12,7 @@ This site's content is the result of extensive community research, development a
 - **[The Hyrule Engineering Club](https://discord.gg/uZqvjnwqF3)** — Vanilla and glitched constructions ad absurdum
 - **[NaN Gogh](https://x.com/_nan_gogh)** Curator of this page and main author of the `Ultrabroken` section
 - **[TotK Glitch Spreadsheet](https://docs.google.com/spreadsheets/d/1xNB1gOLZRSF9yp1mHUsS9ymogRJa1Wz8rTliTXezeRM/edit?usp=drivesdk)** - The one and only community-maintained glitch spreadsheet curated by the Zelda: Tears of the Kingdom Speedrunning community and its spreadsheet managers
-- The [Glitchcraft library](glitchcraft/glitchcraft-grimoire.md) is a direct extract from the spreadsheet with minor formatting and convenience edits
+- **[Glitchcraft library](glitchcraft/glitchcraft-grimoire.md)** The direct extract from the canonical spreadsheet with minor formatting and convenience edits
 
 ## Contribution
 ---
