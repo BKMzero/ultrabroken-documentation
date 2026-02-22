@@ -1,8 +1,8 @@
 ﻿---
-title: "Zuggling"
+title: "Smuggle & Zuggle Library"
 ---
 
-# Zuggle & Smuggle Library
+# Smuggle & Zuggle Library
 
 This page complies Smuggling and Zuggling related glitches for quick reference.
 

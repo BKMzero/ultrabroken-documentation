@@ -1,5 +1,5 @@
 ﻿---
-title: "Entanglement"
+title: "Entanglement Library"
 ---
 
 # Entanglement Library
