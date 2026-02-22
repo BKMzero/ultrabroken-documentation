@@ -1,5 +1,5 @@
 ﻿---
-title: "Name"
+title: "Super Fuse Overload"
 ---
 
 # Super Fuse Overload
@@ -9,7 +9,7 @@ title: "Name"
 ---
 Allows you to get Zelda's torch and Mineru's arm.
 
-_Discovered by mulberry and Aergyl, optimized by Jordan, MandelbrotChaylay, and mulberry.  6 December 2025_
+_Discovered by mulberry and Aergyl, optimized by Jordan, MandelbrotChaylay, and mulberry - 6 December 2025_
 
 ## Instructions
 ---
@@ -31,11 +31,13 @@ _Discovered by mulberry and Aergyl, optimized by Jordan, MandelbrotChaylay, and 
 16. Recall lock all equipment that is not in the eaten DI state.
 
 To obtain Zelda's torch:
+
 1. Load the prologue and pick up the torch, you may have to reload a couple times
 2. Get an autosave and close the game
 3. Transfer the torch to your save as you would for transferring the MNF
 
 To obtain Mineru's arm:
+
 1. Load the save near the ganondorf trigger and quickly enter the army fight
 2. Progress the fights until the latter end of phase 2 of ganondorf
 3. Fuse things to shields and drop the shields afterward until fused objects fall into the ground instead of properly fusing
@@ -49,6 +51,7 @@ To obtain Mineru's arm:
 11. Pick up the weapon
 
 To dupe zonai devices:
+
 1. Load the save near the minigame NPC and quickly talk to them
 2. Overload drop a shield and fuse it to a weapon
 3. Fuse things to your shield until they fall through the floor

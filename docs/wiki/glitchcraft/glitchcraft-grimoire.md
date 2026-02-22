@@ -300,6 +300,8 @@ Glitches sorted by date.
 289. [Weapon Dash GAS](./weapon-dash-gas.md)
 290. [Dialog Permacull](./dialog-permacull.md)
 291. [Void Dipping](./void-dipping.md)
+291. [Void Dipping](./void-dipping.md)
+292. [Super Fuse Overload](./super-fuse-overload.md)
 
 ## Ahystorical Record
 ---
