@@ -11,7 +11,7 @@ Overload covers techniques that intentionally push UI, item, effect, or renderin
 
 ## Quick Navigation
 ---
-- **[Overload Query](search: Overload)** Search for glitches and setups revolving around Overload
+- **[Overload Query](search: Overload)** - Search for glitches and setups revolving around Overload
 
 ## What to expect in each writeup
 ---

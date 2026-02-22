@@ -11,7 +11,7 @@ Desync is a state where the game's internal representation (menu/inventory) and 
 
 ## Quick Navigation
 ---
-- **[Desync](search: Desync Query)** Search for glitches and setups revolving around Desync
+- **[Desync](search: Desync Query)** - Search for glitches and setups revolving around Desync
 
 ## What to expect in each writeup
 ---

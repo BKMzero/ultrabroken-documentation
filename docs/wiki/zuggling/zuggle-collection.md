@@ -2,11 +2,11 @@
 title: "Zuggling"
 ---
 
-# Zuggle & Smuggle Collection
+# Zuggle & Smuggle Library
 
-This page collects Glitchcraft entries related to Zuggling, Zuggle, Smuggling and Smuggle for quick reference.
+This page complies Smuggling and Zuggling related glitches for quick reference.
 
-## Entries
+## Index
 ---
 - [Zuggle](.../glitchcraft/glitchcraft/zuggle.md)
 - [Equipment Collision Zuggle](../glitchcraft/equipment-collision-zuggle.md)

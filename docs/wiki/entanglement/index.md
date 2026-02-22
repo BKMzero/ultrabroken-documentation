@@ -11,8 +11,8 @@ Fuse Entanglement refers to situations where two or more objects become bound so
 
 ## Quick Navigation
 ---
-- **[Fuse Entanglement Query](search: Fuse Entanglement)** Search for glitches and setups revolving around Fuse Entanglement
-- **[Fuse Entanglement Library](./entanglement-collection.md)** Listed Fuse Entanglement Glitches
+- **[Fuse Entanglement Query](search: Fuse Entanglement)** - Search for glitches and setups revolving around Fuse Entanglement
+- **[Fuse Entanglement Library](./entanglement-collection.md)** - Listed Fuse Entanglement Glitches
 
 ## What to expect in each writeup
 ---

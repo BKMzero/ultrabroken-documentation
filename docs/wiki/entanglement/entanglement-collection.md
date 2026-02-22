@@ -2,11 +2,11 @@
 title: "Entanglement"
 ---
 
-# Entanglement Collection
+# Entanglement Library
 
-This page complies Fuse Entanglement related entries for quick reference.
+This page complies Fuse Entanglement related glitches for quick reference.
 
-## Entries
+## Index
 ---
 - [Fuse Entanglement](../glitchcraft/fuse-entanglement.md)
 - [Entanglement Height Glitch](../glitchcraft/entanglement-height-glitch.md)
