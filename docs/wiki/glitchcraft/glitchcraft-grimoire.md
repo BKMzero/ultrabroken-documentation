@@ -303,6 +303,8 @@ Glitches sorted by date.
 
 ## Ahystorical Record
 ---
+Unsorted glitches yet to be classified or dated.
+
 - [Proxy Glitches](./0293-proxy-glitches.md)
 - [Zuggle Overload Desync](./0294-zuggle-overload-desync.md)
 - [Anti-Gravity Objects](./0295-anti-gravity-objects.md)
