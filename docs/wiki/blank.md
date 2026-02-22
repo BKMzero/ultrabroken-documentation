@@ -23,5 +23,5 @@ Remarks, additions, extensions, etc.
 
 ## Resources
 ---
-- [Title](URL)
-- [Searchbar Link](search:Searchbar Link)
+- [Link Title](Link URL)
+- [Searchbar Query](search:Searchbar Query)

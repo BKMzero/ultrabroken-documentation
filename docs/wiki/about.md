@@ -14,7 +14,8 @@ This site's content is the result of extensive community research, development a
 - **[TotK Glitch Spreadsheet](https://docs.google.com/spreadsheets/d/1xNB1gOLZRSF9yp1mHUsS9ymogRJa1Wz8rTliTXezeRM/edit?usp=drivesdk)** - The one and only community-maintained glitch spreadsheet curated by the Zelda: Tears of the Kingdom Speedrunning community and its spreadsheet managers
 - The [Glitchcraft library](glitchcraft/glitchcraft-grimoire.md) is a direct extract from the spreadsheet with minor formatting and convenience edits
 
-**Contribution**
+## Contribution
+---
 If you'd like to document glitches, techniques, setups or builds for the archives, read [this guide](https://github.com/nan-gogh/ultrabroken-documentation/blob/main/README.md), then load [this blank file](https://github.com/nan-gogh/ultrabroken-documentation/blob/main/docs/wiki/blank.md) to fill it out and post it [here](https://discord.com/channels/1086729144307564648/1471224902890684557).
 
 ## Goal
