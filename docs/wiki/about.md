@@ -4,7 +4,7 @@ title: About the Archives
 
 # About the Archives
 
-## Community Research
+## Community
 ---
 This site's content is the result of extensive community research, development and curation. All glitches documented here are the product of a phenomenal community glitch hunt and collaborative research effort in The Legend of Zelda: Tears of the Kingdom. Please credit the following volunteer QA communities and contributors, who helped Nintendo Ninjas push several patches, when sharing or referencing material from this site.
 
@@ -13,6 +13,9 @@ This site's content is the result of extensive community research, development a
 - **[NaN Gogh](https://x.com/_nan_gogh)** Curator of this page and main author of the `Ultrabroken` section
 - **[TotK Glitch Spreadsheet](https://docs.google.com/spreadsheets/d/1xNB1gOLZRSF9yp1mHUsS9ymogRJa1Wz8rTliTXezeRM/edit?usp=drivesdk)** - The one and only community-maintained glitch spreadsheet curated by the Zelda: Tears of the Kingdom Speedrunning community and its spreadsheet managers
 - The [Glitchcraft library](glitchcraft/glitchcraft-grimoire.md) is a direct extract from the spreadsheet with minor formatting and convenience edits
+
+**Contribution**
+If you'd like to document glitches, techniques, setups or builds for the archives, read [this guide](https://github.com/nan-gogh/ultrabroken-documentation/blob/main/README.md), then load [this blank file](https://github.com/nan-gogh/ultrabroken-documentation/blob/main/docs/wiki/blank.md) to fill it out and post it [here](https://discord.com/channels/1086729144307564648/1471224902890684557).
 
 ## Goal
 ---
