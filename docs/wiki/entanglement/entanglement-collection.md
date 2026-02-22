@@ -8,7 +8,6 @@ This page complies Fuse Entanglement related entries for quick reference.
 
 ## Entries
 ---
-
 - [Fuse Entanglement](../glitchcraft/fuse-entanglement.md)
 - [Entanglement Height Glitch](../glitchcraft/entanglement-height-glitch.md)
 - [Fuse Entanglement Desync](../glitchcraft/fuse-entanglement-desync-fed.md)

@@ -8,7 +8,6 @@ This page collects Glitchcraft entries related to Zuggling, Zuggle, Smuggling an
 
 ## Entries
 ---
-
 - [Zuggle](.../glitchcraft/glitchcraft/zuggle.md)
 - [Equipment Collision Zuggle](../glitchcraft/equipment-collision-zuggle.md)
 - [Zuggle Overload](../glitchcraft/zuggle-overload.md)

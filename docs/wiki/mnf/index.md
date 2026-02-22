@@ -11,7 +11,7 @@ Message Not Found (MNF) is a placeholder/ghost object state exploited in several
 
 ## Quick Navigation
 ---
-- **[Message Not Found](search: MNF)** Basic setups for Message Not Found
+- **[Message Not Found Query](search: MNF)** Search for glitches and setups revolving around Message Not Found
 
 ## What to expect in each writeup
 ---
