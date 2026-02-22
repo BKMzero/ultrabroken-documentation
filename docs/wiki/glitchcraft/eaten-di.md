@@ -58,8 +58,6 @@ Setup for using eaten DI weapons and shields to make an eaten DI ghost on 1.0-1.
 4. Drop the item that you fuse entangled to mineru
 5. Same rules for detanglement apply
 
-...
-
 ## Notes
 ---
 —
