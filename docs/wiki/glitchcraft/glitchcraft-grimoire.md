@@ -1,8 +1,8 @@
-﻿---
-title: "Glitchcraft"
+---
+title: "Grimoire of Glitchcraft"
 ---
 
-# Glitchcraft
+# Grimoire of Glitchcraft
 This page lists generated glitch stubs created from the community spreadsheet.
 
 ## Historical Chronicles
