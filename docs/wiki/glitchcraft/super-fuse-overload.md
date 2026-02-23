@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Super Fuse Overload"
 ---
 
@@ -62,8 +62,6 @@ To dupe zonai devices:
 8. Dupe to your hearts content
 9. Exit the minigame
 10. Save quickly
-
-...
 
 ## Notes
 ---
