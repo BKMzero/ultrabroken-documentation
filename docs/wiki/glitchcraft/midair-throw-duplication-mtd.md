@@ -2,6 +2,7 @@
 title: "Midair Throw Duplication"
 abbr: "MTD"
 description: "Allows you to dupe any item that can be thrown, including Zonai capsules."
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Midair Throw Duplication `MTD`

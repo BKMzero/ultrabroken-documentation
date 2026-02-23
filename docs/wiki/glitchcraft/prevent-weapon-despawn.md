@@ -2,6 +2,7 @@
 title: "Weapon Despawn Prevention"
 abbr: "WDP"
 description: "Prevents equipment from despawning after certain NPC interactions and quests (Does not work in Pirate Ship quest, different flags)."
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Weapon Despawn Prevention `WDP`

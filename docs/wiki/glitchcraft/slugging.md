@@ -2,6 +2,7 @@
 title: "Slugging"
 abbr: "SLG"
 description: "Allows Link to hold an unloaded piece of equipment using a like like."
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Slugging `SLG`

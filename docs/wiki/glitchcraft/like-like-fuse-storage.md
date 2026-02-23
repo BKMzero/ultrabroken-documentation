@@ -2,6 +2,7 @@
 title: "Like-Like Fuse Storage"
 abbr: "LLFS"
 description: "Fusing to an item on the same frame that a like-like eats it causes fuse storage"
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
 ---
 
 # Like-Like Fuse Storage `LLFS`

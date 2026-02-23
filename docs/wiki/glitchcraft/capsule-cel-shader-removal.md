@@ -2,6 +2,7 @@
 title: "Capsule Cel Shader Removal"
 abbr: "CCSR"
 description: "Enables the inside of capsules to remove the cel shader and other shaders"
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Capsule Cel Shader Removal `CCSR`

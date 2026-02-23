@@ -2,6 +2,7 @@
 title: "Unload WST"
 abbr: "UWST"
 description: "Allows you to transfer modifiers and materials to any weapon."
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Unload WST `UWST`

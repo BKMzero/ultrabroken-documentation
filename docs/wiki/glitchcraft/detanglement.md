@@ -2,6 +2,7 @@
 title: "Detanglement"
 abbr: "DTG"
 description: "Using a rocket shield disconnects fuse-entangled objects from their source equipment without destroying the object."
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Detanglement `DTG`

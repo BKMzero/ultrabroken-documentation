@@ -2,6 +2,7 @@
 title: "Springdolling"
 abbr: "SDOL"
 description: "Allows you to launch a large horizontal distance using springs"
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Springdolling `SDOL`

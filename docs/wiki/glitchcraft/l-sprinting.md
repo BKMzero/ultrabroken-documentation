@@ -2,6 +2,7 @@
 title: "L Sprinting"
 abbr: "LS"
 description: "This is an infinite stamina sprinting method. It is not the fastest one and the timing is very hard."
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # L Sprinting `LS`

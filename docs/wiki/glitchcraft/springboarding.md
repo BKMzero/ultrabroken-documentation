@@ -2,6 +2,7 @@
 title: "Springboarding"
 abbr: "SBRD"
 description: "Spring jump across terrain for as long as shield durability lasts."
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Springboarding `SBRD`

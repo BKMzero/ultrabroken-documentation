@@ -2,6 +2,7 @@
 title: "Attached Rangeless Active Zonai"
 abbr: "ARAZ"
 description: "Is very similar to DRAZ but differs slightly."
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 ---
 
 # Attached Rangeless Active Zonai `ARAZ`

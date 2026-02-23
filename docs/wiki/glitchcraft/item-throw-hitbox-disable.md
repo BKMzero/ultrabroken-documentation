@@ -2,6 +2,7 @@
 title: "Item Throw Hitbox Disable"
 abbr: "ITHD"
 description: "Disables the hitbox of a thrown item by recalling it mid-flight"
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 ---
 
 # Item Throw Hitbox Disable `ITHD`

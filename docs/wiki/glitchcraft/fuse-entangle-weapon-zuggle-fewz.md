@@ -2,6 +2,7 @@
 title: "Fuse Entangle Weapon Zuggle"
 abbr: "FEWZ"
 description: "Allows you got zuggle each weapon you carry one time. This stacks the damage similar to the original version of zuggling"
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 ---
 
 # Fuse Entangle Weapon Zuggle `FEWZ`

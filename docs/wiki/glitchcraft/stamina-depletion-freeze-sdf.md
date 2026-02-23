@@ -2,6 +2,7 @@
 title: "Stamina Depletion Freeze"
 abbr: "SDF"
 description: "Certain actions can cause the stamina depletion to glitch out."
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 ---
 
 # Stamina Depletion Freeze `SDF`

@@ -2,6 +2,7 @@
 title: "Portable Cull Save Load Dupe"
 abbr: "PSLD"
 description: "Allows for Save Load Duplication on v1.2.0-1.2.1 by culling Link on the same frame that the process is performed."
+versions: ["1.2.0", "1.2.1"]
 ---
 
 # Portable Cull Save Load Dupe `PSLD`

@@ -2,6 +2,7 @@
 title: "No Bow Sprinting"
 abbr: "NBS"
 description: "Infinite stamina sprinting method that uses bow interactions to maintain speed without a bow equipped"
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # No Bow Sprinting `NBS`

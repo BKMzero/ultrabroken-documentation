@@ -2,6 +2,7 @@
 title: "Equipment Collision Zuggle"
 abbr: "ECZ"
 description: "The original zuggle method discovered by Zvleon."
+versions: ["1.0.0", "1.1.0", "1.1.1"]
 ---
 
 # Equipment Collision Zuggle `ECZ`

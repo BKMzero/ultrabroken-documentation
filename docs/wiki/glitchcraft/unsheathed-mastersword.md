@@ -2,6 +2,7 @@
 title: "Unsheathed Mastersword"
 abbr: "UMS"
 description: "Puts the master sword in a visual state where it is outside of it's sheath."
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
 ---
 
 # Unsheathed Mastersword `UMS`

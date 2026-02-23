@@ -2,6 +2,7 @@
 title: "Pocket Rocket"
 abbr: "PR"
 description: "Allows for repeated boost from a midair rocket shield surf, making it a very good movement option."
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Pocket Rocket `PR`

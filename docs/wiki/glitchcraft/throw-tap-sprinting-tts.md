@@ -2,6 +2,7 @@
 title: "Throw Tap Sprinting"
 abbr: "TTS"
 description: "Infinite stamina sprinting method using throw and tap inputs to maintain speed"
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Throw Tap Sprinting `TTS`

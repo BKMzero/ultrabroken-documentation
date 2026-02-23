@@ -2,6 +2,7 @@
 title: "Pelison Duping"
 abbr: "PD"
 description: "Duplicate weapons using Pelison to remove them from an entangled shield."
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Pelison Duping `PD`

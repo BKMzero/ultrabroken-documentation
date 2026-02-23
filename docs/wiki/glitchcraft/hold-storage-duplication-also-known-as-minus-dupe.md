@@ -2,6 +2,7 @@
 title: "Hold Storage Duplication"
 abbr: "HSD"
 description: "Allows you to dupe items via hold storage."
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Hold Storage Duplication `HSD`

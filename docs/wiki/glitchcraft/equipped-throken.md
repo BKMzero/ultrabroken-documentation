@@ -2,6 +2,7 @@
 title: "Equipped Throken"
 abbr: "ETHK"
 description: "Allows throken weapons to be equipped"
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Equipped Throken `ETHK`

@@ -2,6 +2,7 @@
 title: "Fuse Storage"
 abbr: "FS"
 description: "Fusing an item on the same frame that it culls interrupts the fuse."
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Fuse Storage `FS`

@@ -2,6 +2,7 @@
 title: "Overload Cold Fuse"
 abbr: "OCF"
 description: "Fusing to an overload dropped item causes cold fuse"
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Overload Cold Fuse `OCF`

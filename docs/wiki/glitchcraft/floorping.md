@@ -2,6 +2,7 @@
 title: "Floorping"
 abbr: "FLP"
 description: "When reloading a save, force Link to warp vertically on a floor he wasn't on previously."
+versions: ["1.1.0", "1.1.1"]
 ---
 
 # Floorping `FLP`

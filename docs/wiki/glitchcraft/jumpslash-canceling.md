@@ -2,6 +2,7 @@
 title: "Jumpslash Canceling"
 abbr: "JSC"
 description: "Interrupt jumpslashes by swapping a shield mid-animation"
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Jumpslash Canceling `JSC`

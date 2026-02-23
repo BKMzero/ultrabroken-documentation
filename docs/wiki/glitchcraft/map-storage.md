@@ -2,6 +2,7 @@
 title: "Map Storage"
 abbr: "MSTR"
 description: "Allows you to have control over Link while the map is open."
+versions: ["1.1.0", "1.1.1"]
 ---
 
 # Map Storage `MSTR`

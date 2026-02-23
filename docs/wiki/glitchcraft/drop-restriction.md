@@ -2,6 +2,7 @@
 title: "Drop Restriction"
 abbr: "DR"
 description: "Prevents zonai devices from spawning out of the inventory."
+versions: ["1.0.0", "1.1.0", "1.1.1"]
 ---
 
 # Drop Restriction `DR`

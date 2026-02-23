@@ -2,6 +2,7 @@
 title: "Smuggle Retrieval"
 abbr: "SRET"
 description: "Dropping an unloaded piece of equipment drops a smuggle instead (if Link has one). Fail dropping equips it back."
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
 ---
 
 # Smuggle Retrieval `SRET`

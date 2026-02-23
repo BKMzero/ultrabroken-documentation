@@ -2,6 +2,7 @@
 title: "Fuse Storage Fuse Entanglement"
 abbr: "FSFE"
 description: "Unique methods of achieving Fuse Entanglement through Fuse Storage."
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Fuse Storage Fuse Entanglement `FSFE`

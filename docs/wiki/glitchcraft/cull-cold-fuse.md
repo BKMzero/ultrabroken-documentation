@@ -2,6 +2,7 @@
 title: "Cull Cold Fuse"
 abbr: "CCF"
 description: "?"
+versions: ["?"]
 ---
 
 # Cull Cold Fuse `CCF`

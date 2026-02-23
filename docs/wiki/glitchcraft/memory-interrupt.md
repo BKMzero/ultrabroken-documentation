@@ -2,6 +2,7 @@
 title: "Memory Interrupt"
 abbr: "MI"
 description: "Interrupting a memory causes a forced pause after a dialogue"
+versions: ["1.0.0"]
 ---
 
 # Memory Interrupt `MI`

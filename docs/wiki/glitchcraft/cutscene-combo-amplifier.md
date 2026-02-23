@@ -2,6 +2,7 @@
 title: "Cutscene Combo Amplifier"
 abbr: "CCA"
 description: "Extends and stacks the damage frames of an attack with memory buffering, causing huge damage."
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Cutscene Combo Amplifier `CCA`

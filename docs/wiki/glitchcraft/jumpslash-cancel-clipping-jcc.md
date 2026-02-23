@@ -2,6 +2,7 @@
 title: "Jumpslash Cancel Clipping"
 abbr: "JCC"
 description: "Allows for clipping through thin ceilings."
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Jumpslash Cancel Clipping `JCC`

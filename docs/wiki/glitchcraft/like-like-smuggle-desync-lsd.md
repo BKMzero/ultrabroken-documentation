@@ -2,6 +2,7 @@
 title: "Like-Like Smuggle Desync"
 abbr: "LLSD"
 description: "Allows for desync and consequently, WST via slugging."
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Like-Like Smuggle Desync `LSD`

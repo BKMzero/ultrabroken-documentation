@@ -2,6 +2,7 @@
 title: "Ultra Save Load Object Transfer"
 abbr: "USLOT"
 description: "Uses purgatory to transfer ultrahanded objects through file loads."
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Ultra Save Load Object Transfer `USLOT`

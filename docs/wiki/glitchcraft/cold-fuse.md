@@ -2,6 +2,7 @@
 title: "Cold Fuse"
 abbr: "CF"
 description: "Interrupting a fuse causes null fe without destroying the connection to the weapon/shield."
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Cold Fuse `CF`

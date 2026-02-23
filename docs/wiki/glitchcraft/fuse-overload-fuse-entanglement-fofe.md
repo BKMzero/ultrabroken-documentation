@@ -2,6 +2,7 @@
 title: "Fuse Overload Fuse Entanglement"
 abbr: "FOFE"
 description: "Using Fuse Overload it's possible to portably and quickly Fuse Entangle"
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
 ---
 
 # Fuse Overload Fuse Entanglement `FOFE`

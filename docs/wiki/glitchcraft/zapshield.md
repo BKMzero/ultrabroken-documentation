@@ -2,6 +2,7 @@
 title: "Zapshield"
 abbr: "ZAP"
 description: "Fuse entangling a shock emitter to two shields and permaculling one of its FE bases results in a permanently electrified shield which makes..."
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Zapshield `ZAP`

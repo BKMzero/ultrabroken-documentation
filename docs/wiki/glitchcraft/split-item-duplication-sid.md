@@ -2,6 +2,7 @@
 title: "Split Item Duplication"
 abbr: "SID"
 description: "Allows you to dupe materials through Stack Splitting"
+versions: ["1.2.0"]
 ---
 
 # Split Item Duplication `SID`

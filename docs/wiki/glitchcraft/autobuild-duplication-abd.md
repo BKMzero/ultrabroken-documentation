@@ -2,6 +2,7 @@
 title: "Autobuild Duplication"
 abbr: "ABD"
 description: "Allows you to dupe materials that change into other materials in other temperature. (For example raw meat.)"
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 ---
 
 # Autobuild Duplication `ABD`

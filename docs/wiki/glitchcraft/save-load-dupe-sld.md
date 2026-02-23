@@ -2,6 +2,7 @@
 title: "Save Load Dupe"
 abbr: "SLD"
 description: "Allows easy duplication of your weapons, bows, and shields"
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Save Load Dupe `SLD`

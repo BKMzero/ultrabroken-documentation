@@ -2,6 +2,7 @@
 title: "Weapon State Transfer"
 abbr: "WST"
 description: "Allows you to transfer the durability, fused material, and modifier of a weapon"
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Weapon State Transfer `WST`

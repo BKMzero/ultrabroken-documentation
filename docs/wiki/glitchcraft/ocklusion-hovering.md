@@ -2,6 +2,7 @@
 title: "Ocklusion Hovering"
 abbr: "OCKH"
 description: "Triggering an ocklusion load while pickup smuggling certain objects pushes Link around, sometimes causing him to hover or levitate upwards"
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0", "1.4.0", "1.4.1", "1.4.2"]
 ---
 
 # Ocklusion Hovering `OCKH`

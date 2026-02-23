@@ -2,6 +2,7 @@
 title: "Modifier ONLY Transfer"
 abbr: "MOT"
 description: "Allows you to transfer only the modifier, but only works on weapons."
+versions: ["1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Modifier ONLY Transfer `MOT`

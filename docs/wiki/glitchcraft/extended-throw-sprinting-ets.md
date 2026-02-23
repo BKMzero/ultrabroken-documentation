@@ -2,6 +2,7 @@
 title: "Extended Throw Sprinting"
 abbr: "ETS"
 description: "Infinite stamina sprinting method using extended throws to maintain speed"
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Extended Throw Sprinting `ETS`

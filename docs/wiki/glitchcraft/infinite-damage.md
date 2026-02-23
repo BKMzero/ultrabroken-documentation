@@ -2,6 +2,7 @@
 title: "Infinite Damage"
 abbr: "IDMG"
 description: "Damage repeats infinitely during spin attack."
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 ---
 
 # Infinite Damage `IDMG`

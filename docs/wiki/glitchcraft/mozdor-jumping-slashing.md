@@ -2,6 +2,7 @@
 title: "Mozdor Jumping/Slashing"
 abbr: "MJS"
 description: "Allows you to jump very far (can be chained infinitly)"
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Mozdor Jumping/Slashing `MJS`

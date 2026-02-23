@@ -2,6 +2,7 @@
 title: "MNF Glow Overload"
 abbr: "MGO"
 description: "Stacking the glow from the MsgNotFound sword to extreme lengths causes many visual effects to stop rendering correctly"
+versions: ["1.0.0"]
 ---
 
 # MNF Glow Overload `MGO`

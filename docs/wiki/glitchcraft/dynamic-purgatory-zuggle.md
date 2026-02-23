@@ -2,6 +2,7 @@
 title: "Dynamic Purgatory Zuggle"
 abbr: "DPZ"
 description: "It's possible to send a dynamic smuggle to purgatory, keeping it connected to Link by equipping (and zuggling) its FE base in a similar fashion to FEWZ."
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Dynamic Purgatory Zuggle `DPZ`

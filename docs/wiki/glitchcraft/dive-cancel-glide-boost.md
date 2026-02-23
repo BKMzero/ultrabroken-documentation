@@ -2,6 +2,7 @@
 title: "Dive Cancel Glide Boost"
 abbr: "DCGB"
 description: "Allows you to preserve the increased speed from diving with the Glide Suit into paragliding"
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Dive Cancel Glide Boost `DCGB`

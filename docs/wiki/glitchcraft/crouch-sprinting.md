@@ -2,6 +2,7 @@
 title: "Crouch Sprinting"
 abbr: "CS"
 description: "Infinite stamina sprinting method that alternates between sprinting and crouching"
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Crouch Sprinting `CS`

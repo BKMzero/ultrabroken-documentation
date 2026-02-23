@@ -2,6 +2,7 @@
 title: "Item Save Load Transfer"
 abbr: "ISLT"
 description: "Allows transferring held items through saves."
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Item Save Load Transfer `ISLT`

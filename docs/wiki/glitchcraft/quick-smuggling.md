@@ -2,6 +2,7 @@
 title: "Quick Smuggling"
 abbr: "QS"
 description: "Allows for easy and quick smuggling of any equipment, including arrow smuggle."
+versions: ["1.2.0"]
 ---
 
 # Quick Smuggling `QS`

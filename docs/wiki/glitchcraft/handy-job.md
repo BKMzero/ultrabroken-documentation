@@ -2,6 +2,7 @@
 title: "Handy Job"
 abbr: "HJ"
 description: "Gloom hands reset the durability of enemy equipment."
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Handy Job `HJ`

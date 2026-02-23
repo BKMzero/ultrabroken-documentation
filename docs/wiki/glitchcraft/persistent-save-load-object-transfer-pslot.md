@@ -2,6 +2,7 @@
 title: "Persistent Save Load Object Transfer"
 abbr: "PSLOT"
 description: "Allows objects to go through saves by permanently culling their FE bases (parents)."
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Persistent Save Load Object Transfer `PSLOT`

@@ -2,6 +2,7 @@
 title: "Invizuggle"
 abbr: "IVZ"
 description: "Dropping equipment in a specific way during a cull causes an indestructable and invisible zuggle."
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Invizuggle `IVZ`

@@ -2,6 +2,7 @@
 title: "Object (Moe) Enlargement"
 abbr: "MOE"
 description: "Using a moblin, it's possible to enlarge objects"
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Object Enlargement `MOE`

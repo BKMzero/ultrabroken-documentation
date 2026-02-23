@@ -2,6 +2,7 @@
 title: "Overload Dynamic Zuggle"
 abbr: "ODZ"
 description: "Picking up a thrown boomerang while zuggle overloaded can cause dynamic zuggle"
+versions: ["1.0.0", "1.1.0", "1.1.1"]
 ---
 
 # Overload Dynamic Zuggle `ODZ`

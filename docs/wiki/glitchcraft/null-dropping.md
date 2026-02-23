@@ -2,6 +2,7 @@
 title: "Null Dropping"
 abbr: "ND"
 description: "Displays a glitched and empty chest quickmenu."
+versions: ["1.0.0"]
 ---
 
 # Null Dropping `ND`

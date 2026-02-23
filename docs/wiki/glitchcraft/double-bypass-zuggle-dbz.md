@@ -2,6 +2,7 @@
 title: "Double Bypass Zuggle"
 abbr: "DBZ"
 description: "Using a very specific and complex setup, it's possible to bypass dpad lock as well as drop swap culling, effectively giving parentless unculled zuggle..."
+versions: ["1.2.0"]
 ---
 
 # Double Bypass Zuggle `DBZ`

@@ -2,6 +2,7 @@
 title: "Super Bomb Jump"
 abbr: "SBJ"
 description: "Jumping on a specific frame allows you to get a much higher bomb jump than usual"
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Super Bomb Jump `SBJ`

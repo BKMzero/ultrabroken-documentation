@@ -2,6 +2,7 @@
 title: "Unload Duping"
 abbr: "UD"
 description: "By firing arrows between load triggers, items fused to the arrows get dropped. Allowing you to dupe items with multi-shot bows."
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 ---
 
 # Unload Duping `UD`

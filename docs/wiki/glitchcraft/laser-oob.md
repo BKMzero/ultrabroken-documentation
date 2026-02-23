@@ -2,6 +2,7 @@
 title: "Laser-OOB"
 abbr: "LOOB"
 description: "The game puts a floor inside Link"
+versions: ["1.0.0", "1.1.0", "1.1.1"]
 ---
 
 # Laser-OOB `LOOB`

@@ -2,6 +2,7 @@
 title: "Menu Overload"
 abbr: "MO"
 description: "Overloads the item menu via Moobe, acting similarly to menu overload in BOTW"
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Menu Overload `MO`

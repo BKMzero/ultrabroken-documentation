@@ -2,6 +2,7 @@
 title: "Anti-Gravity Objects"
 abbr: "AGO"
 description: "Allows objects to lose their gravity."
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 ---
 
 # Anti-Gravity Objects `AGO`

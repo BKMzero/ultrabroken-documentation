@@ -2,6 +2,7 @@
 title: "Recall Locking"
 abbr: "RLK"
 description: "Completely locks objects in place by recalling it before zlotting it"
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Recall Locking `RLK`

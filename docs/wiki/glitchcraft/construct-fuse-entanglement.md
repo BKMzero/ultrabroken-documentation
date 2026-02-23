@@ -2,6 +2,7 @@
 title: "Construct Fuse Entanglement"
 abbr: "CNFE"
 description: "Allows equipment to be fuse entangled to captain constructs' weapons. This only works with bows, shields, and weapons."
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Construct Fuse Entanglement `CNFE`

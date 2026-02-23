@@ -2,6 +2,7 @@
 title: "Double Tulin Boost"
 abbr: "DTB"
 description: "Allows you to get more speed with tulin than just normal tulin (isnt' as effective as tulin pumping)"
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 ---
 
 # Double Tulin Boost `DTB`

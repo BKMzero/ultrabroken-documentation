@@ -2,6 +2,7 @@
 title: "Anti-Gravity Glitch"
 abbr: "AGG"
 description: "After a specific cutscene, Link is stuck airborne when attempting to descend"
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 ---
 
 # Anti-Gravity Glitch `AGG`

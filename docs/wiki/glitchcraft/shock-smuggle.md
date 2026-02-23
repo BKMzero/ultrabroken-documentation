@@ -2,6 +2,7 @@
 title: "Shock Smuggle"
 abbr: "SSMU"
 description: "Dropping an unsheathed equipment just before getting shocked causes equipment smuggle."
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 ---
 
 # Shock Smuggle `SSMU`

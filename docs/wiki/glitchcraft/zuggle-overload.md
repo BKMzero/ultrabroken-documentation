@@ -2,6 +2,7 @@
 title: "Zuggle Overload"
 abbr: "ZO"
 description: "Allows you to overload your game, causing many other glitches"
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Zuggle Overload `ZO`

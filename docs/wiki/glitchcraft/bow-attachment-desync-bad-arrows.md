@@ -2,6 +2,7 @@
 title: "Bow Attachment Desync"
 abbr: "BAD"
 description: "Allows you to attach different materials to multishot arrows."
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Bow Attachment Desync `BAD`

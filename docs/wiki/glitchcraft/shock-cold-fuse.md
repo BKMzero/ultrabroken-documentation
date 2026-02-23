@@ -2,6 +2,7 @@
 title: "Shock Cold Fuse"
 abbr: "SCF"
 description: "Interrupting a fuse on the first possible frame with shock causes cold fusion"
+versions: ["1.0.0"]
 ---
 
 # Shock Cold Fuse `SCF`

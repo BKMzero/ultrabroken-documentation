@@ -2,6 +2,7 @@
 title: "Mineru Persistent Save Load Object Transfer"
 abbr: "MPSLOT"
 description: "Using Mineru Culling it's possible to send a piece of equipment to culled purgatory portably, allowing for PSLOT"
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
 ---
 
 # Mineru Persistent Save Load Object Transfer `MPSLOT`

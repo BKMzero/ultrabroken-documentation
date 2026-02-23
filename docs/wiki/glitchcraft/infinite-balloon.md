@@ -2,6 +2,7 @@
 title: "Infinite Balloon"
 abbr: "IBAL"
 description: "Steal Robbie's balloon which will never deplete."
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 ---
 
 # Infinite Balloon `IBAL`
