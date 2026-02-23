@@ -73,7 +73,7 @@ To dupe zonai devices:
 - Mineru's arm always fail drops unless link is in the air, which is good for zuggling and other glitches
 ## Resources
 ---
-- [SFO discovery] (https://discordapp.com/channels/1086729144307564648/1110956205624532993/1446913364268683395)
-- [Tahat's outdated guide for mineru's arm] (https://www.youtube.com/watch?v=R9azQV9lwJk)
-- [Eaten DI] (search:Eaten DI)
-- [Dpadlock-Less Invizuggle] (search:Dpadlock-Less Invizuggle)
+- [SFO discovery](https://discordapp.com/channels/1086729144307564648/1110956205624532993/1446913364268683395)
+- [Tahat's outdated guide for mineru's arm](https://www.youtube.com/watch?v=R9azQV9lwJk)
+- [Eaten DI](search:Eaten DI)
+- [Dpadlock-Less Invizuggle](search:Dpadlock-Less Invizuggle)
