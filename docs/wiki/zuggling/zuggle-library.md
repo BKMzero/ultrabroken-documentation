@@ -8,7 +8,7 @@ This page complies Smuggling and Zuggling related glitches for quick reference.
 
 ## Index
 ---
-- [Zuggle](.../glitchcraft/glitchcraft/zuggle.md)
+- [Zuggle](../glitchcraft/zuggle.md)
 - [Equipment Collision Zuggle](../glitchcraft/equipment-collision-zuggle.md)
 - [Zuggle Overload](../glitchcraft/zuggle-overload.md)
 - [MNF Zuggle Fuse](../glitchcraft/mnf-zuggle-fuse.md)

@@ -150,6 +150,7 @@ nav:
 plugins:
   - search
   - minify
+  - social
 
 markdown_extensions:
   - admonition

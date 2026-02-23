@@ -20,6 +20,11 @@ jobs:
         with:
           python-version: '3.x'
 
+      - name: Install system dependencies for imaging (Cairo)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcairo2 libpango-1.0-0 libpangocairo-1.0-0
+
       - name: Restore pip cache
         uses: actions/cache@v4
         with:
@@ -41,9 +46,9 @@ jobs:
           python -m pip install --upgrade pip
           mkdir -p ./.wheels
           pip wheel --wheel-dir ./.wheels -r docs/worker/requirements.txt || true
-          pip wheel --wheel-dir ./.wheels mkdocs mkdocs-material mkdocs-minify-plugin || true
+          pip wheel --wheel-dir ./.wheels mkdocs mkdocs-material[imaging] mkdocs-minify-plugin || true
           pip install --no-index --find-links ./.wheels -r docs/worker/requirements.txt
-          pip install --no-index --find-links ./.wheels mkdocs mkdocs-material mkdocs-minify-plugin
+          pip install --no-index --find-links ./.wheels mkdocs mkdocs-material[imaging] mkdocs-minify-plugin
 
       - name: Build MkDocs site
         run: mkdocs build
