@@ -20,20 +20,16 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install system dependencies for imaging (Cairo + fonts)
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y libcairo2 libpango-1.0-0 libpangocairo-1.0-0 curl fontconfig
-          
-          # Download Google Fonts: New Rocker and Texturina
-          mkdir -p /tmp/fonts
-          curl -L -o /tmp/fonts/NewRocker-Regular.ttf "https://github.com/google/fonts/raw/main/ofl/newrocker/NewRocker-Regular.ttf"
-          curl -L -o /tmp/fonts/Texturina-Regular.ttf "https://github.com/google/fonts/raw/main/ofl/texturina/Texturina%5Bwght%5D.ttf"
-          
-          # Install fonts to system directory
-          sudo mkdir -p /usr/local/share/fonts
-          sudo cp /tmp/fonts/*.ttf /usr/local/share/fonts/
-          sudo fc-cache -fv
+      # libcairo2, libpango, curl are pre-installed on ubuntu-latest — no apt-get needed.
+      # The social plugin downloads fonts via Google Fonts API and caches them in .cache/.
+
+      - name: Restore social plugin cache (fonts + card manifest)
+        uses: actions/cache@v4
+        with:
+          path: .cache/plugin/social
+          key: ${{ runner.os }}-social-${{ hashFiles('mkdocs.yml') }}
+          restore-keys: |
+            ${{ runner.os }}-social-
 
       - name: Restore pip cache
         uses: actions/cache@v4
