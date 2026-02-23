@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Octodupe"
+abbr: "OD"
+description: "Allows for the duplication of items sucked up by a rock octorok."
 ---
 
-# Octodupe
+# Octodupe `OD`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

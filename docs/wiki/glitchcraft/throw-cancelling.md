@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Throw Cancelling"
+abbr: "TC"
+description: "Allows you to cancel the ending animation of throwing via Runes, allowing you to throw faster _Quelfth_"
 ---
 
-# Throw Cancelling
+# Throw Cancelling `TC`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

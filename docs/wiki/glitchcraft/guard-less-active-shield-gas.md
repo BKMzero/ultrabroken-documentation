@@ -1,5 +1,7 @@
-﻿---
+---
 title: "Guard-less Active Shield"
+abbr: "GAS"
+description: "Makes the fuse of a shield constantly active"
 ---
 
 # Guard-less Active Shield `GAS`

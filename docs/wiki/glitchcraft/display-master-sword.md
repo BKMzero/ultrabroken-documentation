@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Display Master Sword"
+abbr: "DMS"
+description: "Allows you to display the master sword, damaged master sword or MsgNotFound in a weapon display"
 ---
 
-# Display Master Sword
+# Display Master Sword `DMS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

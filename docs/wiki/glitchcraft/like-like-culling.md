@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Like-Like Culling"
+abbr: "LLC"
+description: "A method for object culling"
 ---
 
-# Like-Like Culling
+# Like-Like Culling `LLC`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

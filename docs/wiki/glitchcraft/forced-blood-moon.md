@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Forced Blood Moon"
+abbr: "FBM"
+description: "Allows you to force a blood moon whenever you want"
 ---
 
-# Forced Blood Moon
+# Forced Blood Moon `FBM`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

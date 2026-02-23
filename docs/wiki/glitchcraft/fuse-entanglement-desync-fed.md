@@ -1,5 +1,7 @@
-﻿---
+---
 title: "Fuse Entanglement Desync"
+abbr: "FED"
+description: "Allows you to transfer the fuse and durability from one weapon to another. You can also decide to dupe the weapon or the fused material."
 ---
 
 # Fuse Entanglement Desync `FED`

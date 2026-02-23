@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Shock Fuse Entanglement"
+abbr: "SFE"
+description: "Interrupting a fuse to a zuggled item causes FE"
 ---
 
-# Shock Fuse Entanglement
+# Shock Fuse Entanglement `SFE`
 `1.0.0`
 
 ## Summary

@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Balloon Overload"
+abbr: "BO"
+description: "Equipping and unfusing a shield with Robbie's infinite balloon fused to it does not remove the balloon in the character preview in the inventory."
 ---
 
-# Balloon Overload
+# Balloon Overload `BO`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

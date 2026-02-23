@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Zoggle"
+abbr: "ZOG"
+description: "Using deentenglement to untie the wuggled equippment from their fe parent"
 ---
 
-# Zoggle
+# Zoggle `ZOG`
 `1.2.0` `1.2.1`
 
 ## Summary

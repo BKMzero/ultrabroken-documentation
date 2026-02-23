@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Arrow Smuggling"
+abbr: "ASMU"
+description: "A type of equipment smuggle that makes Link hold an arrow without pulling out his bow."
 ---
 
-# Arrow Smuggling
+# Arrow Smuggling `ASMU`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

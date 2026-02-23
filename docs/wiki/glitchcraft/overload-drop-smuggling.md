@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Overload Drop Smuggling"
+abbr: "ODS"
+description: "Allows you to drop smuggle via overload"
 ---
 
-# Overload Drop Smuggling
+# Overload Drop Smuggling `ODS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

@@ -1,8 +1,10 @@
 ---
 title: "Like-Like FSFE"
+abbr: "LLFSFE"
+description: "A method of Fuse Storage Fuse Entanglement."
 ---
 
-# Like-Like FSFE
+# Like-Like FSFE `LLFSFE`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

@@ -1,5 +1,7 @@
-﻿---
+---
 title: "Fuse Overload"
+abbr: "FO"
+description: "By repeatedly cold fusing objects to the same weapon, it's possible to reach a limit that causes any additional cold fused objects to lose their collision."
 ---
 
 # Fuse Overload `FO`

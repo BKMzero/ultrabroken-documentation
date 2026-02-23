@@ -1,5 +1,7 @@
-﻿---
+---
 title: "Save Load Dupe"
+abbr: "SLD"
+description: "Allows easy duplication of your weapons, bows, and shields"
 ---
 
 # Save Load Dupe `SLD`

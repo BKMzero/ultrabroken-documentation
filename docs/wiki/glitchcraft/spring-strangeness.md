@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Spring Strangeness"
+abbr: "STRS"
+description: "Really strange things start happening both with collision and the camera when springs are used in different ways"
 ---
 
-# Spring Strangeness
+# Spring Strangeness `STRS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

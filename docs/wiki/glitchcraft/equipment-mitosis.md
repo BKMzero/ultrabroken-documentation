@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Equipment Mitosis"
+abbr: "EM"
+description: "By combining zuggle overload with 1.0 modifier deletion, it is possible to mass dupe equipment"
 ---
 
-# Equipment Mitosis
+# Equipment Mitosis `EM`
 `1.0.0`
 
 ## Summary

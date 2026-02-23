@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Mineru Culling"
+abbr: "MC"
+description: "Allows for Link's model to be operated from Mineru, by unloading Mineru, Link can be culled at will."
 ---
 
-# Mineru Culling
+# Mineru Culling `MC`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

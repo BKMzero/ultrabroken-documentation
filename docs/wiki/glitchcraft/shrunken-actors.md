@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Shrunken Actors"
+abbr: "SA"
+description: "Permanently shrink any ultrahandable object (ultrabroken method)"
 ---
 
-# Shrunken Actors
+# Shrunken Actors `SA`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

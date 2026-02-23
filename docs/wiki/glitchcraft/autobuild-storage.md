@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Autobuild Storage"
+abbr: "ABST"
+description: "Allows you to manually delay the instance of items being attached with Autobuild"
 ---
 
-# Autobuild Storage
+# Autobuild Storage `ABST`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

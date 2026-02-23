@@ -1,8 +1,10 @@
-﻿---
+---
 title: "MNF Fusing"
+abbr: "MNFF"
+description: "Allows you to fuse to the MNF"
 ---
 
-# MNF Fusing
+# MNF Fusing `MNFF`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

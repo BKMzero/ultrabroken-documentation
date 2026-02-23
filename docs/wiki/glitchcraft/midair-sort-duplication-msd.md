@@ -1,5 +1,7 @@
-﻿---
+---
 title: "Midair Sort Duplication"
+abbr: "MSD"
+description: "Allows duplication of materials while midair."
 ---
 
 # Midair Sort Duplication `MSD`

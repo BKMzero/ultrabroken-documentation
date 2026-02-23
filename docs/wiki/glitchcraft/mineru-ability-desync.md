@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Mineru Ability Desync"
+abbr: "MAD"
+description: "Desyncs Flame Emitters attached to Mineru"
 ---
 
-# Mineru Ability Desync
+# Mineru Ability Desync `MAD`
 `1.1.0` `1.1.1`
 
 ## Summary

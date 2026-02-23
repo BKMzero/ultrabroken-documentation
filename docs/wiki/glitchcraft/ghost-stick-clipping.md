@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Ghost Stick Clipping"
+abbr: "GSC"
+description: "Allows Link to clip through walls by stepping onto a steering stick during ABCS."
 ---
 
-# Ghost Stick Clipping
+# Ghost Stick Clipping `GSC`
 `1.0.0` `1.1.0` `1.1.1`
 
 ## Summary

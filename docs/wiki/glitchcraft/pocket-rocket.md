@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Pocket Rocket"
+abbr: "PR"
+description: "Allows for repeated boost from a midair rocket shield surf, making it a very good movement option."
 ---
 
-# Pocket Rocket
+# Pocket Rocket `PR`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

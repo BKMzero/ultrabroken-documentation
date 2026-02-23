@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Lift Smuggle"
+abbr: "LSMU"
+description: "By picking up an item like a battery while a specific cutscene (e.g. korok) is playing, you can get into a state similar to lift smuggeling (botw glitch)."
 ---
 
-# Lift Smuggle
+# Lift Smuggle `LSMU`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

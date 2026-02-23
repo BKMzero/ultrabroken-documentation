@@ -1,5 +1,7 @@
-﻿---
+---
 title: "Food Ability Buff Swap"
+abbr: "FABS"
+description: "Allows you to get roasted food (stackable) with a food effect"
 ---
 
 # Food Ability Buff Swap `FABS`

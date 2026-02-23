@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Zonai Storage"
+abbr: "ZS"
+description: "Allows Zonai devices to be stored and taken into shrines"
 ---
 
-# Zonai Storage
+# Zonai Storage `ZS`
 `1.0.0`
 
 ## Summary

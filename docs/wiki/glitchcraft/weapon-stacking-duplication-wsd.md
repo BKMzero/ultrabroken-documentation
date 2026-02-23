@@ -1,5 +1,7 @@
-﻿---
+---
 title: "Weapon Stacking Duplication"
+abbr: "WSD"
+description: "Allows for a quick dupe of any weapon, bow or shield"
 ---
 
 # Weapon Stacking Duplication `WSD`

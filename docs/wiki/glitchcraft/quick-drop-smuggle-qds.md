@@ -1,5 +1,7 @@
-﻿---
+---
 title: "Quick Drop Smuggle"
+abbr: "QDS"
+description: "Dropping and equipping weapons in a specific way causes drop smuggle."
 ---
 
 # Quick Drop Smuggle `QDS`

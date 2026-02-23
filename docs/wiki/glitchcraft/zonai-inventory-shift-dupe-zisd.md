@@ -1,5 +1,7 @@
-﻿---
+---
 title: "Zonai Inventory Shift Dupe"
+abbr: "ZISD"
+description: "Uses Memory Buffering and MTD to duplicate Zonai Devices"
 ---
 
 # Zonai Inventory Shift Dupe `ZISD`

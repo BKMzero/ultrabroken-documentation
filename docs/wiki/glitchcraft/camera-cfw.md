@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Camera CFW"
+abbr: "CFW"
+description: "Glitches out the camera rune and can remove the waymarkers and the camera UI"
 ---
 
-# Camera CFW
+# Camera CFW `CFW`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

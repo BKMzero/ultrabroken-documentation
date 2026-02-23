@@ -1,8 +1,10 @@
 ---
 title: "Wheel Warping"
+abbr: "WW"
+description: "Zips small wheels to certain coordinates extremely quickly and can be used to launch Link a good distance and even pass through objects."
 ---
 
-# Wheel Warping
+# Wheel Warping `WW`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Recall Clip"
+abbr: "RC"
+description: "Allows you to clip through things using a large object and recall"
 ---
 
-# Recall Clip
+# Recall Clip `RC`
 `1.0.0` `1.1.0` `1.1.1`
 
 ## Summary

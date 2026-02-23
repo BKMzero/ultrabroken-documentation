@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Long Jump"
+abbr: "LJ"
+description: "Jump farther"
 ---
 
-# Long Jump
+# Long Jump `LJ`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

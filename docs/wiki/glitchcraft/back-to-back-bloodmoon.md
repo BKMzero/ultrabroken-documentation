@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Back to Back Bloodmoon"
+abbr: "BTBB"
+description: "A strange phenominon where blood moons occured back to back."
 ---
 
-# Back to Back Bloodmoon
+# Back to Back Bloodmoon `BTBB`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

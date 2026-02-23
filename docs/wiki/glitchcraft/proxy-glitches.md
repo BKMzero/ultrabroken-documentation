@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Proxy Glitches"
+abbr: "PG"
+description: "When Link enters areas he is not supposed to, the game forces him back into bounds with large force"
 ---
 
-# Proxy Glitches
+# Proxy Glitches `PG`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

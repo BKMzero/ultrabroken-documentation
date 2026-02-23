@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Clear Camera/Scope"
+abbr: "CCS"
+description: "Allows for First Person Gameplay, removing the HUD from the camera and scope."
 ---
 
-# Clear Camera/Scope
+# Clear Camera/Scope `CCS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

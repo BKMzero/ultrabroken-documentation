@@ -1,5 +1,7 @@
-﻿---
+---
 title: "Lift Storage Warping"
+abbr: "LSW"
+description: "Culling link while holding a zlot'ed item puts link into a wrong warp state."
 ---
 
 # Lift Storage Warping `LSW`

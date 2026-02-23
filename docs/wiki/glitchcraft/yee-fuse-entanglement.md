@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Yee Fuse Entanglement"
+abbr: "YEEFE"
+description: "Uses culling with mineru and an sdc stick to fuse entangle"
 ---
 
-# Yee Fuse Entanglement
+# Yee Fuse Entanglement `YEEFE`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

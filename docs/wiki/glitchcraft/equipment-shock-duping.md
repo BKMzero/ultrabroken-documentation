@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Equipment Shock Duping"
+abbr: "ESD"
+description: "Droping a recently equipped weapon shortly before shock dropping it, can cause a dupe."
 ---
 
-# Equipment Shock Duping
+# Equipment Shock Duping `ESD`
 `1.0.0`
 
 ## Summary

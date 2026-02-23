@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Glue Removal"
+abbr: "GR"
+description: "Lets you break apart things that have been ultrahanded together"
 ---
 
-# Glue Removal
+# Glue Removal `GR`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

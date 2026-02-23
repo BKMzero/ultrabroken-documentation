@@ -1,5 +1,7 @@
 ---
 title: "Fuse Storage"
+abbr: "FS"
+description: "Fusing an item on the same frame that it culls interrupts the fuse."
 ---
 
 # Fuse Storage `FS`

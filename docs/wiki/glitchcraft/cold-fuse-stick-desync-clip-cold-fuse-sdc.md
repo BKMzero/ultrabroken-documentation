@@ -1,5 +1,7 @@
-﻿---
+---
 title: "Cold Fuse Stick Desync Clip"
+abbr: "CSSDC"
+description: "An easier way to perform stick desync clip using cold fuse that allows for an almost immediate dismount, making it useful for stick desync without clipping"
 ---
 
 # Cold Fuse Stick Desync Clip `CSSDC`

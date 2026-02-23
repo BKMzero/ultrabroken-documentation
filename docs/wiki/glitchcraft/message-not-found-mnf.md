@@ -1,5 +1,7 @@
-﻿---
+---
 title: "Message Not Found"
+abbr: "MNF"
+description: "Allows you to obtain the prologue master sword (named MsgNotFound or MNF), whose durability cannot decrease"
 ---
 
 # Message Not Found `MNF`

@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Wheel Zoomy"
+abbr: "WZ"
+description: "Uses a formation of wheels to gain momentum on land, similar speeds to Wacko Boingo"
 ---
 
-# Wheel Zoomy
+# Wheel Zoomy `WZ`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

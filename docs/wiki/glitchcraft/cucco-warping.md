@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Cucco Warping"
+abbr: "CW"
+description: "Picking up a cucco right as it voids out from entering water warps Link to its respawn location."
 ---
 
-# Cucco Warping
+# Cucco Warping `CW`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

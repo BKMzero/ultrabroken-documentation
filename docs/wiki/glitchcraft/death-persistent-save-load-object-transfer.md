@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Death Persistent Save Load Object Transfer"
+abbr: "DPSLOT"
+description: "Death dropping is equivalent to shock dropping."
 ---
 
-# Death Persistent Save Load Object Transfer
+# Death Persistent Save Load Object Transfer `DPSLOT`
 `1.2.0` `1.2.1+`
 
 ## Summary

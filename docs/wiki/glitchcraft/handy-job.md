@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Handy Job"
+abbr: "HJ"
+description: "Gloom hands reset the durability of enemy equipment."
 ---
 
-# Handy Job
+# Handy Job `HJ`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

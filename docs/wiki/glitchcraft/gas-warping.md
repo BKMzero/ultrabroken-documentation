@@ -1,8 +1,10 @@
-﻿---
+---
 title: "GAS Warping"
+abbr: "GASW"
+description: "Makes it so the game never updates Link's last valid coordinates for as long as the GAS device is active (a temporary travel medallion)."
 ---
 
-# GAS Warping
+# GAS Warping `GASW`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

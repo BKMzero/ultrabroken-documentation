@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Arrow Unlink"
+abbr: "AUL"
+description: "Makes arrow float away allowing you to spawn fused stuff in other loactions"
 ---
 
-# Arrow Unlink
+# Arrow Unlink `AUL`
 `1.0.0`
 
 ## Summary

@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Lift Fuse Interrupt"
+abbr: "LFI"
+description: "Puts liftable objects in a strange state where fusing to them causes a null fuse and cancels the state."
 ---
 
-# Lift Fuse Interrupt
+# Lift Fuse Interrupt `LFI`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

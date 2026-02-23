@@ -1,5 +1,7 @@
-﻿---
+---
 title: "Like-Like Smuggle Desync"
+abbr: "LLSD"
+description: "Allows for desync and consequently, WST via slugging."
 ---
 
 # Like-Like Smuggle Desync `LSD`

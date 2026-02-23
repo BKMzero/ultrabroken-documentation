@@ -1,5 +1,7 @@
 ---
 title: "Freecall"
+abbr: "FC"
+description: "Breaks the lock on a recall lock, allowing the object to be in freecall without ub"
 ---
 
 # Freecall `FC`

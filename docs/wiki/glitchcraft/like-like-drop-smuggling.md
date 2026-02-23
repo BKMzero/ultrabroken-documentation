@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Like-Like Drop Smuggling"
+abbr: "LLDS"
+description: "Allows for Drop Smuggling via slugging"
 ---
 
-# Like-Like Drop Smuggling
+# Like-Like Drop Smuggling `LLDS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

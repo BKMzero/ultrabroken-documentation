@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Overload Persistent Save Load Object Transfer"
+abbr: "OPSLOT"
+description: "Using Overload it's possible to fully portably PSLOT on current versions"
 ---
 
-# Overload Persistent Save Load Object Transfer
+# Overload Persistent Save Load Object Transfer `OPSLOT`
 `1.2.0` `1.2.1+`
 
 ## Summary

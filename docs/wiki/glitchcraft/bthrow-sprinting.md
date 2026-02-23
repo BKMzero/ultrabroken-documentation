@@ -1,8 +1,10 @@
-﻿---
+---
 title: "BThrow Sprinting"
+abbr: "BTS"
+description: "Infinite stamina sprinting method using backwards throw inputs to maintain speed"
 ---
 
-# BThrow Sprinting
+# BThrow Sprinting `BTS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

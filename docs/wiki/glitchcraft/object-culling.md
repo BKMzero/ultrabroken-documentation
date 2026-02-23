@@ -1,8 +1,10 @@
 ---
 title: "Object Culling"
+abbr: "OC"
+description: "Places an object in a half-unloaded, limbo like state."
 ---
 
-# Object Culling
+# Object Culling `OC`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

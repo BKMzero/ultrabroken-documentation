@@ -1,8 +1,10 @@
-﻿---
+---
 title: "AntiGrav Weapons"
+abbr: "AGW"
+description: "Puts weapons in an \"Anti Gravity\" state."
 ---
 
-# AntiGrav Weapons
+# AntiGrav Weapons `AGW`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

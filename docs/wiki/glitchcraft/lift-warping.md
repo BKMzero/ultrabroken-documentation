@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Lift Warping"
+abbr: "LW"
+description: "Links position is tied to any object he can lift over his head, should the position of the object change, Link will warp to it's new position."
 ---
 
-# Lift Warping
+# Lift Warping `LW`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

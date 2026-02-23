@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Portacull Invismuggle"
+abbr: "PCI"
+description: "Using portable culling equipment it's possible to get a culled smuggle (invismuggle)."
 ---
 
-# Portacull Invismuggle
+# Portacull Invismuggle `PCI`
 `1.2.0` `1.2.1+`
 
 ## Summary

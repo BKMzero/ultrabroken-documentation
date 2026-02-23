@@ -1,5 +1,7 @@
-﻿---
+---
 title: "Resync Fuse Entanglement"
+abbr: "RFE"
+description: "\"Fe'ing\" with a drop swap drop and then pausing to mess with the fuse prevents a full fuse and causes FE"
 ---
 
 # Resync Fuse Entanglement `RFE`

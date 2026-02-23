@@ -1,5 +1,7 @@
-﻿---
+---
 title: "Arrow Prompt Storage"
+abbr: "APS"
+description: "Allows storage of the arrow prompt and can be given multiple times via an enemy shooting their unloaded arrow."
 ---
 
 # Arrow Prompt Storage `APS`

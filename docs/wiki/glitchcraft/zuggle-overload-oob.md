@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Zuggle Overload OOB"
+abbr: "ZOOB"
+description: "Allows you to clip OOB using zuggle overload"
 ---
 
-# Zuggle Overload OOB
+# Zuggle Overload OOB `ZOOB`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

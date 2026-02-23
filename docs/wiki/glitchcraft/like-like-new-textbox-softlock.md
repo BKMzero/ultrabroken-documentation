@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Like Like New Textbox Softlock"
+abbr: "LLTS"
+description: "Picking up a new item while it gets eaten by a like like softlocks the game"
 ---
 
-# Like Like New Textbox Softlock
+# Like Like New Textbox Softlock `LLTS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

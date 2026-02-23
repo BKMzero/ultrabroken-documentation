@@ -1,5 +1,7 @@
-﻿---
+---
 title: "ZL Animation Reset"
+abbr: "ZLAR"
+description: "Performing a zl-less jump while the \"Two Handed With Shield\" glitch is active (works with one handed weapons and spears too), then mashing zl uppon..."
 ---
 
 # ZL Animation Reset `ZLAR`

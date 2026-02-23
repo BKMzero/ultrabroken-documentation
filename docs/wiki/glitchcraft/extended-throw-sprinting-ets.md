@@ -1,5 +1,7 @@
-﻿---
+---
 title: "Extended Throw Sprinting"
+abbr: "ETS"
+description: "Infinite stamina sprinting method using extended throws to maintain speed"
 ---
 
 # Extended Throw Sprinting `ETS`

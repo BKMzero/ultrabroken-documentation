@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Cull Equipment Desync"
+abbr: "CED"
+description: "Allows to have a weapon equipped that is not in the inventory."
 ---
 
-# Cull Equipment Desync
+# Cull Equipment Desync `CED`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

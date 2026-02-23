@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Reverse Ascend Storage"
+abbr: "RAS"
+description: "Ascending through water under a plattform allows link to ascend up into the sky, provided that there is ground above him."
 ---
 
-# Reverse Ascend Storage
+# Reverse Ascend Storage `RAS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

@@ -1,8 +1,10 @@
 ---
 title: "Disabled Enemy"
+abbr: "DE"
+description: "Puts the enemy into a doll-like state similar to the glitch back in Breath of the Wild, disabling the enemy's movement."
 ---
 
-# Disabled Enemy
+# Disabled Enemy `DE`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

@@ -1,5 +1,7 @@
 ---
 title: "Fuse Entangle Drop Zuggle"
+abbr: "FEDZ"
+description: "Similarily to FEWZ, this is not a real drop zuggle, but rather a shield zuggle"
 ---
 
 # Fuse Entangle Drop Zuggle `FEDZ`

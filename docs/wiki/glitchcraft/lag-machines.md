@@ -1,8 +1,10 @@
 ---
 title: "Lag Machines"
+abbr: "LM"
+description: "Filling up small areas with many objects causes a lot of lag and strange effects"
 ---
 
-# Lag Machines
+# Lag Machines `LM`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

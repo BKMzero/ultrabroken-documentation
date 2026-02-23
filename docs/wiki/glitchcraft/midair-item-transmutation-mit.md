@@ -1,5 +1,7 @@
-﻿---
+---
 title: "Midair Item Transmutation"
+abbr: "MIT"
+description: "Allows you to transmutate any material very fast."
 ---
 
 # Midair Item Transmutation `MIT`

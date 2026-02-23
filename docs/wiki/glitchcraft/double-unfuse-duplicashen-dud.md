@@ -1,5 +1,7 @@
-﻿---
+---
 title: "Double Unfuse Duplicashen"
+abbr: "DUD"
+description: "Allows you to duplicate any material that can be fused to an arrow"
 ---
 
 # Double Unfuse Duplicashen `DUD`

@@ -1,5 +1,7 @@
-﻿---
+---
 title: "Minecart Rail Collision Launching"
+abbr: "MRCL"
+description: "Allows the usage of minecarts to be launched from awkward collision grabbing on rails."
 ---
 
 # Minecart Rail Collision Launching `MRCL`

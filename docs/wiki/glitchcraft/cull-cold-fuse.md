@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Cull Cold Fuse"
+abbr: "CCF"
+description: "?"
 ---
 
-# Cull Cold Fuse
+# Cull Cold Fuse `CCF`
 _mulberry - 1 February 2024_
 
 ## Summary

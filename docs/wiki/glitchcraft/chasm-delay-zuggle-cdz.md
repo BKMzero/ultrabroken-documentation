@@ -1,5 +1,7 @@
-﻿---
+---
 title: "Chasm Delay Zuggle"
+abbr: "CDZ"
+description: "Every chasm has an \"unload box\" that unloads the overworld if passed through."
 ---
 
 # Chasm Delay Zuggle `CDZ`

@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Springboard Clipping"
+abbr: "SBC"
+description: "Allows link to clip through the floor while springboarding under a low ceiling."
 ---
 
-# Springboard Clipping
+# Springboard Clipping `SBC`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

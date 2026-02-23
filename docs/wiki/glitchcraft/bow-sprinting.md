@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Bow Sprinting"
+abbr: "BS"
+description: "Infinite stamina sprinting method using bow inputs to maintain speed"
 ---
 
-# Bow Sprinting
+# Bow Sprinting `BS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Cull Launching"
+abbr: "CL"
+description: "By culling as object while its glued to another object, the unculled object will be sent towards the position of the culled object when it is unculled..."
 ---
 
-# Cull Launching
+# Cull Launching `CL`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Like-Like Smuggling"
+abbr: "LLS"
+description: "Allows for Equipment Smuggling via slugging."
 ---
 
-# Like-Like Smuggling
+# Like-Like Smuggling `LLS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

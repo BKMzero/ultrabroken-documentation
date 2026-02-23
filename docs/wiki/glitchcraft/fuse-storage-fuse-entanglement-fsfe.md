@@ -1,5 +1,7 @@
 ---
 title: "Fuse Storage Fuse Entanglement"
+abbr: "FSFE"
+description: "Unique methods of achieving Fuse Entanglement through Fuse Storage."
 ---
 
 # Fuse Storage Fuse Entanglement `FSFE`

@@ -1,5 +1,7 @@
-﻿---
+---
 title: "Quantum Linking"
+abbr: "QL"
+description: "Uses culling to separate glued objects in space, while still retaining a coherent construction"
 ---
 
 # Quantum Linking `QL`

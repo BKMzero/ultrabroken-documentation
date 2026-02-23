@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Slate Storage"
+abbr: "SLST"
+description: "Storing the opening animation of the Purah Pad allows for Fall Damage Cancel"
 ---
 
-# Slate Storage
+# Slate Storage `SLST`
 `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

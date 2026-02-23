@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Kilovictor's quicksmuggle"
+abbr: "KQS"
+description: "Fusing an sdc stick to equipment allows for a different, stronger cull, which can be used to cull equipment."
 ---
 
-# Kilovictor's quicksmuggle
+# Kilovictor's quicksmuggle `KQS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

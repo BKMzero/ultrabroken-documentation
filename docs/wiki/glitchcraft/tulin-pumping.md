@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Tulin Pumping"
+abbr: "TP"
+description: "Preserves the initial boost of tulin"
 ---
 
-# Tulin Pumping
+# Tulin Pumping `TP`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

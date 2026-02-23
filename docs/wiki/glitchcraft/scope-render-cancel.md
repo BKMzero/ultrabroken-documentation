@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Scope Render Cancel"
+abbr: "SRC"
+description: "Removes scope HUD and reveals two borders that show an overlay that renders flames, visual effects, etc."
 ---
 
-# Scope Render Cancel
+# Scope Render Cancel `SRC`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

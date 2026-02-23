@@ -1,5 +1,7 @@
 ---
 title: "Hero Path Link Storage"
+abbr: "HPLS"
+description: "Visual glitch with the hero path."
 ---
 
 # Hero Path Link Storage `HPLS`

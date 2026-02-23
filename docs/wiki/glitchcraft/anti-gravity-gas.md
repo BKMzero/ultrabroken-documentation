@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Anti-gravity GAS"
+abbr: "AGAS"
+description: "Allows for weapon GAS by throwing the base of an ARAZ connection just as Link gets shocked"
 ---
 
-# Anti-gravity GAS
+# Anti-gravity GAS `AGAS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

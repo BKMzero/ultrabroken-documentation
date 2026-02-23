@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Recipe Storage"
+abbr: "RS"
+description: "Delaying the recipe menu by a few frames allow for some holding shenanigans"
 ---
 
-# Recipe Storage
+# Recipe Storage `RS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

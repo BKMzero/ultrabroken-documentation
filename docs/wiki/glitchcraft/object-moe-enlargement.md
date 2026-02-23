@@ -1,5 +1,7 @@
-﻿---
+---
 title: "Object (Moe) Enlargement"
+abbr: "MOE"
+description: "Using a moblin, it's possible to enlarge objects"
 ---
 
 # Object Enlargement `MOE`

@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Cave Flag Culling"
+abbr: "CFC"
+description: "For certain caves (like Pondside Cave), the game checks every object and determines if they belong to inside or outside the cave, and all objects with..."
 ---
 
-# Cave Flag Culling
+# Cave Flag Culling `CFC`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

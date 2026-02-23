@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Weapon FE"
+abbr: "WFE"
+description: "Allows for FE to weapons"
 ---
 
-# Weapon FE
+# Weapon FE `WFE`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Crouch Sprinting"
+abbr: "CS"
+description: "Infinite stamina sprinting method that alternates between sprinting and crouching"
 ---
 
-# Crouch Sprinting
+# Crouch Sprinting `CS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

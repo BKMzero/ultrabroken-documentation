@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Sage Madness"
+abbr: "SM"
+description: "The camera follows a sage falling down a chasm."
 ---
 
-# Sage Madness
+# Sage Madness `SM`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

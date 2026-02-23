@@ -1,5 +1,7 @@
-﻿---
+---
 title: "Stamina Depletion Freeze"
+abbr: "SDF"
+description: "Certain actions can cause the stamina depletion to glitch out."
 ---
 
 # Stamina Depletion Freeze `SDF`

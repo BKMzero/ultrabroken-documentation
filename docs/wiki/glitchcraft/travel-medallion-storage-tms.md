@@ -1,5 +1,7 @@
-﻿---
+---
 title: "Travel Medallion storage"
+abbr: "TMS"
+description: "Places the travel medallion at links feet after loading a file."
 ---
 
 # Travel Medallion storage `TMS`

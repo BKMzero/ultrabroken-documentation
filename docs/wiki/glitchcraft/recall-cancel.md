@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Recall Cancel"
+abbr: "RCC"
+description: "Lets you delay the dropping of weapon and items."
 ---
 
-# Recall Cancel
+# Recall Cancel `RCC`
 `1.2.0` `1.2.1`
 
 ## Summary

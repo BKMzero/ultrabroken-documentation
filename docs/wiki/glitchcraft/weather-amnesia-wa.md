@@ -1,5 +1,7 @@
 ---
 title: "Weather Amnesia"
+abbr: "WA"
+description: "Viewing a memory near a cave will overwrite its local weather with the overworld's weather."
 ---
 
 # Weather Amnesia `WA`

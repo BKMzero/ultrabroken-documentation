@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Mineru Text Storage"
+abbr: "MTS"
+description: "Lets you move while text is on screen"
 ---
 
-# Mineru Text Storage
+# Mineru Text Storage `MTS`
 `1.0.0`
 
 ## Summary

@@ -1,5 +1,7 @@
-﻿---
+---
 title: "Zonai Sort Duplication"
+abbr: "ZSD"
+description: "Allows you to dupe zonai parts back into your inventory."
 ---
 
 # Zonai Sort Duplication `ZSD`

@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Infinite Damage"
+abbr: "IDMG"
+description: "Damage repeats infinitely during spin attack."
 ---
 
-# Infinite Damage
+# Infinite Damage `IDMG`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

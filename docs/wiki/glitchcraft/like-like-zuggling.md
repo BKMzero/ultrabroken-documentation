@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Like-Like Zuggling"
+abbr: "LLZ"
+description: "Allows for zuggling via slugging"
 ---
 
-# Like-Like Zuggling
+# Like-Like Zuggling `LLZ`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

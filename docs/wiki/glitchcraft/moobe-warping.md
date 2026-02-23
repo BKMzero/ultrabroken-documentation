@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Moobe Warping"
+abbr: "MW"
+description: "Using Moobe and a horse, it's possible to fully warp (opposed to only temporarily) to a preset climbing position."
 ---
 
-# Moobe Warping
+# Moobe Warping `MW`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

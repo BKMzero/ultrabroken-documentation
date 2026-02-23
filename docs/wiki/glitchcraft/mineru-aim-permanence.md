@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Mineru Aim Permanence"
+abbr: "MAIP"
+description: "Lets you bring Mineru's Construct into towns and stables"
 ---
 
-# Mineru Aim Permanence
+# Mineru Aim Permanence `MAIP`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

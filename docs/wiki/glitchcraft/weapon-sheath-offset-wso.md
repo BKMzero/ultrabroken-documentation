@@ -1,5 +1,7 @@
-﻿---
+---
 title: "Weapon Sheath Offset"
+abbr: "WSO"
+description: "Puts the weapon sheathe in an offset state, similar to the sheathe during Zuggle Overload"
 ---
 
 # Weapon Sheath Offset `WSO`

@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Dialog Permacull"
+abbr: "DPC"
+description: "Permanently culls any liftable object by triggering an NPC dialog while Link is culled"
 ---
 
-# Dialog Permacull
+# Dialog Permacull `DPC`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0` `1.4.0` `1.4.1` `1.4.2` `Switch 2`
 
 ## Summary

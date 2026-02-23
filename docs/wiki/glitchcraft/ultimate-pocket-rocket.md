@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Ultimate Pocket Rocket"
+abbr: "UPR"
+description: "A pocket rocket which does not break on warps or drain energy cells, and has unlimited usage and range"
 ---
 
-# Ultimate Pocket Rocket
+# Ultimate Pocket Rocket `UPR`
 `1.0.0`
 
 ## Summary

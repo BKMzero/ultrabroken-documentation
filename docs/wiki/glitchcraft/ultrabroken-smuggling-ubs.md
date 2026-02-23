@@ -1,5 +1,7 @@
-﻿---
+---
 title: "Ultrabroken Smuggling"
+abbr: "UBS"
+description: "Makes an FE'd object follow the shield."
 ---
 
 # Ultrabroken Smuggling `UBS`

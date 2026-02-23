@@ -1,5 +1,7 @@
-﻿---
+---
 title: "Jumpslash Cancel Clipping"
+abbr: "JCC"
+description: "Allows for clipping through thin ceilings."
 ---
 
 # Jumpslash Cancel Clipping `JCC`

@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Ocklusion"
+abbr: "OCKL"
+description: "Portaculling at the top of a chasm box unloads the surface"
 ---
 
-# Ocklusion
+# Ocklusion `OCKL`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

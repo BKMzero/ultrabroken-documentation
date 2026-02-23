@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Reball"
+abbr: "RBL"
+description: "By combining recall with throwing a Zonai device capsule, you can jump onto and transfer momentum from the capsule into Link, providing significant speed."
 ---
 
-# Reball
+# Reball `RBL`
 `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Master Sword Zuggling/ Decayed Master Sword Zuggling"
+abbr: "MSZ"
+description: "Allows you to zuggle the master sword or decayed master sword by desyncing it"
 ---
 
-# Master Sword Zuggling/ Decayed Master Sword Zuggling
+# Master Sword Zuggling/ Decayed Master Sword Zuggling `MSZ`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

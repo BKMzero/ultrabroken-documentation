@@ -1,5 +1,7 @@
-﻿---
+---
 title: "Inventory Shift Duplication"
+abbr: "ISD"
+description: "Exploits inventory shift after creating an empty inventory slot to duplicate items."
 ---
 
 # Inventory Shift Duplication `ISD`

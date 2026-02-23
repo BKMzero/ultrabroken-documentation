@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Entanglement Height Glitch"
+abbr: "EHG"
+description: "Suspends Link a certain distance off the ground while shield surfing."
 ---
 
-# Entanglement Height Glitch
+# Entanglement Height Glitch `EHG`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

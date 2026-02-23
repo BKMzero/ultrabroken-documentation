@@ -1,5 +1,7 @@
-﻿---
+---
 title: "Hand Locked Equipment Smuggling"
+abbr: "HLES"
+description: "Allows you to smuggle equipment only when your hands are busy."
 ---
 
 # Hand Locked Equipment Smuggling `HLES`

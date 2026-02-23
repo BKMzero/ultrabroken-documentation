@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Culling Area Fuse Storage"
+abbr: "CAFS"
+description: "A method of Fuse Storage using Area Culling ?"
 ---
 
-# Culling Area Fuse Storage
+# Culling Area Fuse Storage `CAFS`
 _[Mozz](https://www.youtube.com/@M0zzed), pyuk - 30 June 2023_
 
 ## Summary

@@ -1,8 +1,10 @@
 ---
 title: "Cull Smuggle"
+abbr: "CSMU"
+description: "Allows any equipment that can be fuse entangled to be smuggled using margin culling."
 ---
 
-# Cull Smuggle
+# Cull Smuggle `CSMU`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Toti Saucery"
+abbr: "TOTS"
+description: "FSFEing an undiscovered item can cause several effects"
 ---
 
-# Toti Saucery
+# Toti Saucery `TOTS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

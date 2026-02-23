@@ -1,5 +1,7 @@
-﻿---
+---
 title: "Mulberry's Out of Body Experience"
+abbr: "MOOBE"
+description: "(Temporarily) Warps Link to a previous climbing position from anywhere in the world, only while the game is paused."
 ---
 
 # Mulberry's Out of Body Experience `MOOBE`

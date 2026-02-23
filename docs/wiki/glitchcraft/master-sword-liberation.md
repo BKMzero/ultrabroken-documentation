@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Master Sword Liberation"
+abbr: "MSL"
+description: "Allows you to dupe the master sword/decayed master sword"
 ---
 
-# Master Sword Liberation
+# Master Sword Liberation `MSL`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

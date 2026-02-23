@@ -1,5 +1,7 @@
-﻿---
+---
 title: "Map Zuggling"
+abbr: "MZ"
+description: "Allows you to zuggle much faster than older versions"
 ---
 
 # Map Zuggling `MZ`

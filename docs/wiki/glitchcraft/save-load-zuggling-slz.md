@@ -1,5 +1,7 @@
-﻿---
+---
 title: "Save Load Zuggling"
+abbr: "SLZ"
+description: "Allows you to zuggle anywhere as no wall is required. It is extremely similar to MZ, with only one aditional step of reloading at the end"
 ---
 
 # Save Load Zuggling `SLZ`

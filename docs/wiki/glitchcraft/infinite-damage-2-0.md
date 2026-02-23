@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Infinite Damage 2.0"
+abbr: "ID2"
+description: "Use new prompt to do infinite damage without using durability."
 ---
 
-# Infinite Damage 2.0
+# Infinite Damage 2.0 `ID2`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

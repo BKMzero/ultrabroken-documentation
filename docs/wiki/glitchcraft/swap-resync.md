@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Swap Resync"
+abbr: "SR"
+description: "Swapping any piece of equipment/armor attempts to sync any swaps that may have failed to register."
 ---
 
-# Swap Resync
+# Swap Resync `SR`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1+`
 
 ## Summary

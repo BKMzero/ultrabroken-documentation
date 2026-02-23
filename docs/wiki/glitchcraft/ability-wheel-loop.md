@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Ability Wheel Loop"
+abbr: "AWL"
+description: "Gets you stuck in the ability wheel indefinitely opening and closing."
 ---
 
-# Ability Wheel Loop
+# Ability Wheel Loop `AWL`
 `1.0.0`
 
 ## Summary

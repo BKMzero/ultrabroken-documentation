@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Infinite Bubbul Frog Gems"
+abbr: "IBFG"
+description: "Allows you to get infinite bubbul gems"
 ---
 
-# Infinite Bubbul Frog Gems
+# Infinite Bubbul Frog Gems `IBFG`
 `1.0.0` `1.1.0` `1.1.1`
 
 ## Summary

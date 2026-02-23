@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Dpadlock-less Invizuggle"
+abbr: "DLI"
+description: "The first frame of a cull does not dpadlock, so it can be used for invizuggle"
 ---
 
-# Dpadlock-less Invizuggle
+# Dpadlock-less Invizuggle `DLI`
 `1.2.0` `1.2.1`
 
 ## Summary

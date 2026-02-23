@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Like-Like Warping"
+abbr: "LLW"
+description: "Warp to a remote location using a Like-Like and bomb fuse entanglement"
 ---
 
-# Like-Like Warping
+# Like-Like Warping `LLW`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

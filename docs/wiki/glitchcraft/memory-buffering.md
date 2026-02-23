@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Memory Buffering"
+abbr: "MB"
+description: "Advances Links current animation by 1 frame while keeping the menu open. Links coordinates will not change."
 ---
 
-# Memory Buffering
+# Memory Buffering `MB`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

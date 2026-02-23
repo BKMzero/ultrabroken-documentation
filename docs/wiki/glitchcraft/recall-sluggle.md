@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Recall Sluggle"
+abbr: "RSL"
+description: "Using recall it's possible to sluggle a weapon by having access to it in the menu before it's properly equipped."
 ---
 
-# Recall Sluggle
+# Recall Sluggle `RSL`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 

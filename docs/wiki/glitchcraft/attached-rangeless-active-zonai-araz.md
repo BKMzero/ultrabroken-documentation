@@ -1,5 +1,7 @@
 ---
 title: "Attached Rangeless Active Zonai"
+abbr: "ARAZ"
+description: "Is very similar to DRAZ but differs slightly."
 ---
 
 # Attached Rangeless Active Zonai `ARAZ`
