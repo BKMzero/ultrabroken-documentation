@@ -150,7 +150,12 @@ nav:
 plugins:
   - search
   - minify
-  - social
+  - social:
+      cards_layout: default
+      cards_layout_options:
+        font_family: "New Rocker, Texturina"
+        background_color: "#00796b"
+        text_color: "#ffffff"
 
 markdown_extensions:
   - admonition

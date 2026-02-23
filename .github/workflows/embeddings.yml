@@ -20,10 +20,10 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install system dependencies for imaging (Cairo)
+      - name: Install system dependencies for imaging (Cairo + fonts)
         run: |
           sudo apt-get update
-          sudo apt-get install -y libcairo2 libpango-1.0-0 libpangocairo-1.0-0
+          sudo apt-get install -y libcairo2 libpango-1.0-0 libpangocairo-1.0-0 fonts-google-fontsdirectory
 
       - name: Restore pip cache
         uses: actions/cache@v4
