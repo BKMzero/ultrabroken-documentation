@@ -6,6 +6,7 @@ on:
       - 'docs/wiki/**'
       - 'mkdocs.yml'
       - '.github/workflows/embeddings.yml'
+      - '.github/workflows/requirements.txt'
   workflow_dispatch: {}
 
 jobs:
@@ -35,7 +36,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('docs/worker/requirements.txt') }}
+          key: ${{ runner.os }}-pip-${{ hashFiles('.github/workflows/requirements.txt') }}
           restore-keys: |
             ${{ runner.os }}-pip-
 
@@ -43,7 +44,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ./.wheels
-          key: ${{ runner.os }}-wheels-${{ hashFiles('docs/worker/requirements.txt') }}
+          key: ${{ runner.os }}-wheels-${{ hashFiles('.github/workflows/requirements.txt') }}
           restore-keys: |
             ${{ runner.os }}-wheels-
 
@@ -51,9 +52,9 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           mkdir -p ./.wheels
-          pip wheel --wheel-dir ./.wheels -r docs/worker/requirements.txt || true
+          pip wheel --wheel-dir ./.wheels -r .github/workflows/requirements.txt || true
           pip wheel --wheel-dir ./.wheels mkdocs mkdocs-material[imaging] mkdocs-minify-plugin || true
-          pip install --no-index --find-links ./.wheels -r docs/worker/requirements.txt
+          pip install --no-index --find-links ./.wheels -r .github/workflows/requirements.txt
           pip install --no-index --find-links ./.wheels mkdocs mkdocs-material[imaging] mkdocs-minify-plugin
 
       - name: Build MkDocs site

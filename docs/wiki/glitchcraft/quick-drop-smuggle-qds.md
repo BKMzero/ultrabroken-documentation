@@ -1,9 +1,12 @@
 ---
 title: "Quick Drop Smuggle"
-abbr: "QDS"
-description: "Dropping and equipping weapons in a specific way causes drop smuggle."
+abbreviation: "QDS"
 versions: ["1.0.0"]
+credits: ["mulberry", "Zas", "Aeolian", "WinnerBoi77", "Ryan?"]
 date: "2024-03-16"
+description: "Dropping and equipping weapons in a specific way causes drop smuggle."
+aliases: ["quick-drop-smuggle"]
+tags: ["zuggling", "item", "equipment"]
 ---
 
 # Quick Drop Smuggle `QDS`
@@ -13,7 +16,7 @@ date: "2024-03-16"
 ---
 Dropping and equipping weapons in a specific way causes drop smuggle.
 
-_mulberry, Zas, Aeolian, Winnerboi, Ryan? - 16 March 2024_
+_mulberry, Zas, Aeolian, WinnerBoi77, Ryan? - 16 March 2024_
 
 ## Instructions
 ---

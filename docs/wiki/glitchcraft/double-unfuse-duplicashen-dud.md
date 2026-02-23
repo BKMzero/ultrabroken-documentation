@@ -1,9 +1,12 @@
 ---
 title: "Double Unfuse Duplicashen"
-abbr: "DUD"
-description: "Allows you to duplicate any material that can be fused to an arrow"
+abbreviation: "DUD"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
+credits: ["Li Shen (鯉神)"]
 date: "2023-05-15"
+description: "Allows you to duplicate any material that can be fused to an arrow"
+aliases: ["double unfuse", "double-unfuse", "double-unfuse-duplicashen", "dupe unfuse"]
+tags: ["duplication", "item", "weapon", "fuse", "arrow"]
 ---
 
 # Double Unfuse Duplicashen `DUD`

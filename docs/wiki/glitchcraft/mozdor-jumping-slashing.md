@@ -1,9 +1,12 @@
 ---
 title: "Mozdor Jumping/Slashing"
-abbr: "MJS"
-description: "Allows you to jump very far (can be chained infinitly)"
+abbreviation: "MJS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Mozz", "AgdoR"]
 date: "2023-05-20"
+description: "Allows you to jump very far (can be chained infinitly)"
+aliases: ["mozdor-jumping/slashing"]
+tags: ["movement", "weapon"]
 ---
 
 # Mozdor Jumping/Slashing `MJS`

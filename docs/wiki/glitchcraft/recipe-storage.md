@@ -1,9 +1,12 @@
 ---
 title: "Recipe Storage"
-abbr: "RS"
-description: "Delaying the recipe menu by a few frames allow for some holding shenanigans"
+abbreviation: "RS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Ock", "mulberry"]
 date: "2024-09-14"
+description: "Delaying the recipe menu by a few frames allow for some holding shenanigans"
+aliases: ["recipe-storage"]
+tags: ["storage", "menu"]
 ---
 
 # Recipe Storage `RS`

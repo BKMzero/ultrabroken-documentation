@@ -1,9 +1,12 @@
 ---
 title: "Fall Damage Cancel"
-abbr: "FDC"
-description: "Allows you to cancel fall damage from any height"
+abbreviation: "FDC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Simonfirefighter"]
 date: "2023-05-23"
+description: "Allows you to cancel fall damage from any height"
+aliases: ["fall-damage-cancel"]
+tags: ["animation", "damage", "movement"]
 ---
 
 # Fall Damage Cancel `FDC`

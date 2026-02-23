@@ -1,9 +1,12 @@
 ---
 title: "Overload Persistent Save Load Object Transfer"
-abbr: "OPSLOT"
-description: "Using Overload it's possible to fully portably PSLOT on current versions"
+abbreviation: "OPSLOT"
 versions: ["1.2.0"]
+credits: ["mulberry"]
 date: "2024-07-26"
+description: "Using Overload it's possible to fully portably PSLOT on current versions"
+aliases: ["overload-persistent-save-load-object-transfer"]
+tags: ["overload", "save-load"]
 ---
 
 # Overload Persistent Save Load Object Transfer `OPSLOT`

@@ -1,9 +1,12 @@
 ---
 title: "Split Item Duplication"
-abbr: "SID"
-description: "Allows you to dupe materials through Stack Splitting"
+abbreviation: "SID"
 versions: ["1.2.0"]
+credits: ["Telkic", "mulberry", "WinnerBoi77"]
 date: "2025-06-19"
+description: "Allows you to dupe materials through Stack Splitting"
+aliases: ["split-item-duplication"]
+tags: ["duplication", "item", "zuggling"]
 ---
 
 # Split Item Duplication `SID`
@@ -13,7 +16,7 @@ date: "2025-06-19"
 ---
 Allows you to dupe materials through Stack Splitting
 
-_Telkic, mulberry, Winnerboi77 - 19 June 2025_
+_Telkic, mulberry, WinnerBoi77 - 19 June 2025_
 
 ## Instructions
 ---

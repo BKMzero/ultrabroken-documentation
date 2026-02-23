@@ -1,9 +1,12 @@
 ---
 title: "Like Like New Textbox Softlock"
-abbr: "LLTS"
-description: "Picking up a new item while it gets eaten by a like like softlocks the game"
+abbreviation: "LLTS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+credits: ["Ryan?"]
 date: "2023-06-16"
+description: "Picking up a new item while it gets eaten by a like like softlocks the game"
+aliases: ["like-like-new-textbox-softlock"]
+tags: ["item", "like-like", "zuggling"]
 ---
 
 # Like Like New Textbox Softlock `LLTS`

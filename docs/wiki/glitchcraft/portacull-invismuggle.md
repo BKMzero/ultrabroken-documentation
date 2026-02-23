@@ -1,9 +1,12 @@
 ---
 title: "Portacull Invismuggle"
-abbr: "PCI"
-description: "Using portable culling equipment it's possible to get a culled smuggle (invismuggle)."
+abbreviation: "PCI"
 versions: ["1.2.0"]
+credits: ["mulberry"]
 date: "2024-02-29"
+description: "Using portable culling equipment it's possible to get a culled smuggle (invismuggle)."
+aliases: ["portacull-invismuggle"]
+tags: ["zuggling", "equipment", "culling"]
 ---
 
 # Portacull Invismuggle `PCI`

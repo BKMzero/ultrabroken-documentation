@@ -1,9 +1,12 @@
 ---
 title: "Proxy Glitches"
-abbr: "PG"
-description: "When Link enters areas he is not supposed to, the game forces him back into bounds with large force"
+abbreviation: "PG"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
-date: "?"
+credits: ["Unknown"]
+date: "Unknown"
+description: "When Link enters areas he is not supposed to, the game forces him back into bounds with large force"
+aliases: ["proxy-glitches"]
+tags: ["movement"]
 ---
 
 # Proxy Glitches `PG`

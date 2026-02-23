@@ -1,9 +1,12 @@
 ---
 title: "Ultimate Pocket Rocket"
-abbr: "UPR"
-description: "A pocket rocket which does not break on warps or drain energy cells, and has unlimited usage and range"
+abbreviation: "UPR"
 versions: ["1.0.0"]
+credits: ["Aergyl", "mulberry", "Ikaboze", "Jordan"]
 date: "2025-05-20"
+description: "A pocket rocket which does not break on warps or drain energy cells, and has unlimited usage and range"
+aliases: ["ultimate-pocket-rocket"]
+tags: ["launching", "warping", "ultrahand"]
 ---
 
 # Ultimate Pocket Rocket `UPR`

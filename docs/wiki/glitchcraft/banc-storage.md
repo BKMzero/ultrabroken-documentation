@@ -1,9 +1,12 @@
 ---
 title: "Banc Storage"
-abbr: "BANC"
-description: "Store banc changes to another save file using memory interrupt"
+abbreviation: "BANC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0", "1.4.0", "1.4.1", "1.4.2", "1.4.3"]
+credits: ["Lightos", "mulberry", "Aergyl"]
 date: "2024-10-01"
+description: "Store banc changes to another save file using memory interrupt"
+aliases: ["banc-storage"]
+tags: ["storage", "warping", "save-load", "blood-moon"]
 ---
 
 # Banc Storage `BANC`

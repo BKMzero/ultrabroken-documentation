@@ -1,9 +1,12 @@
 ---
 title: "Modifier ONLY Transfer"
-abbr: "MOT"
-description: "Allows you to transfer only the modifier, but only works on weapons."
+abbreviation: "MOT"
 versions: ["1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["kurocat471", "BigDUCCO"]
 date: "2023-06-09"
+description: "Allows you to transfer only the modifier, but only works on weapons."
+aliases: ["modifier-only-transfer"]
+tags: ["weapon"]
 ---
 
 # Modifier ONLY Transfer `MOT`

@@ -1,9 +1,12 @@
 ---
 title: "Item Throw Hitbox Disable"
-abbr: "ITHD"
-description: "Disables the hitbox of a thrown item by recalling it mid-flight"
+abbreviation: "ITHD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+credits: ["Arfix", "Moonrise"]
 date: "2023-06-18"
+description: "Disables the hitbox of a thrown item by recalling it mid-flight"
+aliases: ["item-throw-hitbox-disable"]
+tags: ["item", "recall", "zuggling"]
 ---
 
 # Item Throw Hitbox Disable `ITHD`

@@ -1,9 +1,12 @@
 ---
 title: "Slugging"
-abbr: "SLG"
-description: "Allows Link to hold an unloaded piece of equipment using a like like."
+abbreviation: "SLG"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Mozz"]
 date: "2023-06-15"
+description: "Allows Link to hold an unloaded piece of equipment using a like like."
+aliases: []
+tags: ["zuggling", "equipment", "culling"]
 ---
 
 # Slugging `SLG`

@@ -1,9 +1,12 @@
 ---
 title: "Cull Cold Fuse"
-abbr: "CCF"
-description: "?"
-versions: ["?"]
+abbreviation: "CCF"
+versions: ["Unknown"]
+credits: ["mulberry"]
 date: "2024-02-01"
+description: "Sets up a cold fuse connection using a culling area."
+aliases: ["cull-cold-fuse"]
+tags: ["weapon", "culling", "ultrahand", "fuse"]
 ---
 
 # Cull Cold Fuse `CCF`

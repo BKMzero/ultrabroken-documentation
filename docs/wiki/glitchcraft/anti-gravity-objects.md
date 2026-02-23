@@ -1,9 +1,12 @@
 ---
 title: "Anti-Gravity Objects"
-abbr: "AGO"
-description: "Allows objects to lose their gravity."
+abbreviation: "AGO"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
-date: "?"
+credits: ["Unknown"]
+date: "Unknown"
+description: "Allows objects to lose their gravity."
+aliases: ["anti-gravity-objects"]
+tags: ["ultrahand"]
 ---
 
 # Anti-Gravity Objects `AGO`

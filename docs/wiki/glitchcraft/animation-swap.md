@@ -1,9 +1,12 @@
 ---
 title: "Animation Swap"
-abbr: "ASWP"
-description: "Combine animation sets when zuggle overloaded."
+abbreviation: "ASWP"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Swinginman"]
 date: "2023-05-17"
+description: "Combine animation sets when zuggle overloaded."
+aliases: ["anim-swap", "animation-swap", "animation-swap glitch"]
+tags: ["zuggling", "animation", "overload"]
 ---
 
 # Animation Swap `ASWP`

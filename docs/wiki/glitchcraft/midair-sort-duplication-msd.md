@@ -1,9 +1,12 @@
 ---
 title: "Midair Sort Duplication"
-abbr: "MSD"
-description: "Allows duplication of materials while midair."
+abbreviation: "MSD"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
+credits: ["Zas", "kurocat471"]
 date: "2023-05-21"
+description: "Allows duplication of materials while midair."
+aliases: ["midair-sort-duplication"]
+tags: ["duplication", "menu", "item", "paraglide"]
 ---
 
 # Midair Sort Duplication `MSD`

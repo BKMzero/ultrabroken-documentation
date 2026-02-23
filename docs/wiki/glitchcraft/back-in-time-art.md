@@ -1,9 +1,12 @@
 ---
 title: "Back-in-Time Art"
-abbr: "BIT"
-description: "Transfers the picture in Link's House to a previous save. Is also capable of transferring compendium pictures."
+abbreviation: "BIT"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["R4000", "Zas"]
 date: "2023-06-18"
+description: "Transfers the picture in Link's House to a previous save. Is also capable of transferring compendium pictures."
+aliases: ["back-in-time-art"]
+tags: ["save-load"]
 ---
 
 # Back-in-Time Art `BIT`

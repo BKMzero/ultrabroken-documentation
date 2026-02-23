@@ -1,9 +1,12 @@
 ---
 title: "Two Handed With Shield"
-abbr: "THWS"
-description: "Allows you to use a shield and a two handed weapon at the same time"
+abbreviation: "THWS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["R4000", "Bucket_Sloe"]
 date: "2023-08-21"
+description: "Allows you to use a shield and a two handed weapon at the same time"
+aliases: ["two-handed-with-shield"]
+tags: ["equipment", "shield", "zuggling"]
 ---
 
 # Two Handed With Shield `THWS`

@@ -1,9 +1,12 @@
 ---
 title: "Stack Splitting"
-abbr: "SSPL"
-description: "Using an arrow fuse returning, it's possible to get two slots for one item"
+abbreviation: "SSPL"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
+credits: ["s0ft", "Telkic", "mulberry"]
 date: "2024-12-31"
+description: "Using an arrow fuse returning, it's possible to get two slots for one item"
+aliases: ["stack-splitting"]
+tags: ["item", "fuse", "arrow"]
 ---
 
 # Stack Splitting `SSPL`

@@ -1,9 +1,12 @@
 ---
 title: "Cull Zone Culling"
-abbr: "CZC"
-description: "A method for object culling."
+abbreviation: "CZC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Mozz"]
 date: "2023-06-27"
+description: "A method for object culling."
+aliases: ["cull-zone-culling"]
+tags: ["culling"]
 ---
 
 # Cull Zone Culling `CZC`

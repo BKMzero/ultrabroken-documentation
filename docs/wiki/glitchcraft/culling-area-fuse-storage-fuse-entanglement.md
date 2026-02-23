@@ -1,9 +1,12 @@
 ---
 title: "Culling Area Fuse Storage Fuse Entanglement"
-abbr: "CFSFE"
-description: "A method for FSFE using Area Culling."
+abbreviation: "CFSFE"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["mulberry", "Yee", "Zas"]
 date: "2024-02-25"
+description: "A method for FSFE using Area Culling."
+aliases: ["culling-area-fuse-storage-fuse-entanglement"]
+tags: ["storage", "entanglement", "culling", "fuse"]
 ---
 
 # Culling Area Fuse Storage Fuse Entanglement `CFSFE`
@@ -37,7 +40,7 @@ Alternatively:
 
 ## Notes
 ---
-Chain FSFE (Mulberry)
+Chain FSFE (mulberry)
 https://discord.com/channels/1086729144307564648/1113557914444111873/1217688933807296593
 
 ## Resources

@@ -1,9 +1,12 @@
 ---
 title: "Lift Fuse Interrupt"
-abbr: "LFI"
-description: "Puts liftable objects in a strange state where fusing to them causes a null fuse and cancels the state."
+abbreviation: "LFI"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Yee"]
 date: "2025-04-22"
+description: "Puts liftable objects in a strange state where fusing to them causes a null fuse and cancels the state."
+aliases: ["lift-fuse-interrupt"]
+tags: ["weapon", "fuse"]
 ---
 
 # Lift Fuse Interrupt `LFI`

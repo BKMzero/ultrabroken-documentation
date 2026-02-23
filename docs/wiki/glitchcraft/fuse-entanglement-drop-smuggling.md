@@ -1,9 +1,12 @@
 ---
 title: "Fuse Entanglement Drop Smuggling"
-abbr: "FEDS"
-description: "Allows for Drop Smuggling of Fuse Entangled Equipment. Can be used for GAS and Double-FE on 1.2.0"
+abbreviation: "FEDS"
 versions: ["1.2.0"]
+credits: ["Blize", "Blackmars"]
 date: "2023-08-15"
+description: "Allows for Drop Smuggling of Fuse Entangled Equipment. Can be used for GAS and Double-FE on 1.2.0"
+aliases: ["fuse-entanglement-drop-smuggling"]
+tags: ["zuggling", "item", "equipment", "entanglement", "fuse"]
 ---
 
 # Fuse Entanglement Drop Smuggling `FEDS`

@@ -1,9 +1,12 @@
 ---
 title: "Modifier Deletion Weapon State Transfer"
-abbr: "MDWST"
-description: "Equipping and dropping items in a specific order causes wst with a sideeffect of deleting modifiers."
+abbreviation: "MDWST"
 versions: ["1.0.0"]
-date: "?"
+credits: ["Zas"]
+date: "Unknown"
+description: "Equipping and dropping items in a specific order causes wst with a sideeffect of deleting modifiers."
+aliases: ["modifier-deletion-weapon-state-transfer"]
+tags: ["duplication", "weapon"]
 ---
 
 # Modifier Deletion Weapon State Transfer `MDWST`

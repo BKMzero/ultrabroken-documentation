@@ -1,9 +1,12 @@
 ---
 title: "Like-Like Warping"
-abbr: "LLW"
-description: "Warp to a remote location using a Like-Like and bomb fuse entanglement"
+abbreviation: "LLW"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Mozz"]
 date: "2023-06-15"
+description: "Warp to a remote location using a Like-Like and bomb fuse entanglement"
+aliases: ["like-like-warping"]
+tags: ["warping", "fuse", "like-like"]
 ---
 
 # Like-Like Warping `LLW`

@@ -1,9 +1,12 @@
 ---
 title: "Infinite Balloon"
-abbr: "IBAL"
-description: "Steal Robbie's balloon which will never deplete."
+abbreviation: "IBAL"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["kurone_yuu"]
 date: "2024-06-13"
+description: "Steal Robbie's balloon which will never deplete."
+aliases: ["infinite-balloon"]
+tags: ["ultrahand"]
 ---
 
 # Infinite Balloon `IBAL`

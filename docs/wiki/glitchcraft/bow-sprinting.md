@@ -1,9 +1,12 @@
 ---
 title: "Bow Sprinting"
-abbr: "BS"
-description: "Infinite stamina sprinting method using bow inputs to maintain speed"
+abbreviation: "BS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Steel"]
 date: "2023-05-14"
+description: "Infinite stamina sprinting method using bow inputs to maintain speed"
+aliases: ["bow sprint", "bow-sprinting"]
+tags: ["sprinting", "bow"]
 ---
 
 # Bow Sprinting `BS`

@@ -1,9 +1,12 @@
 ---
 title: "Like-Like FSFE"
-abbr: "LLFSFE"
-description: "A method of Fuse Storage Fuse Entanglement."
+abbreviation: "LLFSFE"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Ryan?", "Mozz"]
 date: "2023-06-18"
+description: "A method of Fuse Storage Fuse Entanglement."
+aliases: ["like-like-fsfe"]
+tags: ["storage", "entanglement", "fuse", "like-like"]
 ---
 
 # Like-Like FSFE `LLFSFE`

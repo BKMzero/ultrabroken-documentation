@@ -1,9 +1,12 @@
 ---
 title: "Quick Smuggling"
-abbr: "QS"
-description: "Allows for easy and quick smuggling of any equipment, including arrow smuggle."
+abbreviation: "QS"
 versions: ["1.2.0"]
+credits: ["Suishi"]
 date: "2023-07-10"
+description: "Allows for easy and quick smuggling of any equipment, including arrow smuggle."
+aliases: ["quick-smuggling"]
+tags: ["zuggling", "equipment", "arrow"]
 ---
 
 # Quick Smuggling `QS`

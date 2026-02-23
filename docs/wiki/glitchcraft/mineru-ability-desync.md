@@ -1,9 +1,12 @@
 ---
 title: "Mineru Ability Desync"
-abbr: "MAD"
-description: "Desyncs Flame Emitters attached to Mineru"
+abbreviation: "MAD"
 versions: ["1.1.0", "1.1.1"]
+credits: ["Sillicat"]
 date: "2023-05-30"
+description: "Desyncs Flame Emitters attached to Mineru"
+aliases: ["mineru-ability-desync"]
+tags: ["desync", "mineru"]
 ---
 
 # Mineru Ability Desync `MAD`

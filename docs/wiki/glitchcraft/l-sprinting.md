@@ -1,9 +1,12 @@
 ---
 title: "L Sprinting"
-abbr: "LS"
-description: "This is an infinite stamina sprinting method. It is not the fastest one and the timing is very hard."
+abbreviation: "LS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Tauktes"]
 date: "2023-05-12"
+description: "This is an infinite stamina sprinting method. It is not the fastest one and the timing is very hard."
+aliases: ["l-sprinting"]
+tags: ["sprinting", "ultrahand"]
 ---
 
 # L Sprinting `LS`

@@ -1,9 +1,12 @@
 ---
 title: "Wacko Attacko"
-abbr: "WATK"
-description: "Continue attack animation onto another weapon."
+abbreviation: "WATK"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["NghtmaR3", "WinnerBoi77"]
 date: "2024-01-21"
+description: "Continue attack animation onto another weapon."
+aliases: ["wacko-attacko"]
+tags: ["animation"]
 ---
 
 # Wacko Attacko `WATK`

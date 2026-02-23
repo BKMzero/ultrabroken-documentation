@@ -1,9 +1,12 @@
 ---
 title: "Portable Cull Save Load Dupe"
-abbr: "PSLD"
-description: "Allows for Save Load Duplication on v1.2.0-1.2.1 by culling Link on the same frame that the process is performed."
+abbreviation: "PSLD"
 versions: ["1.2.0", "1.2.1"]
+credits: ["NghtmaR3"]
 date: "2024-07-17"
+description: "Allows for Save Load Duplication on v1.2.0-1.2.1 by culling Link on the same frame that the process is performed."
+aliases: ["portable-cull-save-load-dupe"]
+tags: ["duplication", "culling", "save-load"]
 ---
 
 # Portable Cull Save Load Dupe `PSLD`

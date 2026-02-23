@@ -1,9 +1,12 @@
 ---
 title: "Midair Item Transmutation"
-abbr: "MIT"
-description: "Allows you to transmutate any material very fast."
+abbreviation: "MIT"
 versions: ["1.1.0", "1.1.1"]
+credits: ["eXe"]
 date: "2023-05-20"
+description: "Allows you to transmutate any material very fast."
+aliases: ["midair transmute", "midair-item-transmutation"]
+tags: ["item", "paraglide", "zuggling"]
 ---
 
 # Midair Item Transmutation `MIT`

@@ -1,9 +1,12 @@
 ---
 title: "Extended Throw Sprinting"
-abbr: "ETS"
-description: "Infinite stamina sprinting method using extended throws to maintain speed"
+abbreviation: "ETS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["briochoc"]
 date: "2023-05-12"
+description: "Infinite stamina sprinting method using extended throws to maintain speed"
+aliases: ["extended-throw-sprinting"]
+tags: ["sprinting"]
 ---
 
 # Extended Throw Sprinting `ETS`

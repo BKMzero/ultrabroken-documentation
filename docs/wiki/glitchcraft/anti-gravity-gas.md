@@ -1,9 +1,12 @@
 ---
 title: "Anti-gravity GAS"
-abbr: "AGAS"
-description: "Allows for weapon GAS by throwing the base of an ARAZ connection just as Link gets shocked"
+abbreviation: "AGAS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+credits: ["mulberry"]
 date: "2025-01-22"
+description: "Allows for weapon GAS by throwing the base of an ARAZ connection just as Link gets shocked"
+aliases: ["anti-gravity-gas"]
+tags: ["gas"]
 ---
 
 # Anti-gravity GAS `AGAS`

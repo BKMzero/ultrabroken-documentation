@@ -1,9 +1,12 @@
 ---
 title: "Drop Delay Zuggle"
-abbr: "DDZ"
-description: "Dropping a large amount of equipment causes a delay in equipment spawning, enabling zuggling."
+abbreviation: "DDZ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+credits: ["LegendofLinkk"]
 date: "2023-06-06"
+description: "Dropping a large amount of equipment causes a delay in equipment spawning, enabling zuggling."
+aliases: ["drop-delay-zuggle"]
+tags: ["zuggling", "item", "equipment"]
 ---
 
 # Drop Delay Zuggle `DDZ`

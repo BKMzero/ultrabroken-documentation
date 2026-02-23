@@ -1,9 +1,12 @@
 ---
 title: "Save Load Zuggling"
-abbr: "SLZ"
-description: "Allows you to zuggle anywhere as no wall is required. It is extremely similar to MZ, with only one aditional step of reloading at the end"
+abbreviation: "SLZ"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
+credits: ["NicNac", "Flash", "BigDUCCO", "Wip long sticks enjoyer"]
 date: "2023-05-23"
+description: "Allows you to zuggle anywhere as no wall is required. It is extremely similar to MZ, with only one aditional step of reloading at the end"
+aliases: ["save-load-zuggling"]
+tags: ["zuggling", "save-load", "item", "equipment"]
 ---
 
 # Save Load Zuggling `SLZ`

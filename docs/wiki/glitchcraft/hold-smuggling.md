@@ -1,9 +1,12 @@
 ---
 title: "Hold Smuggling"
-abbr: "HSM"
-description: "Enables full control of Link while holding objects in the menu."
+abbreviation: "HSM"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Mozz", "NaN Gogh"]
 date: "2023-07-04"
+description: "Enables full control of Link while holding objects in the menu."
+aliases: ["hold-smuggling"]
+tags: ["zuggling", "menu", "item", "equipment"]
 ---
 
 # Hold Smuggling `HSM`

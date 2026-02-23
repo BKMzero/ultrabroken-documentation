@@ -1,9 +1,12 @@
 ---
 title: "Purgatory Save Load Dupe"
-abbr: "PGSLD"
-description: "Allows equipment and objects to go through saves by sending its FE base to purgatory in a specific way."
+abbreviation: "PGSLD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["mulberry"]
 date: "2024-02-11"
+description: "Allows equipment and objects to go through saves by sending its FE base to purgatory in a specific way."
+aliases: ["purgatory-save-load-dupe"]
+tags: ["duplication", "equipment", "save-load", "ultrahand"]
 ---
 
 # Purgatory Save Load Dupe `PGSLD`

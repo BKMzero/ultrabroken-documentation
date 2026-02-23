@@ -1,9 +1,12 @@
 ---
 title: "Cull Smuggle"
-abbr: "CSMU"
-description: "Allows any equipment that can be fuse entangled to be smuggled using margin culling."
+abbreviation: "CSMU"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Mozz", "ROBUXY2ND", "Ock"]
 date: "2023-06-27"
+description: "Allows any equipment that can be fuse entangled to be smuggled using margin culling."
+aliases: ["cull-smuggle"]
+tags: ["zuggling", "equipment", "culling", "fuse"]
 ---
 
 # Cull Smuggle `CSMU`
@@ -13,7 +16,7 @@ date: "2023-06-27"
 ---
 Allows any equipment that can be fuse entangled to be smuggled using margin culling.
 
-_[Mozz](https://www.youtube.com/@M0zzed), ROBUXY2ND, ock - 27 June 2023_
+_[Mozz](https://www.youtube.com/@M0zzed), ROBUXY2ND, Ock - 27 June 2023_
 
 ## Instructions
 ---
@@ -26,7 +29,7 @@ _[Mozz](https://www.youtube.com/@M0zzed), ROBUXY2ND, ock - 27 June 2023_
 ---
 Cull smuggling equipment with another equipment of the same type zuggled causes the smuggle to enter purgatory upon unculling.
 
-On 1.2.0 and 1.2.1, dropping culled equipment results in the item unculling and dropping normally. To counteract this, you must drop the equipment exactly 5 frames before it unloads (ROBUXY2ND, ock)
+On 1.2.0 and 1.2.1, dropping culled equipment results in the item unculling and dropping normally. To counteract this, you must drop the equipment exactly 5 frames before it unloads (ROBUXY2ND, Ock)
 
 ## Resources
 ---

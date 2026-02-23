@@ -1,9 +1,12 @@
 ---
 title: "Weapon FE"
-abbr: "WFE"
-description: "Allows for FE to weapons"
+abbreviation: "WFE"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+credits: ["ROBUXY2ND", "Physioninja"]
 date: "2023-06-01"
+description: "Allows for FE to weapons"
+aliases: ["weapon-fe"]
+tags: ["weapon"]
 ---
 
 # Weapon FE `WFE`
@@ -13,7 +16,7 @@ date: "2023-06-01"
 ---
 Allows for FE to weapons
 
-_Rediscovered by robuxy2nd and originally found by Physioninja - 1 June 2023_
+_Rediscovered by ROBUXY2ND and originally found by Physioninja - 1 June 2023_
 
 ## Instructions
 ---

@@ -1,9 +1,12 @@
 ---
 title: "Model Teleport Desync"
-abbr: "MTEL"
-description: "This allows for invisibility, model desyncing when gliding, staggering when getting hit to prevent ragdoll, without the previous method that required..."
+abbreviation: "MTEL"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["NX721"]
 date: "2023-07-29"
+description: "This allows for invisibility, model desyncing when gliding, staggering when getting hit to prevent ragdoll, without the previous method that required..."
+aliases: ["model-teleport-desync"]
+tags: ["desync", "warping"]
 ---
 
 # Model Teleport Desync `MTEL`

@@ -1,9 +1,12 @@
 ---
 title: "Overload Dynamic Zuggle"
-abbr: "ODZ"
-description: "Picking up a thrown boomerang while zuggle overloaded can cause dynamic zuggle"
+abbreviation: "ODZ"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
+credits: ["mulberry"]
 date: "2025-05-19"
+description: "Picking up a thrown boomerang while zuggle overloaded can cause dynamic zuggle"
+aliases: ["overload-dynamic-zuggle"]
+tags: ["zuggling", "overload", "item", "equipment"]
 ---
 
 # Overload Dynamic Zuggle `ODZ`

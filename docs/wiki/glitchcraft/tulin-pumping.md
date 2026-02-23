@@ -1,9 +1,12 @@
 ---
 title: "Tulin Pumping"
-abbr: "TP"
-description: "Preserves the initial boost of tulin"
+abbreviation: "TP"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Ikkitrix"]
 date: "2023-05-14"
+description: "Preserves the initial boost of tulin"
+aliases: ["pump tulin", "tulin pump", "tulin-pump", "tulin-pumping", "tulinpump"]
+tags: ["tulin"]
 ---
 
 # Tulin Pumping `TP`

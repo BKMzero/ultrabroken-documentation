@@ -1,9 +1,12 @@
 ---
 title: "Swap Resync"
-abbr: "SR"
-description: "Swapping any piece of equipment/armor attempts to sync any swaps that may have failed to register."
+abbreviation: "SR"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
+credits: ["MandelbrotChaylay"]
 date: "2025-08-10"
+description: "Swapping any piece of equipment/armor attempts to sync any swaps that may have failed to register."
+aliases: ["swap-resync"]
+tags: ["equipment", "shield", "zuggling"]
 ---
 
 # Swap Resync `SR`

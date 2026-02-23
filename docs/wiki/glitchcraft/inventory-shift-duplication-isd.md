@@ -1,9 +1,12 @@
 ---
 title: "Inventory Shift Duplication"
-abbr: "ISD"
-description: "Exploits inventory shift after creating an empty inventory slot to duplicate items."
+abbreviation: "ISD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+credits: ["Blizzard Blanc", "BigDUCCO", "Maxmasher", "pyuk", "Zas"]
 date: "2023-06-25"
+description: "Exploits inventory shift after creating an empty inventory slot to duplicate items."
+aliases: ["inventory-shift-duplication"]
+tags: ["duplication", "menu", "item"]
 ---
 
 # Inventory Shift Duplication `ISD`
@@ -13,7 +16,7 @@ date: "2023-06-25"
 ---
 Exploits inventory shift after creating an empty inventory slot to duplicate items.
 
-_Blizzard Blanc, BigDUCCO, Maxmasher, Pyuk, Zas - 25 June 2023_
+_Blizzard Blanc, BigDUCCO, Maxmasher, pyuk, Zas - 25 June 2023_
 
 ## Instructions
 ---

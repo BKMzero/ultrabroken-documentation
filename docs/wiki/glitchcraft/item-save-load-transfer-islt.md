@@ -1,9 +1,12 @@
 ---
 title: "Item Save Load Transfer"
-abbr: "ISLT"
-description: "Allows transferring held items through saves."
+abbreviation: "ISLT"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Luckstyle"]
 date: "2023-12-22"
+description: "Allows transferring held items through saves."
+aliases: ["item-save-load-transfer"]
+tags: ["item", "save-load", "zuggling"]
 ---
 
 # Item Save Load Transfer `ISLT`

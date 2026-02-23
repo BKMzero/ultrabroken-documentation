@@ -1,9 +1,12 @@
 ---
 title: "Forced Blood Moon"
-abbr: "FBM"
-description: "Allows you to force a blood moon whenever you want"
+abbreviation: "FBM"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["1789(@W0ERYySQgZyGOY3)", "Simonfirefighter", "Maxmasher", "Flash", "acaepius"]
 date: "2023-05-28"
+description: "Allows you to force a blood moon whenever you want"
+aliases: ["forced-blood-moon"]
+tags: ["blood-moon"]
 ---
 
 # Forced Blood Moon `FBM`
@@ -13,7 +16,7 @@ date: "2023-05-28"
 ---
 Allows you to force a blood moon whenever you want
 
-_1789(@W0ERYySQgZyGOY3), simonfirefighter, Maxmasher, Flash, acaepius - 28 May 2023_
+_1789(@W0ERYySQgZyGOY3), Simonfirefighter, Maxmasher, Flash, acaepius - 28 May 2023_
 
 ## Instructions
 ---

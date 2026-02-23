@@ -1,9 +1,12 @@
 ---
 title: "Force Equip Zuggling"
-abbr: "FEZ"
-description: "Allows Link to zuggle weapons using any interaction that forcefully equips a weapon. Best achieved by shrines or quests."
+abbreviation: "FEZ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+credits: ["BigDUCCO", "Mozz", "Rhkellz", "Syb", "NaN Gogh"]
 date: "2023-06-07"
+description: "Allows Link to zuggle weapons using any interaction that forcefully equips a weapon. Best achieved by shrines or quests."
+aliases: ["force-equip-zuggling"]
+tags: ["zuggling", "equipment", "item", "shield"]
 ---
 
 # Force Equip Zuggling `FEZ`

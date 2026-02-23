@@ -1,9 +1,12 @@
 ---
 title: "Unload WST"
-abbr: "UWST"
-description: "Allows you to transfer modifiers and materials to any weapon."
+abbreviation: "UWST"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
-date: "?"
+credits: ["BigDUCCO", "Vee.Might.Exist", "Syb"]
+date: "Unknown"
+description: "Allows you to transfer modifiers and materials to any weapon."
+aliases: ["unload-wst"]
+tags: ["item", "culling", "zuggling"]
 ---
 
 # Unload WST `UWST`
@@ -13,7 +16,7 @@ date: "?"
 ---
 Allows you to transfer modifiers and materials to any weapon. This method is unique as it allows for the modifiers to be tranfered to the master sword as well.
 
-_BigDUCCO, Vee.Might.Exist, syb - Resync your inventory by re-equipping_
+_BigDUCCO, Vee.Might.Exist, Syb - Resync your inventory by re-equipping_
 
 ## Instructions
 ---

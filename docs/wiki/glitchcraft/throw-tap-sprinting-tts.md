@@ -1,9 +1,12 @@
 ---
 title: "Throw Tap Sprinting"
-abbr: "TTS"
-description: "Infinite stamina sprinting method using throw and tap inputs to maintain speed"
+abbreviation: "TTS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Deystroyer", "Tauktes"]
 date: "2023-05-14"
+description: "Infinite stamina sprinting method using throw and tap inputs to maintain speed"
+aliases: ["throw tap", "throw-tap", "throw-tap-sprinting"]
+tags: ["sprinting"]
 ---
 
 # Throw Tap Sprinting `TTS`

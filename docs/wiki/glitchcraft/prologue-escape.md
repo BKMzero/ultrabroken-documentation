@@ -1,9 +1,12 @@
 ---
 title: "Prologue Escape"
-abbr: "PE"
-description: "Using Banc Storage, it's possible to get Link out of the prologue, allowing for a lot of side effects."
+abbreviation: "PE"
 versions: ["1.0.0"]
+credits: ["LegendofLinkk", "mulberry", "Aergyl", "Lightos"]
 date: "2024-10-01"
+description: "Using Banc Storage, it's possible to get Link out of the prologue, allowing for a lot of side effects."
+aliases: ["prologue-escape"]
+tags: ["duplication", "storage"]
 ---
 
 # Prologue Escape `PE`

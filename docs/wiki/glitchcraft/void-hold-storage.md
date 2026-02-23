@@ -1,9 +1,12 @@
 ---
 title: "Void Hold Storage"
-abbr: "VHS"
-description: "Causes a menu softlock that revokes certain actions but allows for Link's model in the control panel, softlocks when attempting exiting any menu, and..."
+abbreviation: "VHS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+credits: ["Lightos", "NX721"]
 date: "2023-07-22"
+description: "Causes a menu softlock that revokes certain actions but allows for Link's model in the control panel, softlocks when attempting exiting any menu, and..."
+aliases: ["void-hold-storage"]
+tags: ["storage", "menu", "item"]
 ---
 
 # Void Hold Storage `VHS`

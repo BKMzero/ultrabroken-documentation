@@ -1,9 +1,12 @@
 ---
 title: "Cucco Warping"
-abbr: "CW"
-description: "Picking up a cucco right as it voids out from entering water warps Link to its respawn location."
+abbreviation: "CW"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["orionsayshi"]
 date: "2023-07-23"
+description: "Picking up a cucco right as it voids out from entering water warps Link to its respawn location."
+aliases: ["cucco-warping"]
+tags: ["warping"]
 ---
 
 # Cucco Warping `CW`

@@ -1,9 +1,12 @@
 ---
 title: "Vendor Scamming"
-abbr: "VS"
-description: "Allows you to infinitely sell items to (steal from) a vendor using Hold Storage/Smuggling."
+abbreviation: "VS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
+credits: ["NX721", "Mozz", "NaN Gogh"]
 date: "2023-07-03"
+description: "Allows you to infinitely sell items to (steal from) a vendor using Hold Storage/Smuggling."
+aliases: ["vendor-scamming"]
+tags: ["zuggling", "storage", "item"]
 ---
 
 # Vendor Scamming `VS`

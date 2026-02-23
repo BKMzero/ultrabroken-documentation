@@ -1,9 +1,12 @@
 ---
 title: "Sage Madness"
-abbr: "SM"
-description: "The camera follows a sage falling down a chasm."
+abbreviation: "SM"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Aci"]
 date: "2023-07-18"
+description: "The camera follows a sage falling down a chasm."
+aliases: ["sage-madness"]
+tags: ["camera"]
 ---
 
 # Sage Madness `SM`

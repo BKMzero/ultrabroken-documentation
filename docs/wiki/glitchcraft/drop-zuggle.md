@@ -1,9 +1,12 @@
 ---
 title: "Drop Zuggle"
-abbr: "DZ"
-description: "Allows for a drop smuggled item to have the same transfer properties as zuggle"
+abbreviation: "DZ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["BigDUCCO"]
 date: "2023-06-15"
+description: "Allows for a drop smuggled item to have the same transfer properties as zuggle"
+aliases: ["drop-zuggle"]
+tags: ["zuggling", "item", "equipment"]
 ---
 
 # Drop Zuggle `DZ`

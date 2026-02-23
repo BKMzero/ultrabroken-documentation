@@ -1,9 +1,12 @@
 ---
 title: "Like-Like Drop Smuggling"
-abbr: "LLDS"
-description: "Allows for Drop Smuggling via slugging"
+abbreviation: "LLDS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Mozz", "mulberry"]
 date: "2023-06-15"
+description: "Allows for Drop Smuggling via slugging"
+aliases: ["like-like-drop-smuggling"]
+tags: ["zuggling", "item", "like-like"]
 ---
 
 # Like-Like Drop Smuggling `LLDS`

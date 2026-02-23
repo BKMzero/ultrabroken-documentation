@@ -1,9 +1,12 @@
 ---
 title: "Infinite Height"
-abbr: "IH"
-description: "Allows you chain jump attacks to jump infinitly."
+abbreviation: "IH"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Mozz", "Physioninja"]
 date: "2023-05-22"
+description: "Allows you chain jump attacks to jump infinitly."
+aliases: ["infinite-height"]
+tags: ["movement"]
 ---
 
 # Infinite Height `IH`

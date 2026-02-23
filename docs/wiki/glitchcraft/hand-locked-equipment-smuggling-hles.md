@@ -1,9 +1,12 @@
 ---
 title: "Hand Locked Equipment Smuggling"
-abbr: "HLES"
-description: "Allows you to smuggle equipment only when your hands are busy."
+abbreviation: "HLES"
 versions: ["1.0.0"]
+credits: ["Aeolian"]
 date: "2023-07-11"
+description: "Allows you to smuggle equipment only when your hands are busy."
+aliases: ["hand-locked-equipment-smuggling"]
+tags: ["zuggling", "equipment", "item", "shield"]
 ---
 
 # Hand Locked Equipment Smuggling `HLES`

@@ -1,9 +1,12 @@
 ---
 title: "Crouch Throw Tap Sprinting"
-abbr: "CTTS"
-description: "Infinite and fastest way of sprinting"
+abbreviation: "CTTS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Deystroyer"]
 date: "2023-05-15"
+description: "Infinite and fastest way of sprinting"
+aliases: ["crouch-throw-tap-sprinting"]
+tags: ["sprinting"]
 ---
 
 # Crouch Throw Tap Sprinting `CTTS`

@@ -1,9 +1,12 @@
 ---
 title: "MNF Zuggle Fuse"
-abbr: "MZF"
-description: "Allows to fuse to the MNF"
+abbreviation: "MZF"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Zvleon"]
 date: "2023-05-18"
+description: "Allows to fuse to the MNF"
+aliases: ["mnf-zuggle-fuse"]
+tags: ["zuggling", "weapon", "fuse", "mnf"]
 ---
 
 # MNF Zuggle Fuse `MZF`

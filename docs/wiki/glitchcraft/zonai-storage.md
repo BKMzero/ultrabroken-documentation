@@ -1,9 +1,12 @@
 ---
 title: "Zonai Storage"
-abbr: "ZS"
-description: "Allows Zonai devices to be stored and taken into shrines"
+abbreviation: "ZS"
 versions: ["1.0.0"]
+credits: ["bebu0815"]
 date: "2023-08-13"
+description: "Allows Zonai devices to be stored and taken into shrines"
+aliases: ["zonai-storage"]
+tags: ["storage", "zonai"]
 ---
 
 # Zonai Storage `ZS`

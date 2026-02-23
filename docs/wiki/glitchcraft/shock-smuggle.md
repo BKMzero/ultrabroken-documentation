@@ -1,9 +1,12 @@
 ---
 title: "Shock Smuggle"
-abbr: "SSMU"
-description: "Dropping an unsheathed equipment just before getting shocked causes equipment smuggle."
+abbreviation: "SSMU"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+credits: ["sleepyppls"]
 date: "2023-06-01"
+description: "Dropping an unsheathed equipment just before getting shocked causes equipment smuggle."
+aliases: ["shock-smuggle"]
+tags: ["zuggling", "item", "equipment"]
 ---
 
 # Shock Smuggle `SSMU`

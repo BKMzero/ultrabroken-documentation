@@ -1,9 +1,12 @@
 ---
 title: "Void Holding"
-abbr: "VH"
-description: "Allows you to hold materials \"whenever you want\" as long as you are at a low enough Y coordinate"
+abbreviation: "VH"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
+credits: ["Lightos"]
 date: "2023-06-10"
+description: "Allows you to hold materials \"whenever you want\" as long as you are at a low enough Y coordinate"
+aliases: ["void-holding"]
+tags: ["item", "zuggling"]
 ---
 
 # Void Holding `VH`

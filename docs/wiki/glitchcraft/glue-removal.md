@@ -1,9 +1,12 @@
 ---
 title: "Glue Removal"
-abbr: "GR"
-description: "Lets you break apart things that have been ultrahanded together"
+abbreviation: "GR"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["R4000"]
 date: "2023-10-05"
+description: "Lets you break apart things that have been ultrahanded together"
+aliases: ["glue-removal"]
+tags: ["ultrahand"]
 ---
 
 # Glue Removal `GR`

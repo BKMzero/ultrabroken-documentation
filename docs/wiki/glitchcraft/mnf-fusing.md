@@ -1,9 +1,12 @@
 ---
 title: "MNF Fusing"
-abbr: "MNFF"
-description: "Allows you to fuse to the MNF"
+abbreviation: "MNFF"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+credits: ["LegendofLinkk"]
 date: "2023-06-05"
+description: "Allows you to fuse to the MNF"
+aliases: ["mnf-fusing"]
+tags: ["fuse", "mnf"]
 ---
 
 # MNF Fusing `MNFF`

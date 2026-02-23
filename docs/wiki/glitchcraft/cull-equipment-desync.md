@@ -1,9 +1,12 @@
 ---
 title: "Cull Equipment Desync"
-abbr: "CED"
-description: "Allows to have a weapon equipped that is not in the inventory."
+abbreviation: "CED"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Blize", "Ock"]
 date: "2023-10-10"
+description: "Allows to have a weapon equipped that is not in the inventory."
+aliases: ["cull-equipment-desync"]
+tags: ["desync", "menu", "equipment", "culling"]
 ---
 
 # Cull Equipment Desync `CED`
@@ -13,7 +16,7 @@ date: "2023-10-10"
 ---
 Allows to have a weapon equipped that is not in the inventory.
 
-_[Blize](https://www.youtube.com/@blizegaming), ock (Cull Arrow Smuggle), Blize - 10 October 2023_
+_[Blize](https://www.youtube.com/@blizegaming), Ock (Cull Arrow Smuggle), Blize - 10 October 2023_
 
 ## Instructions
 ---

@@ -1,9 +1,12 @@
 ---
 title: "Shadow/Void Icons"
-abbr: "SVI"
-description: "Using the camera it's possible to make equipment icons black, leaving only the equipment's shadow and some other eventual colors coming from the fuse."
+abbreviation: "SVI"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
+credits: ["Lightos", "PetitFrapo"]
 date: "2024-10-16"
+description: "Using the camera it's possible to make equipment icons black, leaving only the equipment's shadow and some other eventual colors coming from the fuse."
+aliases: ["shadow/void-icons"]
+tags: ["equipment", "fuse", "camera"]
 ---
 
 # Shadow/Void Icons `SVI`
@@ -13,7 +16,7 @@ date: "2024-10-16"
 ---
 Using the camera it's possible to make equipment icons black, leaving only the equipment's shadow and some other eventual colors coming from the fuse. It's also possible to get fully empty icons.
 
-_[Lightos](https://www.youtube.com/@lightos_), PetitFrapoOriginal - 16 October 2024_
+_[Lightos](https://www.youtube.com/@lightos_), PetitFrapo - 16 October 2024_
 
 ## Instructions
 ---

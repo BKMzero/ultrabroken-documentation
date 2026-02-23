@@ -1,9 +1,12 @@
 ---
 title: "Stamina Depletion Freeze"
-abbr: "SDF"
-description: "Certain actions can cause the stamina depletion to glitch out."
+abbreviation: "SDF"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+credits: ["Lightos"]
 date: "2023-05-20"
+description: "Certain actions can cause the stamina depletion to glitch out."
+aliases: ["stamina-depletion-freeze"]
+tags: ["Unknown"]
 ---
 
 # Stamina Depletion Freeze `SDF`

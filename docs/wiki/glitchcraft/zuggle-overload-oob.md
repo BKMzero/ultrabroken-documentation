@@ -1,9 +1,12 @@
 ---
 title: "Zuggle Overload OOB"
-abbr: "ZOOB"
-description: "Allows you to clip OOB using zuggle overload"
+abbreviation: "ZOOB"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+credits: ["AngryEgg"]
 date: "2023-05-18"
+description: "Allows you to clip OOB using zuggle overload"
+aliases: ["zuggle overload", "zuggle-overload", "zuggle-overload-oob"]
+tags: ["clipping", "oob", "zuggling", "overload"]
 ---
 
 # Zuggle Overload OOB `ZOOB`

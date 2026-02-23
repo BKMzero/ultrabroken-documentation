@@ -1,9 +1,12 @@
 ---
 title: "Smuggle Stacking Zuggle"
-abbr: "SSZ"
-description: "Allows to zuggle bows and shields in version 1.1.2. Weapon zuggle on 1.1.2 is a little bit more complicated. Check the next glitch (FEZ) for that."
+abbreviation: "SSZ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+credits: ["BigDUCCO", "LegendofLinkk", "Mozz"]
 date: "2023-06-06"
+description: "Allows to zuggle bows and shields in version 1.1.2. Weapon zuggle on 1.1.2 is a little bit more complicated. Check the next glitch (FEZ) for that."
+aliases: ["smuggle-stacking-zuggle"]
+tags: ["zuggling", "item", "equipment", "shield", "bow"]
 ---
 
 # Smuggle Stacking Zuggle `SSZ`
@@ -13,7 +16,7 @@ date: "2023-06-06"
 ---
 Allows to zuggle bows and shields in version 1.1.2. Weapon zuggle on 1.1.2 is a little bit more complicated. Check the next glitch (FEZ) for that.
 
-_BigDUCCO, LegendofLink, [Mozz](https://www.youtube.com/@M0zzed) - 6 June 2023_
+_BigDUCCO, LegendofLinkk, [Mozz](https://www.youtube.com/@M0zzed) - 6 June 2023_
 
 ## Instructions
 ---

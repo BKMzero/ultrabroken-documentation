@@ -1,9 +1,12 @@
 ---
 title: "Weapon Extensions"
-abbr: "WEXT"
-description: "Allows the weapon to hit other entites from further away (excluding two hand weapons)."
+abbreviation: "WEXT"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Deltenic", "Flash", "Zas"]
 date: "2023-06-20"
+description: "Allows the weapon to hit other entites from further away (excluding two hand weapons)."
+aliases: ["weapon-extensions"]
+tags: ["weapon"]
 ---
 
 # Weapon Extensions `WEXT`

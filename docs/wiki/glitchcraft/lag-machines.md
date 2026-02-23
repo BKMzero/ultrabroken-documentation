@@ -1,9 +1,12 @@
 ---
 title: "Lag Machines"
-abbr: "LM"
-description: "Filling up small areas with many objects causes a lot of lag and strange effects"
+abbreviation: "LM"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Mozz"]
 date: "2023-10-05"
+description: "Filling up small areas with many objects causes a lot of lag and strange effects"
+aliases: ["lag-machines"]
+tags: ["overload"]
 ---
 
 # Lag Machines `LM`

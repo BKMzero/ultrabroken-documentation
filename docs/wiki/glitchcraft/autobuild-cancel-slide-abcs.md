@@ -1,9 +1,12 @@
 ---
 title: "Autobuild Cancel Slide"
-abbr: "ABCS"
-description: "Allows you to slide on top of the blueprint build over the map at insane speeds, or gain immense amounts of height."
+abbreviation: "ABCS"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
+credits: ["Takosensai1"]
 date: "2023-05-18"
+description: "Allows you to slide on top of the blueprint build over the map at insane speeds, or gain immense amounts of height."
+aliases: ["auto-build", "autobuild", "autobuild cancel", "autobuild-cancel-slide"]
+tags: ["animation", "movement", "autobuild"]
 ---
 
 # Autobuild Cancel Slide `ABCS`

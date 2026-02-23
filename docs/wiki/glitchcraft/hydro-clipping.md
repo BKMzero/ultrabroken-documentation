@@ -1,9 +1,12 @@
 ---
 title: "Hydro Clipping"
-abbr: "HC"
-description: "Using guardless active shield or throwless storage on a hydrant shield (FED to a weapon) can cause link and enemies to clip through the ground."
+abbreviation: "HC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Simonfirefighter", "Maxmasher", "KnightPohtaytoh", "pyuk"]
 date: "2023-06-15"
+description: "Using guardless active shield or throwless storage on a hydrant shield (FED to a weapon) can cause link and enemies to clip through the ground."
+aliases: ["hydro-clipping"]
+tags: ["clipping", "storage", "equipment", "shield"]
 ---
 
 # Hydro Clipping `HC`

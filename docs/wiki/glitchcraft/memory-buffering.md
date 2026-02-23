@@ -1,9 +1,12 @@
 ---
 title: "Memory Buffering"
-abbr: "MB"
-description: "Advances Links current animation by 1 frame while keeping the menu open. Links coordinates will not change."
+abbreviation: "MB"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Mozz"]
 date: "2023-05-29"
+description: "Advances Links current animation by 1 frame while keeping the menu open. Links coordinates will not change."
+aliases: ["memory-buffering"]
+tags: ["menu", "buff"]
 ---
 
 # Memory Buffering `MB`

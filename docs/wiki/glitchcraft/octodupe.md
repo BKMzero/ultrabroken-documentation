@@ -1,9 +1,12 @@
 ---
 title: "Octodupe"
-abbr: "OD"
-description: "Allows for the duplication of items sucked up by a rock octorok."
+abbreviation: "OD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+credits: ["Unknown"]
 date: "2023-05-26"
+description: "Allows for the duplication of items sucked up by a rock octorok."
+aliases: []
+tags: ["duplication", "item", "zuggling"]
 ---
 
 # Octodupe `OD`

@@ -1,9 +1,12 @@
 ---
 title: "Ocklusion"
-abbr: "OCKL"
-description: "Portaculling at the top of a chasm box unloads the surface"
+abbreviation: "OCKL"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Ock", "mulberry"]
 date: "2024-05-29"
+description: "Portaculling at the top of a chasm box unloads the surface"
+aliases: []
+tags: ["culling"]
 ---
 
 # Ocklusion `OCKL`

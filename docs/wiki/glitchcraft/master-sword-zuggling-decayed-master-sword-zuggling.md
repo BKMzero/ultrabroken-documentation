@@ -1,9 +1,12 @@
 ---
 title: "Master Sword Zuggling/ Decayed Master Sword Zuggling"
-abbr: "MSZ"
-description: "Allows you to zuggle the master sword or decayed master sword by desyncing it"
+abbreviation: "MSZ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Zas"]
 date: "2023-11-06"
+description: "Allows you to zuggle the master sword or decayed master sword by desyncing it"
+aliases: ["master-sword-zuggling"]
+tags: ["zuggling", "desync", "weapon"]
 ---
 
 # Master Sword Zuggling/ Decayed Master Sword Zuggling `MSZ`
@@ -42,7 +45,7 @@ An alternative much easier method of getting the desync and transfering it:
 
 ## Notes
 ---
-Altenative method (mulbery)
+Altenative method (mulberry)
 https://discord.com/channels/1086729144307564648/1105598687167664239/1178791475216134194
 This can be combined with mastersword liberation to drop the dms/ms
 

@@ -1,9 +1,12 @@
 ---
 title: "Weapon Sheath Offset"
-abbr: "WSO"
-description: "Puts the weapon sheathe in an offset state, similar to the sheathe during Zuggle Overload"
+abbreviation: "WSO"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["circyit", "dash"]
 date: "2023-06-25"
+description: "Puts the weapon sheathe in an offset state, similar to the sheathe during Zuggle Overload"
+aliases: ["weapon-sheath-offset"]
+tags: ["zuggling", "weapon", "overload"]
 ---
 
 # Weapon Sheath Offset `WSO`

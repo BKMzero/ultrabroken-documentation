@@ -1,9 +1,12 @@
 ---
 title: "Ascend Camera Glitch"
-abbr: "ACG"
-description: "Keeps the camera far away from link after a file load for a short period of time."
+abbreviation: "ACG"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
-date: "?"
+credits: ["Unknown"]
+date: "Unknown"
+description: "Keeps the camera far away from link after a file load for a short period of time."
+aliases: ["ascend-camera-glitch"]
+tags: ["ascend", "camera"]
 ---
 
 # Ascend Camera Glitch `ACG`

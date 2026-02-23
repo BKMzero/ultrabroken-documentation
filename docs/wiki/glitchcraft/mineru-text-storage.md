@@ -1,9 +1,12 @@
 ---
 title: "Mineru Text Storage"
-abbr: "MTS"
-description: "Lets you move while text is on screen"
+abbreviation: "MTS"
 versions: ["1.0.0"]
+credits: ["CM30"]
 date: "2024-07-11"
+description: "Lets you move while text is on screen"
+aliases: ["mineru-text-storage"]
+tags: ["storage", "mineru"]
 ---
 
 # Mineru Text Storage `MTS`

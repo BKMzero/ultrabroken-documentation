@@ -1,9 +1,12 @@
 ---
 title: "Travel Medallion storage"
-abbr: "TMS"
-description: "Places the travel medallion at links feet after loading a file."
+abbreviation: "TMS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["kirigaya"]
 date: "2023-06-16"
+description: "Places the travel medallion at links feet after loading a file."
+aliases: ["travel-medallion-storage"]
+tags: ["storage"]
 ---
 
 # Travel Medallion storage `TMS`

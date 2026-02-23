@@ -1,9 +1,12 @@
 ---
 title: "Texture Tearing"
-abbr: "TT"
-description: "During Menu Overload via Moobe, textures can be loaded incorrectly, broken, or even adopted from the enviroment/other equipment."
+abbreviation: "TT"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Ock"]
 date: "2024-01-13"
+description: "During Menu Overload via Moobe, textures can be loaded incorrectly, broken, or even adopted from the enviroment/other equipment."
+aliases: ["texture-tearing"]
+tags: ["oob", "menu", "equipment", "overload"]
 ---
 
 # Texture Tearing `TT`
@@ -30,4 +33,4 @@ The exact cause of texture tearing remains unknown and there are no well defined
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1194033039123165215/1195690499852480544)
-- [Mulberry's Out of Body Experience](search:Mulberry's Out of Body Experience)
+- [mulberry's Out of Body Experience](search:mulberry's Out of Body Experience)

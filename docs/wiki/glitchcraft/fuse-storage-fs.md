@@ -1,9 +1,12 @@
 ---
 title: "Fuse Storage"
-abbr: "FS"
-description: "Fusing an item on the same frame that it culls interrupts the fuse."
+abbreviation: "FS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Mozz"]
 date: "2023-06-18"
+description: "Fusing an item on the same frame that it culls interrupts the fuse."
+aliases: ["fuse-storage"]
+tags: ["storage", "item", "culling", "fuse"]
 ---
 
 # Fuse Storage `FS`

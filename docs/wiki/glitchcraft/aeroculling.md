@@ -1,9 +1,12 @@
 ---
 title: "Aeroculling"
-abbr: "AC"
-description: "Putting a perma-culled fan equipment's wind in a culling area prevents objects in it from getting culled, except if Link stands on most objects..."
+abbreviation: "AC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Aergyl", "mulberry"]
 date: "2024-08-11"
+description: "Putting a perma-culled fan equipment's wind in a culling area prevents objects in it from getting culled, except if Link stands on most objects..."
+aliases: []
+tags: ["equipment", "culling", "shield", "zuggling"]
 ---
 
 # Aeroculling `AC`

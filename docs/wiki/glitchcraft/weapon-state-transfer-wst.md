@@ -1,9 +1,12 @@
 ---
 title: "Weapon State Transfer"
-abbr: "WST"
-description: "Allows you to transfer the durability, fused material, and modifier of a weapon"
+abbreviation: "WST"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["BigDUCCO", "kurocat471", "ElDuende", "Mentor_Kurt"]
 date: "2023-05-19"
+description: "Allows you to transfer the durability, fused material, and modifier of a weapon"
+aliases: ["weapon transfer", "weapon-state-transfer"]
+tags: ["weapon", "fuse", "entanglement", "equipment", "item"]
 ---
 
 # Weapon State Transfer `WST`

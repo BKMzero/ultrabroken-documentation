@@ -1,9 +1,12 @@
 ---
 title: "Like-Like Fuse Storage"
-abbr: "LLFS"
-description: "Fusing to an item on the same frame that a like-like eats it causes fuse storage"
+abbreviation: "LLFS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
+credits: ["Mozz"]
 date: "2023-06-18"
+description: "Fusing to an item on the same frame that a like-like eats it causes fuse storage"
+aliases: ["like-like-fuse-storage"]
+tags: ["storage", "item", "fuse", "like-like"]
 ---
 
 # Like-Like Fuse Storage `LLFS`

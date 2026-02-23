@@ -1,9 +1,12 @@
 ---
 title: "Ultrabroken"
-abbr: "UB"
-description: "Allows you to pull the object with another glued material while Link stands on top of it, sending it flying forwards from the pull itself."
+abbreviation: "UB"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+credits: ["Duncan"]
 date: "2023-05-29"
+description: "Allows you to pull the object with another glued material while Link stands on top of it, sending it flying forwards from the pull itself."
+aliases: ["ultra-broken", "ultrabreak"]
+tags: ["item", "ultrahand", "zuggling"]
 ---
 
 # Ultrabroken `UB`

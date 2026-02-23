@@ -1,9 +1,12 @@
 ---
 title: "Zonai Inventory Shift Dupe"
-abbr: "ZISD"
-description: "Uses Memory Buffering and MTD to duplicate Zonai Devices"
+abbreviation: "ZISD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Ryan?", "quantim"]
 date: "2023-07-10"
+description: "Uses Memory Buffering and MTD to duplicate Zonai Devices"
+aliases: ["zonai-inventory-shift-dupe"]
+tags: ["duplication", "menu", "buff", "zonai"]
 ---
 
 # Zonai Inventory Shift Dupe `ZISD`
@@ -13,7 +16,7 @@ date: "2023-07-10"
 ---
 Uses Memory Buffering and MTD to duplicate Zonai Devices
 
-_Ryan?, Quantim - 10 July 2023_
+_Ryan?, quantim - 10 July 2023_
 
 ## Instructions
 ---

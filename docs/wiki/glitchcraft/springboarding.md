@@ -1,9 +1,12 @@
 ---
 title: "Springboarding"
-abbr: "SBRD"
-description: "Spring jump across terrain for as long as shield durability lasts."
+abbreviation: "SBRD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Mozz"]
 date: "2023-05-24"
+description: "Spring jump across terrain for as long as shield durability lasts."
+aliases: []
+tags: ["equipment", "shield", "spring"]
 ---
 
 # Springboarding `SBRD`

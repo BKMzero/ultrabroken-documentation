@@ -1,9 +1,12 @@
 ---
 title: "Freecall"
-abbr: "FC"
-description: "Breaks the lock on a recall lock, allowing the object to be in freecall without ub"
+abbreviation: "FC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["suusi", "ROBUXY2ND"]
 date: "2023-09-09"
+description: "Breaks the lock on a recall lock, allowing the object to be in freecall without ub"
+aliases: []
+tags: ["ultrahand", "recall"]
 ---
 
 # Freecall `FC`
@@ -13,7 +16,7 @@ date: "2023-09-09"
 ---
 Breaks the lock on a recall lock, allowing the object to be in freecall without ub
 
-_[suusi](https://www.youtube.com/channel/UCbUwlQ_88XfXD2bfU_4kxYg), ROBUXY2nd - 9 September 2023_
+_[suusi](https://www.youtube.com/channel/UCbUwlQ_88XfXD2bfU_4kxYg), ROBUXY2ND - 9 September 2023_
 
 ## Instructions
 ---

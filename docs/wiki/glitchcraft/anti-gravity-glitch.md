@@ -1,9 +1,12 @@
 ---
 title: "Anti-Gravity Glitch"
-abbr: "AGG"
-description: "After a specific cutscene, Link is stuck airborne when attempting to descend"
+abbreviation: "AGG"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+credits: ["Kaldemar"]
 date: "2023-05-13"
+description: "After a specific cutscene, Link is stuck airborne when attempting to descend"
+aliases: ["anti gravity", "anti gravity glitch", "anti-gravity-glitch", "antigravity glitch"]
+tags: ["paraglide"]
 ---
 
 # Anti-Gravity Glitch `AGG`

@@ -1,9 +1,12 @@
 ---
 title: "Menu Overload"
-abbr: "MO"
-description: "Overloads the item menu via Moobe, acting similarly to menu overload in BOTW"
+abbreviation: "MO"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Mozz"]
 date: "2024-01-11"
+description: "Overloads the item menu via Moobe, acting similarly to menu overload in BOTW"
+aliases: ["menu-overload"]
+tags: ["oob", "menu", "item", "overload"]
 ---
 
 # Menu Overload `MO`
@@ -30,4 +33,4 @@ Texture Tearing
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1194033039123165215/1195129250265694289)
 - [Discord](https://discord.com/channels/1086729144307564648/1194033039123165215/1196033176183779430)
-- [Mulberry's Out of Body Experience](search:Mulberry's Out of Body Experience)
+- [mulberry's Out of Body Experience](search:mulberry's Out of Body Experience)

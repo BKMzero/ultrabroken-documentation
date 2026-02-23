@@ -1,9 +1,12 @@
 ---
 title: "Bundled Item Duplication"
-abbr: "BID"
-description: "Culling dropping an item in a specific way and unloading it causes it to get put into a state of constantly respawning when holding another item..."
+abbreviation: "BID"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Ock"]
 date: "2023-12-12"
+description: "Culling dropping an item in a specific way and unloading it causes it to get put into a state of constantly respawning when holding another item..."
+aliases: ["bundled-item-duplication"]
+tags: ["duplication", "item", "culling"]
 ---
 
 # Bundled Item Duplication `BID`

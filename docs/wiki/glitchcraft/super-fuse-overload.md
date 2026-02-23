@@ -1,9 +1,12 @@
 ---
 title: "Super Fuse Overload"
-abbr: "SFO"
-description: "Allows you to get Zelda's torch and Mineru's arm."
+abbreviation: "SFO"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["mulberry", "Aergyl", "Jordan", "MandelbrotChaylay"]
 date: "2025-12-06"
+description: "Allows you to get Zelda's torch and Mineru's arm."
+aliases: ["super-fuse-overload"]
+tags: ["weapon", "overload", "fuse", "mineru"]
 ---
 
 # Super Fuse Overload `SFO`

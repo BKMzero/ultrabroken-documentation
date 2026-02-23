@@ -1,9 +1,12 @@
 ---
 title: "Master Sword Liberation"
-abbr: "MSL"
-description: "Allows you to dupe the master sword/decayed master sword"
+abbreviation: "MSL"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Ock", "mulberry"]
 date: "2023-11-11"
+description: "Allows you to dupe the master sword/decayed master sword"
+aliases: ["master-sword-liberation"]
+tags: ["duplication", "weapon"]
 ---
 
 # Master Sword Liberation `MSL`
@@ -13,11 +16,11 @@ date: "2023-11-11"
 ---
 Allows you to dupe the master sword/decayed master sword
 
-_ock, mulbery - Nov 11, 2023; Nov 27, 2023; Dec 2, 2023_
+_ock, mulberry - Nov 11, 2023; Nov 27, 2023; Dec 2, 2023_
 
 ## Instructions
 ---
-Method 1 (ock):
+Method 1 (Ock):
 
 1. Do the like like stick cull.
 2. During the cull, get on mineru to cull both yourself and mineru.
@@ -30,7 +33,7 @@ Method 1 (ock):
 9. Drop the desynced .
 10. Drop the chest weapon and grab the desynced .
 
-Method 2 (mulbery):
+Method 2 (mulberry):
 
 1. FE an object
 2. Feed the item that the object is fed to to a like like and also feed it a time bomb
@@ -45,7 +48,7 @@ Method 2 (mulbery):
 11. Drop the desynced master sword.
 12. Drop the chest weapon and grab the desynced master sword.
 
-Method 3 (ock):
+Method 3 (Ock):
 
 1. Do a like-like stick cull at highland stable
 2. Go to the well, and uncull

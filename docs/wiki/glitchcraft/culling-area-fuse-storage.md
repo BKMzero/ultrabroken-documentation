@@ -1,9 +1,12 @@
 ---
 title: "Culling Area Fuse Storage"
-abbr: "CAFS"
-description: "A method of Fuse Storage using Area Culling ?"
-versions: ["?"]
+abbreviation: "CAFS"
+versions: ["Unknown"]
+credits: ["Mozz", "pyuk"]
 date: "2023-06-30"
+description: "A method of Fuse Storage using Area Culling ?"
+aliases: ["culling-area-fuse-storage"]
+tags: ["storage", "culling", "fuse"]
 ---
 
 # Culling Area Fuse Storage `CAFS`

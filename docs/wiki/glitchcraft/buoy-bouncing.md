@@ -1,9 +1,12 @@
 ---
 title: "Buoy Bouncing"
-abbr: "BB"
-description: "Get an abnormaly large shield jump boost when coming into contact with water."
+abbreviation: "BB"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["InAMuffinCup"]
 date: "2023-05-25"
+description: "Get an abnormaly large shield jump boost when coming into contact with water."
+aliases: ["buoy-bouncing"]
+tags: ["equipment", "movement", "shield"]
 ---
 
 # Buoy Bouncing `BB`

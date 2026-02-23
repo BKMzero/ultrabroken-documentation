@@ -1,9 +1,12 @@
 ---
 title: "Zuggle Overload Desync"
-abbr: "ZOD"
-description: "Allows you to transfer with menu desync from zuggle overload."
+abbreviation: "ZOD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
-date: "?"
+credits: ["Unknown"]
+date: "Unknown"
+description: "Allows you to transfer with menu desync from zuggle overload."
+aliases: ["zuggle-overload-desync"]
+tags: ["zuggling", "desync", "menu", "overload"]
 ---
 
 # Zuggle Overload Desync `ZOD`

@@ -1,9 +1,12 @@
 ---
 title: "Camera Pose Glitch"
-abbr: "CPG"
-description: "Link keeps walking while frozen in the camera animation."
+abbreviation: "CPG"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
-date: "?"
+credits: ["Unknown"]
+date: "Unknown"
+description: "Link keeps walking while frozen in the camera animation."
+aliases: ["camera-pose-glitch"]
+tags: ["camera"]
 ---
 
 # Camera Pose Glitch `CPG`

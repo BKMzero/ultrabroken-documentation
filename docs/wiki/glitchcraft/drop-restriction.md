@@ -1,9 +1,12 @@
 ---
 title: "Drop Restriction"
-abbr: "DR"
-description: "Prevents zonai devices from spawning out of the inventory."
+abbreviation: "DR"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
+credits: ["SCFD-GK2", "NicNac"]
 date: "2023-06-19"
+description: "Prevents zonai devices from spawning out of the inventory."
+aliases: ["drop-restriction"]
+tags: ["menu", "item", "zonai"]
 ---
 
 # Drop Restriction `DR`
@@ -13,7 +16,7 @@ date: "2023-06-19"
 ---
 Prevents zonai devices from spawning out of the inventory.
 
-_SCFD-GK2, Nicnac - 19 June 2023_
+_SCFD-GK2, NicNac - 19 June 2023_
 
 ## Instructions
 ---

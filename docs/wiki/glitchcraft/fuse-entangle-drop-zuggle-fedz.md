@@ -1,9 +1,12 @@
 ---
 title: "Fuse Entangle Drop Zuggle"
-abbr: "FEDZ"
-description: "Similarily to FEWZ, this is not a real drop zuggle, but rather a shield zuggle"
+abbreviation: "FEDZ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+credits: ["Ryan?"]
 date: "2023-06-17"
+description: "Similarily to FEWZ, this is not a real drop zuggle, but rather a shield zuggle"
+aliases: ["fuse-entangle-drop-zuggle"]
+tags: ["zuggling", "item", "weapon", "equipment", "entanglement", "fuse", "shield"]
 ---
 
 # Fuse Entangle Drop Zuggle `FEDZ`

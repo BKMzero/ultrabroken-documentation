@@ -1,9 +1,12 @@
 ---
 title: "Horse Duping"
-abbr: "HD"
-description: "Killing a horse while in a specific cull setup, sends it to the horse god without killing it."
+abbreviation: "HD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Ock"]
 date: "2024-03-22"
+description: "Killing a horse while in a specific cull setup, sends it to the horse god without killing it."
+aliases: ["horse-duping"]
+tags: ["duplication", "culling", "horse"]
 ---
 
 # Horse Duping `HD`

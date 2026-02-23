@@ -1,9 +1,12 @@
 ---
 title: "Wuggle"
-abbr: "WGL"
-description: "By dropping and equipping equipment in a specific way during a cull causes a glitch similar to zuggle."
+abbreviation: "WGL"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Ock", "ROBUXY2ND"]
 date: "2023-12-29"
+description: "By dropping and equipping equipment in a specific way during a cull causes a glitch similar to zuggle."
+aliases: []
+tags: ["zuggling", "item", "equipment", "culling"]
 ---
 
 # Wuggle `WGL`
@@ -13,7 +16,7 @@ date: "2023-12-29"
 ---
 By dropping and equipping equipment in a specific way during a cull causes a glitch similar to zuggle.
 
-_ock, robuxy2nd - 29 December 2023_
+_ock, ROBUXY2ND - 29 December 2023_
 
 ## Instructions
 ---

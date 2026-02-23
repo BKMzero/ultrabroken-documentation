@@ -1,12 +1,15 @@
 ---
 title: "Mulberry's Out of Body Experience"
-abbr: "MOOBE"
-description: "(Temporarily) Warps Link to a previous climbing position from anywhere in the world, only while the game is paused."
+abbreviation: "MOOBE"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["mulberry"]
 date: "2024-01-06"
+description: "(Temporarily) Warps Link to a previous climbing position from anywhere in the world, only while the game is paused."
+aliases: ["mulberry's-out-of-body-experience"]
+tags: ["warping", "movement"]
 ---
 
-# Mulberry's Out of Body Experience `MOOBE`
+# mulberry's Out of Body Experience `MOOBE`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

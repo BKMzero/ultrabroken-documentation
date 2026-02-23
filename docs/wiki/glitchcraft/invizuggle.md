@@ -1,9 +1,12 @@
 ---
 title: "Invizuggle"
-abbr: "IVZ"
-description: "Dropping equipment in a specific way during a cull causes an indestructable and invisible zuggle."
+abbreviation: "IVZ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Ock", "Yee"]
 date: "2024-01-03"
+description: "Dropping equipment in a specific way during a cull causes an indestructable and invisible zuggle."
+aliases: []
+tags: ["zuggling", "item", "equipment", "culling"]
 ---
 
 # Invizuggle `IVZ`
@@ -47,14 +50,14 @@ Method 2 is much easier, but deletes fe items:
 10. Open chest with a full inventory and fail a drop with the zuggled item, this unlocks the dpad
 
 Methods for older versions:
-Method 3 (Discord) (Mulberry):
+Method 3 (Discord) (mulberry):
 
 1. Fe something to the item you wish to invizuggle (optional, but makes it more convenient)
 2. drop the item and pick it up right when a like like eats it
 3. map zuggle it
 4. warp away, if link has the item fe'd to it equipped in the overworld, you invizuggled its basew (this check only works if you did the fe)
 
-Method 4 (Discord) (Mulberry):
+Method 4 (Discord) (mulberry):
 
 1. drop smuggle the target item with either shock smuggle or cull smuggle (you can fe any items before to zlot them)
 2. trigger a like like to eat the drop smuggled equipment

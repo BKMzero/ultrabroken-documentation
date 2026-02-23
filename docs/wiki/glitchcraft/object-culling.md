@@ -1,9 +1,12 @@
 ---
 title: "Object Culling"
-abbr: "OC"
-description: "Places an object in a half-unloaded, limbo like state."
+abbreviation: "OC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Mozz", "tori", "mulberry", "Timber"]
 date: "2023-06-27"
+description: "Places an object in a half-unloaded, limbo like state."
+aliases: ["object-culling"]
+tags: ["culling"]
 ---
 
 # Object Culling `OC`
@@ -15,7 +18,7 @@ Places an object in a half-unloaded, limbo like state. Leading to unintended int
 
 Object culling in this instance refers to an optimization trick in which actors within a certain area will be unloaded for the purposes of saving memory.
 
-_[Mozz](https://www.youtube.com/@M0zzed), tori, Mulberry, Timber - 27 June 2023_
+_[Mozz](https://www.youtube.com/@M0zzed), tori, mulberry, Timber - 27 June 2023_
 
 ## Instructions
 ---

@@ -1,9 +1,12 @@
 ---
 title: "Wheel Zoomy"
-abbr: "WZ"
-description: "Uses a formation of wheels to gain momentum on land, similar speeds to Wacko Boingo"
+abbreviation: "WZ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Solo_Turtle"]
 date: "2023-07-12"
+description: "Uses a formation of wheels to gain momentum on land, similar speeds to Wacko Boingo"
+aliases: ["wheel-zoomy"]
+tags: ["movement", "zonai"]
 ---
 
 # Wheel Zoomy `WZ`

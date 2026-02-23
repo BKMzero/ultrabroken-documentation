@@ -1,9 +1,12 @@
 ---
 title: "Jumpslash Cancel Clipping"
-abbr: "JCC"
-description: "Allows for clipping through thin ceilings."
+abbreviation: "JCC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Mozz"]
 date: "2023-06-16"
+description: "Allows for clipping through thin ceilings."
+aliases: ["jumpslash-cancel-clipping"]
+tags: ["clipping", "animation"]
 ---
 
 # Jumpslash Cancel Clipping `JCC`

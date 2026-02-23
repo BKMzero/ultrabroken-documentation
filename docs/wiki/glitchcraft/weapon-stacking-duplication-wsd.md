@@ -1,9 +1,12 @@
 ---
 title: "Weapon Stacking Duplication"
-abbr: "WSD"
-description: "Allows for a quick dupe of any weapon, bow or shield"
+abbreviation: "WSD"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
+credits: ["Erling附身"]
 date: "2023-05-16"
+description: "Allows for a quick dupe of any weapon, bow or shield"
+aliases: ["weapon stacking dupe", "weapon-stacking-duplication"]
+tags: ["duplication", "item", "weapon", "equipment", "bow"]
 ---
 
 # Weapon Stacking Duplication `WSD`

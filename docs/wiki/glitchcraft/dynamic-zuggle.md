@@ -1,9 +1,12 @@
 ---
 title: "Dynamic Zuggle"
-abbr: "DZG"
-description: "Dropping equippment in a specific way causes it to be put into a linked state between drop smuggled and zuggled, while the dynamic zuggled item is..."
+abbreviation: "DZG"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+credits: ["Lightos", "Zas", "mulberry", "WinnerBoi77", "Ryan?", "CS16"]
 date: "2023-09-06"
+description: "Dropping equippment in a specific way causes it to be put into a linked state between drop smuggled and zuggled, while the dynamic zuggled item is..."
+aliases: ["dynamic-zuggle"]
+tags: ["zuggling", "item", "equipment"]
 ---
 
 # Dynamic Zuggle `DZG`
@@ -13,7 +16,7 @@ date: "2023-09-06"
 ---
 Dropping equippment in a specific way causes it to be put into a linked state between drop smuggled and zuggled, while the dynamic zuggled item is alternating between sheathed and unsheated together with your equippment. It can only be canceled by throwing the dynamic zuggled weapon, shocking or closing the game.
 
-_[Lightos](https://www.youtube.com/@lightos_), Zas, Mulberry, Winnerboi, Ryan?, CS16 - 6 September 2023_
+_[Lightos](https://www.youtube.com/@lightos_), Zas, mulberry, WinnerBoi77, Ryan?, CS16 - 6 September 2023_
 
 ## Instructions
 ---
@@ -28,7 +31,7 @@ Method 1 (1.0.0(Zas & [Lightos](https://www.youtube.com/@lightos_))):
 8. Swap weapon to initiate the dynamic smuggle 
 9. Fail drop against a wall to turn it into dynamic *zuggle*
 
-Method 2 (1.0.0-1.1.2(Winnerboi, CS16)): 
+Method 2 (1.0.0-1.1.2(WinnerBoi77, CS16)): 
 (This also works for 1.2.0-1.2.1, but you can't finish the setup because of dpadlock which is currently impossible to remove)
 This only works with shields and bows for 1.1.2
 1. Have a full inventory of whatever you are intending to dynamic zuggle
@@ -42,7 +45,7 @@ This only works with shields and bows for 1.1.2
 10. swap the type you dynamic smuggled with the ability menu
 11. fail drop against a wall to turn int into a full dynamic zuggle
 
-Method 3 (Winnerboi & Ryan):
+Method 3 (WinnerBoi77 & Ryan):
 1. Prepare an FE chain for whatever you want to DynZuggle and have it on the floor.
 2. Get some smuggle so that your next throw will automatically drop smuggle.
 3. Pick up the thing you want to DynZuggle.

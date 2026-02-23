@@ -1,9 +1,12 @@
 ---
 title: "Breaking Awakened Master Sword"
-abbr: "BAMS"
-description: "By using certain setups, it is possible to ignore the no durability use."
+abbreviation: "BAMS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Infrasolid"]
 date: "2023-11-26"
+description: "By using certain setups, it is possible to ignore the no durability use."
+aliases: ["breaking-awakened-master-sword"]
+tags: ["weapon"]
 ---
 
 # Breaking Awakened Master Sword `BAMS`

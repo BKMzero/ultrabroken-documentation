@@ -1,9 +1,12 @@
 ---
 title: "Ultrabroken Smuggling"
-abbr: "UBS"
-description: "Makes an FE'd object follow the shield."
+abbreviation: "UBS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+credits: ["The_Andromeda"]
 date: "2023-06-13"
+description: "Makes an FE'd object follow the shield."
+aliases: ["ultrabroken-smuggling"]
+tags: ["zuggling", "equipment", "ultrahand", "shield"]
 ---
 
 # Ultrabroken Smuggling `UBS`

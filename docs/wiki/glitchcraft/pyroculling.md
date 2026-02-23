@@ -1,9 +1,12 @@
 ---
 title: "Pyroculling"
-abbr: "PYR"
-description: "The fire from a fire emitter prevents objects in a cull area from culling until the game is paused (also works with ice emitters)"
+abbreviation: "PYR"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.2.0"]
+credits: ["ROBUXY2ND"]
 date: "2023-11-17"
+description: "The fire from a fire emitter prevents objects in a cull area from culling until the game is paused (also works with ice emitters)"
+aliases: []
+tags: ["culling"]
 ---
 
 # Pyroculling `PYR`

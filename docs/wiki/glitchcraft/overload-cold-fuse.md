@@ -1,9 +1,12 @@
 ---
 title: "Overload Cold Fuse"
-abbr: "OCF"
-description: "Fusing to an overload dropped item causes cold fuse"
+abbreviation: "OCF"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["F. Buffalo"]
 date: "2023-07-23"
+description: "Fusing to an overload dropped item causes cold fuse"
+aliases: ["overload-cold-fuse"]
+tags: ["item", "weapon", "overload", "fuse"]
 ---
 
 # Overload Cold Fuse `OCF`

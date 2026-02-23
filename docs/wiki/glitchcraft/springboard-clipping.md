@@ -1,9 +1,12 @@
 ---
 title: "Springboard Clipping"
-abbr: "SBC"
-description: "Allows link to clip through the floor while springboarding under a low ceiling."
+abbreviation: "SBC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["ab2x3z"]
 date: "2023-05-27"
+description: "Allows link to clip through the floor while springboarding under a low ceiling."
+aliases: ["springboard-clipping"]
+tags: ["clipping", "spring"]
 ---
 
 # Springboard Clipping `SBC`

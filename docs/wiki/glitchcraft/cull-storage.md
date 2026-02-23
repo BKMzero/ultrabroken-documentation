@@ -1,9 +1,12 @@
 ---
 title: "Cull Storage"
-abbr: "CSTR"
-description: "Culling and unculling an sdc stick in a specific way allows you to store its cull."
+abbreviation: "CSTR"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["mulberry"]
 date: "2024-01-20"
+description: "Culling and unculling an sdc stick in a specific way allows you to store its cull."
+aliases: ["cull-storage"]
+tags: ["storage", "culling"]
 ---
 
 # Cull Storage `CSTR`
@@ -17,7 +20,7 @@ _mulberry - 20 January 2024_
 
 ## Instructions
 ---
-There exist a couple variations, this variation is the easiest: (Mulberry, [Lightos](https://www.youtube.com/@lightos_))
+There exist a couple variations, this variation is the easiest: (mulberry, [Lightos](https://www.youtube.com/@lightos_))
 1. perform sdc and put the sdc stick in a culling area
 2. pickup sdc base
 3. lift a small object (time bombs work great)

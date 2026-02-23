@@ -1,9 +1,12 @@
 ---
 title: "Recall Drop Stacking"
-abbr: "RDS"
-description: "Dropping many zonai devices in recall causes intense frame drops"
+abbreviation: "RDS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+credits: ["Telkic", "mulberry"]
 date: "2025-01-04"
+description: "Dropping many zonai devices in recall causes intense frame drops"
+aliases: ["recall-drop-stacking"]
+tags: ["item", "recall", "zonai"]
 ---
 
 # Recall Drop Stacking `RDS`

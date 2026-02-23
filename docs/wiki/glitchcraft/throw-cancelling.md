@@ -1,9 +1,12 @@
 ---
 title: "Throw Cancelling"
-abbr: "TC"
-description: "Allows you to cancel the ending animation of throwing via Runes, allowing you to throw faster _Quelfth_"
+abbreviation: "TC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
-date: "?"
+credits: ["Quelfth"]
+date: "Unknown"
+description: "Allows you to cancel the ending animation of throwing via Runes, allowing you to throw faster _Quelfth_"
+aliases: ["throw-cancelling"]
+tags: ["animation"]
 ---
 
 # Throw Cancelling `TC`

@@ -1,9 +1,12 @@
 ---
 title: "Null Dropping"
-abbr: "ND"
-description: "Displays a glitched and empty chest quickmenu."
+abbreviation: "ND"
 versions: ["1.0.0"]
+credits: ["Aergyl"]
 date: "2024-03-16"
+description: "Displays a glitched and empty chest quickmenu."
+aliases: ["null-dropping"]
+tags: ["menu", "item", "zuggling"]
 ---
 
 # Null Dropping `ND`

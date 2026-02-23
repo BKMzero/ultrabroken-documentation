@@ -1,9 +1,12 @@
 ---
 title: "Cull Fuse Entanglement"
-abbr: "CFE"
-description: "Allows you to Fuse Entangle objects by culling Link the same frame the fuse is applied."
+abbreviation: "CFE"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["ultrababouin", "suusi", "Ock", "SteFen45"]
 date: "2023-09-21"
+description: "Allows you to Fuse Entangle objects by culling Link the same frame the fuse is applied."
+aliases: ["cull-fuse-entanglement"]
+tags: ["entanglement", "culling", "fuse"]
 ---
 
 # Cull Fuse Entanglement `CFE`

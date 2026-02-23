@@ -1,9 +1,12 @@
 ---
 title: "Cutscene Combo Amplifier"
-abbr: "CCA"
-description: "Extends and stacks the damage frames of an attack with memory buffering, causing huge damage."
+abbreviation: "CCA"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Lightos"]
 date: "2023-12-22"
+description: "Extends and stacks the damage frames of an attack with memory buffering, causing huge damage."
+aliases: ["cutscene-combo-amplifier"]
+tags: ["item", "buff", "damage"]
 ---
 
 # Cutscene Combo Amplifier `CCA`

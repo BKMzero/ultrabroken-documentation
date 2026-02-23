@@ -1,9 +1,12 @@
 ---
 title: "Recall Cancel"
-abbr: "RCC"
-description: "Lets you delay the dropping of weapon and items."
+abbreviation: "RCC"
 versions: ["1.2.0", "1.2.1"]
+credits: ["R4000"]
 date: "2023-07-20"
+description: "Lets you delay the dropping of weapon and items."
+aliases: ["recall-cancel"]
+tags: ["animation", "item", "recall"]
 ---
 
 # Recall Cancel `RCC`

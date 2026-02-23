@@ -1,9 +1,12 @@
 ---
 title: "Sage Recycling"
-abbr: "SRCY"
-description: "Resets the cooldown of tulin or sidon."
+abbreviation: "SRCY"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Knight7108", "Candlelor"]
 date: "2023-05-28"
+description: "Resets the cooldown of tulin or sidon."
+aliases: ["sage-recycling"]
+tags: ["duplication", "tulin"]
 ---
 
 # Sage Recycling `SRCY`

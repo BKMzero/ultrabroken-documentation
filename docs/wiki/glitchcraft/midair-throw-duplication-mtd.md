@@ -1,9 +1,12 @@
 ---
 title: "Midair Throw Duplication"
-abbr: "MTD"
-description: "Allows you to dupe any item that can be thrown, including Zonai capsules."
+abbreviation: "MTD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["quantim"]
 date: "2023-07-02"
+description: "Allows you to dupe any item that can be thrown, including Zonai capsules."
+aliases: ["midair-throw-duplication"]
+tags: ["duplication", "item", "zonai", "paraglide"]
 ---
 
 # Midair Throw Duplication `MTD`

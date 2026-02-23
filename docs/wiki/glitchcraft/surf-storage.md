@@ -1,9 +1,12 @@
 ---
 title: "Surf storage"
-abbr: "SSTR"
-description: "Discord When Link surfes onto a slope and his surfing state gets canceled with in a single frame, the game stores his coordinates and the angle that he..."
+abbreviation: "SSTR"
 versions: ["1.0.0"]
+credits: ["Mozz"]
 date: "2023-09-22"
+description: "Discord When Link surfes onto a slope and his surfing state gets canceled with in a single frame, the game stores his coordinates and the angle that he..."
+aliases: ["surf-storage"]
+tags: ["storage"]
 ---
 
 # Surf storage `SSTR`

@@ -1,9 +1,12 @@
 ---
 title: "Attached Rangeless Active Zonai"
-abbr: "ARAZ"
-description: "Is very similar to DRAZ but differs slightly."
+abbreviation: "ARAZ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+credits: ["Ryan?", "NX721"]
 date: "2023-06-16"
+description: "Is very similar to DRAZ but differs slightly."
+aliases: ["attached-rangeless-active-zonai"]
+tags: ["zonai"]
 ---
 
 # Attached Rangeless Active Zonai `ARAZ`

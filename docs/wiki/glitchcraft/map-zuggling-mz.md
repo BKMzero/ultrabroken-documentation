@@ -1,9 +1,12 @@
 ---
 title: "Map Zuggling"
-abbr: "MZ"
-description: "Allows you to zuggle much faster than older versions"
+abbreviation: "MZ"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
+credits: ["BigDUCCO"]
 date: "2023-05-23"
+description: "Allows you to zuggle much faster than older versions"
+aliases: ["map-zuggling"]
+tags: ["zuggling", "map", "item", "equipment"]
 ---
 
 # Map Zuggling `MZ`

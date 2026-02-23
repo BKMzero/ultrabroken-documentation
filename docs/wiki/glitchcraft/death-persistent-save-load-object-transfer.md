@@ -1,9 +1,12 @@
 ---
 title: "Death Persistent Save Load Object Transfer"
-abbr: "DPSLOT"
-description: "Death dropping is equivalent to shock dropping."
+abbreviation: "DPSLOT"
 versions: ["1.2.0"]
+credits: ["mulberry"]
 date: "2025-06-26"
+description: "Death dropping is equivalent to shock dropping."
+aliases: ["death-persistent-save-load-object-transfer"]
+tags: ["item", "save-load", "zuggling"]
 ---
 
 # Death Persistent Save Load Object Transfer `DPSLOT`

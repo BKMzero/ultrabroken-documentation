@@ -1,9 +1,12 @@
 ---
 title: "Like-Like Culling"
-abbr: "LLC"
-description: "A method for object culling"
+abbreviation: "LLC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Mozz"]
 date: "2023-06-13"
+description: "A method for object culling"
+aliases: ["like-like-culling"]
+tags: ["culling", "like-like"]
 ---
 
 # Like-Like Culling `LLC`

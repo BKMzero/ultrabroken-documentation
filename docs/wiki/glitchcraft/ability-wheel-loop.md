@@ -1,9 +1,12 @@
 ---
 title: "Ability Wheel Loop"
-abbr: "AWL"
-description: "Gets you stuck in the ability wheel indefinitely opening and closing."
+abbreviation: "AWL"
 versions: ["1.0.0"]
+credits: ["Zas"]
 date: "2024-03-11"
+description: "Gets you stuck in the ability wheel indefinitely opening and closing."
+aliases: ["ability-wheel-loop"]
+tags: ["menu", "ultrahand", "zonai"]
 ---
 
 # Ability Wheel Loop `AWL`

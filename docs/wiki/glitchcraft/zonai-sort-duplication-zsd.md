@@ -1,9 +1,12 @@
 ---
 title: "Zonai Sort Duplication"
-abbr: "ZSD"
-description: "Allows you to dupe zonai parts back into your inventory."
+abbreviation: "ZSD"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
+credits: ["Quelfth", "Flash"]
 date: "2023-05-22"
+description: "Allows you to dupe zonai parts back into your inventory."
+aliases: ["zonai-sort-duplication"]
+tags: ["duplication", "menu", "zonai"]
 ---
 
 # Zonai Sort Duplication `ZSD`

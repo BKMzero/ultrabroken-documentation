@@ -1,9 +1,12 @@
 ---
 title: "Mineru Aim Permanence"
-abbr: "MAIP"
-description: "Lets you bring Mineru's Construct into towns and stables"
+abbreviation: "MAIP"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
-date: "?"
+credits: ["Unknown"]
+date: "Unknown"
+description: "Lets you bring Mineru's Construct into towns and stables"
+aliases: ["mineru-aim-permanence"]
+tags: ["mineru"]
 ---
 
 # Mineru Aim Permanence `MAIP`

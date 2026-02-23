@@ -1,9 +1,12 @@
 ---
 title: "Spring Strangeness"
-abbr: "STRS"
-description: "Really strange things start happening both with collision and the camera when springs are used in different ways"
+abbreviation: "STRS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["orionsayshi", "Owen"]
 date: "2023-05-15"
+description: "Really strange things start happening both with collision and the camera when springs are used in different ways"
+aliases: ["spring-strangeness"]
+tags: ["spring", "camera"]
 ---
 
 # Spring Strangeness `STRS`

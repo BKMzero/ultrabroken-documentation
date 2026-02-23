@@ -1,9 +1,12 @@
 ---
 title: "Corrupt Meal"
-abbr: "CM"
-description: "Cooking an apple on the same frame that it is deleted results in a meal that takes up whatever was last cooked since the last game boot, though it does..."
+abbreviation: "CM"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Telkic"]
 date: "2025-02-07"
+description: "Cooking an apple on the same frame that it is deleted results in a meal that takes up whatever was last cooked since the last game boot, though it does..."
+aliases: ["corrupt-meal"]
+tags: ["cooking"]
 ---
 
 # Corrupt Meal `CM`

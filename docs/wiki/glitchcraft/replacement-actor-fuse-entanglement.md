@@ -1,9 +1,12 @@
 ---
 title: "Replacement Actor Fuse Entanglement"
-abbr: "RAFE"
-description: "Allows objects that have fuse replacement actors to be fuse entangled."
+abbreviation: "RAFE"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["dt13269", "mulberry"]
 date: "2024-11-09"
+description: "Allows objects that have fuse replacement actors to be fuse entangled."
+aliases: ["replacement-actor-fuse-entanglement"]
+tags: ["entanglement", "fuse"]
 ---
 
 # Replacement Actor Fuse Entanglement `RAFE`

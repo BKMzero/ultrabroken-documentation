@@ -1,9 +1,12 @@
 ---
 title: "Cave Flag Culling"
-abbr: "CFC"
-description: "For certain caves (like Pondside Cave), the game checks every object and determines if they belong to inside or outside the cave, and all objects with..."
+abbreviation: "CFC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Ock", "Aergyl"]
 date: "2023-11-24"
+description: "For certain caves (like Pondside Cave), the game checks every object and determines if they belong to inside or outside the cave, and all objects with..."
+aliases: ["cave-flag-culling"]
+tags: ["duplication", "culling", "overload"]
 ---
 
 # Cave Flag Culling `CFC`

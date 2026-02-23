@@ -1,9 +1,12 @@
 ---
 title: "Laser-OOB"
-abbr: "LOOB"
-description: "The game puts a floor inside Link"
+abbreviation: "LOOB"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
+credits: ["Xeryph"]
 date: "2023-05-13"
+description: "The game puts a floor inside Link"
+aliases: ["laser oob", "oob laser"]
+tags: ["duplication", "oob"]
 ---
 
 # Laser-OOB `LOOB`

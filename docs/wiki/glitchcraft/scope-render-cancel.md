@@ -1,9 +1,12 @@
 ---
 title: "Scope Render Cancel"
-abbr: "SRC"
-description: "Removes scope HUD and reveals two borders that show an overlay that renders flames, visual effects, etc."
+abbreviation: "SRC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["NX721", "eXe"]
 date: "2023-05-19"
+description: "Removes scope HUD and reveals two borders that show an overlay that renders flames, visual effects, etc."
+aliases: ["scope-render-cancel"]
+tags: ["animation", "bow"]
 ---
 
 # Scope Render Cancel `SRC`

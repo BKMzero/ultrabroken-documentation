@@ -1,9 +1,12 @@
 ---
 title: "Double Shield Desync Clip Fuse Entanglement"
-abbr: "DSDCFE"
-description: "Setting up an unlocked sdc stick in a culling area and a locked sdc outside of the culling area allows for short, softlock-free fe compatible culls."
+abbreviation: "DSDCFE"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["mulberry", "Yee"]
 date: "2024-06-06"
+description: "Setting up an unlocked sdc stick in a culling area and a locked sdc outside of the culling area allows for short, softlock-free fe compatible culls."
+aliases: ["double-shield-desync-clip-fuse-entanglement"]
+tags: ["duplication", "clipping", "desync", "equipment", "entanglement", "culling", "fuse", "shield"]
 ---
 
 # Double Shield Desync Clip Fuse Entanglement `DSDCFE`

@@ -1,9 +1,12 @@
 ---
 title: "Temporary Devices"
-abbr: "TD"
-description: "Fusing during the unsheathe animation of a bow causes the fuse to appear for a few frames"
+abbreviation: "TD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["mulberry"]
 date: "2024-11-30"
+description: "Fusing during the unsheathe animation of a bow causes the fuse to appear for a few frames"
+aliases: ["temporary-devices"]
+tags: ["fuse", "bow"]
 ---
 
 # Temporary Devices `TD`

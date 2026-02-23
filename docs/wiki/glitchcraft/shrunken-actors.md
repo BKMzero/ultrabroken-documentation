@@ -1,9 +1,12 @@
 ---
 title: "Shrunken Actors"
-abbr: "SA"
-description: "Permanently shrink any ultrahandable object (ultrabroken method)"
+abbreviation: "SA"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+credits: ["mulberry"]
 date: "2025-10-26"
+description: "Permanently shrink any ultrahandable object (ultrabroken method)"
+aliases: ["shrunken-actors"]
+tags: ["ultrahand"]
 ---
 
 # Shrunken Actors `SA`

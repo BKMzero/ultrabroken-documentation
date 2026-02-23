@@ -1,9 +1,12 @@
 ---
 title: "ZL Animation Reset"
-abbr: "ZLAR"
-description: "Performing a zl-less jump while the \"Two Handed With Shield\" glitch is active (works with one handed weapons and spears too), then mashing zl uppon..."
+abbreviation: "ZLAR"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["NghtmaR3"]
 date: "2024-01-21"
+description: "Performing a zl-less jump while the \"Two Handed With Shield\" glitch is active (works with one handed weapons and spears too), then mashing zl uppon..."
+aliases: ["zl-animation-reset"]
+tags: ["animation", "equipment", "shield"]
 ---
 
 # ZL Animation Reset `ZLAR`

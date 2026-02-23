@@ -1,9 +1,12 @@
 ---
 title: "Cull Pickup Dynamic Zuggle"
-abbr: "CPDZ"
-description: "Picking up a thrown boomerang on the same frame that it culls can lead to dynamic zuggle"
+abbreviation: "CPDZ"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
+credits: ["mulberry"]
 date: "2025-05-18"
+description: "Picking up a thrown boomerang on the same frame that it culls can lead to dynamic zuggle"
+aliases: ["cull-pickup-dynamic-zuggle"]
+tags: ["zuggling", "item", "culling"]
 ---
 
 # Cull Pickup Dynamic Zuggle `CPDZ`

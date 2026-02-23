@@ -1,9 +1,12 @@
 ---
 title: "Resync Fuse Entanglement"
-abbr: "RFE"
-description: "\"Fe'ing\" with a drop swap drop and then pausing to mess with the fuse prevents a full fuse and causes FE"
+abbreviation: "RFE"
 versions: ["1.0.0"]
+credits: ["Zas"]
 date: "2023-12-18"
+description: "\"Fe'ing\" with a drop swap drop and then pausing to mess with the fuse prevents a full fuse and causes FE"
+aliases: ["resync-fuse-entanglement"]
+tags: ["item", "entanglement", "fuse"]
 ---
 
 # Resync Fuse Entanglement `RFE`
@@ -25,7 +28,7 @@ Method 1:
 5. Unpause, delay a tiny bit, fuse and press pause
 6. Unpause
 
-Method 2 (Mulberry):
+Method 2 (mulberry):
 This method allows you to fuse to the same weapon (can be unfused) that you already have equipped, but requires more lag:
 1. Face links back against a wall and target the child with fuse
 2. Pause
@@ -34,7 +37,7 @@ This method allows you to fuse to the same weapon (can be unfused) that you alre
 5. Unpause
 If you don't get enough lag, you can drop swap fused equipment to add a bit more lag (rocket-shields work very well) 
 
-Method 3 (Mulberry):
+Method 3 (mulberry):
 This method uses recall for a makeshift wall:
 1. Open the ability menu
 2. Select recall

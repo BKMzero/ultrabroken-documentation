@@ -1,9 +1,12 @@
 ---
 title: "Save Load Dupe"
-abbr: "SLD"
-description: "Allows easy duplication of your weapons, bows, and shields"
+abbreviation: "SLD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["ZombieBoy225", "ness", "ElDuende"]
 date: "2023-05-16"
+description: "Allows easy duplication of your weapons, bows, and shields"
+aliases: ["persistent save load object transfer", "save-load-dupe", "save-load-duplication", "save/load dupe", "sld dupe"]
+tags: ["duplication", "equipment", "save-load", "shield", "bow"]
 ---
 
 # Save Load Dupe `SLD`

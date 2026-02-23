@@ -1,9 +1,12 @@
 ---
 title: "Time Bomb cancel"
-abbr: "TBC"
-description: "By putting away your shield during a specific moment while a time bomb fused to the mastersword is going off, it will explode without any damage to the..."
+abbreviation: "TBC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["tzakazuki"]
 date: "2023-11-04"
+description: "By putting away your shield during a specific moment while a time bomb fused to the mastersword is going off, it will explode without any damage to the..."
+aliases: ["time-bomb-cancel"]
+tags: ["animation", "equipment", "damage", "fuse", "shield"]
 ---
 
 # Time Bomb cancel `TBC`

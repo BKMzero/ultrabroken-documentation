@@ -1,9 +1,12 @@
 ---
 title: "Persistent Save Load Object Transfer"
-abbr: "PSLOT"
-description: "Allows objects to go through saves by permanently culling their FE bases (parents)."
+abbreviation: "PSLOT"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["mulberry"]
 date: "2024-01-25"
+description: "Allows objects to go through saves by permanently culling their FE bases (parents)."
+aliases: ["persistent-save-load-object-transfer", "save load dupe", "save-load-dupe", "save/load dupe", "sld"]
+tags: ["culling", "save-load", "ultrahand"]
 ---
 
 # Persistent Save Load Object Transfer `PSLOT`

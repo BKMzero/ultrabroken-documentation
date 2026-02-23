@@ -1,9 +1,12 @@
 ---
 title: "Food Ability Buff Swap"
-abbr: "FABS"
-description: "Allows you to get roasted food (stackable) with a food effect"
+abbreviation: "FABS"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
+credits: ["fabs"]
 date: "2023-05-16"
+description: "Allows you to get roasted food (stackable) with a food effect"
+aliases: ["food-ability-buff-swap"]
+tags: ["cooking", "item", "buff", "zuggling"]
 ---
 
 # Food Ability Buff Swap `FABS`

@@ -1,9 +1,12 @@
 ---
 title: "Zuggle Load Object Transfering"
-abbr: "ZLOT"
-description: "Allows you to transfer objects through loads while maintaining their coordinates."
+abbreviation: "ZLOT"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["InAMuffinCup", "ChargeVolt"]
 date: "2023-06-07"
+description: "Allows you to transfer objects through loads while maintaining their coordinates."
+aliases: ["zuggle-load-object-transfering"]
+tags: ["zuggling", "item", "equipment"]
 ---
 
 # Zuggle Load Object Transfering `ZLOT`

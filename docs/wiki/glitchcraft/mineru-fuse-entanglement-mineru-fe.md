@@ -1,9 +1,12 @@
 ---
 title: "Mineru Fuse Entanglement"
-abbr: "MFE"
-description: "Fusing to Mineru and then pausing the game or culling Link while riding Mineru on a specific frame causes objects to FE to Mineru"
+abbreviation: "MFE"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Ock", "WinnerBoi77"]
 date: "2023-10-18"
+description: "Fusing to Mineru and then pausing the game or culling Link while riding Mineru on a specific frame causes objects to FE to Mineru"
+aliases: ["mineru-fuse-entanglement"]
+tags: ["entanglement", "culling", "ultrahand", "fuse", "mineru"]
 ---
 
 # Mineru Fuse Entanglement `MFE`

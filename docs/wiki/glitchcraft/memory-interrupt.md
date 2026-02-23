@@ -1,9 +1,12 @@
 ---
 title: "Memory Interrupt"
-abbr: "MI"
-description: "Interrupting a memory causes a forced pause after a dialogue"
+abbreviation: "MI"
 versions: ["1.0.0"]
+credits: ["mulberry"]
 date: "2024-10-01"
+description: "Interrupting a memory causes a forced pause after a dialogue"
+aliases: ["memory-interrupt"]
+tags: ["Unknown"]
 ---
 
 # Memory Interrupt `MI`

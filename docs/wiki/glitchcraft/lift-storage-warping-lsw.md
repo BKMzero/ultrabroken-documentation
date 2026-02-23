@@ -1,9 +1,12 @@
 ---
 title: "Lift Storage Warping"
-abbr: "LSW"
-description: "Culling link while holding a zlot'ed item puts link into a wrong warp state."
+abbreviation: "LSW"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["mulberry"]
 date: "2024-01-08"
+description: "Culling link while holding a zlot'ed item puts link into a wrong warp state."
+aliases: ["lift-storage-warping"]
+tags: ["storage", "item", "culling", "warping"]
 ---
 
 # Lift Storage Warping `LSW`

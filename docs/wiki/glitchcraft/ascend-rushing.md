@@ -1,9 +1,12 @@
 ---
 title: "Ascend Rushing"
-abbr: "AR"
-description: "Allows you to flury rush after ascending"
+abbreviation: "AR"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["R4000"]
 date: "2023-06-15"
+description: "Allows you to flury rush after ascending"
+aliases: ["ascend-rushing"]
+tags: ["ascend"]
 ---
 
 # Ascend Rushing `AR`

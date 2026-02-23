@@ -1,9 +1,12 @@
 ---
 title: "Bomb Skew"
-abbr: "BSK"
-description: "In similar fashion to skew from BOTW, this affects the direction a shield surf spring jump will send you."
+abbreviation: "BSK"
 versions: ["1.0.0"]
+credits: ["Aergyl", "FerrusCube", "Mozz"]
 date: "2023-09-21"
+description: "In similar fashion to skew from BOTW, this affects the direction a shield surf spring jump will send you."
+aliases: ["bomb-skew"]
+tags: ["equipment", "shield", "zuggling"]
 ---
 
 # Bomb Skew `BSK`

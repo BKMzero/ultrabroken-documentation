@@ -1,9 +1,12 @@
 ---
 title: "Disabled Enemy"
-abbr: "DE"
-description: "Puts the enemy into a doll-like state similar to the glitch back in Breath of the Wild, disabling the enemy's movement."
+abbreviation: "DE"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["shio_0725", "ralseidewitt"]
 date: "2023-06-27"
+description: "Puts the enemy into a doll-like state similar to the glitch back in Breath of the Wild, disabling the enemy's movement."
+aliases: ["disabled-enemy"]
+tags: ["enemy"]
 ---
 
 # Disabled Enemy `DE`

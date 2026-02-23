@@ -1,9 +1,12 @@
 ---
 title: "Fuse Entanglement Desync"
-abbr: "FED"
-description: "Allows you to transfer the fuse and durability from one weapon to another. You can also decide to dupe the weapon or the fused material."
+abbreviation: "FED"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Physioninja"]
 date: "2023-05-26"
+description: "Allows you to transfer the fuse and durability from one weapon to another. You can also decide to dupe the weapon or the fused material."
+aliases: ["fuse-entanglement-desync"]
+tags: ["duplication", "desync", "item", "entanglement", "fuse"]
 ---
 
 # Fuse Entanglement Desync `FED`

@@ -1,9 +1,12 @@
 ---
 title: "Handy Job"
-abbr: "HJ"
-description: "Gloom hands reset the durability of enemy equipment."
+abbreviation: "HJ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Ock"]
 date: "2023-11-20"
+description: "Gloom hands reset the durability of enemy equipment."
+aliases: ["handy-job"]
+tags: ["equipment", "shield", "zuggling"]
 ---
 
 # Handy Job `HJ`

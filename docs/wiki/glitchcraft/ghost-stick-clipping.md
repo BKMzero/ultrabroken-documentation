@@ -1,9 +1,12 @@
 ---
 title: "Ghost Stick Clipping"
-abbr: "GSC"
-description: "Allows Link to clip through walls by stepping onto a steering stick during ABCS."
+abbreviation: "GSC"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
+credits: ["rocomox"]
 date: "2023-05-28"
+description: "Allows Link to clip through walls by stepping onto a steering stick during ABCS."
+aliases: ["ghost-stick-clipping"]
+tags: ["clipping"]
 ---
 
 # Ghost Stick Clipping `GSC`

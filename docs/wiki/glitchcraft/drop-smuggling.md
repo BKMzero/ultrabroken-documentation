@@ -1,9 +1,12 @@
 ---
 title: "Drop Smuggling"
-abbr: "DSMU"
-description: "Trick the game into thinking a weapon is both dropped and equiped at the same time, leading to strange behaviors."
+abbreviation: "DSMU"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+credits: ["LegendofLinkk"]
 date: "2023-05-31"
+description: "Trick the game into thinking a weapon is both dropped and equiped at the same time, leading to strange behaviors."
+aliases: ["drop-smuggling"]
+tags: ["zuggling", "item", "equipment"]
 ---
 
 # Drop Smuggling `DSMU`

@@ -1,9 +1,12 @@
 ---
 title: "Bow Attachment Desync"
-abbr: "BAD"
-description: "Allows you to attach different materials to multishot arrows."
+abbreviation: "BAD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Zas", "Aeolian"]
 date: "2023-07-11"
+description: "Allows you to attach different materials to multishot arrows."
+aliases: ["bow-attachment-desync"]
+tags: ["desync", "item", "bow", "arrow"]
 ---
 
 # Bow Attachment Desync `BAD`

@@ -1,9 +1,12 @@
 ---
 title: "Guard-less Active Shield"
-abbr: "GAS"
-description: "Makes the fuse of a shield constantly active"
+abbreviation: "GAS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Venaticus"]
 date: "2023-06-12"
+description: "Makes the fuse of a shield constantly active"
+aliases: ["guard-less-active-shield"]
+tags: ["equipment", "fuse", "shield"]
 ---
 
 # Guard-less Active Shield `GAS`

@@ -1,9 +1,12 @@
 ---
 title: "Map Storage"
-abbr: "MSTR"
-description: "Allows you to have control over Link while the map is open."
+abbreviation: "MSTR"
 versions: ["1.1.0", "1.1.1"]
+credits: ["blueberryoats"]
 date: "2023-05-29"
+description: "Allows you to have control over Link while the map is open."
+aliases: ["map-storage"]
+tags: ["storage", "map"]
 ---
 
 # Map Storage `MSTR`

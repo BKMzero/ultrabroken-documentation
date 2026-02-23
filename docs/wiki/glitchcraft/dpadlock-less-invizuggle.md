@@ -1,9 +1,12 @@
 ---
 title: "Dpadlock-less Invizuggle"
-abbr: "DLI"
-description: "The first frame of a cull does not dpadlock, so it can be used for invizuggle"
+abbreviation: "DLI"
 versions: ["1.2.0", "1.2.1"]
+credits: ["mulberry", "Blackmars", "NghtmaR3"]
 date: "2024-07-17"
+description: "The first frame of a cull does not dpadlock, so it can be used for invizuggle"
+aliases: ["dpadlock-less-invizuggle"]
+tags: ["zuggling", "culling", "item", "equipment"]
 ---
 
 # Dpadlock-less Invizuggle `DLI`
@@ -13,7 +16,7 @@ date: "2024-07-17"
 ---
 The first frame of a cull does not dpadlock, so it can be used for invizuggle
 
-_Discovered by mulberry, optimized by blackmars, mulberry, NghtmaR3 (order is alphabetically) - 17 July 2024_
+_Discovered by mulberry, optimized by Blackmars, mulberry, NghtmaR3 (order is alphabetically) - 17 July 2024_
 
 ## Instructions
 ---

@@ -1,9 +1,12 @@
 ---
 title: "Recall Locking"
-abbr: "RLK"
-description: "Completely locks objects in place by recalling it before zlotting it"
+abbreviation: "RLK"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Ryan?"]
 date: "2023-06-11"
+description: "Completely locks objects in place by recalling it before zlotting it"
+aliases: ["recall-locking"]
+tags: ["recall"]
 ---
 
 # Recall Locking `RLK`

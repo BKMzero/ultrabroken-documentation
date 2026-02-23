@@ -1,9 +1,12 @@
 ---
 title: "Jumpslash Canceling"
-abbr: "JSC"
-description: "Interrupt jumpslashes by swapping a shield mid-animation"
+abbreviation: "JSC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["LegendofLinkk", "Mozz"]
 date: "2023-05-21"
+description: "Interrupt jumpslashes by swapping a shield mid-animation"
+aliases: ["jumpslash-canceling"]
+tags: ["animation", "equipment", "shield"]
 ---
 
 # Jumpslash Canceling `JSC`

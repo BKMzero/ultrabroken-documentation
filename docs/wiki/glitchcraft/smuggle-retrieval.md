@@ -1,9 +1,12 @@
 ---
 title: "Smuggle Retrieval"
-abbr: "SRET"
-description: "Dropping an unloaded piece of equipment drops a smuggle instead (if Link has one). Fail dropping equips it back."
+abbreviation: "SRET"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
+credits: ["PetitFrapo"]
 date: "2024-12-18"
+description: "Dropping an unloaded piece of equipment drops a smuggle instead (if Link has one). Fail dropping equips it back."
+aliases: ["smuggle-retrieval"]
+tags: ["zuggling", "item", "equipment", "culling"]
 ---
 
 # Smuggle Retrieval `SRET`

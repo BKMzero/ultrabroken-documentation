@@ -1,9 +1,12 @@
 ---
 title: "Double Bypass Zuggle"
-abbr: "DBZ"
-description: "Using a very specific and complex setup, it's possible to bypass dpad lock as well as drop swap culling, effectively giving parentless unculled zuggle..."
+abbreviation: "DBZ"
 versions: ["1.2.0"]
+credits: ["mulberry", "dt13269"]
 date: "2025-06-16"
+description: "Using a very specific and complex setup, it's possible to bypass dpad lock as well as drop swap culling, effectively giving parentless unculled zuggle..."
+aliases: ["double-bypass-zuggle"]
+tags: ["zuggling", "item", "culling", "ultrahand"]
 ---
 
 # Double Bypass Zuggle `DBZ`

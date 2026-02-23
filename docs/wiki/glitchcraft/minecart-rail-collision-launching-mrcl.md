@@ -1,9 +1,12 @@
 ---
 title: "Minecart Rail Collision Launching"
-abbr: "MRCL"
-description: "Allows the usage of minecarts to be launched from awkward collision grabbing on rails."
+abbreviation: "MRCL"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
+credits: ["そら-さん"]
 date: "2023-05-18"
+description: "Allows the usage of minecarts to be launched from awkward collision grabbing on rails."
+aliases: ["minecart collision", "minecart rail collision", "minecart-rail-collision-launching", "rail collision launching"]
+tags: ["launching"]
 ---
 
 # Minecart Rail Collision Launching `MRCL`

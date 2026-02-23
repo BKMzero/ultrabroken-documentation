@@ -1,9 +1,12 @@
 ---
 title: "Mineru Culling"
-abbr: "MC"
-description: "Allows for Link's model to be operated from Mineru, by unloading Mineru, Link can be culled at will."
+abbreviation: "MC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+credits: ["Lightos"]
 date: "2023-07-31"
+description: "Allows for Link's model to be operated from Mineru, by unloading Mineru, Link can be culled at will."
+aliases: ["mineru-culling"]
+tags: ["culling", "mineru"]
 ---
 
 # Mineru Culling `MC`

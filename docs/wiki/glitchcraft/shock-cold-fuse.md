@@ -1,9 +1,12 @@
 ---
 title: "Shock Cold Fuse"
-abbr: "SCF"
-description: "Interrupting a fuse on the first possible frame with shock causes cold fusion"
+abbreviation: "SCF"
 versions: ["1.0.0"]
+credits: ["Zas"]
 date: "2023-09-11"
+description: "Interrupting a fuse on the first possible frame with shock causes cold fusion"
+aliases: ["shock-cold-fuse"]
+tags: ["weapon", "fuse"]
 ---
 
 # Shock Cold Fuse `SCF`

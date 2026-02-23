@@ -1,9 +1,12 @@
 ---
 title: "MSNF glowing"
-abbr: "MG"
-description: "The msnf starts glowing at gloom hand coordinates and near phantom ganon"
+abbreviation: "MG"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["evilgabe"]
 date: "2023-08-02"
+description: "The msnf starts glowing at gloom hand coordinates and near phantom ganon"
+aliases: ["msnf-glowing"]
+tags: ["mnf"]
 ---
 
 # MSNF glowing `MG`

@@ -1,9 +1,12 @@
 ---
 title: "Zoggle"
-abbr: "ZOG"
-description: "Using deentenglement to untie the wuggled equippment from their fe parent"
+abbreviation: "ZOG"
 versions: ["1.2.0", "1.2.1"]
+credits: ["Ryan?", "Ock"]
 date: "2024-01-04"
+description: "Using deentenglement to untie the wuggled equippment from their fe parent"
+aliases: []
+tags: ["zuggling", "ultrahand", "item", "equipment"]
 ---
 
 # Zoggle `ZOG`
@@ -13,7 +16,7 @@ date: "2024-01-04"
 ---
 Using deentenglement to untie the wuggled equippment from their fe parent
 
-_Ryan?, ock - 4 January 2024_
+_Ryan?, Ock - 4 January 2024_
 
 ## Instructions
 ---

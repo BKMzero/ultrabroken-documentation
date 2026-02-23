@@ -1,9 +1,12 @@
 ---
 title: "Stick Desync Clip"
-abbr: "SDC"
-description: "By dropping a shield just before mounting a steering stick that is fuse entangled to it, we can clip through floors easily."
+abbreviation: "SDC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["NaN Gogh", "DisguisedMoth"]
 date: "2023-07-01"
+description: "By dropping a shield just before mounting a steering stick that is fuse entangled to it, we can clip through floors easily."
+aliases: ["stick-desync-clip"]
+tags: ["clipping", "desync", "item", "equipment", "fuse", "shield"]
 ---
 
 # Stick Desync Clip `SDC`

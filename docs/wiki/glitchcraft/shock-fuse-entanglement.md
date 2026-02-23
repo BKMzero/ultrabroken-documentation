@@ -1,9 +1,12 @@
 ---
 title: "Shock Fuse Entanglement"
-abbr: "SFE"
-description: "Interrupting a fuse to a zuggled item causes FE"
+abbreviation: "SFE"
 versions: ["1.0.0"]
+credits: ["Zas"]
 date: "2023-09-12"
+description: "Interrupting a fuse to a zuggled item causes FE"
+aliases: ["shock-fuse-entanglement"]
+tags: ["zuggling", "item", "entanglement", "fuse"]
 ---
 
 # Shock Fuse Entanglement `SFE`

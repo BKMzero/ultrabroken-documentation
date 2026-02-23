@@ -1,9 +1,12 @@
 ---
 title: "Hero Path Link Storage"
-abbr: "HPLS"
-description: "Visual glitch with the hero path."
+abbreviation: "HPLS"
 versions: ["1.1.0", "1.1.1", "1.1.2"]
+credits: ["Lightos"]
 date: "2023-06-20"
+description: "Visual glitch with the hero path."
+aliases: ["hero-path-link-storage"]
+tags: ["storage"]
 ---
 
 # Hero Path Link Storage `HPLS`

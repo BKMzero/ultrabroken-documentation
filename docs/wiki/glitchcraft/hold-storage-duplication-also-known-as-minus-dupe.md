@@ -1,9 +1,12 @@
 ---
 title: "Hold Storage Duplication"
-abbr: "HSD"
-description: "Allows you to dupe items via hold storage."
+abbreviation: "HSD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["NaN Gogh", "Mozz"]
 date: "2023-07-03"
+description: "Allows you to dupe items via hold storage."
+aliases: ["hold-storage-duplication"]
+tags: ["duplication", "storage", "item"]
 ---
 
 # Hold Storage Duplication `HSD`

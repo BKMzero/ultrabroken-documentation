@@ -1,9 +1,12 @@
 ---
 title: "Bow Attachment Storage"
-abbr: "BAS"
-description: "You can store the bow fuse by dropping the bow during the bow fuse and interupting it with throw aim or a jump slash."
+abbreviation: "BAS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["WinnerBoi77"]
 date: "2023-12-03"
+description: "You can store the bow fuse by dropping the bow during the bow fuse and interupting it with throw aim or a jump slash."
+aliases: ["bow-attachment-storage"]
+tags: ["storage", "item", "fuse", "bow"]
 ---
 
 # Bow Attachment Storage `BAS`

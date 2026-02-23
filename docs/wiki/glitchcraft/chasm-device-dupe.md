@@ -1,9 +1,12 @@
 ---
 title: "Chasm Device Dupe"
-abbr: "CDD"
-description: "Unloads throwable items in a way that allows them to be duped by picking them up from Link's hand, most notably zonai capsules"
+abbreviation: "CDD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0", "1.4.0", "1.4.1", "1.4.2"]
+credits: ["Telkic", "mulberry"]
 date: "2025-10-12"
+description: "Unloads throwable items in a way that allows them to be duped by picking them up from Link's hand, most notably zonai capsules"
+aliases: ["chasm-device-dupe"]
+tags: ["duplication", "item", "culling", "zonai"]
 ---
 
 # Chasm Device Dupe `CDD`

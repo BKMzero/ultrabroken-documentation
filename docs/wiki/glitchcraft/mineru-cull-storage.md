@@ -1,9 +1,12 @@
 ---
 title: "Mineru Cull Storage"
-abbr: "MCS"
-description: "Stores the callback of Mineru while mouted on her, useful for swap resync zuggle setups"
+abbreviation: "MCS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0", "1.4.0", "1.4.1", "1.4.2"]
+credits: ["ofstrings2"]
 date: "2025-11-09"
+description: "Stores the callback of Mineru while mouted on her, useful for swap resync zuggle setups"
+aliases: ["mineru-cull-storage"]
+tags: ["zuggling", "storage", "culling", "mineru"]
 ---
 
 # Mineru Cull Storage `MCS`

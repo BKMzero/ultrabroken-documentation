@@ -1,9 +1,12 @@
 ---
 title: "Detached Rangeless Active Zonai"
-abbr: "DRAZ"
-description: "Allows you to leave a Zonai device stuck a single place and activate it remotely from anywhere."
+abbreviation: "DRAZ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+credits: ["Venaticus"]
 date: "2023-06-15"
+description: "Allows you to leave a Zonai device stuck a single place and activate it remotely from anywhere."
+aliases: ["detached-rangeless-active-zonai"]
+tags: ["zonai"]
 ---
 
 # Detached Rangeless Active Zonai `DRAZ`

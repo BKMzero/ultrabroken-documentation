@@ -1,9 +1,12 @@
 ---
 title: "Clear Camera/Scope"
-abbr: "CCS"
-description: "Allows for First Person Gameplay, removing the HUD from the camera and scope."
+abbreviation: "CCS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["NX721"]
 date: "2023-07-03"
+description: "Allows for First Person Gameplay, removing the HUD from the camera and scope."
+aliases: ["clear-camera/scope"]
+tags: ["bow", "camera"]
 ---
 
 # Clear Camera/Scope `CCS`

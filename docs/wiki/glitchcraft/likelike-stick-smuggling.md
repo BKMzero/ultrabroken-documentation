@@ -1,9 +1,12 @@
 ---
 title: "LikeLike Stick Smuggling"
-abbr: "LLSS"
-description: "Allows you to cull Link via a LikeLike in a culling area. Can be used for Equipment Transmutation, Fuse Entanglement, WST, Drop Smuggle."
+abbreviation: "LLSS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
-date: "?"
+credits: ["Unknown"]
+date: "Unknown"
+description: "Allows you to cull Link via a LikeLike in a culling area. Can be used for Equipment Transmutation, Fuse Entanglement, WST, Drop Smuggle."
+aliases: ["likelike-stick-smuggling"]
+tags: ["zuggling", "item", "equipment", "culling", "fuse", "like-like"]
 ---
 
 # LikeLike Stick Smuggling `LLSS`

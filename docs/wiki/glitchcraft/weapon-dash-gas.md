@@ -1,9 +1,12 @@
 ---
 title: "Weapon Dash GAS"
-abbr: "WDGAS"
-description: "Allows for easy weapon GAS by performing a dash attack while its fused zonai device is culled"
+abbreviation: "WDGAS"
 versions: ["1.2.0", "1.2.1", "1.3.0", "1.4.0", "1.4.1", "1.4.2"]
+credits: ["Toti Sauce"]
 date: "2025-11-28"
+description: "Allows for easy weapon GAS by performing a dash attack while its fused zonai device is culled"
+aliases: ["weapon-dash-gas"]
+tags: ["gas", "weapon", "culling", "fuse", "zonai"]
 ---
 
 # Weapon Dash GAS `WDGAS`

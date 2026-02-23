@@ -1,9 +1,12 @@
 ---
 title: "Like-Like Zuggling"
-abbr: "LLZ"
-description: "Allows for zuggling via slugging"
+abbreviation: "LLZ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["NaN Gogh", "Ryan?", "Blackmars"]
 date: "2023-06-15"
+description: "Allows for zuggling via slugging"
+aliases: ["like-like-zuggling"]
+tags: ["zuggling", "like-like", "item", "equipment", "culling"]
 ---
 
 # Like-Like Zuggling `LLZ`

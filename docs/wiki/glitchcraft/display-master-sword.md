@@ -1,9 +1,12 @@
 ---
 title: "Display Master Sword"
-abbr: "DMS"
-description: "Allows you to display the master sword, damaged master sword or MsgNotFound in a weapon display"
+abbreviation: "DMS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+credits: ["Zas"]
 date: "2023-06-08"
+description: "Allows you to display the master sword, damaged master sword or MsgNotFound in a weapon display"
+aliases: ["display-master-sword"]
+tags: ["weapon", "damage"]
 ---
 
 # Display Master Sword `DMS`

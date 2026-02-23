@@ -1,9 +1,12 @@
 ---
 title: "AntiGrav Weapons"
-abbr: "AGW"
-description: "Puts weapons in an \"Anti Gravity\" state."
+abbreviation: "AGW"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Zas", "Blize"]
 date: "2023-05-28"
+description: "Puts weapons in an \"Anti Gravity\" state."
+aliases: ["antigrav-weapons"]
+tags: ["weapon"]
 ---
 
 # AntiGrav Weapons `AGW`

@@ -1,9 +1,12 @@
 ---
 title: "Durability-"
-abbr: "DUR"
-description: "Dropping and picking up a bow with a durability modifier removes the extra durability."
+abbreviation: "DUR"
 versions: ["1.0.0"]
+credits: ["Zas"]
 date: "2023-09-11"
+description: "Dropping and picking up a bow with a durability modifier removes the extra durability."
+aliases: []
+tags: ["item", "weapon", "bow"]
 ---
 
 # Durability- `DUR`

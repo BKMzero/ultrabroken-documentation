@@ -1,9 +1,12 @@
 ---
 title: "Arrow Unloading"
-abbr: "AU"
-description: "Unloads a fired arrow while retaining its fused attachment, leading to strange interactions."
+abbreviation: "AU"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["Mozz", "pyuk", "Zas"]
 date: "2023-06-18"
+description: "Unloads a fired arrow while retaining its fused attachment, leading to strange interactions."
+aliases: ["arrow-unloading"]
+tags: ["culling", "fuse", "arrow"]
 ---
 
 # Arrow Unloading `AU`
