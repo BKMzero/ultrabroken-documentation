@@ -7,7 +7,7 @@ title: "Double Shield Desync Clip Fuse Entanglement"
 
 ## Summary
 ---
-Setting up an unlocked sdc stick in a culling area and a locked sdc outside of the culling area allows for short, softlock-free fe compatible culls
+Setting up an unlocked sdc stick in a culling area and a locked sdc outside of the culling area allows for short, softlock-free fe compatible culls.
 
 _mulberry, Yee - 6 June 2024_
 
