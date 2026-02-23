@@ -155,7 +155,7 @@ plugins:
       cards_layout_options:
         font_family: New Rocker
         background_color: "#00796b"
-        text_color: "#00f0c2"
+        color: "#00f0c2"
 
 markdown_extensions:
   - admonition
