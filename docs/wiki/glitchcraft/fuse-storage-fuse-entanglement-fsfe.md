@@ -24,4 +24,4 @@ _Ryan?, [Mozz](https://www.youtube.com/@M0zzed) - 18 June 2023_
 - [Fuse Entanglement](search:Fuse Entanglement)
 - [Fuse Storage](search:Fuse Storage)
 - [Like-Like FSFE](search:Like-Like FSFE)
-- [Culling Area FSFE](search:Culling Area FSFE)
+- [Culling Area Fuse Storage Fuse Entanglement](search:Culling Area Fuse Storage Fuse Entanglement)

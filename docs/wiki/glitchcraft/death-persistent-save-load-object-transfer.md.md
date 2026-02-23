@@ -1,8 +1,8 @@
 ﻿---
-title: "Death PSLOT"
+title: "Death Persistent Save Load Object Transfer"
 ---
 
-# Death PSLOT
+# Death Persistent Save Load Object Transfer
 `1.2.0` `1.2.1+`
 
 ## Summary

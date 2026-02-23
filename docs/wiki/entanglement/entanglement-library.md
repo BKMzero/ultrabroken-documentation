@@ -19,7 +19,7 @@ This page complies Fuse Entanglement related glitches for quick reference.
 - [Mineru Fuse Entanglement](../glitchcraft/mineru-fuse-entanglement-mineru-fe.md)
 - [Resync Fuse Entanglement](../glitchcraft/resync-fuse-entanglement-resync-fe.md)
 - [Persistent Save Load Object Transfer](../glitchcraft/persistent-save-load-object-transfer-pslot.md)
-- [UltraSLOT](../glitchcraft/ultraslot.md)
+- [Ultra Save Load Object Transfer](../glitchcraft/ultra-save-load-object-transfer.md)
 - [Double Shield Desync Clip Fuse Entanglement](../glitchcraft/double-shield-desync-clip-fuse-entanglement-double-sdc-fe.md)
 - [Construct Fuse Entanglement](../glitchcraft/construct-fuse-entanglement.md)
 - [Overload Fuse Entanglement](../glitchcraft/overload-fuse-entanglement.md)

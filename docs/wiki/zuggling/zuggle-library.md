@@ -50,7 +50,7 @@ This page complies Smuggling and Zuggling related glitches for quick reference.
 - [Chasm Delay Zuggle (CDZ)](../glitchcraft/chasm-delay-zuggle-cdz.md)
 - [Dpadlock-less Invizuggle](../glitchcraft/dpadlock-less-invizuggle.md)
 - [Cull Storage Zuggle (CSZ)](../glitchcraft/cull-storage-zuggle-csz.md)
-- [Overload PSLOT](../glitchcraft/overload-pslot.md)
+- [Overload Persistent Save Load Object Transfer](../glitchcraft/overload-persistent-save-load-object-transfer.md)
 - [Aeroculling](../glitchcraft/aeroculling.md)
 - [Zapshield](../glitchcraft/zapshield.md)
 - [Object MOE Enlargement](../glitchcraft/object-moe-enlargement.md)

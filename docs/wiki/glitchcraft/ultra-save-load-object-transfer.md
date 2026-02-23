@@ -1,8 +1,8 @@
 ﻿---
-title: "UltraSLOT"
+title: "Ultra Save Load Object Transfer"
 ---
 
-# UltraSLOT
+# Ultra Save Load Object Transfer
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary
@@ -19,7 +19,7 @@ _mulberry - 15 February 2024_
 
 ## Notes
 ---
-UltraSLOT objects can be continuously transferred between files as long as the object is grabbed with ultrahand before loading a file
+Ultra Save Load Object Transfer objects can be continuously transferred between files as long as the object is grabbed with ultrahand before loading a file
 
 ## Resources
 ---

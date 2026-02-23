@@ -1,8 +1,8 @@
 ﻿---
-title: "Shock FE"
+title: "Shock Fuse Entanglement"
 ---
 
-# Shock FE
+# Shock Fuse Entanglement
 `1.0.0`
 
 ## Summary

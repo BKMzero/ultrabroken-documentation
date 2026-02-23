@@ -1,8 +1,8 @@
 ﻿---
-title: "Mineru PSLOT"
+title: "Mineru Persistent Save Load Object Transfer"
 ---
 
-# Mineru PSLOT `MPSLOT`
+# Mineru Persistent Save Load Object Transfer `MPSLOT`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1+`
 
 ## Summary

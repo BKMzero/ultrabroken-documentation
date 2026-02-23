@@ -1,8 +1,8 @@
 ﻿---
-title: "Purgatory SLD"
+title: "Purgatory Save Load Dupe"
 ---
 
-# Purgatory SLD
+# Purgatory Save Load Dupe
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary
@@ -20,7 +20,7 @@ _mulberry - 11 February 2024_
 
 ## Notes
 ---
-Grabbing a purgatory SLD object with ultrahand causes UltraSLOT.
+Grabbing a purgatory SLD object with ultrahand causes Ultra Save Load Object Transfer.
 
 ## Resources
 ---

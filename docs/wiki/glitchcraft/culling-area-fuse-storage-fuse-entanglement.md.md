@@ -1,13 +1,13 @@
 ﻿---
-title: "Culling Area FSFE"
+title: "Culling Area Fuse Storage Fuse Entanglement"
 ---
 
-# Culling Area FSFE
+# Culling Area Fuse Storage Fuse Entanglement
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary
 ---
-A method for FSFE using AreaCulling
+A method for FSFE using Area Culling.
 
 _mulberry, Yee, Zas - 25 February 2024_
 
