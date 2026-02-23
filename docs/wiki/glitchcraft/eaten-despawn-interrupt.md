@@ -1,8 +1,8 @@
 ﻿---
-title: "Eaten DI"
+title: "Eaten Despawn Interrupt"
 ---
 
-# Eaten DI
+# Eaten Despawn Interrupt
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` 
 
 ## Summary

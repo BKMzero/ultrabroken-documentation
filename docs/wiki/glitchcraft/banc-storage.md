@@ -23,6 +23,7 @@ It's also possible to go to the main menu, that way you can load a save and star
 After loading the save, the banc change should trigger.
 
 Instructions for 1.1+:
+
 1. Have a bubble gem, never have recieved the armor tutorial prompt, and have never talkedt to Kilton or Koltin
 2. Manually save near Kilton and Koltin
 3. FE a steering stick nearby to them

@@ -301,9 +301,10 @@ Glitches sorted by date.
 290. [Dialog Permacull](./dialog-permacull.md)
 291. [Void Dipping](./void-dipping.md)
 292. [Super Fuse Overload](./super-fuse-overload.md)
-293. [Eaten DI](./eaten-di.md)
+293. [Eaten Despawn Interrupt](./eaten-despawn-interrupt.md)
+294. [Banc Storage](./banc-storage)
 
-## A Historical Record
+## Ahistorical Record
 ---
 Unsorted glitches yet to be classified or dated.
 
