@@ -303,7 +303,7 @@ Glitches sorted by date.
 292. [Super Fuse Overload](./super-fuse-overload.md)
 293. [Eaten DI](./eaten-di.md)
 
-## Ahistorical Record
+## A Historical Record
 ---
 Unsorted glitches yet to be classified or dated.
 
