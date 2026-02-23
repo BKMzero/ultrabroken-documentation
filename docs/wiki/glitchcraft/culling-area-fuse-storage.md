@@ -3,6 +3,7 @@ title: "Culling Area Fuse Storage"
 abbr: "CAFS"
 description: "A method of Fuse Storage using Area Culling ?"
 versions: ["?"]
+date: "2023-06-30"
 ---
 
 # Culling Area Fuse Storage `CAFS`

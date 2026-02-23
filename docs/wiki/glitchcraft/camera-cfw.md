@@ -3,6 +3,7 @@ title: "Camera CFW"
 abbr: "CFW"
 description: "Glitches out the camera rune and can remove the waymarkers and the camera UI"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2023-07-11"
 ---
 
 # Camera CFW `CFW`

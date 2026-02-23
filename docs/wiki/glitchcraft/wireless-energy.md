@@ -3,6 +3,7 @@ title: "Wireless Energy"
 abbr: "WE"
 description: "Creates a wireless connection to a culled battery. By attaching a dragon part to the battery shield, you can increase the range up to 2000m."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+date: "2023-07-11"
 ---
 
 # Wireless Energy `WE`

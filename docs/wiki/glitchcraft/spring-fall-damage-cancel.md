@@ -3,6 +3,7 @@ title: "Spring Fall Damage Cancel"
 abbr: "SFDC"
 description: "Currently allows you to fall from certian heights without taking fall damage"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2023-05-15"
 ---
 
 # Spring Fall Damage Cancel `SFDC`

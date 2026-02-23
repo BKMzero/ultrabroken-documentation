@@ -3,6 +3,7 @@ title: "Culling Area Fuse Storage Fuse Entanglement"
 abbr: "CFSFE"
 description: "A method for FSFE using Area Culling."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2024-02-25"
 ---
 
 # Culling Area Fuse Storage Fuse Entanglement `CFSFE`

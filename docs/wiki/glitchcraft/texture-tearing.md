@@ -3,6 +3,7 @@ title: "Texture Tearing"
 abbr: "TT"
 description: "During Menu Overload via Moobe, textures can be loaded incorrectly, broken, or even adopted from the enviroment/other equipment."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2024-01-13"
 ---
 
 # Texture Tearing `TT`

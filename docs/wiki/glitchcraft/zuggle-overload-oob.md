@@ -3,6 +3,7 @@ title: "Zuggle Overload OOB"
 abbr: "ZOOB"
 description: "Allows you to clip OOB using zuggle overload"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+date: "2023-05-18"
 ---
 
 # Zuggle Overload OOB `ZOOB`

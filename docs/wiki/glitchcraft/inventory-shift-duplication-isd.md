@@ -3,6 +3,7 @@ title: "Inventory Shift Duplication"
 abbr: "ISD"
 description: "Exploits inventory shift after creating an empty inventory slot to duplicate items."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+date: "2023-06-25"
 ---
 
 # Inventory Shift Duplication `ISD`

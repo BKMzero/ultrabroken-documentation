@@ -3,6 +3,7 @@ title: "Bomb Skew"
 abbr: "BSK"
 description: "In similar fashion to skew from BOTW, this affects the direction a shield surf spring jump will send you."
 versions: ["1.0.0"]
+date: "2023-09-21"
 ---
 
 # Bomb Skew `BSK`

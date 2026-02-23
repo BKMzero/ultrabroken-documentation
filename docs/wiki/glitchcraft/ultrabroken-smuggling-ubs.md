@@ -3,6 +3,7 @@ title: "Ultrabroken Smuggling"
 abbr: "UBS"
 description: "Makes an FE'd object follow the shield."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+date: "2023-06-13"
 ---
 
 # Ultrabroken Smuggling `UBS`

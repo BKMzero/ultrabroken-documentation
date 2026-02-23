@@ -3,6 +3,7 @@ title: "Quick Drop Smuggle"
 abbr: "QDS"
 description: "Dropping and equipping weapons in a specific way causes drop smuggle."
 versions: ["1.0.0"]
+date: "2024-03-16"
 ---
 
 # Quick Drop Smuggle `QDS`

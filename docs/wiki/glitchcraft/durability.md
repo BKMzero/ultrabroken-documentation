@@ -3,6 +3,7 @@ title: "Durability-"
 abbr: "DUR"
 description: "Dropping and picking up a bow with a durability modifier removes the extra durability."
 versions: ["1.0.0"]
+date: "2023-09-11"
 ---
 
 # Durability- `DUR`

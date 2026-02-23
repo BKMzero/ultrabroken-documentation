@@ -3,6 +3,7 @@ title: "Display Master Sword"
 abbr: "DMS"
 description: "Allows you to display the master sword, damaged master sword or MsgNotFound in a weapon display"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+date: "2023-06-08"
 ---
 
 # Display Master Sword `DMS`

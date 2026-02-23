@@ -3,6 +3,7 @@ title: "Toti Saucery"
 abbr: "TOTS"
 description: "FSFEing an undiscovered item can cause several effects"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2024-08-17"
 ---
 
 # Toti Saucery `TOTS`

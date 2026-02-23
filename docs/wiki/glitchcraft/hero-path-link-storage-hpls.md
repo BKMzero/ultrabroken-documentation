@@ -3,6 +3,7 @@ title: "Hero Path Link Storage"
 abbr: "HPLS"
 description: "Visual glitch with the hero path."
 versions: ["1.1.0", "1.1.1", "1.1.2"]
+date: "2023-06-20"
 ---
 
 # Hero Path Link Storage `HPLS`

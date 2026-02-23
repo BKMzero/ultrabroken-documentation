@@ -3,6 +3,7 @@ title: "Void Holding"
 abbr: "VH"
 description: "Allows you to hold materials \"whenever you want\" as long as you are at a low enough Y coordinate"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
+date: "2023-06-10"
 ---
 
 # Void Holding `VH`

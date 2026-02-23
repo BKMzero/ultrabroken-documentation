@@ -3,6 +3,7 @@ title: "Guard-less Active Shield"
 abbr: "GAS"
 description: "Makes the fuse of a shield constantly active"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2023-06-12"
 ---
 
 # Guard-less Active Shield `GAS`

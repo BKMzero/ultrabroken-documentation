@@ -3,6 +3,7 @@ title: "Map Flickering"
 abbr: "MF"
 description: "EPILEPSY WARNING Causes intense screen flickering when you try to edit a pin, or hover over certain ones"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
+date: "?"
 ---
 
 # Map Flickering `MF`

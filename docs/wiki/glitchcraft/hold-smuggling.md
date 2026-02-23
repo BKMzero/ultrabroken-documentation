@@ -3,6 +3,7 @@ title: "Hold Smuggling"
 abbr: "HSM"
 description: "Enables full control of Link while holding objects in the menu."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2023-07-04"
 ---
 
 # Hold Smuggling `HSM`

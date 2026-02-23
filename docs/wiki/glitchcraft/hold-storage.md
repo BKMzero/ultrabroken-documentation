@@ -3,6 +3,7 @@ title: "Hold Storage"
 abbr: "HS"
 description: "Allows Link to remain in a object holding state when not normally possible, as well as desync the hold state."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2023-07-02"
 ---
 
 # Hold Storage `HS`

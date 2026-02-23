@@ -3,6 +3,7 @@ title: "Octodupe"
 abbr: "OD"
 description: "Allows for the duplication of items sucked up by a rock octorok."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+date: "2023-05-26"
 ---
 
 # Octodupe `OD`

@@ -3,6 +3,7 @@ title: "Wuggle"
 abbr: "WGL"
 description: "By dropping and equipping equipment in a specific way during a cull causes a glitch similar to zuggle."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2023-12-29"
 ---
 
 # Wuggle `WGL`

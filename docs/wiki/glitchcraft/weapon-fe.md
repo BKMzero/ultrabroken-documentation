@@ -3,6 +3,7 @@ title: "Weapon FE"
 abbr: "WFE"
 description: "Allows for FE to weapons"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+date: "2023-06-01"
 ---
 
 # Weapon FE `WFE`

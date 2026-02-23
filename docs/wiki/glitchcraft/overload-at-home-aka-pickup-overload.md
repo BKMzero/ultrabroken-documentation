@@ -3,6 +3,7 @@ title: "Overload at Home"
 abbr: "OAH"
 description: "By repeatedly culling Link while lifting an object during house building, it's possible to achieve an effect similar to zuggle overload"
 versions: ["1.2.0", "1.2.1"]
+date: "2024-03-20"
 ---
 
 # Overload at Home `OAH`

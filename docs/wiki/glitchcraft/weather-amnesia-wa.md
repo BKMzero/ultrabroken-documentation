@@ -3,6 +3,7 @@ title: "Weather Amnesia"
 abbr: "WA"
 description: "Viewing a memory near a cave will overwrite its local weather with the overworld's weather."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2023-06-25"
 ---
 
 # Weather Amnesia `WA`

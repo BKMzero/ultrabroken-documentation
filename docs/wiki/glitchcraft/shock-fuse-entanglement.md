@@ -3,6 +3,7 @@ title: "Shock Fuse Entanglement"
 abbr: "SFE"
 description: "Interrupting a fuse to a zuggled item causes FE"
 versions: ["1.0.0"]
+date: "2023-09-12"
 ---
 
 # Shock Fuse Entanglement `SFE`

@@ -3,6 +3,7 @@ title: "GAS Launching"
 abbr: "GASL"
 description: "Causes the object to fling Link great distances with relative ease."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2023-06-25"
 ---
 
 # GAS Launching `GASL`

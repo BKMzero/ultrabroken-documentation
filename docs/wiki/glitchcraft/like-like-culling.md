@@ -3,6 +3,7 @@ title: "Like-Like Culling"
 abbr: "LLC"
 description: "A method for object culling"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2023-06-13"
 ---
 
 # Like-Like Culling `LLC`

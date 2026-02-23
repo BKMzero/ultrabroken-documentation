@@ -3,6 +3,7 @@ title: "Cull Smuggle"
 abbr: "CSMU"
 description: "Allows any equipment that can be fuse entangled to be smuggled using margin culling."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2023-06-27"
 ---
 
 # Cull Smuggle `CSMU`

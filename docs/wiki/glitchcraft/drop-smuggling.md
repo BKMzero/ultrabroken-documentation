@@ -3,6 +3,7 @@ title: "Drop Smuggling"
 abbr: "DSMU"
 description: "Trick the game into thinking a weapon is both dropped and equiped at the same time, leading to strange behaviors."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+date: "2023-05-31"
 ---
 
 # Drop Smuggling `DSMU`

@@ -3,6 +3,7 @@ title: "Remote Arrow"
 abbr: "RAT"
 description: "Allows you to fire arrows remotely from the location the glitch was set up in."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
+date: "2023-06-02"
 ---
 
 # Remote Arrow `RAT`

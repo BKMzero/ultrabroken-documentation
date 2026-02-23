@@ -3,6 +3,7 @@ title: "MSNF glowing"
 abbr: "MG"
 description: "The msnf starts glowing at gloom hand coordinates and near phantom ganon"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2023-08-02"
 ---
 
 # MSNF glowing `MG`

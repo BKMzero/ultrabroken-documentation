@@ -3,6 +3,7 @@ title: "Mass Amnesia"
 abbr: "MA"
 description: "Freezes objects in a state where gravity does not affect them, as long as they are not messed with by any means."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+date: "2023-08-02"
 ---
 
 # Mass Amnesia `MA`

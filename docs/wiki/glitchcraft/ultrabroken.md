@@ -3,6 +3,7 @@ title: "Ultrabroken"
 abbr: "UB"
 description: "Allows you to pull the object with another glued material while Link stands on top of it, sending it flying forwards from the pull itself."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+date: "2023-05-29"
 ---
 
 # Ultrabroken `UB`

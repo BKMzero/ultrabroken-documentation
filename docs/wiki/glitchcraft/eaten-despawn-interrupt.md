@@ -3,6 +3,7 @@ title: "Eaten Despawn Interrupt"
 abbr: "EDI"
 description: "A similar glitch to void dipping that has additional properties and is done with a molduga or frox."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2026-01-16"
 ---
 
 # Eaten Despawn Interrupt `EDI`

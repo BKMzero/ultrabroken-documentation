@@ -3,6 +3,7 @@ title: "Travel Medallion storage"
 abbr: "TMS"
 description: "Places the travel medallion at links feet after loading a file."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2023-06-16"
 ---
 
 # Travel Medallion storage `TMS`

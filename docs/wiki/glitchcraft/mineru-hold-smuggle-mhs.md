@@ -3,6 +3,7 @@ title: "Mineru Hold Smuggle"
 abbr: "MHS"
 description: "Allows holding items in inventory but not in overworld."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2023-12-20"
 ---
 
 # Mineru Hold Smuggle `MHS`

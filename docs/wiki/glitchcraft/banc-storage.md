@@ -3,6 +3,7 @@ title: "Banc Storage"
 abbr: "BANC"
 description: "Store banc changes to another save file using memory interrupt"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0", "1.4.0", "1.4.1", "1.4.2", "1.4.3"]
+date: "2024-10-01"
 ---
 
 # Banc Storage `BANC`

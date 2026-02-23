@@ -3,6 +3,7 @@ title: "Sage Madness"
 abbr: "SM"
 description: "The camera follows a sage falling down a chasm."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2023-07-18"
 ---
 
 # Sage Madness `SM`

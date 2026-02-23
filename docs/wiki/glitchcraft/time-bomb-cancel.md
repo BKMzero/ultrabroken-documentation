@@ -3,6 +3,7 @@ title: "Time Bomb cancel"
 abbr: "TBC"
 description: "By putting away your shield during a specific moment while a time bomb fused to the mastersword is going off, it will explode without any damage to the..."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2023-11-04"
 ---
 
 # Time Bomb cancel `TBC`

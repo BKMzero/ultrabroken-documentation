@@ -3,6 +3,7 @@ title: "Like-Like FSFE"
 abbr: "LLFSFE"
 description: "A method of Fuse Storage Fuse Entanglement."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2023-06-18"
 ---
 
 # Like-Like FSFE `LLFSFE`

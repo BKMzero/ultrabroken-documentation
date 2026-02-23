@@ -3,6 +3,7 @@ title: "Wheel Zoomy"
 abbr: "WZ"
 description: "Uses a formation of wheels to gain momentum on land, similar speeds to Wacko Boingo"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2023-07-12"
 ---
 
 # Wheel Zoomy `WZ`

@@ -3,6 +3,7 @@ title: "Fuse Entanglement Clipping"
 abbr: "FEC"
 description: "Using the object clipping properties of Fuse Entanglement with a steering-stick allows you to clip through certain walls, mostly invisble ones."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+date: "2023-06-16"
 ---
 
 # Fuse Entanglement Clipping `FEC`

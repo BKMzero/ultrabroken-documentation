@@ -3,6 +3,7 @@ title: "Autobuild Cancel Slide"
 abbr: "ABCS"
 description: "Allows you to slide on top of the blueprint build over the map at insane speeds, or gain immense amounts of height."
 versions: ["1.0.0", "1.1.0", "1.1.1"]
+date: "2023-05-18"
 ---
 
 # Autobuild Cancel Slide `ABCS`

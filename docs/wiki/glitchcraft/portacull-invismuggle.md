@@ -3,6 +3,7 @@ title: "Portacull Invismuggle"
 abbr: "PCI"
 description: "Using portable culling equipment it's possible to get a culled smuggle (invismuggle)."
 versions: ["1.2.0"]
+date: "2024-02-29"
 ---
 
 # Portacull Invismuggle `PCI`

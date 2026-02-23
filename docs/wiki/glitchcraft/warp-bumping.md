@@ -3,6 +3,7 @@ title: "Warp Bumping"
 abbr: "WB"
 description: "Using a Zlotted object to obstruct a warp position, you can offset Link, while warping."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+date: "2023-06-07"
 ---
 
 # Warp Bumping `WB`

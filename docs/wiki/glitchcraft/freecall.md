@@ -3,6 +3,7 @@ title: "Freecall"
 abbr: "FC"
 description: "Breaks the lock on a recall lock, allowing the object to be in freecall without ub"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2023-09-09"
 ---
 
 # Freecall `FC`

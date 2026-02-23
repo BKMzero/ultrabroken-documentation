@@ -3,6 +3,7 @@ title: "BThrow Sprinting"
 abbr: "BTS"
 description: "Infinite stamina sprinting method using backwards throw inputs to maintain speed"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2023-05-12"
 ---
 
 # BThrow Sprinting `BTS`

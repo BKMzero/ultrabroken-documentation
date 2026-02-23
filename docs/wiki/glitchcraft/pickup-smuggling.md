@@ -3,6 +3,7 @@ title: "Pickup Smuggling"
 abbr: "PSMU"
 description: "Allows Link to pick up an object as if he were holding it like an item."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2023-05-28"
 ---
 
 # Pickup Smuggling `PSMU`

@@ -3,6 +3,7 @@ title: "Ascend Rushing"
 abbr: "AR"
 description: "Allows you to flury rush after ascending"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2023-06-15"
 ---
 
 # Ascend Rushing `AR`

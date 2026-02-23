@@ -3,6 +3,7 @@ title: "Shock Effect Overload"
 abbr: "SEO"
 description: "Uses many non-despawnable Shock Emitters and placing them into a Fairy Fountain, activating them to overload the game’s memory, which causes..."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2023-07-26"
 ---
 
 # Shock Effect Overload `SEO`

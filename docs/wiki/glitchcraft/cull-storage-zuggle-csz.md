@@ -3,6 +3,7 @@ title: "Cull Storage Zuggle"
 abbr: "CSZ"
 description: "Uses cull storage to temporarily bypass the equipment swap and drop restrictions on newer versions, allowing for weapons to be zuggled easily on v1.1.2"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2024-07-18"
 ---
 
 # Cull Storage Zuggle `CSZ`

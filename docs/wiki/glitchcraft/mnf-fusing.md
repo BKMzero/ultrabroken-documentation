@@ -3,6 +3,7 @@ title: "MNF Fusing"
 abbr: "MNFF"
 description: "Allows you to fuse to the MNF"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+date: "2023-06-05"
 ---
 
 # MNF Fusing `MNFF`

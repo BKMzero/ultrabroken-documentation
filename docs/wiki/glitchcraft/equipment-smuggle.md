@@ -3,6 +3,7 @@ title: "Equipment Smuggle"
 abbr: "ESMU"
 description: "An equipment state where items remain equipped in Link's hands after being removed from the inventory"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2023-06-01"
 ---
 
 # Equipment Smuggle `ESMU`

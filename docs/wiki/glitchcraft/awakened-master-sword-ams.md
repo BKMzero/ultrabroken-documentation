@@ -3,6 +3,7 @@ title: "Awakened Master Sword"
 abbr: "AMS"
 description: "You can use gas to leave a minigame and wrong warp into the phantom ganon fight, which makes it possible to escape the fight."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2023-09-04"
 ---
 
 # Awakened Master Sword `AMS`

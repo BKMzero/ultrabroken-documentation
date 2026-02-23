@@ -3,6 +3,7 @@ title: "Sticky Dynamic Purgatory"
 abbr: "SDP"
 description: "Culling the cold fuse base of a dynamic purgatory equipment using a like like temporarily removes its dynamic properties, allowing it to remain stuck..."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2024-02-15"
 ---
 
 # Sticky Dynamic Purgatory `SDP`

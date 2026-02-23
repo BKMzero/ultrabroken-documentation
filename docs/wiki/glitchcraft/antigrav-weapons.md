@@ -3,6 +3,7 @@ title: "AntiGrav Weapons"
 abbr: "AGW"
 description: "Puts weapons in an \"Anti Gravity\" state."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2023-05-28"
 ---
 
 # AntiGrav Weapons `AGW`

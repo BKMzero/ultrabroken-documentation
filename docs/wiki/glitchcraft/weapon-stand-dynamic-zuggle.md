@@ -3,6 +3,7 @@ title: "Weapon Stand Dynamic Zuggle"
 abbr: "WSDZ"
 description: "Weapon stands force equip with a little delay on 1.0, making it possible to dynamic zuggle with them"
 versions: ["1.0.0"]
+date: "2024-03-14"
 ---
 
 # Weapon Stand Dynamic Zuggle `WSDZ`

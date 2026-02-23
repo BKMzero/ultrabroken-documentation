@@ -3,6 +3,7 @@ title: "Overload Fuse Entanglement"
 abbr: "OFE"
 description: "Allows for full fuse entanglement by combining portable culling with the mechanics of zuggle overload."
 versions: ["1.2.0", "1.2.1"]
+date: "2024-07-23"
 ---
 
 # Overload Fuse Entanglement `OFE`

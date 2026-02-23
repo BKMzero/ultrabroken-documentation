@@ -3,6 +3,7 @@ title: "Infinite Bubbul Frog Gems"
 abbr: "IBFG"
 description: "Allows you to get infinite bubbul gems"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
+date: "2023-05-21"
 ---
 
 # Infinite Bubbul Frog Gems `IBFG`

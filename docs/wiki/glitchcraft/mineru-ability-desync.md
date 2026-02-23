@@ -3,6 +3,7 @@ title: "Mineru Ability Desync"
 abbr: "MAD"
 description: "Desyncs Flame Emitters attached to Mineru"
 versions: ["1.1.0", "1.1.1"]
+date: "2023-05-30"
 ---
 
 # Mineru Ability Desync `MAD`

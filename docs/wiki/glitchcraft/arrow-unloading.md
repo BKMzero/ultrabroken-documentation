@@ -3,6 +3,7 @@ title: "Arrow Unloading"
 abbr: "AU"
 description: "Unloads a fired arrow while retaining its fused attachment, leading to strange interactions."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2023-06-18"
 ---
 
 # Arrow Unloading `AU`

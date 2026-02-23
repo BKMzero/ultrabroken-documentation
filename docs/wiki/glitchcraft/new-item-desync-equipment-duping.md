@@ -3,6 +3,7 @@ title: "New Item Desync"
 abbr: "NID"
 description: "Desyncs equipment after sorting a new item pickup, allowing for single use duplication, durability transfer, and transfering fused items."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2023-05-12"
 ---
 
 # New Item Desync `NID`

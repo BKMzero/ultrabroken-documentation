@@ -3,6 +3,7 @@ title: "Dynamic Zuggle"
 abbr: "DZG"
 description: "Dropping equippment in a specific way causes it to be put into a linked state between drop smuggled and zuggled, while the dynamic zuggled item is..."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+date: "2023-09-06"
 ---
 
 # Dynamic Zuggle `DZG`

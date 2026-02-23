@@ -3,6 +3,7 @@ title: "Fuse Entanglement"
 abbr: "FE"
 description: "Allows your shield to have an effect on an object as though it is fused to the shield, despite the object existing in the world and not being tethered..."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2023-05-24"
 ---
 
 # Fuse Entanglement `FE`

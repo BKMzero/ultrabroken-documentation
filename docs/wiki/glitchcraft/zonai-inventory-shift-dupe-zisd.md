@@ -3,6 +3,7 @@ title: "Zonai Inventory Shift Dupe"
 abbr: "ZISD"
 description: "Uses Memory Buffering and MTD to duplicate Zonai Devices"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2023-07-10"
 ---
 
 # Zonai Inventory Shift Dupe `ZISD`

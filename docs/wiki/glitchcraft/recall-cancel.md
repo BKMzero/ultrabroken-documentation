@@ -3,6 +3,7 @@ title: "Recall Cancel"
 abbr: "RCC"
 description: "Lets you delay the dropping of weapon and items."
 versions: ["1.2.0", "1.2.1"]
+date: "2023-07-20"
 ---
 
 # Recall Cancel `RCC`

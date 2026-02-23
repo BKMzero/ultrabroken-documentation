@@ -3,6 +3,7 @@ title: "Fuse Entangle Drop Zuggle"
 abbr: "FEDZ"
 description: "Similarily to FEWZ, this is not a real drop zuggle, but rather a shield zuggle"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+date: "2023-06-17"
 ---
 
 # Fuse Entangle Drop Zuggle `FEDZ`

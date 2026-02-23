@@ -3,6 +3,7 @@ title: "Detached Rangeless Active Zonai"
 abbr: "DRAZ"
 description: "Allows you to leave a Zonai device stuck a single place and activate it remotely from anywhere."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+date: "2023-06-15"
 ---
 
 # Detached Rangeless Active Zonai `DRAZ`

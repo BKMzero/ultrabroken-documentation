@@ -3,6 +3,7 @@ title: "Ascend Storage"
 abbr: "ASTR"
 description: "Misplaces the point where Link goes after using Ascend."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2023-05-19"
 ---
 
 # Ascend Storage `ASTR`

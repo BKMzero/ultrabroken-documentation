@@ -3,6 +3,7 @@ title: "Display Duping"
 abbr: "DD"
 description: "Allows you to dupe equipment that can be put into displays."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+date: "2023-05-27"
 ---
 
 # Display Duping `DD`

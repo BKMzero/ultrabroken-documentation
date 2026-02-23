@@ -3,6 +3,7 @@ title: "Prologue Escape"
 abbr: "PE"
 description: "Using Banc Storage, it's possible to get Link out of the prologue, allowing for a lot of side effects."
 versions: ["1.0.0"]
+date: "2024-10-01"
 ---
 
 # Prologue Escape `PE`

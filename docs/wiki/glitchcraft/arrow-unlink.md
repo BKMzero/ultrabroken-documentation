@@ -3,6 +3,7 @@ title: "Arrow Unlink"
 abbr: "AUL"
 description: "Makes arrow float away allowing you to spawn fused stuff in other loactions"
 versions: ["1.0.0"]
+date: "2023-10-26"
 ---
 
 # Arrow Unlink `AUL`

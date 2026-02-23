@@ -3,6 +3,7 @@ title: "Smuggle Stacking Zuggle"
 abbr: "SSZ"
 description: "Allows to zuggle bows and shields in version 1.1.2. Weapon zuggle on 1.1.2 is a little bit more complicated. Check the next glitch (FEZ) for that."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+date: "2023-06-06"
 ---
 
 # Smuggle Stacking Zuggle `SSZ`

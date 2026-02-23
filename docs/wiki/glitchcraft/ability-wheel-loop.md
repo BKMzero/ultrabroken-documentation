@@ -3,6 +3,7 @@ title: "Ability Wheel Loop"
 abbr: "AWL"
 description: "Gets you stuck in the ability wheel indefinitely opening and closing."
 versions: ["1.0.0"]
+date: "2024-03-11"
 ---
 
 # Ability Wheel Loop `AWL`

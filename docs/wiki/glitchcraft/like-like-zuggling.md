@@ -3,6 +3,7 @@ title: "Like-Like Zuggling"
 abbr: "LLZ"
 description: "Allows for zuggling via slugging"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2023-06-15"
 ---
 
 # Like-Like Zuggling `LLZ`

@@ -3,6 +3,7 @@ title: "Back-in-Time Art"
 abbr: "BIT"
 description: "Transfers the picture in Link's House to a previous save. Is also capable of transferring compendium pictures."
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+date: "2023-06-18"
 ---
 
 # Back-in-Time Art `BIT`

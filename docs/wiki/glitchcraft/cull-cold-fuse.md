@@ -3,6 +3,7 @@ title: "Cull Cold Fuse"
 abbr: "CCF"
 description: "?"
 versions: ["?"]
+date: "2024-02-01"
 ---
 
 # Cull Cold Fuse `CCF`
