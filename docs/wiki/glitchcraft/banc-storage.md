@@ -1,5 +1,6 @@
 ﻿---
 title: "Banc Storage"
+description: "Store banc changes to another save file using memory interrupt"
 ---
 
 # Banc Storage

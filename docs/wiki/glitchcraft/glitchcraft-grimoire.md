@@ -304,7 +304,7 @@ Glitches sorted by date.
 293. [Eaten Despawn Interrupt](./eaten-despawn-interrupt.md)
 294. [Banc Storage](./banc-storage.md)
 
-## Ahistorical Record
+## Unclassified Record
 ---
 Unsorted glitches yet to be classified or dated.
 

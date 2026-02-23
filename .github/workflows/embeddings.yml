@@ -27,7 +27,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: .cache/plugin/social
-          key: ${{ runner.os }}-social-${{ hashFiles('mkdocs.yml') }}
+          key: ${{ runner.os }}-social-v2-${{ hashFiles('mkdocs.yml') }}
           restore-keys: |
             ${{ runner.os }}-social-
 
