@@ -1,8 +1,8 @@
-﻿---
+---
 title: "Double Unfuse Duplicashen"
 abbreviation: "DUD"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
-credits: ["Li Shen (é¯‰ç¥ž)"]
+credits: ["鯉神 (Li Shen)"]
 date: "2023-05-15"
 description: "Allows you to duplicate any material that can be fused to an arrow"
 aliases: ["double unfuse", "double unfuse duplicashen", "dupe unfuse"]
@@ -16,7 +16,7 @@ tags: ["duplication", "item", "weapon", "fuse", "arrow"]
 ---
 allows you to duplicate any material that can be fused to an arrow
 
-_Li Shen (é¯‰ç¥ž) - 15 May 2023_
+_鯉神 (Li Shen) - 15 May 2023_
 
 ## Instructions
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Like Like New Textbox Softlock"
 abbreviation: "LLTS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]

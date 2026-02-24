@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Quick Smuggling"
 abbreviation: "QS"
 versions: ["1.2.0"]

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Laser-OOB"
 abbreviation: "LOOB"
 versions: ["1.0.0", "1.1.0", "1.1.1"]

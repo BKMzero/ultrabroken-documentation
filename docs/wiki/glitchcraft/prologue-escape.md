@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Prologue Escape"
 abbreviation: "PE"
 versions: ["1.0.0"]

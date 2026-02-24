@@ -1,8 +1,8 @@
-﻿---
+---
 title: "Recall Clip"
 abbreviation: "RC"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
-credits: ["ã“ã‚“ãã‚"]
+credits: ["こんそめ"]
 date: "2023-05-16"
 description: "Allows you to clip through things using a large object and recall"
 aliases: ["recall clip", "recall-clip glitch", "recall-clip", "recallclip"]
@@ -16,7 +16,7 @@ tags: ["clipping", "ultrahand", "recall"]
 ---
 Allows you to clip through things using a large object and recall
 
-_ã“ã‚“ãã‚ - 16 May 2023_
+_こんそめ - 16 May 2023_
 
 ## Instructions
 ---

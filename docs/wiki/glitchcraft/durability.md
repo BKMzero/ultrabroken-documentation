@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Durability-"
 abbreviation: "DUR"
 versions: ["1.0.0"]

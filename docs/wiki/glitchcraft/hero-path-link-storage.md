@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Hero Path Link Storage"
 abbreviation: "HPLS"
 versions: ["1.1.0", "1.1.1", "1.1.2"]

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Autobuild Cancel Slide"
 abbreviation: "ABCS"
 versions: ["1.0.0", "1.1.0", "1.1.1"]

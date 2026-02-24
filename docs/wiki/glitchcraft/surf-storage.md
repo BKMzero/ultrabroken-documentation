@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Surf storage"
 abbreviation: "SSTR"
 versions: ["1.0.0"]

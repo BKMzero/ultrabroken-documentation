@@ -1,8 +1,8 @@
-﻿---
+---
 title: "Unload Duping"
 abbreviation: "UD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
-credits: ["é­”æ³•æœ¬å°±ä¸ç§‘å­¦", "åƒå¹´èŒ¶é¥¼"]
+credits: ["魔法本就不科学 (magic is not science)", "千年茶饼 (Thousand Year Tea)"]
 date: "2023-05-31"
 description: "By firing arrows between load triggers, items fused to the arrows get dropped. Allowing you to dupe items with multi-shot bows."
 aliases: ["unload-duping"]
@@ -16,7 +16,7 @@ tags: ["duplication", "item", "culling", "fuse", "bow", "arrow"]
 ---
 By firing arrows between load triggers, items fused to the arrows get dropped. Allowing you to dupe items with multi-shot bows.
 
-_é­”æ³•æœ¬å°±ä¸ç§‘å­¦ (magic is not science), åƒå¹´èŒ¶é¥¼ (Thousand Year Tea) - 31 May 2023_
+_魔法本就不科学 (magic is not science), 千年茶饼 (Thousand Year Tea) - 31 May 2023_
 
 ## Instructions
 ---

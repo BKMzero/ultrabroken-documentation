@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Zonai Storage"
 abbreviation: "ZS"
 versions: ["1.0.0"]

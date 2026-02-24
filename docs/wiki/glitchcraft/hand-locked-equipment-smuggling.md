@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Hand Locked Equipment Smuggling"
 abbreviation: "HLES"
 versions: ["1.0.0"]

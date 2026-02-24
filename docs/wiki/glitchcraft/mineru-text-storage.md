@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Mineru Text Storage"
 abbreviation: "MTS"
 versions: ["1.0.0"]

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Null Dropping"
 abbreviation: "ND"
 versions: ["1.0.0"]

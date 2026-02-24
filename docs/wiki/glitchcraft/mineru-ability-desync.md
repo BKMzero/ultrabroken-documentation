@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Mineru Ability Desync"
 abbreviation: "MAD"
 versions: ["1.1.0", "1.1.1"]

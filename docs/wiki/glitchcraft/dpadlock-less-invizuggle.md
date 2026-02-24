@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Dpadlock-less Invizuggle"
 abbreviation: "DLI"
 versions: ["1.2.0", "1.2.1"]

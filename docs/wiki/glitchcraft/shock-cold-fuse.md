@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Shock Cold Fuse"
 abbreviation: "SCF"
 versions: ["1.0.0"]

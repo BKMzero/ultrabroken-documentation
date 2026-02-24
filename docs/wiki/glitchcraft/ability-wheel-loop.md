@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Ability Wheel Loop"
 abbreviation: "AWL"
 versions: ["1.0.0"]

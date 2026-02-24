@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Map Storage"
 abbreviation: "MSTR"
 versions: ["1.1.0", "1.1.1"]

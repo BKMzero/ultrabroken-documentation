@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Bomb Skew"
 abbreviation: "BSK"
 versions: ["1.0.0"]

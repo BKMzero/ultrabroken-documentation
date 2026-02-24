@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Resync Fuse Entanglement"
 abbreviation: "RFE"
 versions: ["1.0.0"]
