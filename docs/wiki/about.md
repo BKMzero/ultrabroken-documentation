@@ -13,7 +13,7 @@ This site's content is the result of extensive community research, development a
 - **[TotK グリッチ鯖](https://discord.gg/SQXkjxRazk)** — Japanese TotK glitch research community
 - **[TotK Glitch Spreadsheet](https://docs.google.com/spreadsheets/d/1xNB1gOLZRSF9yp1mHUsS9ymogRJa1Wz8rTliTXezeRM/edit?usp=drivesdk)** - The one and only community-maintained glitch spreadsheet curated by the Zelda: Tears of the Kingdom Speedrunning community and its spreadsheet managers
 - **[Grimoire of Glitchcraft](glitchcraft/glitchcraft-grimoire.md)** The direct extract from the canonical spreadsheet with minor formatting and convenience edits
-- **[NaN Gogh](https://x.com/_nan_gogh)** Curator of this page and main author of the `Ultrabroken` section
+- **NaN Gogh** Curator of this page and main author of the `Ultrabroken` section
 
 ## Contribution
 ---

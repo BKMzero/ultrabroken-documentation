@@ -18,7 +18,7 @@ Places an object in a half-unloaded, limbo like state. Leading to unintended int
 
 Object culling in this instance refers to an optimization trick in which actors within a certain area will be unloaded for the purposes of saving memory.
 
-_[Mozz](https://www.youtube.com/@M0zzed), tori, mulberry, Timber - 27 June 2023_
+_Mozz, tori, mulberry, Timber - 27 June 2023_
 
 ## Instructions
 ---

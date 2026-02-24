@@ -16,7 +16,7 @@ tags: ["movement"]
 ---
 Allows you chain jump attacks to jump infinitly.
 
-_[Mozz](https://www.youtube.com/@M0zzed), Physioninja - 22 May 2023_
+_Mozz, Physioninja - 22 May 2023_
 
 ## Instructions
 ---

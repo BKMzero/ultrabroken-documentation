@@ -16,7 +16,7 @@ tags: ["culling", "like-like"]
 ---
 A method for object culling
 
-_[Mozz](https://www.youtube.com/@M0zzed) - 13 June 2023_
+_Mozz - 13 June 2023_
 
 ## Instructions
 ---

@@ -16,7 +16,7 @@ tags: ["storage", "entanglement", "fuse"]
 ---
 Unique methods of achieving Fuse Entanglement through Fuse Storage.
 
-_Ryan?, [Mozz](https://www.youtube.com/@M0zzed) - 18 June 2023_
+_Ryan?, Mozz - 18 June 2023_
 
 ## Instructions
 ---

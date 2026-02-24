@@ -16,7 +16,7 @@ tags: ["zuggling", "equipment", "culling", "fuse"]
 ---
 Allows any equipment that can be fuse entangled to be smuggled using margin culling.
 
-_[Mozz](https://www.youtube.com/@M0zzed), ROBUXY2ND, Ock - 27 June 2023_
+_Mozz, ROBUXY2ND, Ock - 27 June 2023_
 
 ## Instructions
 ---

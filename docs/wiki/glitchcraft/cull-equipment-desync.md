@@ -16,7 +16,7 @@ tags: ["desync", "menu", "equipment", "culling"]
 ---
 Allows to have a weapon equipped that is not in the inventory.
 
-_[Blize](https://www.youtube.com/@blizegaming), Ock (Cull Arrow Smuggle), Blize - 10 October 2023_
+_Blize, Ock (Cull Arrow Smuggle), Blize - 10 October 2023_
 
 ## Instructions
 ---

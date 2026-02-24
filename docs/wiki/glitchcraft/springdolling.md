@@ -16,7 +16,7 @@ tags: ["launching", "spring"]
 ---
 allows you to launch a large horizontal distance using springs
 
-_[Mozz](https://www.youtube.com/@M0zzed) - 15 May 2023_
+_Mozz - 15 May 2023_
 
 ## Instructions
 ---

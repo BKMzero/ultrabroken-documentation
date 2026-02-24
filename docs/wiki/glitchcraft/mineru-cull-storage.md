@@ -16,7 +16,7 @@ tags: ["zuggling", "storage", "culling", "mineru"]
 ---
 Stores the callback of Mineru while mouted on her, useful for swap resync zuggle setups
 
-_[ofstrings2](https://www.youtube.com/channel/UCdJgWquwZxJlfc8rDMmmilA) - 9 November 2025_
+_ofstrings2 - 9 November 2025_
 
 ## Instructions
 ---

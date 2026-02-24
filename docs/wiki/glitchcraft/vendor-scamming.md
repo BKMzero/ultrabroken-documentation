@@ -16,7 +16,7 @@ tags: ["zuggling", "storage", "item"]
 ---
 Allows you to infinitely sell items to (steal from) a vendor using Hold Storage/Smuggling.
 
-_NX721, [Mozz](https://www.youtube.com/@M0zzed), NaN Gogh - 3 July 2023_
+_NX721, Mozz, NaN Gogh - 3 July 2023_
 
 ## Instructions
 ---

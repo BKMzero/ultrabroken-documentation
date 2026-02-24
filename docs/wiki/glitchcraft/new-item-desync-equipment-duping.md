@@ -16,7 +16,7 @@ tags: ["duplication", "desync", "menu", "item", "equipment", "fuse"]
 ---
 Desyncs equipment after sorting a new item pickup, allowing for single use duplication, durability transfer, and transfering fused items.
 
-_[Modoki_returns](https://twitter.com/Modoki_returns) - 12 May 2023_
+_Modoki_returns - 12 May 2023_
 
 ## Instructions
 ---

@@ -16,7 +16,7 @@ tags: ["entanglement", "culling", "fuse"]
 ---
 Allows you to Fuse Entangle objects by culling Link the same frame the fuse is applied.
 
-_ultrababouin, [suusi](https://www.youtube.com/channel/UCbUwlQ_88XfXD2bfU_4kxYg), Ock, SteFen45 - 21 September 2023; 10 October 2023_
+_ultrababouin, suusi, Ock, SteFen45 - 21 September 2023; 10 October 2023_
 
 ## Instructions
 ---

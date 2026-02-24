@@ -16,7 +16,7 @@ tags: ["storage"]
 ---
 Visual glitch with the hero path.
 
-_[Lightos_](https://www.youtube.com/@lightos_) - 20 June 2023_
+_Lightos_ - 20 June 2023_
 
 ## Instructions
 ---

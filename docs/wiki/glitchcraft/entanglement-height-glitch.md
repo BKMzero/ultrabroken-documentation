@@ -16,7 +16,7 @@ tags: ["equipment", "entanglement", "movement", "shield"]
 ---
 Suspends Link a certain distance off the ground while shield surfing.
 
-_[Mozz](https://www.youtube.com/@M0zzed) - 24 May 2023_
+_Mozz - 24 May 2023_
 
 ## Instructions
 ---

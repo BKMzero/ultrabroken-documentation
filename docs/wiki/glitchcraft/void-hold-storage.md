@@ -16,7 +16,7 @@ tags: ["storage", "menu", "item"]
 ---
 Causes a menu softlock that revokes certain actions but allows for Link's model in the control panel, softlocks when attempting exiting any menu, and Link can be moved freely before opening the menu.
 
-_[Lightos_](https://www.youtube.com/@lightos_), NX721 - 22 July 2023_
+_Lightos_, NX721 - 22 July 2023_
 
 ## Instructions
 ---

@@ -16,7 +16,7 @@ tags: ["zuggling", "item", "like-like"]
 ---
 Allows for Drop Smuggling via slugging
 
-_[Mozz](https://www.youtube.com/@M0zzed), mulberry - 15 June 2023_
+_Mozz, mulberry - 15 June 2023_
 
 ## Instructions
 ---

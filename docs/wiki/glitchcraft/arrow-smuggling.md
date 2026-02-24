@@ -16,7 +16,7 @@ tags: ["zuggling", "equipment", "bow", "arrow"]
 ---
 A type of equipment smuggle that makes Link hold an arrow without pulling out his bow.
 
-_[Mozz](https://www.youtube.com/@M0zzed) - 4 June 2023_
+_Mozz - 4 June 2023_
 
 ## Instructions
 ---

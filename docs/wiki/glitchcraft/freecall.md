@@ -16,7 +16,7 @@ tags: ["ultrahand", "recall"]
 ---
 Breaks the lock on a recall lock, allowing the object to be in freecall without ub
 
-_[suusi](https://www.youtube.com/channel/UCbUwlQ_88XfXD2bfU_4kxYg), ROBUXY2ND - 9 September 2023_
+_suusi, ROBUXY2ND - 9 September 2023_
 
 ## Instructions
 ---

@@ -16,7 +16,7 @@ tags: ["launching", "warping", "zonai"]
 ---
 Zips small wheels to certain coordinates extremely quickly and can be used to launch Link a good distance and even pass through objects.
 
-_[Mozz](https://www.youtube.com/@M0zzed), pyuk - 18 June 2023_
+_Mozz, pyuk - 18 June 2023_
 
 ## Instructions
 ---

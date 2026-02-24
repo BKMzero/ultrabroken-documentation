@@ -16,7 +16,7 @@ tags: ["zuggling", "menu", "item", "equipment"]
 ---
 Enables full control of Link while holding objects in the menu.
 
-_[Mozz](https://www.youtube.com/@M0zzed), NaN Gogh - 4 July 2023_
+_Mozz, NaN Gogh - 4 July 2023_
 
 ## Instructions
 ---

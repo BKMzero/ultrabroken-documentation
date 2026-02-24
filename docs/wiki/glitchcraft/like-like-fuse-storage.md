@@ -16,7 +16,7 @@ tags: ["storage", "item", "fuse", "like-like"]
 ---
 Fusing to an item on the same frame that a like-like eats it causes fuse storage
 
-_[Mozz](https://www.youtube.com/@M0zzed) - 18 June 2023_
+_Mozz - 18 June 2023_
 
 ## Instructions
 ---

@@ -16,7 +16,7 @@ tags: ["culling"]
 ---
 A method for object culling.
 
-_[Mozz](https://www.youtube.com/@M0zzed) - 27 June 2023_
+_Mozz - 27 June 2023_
 
 ## Instructions
 ---

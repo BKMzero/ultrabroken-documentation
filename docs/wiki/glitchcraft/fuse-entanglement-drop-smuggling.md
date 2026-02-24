@@ -16,7 +16,7 @@ tags: ["zuggling", "item", "equipment", "entanglement", "fuse"]
 ---
 Allows for Drop Smuggling of Fuse Entangled Equipment. Can be used for GAS and Double-FE on 1.2.0
 
-_[Blize](https://www.youtube.com/@blizegaming), Blackmars - 15 August 2023_
+_Blize, Blackmars - 15 August 2023_
 
 ## Instructions
 ---

@@ -16,7 +16,7 @@ tags: ["paraglide"]
 ---
 After a specific cutscene, Link is stuck airborne when attempting to descend
 
-_[Kaldemar](https://www.youtube.com/@Kaldemar) - 13 May 2023_
+_Kaldemar - 13 May 2023_
 
 ## Instructions
 ---

@@ -16,7 +16,7 @@ tags: ["culling", "fuse", "arrow"]
 ---
 Unloads a fired arrow while retaining its fused attachment, leading to strange interactions.
 
-_[Mozz](https://www.youtube.com/@M0zzed), pyuk, Zas - 18 June 2023_
+_Mozz, pyuk, Zas - 18 June 2023_
 
 ## Instructions
 ---

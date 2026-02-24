@@ -16,7 +16,7 @@ tags: ["storage", "item", "culling", "fuse"]
 ---
 Fusing an item on the same frame that it culls interrupts the fuse. It will continue as soon as the item unculls, but can lead to FE or cold fuse by interrupting the fusion process in a specific way.
 
-_[Mozz](https://www.youtube.com/@M0zzed) - 18 June 2023_
+_Mozz - 18 June 2023_
 
 ## Instructions
 ---

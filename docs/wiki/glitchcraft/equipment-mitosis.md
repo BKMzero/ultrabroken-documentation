@@ -16,7 +16,7 @@ tags: ["duplication", "zuggling", "equipment", "overload"]
 ---
 By combining zuggle overload with 1.0 modifier deletion, it is possible to mass dupe equipment
 
-_[Mozz](https://www.youtube.com/@M0zzed) - 5 September 2023_
+_Mozz - 5 September 2023_
 
 ## Instructions
 ---

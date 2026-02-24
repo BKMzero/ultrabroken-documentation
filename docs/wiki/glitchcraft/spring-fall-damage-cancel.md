@@ -16,7 +16,7 @@ tags: ["animation", "damage", "movement", "spring"]
 ---
 Currently allows you to fall from certian heights without taking fall damage
 
-_[Mozz](https://www.youtube.com/@M0zzed) - 15 May 2023_
+_Mozz - 15 May 2023_
 
 ## Instructions
 ---

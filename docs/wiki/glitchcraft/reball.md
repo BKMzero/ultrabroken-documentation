@@ -16,7 +16,7 @@ tags: ["movement", "recall", "zonai"]
 ---
 By combining recall with throwing a Zonai device capsule, you can jump onto and transfer momentum from the capsule into Link, providing significant speed.
 
-_[Mozz](https://www.youtube.com/@M0zzed) - 6 July 2023_
+_Mozz - 6 July 2023_
 
 ## Instructions
 ---

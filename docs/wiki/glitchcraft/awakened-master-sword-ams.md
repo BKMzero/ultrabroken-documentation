@@ -28,7 +28,7 @@ _tahatanogame - 4 September 2023_
 
 ## Notes
 ---
-Watch [Blize](https://www.youtube.com/@blizegaming)'s guide for more info!
+Watch Blize's guide for more info!
 
 After a game close and reopen, you will respawn at the phantom ganon fight, just reload a file to fix this
 Requires the crisis at Hyrule castle quest to be unfinished

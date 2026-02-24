@@ -16,7 +16,7 @@ tags: ["overload"]
 ---
 Filling up small areas with many objects causes a lot of lag and strange effects
 
-_[Mozz](https://www.youtube.com/@M0zzed) - 5 October 2023_
+_Mozz - 5 October 2023_
 
 ## Instructions
 ---

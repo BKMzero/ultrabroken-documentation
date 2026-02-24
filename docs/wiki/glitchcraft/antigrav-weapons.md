@@ -16,7 +16,7 @@ tags: ["weapon"]
 ---
 Puts weapons in an "Anti Gravity" state.
 
-_1.0.0-1.1.2 Setup Zas, 1.2 Setup [Blize](https://www.youtube.com/@blizegaming) - 28 May 2023_
+_1.0.0-1.1.2 Setup Zas, 1.2 Setup Blize - 28 May 2023_
 
 ## Instructions
 ---

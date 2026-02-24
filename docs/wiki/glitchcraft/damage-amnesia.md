@@ -16,7 +16,7 @@ tags: ["damage"]
 ---
 Allows Link to negate sources of damage.
 
-_[Mozz](https://www.youtube.com/@M0zzed) - 27 May 2023_
+_Mozz - 27 May 2023_
 
 ## Instructions
 ---

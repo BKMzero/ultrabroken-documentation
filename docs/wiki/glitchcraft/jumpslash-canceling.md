@@ -16,7 +16,7 @@ tags: ["animation", "equipment", "shield"]
 ---
 Interrupt jumpslashes by swapping a shield mid-animation
 
-_LegendOfLink, [Mozz](https://www.youtube.com/@M0zzed) - 21 May 2023_
+_LegendOfLink, Mozz - 21 May 2023_
 
 ## Instructions
 ---

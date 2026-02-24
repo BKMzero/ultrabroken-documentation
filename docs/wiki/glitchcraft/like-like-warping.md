@@ -14,7 +14,7 @@ tags: ["warping", "fuse", "like-like"]
 
 ## Summary
 ---
-_[Mozz](https://www.youtube.com/@M0zzed) - 15 June 2023_
+_Mozz - 15 June 2023_
 
 ## Instructions
 ---

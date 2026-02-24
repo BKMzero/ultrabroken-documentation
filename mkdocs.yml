@@ -147,7 +147,7 @@ nav:
   - OOB: wiki/oob/index.md
   - MNF: wiki/mnf/index.md
   - Overload: wiki/overload/index.md
-  - Hall of Fame: wiki/hall-of-fame.md
+  - Memorial: wiki/memorial.md
 
 hooks:
   - docs/assets/hooks/youtube_embed.py

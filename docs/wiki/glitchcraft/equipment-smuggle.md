@@ -16,7 +16,7 @@ tags: ["zuggling", "menu", "item", "equipment"]
 ---
 An equipment state where items remain equipped in Link's hands after being removed from the inventory
 
-_sleepyppls, [Mozz](https://www.youtube.com/@M0zzed), mulberry, NaN Gogh - 1 June 2023_
+_sleepyppls, Mozz, mulberry, NaN Gogh - 1 June 2023_
 
 ## Instructions
 ---

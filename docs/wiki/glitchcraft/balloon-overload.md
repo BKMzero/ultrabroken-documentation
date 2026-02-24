@@ -16,7 +16,7 @@ tags: ["menu", "equipment", "overload", "fuse", "shield"]
 ---
 Equipping and unfusing a shield with Robbie's infinite balloon fused to it does not remove the balloon in the character preview in the inventory. This can be stacked to lag out the inventory, and has the potential to crash the game
 
-_Jordan, mulberry, [ofstrings2](https://www.youtube.com/channel/UCdJgWquwZxJlfc8rDMmmilA) - 8 March 2025_
+_Jordan, mulberry, ofstrings2 - 8 March 2025_
 
 ## Instructions
 ---

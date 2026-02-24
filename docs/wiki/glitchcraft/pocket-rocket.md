@@ -16,7 +16,7 @@ tags: ["launching", "equipment", "paraglide", "shield"]
 ---
 Allows for repeated boost from a midair rocket shield surf, making it a very good movement option.
 
-_[Mozz](https://www.youtube.com/@M0zzed), SmallAnt - 15 June 2023_
+_Mozz, SmallAnt - 15 June 2023_
 
 ## Instructions
 ---

@@ -11,7 +11,7 @@ Ultrabroken has been researched and documented by many dedicated researchers. Th
 
 - Duncan
 - NaN Gogh
-- [Mozz](https://www.youtube.com/@M0zzed)
+- Mozz
 - ElDuende
 - MrCheeze
 - Flash
@@ -27,10 +27,10 @@ Ultrabroken has been researched and documented by many dedicated researchers. Th
 - Lafoscony
 - The_Andromeda
 - Blitze
-- [Lightos_](https://www.youtube.com/@lightos_)
+- Lightos_
 - ROBUXY2nd
 - fuse_it_or_loose_it
-- [suusi](https://www.youtube.com/channel/UCbUwlQ_88XfXD2bfU_4kxYg)
+- suusi
 - cr-2-4 (colombiancris)
 - Jordan
 

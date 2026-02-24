@@ -10,7 +10,7 @@ tags: ["storage", "culling", "fuse"]
 ---
 
 # Culling Area Fuse Storage `CAFS`
-_[Mozz](https://www.youtube.com/@M0zzed), pyuk - 30 June 2023_
+_Mozz, pyuk - 30 June 2023_
 
 ## Summary
 ---

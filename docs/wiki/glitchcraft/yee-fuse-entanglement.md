@@ -24,7 +24,7 @@ _Yee, mulberry - 20 February 2024_
 2. Fuse the sdc steering stick to mineru
 3. Fuse before link culls
 
-Yeefe can also be set up using the String Feory method ([ofstrings2](https://www.youtube.com/channel/UCdJgWquwZxJlfc8rDMmmilA)):
+Yeefe can also be set up using the String Feory method (ofstrings2):
 1. Mineru FE any equipment
 2. Pick it up
 3. Attempt to fuse a steering stick to the equipment just before it culls, similar to yeefe, if you time it correctly, you get a fuse effect without the item fusing (cold fuse)

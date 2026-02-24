@@ -16,7 +16,7 @@ tags: ["equipment", "shield", "spring"]
 ---
 Spring jump across terrain for as long as shield durability lasts.
 
-_[Mozz](https://www.youtube.com/@M0zzed) - 24 May 2023_
+_Mozz - 24 May 2023_
 
 ## Instructions
 ---

@@ -16,7 +16,7 @@ tags: ["damage"]
 ---
 Damage repeats infinitely during spin attack.
 
-_[GamSla341](https://www.youtube.com/@gamsla3413) - 13 May 2023_
+_GamSla341 - 13 May 2023_
 
 ## Instructions
 ---

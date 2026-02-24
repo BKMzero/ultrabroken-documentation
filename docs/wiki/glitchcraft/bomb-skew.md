@@ -16,7 +16,7 @@ tags: ["equipment", "shield", "zuggling"]
 ---
 In similar fashion to skew from BOTW, this affects the direction a shield surf spring jump will send you.
 
-_Aergyl, FerrusCube, [Mozz](https://www.youtube.com/@M0zzed) - 21 September 2023_
+_Aergyl, FerrusCube, Mozz - 21 September 2023_
 
 ## Instructions
 ---
