@@ -1,8 +1,8 @@
 ---
-title: Memorial
+title: Memorandum
 ---
 
-# Memorial
+# Memorandum
 
 ## Archivists
 ---

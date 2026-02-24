@@ -148,7 +148,7 @@ nav:
   - OOB: wiki/oob/index.md
   - MNF: wiki/mnf/index.md
   - Overload: wiki/overload/index.md
-  - Memorial: wiki/memorial.md
+  - Memorandum: wiki/memorandum.md
 
 hooks:
   - docs/assets/hooks/youtube_embed.py
