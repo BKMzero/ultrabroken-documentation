@@ -48,7 +48,7 @@ nav:
      #- Entanglement: entanglement/index.md
      #- Zuggling: zuggling/index.md
      #- Glitchcraft: glitchcraft/index.md
-  - Glitchcraft: wiki/glitchcraft/glitchcraft-grimoire.md
+  - Glitchcraft: wiki/glitchcraft/_glitchcraft-grimoire.md
   - Ultrabroken: 
     - Introduction: wiki/ultrabroken/index.md
     - Basics: 
@@ -151,6 +151,7 @@ nav:
 
 hooks:
   - docs/assets/hooks/youtube_embed.py
+  - docs/assets/hooks/contributor_links.py
 
 plugins:
   - search

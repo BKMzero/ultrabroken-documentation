@@ -33,7 +33,7 @@ _137 contributors — last updated 2026-02-24_
 | Rank | Contributor | Glitches |
 |------|-------------|:--------:|
 | 🥇 | **mulberry** | 57 |
-| 🥈 | **Mozz** | 47 |
+| 🥈 | **[Mozz](https://www.youtube.com/@M0zzed)** | 47 |
 | 🥉 | **Zas** | 21 |
 | 4 | **Ock** | 17 |
 | 5 | **Ryan?** | 16 |
@@ -42,7 +42,7 @@ _137 contributors — last updated 2026-02-24_
 | 8 | **NaN Gogh** | 12 |
 | 9 | **NX721** | 12 |
 | 10 | **BigDUCCO** | 10 |
-| 11 | **Lightos** | 10 |
+| 11 | **[Lightos](https://www.youtube.com/@lightos_)** | 10 |
 | 12 | **pyuk** | 10 |
 | 13 | **WinnerBoi77** | 10 |
 | 14 | **LegendofLinkk** | 8 |
@@ -54,7 +54,7 @@ _137 contributors — last updated 2026-02-24_
 | 20 | **Physioninja** | 5 |
 | 21 | **ROBUXY2ND** | 5 |
 | 22 | **Yee** | 5 |
-| 23 | Blize | 4 |
+| 23 | [Blize](https://www.youtube.com/@blizegaming) | 4 |
 | 24 | Jordan | 4 |
 | 25 | kurocat471 | 4 |
 | 26 | Toti Sauce | 4 |
@@ -79,14 +79,14 @@ _137 contributors — last updated 2026-02-24_
 | 45 | KiloVictor | 2 |
 | 46 | kirigaya | 2 |
 | 47 | NicNac | 2 |
-| 48 | ofstrings2 | 2 |
+| 48 | [ofstrings2](https://www.youtube.com/channel/UCdJgWquwZxJlfc8rDMmmilA) | 2 |
 | 49 | orionsayshi | 2 |
 | 50 | quantim | 2 |
 | 51 | Quelfth | 2 |
 | 52 | sleepyppls | 2 |
 | 53 | Squidwest | 2 |
 | 54 | Steel | 2 |
-| 55 | suusi | 2 |
+| 55 | [suusi](https://www.youtube.com/channel/UCbUwlQ_88XfXD2bfU_4kxYg) | 2 |
 | 56 | Syb | 2 |
 | 57 | Tauktes | 2 |
 | 58 | ultrababouin | 2 |
@@ -120,11 +120,11 @@ _137 contributors — last updated 2026-02-24_
 | 86 | Erling附身 | 1 |
 | 87 | F. Buffalo | 1 |
 | 88 | fabs | 1 |
-| 89 | GamSla341 | 1 |
+| 89 | [GamSla341](https://www.youtube.com/@gamsla3413) | 1 |
 | 90 | Ikkitrix | 1 |
 | 91 | Infrasolid | 1 |
 | 92 | KAIDUDE64 | 1 |
-| 93 | Kaldemar | 1 |
+| 93 | [Kaldemar](https://www.youtube.com/@Kaldemar) | 1 |
 | 94 | Knight7108 | 1 |
 | 95 | KnightPohtaytoh | 1 |
 | 96 | koreth | 1 |
@@ -134,7 +134,7 @@ _137 contributors — last updated 2026-02-24_
 | 100 | Luckstyle | 1 |
 | 101 | Mentor_Kurt | 1 |
 | 102 | Mety333 | 1 |
-| 103 | Modoki_returns | 1 |
+| 103 | [Modoki_returns](https://twitter.com/Modoki_returns) | 1 |
 | 104 | Moonrise | 1 |
 | 105 | ness | 1 |
 | 106 | Owen | 1 |

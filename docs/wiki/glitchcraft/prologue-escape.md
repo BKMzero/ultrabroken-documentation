@@ -16,7 +16,7 @@ tags: ["duplication", "storage"]
 ---
 Using Banc Storage, it's possible to get Link out of the prologue, allowing for a lot of side effects.
 
-_LegendOfLinkk, mulberry, Aergyl, [Lightos](https://www.youtube.com/@lightos_), The entire glitch hunting community! - October 1st, 2024_
+_LegendOfLinkk, mulberry, Aergyl, [Lightos_](https://www.youtube.com/@lightos_), The entire glitch hunting community! - October 1st, 2024_
 
 ## Instructions
 ---

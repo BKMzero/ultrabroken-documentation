@@ -16,7 +16,7 @@ tags: ["item", "buff", "damage"]
 ---
 Extends and stacks the damage frames of an attack with memory buffering, causing huge damage.
 
-_[Lightos](https://www.youtube.com/@lightos_) - 22 December 2023_
+_[Lightos_](https://www.youtube.com/@lightos_) - 22 December 2023_
 
 ## Instructions
 ---

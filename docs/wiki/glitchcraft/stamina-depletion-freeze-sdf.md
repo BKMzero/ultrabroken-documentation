@@ -16,7 +16,7 @@ tags: ["Unknown"]
 ---
 Certain actions can cause the stamina depletion to glitch out.
 
-_[Lightos](https://www.youtube.com/@lightos_) - 20 May 2023_
+_[Lightos_](https://www.youtube.com/@lightos_) - 20 May 2023_
 
 ## Instructions
 ---
