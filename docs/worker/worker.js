@@ -112,7 +112,6 @@ export default {
         index = await fetchIndex(indexUrl);
         try{
           const resp = new Response(JSON.stringify(index), { headers: {'Content-Type':'application/json'} });
-          resp.headers.set('Cache-Control', 'public, max-age=3600');
           await caches.default.put(cacheKey, resp.clone());
         }catch(e){ /* ignore cache put failures */ }
       }
