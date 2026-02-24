@@ -8,13 +8,6 @@ title: About the Archives
 ---
 This site's content is the result of extensive community research, development and curation. All glitches documented here are the product of a phenomenal community glitch hunt and collaborative research effort in The Legend of Zelda: Tears of the Kingdom. Please credit the following volunteer QA communities and contributors, who helped Nintendo Ninjas push several patches, when sharing or referencing material from this site.
 
-- **[Zelda: Tears of the Kingdom Speedrunning](https://discord.gg/xM8NnTetb2)** — Primary spreadsheet curation and glitch hunting
-- **[The Hyrule Engineering Club](https://discord.gg/uZqvjnwqF3)** — Vanilla and glitched constructions ad absurdum
-- **[TotK グリッチ鯖](https://discord.gg/SQXkjxRazk)** — Japanese TotK glitch research community
-- **[TotK Glitch Spreadsheet](https://docs.google.com/spreadsheets/d/1xNB1gOLZRSF9yp1mHUsS9ymogRJa1Wz8rTliTXezeRM/edit?usp=drivesdk)** - The one and only community-maintained glitch spreadsheet curated by the Zelda: Tears of the Kingdom Speedrunning community and its spreadsheet managers
-- **[Grimoire of Glitchcraft](glitchcraft/glitchcraft-grimoire.md)** The direct extract from the canonical spreadsheet with minor formatting and convenience edits
-- **NaN Gogh** Curator of this page and main author of the `Ultrabroken` section
-
 ## Contribution
 ---
 If you'd like to document glitches, techniques, setups or builds for the archives, read [this guide](https://github.com/nan-gogh/ultrabroken-documentation/blob/main/README.md), then load [this blank file](https://github.com/nan-gogh/ultrabroken-documentation/blob/main/docs/wiki/blank.md) to fill it out and post it [here](https://discord.com/channels/1086729144307564648/1471224902890684557).
