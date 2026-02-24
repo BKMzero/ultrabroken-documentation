@@ -37,4 +37,7 @@ Causes WST. Only transfers durability and fused material on 1.0.0, same as WST.
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1108141837954330686/1108826680052686989)
 - [Discord](https://discord.com/channels/1086729144307564648/1108141837954330686/1109068615724048444)
+
+## Related
+---
 - [Zuggle Overload](search:Zuggle Overload)

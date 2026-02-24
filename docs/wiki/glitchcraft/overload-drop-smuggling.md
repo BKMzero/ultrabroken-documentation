@@ -34,4 +34,7 @@ Credit to BigDUCCO for setup!
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1118058095734685766)
+
+## Related
+---
 - [Zuggle Overload](search:Zuggle Overload)

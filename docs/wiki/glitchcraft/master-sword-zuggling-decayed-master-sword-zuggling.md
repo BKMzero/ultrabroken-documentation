@@ -52,5 +52,8 @@ This can be combined with mastersword liberation to drop the dms/ms
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1171061365667020821)
+
+## Related
+---
 - [Mineru Culling](search:Mineru Culling)
 - [Zuggling](search:Zuggling)

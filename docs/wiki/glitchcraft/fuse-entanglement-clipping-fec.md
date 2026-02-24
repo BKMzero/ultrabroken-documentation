@@ -31,4 +31,7 @@ _circyit - 16 June 2023_
 ## Resources
 ---
 - [YouTube](https://www.youtube.com/watch?v=WhKBIKQwZzc)
+
+## Related
+---
 - [Fuse Entanglement](search:Fuse Entanglement)

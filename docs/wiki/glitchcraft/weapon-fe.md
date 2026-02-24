@@ -33,4 +33,7 @@ _Rediscovered by ROBUXY2ND and originally found by Physioninja - 1 June 2023_
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1170407312054300713)
+
+## Related
+---
 - [Fuse Entanglement](search:Fuse Entanglement)

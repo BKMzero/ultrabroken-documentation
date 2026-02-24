@@ -35,5 +35,8 @@ _mulberry - 22 January 2025_
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1331788286011904123)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1331789466683052175)
+
+## Related
+---
 - [AntiGrav Weapons](search:AntiGrav Weapons)
 - [Zuggle](search:Zuggle)

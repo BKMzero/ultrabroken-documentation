@@ -33,4 +33,7 @@ _Telkic, mulberry, WinnerBoi77 - 19 June 2025_
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1221545645844725760/1385097896575373412)
+
+## Related
+---
 - [Stack Splitting](search:Stack Splitting)

@@ -30,5 +30,8 @@ Alternatively, you can do SLD instead of Zuggle to transfer over the shield, res
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1116159439855169606)
+
+## Related
+---
 - [Zuggling](search:Zuggling)
 - [Fuse Entanglement](search:Fuse Entanglement)

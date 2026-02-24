@@ -32,4 +32,7 @@ Allows quick spin attacks with the spear charge animation, and many other combin
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1108569825606897705)
 - [YouTube](https://www.youtube.com/watch?v=ZbaN8Ljj4NE)
+
+## Related
+---
 - [Zuggle Overload](search:Zuggle Overload)

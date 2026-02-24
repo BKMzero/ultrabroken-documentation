@@ -32,5 +32,8 @@ Ultra Save Load Object Transfer objects can be continuously transferred between 
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1207707842325258340)
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1207707842325258340)
+
+## Related
+---
 - [Fuse Entanglement](search:Fuse Entanglement)
 - [Drop Smuggle](search:Drop Smuggle)

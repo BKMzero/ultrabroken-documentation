@@ -33,4 +33,7 @@ _Ryan? - 12 January 2024_
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1194033039123165215/1195511230660616355)
 - [Discord](https://discord.com/channels/1086729144307564648/1194033039123165215/1195529500558114876)
+
+## Related
+---
 - [mulberry's Out of Body Experience](search:mulberry's Out of Body Experience)

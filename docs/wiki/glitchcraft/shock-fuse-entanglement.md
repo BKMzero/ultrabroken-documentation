@@ -33,5 +33,8 @@ performing this twice with the same smuggle and fuse will pseudo fuse it to the 
 ## Resources
 ---
 - [Twitter](https://vxtwitter.com/zasbotw/status/1701713294464364573)
+
+## Related
+---
 - [Fuse Entanglment](search:Fuse Entanglment)
 - [Zuggling](search:Zuggling)

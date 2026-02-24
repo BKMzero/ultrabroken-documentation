@@ -46,6 +46,9 @@ You know you get regular FE if Recall is auto-cancelled when you Recall the FE c
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1376489712146976839)
+
+## Related
+---
 - [Overload Cold Fuse](search:Overload Cold Fuse)
 - [Fuse Overload](search:Fuse Overload)
 - [Fuse Entanglement](search:Fuse Entanglement)

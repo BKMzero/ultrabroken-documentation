@@ -41,4 +41,7 @@ Method 2 in 1.0.0 will allow you to reuse your bomb flower infinitely, but also 
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1155451908530647064)
 - [YouTube](https://www.youtube.com/watch?v=NP-owf2XiVM)
+
+## Related
+---
 - [Modifier Deletion Weapon State Transfer](search:Modifier Deletion Weapon State Transfer)

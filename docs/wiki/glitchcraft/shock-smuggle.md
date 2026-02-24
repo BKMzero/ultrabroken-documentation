@@ -31,4 +31,7 @@ Can be done much more consistently by equipping the Thunder Helm before walking 
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1113917918422511776)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1114328222365130844)
+
+## Related
+---
 - [Equipment Smuggling](search:Equipment Smuggling)

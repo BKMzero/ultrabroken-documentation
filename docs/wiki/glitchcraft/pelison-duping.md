@@ -38,4 +38,7 @@ The target item remains in desync in the inventory until the duplicate is picked
 - [Discord](https://discord.com/channels/1086729144307564648/1110956205624532993/1111280709542359191)
 - [Discord](https://discord.com/channels/1086729144307564648/1110956205624532993/1111280709542359191)
 - [YouTube](https://www.youtube.com/watch?v=mfM41RB23pc)
+
+## Related
+---
 - [Fuse Entanglement](search:Fuse Entanglement)

@@ -38,4 +38,7 @@ It's also possible to perform Wall-less Zuggling without the map, by performing 
 - [YouTube](https://www.youtube.com/watch?v=vIxk3xam-BE)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1110795274953166939)
 - [YouTube](https://www.youtube.com/watch?v=pgtlFSLzU8Y)
+
+## Related
+---
 - [Zuggling](search:Zuggling)

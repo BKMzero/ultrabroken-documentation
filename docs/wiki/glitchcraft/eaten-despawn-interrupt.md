@@ -74,5 +74,8 @@ Setup for using eaten DI weapons and shields to make an eaten DI ghost on 1.0-1.
 - [Original discovery](https://discordapp.com/channels/1086729144307564648/1110956205624532993/1461889160062173416)
 - [Molduga optimization](https://discordapp.com/channels/1111875355758837830/1128775917376897145/1466939998023450796)
 - [Link's Luxury Loadout](https://www.youtube.com/watch?v=kQuj0LBQdrM)
+
+## Related
+---
 - [Fuse Entanglement](search:Fuse Entanglement)
 - [Detanglement](search:Detanglement)

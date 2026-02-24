@@ -28,6 +28,9 @@ _Ryan?, [Mozz](https://www.youtube.com/@M0zzed) - 18 June 2023_
 
 ## Resources
 ---
+
+## Related
+---
 - [Fuse Entanglement](search:Fuse Entanglement)
 - [Fuse Storage](search:Fuse Storage)
 - [Like-Like FSFE](search:Like-Like FSFE)

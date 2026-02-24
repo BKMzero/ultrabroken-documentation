@@ -38,6 +38,9 @@ Unculling a sluggled item without retrieving it from the like like causes the it
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1118705435013288048)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1118481958276698202)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598835088162816/1118456182072418335)
+
+## Related
+---
 - [Fuse Entanglement](search:Fuse Entanglement)
 - [Equipment Smuggling](search:Equipment Smuggling)
 - [Zuggle Overload](search:Zuggle Overload)

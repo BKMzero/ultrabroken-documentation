@@ -38,6 +38,9 @@ It's very likely to cull lock, especially if you don't mount a steering stick, l
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1210488053769175040)
+
+## Related
+---
 - [Memory Buffering](search:Memory Buffering)
 - [Object Culling](search:Object Culling)
 - [Stick Desync](search:Stick Desync)

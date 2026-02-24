@@ -32,4 +32,7 @@ https://discord.com/channels/1086729144307564648/1105598687167664239/12033502143
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1203341730867314723)
+
+## Related
+---
 - [Equipment Smuggle](search:Equipment Smuggle)

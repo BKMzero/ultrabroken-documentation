@@ -44,4 +44,7 @@ this was a pain to write, still experimenting, if you have any discoveries pleas
 - [YouTube](https://www.youtube.com/watch?v=zurfHBHlLBY)
 - [YouTube](https://www.youtube.com/watch?v=JMEgDwXienA)
 - [Twitter](https://twitter.com/NX721_/status/1684303947224473602?s=20)
+
+## Related
+---
 - [Midair Throw Duplication](search:Midair Throw Duplication)

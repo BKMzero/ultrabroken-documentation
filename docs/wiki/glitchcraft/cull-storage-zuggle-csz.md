@@ -38,5 +38,8 @@ Results in invizuggle when performed on v1.2.0-1.2.1
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1263545835019309137)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1287526225585373248)
+
+## Related
+---
 - [Map Zuggling](search:Map Zuggling)
 - [Cull Storage](search:Cull Storage)

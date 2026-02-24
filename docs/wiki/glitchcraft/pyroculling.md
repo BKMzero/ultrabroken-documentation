@@ -31,4 +31,7 @@ Place the object(s) in a culling area, then activate a fire emitter and place it
 - [Discord](https://discord.com/channels/1111875355758837830/1128775917376897145/1175099874174320761)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1331804343250190368)
 - [Discord](https://discordapp.com/channels/1086729144307564648/1105598687167664239/1332778636750749837)
+
+## Related
+---
 - [Object Culling](search:Object Culling)

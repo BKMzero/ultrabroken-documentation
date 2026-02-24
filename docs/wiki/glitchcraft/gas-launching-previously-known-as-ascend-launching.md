@@ -48,4 +48,7 @@ Uses Recall, but anything that freezes time works too.
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1122714860199870506)
 - [Discord](https://discordapp.com/channels/1086729144307564648/1105598687167664239/1149978844573487156)
 - [Tutorial by Blize](https://www.youtube.com/watch?v=4oxjOE0onxI)
+
+## Related
+---
 - [Guard-less Active Shield](search:Guard-less Active Shield)

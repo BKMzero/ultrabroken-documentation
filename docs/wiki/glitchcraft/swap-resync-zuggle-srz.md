@@ -51,5 +51,8 @@ You can also fully skip the need for a wall by loading a save at the end of the 
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1404450104525459546)
 - [Zuggling Portacull equipment](https://discord.com/channels/1086729144307564648/1113557914444111873/1404506627091988552)
+
+## Related
+---
 - [Zuggle](search:Zuggle)
 - [Portable Culling](search:Portable Culling)

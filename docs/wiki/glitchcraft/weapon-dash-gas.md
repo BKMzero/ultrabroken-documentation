@@ -35,5 +35,8 @@ _Toti Sauce - 28 November 2025_
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1443887058153373729)
+
+## Related
+---
 - [Guard-less Active Shield](search:Guard-less Active Shield)
 - [Fuse Entanglement](search:Fuse Entanglement)

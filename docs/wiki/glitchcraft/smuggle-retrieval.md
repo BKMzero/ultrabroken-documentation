@@ -33,4 +33,7 @@ _PetitFrapo - 18 December 2024_
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1318712104361922664)
+
+## Related
+---
 - [Equipment Smuggle](search:Equipment Smuggle)

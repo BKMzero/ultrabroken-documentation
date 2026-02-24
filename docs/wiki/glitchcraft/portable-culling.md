@@ -36,4 +36,7 @@ Doing a drop swap drop softlocks.
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1212132735020310590)
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1212137974708568084)
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1216477146978193530)
+
+## Related
+---
 - [Stick Desync Clip](search:Stick Desync Clip)

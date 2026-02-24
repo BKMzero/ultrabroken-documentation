@@ -42,5 +42,8 @@ Test on more versions
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1112801830821449798/1209443743581736980)
 - [DHoverstone YeeFe](https://discord.com/channels/1086729144307564648/1113557914444111873/1224074388983250975)
+
+## Related
+---
 - [Fuse Entanglement](search:Fuse Entanglement)
 - [Stick Desync](search:Stick Desync)

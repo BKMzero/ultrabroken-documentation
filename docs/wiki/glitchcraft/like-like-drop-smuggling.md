@@ -41,4 +41,7 @@ The item that gets dropped enters purgatory, making FEWZ more accessible on newe
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1118370139897876570)
 - [Discord](https://discord.com/channels/1086729144307564648/1110956205624532993/1119070462232756245)
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1250837627700121661)
+
+## Related
+---
 - [Slugging](search:Slugging)

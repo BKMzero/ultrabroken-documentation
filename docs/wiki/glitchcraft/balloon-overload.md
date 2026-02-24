@@ -34,4 +34,7 @@ _Jordan, mulberry, [ofstrings2](https://www.youtube.com/channel/UCdJgWquwZxJlfc8
 ---
 - [Discord](https://discordapp.com/channels/1086729144307564648/1113557914444111873/1348152808108458056)
 - [Discord](https://discordapp.com/channels/1086729144307564648/1113557914444111873/1348452605411463221)
+
+## Related
+---
 - [Infinite Balloon](search:Infinite Balloon)

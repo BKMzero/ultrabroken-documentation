@@ -31,4 +31,7 @@ With current testing, this is the fastest sprinting method
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1107874408938348614)
 - [YouTube](https://www.youtube.com/watch?v=eea66BoVhcQ)
+
+## Related
+---
 - [Sprinting Methods](search:Sprinting Methods)

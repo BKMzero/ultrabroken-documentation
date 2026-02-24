@@ -45,4 +45,7 @@ this does not wst on 1.0.0
 ## Resources
 ---
 - [YouTube](https://www.youtube.com/watch?v=E3nDTPL6IdU)
+
+## Related
+---
 - [Fuse Entanglement](search:Fuse Entanglement)

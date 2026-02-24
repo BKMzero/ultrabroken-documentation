@@ -34,4 +34,7 @@ DO NOT UNLOCK THE WHEEL
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1248306185472442480)
+
+## Related
+---
 - [Stick Desync Clip](search:Stick Desync Clip)

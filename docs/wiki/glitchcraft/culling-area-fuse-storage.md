@@ -28,5 +28,8 @@ A method of Fuse Storage using Area Culling
 
 ## Resources
 ---
+
+## Related
+---
 - [Fuse Storage](search:Fuse Storage)
 - [Object Culling](search:Object Culling)

@@ -35,4 +35,7 @@ Retrieving collision results in a purgatory equipment in the overworld, picking 
 ## Resources
 ---
 - [Discord](https://discordapp.com/channels/1086729144307564648/1113557914444111873/1140772467707760750)
+
+## Related
+---
 - [Fuse Entanglement](search:Fuse Entanglement)

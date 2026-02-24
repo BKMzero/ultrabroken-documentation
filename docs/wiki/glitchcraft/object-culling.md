@@ -32,5 +32,8 @@ With the help of chain FE, it is possible to make an infinitely large cull radiu
 ---
 [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1180201584211271761)
 - [YouTube](https://www.youtube.com/watch?v=57ja8PaTct0)
+
+## Related
+---
 - [Like-Like Culling](search:Like-Like Culling)
 - [Cull Zone Culling](search:Cull Zone Culling)

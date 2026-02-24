@@ -32,4 +32,7 @@ Has a very good chance of crashing the game in certain areas. Depths are usually
 ---
 - [YouTube](https://www.youtube.com/watch?v=CfIe3QO5fXA)
 - [YouTube](https://www.youtube.com/watch?v=_Zaqnosyymw)
+
+## Related
+---
 - [Autobuild Cancel](search:Autobuild Cancel)

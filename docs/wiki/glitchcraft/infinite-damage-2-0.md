@@ -32,4 +32,7 @@ Can use 1 time use fuse material infinitely.
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1198804902961479691)
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1198807476305412188)
+
+## Related
+---
 - [Wacko Attacko](search:Wacko Attacko)

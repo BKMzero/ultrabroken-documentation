@@ -35,4 +35,7 @@ For multiple weapons, drop the shield at the end of step 2 and repeat steps 1-2 
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1116941948746465410)
 - [YouTube](https://www.youtube.com/watch?v=jdqn8qvNhuI)
+
+## Related
+---
 - [Fuse Entanglement](search:Fuse Entanglement)

@@ -37,4 +37,7 @@ Resync your inventory by re-equipping
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1116378940546748416)
 - [YouTube](https://www.youtube.com/watch?v=pMsoToqT52g)
 - [YouTube](https://www.youtube.com/watch?v=ycKeFgsb7gs)
+
+## Related
+---
 - [Invizuggle  1.2](search:Invizuggle 1.2)

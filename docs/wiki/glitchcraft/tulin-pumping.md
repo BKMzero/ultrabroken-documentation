@@ -29,4 +29,7 @@ Jump off a ledge and activate Tulin's ability, then close glider and reopen it f
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1107527341971886230)
+
+## Related
+---
 - [Tulin Movement](search:Tulin Movement)

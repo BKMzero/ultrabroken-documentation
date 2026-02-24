@@ -32,4 +32,7 @@ _[Lightos](https://www.youtube.com/@lightos_), NX721 - 22 July 2023_
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1132405949424996475)
+
+## Related
+---
 - [Void Holding](search:Void Holding)

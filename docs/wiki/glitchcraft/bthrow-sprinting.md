@@ -27,4 +27,7 @@ Press B - ZR - R - B (or B - R - ZR - B) and repeat
 ## Resources
 ---
 - [YouTube](https://www.youtube.com/watch?v=Mb8rgAwELYY)
+
+## Related
+---
 - [Sprint Methods](search:Sprint Methods)

@@ -33,4 +33,7 @@ It's possible to Fall Damage Cancel by performing multiple frame perfect inputs 
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1110634140803551445)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1110642449954639932)
+
+## Related
+---
 - [Jumpslash Cancel](search:Jumpslash Cancel)

@@ -33,4 +33,7 @@ Texture Tearing
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1194033039123165215/1195129250265694289)
 - [Discord](https://discord.com/channels/1086729144307564648/1194033039123165215/1196033176183779430)
+
+## Related
+---
 - [mulberry's Out of Body Experience](search:mulberry's Out of Body Experience)

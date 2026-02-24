@@ -48,5 +48,8 @@ Can cause dynamic zuggle.
 - [Optimal Drop Zuggle inputs](https://discord.com/channels/1086729144307564648/1105598254198050947/1218801490336944169)
 - [Instant Drop zuggle](https://discord.com/channels/1086729144307564648/1105598687167664239/1220083199800246313)
 - [Drop input cheat sheet](https://discord.com/channels/1086729144307564648/1105598687167664239/1220429377364426773)
+
+## Related
+---
 - [Dynamic Zuggle](search:Dynamic Zuggle)
 - [Hand Locked Equipment Smuggling](search:Hand Locked Equipment Smuggling)

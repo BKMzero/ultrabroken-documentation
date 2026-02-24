@@ -44,5 +44,8 @@ While zapshield itself can be created on all versions, it's applications are ver
 - [Discord](https://discord.com/channels/1086729144307564648/1110956205624532993/1328470713497288845)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1328523158856405014)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1328854135495200778)
+
+## Related
+---
 - [Fuse Entanglement](search:Fuse Entanglement)
 - [Stick Desync Clip](search:Stick Desync Clip)

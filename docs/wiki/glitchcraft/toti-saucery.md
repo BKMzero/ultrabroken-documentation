@@ -38,4 +38,7 @@ For more details, check the next row (not done yet, work in progress).
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1274344241845375078)
+
+## Related
+---
 - [Fuse Storage Fuse Entanglement](search:Fuse Storage Fuse Entanglement)

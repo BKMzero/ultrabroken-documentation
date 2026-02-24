@@ -32,5 +32,8 @@ TODO: Test other forms of culling
 - [Discord](https://discordapp.com/channels/1086729144307564648/1105598687167664239/1340344666331021322)
 - [Discord](https://discordapp.com/channels/1086729144307564648/1105598687167664239/1340347571318685787)
 - [Discord](https://discordapp.com/channels/1086729144307564648/1105598687167664239/1340352091310395404)
+
+## Related
+---
 - [Dynamic Purgatory Zuggle](search:Dynamic Purgatory Zuggle)
 - [Cold Fuse](search:Cold Fuse)

@@ -31,4 +31,7 @@ _NaN Gogh - 11 July 2023_
 ## Resources
 ---
 - [Twitter](https://vxtwitter.com/_nan_gogh/status/1678848829259382786?s=46)
+
+## Related
+---
 - [Fuse Entanglement](search:Fuse Entanglement)

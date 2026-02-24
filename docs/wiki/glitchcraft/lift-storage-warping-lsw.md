@@ -34,5 +34,8 @@ Test with like like stick culling
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1194030076233257020)
+
+## Related
+---
 - [Stick Desync Clip](search:Stick Desync Clip)
 - [Object Culling](search:Object Culling)

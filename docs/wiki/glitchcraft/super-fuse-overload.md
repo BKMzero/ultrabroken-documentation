@@ -78,5 +78,8 @@ _Discovered by mulberry and Aergyl, optimized by Jordan, MandelbrotChaylay, and 
 ---
 - [SFO discovery](https://discordapp.com/channels/1086729144307564648/1110956205624532993/1446913364268683395)
 - [Tahat's outdated guide for mineru's arm](https://www.youtube.com/watch?v=R9azQV9lwJk)
+
+## Related
+---
 - [Eaten DI](search:Eaten DI)
 - [Dpadlock-Less Invizuggle](search:Dpadlock-Less Invizuggle)

@@ -38,4 +38,7 @@ Majora's Mask and Bullet Time are not required.
 - [Twitter](https://twitter.com/shio_0725_4040/status/1684764043708678144)
 - [Twitter](https://twitter.com/shio_0725_4040/status/1684509550026924032?s=20)
 - [Twitter](https://twitter.com/shio_0725_4040/status/1685176978742403072?t=m0yFnWCFAxKgkgQHeoYGAQ&s=19)
+
+## Related
+---
 - [Bow Attachment Desync](search:Bow Attachment Desync)

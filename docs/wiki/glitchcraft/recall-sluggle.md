@@ -12,7 +12,6 @@ tags: ["zuggling", "menu", "recall"]
 # Recall Sluggle `RSL`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
-
 ## Summary
 ---
 Using recall it's possible to sluggle a weapon by having access to it in the menu before it's properly equipped.
@@ -37,4 +36,7 @@ To get a Drop Smuggle: drop swap unequip the equipment, then pick it up.
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1110956205624532993/1393348393329365042)
+
+## Related
+---
 - [Slugging](search:Slugging)

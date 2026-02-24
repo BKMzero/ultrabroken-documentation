@@ -44,6 +44,9 @@ _Aergyl, mulberry, Ikaboze, Jordan - 20 May 2025_
 ---
 - [Discord](https://discordapp.com/channels/1086729144307564648/1110956205624532993/1374486971551973386)
 - [YouTube](https://www.youtube.com/watch?v=PPyR-ipbhbE)
+
+## Related
+---
 - [Fuse Entanglement](search:Fuse Entanglement)
 - [Pocket Rocket](search:Pocket Rocket)
 - [Equipment Smuggle](search:Equipment Smuggle)

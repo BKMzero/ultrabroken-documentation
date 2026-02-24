@@ -32,4 +32,7 @@ Springboard Clipping
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1111100603683323964)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1111100603683323964)
+
+## Related
+---
 - [Fuse Entanglement](search:Fuse Entanglement)

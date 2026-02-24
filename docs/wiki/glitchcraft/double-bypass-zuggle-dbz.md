@@ -40,5 +40,8 @@ There are variations of this setup that don't require a load, using a specific w
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1110956205624532993/1383991495123796030)
+
+## Related
+---
 - [Zuggle](search:Zuggle)
 - [Portable Culling](search:Portable Culling)

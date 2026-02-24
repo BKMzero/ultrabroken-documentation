@@ -33,4 +33,7 @@ The exact cause of texture tearing remains unknown and there are no well defined
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1194033039123165215/1195690499852480544)
+
+## Related
+---
 - [mulberry's Out of Body Experience](search:mulberry's Out of Body Experience)

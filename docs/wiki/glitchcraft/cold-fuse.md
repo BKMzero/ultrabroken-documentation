@@ -44,6 +44,9 @@ Discord (mulberry)
 ## Resources
 ---
 - [Twitter](https://fxtwitter.com/FBuffalo3/status/1683255977758584832)
+
+## Related
+---
 - [Zuggle Overload](search:Zuggle OverloadD)
 - [Drop Smuggling](search:Drop Smuggling)
 - [Object Culling](search:Object Culling)
