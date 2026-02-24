@@ -5,7 +5,7 @@ versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["LegendofLinkk", "Abahbob"]
 date: "2023-05-17"
 description: "Allows you to obtain the prologue master sword (named MsgNotFound or MNF), whose durability cannot decrease"
-aliases: ["message-not-found"]
+aliases: ["message not found", "message not found error", "message-not-found"]
 tags: ["mnf"]
 ---
 

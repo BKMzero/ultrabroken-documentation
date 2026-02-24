@@ -5,7 +5,7 @@ versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Zvleon"]
 date: "2023-05-16"
 description: "Zuggling allows you to stack weapons to get more attack power by cloning equiment onto Link, adding hitboxes on top of each other."
-aliases: ["zuggle overload"]
+aliases: ["zuggling", "zugl", "zug"]
 tags: ["zuggling", "item", "equipment"]
 ---
 

@@ -5,7 +5,7 @@ versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["こんそめ"]
 date: "2023-05-16"
 description: "Allows you to clip through things using a large object and recall"
-aliases: ["recall-clip", "recallclip"]
+aliases: ["recall clip", "recall-clip glitch", "recall-clip", "recallclip"]
 tags: ["clipping", "ultrahand", "recall"]
 ---
 

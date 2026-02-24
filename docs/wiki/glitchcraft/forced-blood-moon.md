@@ -6,7 +6,7 @@ credits: ["1789(@W0ERYySQgZyGOY3)", "Simonfirefighter", "Maxmasher", "Flash", "a
 date: "2023-05-28"
 description: "Allows you to force a blood moon whenever you want"
 aliases: ["forced-blood-moon"]
-tags: ["blood-moon"]
+tags: ["bloodmoon"]
 ---
 
 # Forced Blood Moon `FBM`

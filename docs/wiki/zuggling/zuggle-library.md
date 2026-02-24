@@ -12,7 +12,7 @@ This page complies Smuggling and Zuggling related glitches for quick reference.
 - [Equipment Collision Zuggle](../glitchcraft/equipment-collision-zuggle.md)
 - [Zuggle Overload](../glitchcraft/zuggle-overload.md)
 - [MNF Zuggle Fuse](../glitchcraft/mnf-zuggle-fuse.md)
-- [Zuggle Overload OOB](../glitchcraft/zuggle-overload-oob.md)
+- [Zuggle Overload Out Of Bounds](../glitchcraft/zuggle-overload-out-of-bounds.md)
 - [Map Zuggling (MZ)](../glitchcraft/map-zuggling-mz.md)
 - [Save Load Zuggling (SLZ)](../glitchcraft/save-load-zuggling-slz.md)
 - [Pickup Smuggling](../glitchcraft/pickup-smuggling.md)

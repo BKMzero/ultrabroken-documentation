@@ -6,7 +6,7 @@ credits: ["Lightos", "mulberry", "Aergyl", "EOH_NS_SS"]
 date: "2024-10-01"
 description: "Store banc changes to another save file using memory interrupt"
 aliases: ["banc-storage"]
-tags: ["storage", "warping", "save-load", "blood-moon"]
+tags: ["storage", "warping", "save-load", "bloodmoon"]
 ---
 
 # Banc Storage `BANC`

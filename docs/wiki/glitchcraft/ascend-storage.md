@@ -5,7 +5,7 @@ versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Saria"]
 date: "2023-05-19"
 description: "Misplaces the point where Link goes after using Ascend."
-aliases: ["ascend-storage", "storage ascend"]
+aliases: ["ascend storage", "ascend storage glitch", "ascend-storage", "storage ascend"]
 tags: ["storage", "ascend"]
 ---
 

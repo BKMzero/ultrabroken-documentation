@@ -5,7 +5,7 @@ versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["そら-さん"]
 date: "2023-05-18"
 description: "Allows the usage of minecarts to be launched from awkward collision grabbing on rails."
-aliases: ["minecart collision", "minecart rail collision", "minecart-rail-collision-launching", "rail collision launching"]
+aliases: ["minecart collision", "minecart rail collision", "rail collision launching", "collision launch", "collision launching"]
 tags: ["launching"]
 ---
 

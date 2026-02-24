@@ -5,8 +5,8 @@ versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Lopitty"]
 date: "2023-05-17"
 description: "A strange phenominon where blood moons occured back to back."
-aliases: ["back-to-back bloodmoon", "back-to-back-bloodmoon", "btb", "btb bloodmoon"]
-tags: ["blood-moon"]
+aliases: ["back-to-back bloodmoon", "btb bloodmoon"]
+tags: ["bloodmoon"]
 ---
 
 # Back to Back Bloodmoon `BTBB`

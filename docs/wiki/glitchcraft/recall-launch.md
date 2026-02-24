@@ -5,7 +5,7 @@ versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Deep"]
 date: "2023-05-17"
 description: "Allows you to launch yourself very far"
-aliases: ["recall launch glitch", "recall-launch"]
+aliases: ["recall launch", "recall launch glitch", "recall-launch"]
 tags: ["launching", "ultrahand", "recall"]
 ---
 

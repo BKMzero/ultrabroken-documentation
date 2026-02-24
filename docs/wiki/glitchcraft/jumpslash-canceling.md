@@ -5,7 +5,7 @@ versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["LegendofLinkk", "Mozz"]
 date: "2023-05-21"
 description: "Interrupt jumpslashes by swapping a shield mid-animation"
-aliases: ["jumpslash-canceling"]
+aliases: ["jumpslash cancel", "jump slash", "jumpslash", "jump-slash", "jump slash cancel", "jumpslash-canceling"]
 tags: ["animation", "equipment", "shield"]
 ---
 
