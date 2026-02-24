@@ -430,14 +430,14 @@ export default {
         evidences.push(s);
         seenPaths[key] = 1;
       }
-      if (evidences.length >= 3) break;
+      if (evidences.length >= 6) break;
     }
 
     // Prepare a stable evidence list (title + short preview) to return with answers
     // Use full `text` for model context but provide a small `text_preview` for UI.
     // Include referencing files (backlinks) for each evidence to provide independent file references
     const maps = index.__maps || {};
-    const evidenceList = evidences.slice(0,3).map(s=>{
+    const evidenceList = evidences.slice(0,6).map(s=>{
       const item = s.item;
       const canonicalPath = (item.path || item.id || '').replace(/\/$/, '');
       const refs = (maps.backlinks && maps.backlinks[canonicalPath]) || [];
