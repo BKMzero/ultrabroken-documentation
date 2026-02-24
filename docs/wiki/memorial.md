@@ -36,4 +36,4 @@ The glitch hunting, speedrunning, and research communities that made this docume
 
 ---
 
-**Thank you** to everyone who participated in discovering, testing, documenting, and sharing glitches. This community effort pushes the boundaries of what's possible in The Legend of Zelda: Tears of the Kingdom, and continues to inspire new discoveries.
+**Thank you** to everyone who participates in discovering, testing, documenting, and sharing glitches. This community effort pushes the boundaries of what's possible in The Legend of Zelda: Tears of the Kingdom, and continues to inspire new discoveries.
