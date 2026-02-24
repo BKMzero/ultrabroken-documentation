@@ -1,4 +1,4 @@
----
+﻿---
 title: "Weapon Sheath Offset"
 abbreviation: "WSO"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -35,3 +35,7 @@ This works for ALL weapons not just the .
 ## Resources
 ---
 - [YouTube](https://www.youtube.com/watch?v=E9yKzddgre4)
+
+## Related
+---
+—

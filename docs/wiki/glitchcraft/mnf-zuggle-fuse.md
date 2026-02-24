@@ -1,4 +1,4 @@
----
+﻿---
 title: "MNF Zuggle Fuse"
 abbreviation: "MZF"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -36,3 +36,7 @@ Can also be done with other weapons and already fused weapons. This just replace
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1108141837954330686/1108621041527427144)
 - [Discord](https://discord.com/channels/1086729144307564648/1108141837954330686/1108622215672496138)
+
+## Related
+---
+—

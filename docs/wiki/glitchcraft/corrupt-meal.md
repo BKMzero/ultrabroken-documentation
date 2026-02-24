@@ -1,4 +1,4 @@
----
+﻿---
 title: "Corrupt Meal"
 abbreviation: "CM"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -33,3 +33,7 @@ If no other foods have been cooked since last boot, nothing will be cooked and t
 - [Discord](https://discordapp.com/channels/1086729144307564648/1110956205624532993/1337566200418537554)
 - [Discord](https://discordapp.com/channels/1086729144307564648/1110956205624532993/1337605400777719931)
 - [Discord](https://discordapp.com/channels/1086729144307564648/1110956205624532993/1337612908300865617)
+
+## Related
+---
+—

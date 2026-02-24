@@ -1,4 +1,4 @@
----
+﻿---
 title: "Bow Attachment Storage"
 abbreviation: "BAS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -48,3 +48,7 @@ A variant of this glitch can be done using zuggle overload (has been known for a
 - [Discord](https://discord.com/channels/1086729144307564648/1109838351596527726/1180885814230655017)
 - [Discord](https://discord.com/channels/1086729144307564648/1109838351596527726/1180883442636955718)
 - [Twitter](https://vxtwitter.com/zasbotw/status/1731339526008963191)
+
+## Related
+---
+—

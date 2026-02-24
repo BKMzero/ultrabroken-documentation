@@ -1,4 +1,4 @@
----
+﻿---
 title: "Ability Wheel Loop"
 abbreviation: "AWL"
 versions: ["1.0.0"]
@@ -28,8 +28,12 @@ if the timing was right the ability wheel will come up right after the dpad menu
 
 ## Notes
 ---
-—
+â€”
 
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1216873236248395896)
+
+## Related
+---
+—

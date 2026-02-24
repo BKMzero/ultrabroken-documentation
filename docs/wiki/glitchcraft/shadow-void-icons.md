@@ -1,4 +1,4 @@
----
+﻿---
 title: "Shadow/Void Icons"
 abbreviation: "SVI"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
@@ -37,3 +37,7 @@ tighter.
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1296080453413109830)
+
+## Related
+---
+—

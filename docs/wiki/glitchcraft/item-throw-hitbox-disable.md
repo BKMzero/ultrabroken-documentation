@@ -1,4 +1,4 @@
----
+﻿---
 title: "Item Throw Hitbox Disable"
 abbreviation: "ITHD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
@@ -25,5 +25,9 @@ Throw an item, then recall it.
 Impact triggered items can still go off if hit by an explosion. For Bomb Flowers, fire and gravity is enough to explode them.
 
 ## Resources
+---
+â€”
+
+## Related
 ---
 —

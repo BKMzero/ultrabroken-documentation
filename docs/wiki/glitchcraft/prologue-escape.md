@@ -1,4 +1,4 @@
----
+﻿---
 title: "Prologue Escape"
 abbreviation: "PE"
 versions: ["1.0.0"]
@@ -49,4 +49,8 @@ Check the Resources section for more specific effects, such as Awakened Master S
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1110956205624532993/1290703223467937898)
 - [YouTube](https://www.youtube.com/watch?v=RmjZKVGvstE)
-— [Banc Storage](./banc-storage.md)
+â€” [Banc Storage](./banc-storage.md)
+
+## Related
+---
+—

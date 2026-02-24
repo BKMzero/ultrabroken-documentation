@@ -1,4 +1,4 @@
----
+﻿---
 title: "Midair Sort Duplication"
 abbreviation: "MSD"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
@@ -33,3 +33,7 @@ Y and exit must be pressed on the same frame.
 ## Resources
 ---
 - [Twitter](https://twitter.com/zasoot/status/1660458317934915584)
+
+## Related
+---
+—

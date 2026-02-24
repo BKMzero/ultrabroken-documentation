@@ -1,4 +1,4 @@
----
+﻿---
 title: "Enemy Pickpocketing"
 abbreviation: "EP"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -27,10 +27,14 @@ _KAIDUDE64 - 16 September 2023_
 
 ## Notes
 ---
-—
+â€”
 
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1152798657419157626)
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1152799909666377808)
 - [YouTube](https://www.youtube.com/watch?v=nmFfZ_MZ34M)
+
+## Related
+---
+—

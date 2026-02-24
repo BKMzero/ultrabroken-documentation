@@ -1,4 +1,4 @@
----
+﻿---
 title: "Resync Fuse Entanglement"
 abbreviation: "RFE"
 versions: ["1.0.0"]
@@ -53,8 +53,12 @@ This method uses recall for a makeshift wall:
 
 ## Notes
 ---
-—
+â€”
 
 ## Resources
 ---
 - [Twitter](https://vxtwitter.com/zasbotw/status/1736818709677977998)
+
+## Related
+---
+—

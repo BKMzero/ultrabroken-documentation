@@ -1,4 +1,4 @@
----
+﻿---
 title: "Lift Fuse Interrupt"
 abbreviation: "LFI"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -34,3 +34,7 @@ It is not yet understood what causes this glitch.
 - [Discord](https://discord.com/channels/1086729144307564648/1109838351596527726/1364240647736791071)
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1367499196676051034)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1366561351069077616)
+
+## Related
+---
+—

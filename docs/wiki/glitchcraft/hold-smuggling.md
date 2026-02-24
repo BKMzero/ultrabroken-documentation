@@ -1,4 +1,4 @@
----
+﻿---
 title: "Hold Smuggling"
 abbreviation: "HSM"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -36,3 +36,7 @@ Also removes HUD from Sheikah Scope
 ## Resources
 ---
 - [Twitter](https://twitter.com/_nan_gogh/status/1676384792818995200)
+
+## Related
+---
+—

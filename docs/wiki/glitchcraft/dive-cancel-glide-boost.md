@@ -1,4 +1,4 @@
----
+﻿---
 title: "Dive Cancel Glide Boost"
 abbreviation: "DCGB"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -35,3 +35,7 @@ Doesn't stack well with Tulin's ability. Can be maintained with Infinite Height.
 ## Resources
 ---
 - [YouTube](https://www.youtube.com/watch?v=oIzJKQAWPdI)
+
+## Related
+---
+—

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Cull Zone Culling"
 abbreviation: "CZC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -34,3 +34,7 @@ Certain sub-areas such as caves can also act as cull zones.
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1123379490408636507)
 - [TotK Object Map](https://objmap-totk.zeldamods.org/#/map/z3,0,0,Surface)
+
+## Related
+---
+—

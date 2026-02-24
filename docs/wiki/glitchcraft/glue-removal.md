@@ -1,4 +1,4 @@
----
+﻿---
 title: "Glue Removal"
 abbreviation: "GR"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -34,3 +34,7 @@ Doesn't work with every object
 ---
 - [Google Drive](https://drive.google.com/file/d/1XP7dg6aCd-34AH5v-_AsbVoz2oDoo5vJ/view?usp=drive_link)
 - [Google Drive](https://drive.google.com/drive/folders/15l1DDx1-64bO43FeUr2-2NtpeY58a79A?usp=sharing)
+
+## Related
+---
+—

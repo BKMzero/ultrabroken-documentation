@@ -1,4 +1,4 @@
----
+﻿---
 title: "Chasm Delay Zuggle"
 abbreviation: "CDZ"
 versions: ["1.2.0", "1.2.1"]
@@ -48,3 +48,7 @@ Mastersword zuggle (Ock)
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1246004390062587944)
+
+## Related
+---
+—

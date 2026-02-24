@@ -1,4 +1,4 @@
----
+﻿---
 title: "Dispenser Storage"
 abbreviation: "DISP"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -20,7 +20,7 @@ _Mozz - 2 July 2023_
 
 ## Instructions
 ---
-1. Put a heavy item that doesn’t slide much into a Zonai dispenser. 
+1. Put a heavy item that doesnâ€™t slide much into a Zonai dispenser. 
 2. The dispenser hatch should remain open, otherwise try again.
 3. Take out a stabilizer and activate it.
 4. Using Ultrahand, place the stabilizer into the hatch opening, this should keep it open indefinetley
@@ -38,3 +38,7 @@ Two Fans fused at a 45 degree angle can be used to block the Dispenser, avoiding
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1125043115397484596)
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1125069475541164032)
+
+## Related
+---
+—

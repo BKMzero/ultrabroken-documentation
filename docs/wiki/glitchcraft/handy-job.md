@@ -1,4 +1,4 @@
----
+﻿---
 title: "Handy Job"
 abbreviation: "HJ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -32,3 +32,7 @@ Does not repair a weapon's fuse durability if an item has been fused to it previ
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1176267847220076595)
 - [YouTube](https://www.youtube.com/watch?v=a0slhXe6jzU)
+
+## Related
+---
+—

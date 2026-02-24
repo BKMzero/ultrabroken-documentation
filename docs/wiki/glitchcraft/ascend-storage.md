@@ -1,4 +1,4 @@
----
+﻿---
 title: "Ascend Storage"
 abbreviation: "ASTR"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -35,3 +35,7 @@ _Saria - 19 May 2023_
 ## Resources
 ---
 - [Twitter](https://twitter.com/reaperhide/status/1659593296774299648)
+
+## Related
+---
+—

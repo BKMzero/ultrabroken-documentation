@@ -1,4 +1,4 @@
----
+﻿---
 title: "Swap Resync"
 abbreviation: "SR"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
@@ -40,3 +40,7 @@ Swap Resync Zuggle: see next row
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1404329328220704779)
+
+## Related
+---
+—

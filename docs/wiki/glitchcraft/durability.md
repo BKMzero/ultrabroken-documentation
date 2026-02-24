@@ -1,4 +1,4 @@
----
+﻿---
 title: "Durability-"
 abbreviation: "DUR"
 versions: ["1.0.0"]
@@ -29,3 +29,7 @@ For some reason, the game only removes durability if it's considered a cold drop
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1150849925140197517)
+
+## Related
+---
+—

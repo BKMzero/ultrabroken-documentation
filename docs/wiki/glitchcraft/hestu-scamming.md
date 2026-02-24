@@ -1,4 +1,4 @@
----
+﻿---
 title: "Hestu Scamming"
 abbreviation: "HSCA"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -35,10 +35,14 @@ Prerequisites:
 
 ## Notes
 ---
-—
+â€”
 
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1230669568066846741)
 - [YouTube](https://www.youtube.com/watch?v=oRo_1R9d_-w)
 - [YouTube](https://www.youtube.com/watch?v=sJdmYu9j1FI)
+
+## Related
+---
+—

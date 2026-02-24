@@ -1,4 +1,4 @@
----
+﻿---
 title: "Zonai Inventory Shift Dupe"
 abbreviation: "ZISD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -33,8 +33,12 @@ Steps:
 
 ## Notes
 ---
-—
+â€”
 
 ## Resources
 ---
 - [Twitter](https://twitter.com/quantim/status/1678509305044115458?s=46)
+
+## Related
+---
+—

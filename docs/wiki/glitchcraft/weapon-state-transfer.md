@@ -1,4 +1,4 @@
----
+﻿---
 title: "Weapon State Transfer"
 abbreviation: "WST"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -66,3 +66,7 @@ Depending on the bow you use (ex. Phrenic Bow), you'll still be able to perform 
 - [YouTube](https://www.youtube.com/watch?v=NRZpPp1vVsQ)
 - [YouTube](https://www.youtube.com/watch?v=Kzf_uJBvRjI)
 - [YouTube](https://www.youtube.com/watch?v=1gWV6p814F8)
+
+## Related
+---
+—

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Proxy Glitches"
 abbreviation: "PG"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -34,3 +34,7 @@ Testing is still being done. As more is discovered, this section will be updated
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1107369279747260666)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1107214237174071347)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1112189474911297668)
+
+## Related
+---
+—

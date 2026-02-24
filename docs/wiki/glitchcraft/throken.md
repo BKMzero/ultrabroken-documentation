@@ -1,4 +1,4 @@
----
+﻿---
 title: "Throken"
 abbreviation: "THK"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -32,3 +32,7 @@ Throken weapons have no despawn radius, and can never be unloaded from distance
 ---
 - [Discord](https://discordapp.com/channels/1086729144307564648/1113557914444111873/1373320909842288870)
 - [Discord](https://discordapp.com/channels/1086729144307564648/1113557914444111873/1373347636647825481)
+
+## Related
+---
+—

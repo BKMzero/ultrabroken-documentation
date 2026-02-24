@@ -1,4 +1,4 @@
----
+﻿---
 title: "Mineru Ability Desync"
 abbreviation: "MAD"
 versions: ["1.1.0", "1.1.1"]
@@ -32,3 +32,7 @@ To do: test on other versions and with more emitters Seems similar to ARAZ
 ---
 - [Twitter](https://twitter.com/SilicatYT/status/1663658677302353920)
 - [Twitter](https://twitter.com/SilicatYT/status/1663846017060700161)
+
+## Related
+---
+—

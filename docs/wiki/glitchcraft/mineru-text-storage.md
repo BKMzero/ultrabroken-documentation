@@ -1,4 +1,4 @@
----
+﻿---
 title: "Mineru Text Storage"
 abbreviation: "MTS"
 versions: ["1.0.0"]
@@ -34,3 +34,7 @@ Only tested on 1.0.0, probably works on all versions
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1128894970653327401/1261062222306869268)
 - [YouTube](https://www.youtube.com/watch?v=W0bNi0q7A6Q)
+
+## Related
+---
+—

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Shock Cold Fuse"
 abbreviation: "SCF"
 versions: ["1.0.0"]
@@ -26,9 +26,13 @@ _Zas - 11 September 2023_
 
 ## Notes
 ---
-—
+â€”
 
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1150759871520710666)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1151265557295923220)
+
+## Related
+---
+—

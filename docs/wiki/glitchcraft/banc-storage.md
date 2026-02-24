@@ -1,4 +1,4 @@
----
+﻿---
 title: "Banc Storage"
 abbreviation: "BANC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1",]
@@ -52,10 +52,14 @@ Instructions for 1.1+:
 
 ## Notes
 ---
-—
+â€”
 
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1110956205624532993/1290703223467937898)
 - [Video guide to the 1.0 method](https://www.youtube.com/watch?v=RmjZKVGvstE)
 - [Demonstration of the 1.4.2 method](https://www.youtube.com/watch?v=EP8FkHYkqks)
+
+## Related
+---
+—

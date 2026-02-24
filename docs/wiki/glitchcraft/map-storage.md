@@ -1,4 +1,4 @@
----
+﻿---
 title: "Map Storage"
 abbreviation: "MSTR"
 versions: ["1.1.0", "1.1.1"]
@@ -33,3 +33,7 @@ effects can range from softlocks to crashes
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1112660897891102740)
 - [YouTube](https://www.youtube.com/watch?v=cZZ-enDJ6jY)
+
+## Related
+---
+—

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Autobuild Duplication"
 abbreviation: "ABD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
@@ -31,8 +31,12 @@ This only works with items that change into other items in another temperature.
 
 ## Notes
 ---
-—
+â€”
 
 ## Resources
 ---
 - [YouTube](https://www.youtube.com/watch?v=IfRlldenZNc)
+
+## Related
+---
+—

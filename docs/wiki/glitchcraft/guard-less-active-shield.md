@@ -1,4 +1,4 @@
----
+﻿---
 title: "Guard-less Active Shield"
 abbreviation: "GAS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -41,3 +41,7 @@ Can be achieved via Fuse Entanglement Drop Smuggling either a shield or a weapon
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1110956205624532993/1118279347325894746)
 - [Discord](https://discordapp.com/channels/1086729144307564648/1105598687167664239/1149978844573487156)
+
+## Related
+---
+—

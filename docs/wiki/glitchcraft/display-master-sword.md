@@ -1,4 +1,4 @@
----
+﻿---
 title: "Display Master Sword"
 abbreviation: "DMS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
@@ -33,3 +33,7 @@ For MsgNotFound you don't need to drop it out of recall
 ---
 - [Twitter](https://twitter.com/zasbotw/status/1666751564743315456)
 - [Twitter](https://twitter.com/zasbotw/status/1666751564743315456)
+
+## Related
+---
+—

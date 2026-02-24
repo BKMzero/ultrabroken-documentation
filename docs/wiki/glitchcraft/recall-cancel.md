@@ -1,4 +1,4 @@
----
+﻿---
 title: "Recall Cancel"
 abbreviation: "RCC"
 versions: ["1.2.0", "1.2.1"]
@@ -32,3 +32,7 @@ Jumpslash cancel
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1131627625991905432)
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1153447778240974908)
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1153822693880238171)
+
+## Related
+---
+—

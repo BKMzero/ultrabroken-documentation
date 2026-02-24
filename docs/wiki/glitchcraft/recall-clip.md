@@ -1,8 +1,8 @@
----
+﻿---
 title: "Recall Clip"
 abbreviation: "RC"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
-credits: ["こんそめ"]
+credits: ["ã“ã‚“ãã‚"]
 date: "2023-05-16"
 description: "Allows you to clip through things using a large object and recall"
 aliases: ["recall clip", "recall-clip glitch", "recall-clip", "recallclip"]
@@ -16,7 +16,7 @@ tags: ["clipping", "ultrahand", "recall"]
 ---
 Allows you to clip through things using a large object and recall
 
-_こんそめ - 16 May 2023_
+_ã“ã‚“ãã‚ - 16 May 2023_
 
 ## Instructions
 ---
@@ -33,3 +33,7 @@ This can be done with a spring, making the entire trick much more portable
 ---
 - [Twitter](https://vxtwitter.com/tsu509359170830/status/1657767717796208640?s=20)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1108100337254023168)
+
+## Related
+---
+—

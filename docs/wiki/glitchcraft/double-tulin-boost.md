@@ -1,4 +1,4 @@
----
+﻿---
 title: "Double Tulin Boost"
 abbreviation: "DTB"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
@@ -29,3 +29,7 @@ This glitch may be removed from the spreasheet in the future, it is just tulin p
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1108375175222796348)
+
+## Related
+---
+—

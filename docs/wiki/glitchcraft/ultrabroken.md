@@ -1,4 +1,4 @@
----
+﻿---
 title: "Ultrabroken"
 abbreviation: "UB"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
@@ -36,3 +36,7 @@ During flying with Ultrabroken, it can be very easily for the game to cancel out
 - [YouTube](https://www.youtube.com/watch?v=Ik5oJdPI-WA&t=10)
 - [Discord](https://discord.com/channels/1086729144307564648/1110956205624532993/1116453456572588105)
 - [Ultrabroken Guide](https://docs.google.com/document/d/1Q0RxFCc_-Sr08y0SHZqTPxkdoUFZ__pI_ojA86CUidw)
+
+## Related
+---
+—

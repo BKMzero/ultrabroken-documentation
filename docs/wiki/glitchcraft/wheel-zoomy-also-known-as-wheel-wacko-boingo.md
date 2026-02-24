@@ -1,4 +1,4 @@
----
+﻿---
 title: "Wheel Zoomy"
 abbreviation: "WZ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -33,3 +33,7 @@ Also possible with two wheels.
 ## Resources
 ---
 - [Twitter](https://twitter.com/NX721_/status/1679259808757870592?t=O2gULUcC_CmV0isS44RMEg&s=19)
+
+## Related
+---
+—

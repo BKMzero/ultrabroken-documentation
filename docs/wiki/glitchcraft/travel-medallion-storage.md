@@ -1,4 +1,4 @@
----
+﻿---
 title: "Travel Medallion storage"
 abbreviation: "TMS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -29,8 +29,12 @@ _kirigaya - 16 June 2023_
 
 ## Notes
 ---
-—
+â€”
 
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1110956205624532993/1119636429933387826)
+
+## Related
+---
+—

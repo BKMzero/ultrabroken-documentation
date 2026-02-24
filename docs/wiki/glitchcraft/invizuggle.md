@@ -1,4 +1,4 @@
----
+﻿---
 title: "Invizuggle"
 abbreviation: "IVZ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -78,3 +78,7 @@ Add Method 5
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1192403098753310770)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1195821216326488264)
+
+## Related
+---
+—

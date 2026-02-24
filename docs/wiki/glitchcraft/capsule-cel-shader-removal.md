@@ -1,4 +1,4 @@
----
+﻿---
 title: "Capsule Cel Shader Removal"
 abbreviation: "CCSR"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -32,3 +32,7 @@ And one black layer that shows the base model
 ## Resources
 ---
 - [Twitter](https://x.com/NX721_/status/1731784487636443229?s=20)
+
+## Related
+---
+—

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Throw Cancelling"
 abbreviation: "TC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -26,8 +26,12 @@ _Quelfth_
 
 ## Notes
 ---
-—
+â€”
 
 ## Resources
+---
+â€”
+
+## Related
 ---
 —

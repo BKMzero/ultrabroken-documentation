@@ -1,4 +1,4 @@
----
+﻿---
 title: "Floorping"
 abbreviation: "FLP"
 versions: ["1.1.0", "1.1.1"]
@@ -30,3 +30,7 @@ Test on more versions
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1110956205624532993/1191838704646488145)
 - [Discord](https://discord.com/channels/1086729144307564648/1110956205624532993/1193252888064040981)
+
+## Related
+---
+—

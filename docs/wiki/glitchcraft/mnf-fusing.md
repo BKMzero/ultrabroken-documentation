@@ -1,4 +1,4 @@
----
+﻿---
 title: "MNF Fusing"
 abbreviation: "MNFF"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
@@ -28,8 +28,12 @@ _LegendofLinkk - 5 June 2023_
 
 ## Notes
 ---
-—
+â€”
 
 ## Resources
 ---
 - [YouTube](https://www.youtube.com/watch?v=n2nP6FNjEPI)
+
+## Related
+---
+—

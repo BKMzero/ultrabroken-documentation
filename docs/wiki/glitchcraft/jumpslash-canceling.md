@@ -1,4 +1,4 @@
----
+﻿---
 title: "Jumpslash Canceling"
 abbreviation: "JSC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -33,3 +33,7 @@ Jumpslash Cancel Clipping
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1110002512074907740)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1110004852823703552)
+
+## Related
+---
+—

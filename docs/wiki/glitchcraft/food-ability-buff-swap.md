@@ -1,4 +1,4 @@
----
+﻿---
 title: "Food Ability Buff Swap"
 abbreviation: "FABS"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
@@ -40,3 +40,7 @@ These are all the places you can obtain cooked food to perform with FABS:
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1108032859811348631)
 - [YouTube](https://www.youtube.com/watch?v=UurzVka6G9M)
+
+## Related
+---
+—

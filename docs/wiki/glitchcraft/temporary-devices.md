@@ -1,4 +1,4 @@
----
+﻿---
 title: "Temporary Devices"
 abbreviation: "TD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -37,3 +37,7 @@ On 1.0, Link can stand on it, allowing to jump off it, and get more height off t
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1312200159345643722)
+
+## Related
+---
+—

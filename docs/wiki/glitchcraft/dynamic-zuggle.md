@@ -1,4 +1,4 @@
----
+﻿---
 title: "Dynamic Zuggle"
 abbreviation: "DZG"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
@@ -66,3 +66,7 @@ Method 3 (WinnerBoi77 & Ryan):
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1149037981181689936)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1218667308671832134)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1218672345749913642)
+
+## Related
+---
+—

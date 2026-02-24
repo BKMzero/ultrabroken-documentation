@@ -1,4 +1,4 @@
----
+﻿---
 title: "Two Handed With Shield"
 abbreviation: "THWS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -32,3 +32,7 @@ Disable the earthwake ability or press "R" instead of "Y".
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1143287784589770933)
+
+## Related
+---
+—

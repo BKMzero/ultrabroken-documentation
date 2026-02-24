@@ -1,4 +1,4 @@
----
+﻿---
 title: "Buoy Bouncing"
 abbreviation: "BB"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -30,3 +30,7 @@ Initial velocity seems to play an effect when buoy bouncing, such as when fallin
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1106412847359082506/1111400160879194165)
 - [Discord](https://discord.com/channels/1086729144307564648/1106412847359082506/1111400160879194165)
+
+## Related
+---
+—

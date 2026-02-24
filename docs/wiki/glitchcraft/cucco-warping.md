@@ -1,4 +1,4 @@
----
+﻿---
 title: "Cucco Warping"
 abbreviation: "CW"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -25,8 +25,12 @@ _onion - 23 July 2023_
 
 ## Notes
 ---
-—
+â€”
 
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1132767408696852541)
+
+## Related
+---
+—

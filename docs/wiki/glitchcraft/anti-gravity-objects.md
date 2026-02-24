@@ -1,4 +1,4 @@
----
+﻿---
 title: "Anti-Gravity Objects"
 abbreviation: "AGO"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
@@ -26,8 +26,12 @@ _?_
 
 ## Notes
 ---
-—
+â€”
 
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1113306645854945303)
+
+## Related
+---
+—

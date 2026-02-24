@@ -1,4 +1,4 @@
----
+﻿---
 title: "Infinite Balloon"
 abbreviation: "IBAL"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -33,3 +33,7 @@ There are many NPCs that can be put into this weird rolling state.
 ## Resources
 ---
 - [Twitter](https://x.com/kurone_yuu/status/1801239224378900947?s=46&t=DdtmlnCQqIbD5irw-jnKbQ)
+
+## Related
+---
+—

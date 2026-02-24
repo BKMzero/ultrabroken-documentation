@@ -1,4 +1,4 @@
----
+﻿---
 title: "Stamina Depletion Freeze"
 abbreviation: "SDF"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
@@ -29,9 +29,13 @@ Letting go of B or stopping running cancels it
 
 ## Notes
 ---
-—
+â€”
 
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1109478155409965076)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1148688838198304779)
+
+## Related
+---
+—

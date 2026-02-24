@@ -1,4 +1,4 @@
----
+﻿---
 title: "Mount Lock"
 abbreviation: "ML"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -34,3 +34,7 @@ Grabbing the steering stick with Ultrahand after mount lock causes Link to disco
 - [Discord](https://discord.com/channels/1086729144307564648/1110956205624532993/1342646563184312432)
 - [Discord](https://discordapp.com/channels/1086729144307564648/1110956205624532993/1342580552447950961)
 - [YouTube](https://www.youtube.com/watch?v=E2Qp3Zj15fo)
+
+## Related
+---
+—

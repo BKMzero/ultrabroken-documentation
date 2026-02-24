@@ -1,4 +1,4 @@
----
+﻿---
 title: "MSNF glowing"
 abbreviation: "MG"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -31,3 +31,7 @@ Gloom hands only work on 1.0.0 while phantom ganon works on all versions
 ## Resources
 ---
 - [YouTube](https://www.youtube.com/watch?v=x71Zp-zBbEE)
+
+## Related
+---
+—

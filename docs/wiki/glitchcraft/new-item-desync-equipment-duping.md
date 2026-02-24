@@ -1,4 +1,4 @@
----
+﻿---
 title: "New Item Desync"
 abbreviation: "NID"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -32,9 +32,13 @@ The new item must change positions when you sort your inventory. So for shields 
 
 In addition to desyncing your inventory, it will also transfer any fused objects from the new item to the item you equip in the menu.
 
-Can only be done with new items once. Must meet sorting requirements listed under “Instructions”.
+Can only be done with new items once. Must meet sorting requirements listed under â€œInstructionsâ€.
 
 ## Resources
 ---
 - [YouTube](https://www.youtube.com/watch?v=7_1fwTUz0A4)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1107447184745582662)
+
+## Related
+---
+—

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Spring Strangeness"
 abbreviation: "STRS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -32,5 +32,9 @@ Might allow for some unloaded areas and/or clipping.
 Method 1 is reliablely strange, while Method 2 has only been performed once thus far
 
 ## Resources
+---
+â€”
+
+## Related
 ---
 —

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Anti-Gravity Glitch"
 abbreviation: "AGG"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
@@ -29,3 +29,7 @@ Todo: Find other places where this glitch could be replicated (maybe on the Grea
 ## Resources
 ---
 - [YouTube](https://www.youtube.com/watch?v=109kaxFj8FQ)
+
+## Related
+---
+—

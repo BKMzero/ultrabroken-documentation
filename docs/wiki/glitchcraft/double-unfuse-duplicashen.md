@@ -1,8 +1,8 @@
----
+﻿---
 title: "Double Unfuse Duplicashen"
 abbreviation: "DUD"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
-credits: ["Li Shen (鯉神)"]
+credits: ["Li Shen (é¯‰ç¥ž)"]
 date: "2023-05-15"
 description: "Allows you to duplicate any material that can be fused to an arrow"
 aliases: ["double unfuse", "double unfuse duplicashen", "dupe unfuse"]
@@ -16,7 +16,7 @@ tags: ["duplication", "item", "weapon", "fuse", "arrow"]
 ---
 allows you to duplicate any material that can be fused to an arrow
 
-_Li Shen (鯉神) - 15 May 2023_
+_Li Shen (é¯‰ç¥ž) - 15 May 2023_
 
 ## Instructions
 ---
@@ -38,3 +38,7 @@ Stops working if cooked meals page is full
 ---
 - [Bilibili](https://www.bilibili.com/video/BV19h4y147iR/)
 - [YouTube](https://www.youtube.com/watch?v=0sRvQzU2j5w)
+
+## Related
+---
+—

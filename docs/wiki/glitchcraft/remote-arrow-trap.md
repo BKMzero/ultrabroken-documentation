@@ -1,4 +1,4 @@
----
+﻿---
 title: "Remote Arrow"
 abbreviation: "RAT"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
@@ -35,3 +35,7 @@ Firing from any other bow with this glitch active, will allow it to shoot from t
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1114292162268499979)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1114294468363960490)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1114313664535732315)
+
+## Related
+---
+—

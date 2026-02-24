@@ -1,4 +1,4 @@
----
+﻿---
 title: "AntiGrav Weapons"
 abbreviation: "AGW"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -42,3 +42,7 @@ It will obtain the property of anti-gravity unless you un-equip it or throw it. 
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1112349555606966292)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1112355745321713754)
+
+## Related
+---
+—

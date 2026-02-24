@@ -1,4 +1,4 @@
----
+﻿---
 title: "Dpadlock-less Invizuggle"
 abbreviation: "DLI"
 versions: ["1.2.0", "1.2.1"]
@@ -46,9 +46,13 @@ If you want to zlot an item with invizuggle, you can do the following:
 
 ## Notes
 ---
-—
+â€”
 
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1262927638683582505)
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1263286685198712883)
+
+## Related
+---
+—

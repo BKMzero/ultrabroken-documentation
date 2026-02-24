@@ -1,4 +1,4 @@
----
+﻿---
 title: "Quick Smuggling"
 abbreviation: "QS"
 versions: ["1.2.0"]
@@ -34,3 +34,7 @@ Allows for infinite springboarding if you quick smuggle with a spring shield. Th
 - [YouTube](https://www.youtube.com/watch?v=emvoQHVRaCE)
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1128052108109811784)
 - [YouTube](https://www.youtube.com/watch?v=Tw3sjs0ftyk)
+
+## Related
+---
+—

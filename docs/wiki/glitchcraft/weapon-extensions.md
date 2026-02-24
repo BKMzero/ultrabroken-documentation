@@ -1,4 +1,4 @@
----
+﻿---
 title: "Weapon Extensions"
 abbreviation: "WEXT"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -35,3 +35,7 @@ Has yet to be seen if this can work on 2H weapons. Also works on fused 1H/Spear 
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1121798115595403375)
 - [Twitter](https://vxtwitter.com/zasbotw/status/1672240465985323011)
+
+## Related
+---
+—

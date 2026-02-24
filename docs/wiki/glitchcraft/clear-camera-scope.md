@@ -1,4 +1,4 @@
----
+﻿---
 title: "Clear Camera/Scope"
 abbreviation: "CCS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -33,3 +33,7 @@ how was this not found
 ---
 - [Twitter](https://twitter.com/NX721_/status/1681732748476596344)
 - [Twitter](https://twitter.com/NX721_/status/1681732748476596344)
+
+## Related
+---
+—

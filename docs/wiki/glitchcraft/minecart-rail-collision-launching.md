@@ -1,8 +1,8 @@
----
+﻿---
 title: "Minecart Rail Collision Launching"
 abbreviation: "MRCL"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
-credits: ["そら-さん"]
+credits: ["ãã‚‰-ã•ã‚“"]
 date: "2023-05-18"
 description: "Allows the usage of minecarts to be launched from awkward collision grabbing on rails."
 aliases: ["minecart collision", "minecart rail collision", "rail collision launching", "collision launch", "collision launching"]
@@ -16,11 +16,11 @@ tags: ["launching"]
 ---
 Allows the usage of minecarts to be launched from awkward collision grabbing on rails.
 
-_そら-さん - 18 May 2023_
+_ãã‚‰-ã•ã‚“ - 18 May 2023_
 
 ## Instructions
 ---
-—
+â€”
 
 ## Notes
 ---
@@ -31,3 +31,7 @@ Still needs to be experimented with more.
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1108547906698485852)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1108547906698485852)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1112410236356145182)
+
+## Related
+---
+—

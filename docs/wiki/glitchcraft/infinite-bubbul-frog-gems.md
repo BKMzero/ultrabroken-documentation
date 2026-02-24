@@ -1,4 +1,4 @@
----
+﻿---
 title: "Infinite Bubbul Frog Gems"
 abbreviation: "IBFG"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
@@ -38,3 +38,7 @@ Needs to be tested more, and see if it can be consistently replicated.
 ## Resources
 ---
 - [YouTube](https://www.youtube.com/watch?v=c9TDP4qdAUY)
+
+## Related
+---
+—

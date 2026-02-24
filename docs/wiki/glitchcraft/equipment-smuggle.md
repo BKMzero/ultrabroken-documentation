@@ -1,4 +1,4 @@
----
+﻿---
 title: "Equipment Smuggle"
 abbreviation: "ESMU"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -36,3 +36,7 @@ On 1.2.0 and 1.2.1, equipping an item of the same type as a smuggle causes the s
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1113917918422511776)
 - [Twitter](https://twitter.com/goghnan/status/1664921192527020033?s=46)
+
+## Related
+---
+—

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Midair Item Transmutation"
 abbreviation: "MIT"
 versions: ["1.1.0", "1.1.1"]
@@ -43,3 +43,7 @@ You can chain this many times during 1 shield jump by repeating steps 2-5. It do
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1109456967480647710)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1109460329966092319)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1109456967480647710)
+
+## Related
+---
+—

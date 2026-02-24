@@ -1,4 +1,4 @@
----
+﻿---
 title: "Wacko Attacko"
 abbreviation: "WATK"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -26,9 +26,13 @@ _NghtmaR3, WinnerBoi77 - 21 January 2024_
 
 ## Notes
 ---
-—
+â€”
 
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1198765751578939482)
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1198792795616464989)
+
+## Related
+---
+—

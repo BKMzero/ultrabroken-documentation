@@ -1,4 +1,4 @@
----
+﻿---
 title: "Master Sword Liberation"
 abbreviation: "MSL"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -67,3 +67,7 @@ This can be combined with decayed zuggle to transfer it through files.
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1191987058412101725)
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1191987058412101725)
 - [DIscord](https://discord.com/channels/1086729144307564648/1105598687167664239/1178791475216134194)
+
+## Related
+---
+—

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Aeroculling"
 abbreviation: "AC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -49,3 +49,7 @@ Once AC is set up, in order to Physical AC, put a SDC in the wind and the base o
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1283455775976718346)
 - [YouTube](https://www.youtube.com/watch?v=o-9HO3NbfPU)
+
+## Related
+---
+—

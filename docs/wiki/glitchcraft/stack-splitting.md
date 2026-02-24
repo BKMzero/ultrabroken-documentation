@@ -1,4 +1,4 @@
----
+﻿---
 title: "Stack Splitting"
 abbreviation: "SSPL"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
@@ -44,3 +44,7 @@ Can lead to Split Item Duplication, a material duplication glitch
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1110956205624532993/1323483601756622899)
+
+## Related
+---
+—

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Sage Madness"
 abbreviation: "SM"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -24,8 +24,12 @@ Activate the text box you get after obtaining a sage while the sage falls down a
 
 ## Notes
 ---
-—
+â€”
 
 ## Resources
+---
+â€”
+
+## Related
 ---
 —

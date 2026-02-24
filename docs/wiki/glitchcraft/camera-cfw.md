@@ -1,4 +1,4 @@
----
+﻿---
 title: "Camera CFW"
 abbreviation: "CFW"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
@@ -42,8 +42,12 @@ no camera ui
 
 ## Notes
 ---
-—
+â€”
 
 ## Resources
 ---
 - [Twitter](https://vxtwitter.com/_nan_gogh/status/1678749376833781763?s=46)
+
+## Related
+---
+—
