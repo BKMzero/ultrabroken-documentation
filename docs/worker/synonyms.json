@@ -1,8 +1,4 @@
 [
-  ["oob", "out of bounds", "out-of-bounds", "out of bounds glitch", "o.o.b.", "out of map"],
-  ["sld", "persistent save load object transfer", "save-load-dupe", "save load dupe", "save/load dupe"],
-  ["sd", "stick_desync", "stick desync", "stickdesync"],
-  ["sdc", "stick desync clip", "stick-desync-clip"],
   ["ultrabroken", "ultrabreak", "UB", "ultra-broken"],
   ["zuggle", "zuggling", "zugl", "zug", "zuggle overload"],
   ["tulin pump", "tulin-pump", "pump tulin", "tulin pumping", "tulinpump"],
@@ -48,8 +44,6 @@
   ["bow sprint", "bow-sprinting", "bow sprinting"],
   ["throw tap", "throw-tap", "throw tap sprinting"],
   ["oob laser", "laser-oob", "laser oob"],
-  ["weapon state transfer", "wst", "weapon transfer"],
-  ["midair item transmutation", "mit", "midair transmute"],
   ["message not found zuggle", "mnf zuggle", "mnf-zuggle"],
   ["recall clip", "recall-clip", "recallclip"],
   ["storage ascend", "ascend-storage", "ascend storage"],
@@ -63,6 +57,5 @@
   ["oob entry", "out-of-bounds entry", "oob entry"],
   ["zuggle stacking", "zuggle-stack", "zuggle stack"],
   ["equipment dupe", "equipment-duplication", "equipment dupe"],
-  ["glitchcraft", "glitch-craft", "glitch craft"],
-  ["mnf", "message-not-found", "message not found"]
+  ["glitchcraft", "glitch-craft", "glitch craft"]
 ]
