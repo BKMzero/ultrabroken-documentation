@@ -149,7 +149,7 @@ nav:
   - Glitchcraft: wiki/glitchcraft/glitchcraft-grimoire.md
 
 hooks:
-  - hooks/youtube_embed.py
+  - docs/assets/hooks/youtube_embed.py
 
 plugins:
   - search
