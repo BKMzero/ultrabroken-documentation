@@ -1,8 +1,8 @@
 ---
 title: "Banc Storage"
 abbreviation: "BANC"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0", "1.4.0", "1.4.1", "1.4.2", "1.4.3"]
-credits: ["Lightos", "mulberry", "Aergyl"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1",]
+credits: ["Lightos", "mulberry", "Aergyl", "EOH_NS_SS"]
 date: "2024-10-01"
 description: "Store banc changes to another save file using memory interrupt"
 aliases: ["banc-storage"]
@@ -10,7 +10,7 @@ tags: ["storage", "warping", "save-load", "blood-moon"]
 ---
 
 # Banc Storage `BANC`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0` `1.4.0` `1.4.1` `1.4.2` `1.4.3`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary
 ---
