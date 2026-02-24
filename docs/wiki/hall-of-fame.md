@@ -23,6 +23,7 @@ The glitch hunting, speedrunning, and research communities that made this docume
 
 - **[Zelda: Tears of the Kingdom Speedrunning](https://discord.gg/xM8NnTetb2)** — Primary spreadsheet curation and glitch hunting
 - **[The Hyrule Engineering Club](https://discord.gg/uZqvjnwqF3)** — Vanilla and glitched constructions ad absurdum
+- **[TotK グリッチ鯖](https://discord.gg/SQXkjxRazk)** — Japanese glitch research community
 
 ## Glitch Hunters & Contributors
 ---
