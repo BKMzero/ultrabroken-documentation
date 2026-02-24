@@ -27,5 +27,5 @@ Currently infinite
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1107351279312830505)
-- [Youtube](https://youtu.be/4u20HcJcb9A)
+- [YouTube](https://www.youtube.com/watch?v=4u20HcJcb9A)
 - [Sprint Methods](search:Sprint Methods)

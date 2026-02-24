@@ -46,6 +46,6 @@ https://discord.com/channels/1086729144307564648/1113557914444111873/12176889338
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1211151054633172993)
-- [YouTube](https://youtu.be/Y8sOuZdQecU)
+- [YouTube](https://www.youtube.com/watch?v=Y8sOuZdQecU)
 - [Object Culling](search:Object Culling)
 - [Fuse Storage](search:Fuse Storage)

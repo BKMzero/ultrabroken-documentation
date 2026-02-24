@@ -29,4 +29,4 @@ Do not do this if you suffer from epilepsy, or are prone to seizures
 
 ## Resources
 ---
-- [Youtube](https://www.youtube.com/watch?v=RjSKbESuVHo)
+- [YouTube](https://www.youtube.com/watch?v=RjSKbESuVHo)

@@ -40,4 +40,4 @@ By going into the room of the secret stone in Lightning Temple, going up and dow
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1245447960658051184)
-- [YouTube](https://youtu.be/krR0oUnjauw?si=wONqdugV6JZbda4s)
+- [YouTube](https://www.youtube.com/watch?v=krR0oUnjauw)

@@ -40,5 +40,5 @@ Prerequisites:
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1230669568066846741)
-- [YouTube](https://youtu.be/oRo_1R9d_-w?si=WmCCE8sas7r1DuoZ)
-- [YouTube](https://youtu.be/sJdmYu9j1FI?si=vVZEzINRlSywPMqD)
+- [YouTube](https://www.youtube.com/watch?v=oRo_1R9d_-w)
+- [YouTube](https://www.youtube.com/watch?v=sJdmYu9j1FI)

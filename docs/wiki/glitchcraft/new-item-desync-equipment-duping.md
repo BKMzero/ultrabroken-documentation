@@ -36,7 +36,5 @@ Can only be done with new items once. Must meet sorting requirements listed unde
 
 ## Resources
 ---
-- [Youtube](https://youtu.be/7_1fwTUz0A4)
-- [Youtube](https://youtu.be/7_1fwTUz0A4)
-- [Youtube](https://youtu.be/7_1fwTUz0A4)
+- [YouTube](https://www.youtube.com/watch?v=7_1fwTUz0A4)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1107447184745582662)

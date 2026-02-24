@@ -41,7 +41,7 @@ Uses Recall, but anything that freezes time works too.
 
 ## Resources
 ---
-- [Youtube](https://www.youtube.com/watch?v=y_N5LEYQGfc)
+- [YouTube](https://www.youtube.com/watch?v=y_N5LEYQGfc)
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1123282233248194660)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1122982965459288084)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1122726452702494790)

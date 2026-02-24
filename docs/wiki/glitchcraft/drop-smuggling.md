@@ -35,4 +35,4 @@ The weapons hitbox remains constantly active, while being maintained at Links fe
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1113456847668645968)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1113469513011310716)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1113455975039512626)
-- [YouTube](https://youtu.be/LWPbxaZcpCo)
+- [YouTube](https://www.youtube.com/watch?v=LWPbxaZcpCo)

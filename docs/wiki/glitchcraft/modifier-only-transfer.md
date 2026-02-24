@@ -32,4 +32,4 @@ _kurocat471, BigDUCCO - 9 June 2023_
 
 ## Resources
 ---
-- [YouTube](https://youtu.be/ycKeFgsb7gs)
+- [YouTube](https://www.youtube.com/watch?v=ycKeFgsb7gs)

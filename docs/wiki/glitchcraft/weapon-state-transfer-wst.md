@@ -63,6 +63,6 @@ Depending on the bow you use (ex. Phrenic Bow), you'll still be able to perform 
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1109319667673223189)
-- [Youtube](https://www.youtube.com/watch?v=NRZpPp1vVsQ.)
-- [YouTube](https://youtu.be/Kzf_uJBvRjI)
+- [YouTube](https://www.youtube.com/watch?v=NRZpPp1vVsQ)
+- [YouTube](https://www.youtube.com/watch?v=Kzf_uJBvRjI)
 - [YouTube](https://www.youtube.com/watch?v=1gWV6p814F8)

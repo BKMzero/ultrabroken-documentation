@@ -36,5 +36,5 @@ Compendium pictures (Zas):
 
 ## Resources
 ---
-- [Youtube](https://www.youtube.com/watch?v=DWA_cTNykyo)
+- [YouTube](https://www.youtube.com/watch?v=DWA_cTNykyo)
 - [Twitter](https://vxtwitter.com/zasbotw/status/1692295854173167930)

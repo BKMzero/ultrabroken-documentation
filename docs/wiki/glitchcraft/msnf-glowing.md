@@ -30,5 +30,4 @@ Gloom hands only work on 1.0.0 while phantom ganon works on all versions
 
 ## Resources
 ---
-- [Youtube](https://youtu.be/x71Zp-zBbEE)
-- [YouTube](https://youtu.be/x71Zp-zBbEE)
+- [YouTube](https://www.youtube.com/watch?v=x71Zp-zBbEE)

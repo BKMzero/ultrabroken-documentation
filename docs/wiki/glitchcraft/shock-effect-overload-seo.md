@@ -41,7 +41,7 @@ this was a pain to write, still experimenting, if you have any discoveries pleas
 
 ## Resources
 ---
-- [Youtube](https://youtu.be/zurfHBHlLBY)
-- [Youtube](https://www.youtube.com/watch?v=JMEgDwXienA)
+- [YouTube](https://www.youtube.com/watch?v=zurfHBHlLBY)
+- [YouTube](https://www.youtube.com/watch?v=JMEgDwXienA)
 - [Twitter](https://twitter.com/NX721_/status/1684303947224473602?s=20)
 - [Midair Throw Duplication](search:Midair Throw Duplication)

@@ -30,4 +30,4 @@ _R4000 - 15 June 2023_
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1119057121611362317)
-- [YouTube](https://youtu.be/jEkCy9NzbBk)
+- [YouTube](https://www.youtube.com/watch?v=jEkCy9NzbBk)

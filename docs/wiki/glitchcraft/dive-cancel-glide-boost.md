@@ -34,4 +34,4 @@ Doesn't stack well with Tulin's ability. Can be maintained with Infinite Height.
 
 ## Resources
 ---
-- [YouTube](https://youtu.be/oIzJKQAWPdI)
+- [YouTube](https://www.youtube.com/watch?v=oIzJKQAWPdI)

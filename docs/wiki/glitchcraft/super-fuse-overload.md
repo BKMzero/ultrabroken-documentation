@@ -20,6 +20,7 @@ _Discovered by mulberry and Aergyl, optimized by Jordan, MandelbrotChaylay, and 
 
 ## Instructions
 ---
+### Base Setup
 1. If you wish to steal mineru's arm, make an autosave in the tunnel to ganondorf, right next to the army trigger. If you wish to steal zelda's torch, make an autosave anywhere in the prologue. If you wish to use SFO to duplicate zonai devices, make a save directly next to a minigame NPC
 2. Invizuggle 12 pieces of equipment
 3. Make an eaten DI weapon
@@ -37,14 +38,12 @@ _Discovered by mulberry and Aergyl, optimized by Jordan, MandelbrotChaylay, and 
 15. Fail drop your equipped shield, then successfully drop it and B
 16. Recall lock all equipment that is not in the eaten DI state.
 
-To obtain Zelda's torch:
-
+### To obtain Zelda's torch:
 1. Load the prologue and pick up the torch, you may have to reload a couple times
 2. Get an autosave and close the game
 3. Transfer the torch to your save as you would for transferring the MNF
 
-To obtain Mineru's arm:
-
+### To obtain Mineru's arm:
 1. Load the save near the ganondorf trigger and quickly enter the army fight
 2. Progress the fights until the latter end of phase 2 of ganondorf
 3. Fuse things to shields and drop the shields afterward until fused objects fall into the ground instead of properly fusing
@@ -57,8 +56,7 @@ To obtain Mineru's arm:
 10. Navigate to a relatively high place, overload drop a weapon, drop your equipped weapon, and recall the cart-weapon as you see it fall
 11. Pick up the weapon
 
-To dupe zonai devices:
-
+### To dupe zonai devices:
 1. Load the save near the minigame NPC and quickly talk to them
 2. Overload drop a shield and fuse it to a weapon
 3. Fuse things to your shield until they fall through the floor

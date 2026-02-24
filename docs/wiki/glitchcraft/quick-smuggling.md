@@ -31,6 +31,6 @@ Allows for infinite springboarding if you quick smuggle with a spring shield. Th
 
 ## Resources
 ---
-- [Youtube](https://youtu.be/emvoQHVRaCE)
+- [YouTube](https://www.youtube.com/watch?v=emvoQHVRaCE)
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1128052108109811784)
-- [YouTube](https://youtu.be/Tw3sjs0ftyk?si=R6hf6xgIuHwTYv_k)
+- [YouTube](https://www.youtube.com/watch?v=Tw3sjs0ftyk)

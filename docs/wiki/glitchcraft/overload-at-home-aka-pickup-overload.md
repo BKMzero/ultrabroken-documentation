@@ -38,6 +38,6 @@ Allows you to do most things that zuggle overload can do, including mass equipme
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1220145782162985000)
-- [YouTube](https://youtu.be/wpylJH-rejM?si=1WJA1gy2jIHIqG5s)
+- [YouTube](https://www.youtube.com/watch?v=wpylJH-rejM)
 - [Portable Culling](search:Portable Culling)
 - [Stick Desync](search:Stick Desync)

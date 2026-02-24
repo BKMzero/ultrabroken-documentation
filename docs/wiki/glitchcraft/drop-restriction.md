@@ -34,4 +34,4 @@ Only way to cancel it is by closing the game.
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1120378339442556990)
-- [YouTube](https://youtu.be/V6ZeZmfpvEI)
+- [YouTube](https://www.youtube.com/watch?v=V6ZeZmfpvEI)

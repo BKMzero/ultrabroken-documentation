@@ -32,4 +32,4 @@ _LegendofLinkk - 5 June 2023_
 
 ## Resources
 ---
-- [YouTube](https://youtu.be/n2nP6FNjEPI)
+- [YouTube](https://www.youtube.com/watch?v=n2nP6FNjEPI)

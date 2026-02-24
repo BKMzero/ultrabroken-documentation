@@ -28,7 +28,6 @@ Todo: Replicate in TotK, test in BotW.
 
 ## Resources
 ---
-- [Youtube](https://youtu.be/Q1aWa0Kg-8Y)
-- [Youtube](https://youtu.be/Q1aWa0Kg-8Y)
+- [YouTube](https://www.youtube.com/watch?v=Q1aWa0Kg-8Y)
 - [Reddit](https://www.reddit.com/r/TOTK/comments/13tho3e)
 - [Twitter](https://twitter.com/ThatOneNerd0329/status/1662590423582535680)

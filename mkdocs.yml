@@ -148,6 +148,9 @@ nav:
   - Overload: wiki/overload/index.md
   - Glitchcraft: wiki/glitchcraft/glitchcraft-grimoire.md
 
+hooks:
+  - hooks/youtube_embed.py
+
 plugins:
   - search
   - minify

@@ -51,7 +51,7 @@ This MNF can be powered up further! See WST or Unload WST for the method
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1108369158237859902)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1108527513203912794)
-- [Youtube](https://youtu.be/8mEBVQNCkns)
-- [Youtube](https://youtu.be/EAthghngbKs)
-- [Youtube](https://www.youtube.com/watch?v=TKSQJ23ES_c)
+- [YouTube](https://www.youtube.com/watch?v=8mEBVQNCkns)
+- [YouTube](https://www.youtube.com/watch?v=EAthghngbKs)
+- [YouTube](https://www.youtube.com/watch?v=TKSQJ23ES_c)
 - [Zocument](https://docs.google.com/document/d/1-BeufJtao2cG5ABG0ZDEUX1SbgQwc_89n7C0VZjPAdI/edit?usp=sharing)

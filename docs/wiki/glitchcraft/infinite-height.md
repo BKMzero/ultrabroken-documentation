@@ -34,5 +34,5 @@ _[Mozz](https://www.youtube.com/@M0zzed), Physioninja - 22 May 2023_
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1110204708360036424)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1110204708360036424)
-- [YouTube](https://youtu.be/Za722IEbaP8)
+- [YouTube](https://www.youtube.com/watch?v=Za722IEbaP8)
 - [Jumpslash Cancel](search:Jumpslash Cancel)

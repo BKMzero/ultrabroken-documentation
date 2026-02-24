@@ -32,4 +32,4 @@ Activating zonai storage, dying and opening the inventory may crash the game
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1140347990368854047)
-- [YouTube](https://www.youtube.com/watch?v=6plkkvYGW74&)
+- [YouTube](https://www.youtube.com/watch?v=6plkkvYGW74)

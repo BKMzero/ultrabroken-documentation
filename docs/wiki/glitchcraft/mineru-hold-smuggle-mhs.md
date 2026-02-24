@@ -31,5 +31,5 @@ Can duplicate items. Also see ISLT, 218 on how to transfer items through saves.
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1187101909446832190)
-- [YouTube](https://youtu.be/mHC8BJpDxGE?si=-KT6KxiVW-O_PDto)
+- [YouTube](https://www.youtube.com/watch?v=mHC8BJpDxGE)
 - [Memory Buffering](search:Memory Buffering)

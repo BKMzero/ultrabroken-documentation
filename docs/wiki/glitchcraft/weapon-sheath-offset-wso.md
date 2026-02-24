@@ -34,4 +34,4 @@ This works for ALL weapons not just the .
 
 ## Resources
 ---
-- [Youtube](https://www.youtube.com/watch?v=E9yKzddgre4)
+- [YouTube](https://www.youtube.com/watch?v=E9yKzddgre4)

@@ -31,5 +31,5 @@ _AngryEgg - 18 May 2023_
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1108780208137437314)
-- [Youtube](https://youtu.be/w1fI3QYrerQ)
+- [YouTube](https://www.youtube.com/watch?v=w1fI3QYrerQ)
 - [Zuggle Overload](search:Zuggle Overload)

@@ -31,6 +31,6 @@ _[Mozz](https://www.youtube.com/@M0zzed), SmallAnt - 15 June 2023_
 
 ## Resources
 ---
-- [YouTube](https://youtu.be/10PdzT0eEl0)
-- [YouTube](https://youtu.be/OmuWEI46dXo?t=163)
+- [YouTube](https://www.youtube.com/watch?v=10PdzT0eEl0)
+- [YouTube](https://www.youtube.com/watch?v=OmuWEI46dXo&t=163)
 - [Fuse Entanglement](search:Fuse Entanglement)

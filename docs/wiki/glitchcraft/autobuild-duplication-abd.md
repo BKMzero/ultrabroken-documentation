@@ -35,4 +35,4 @@ This only works with items that change into other items in another temperature.
 
 ## Resources
 ---
-- [YouTube](https://youtu.be/IfRlldenZNc)
+- [YouTube](https://www.youtube.com/watch?v=IfRlldenZNc)

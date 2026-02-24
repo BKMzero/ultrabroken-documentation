@@ -37,4 +37,4 @@ Needs to be tested more, and see if it can be consistently replicated.
 
 ## Resources
 ---
-- [YouTube](https://youtu.be/c9TDP4qdAUY)
+- [YouTube](https://www.youtube.com/watch?v=c9TDP4qdAUY)

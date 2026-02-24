@@ -30,7 +30,7 @@ Grabbing the steering stick with Ultrahand after mount lock causes Link to disco
 
 ## Resources
 ---
-- [YouTube](https://youtu.be/_wEn2s1cD1M?si=hrw7SdJ8RT8TpZOh)
+- [YouTube](https://www.youtube.com/watch?v=_wEn2s1cD1M)
 - [Discord](https://discord.com/channels/1086729144307564648/1110956205624532993/1342646563184312432)
 - [Discord](https://discordapp.com/channels/1086729144307564648/1110956205624532993/1342580552447950961)
-- [YouTube](https://youtu.be/E2Qp3Zj15fo?si=CWroyqmk9prT3vwu)
+- [YouTube](https://www.youtube.com/watch?v=E2Qp3Zj15fo)

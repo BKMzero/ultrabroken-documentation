@@ -34,5 +34,5 @@ Shooting the arrows in the right angle and terrain, can cause the small wheel to
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1110956205624532993/1119903350255796265)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1138481656093749359)
-- [YouTube](https://youtu.be/NU0jvd-S9rQ)
+- [YouTube](https://www.youtube.com/watch?v=NU0jvd-S9rQ)
 - [Arrow Unloading](search:Arrow Unloading)
