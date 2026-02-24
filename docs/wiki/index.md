@@ -20,4 +20,4 @@ This site is a community-driven encyclopedia of glitches, techniques, and invest
 - **[Out of Bounds section](oob/)** - Glitches and strats that get you Out of Bounds
 - **[Message Not Found](mnf/)** - Explore the powers of MessageNotFound items in this section
 - **[Overload section](overload/)** - Detailed setups and techniques for reaching Overload states
-- **[Memorial](memorial/)** - Leaderboard and hall of fame
+- **[Memorial](memorial/)** - Leaderboard for glitch hunters and hall of fame for archivists
