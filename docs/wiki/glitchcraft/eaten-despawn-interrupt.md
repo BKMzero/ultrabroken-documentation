@@ -20,8 +20,7 @@ _Discovery - mulberry optimizations - mulberry, Squidwest - 16 January 2026_
 
 ## Instructions
 ---
-Setupless with a frox for 1.2+:
-
+### Setupless with a frox for 1.2+:
 1. Approach a frox and wait until it is about to do a swallow attack.
 This is done most easily if you have a travel medallion directly next to the frox
 2. Put your target item between you and the frox and target it with fuse
@@ -32,23 +31,20 @@ This is done most easily if you have a travel medallion directly next to the fro
 7. If you wish, detangle the fused item from its base. 
 This is easiest if the item you fused to was a shield
 
-An easier setup for 1.2+ that requires a previous fuse entanglement:
-
+### An easier setup for 1.2+ that requires a previous fuse entanglement:
 1. FE your target to a shield
 2. Drop your item near a molduga so that the molduga notices it
 3. Right after the molduga begins to jump, drop the fuse entangled shield, equip another shield, and unequip it
 4. Pick it up and retrive the target
 5. If you wish, detangle it from the base shield
 
-Setup for 1.0-1.1.2
-
+### Setup for 1.0-1.1.2
 1. FE your target to Mineru
 2. Place the target near a molduga so the molduga notices it
 3. Climb so that mineru culls right after the molduga jumps out of the sand
 4. Retrive you target and if you wish, detangle it from mineru
 
-Setup for using eaten DI weapons and shields to make an eaten DI ghost on 1.2+
-
+### Setup for using eaten DI weapons and shields to make an eaten DI ghost on 1.2+
 1. Smuggle the eaten DI equipment (Drop it, equip another item of the same type, and then unequip that item)
 2. Equip an item of the same type
 3. Fuse the thing you want to put in the eaten DI state to the thing you just equipped
@@ -57,8 +53,7 @@ Setup for using eaten DI weapons and shields to make an eaten DI ghost on 1.2+
 The distance method should be done before detangling from the eaten DI parent
 6. If you want to detantangle from the eaten DI parent, you may simply smuggle it, equip an item of the same type, and then fuse to that item
 
-Setup for using eaten DI weapons and shields to make an eaten DI ghost on 1.0-1.1.2
-
+### Setup for using eaten DI weapons and shields to make an eaten DI ghost on 1.0-1.1.2
 1. Smuggle the eaten DI equipment using the same drop swap unequip method
 2. FE an item of the same type to mineru and pick it up
 3. Fuse the thing you want to DI right before mineru culls
