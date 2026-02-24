@@ -1,15 +1,15 @@
 ---
-title: "Weapon FE"
+title: "Weapon Fuse Entangelemt"
 abbreviation: "WFE"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["ROBUXY2ND", "Physioninja"]
 date: "2023-06-01"
-description: "Allows for FE to weapons"
-aliases: ["weapon-fe"]
+description: "Allows for Fuse Entanglement to weapons"
+aliases: ["weapon-fe", "weapon fe"]
 tags: ["weapon"]
 ---
 
-# Weapon FE `WFE`
+# Weapon Fuse Entangelemt `WFE`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary
