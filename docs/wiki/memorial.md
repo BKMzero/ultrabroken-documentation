@@ -32,28 +32,28 @@ _137 contributors — last updated 2026-02-24_
 
 | Rank | Contributor | Glitches |
 |------|-------------|:--------:|
-| 🥇 | **mulberry** | 57 |
-| 🥈 | **[Mozz](https://www.youtube.com/@M0zzed)** | 47 |
-| 🥉 | **Zas** | 21 |
-| 4 | **Ock** | 17 |
-| 5 | **Ryan?** | 16 |
-| 6 | **Aergyl** | 13 |
-| 6 | **Unknown** | 13 |
-| 7 | **[NaN Gogh](https://x.com/_nan_gogh)** | 12 |
-| 7 | **NX721** | 12 |
-| 8 | **BigDUCCO** | 10 |
-| 8 | **[Lightos](https://www.youtube.com/@lightos_)** | 10 |
-| 8 | **pyuk** | 10 |
-| 8 | **WinnerBoi77** | 10 |
-| 9 | **LegendofLinkk** | 8 |
-| 9 | **R4000** | 8 |
-| 10 | **Blackmars** | 7 |
-| 10 | **Flash** | 7 |
-| 10 | **NghtmaR3** | 7 |
-| 10 | **Telkic** | 7 |
-| 11 | **Physioninja** | 5 |
-| 11 | **ROBUXY2ND** | 5 |
-| 11 | **Yee** | 5 |
+| 🥇 | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">mulberry</span> | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">57</span> |
+| 🥈 | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">[Mozz](https://www.youtube.com/@M0zzed)</span> | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">47</span> |
+| 🥉 | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">Zas</span> | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">21</span> |
+| 4 | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">Ock</span> | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">17</span> |
+| 5 | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">Ryan?</span> | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">16</span> |
+| 6 | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">Aergyl</span> | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">13</span> |
+| 6 | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">Unknown</span> | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">13</span> |
+| 7 | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">[NaN Gogh](https://x.com/_nan_gogh)</span> | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">12</span> |
+| 7 | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">NX721</span> | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">12</span> |
+| 8 | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">BigDUCCO</span> | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">10</span> |
+| 8 | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">[Lightos](https://www.youtube.com/@lightos_)</span> | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">10</span> |
+| 8 | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">pyuk</span> | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">10</span> |
+| 8 | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">WinnerBoi77</span> | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">10</span> |
+| 9 | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">LegendofLinkk</span> | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">8</span> |
+| 9 | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">R4000</span> | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">8</span> |
+| 10 | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">Blackmars</span> | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">7</span> |
+| 10 | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">Flash</span> | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">7</span> |
+| 10 | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">NghtmaR3</span> | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">7</span> |
+| 10 | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">Telkic</span> | <span style="background-color: #ffd700; padding: 2px 4px; border-radius: 3px;">7</span> |
+| 11 | Physioninja | 5 |
+| 11 | ROBUXY2ND | 5 |
+| 11 | Yee | 5 |
 | 12 | [Blize](https://www.youtube.com/@blizegaming) | 4 |
 | 12 | Jordan | 4 |
 | 12 | kurocat471 | 4 |
