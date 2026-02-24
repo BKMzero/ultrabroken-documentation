@@ -2,6 +2,7 @@
   ["oob", "out of bounds", "out-of-bounds", "out of bounds glitch", "o.o.b.", "out of map"],
   ["sld", "persistent save load object transfer", "save-load-dupe", "save load dupe", "save/load dupe"],
   ["sd", "stick_desync", "stick desync", "stickdesync"],
+  ["sdc", "stick desync clip", "stick-desync-clip"],
   ["ultrabroken", "ultrabreak", "UB", "ultra-broken"],
   ["zuggle", "zuggling", "zugl", "zug", "zuggle overload"],
   ["tulin pump", "tulin-pump", "pump tulin", "tulin pumping", "tulinpump"],
