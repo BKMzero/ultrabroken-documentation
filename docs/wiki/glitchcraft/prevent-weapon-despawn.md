@@ -2,7 +2,7 @@
 title: "Weapon Despawn Prevention"
 abbreviation: "WDP"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
-credits: ["NX721"]
+credits: ["nx"]
 date: "2023-06-28"
 description: "Prevents equipment from despawning after certain NPC interactions and quests (Does not work in Pirate Ship quest, different flags)."
 aliases: ["weapon-despawn-prevention"]
@@ -16,7 +16,7 @@ tags: ["weapon", "equipment", "ultrahand"]
 ---
 Prevents equipment from despawning after certain NPC interactions and quests (Does not work in Pirate Ship quest, different flags).
 
-_NX721 - 28 June 2023_
+_nx - 28 June 2023_
 
 ## Instructions
 ---

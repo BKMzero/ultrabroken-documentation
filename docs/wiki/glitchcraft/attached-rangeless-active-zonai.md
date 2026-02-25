@@ -2,7 +2,7 @@
 title: "Attached Rangeless Active Zonai"
 abbreviation: "ARAZ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
-credits: ["Ryan?", "NX721"]
+credits: ["Ryan?", "NX"]
 date: "2023-06-16"
 description: "Is very similar to DRAZ but differs slightly."
 aliases: ["attached-rangeless-active-zonai"]
@@ -16,7 +16,7 @@ tags: ["zonai"]
 ---
 Is very similar to DRAZ but differs slightly.
 
-_Ryan?, NX721 - 16 June 2023; 15 July 2023_
+_Ryan?, NX - 16 June 2023; 15 July 2023_
 
 ## Instructions
 ---
