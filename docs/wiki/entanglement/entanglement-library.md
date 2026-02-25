@@ -16,7 +16,7 @@ This page complies Fuse Entanglement related glitches for quick reference.
 - [Fuse Entanglement Drop Smuggling](../glitchcraft/fuse-entanglement-drop-smuggling.md)
 - [Detanglement](../glitchcraft/detanglement.md)
 - [Cull Fuse Entanglement](../glitchcraft/cull-fuse-entanglement-cull-fe.md)
-- [Mineru Fuse Entanglement](../glitchcraft/mineru-fuse-entanglement-mineru-fe.md)
+- [Mineru Fuse Entanglement](../glitchcraft/mineru-fuse-entanglement.md)
 - [Resync Fuse Entanglement](../glitchcraft/resync-fuse-entanglement-resync-fe.md)
 - [Persistent Save Load Object Transfer](../glitchcraft/persistent-save-load-object-transfer.md)
 - [Ultra Save Load Object Transfer](../glitchcraft/ultra-save-load-object-transfer.md)

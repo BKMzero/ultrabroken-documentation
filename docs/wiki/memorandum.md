@@ -19,7 +19,7 @@ The backbone of community glitch research: the curators who maintain and organiz
 - **Lightos**
 - **PetitFrapo**
 - **WinnerBoi77**
-- **NightmaR3**
+- **NghtmaR3**
 
 ## Informants
 ---

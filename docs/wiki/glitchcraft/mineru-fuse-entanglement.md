@@ -2,7 +2,7 @@
 title: "Mineru Fuse Entanglement"
 abbreviation: "MFE"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
-credits: ["Ock", "WinnerBoi77"]
+credits: ["Ock", "WinnerBoi77", "mulberry"]
 date: "2023-10-18"
 description: "Fusing to Mineru and then pausing the game or culling Link while riding Mineru on a specific frame causes objects to FE to Mineru"
 aliases: ["mineru-fuse-entanglement"]
@@ -16,7 +16,7 @@ tags: ["entanglement", "culling", "ultrahand", "fuse", "mineru"]
 ---
 Fusing to Mineru and then pausing the game or culling Link while riding Mineru on a specific frame causes objects to FE to Mineru
 
-_ock (Method 1 & 3), WinnerBoi77 (Method 2) - 18 October 2023_
+_ock (Method 1 & 3), WinnerBoi77 (Method 2), mulberry (Mineru Detanglement) - 18 October 2023_
 
 ## Instructions
 ---
@@ -46,7 +46,8 @@ Note: This method ONLY works with bows, shields, and weapons
 
 - Certain actions like paragliding, climbing, entering a town/stable, and walking around with fuse or ultrahand active can cull Mineru, consequently culling anything FE'd to her. This can be used for all sorts of things, including zuggling equipment and cold fusing almost anywhere.
 
-- Fusing something to Mineru on the same slot as an FE'd object will detangle that object from Mineru. Discovered by Mullberry.
+- Fusing something to Mineru on the same slot as an FE'd object will detangle that object from Mineru.Discovered by mulberry.
+
 For method 1, any method of culling Link can work in place of like like stick culling
 
 ## Resources
