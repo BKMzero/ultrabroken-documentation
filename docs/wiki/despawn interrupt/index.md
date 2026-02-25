@@ -7,8 +7,7 @@ _Basic stub_
 
 ## Introduction
 ---
-"Despawn Interrupt" refers to interrupting the despawning of an actor, however this event happens as a result of different game events, which are internally referred to as reasons. Eaten DI is associated with the "Eaten" reason, and encapsulates Frox Dipping, Duga Dipping and Like Like DI. Void Dipping is interrupting the "FallIntoAbyss" despawn, so it's sometimes referred to as FallIntoAbyss DI.
-These two kinds of DI have differences, such as what happens upon being picked up. However, to simplify setups, FallIntoAbyss DI is referred to as VD, and Eaten DI simply as DI.
+Despawn Interrupt refers to interrupting the despawning of an actor. When a piece of equipment despawns, the game sets its state as "dead". By interrupting the process, we get to keep the usable weapon in this "dead" state, which is what is known as a DI'd piece of equipment. This state is really powerful, as it makes the equipment not be affected by D-Pad Lock, as well as giving it infinite durability. On top of that, DI can be propagated to other equipment anywhere easily.
 
 ## Quick Navigation
 ---
@@ -16,6 +15,24 @@ These two kinds of DI have differences, such as what happens upon being picked u
 - **[Fuse Entanglement](search:Fuse Entanglement)** - Often combined with DI for duplication
 - **[Detanglement](search:Detanglement)** - Remove items from DI parent bases
 - **[Culling Overview](../culling/)** - Game culling mechanics that enable DI
+
+## Despawn reasons
+---
+When a piece of equipment dies, the game provides a reason for the despawning, so that it knows how to handle the despawn (e.g. a fade out for void, a simple actor deletion).
+For example, death reasons include:
+- `FallIntoAbyss` for voiding out.
+- `Eaten` for getting eaten by a frox or a molduga.
+- `PickedUp` for picking up an item when something else is equipped.
+Each reason corresponds to a number in an internal enumeration.
+
+The two kinds of despawn we are able to interrupt are `FallIntoAbyss` and `Eaten`.
+This splits DI into two sub-glitches: `FallIntoAbyss` DI, aka Void Dipping, and `Eaten` DI.
+The behavioural changes stem from the way the game handles killing an already dead actor: the death will only go through if the newer death reason number is smaller than the older death reason number.
+For example, `PickedUp` has a reason number of 7.
+`FallIntoAbyss`'s number is 13, so picking up a void dipped item will properly delete it (7 < 13, death goes through). However, `Eaten`'s reason number is 6, and 6 < 7, so picking up a eaten DI'd piece of equipment will not delete it, putting a copy in the inventory but staying alive.
+This is just an example, other differences emerge depending on which despawn reason was interrupted.
+
+Note that to make writing setups quicker, FallIntoAbyss DI will be referred to as Void Dipping (VD) and Eaten DI simply as DI.
 
 ## What to expect in each writeup
 ---

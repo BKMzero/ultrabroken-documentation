@@ -157,7 +157,7 @@ hooks:
 plugins:
   - search
   - minify
-  - open_in_new_tab
+  - open-in-new-tab
   - social:
       cards_layout: default
       cards_layout_options:
