@@ -72,6 +72,7 @@ Also known as "Eaten DI". Often referred to as "Frox Dipping" or as "Duga Dippin
 
 ## Resources
 ---
+- [Spreadsheet link](https://docs.google.com/spreadsheets/d/1xNB1gOLZRSF9yp1mHUsS9ymogRJa1Wz8rTliTXezeRM/edit?pli=1&hl=de&gid=0#gid=0&range=294:294)
 - [Original discovery](https://discordapp.com/channels/1086729144307564648/1110956205624532993/1461889160062173416)
 - [Molduga optimization](https://discordapp.com/channels/1111875355758837830/1128775917376897145/1466939998023450796)
 - [Link's Luxury Loadout](https://www.youtube.com/watch?v=kQuj0LBQdrM)
