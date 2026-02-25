@@ -26,13 +26,13 @@ This is done most easily if you have a travel medallion directly next to the fro
 2. Put your target item between you and the frox and target it with fuse
 3. Right before the frox swallows the target, fuse it to a piece of equipment, preferably a shield
 4. **Quickly pause the game**
-5. `Drop the equipment you fused to, equip another item of the same type, then unequip`
+5. *Drop the equipment you fused to, equip another item of the same type, then unequip*
 6. **Unpause the game**
 7. Pick up the dropped equipment and run away from the frox
 8. If done correctly, the fused item will now be in a despawn interrupted state and ghosted
 9. If you wish, detangle the fused item from its base. 
-!!! note
-    This is easiest if the item you fused to was a shield
+
+This is easiest if the item you fused to was a shield
 
 ### An easier setup for 1.2+
 1. FE your target to a shield
