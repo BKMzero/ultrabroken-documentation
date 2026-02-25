@@ -20,9 +20,3 @@ Desync is a state where the game's internal representation (menu/inventory) and 
 - **Behavior:** observable effects and common outcomes
 - **Risks & Warnings:** save/desync risks and suggested safety steps
 - **Notes** variations, related techniques, and links to follow-ups
-
-## Safety & best practices
----
-- Always test on throwaway saves or copies. These glitches can corrupt progress.
-- Prefer manual backups (copy / cloud-backup the save file) rather than relying on in-game saves.
-- Use the writeups in this index to compare variants before attempting advanced chains.

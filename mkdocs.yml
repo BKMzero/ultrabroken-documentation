@@ -145,8 +145,8 @@ nav:
     # - Zuggle Overload Desync: glitchcraft/zuggle-overload-desync.md
     # - Collection: zuggling/zuggle-collection.md
   - Desync: wiki/desync/index.md
-  - OOB: wiki/oob/index.md
-  - MNF: wiki/mnf/index.md
+  - Despawn Interrupt: wiki/despawn-interrupt/index.md
+  - Culling: wiki/culling/index.md
   - Overload: wiki/overload/index.md
   - Memorandum: wiki/memorandum.md
 
