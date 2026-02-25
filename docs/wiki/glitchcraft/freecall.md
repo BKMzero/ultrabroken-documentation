@@ -14,7 +14,7 @@ tags: ["ultrahand", "recall"]
 
 ## Summary
 ---
-Breaks the lock on a recall lock, allowing the object to be in freecall without ub
+Breaks the lock on a recall lock, allowing the object to be in freecalled state.
 
 _suusi, ROBUXY2ND - 9 September 2023_
 
