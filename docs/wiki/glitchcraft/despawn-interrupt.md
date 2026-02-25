@@ -10,17 +10,17 @@ tags: ["item", "zuggling", "fuse", "despawn interrupt"]
 ---
 
 # Despawn Interrupt `DI`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` 
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.2.1+` `Switch 2`
 
 ## Summary
 ---
 A similar glitch to void dipping that has additional properties and is done with a molduga or frox.
 
-_Discovery - mulberry optimizations - mulberry, Squidwest - 16 January 2026_
+_Discovered by mulberry; optimizations by mulberry, Squidwest - 16 January 2026_
 
 ## Instructions
 ---
-### Setupless with a frox for 1.2+
+### Method 1 (1.2+, setupless frox setup):
 1. Approach a frox and wait until it is about to do a swallow attack.
 This is done most easily if you have a travel medallion directly next to the frox
 2. Put your target item between you and the frox and target it with fuse
@@ -34,20 +34,23 @@ This is done most easily if you have a travel medallion directly next to the fro
 
 This is easiest if the item you fused to was a shield
 
-### An easier setup for 1.2+
+### Method 2 (1.2+, easier molduga setup):
 1. FE your target to a shield
 2. Drop your item near a molduga so that the molduga notices it
 3. Right after the molduga begins to jump, drop the fuse entangled shield, equip another shield, and unequip it
 4. Pick it up and retrive the target
 5. If you wish, detangle it from the base shield
 
-### Setup for 1.0-1.1.2
+### Method 3 (1.0-1.1.2, older versions molduga setup):
 1. FE your target to Mineru
 2. Place the target near a molduga so the molduga notices it
 3. Climb so that mineru culls right after the molduga jumps out of the sand
 4. Retrive you target and if you wish, detangle it from mineru
 
 ### Setup for DI ghosts on 1.2+
+DI can propagate to other pieces of equipment, by making a DI ghost. Here are methods to do so:
+
+#### Method 1 (1.2+):
 1. Smuggle the DI equipment (Drop it, equip another item of the same type, and then unequip that item)
 2. Equip an item of the same type
 3. Fuse the thing you want to put in the DI state to the thing you just equipped
@@ -56,7 +59,7 @@ This is easiest if the item you fused to was a shield
 The distance method should be done before detangling from the DI parent
 6. If you want to detantangle from the DI parent, you may simply smuggle it, equip an item of the same type, and then fuse to that item
 
-### Setup for using DI weapons and shields to make an DI ghost on 1.0-1.1.2
+#### Method 2 (1.0-1.1.2):
 1. Smuggle the DI equipment using the same drop swap unequip method
 2. FE an item of the same type to mineru and pick it up
 3. Fuse the thing you want to DI right before mineru culls
@@ -65,7 +68,7 @@ The distance method should be done before detangling from the DI parent
 
 ## Notes
 ---
-Also known as "Eaten DI". Often referred to as "Frox Dipping" or "Duga Dipping".
+Also known as "Eaten DI". Often referred to as "Frox Dipping" or as "Duga Dipping".
 
 ## Resources
 ---

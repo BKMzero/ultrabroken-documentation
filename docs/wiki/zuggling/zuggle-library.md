@@ -36,7 +36,7 @@ This page complies Smuggling and Zuggling related glitches for quick reference.
 - [Quick Smuggling](../glitchcraft/quick-smuggling.md)
 - [Hand Locked Equipment Smuggling](../glitchcraft/hand-locked-equipment-smuggling.md)
 - [Dynamic Zuggle](../glitchcraft/dynamic-zuggle.md)
-- [LikeLike Stick Smuggling](../glitchcraft/likelike-stick-smuggling.md)
+- [LikeLike Stick Smuggling](../glitchcraft/like-like-stick-smuggling.md)
 - [Master Sword Zuggling](../glitchcraft/master-sword-zuggling-decayed-master-sword-zuggling.md)
 - [Mineru Hold Smuggle](../glitchcraft/mineru-hold-smuggle.md)
 - [Wuggle](../glitchcraft/wuggle-weird-zuggle.md)

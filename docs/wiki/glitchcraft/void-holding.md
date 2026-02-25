@@ -6,7 +6,7 @@ credits: ["Lightos"]
 date: "2023-06-10"
 description: "Allows you to hold materials \"whenever you want\" as long as you are at a low enough Y coordinate"
 aliases: ["void-holding"]
-tags: ["item", "zuggling"]
+tags: ["item", "zuggling", "despawn interrupt"]
 ---
 
 # Void Holding `VH`

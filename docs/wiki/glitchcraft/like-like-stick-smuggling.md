@@ -1,5 +1,5 @@
 ---
-title: "LikeLike Stick Smuggling"
+title: "Like-Like Stick Smuggling"
 abbreviation: "LLSS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Unknown"]
@@ -9,7 +9,7 @@ aliases: ["likelike-stick-smuggling"]
 tags: ["zuggling", "item", "equipment", "culling", "fuse", "like-like"]
 ---
 
-# LikeLike Stick Smuggling `LLSS`
+# Like Like Stick Smuggling `LLSS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

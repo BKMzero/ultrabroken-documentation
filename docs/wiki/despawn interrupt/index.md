@@ -7,7 +7,8 @@ _Basic stub_
 
 ## Introduction
 ---
-Despawn Interrupt (DI) is a foundational glitch that captures items or objects in a corrupted "ghosted" state by interrupting the despawn process during culling. By precisely timing a pause menu or equipment swap while a molduga, frox, or Mineru is consuming or unloading an item, the item becomes DI'd—appearing to exist in multiple states simultaneously and enabling fuse entanglement duplication, weapon stacking, and other advanced exploits. DI is version-dependent with different setups for 1.0–1.1.2 vs. 1.2+.
+"Despawn Interrupt" refers to interrupting the despawning of an actor, however this event happens as a result of different game events, which are internally referred to as reasons. Eaten DI is associated with the "Eaten" reason, and encapsulates Frox Dipping, Duga Dipping and Like Like DI. Void Dipping is interrupting the "FallIntoAbyss" despawn, so it's sometimes referred to as FallIntoAbyss DI.
+These two kinds of DI have differences, such as what happens upon being picked up. However, to simplify setups, FallIntoAbyss DI is referred to as VD, and Eaten DI simply as DI.
 
 ## Quick Navigation
 ---
