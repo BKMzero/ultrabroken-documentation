@@ -20,6 +20,7 @@ Despawn Interrupt refers to interrupting the despawning of an actor. When a piec
 ---
 When a piece of equipment dies, the game provides a reason for the despawning, so that it knows how to handle the despawn (e.g. a fade out for void, a simple actor deletion).
 For example, death reasons include:
+
 - `FallIntoAbyss` for voiding out.
 - `Eaten` for getting eaten by a frox or a molduga.
 - `PickedUp` for picking up an item when something else is equipped.
