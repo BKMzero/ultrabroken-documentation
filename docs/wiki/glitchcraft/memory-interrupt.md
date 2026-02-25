@@ -30,7 +30,7 @@ The main use for this is Banc Storage, check the next row
 
 ## Notes
 ---
-â€”
+—
 
 ## Resources
 ---

@@ -26,7 +26,7 @@ _NghtmaR3, WinnerBoi77 - 21 January 2024_
 
 ## Notes
 ---
-â€”
+—
 
 ## Resources
 ---

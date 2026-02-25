@@ -25,7 +25,7 @@ _Aergyl - 16 March 2024_
 
 ## Notes
 ---
-â€”
+—
 
 ## Resources
 ---

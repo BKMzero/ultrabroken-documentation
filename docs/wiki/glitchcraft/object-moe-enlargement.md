@@ -46,7 +46,7 @@ In order to make it rangeless, you need to PSLOT the target.
 
 ## Notes
 ---
-â€”
+—
 
 ## Resources
 ---

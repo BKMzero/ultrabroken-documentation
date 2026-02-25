@@ -24,11 +24,11 @@ Activate the text box you get after obtaining a sage while the sage falls down a
 
 ## Notes
 ---
-â€”
+—
 
 ## Resources
 ---
-â€”
+—
 
 ## Related
 ---

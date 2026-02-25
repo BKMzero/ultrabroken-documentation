@@ -25,7 +25,7 @@ Shield surf against a slope
 
 ## Notes
 ---
-â€”
+—
 
 ## Resources
 ---

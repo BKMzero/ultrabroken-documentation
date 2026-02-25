@@ -27,7 +27,7 @@ _KAIDUDE64 - 16 September 2023_
 
 ## Notes
 ---
-â€”
+—
 
 ## Resources
 ---

@@ -45,7 +45,7 @@ Recipe Hold Storage:
 
 ## Notes
 ---
-â€”
+—
 
 ## Resources
 ---

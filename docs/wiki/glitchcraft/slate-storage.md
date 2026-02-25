@@ -40,7 +40,7 @@ The Fall Damage should be cancelled if you dived quick enough
 
 ## Notes
 ---
-â€”
+—
 
 ## Resources
 ---

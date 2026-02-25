@@ -33,7 +33,7 @@ Hand locked smuggling can also be performed using runes, two handed weapon and h
 
 ## Resources
 ---
-â€”
+—
 
 ## Related
 ---

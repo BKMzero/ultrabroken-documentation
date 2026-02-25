@@ -35,7 +35,7 @@ Prerequisites:
 
 ## Notes
 ---
-â€”
+—
 
 ## Resources
 ---

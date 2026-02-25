@@ -33,7 +33,7 @@ Steps:
 
 ## Notes
 ---
-â€”
+—
 
 ## Resources
 ---

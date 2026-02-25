@@ -26,7 +26,7 @@ _Zas - 11 September 2023_
 
 ## Notes
 ---
-â€”
+—
 
 ## Resources
 ---

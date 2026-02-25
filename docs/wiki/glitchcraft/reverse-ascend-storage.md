@@ -24,7 +24,7 @@ _Redrooey - 27 November 2023_
 
 ## Notes
 ---
-â€”
+—
 
 ## Resources
 ---

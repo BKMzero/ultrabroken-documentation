@@ -26,11 +26,11 @@ _Quelfth_
 
 ## Notes
 ---
-â€”
+—
 
 ## Resources
 ---
-â€”
+—
 
 ## Related
 ---

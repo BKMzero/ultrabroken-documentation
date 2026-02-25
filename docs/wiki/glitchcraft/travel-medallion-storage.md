@@ -29,7 +29,7 @@ _kirigaya - 16 June 2023_
 
 ## Notes
 ---
-â€”
+—
 
 ## Resources
 ---

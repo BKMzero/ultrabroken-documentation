@@ -46,7 +46,7 @@ If you want to zlot an item with invizuggle, you can do the following:
 
 ## Notes
 ---
-â€”
+—
 
 ## Resources
 ---

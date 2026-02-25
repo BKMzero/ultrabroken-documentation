@@ -25,7 +25,7 @@ _Aergyl, FerrusCube, Mozz - 21 September 2023_
 
 ## Notes
 ---
-â€”
+—
 
 ## Resources
 ---

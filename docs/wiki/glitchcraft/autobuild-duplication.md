@@ -31,7 +31,7 @@ This only works with items that change into other items in another temperature.
 
 ## Notes
 ---
-â€”
+—
 
 ## Resources
 ---

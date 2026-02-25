@@ -27,7 +27,7 @@ _quantim - 2 July 2023_
 
 ## Notes
 ---
-â€”
+—
 
 ## Resources
 ---

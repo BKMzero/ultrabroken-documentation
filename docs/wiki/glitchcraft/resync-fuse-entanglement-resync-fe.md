@@ -53,7 +53,7 @@ This method uses recall for a makeshift wall:
 
 ## Notes
 ---
-â€”
+—
 
 ## Resources
 ---

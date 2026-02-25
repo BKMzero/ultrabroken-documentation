@@ -20,7 +20,7 @@ _そら-さん - 18 May 2023_
 
 ## Instructions
 ---
-â€”
+—
 
 ## Notes
 ---

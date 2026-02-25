@@ -25,7 +25,7 @@ _onion - 23 July 2023_
 
 ## Notes
 ---
-â€”
+—
 
 ## Resources
 ---

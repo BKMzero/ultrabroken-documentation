@@ -29,7 +29,7 @@ Letting go of B or stopping running cancels it
 
 ## Notes
 ---
-â€”
+—
 
 ## Resources
 ---

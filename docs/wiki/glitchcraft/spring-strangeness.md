@@ -33,7 +33,7 @@ Method 1 is reliablely strange, while Method 2 has only been performed once thus
 
 ## Resources
 ---
-â€”
+—
 
 ## Related
 ---

@@ -20,11 +20,11 @@ _Lopitty - 17 May 2023_
 
 ## Instructions
 ---
-â€”
+—
 
 ## Notes
 ---
-â€”
+—
 
 ## Resources
 ---

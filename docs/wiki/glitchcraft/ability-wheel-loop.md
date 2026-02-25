@@ -28,7 +28,7 @@ if the timing was right the ability wheel will come up right after the dpad menu
 
 ## Notes
 ---
-â€”
+—
 
 ## Resources
 ---

@@ -52,7 +52,7 @@ Instructions for 1.1+:
 
 ## Notes
 ---
-â€”
+—
 
 ## Resources
 ---

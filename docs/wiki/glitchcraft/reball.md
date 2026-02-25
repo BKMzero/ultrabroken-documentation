@@ -30,7 +30,7 @@ Can be combined with arrow smuggle for momentum preservation.
 
 ## Resources
 ---
-â€”
+—
 
 ## Related
 ---

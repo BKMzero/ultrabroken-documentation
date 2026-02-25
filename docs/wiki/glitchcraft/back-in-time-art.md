@@ -32,7 +32,7 @@ Compendium pictures (Zas):
 
 ## Notes
 ---
-â€”
+—
 
 ## Resources
 ---

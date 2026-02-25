@@ -42,7 +42,7 @@ no camera ui
 
 ## Notes
 ---
-â€”
+—
 
 ## Resources
 ---

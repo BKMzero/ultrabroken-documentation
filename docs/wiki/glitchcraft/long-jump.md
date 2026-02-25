@@ -24,7 +24,7 @@ While facing sideways (any angle that is more than or equal to 90 degrees from t
 
 ## Notes
 ---
-â€”
+—
 
 ## Resources
 ---

@@ -28,7 +28,7 @@ _LegendofLinkk - 5 June 2023_
 
 ## Notes
 ---
-â€”
+—
 
 ## Resources
 ---

@@ -22,7 +22,7 @@ Hold B, tap R, repeat
 
 ## Notes
 ---
-â€”
+—
 
 ## Resources
 ---

@@ -24,11 +24,11 @@ Skip a playing memory during an animation.
 
 ## Notes
 ---
-â€”
+—
 
 ## Resources
 ---
-â€”
+—
 
 ## Related
 ---

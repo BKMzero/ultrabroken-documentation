@@ -26,7 +26,7 @@ Impact triggered items can still go off if hit by an explosion. For Bomb Flowers
 
 ## Resources
 ---
-â€”
+—
 
 ## Related
 ---
