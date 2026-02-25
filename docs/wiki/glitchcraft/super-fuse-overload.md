@@ -23,10 +23,10 @@ _Discovered by mulberry and Aergyl, optimized by Jordan, MandelbrotChaylay, and 
 ### Base Setup
 1. If you wish to steal mineru's arm, make an autosave in the tunnel to ganondorf, right next to the army trigger. If you wish to steal zelda's torch, make an autosave anywhere in the prologue. If you wish to use SFO to duplicate zonai devices, make a save directly next to a minigame NPC
 2. Invizuggle 12 pieces of equipment
-3. Make an eaten DI weapon
-4. Use eaten DI weapon to create the following FE chains: A->B->C and D->E, where a is the original FE weapon, B is a regular weapon, C is a eaten DI shield, D is a zuggle dropped DI shield, and E is a regular shield 
+3. Make a DI weapon
+4. Use DI weapon to create the following FE chains: A->B->C and D->E, where a is the original FE weapon, B is a regular weapon, C is a DI shield, D is a zuggle dropped DI shield, and E is a regular shield 
 5. Glue E to something in Rasitakiwak, smuggle C, regularly equip B, and then overload pick up E
-6. Drop a shield, fuse it to your equipped shield twice, and quickly drop swap unequip B, and it is faster if it is a fail drop This should result in the dropped shield being eaten DI'd and ghosted
+6. Drop a shield, fuse it to your equipped shield twice, and quickly drop swap unequip B, and it is faster if it is a fail drop This should result in the dropped shield being DI'd and ghosted
 7. Repeat step 6 until shields are no longer ghosted the second time you fuse them
 8. Once this occurs, unquip shield E and pickup the shield that didn't get ghosted and unequip it
 9. Equip a random shield and drop it
@@ -36,7 +36,7 @@ _Discovered by mulberry and Aergyl, optimized by Jordan, MandelbrotChaylay, and 
 13. Fe a new shield to D, glue it to something random in Rasitakiwak, smuggle C, and then overload pick up the new shield
 14. Repeat step 6 until Link overload drops his armor in the menu
 15. Fail drop your equipped shield, then successfully drop it and B
-16. Recall lock all equipment that is not in the eaten DI state.
+16. Recall lock all equipment that is not in the DI state.
 
 ### To obtain Zelda's torch:
 1. Load the prologue and pick up the torch, you may have to reload a couple times
@@ -76,10 +76,11 @@ _Discovered by mulberry and Aergyl, optimized by Jordan, MandelbrotChaylay, and 
 - Mineru's arm always fail drops unless link is in the air, which is good for zuggling and other glitches
 ## Resources
 ---
+- [Spreadsheet link](https://docs.google.com/spreadsheets/d/1xNB1gOLZRSF9yp1mHUsS9ymogRJa1Wz8rTliTXezeRM/edit?pli=1&hl=de&gid=0#gid=0&range=293:293)
 - [SFO discovery](https://discordapp.com/channels/1086729144307564648/1110956205624532993/1446913364268683395)
-- [Tahat's outdated guide for mineru's arm](https://www.youtube.com/watch?v=R9azQV9lwJk)
+- [Tahata's outdated guide for mineru's arm](https://www.youtube.com/watch?v=R9azQV9lwJk)
 
 ## Related
 ---
-- [Eaten DI](search:Eaten DI)
+- [Despawn Interrupt](search:Despawn Interrupt)
 - [Dpadlock-Less Invizuggle](search:Dpadlock-Less Invizuggle)
