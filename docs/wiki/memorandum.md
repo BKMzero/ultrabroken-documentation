@@ -9,7 +9,9 @@ title: Memorandum
 This archive would not exist without the dedicated work of community archivists who compile, verify, and format glitch reports into a cohesive knowledge base.
 
 - **NaN Gogh** — Curator of this documentation and primary author of the Ultrabroken section
+
 - **MandelbrotChaylay** — Lead archivist
+- **PetitFrapo** — Lead archivist
 
 ## Spreadsheet Managers
 ---
@@ -27,6 +29,7 @@ The backbone of community glitch research: the curators who maintain and organiz
 - **kurocat471**
 - **Lightos_**
 - **Mozz**
+- **NaN Gogh**
 - **NghtmaR3**
 - **nx**
 - **ofstrings2**
