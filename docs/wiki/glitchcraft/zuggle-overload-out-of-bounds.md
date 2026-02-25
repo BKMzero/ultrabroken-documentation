@@ -1,8 +1,8 @@
 ---
 title: "Zuggle Overload Out Of Bounds"
 abbreviation: "ZOOB"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2" "1.2.0" "1.2.1"]
-credits: ["AngryEgg" "Dark" "Toti Sauce"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+credits: ["AngryEgg", "Dark", "Toti Sauce"]
 date: "2023-05-18"
 description: "Allows you to clip OOB using zuggle overload"
 aliases: ["zuggle-overload-oob", "zuggle overload oob", "zo oob"]
