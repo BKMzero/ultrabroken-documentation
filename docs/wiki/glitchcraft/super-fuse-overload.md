@@ -14,7 +14,7 @@ tags: ["weapon", "overload", "fuse", "mineru"]
 
 ## Summary
 ---
-Allows you to get Zelda's torch and Mineru's arm.
+Filling up the global dependency array gives other actors Zuggle Overload-like effects, for example making NPCs drop their weapons. Allows for Mineru's arm and Zelda's torch to be stolen.
 
 _Discovered by mulberry and Aergyl, optimized by Jordan, MandelbrotChaylay, and mulberry - 6 December 2025_
 
