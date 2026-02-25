@@ -12,8 +12,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    outputs:
-      docs_changed: ${{ steps.docs_hash.outputs.skip }}
     steps:
       - uses: actions/checkout@v4
 
@@ -60,21 +58,7 @@ jobs:
       - name: Build MkDocs site
         run: mkdocs build
 
-      - name: Check docs hash (skip if unchanged)
-        id: docs_hash
-        run: |
-          CURRENT_HASH=${{ hashFiles('docs/wiki/**') }}
-          OWNER=${{ github.repository_owner }}
-          REPO=${{ github.event.repository.name }}
-          PREV_HASH=$(curl -fsS "https://raw.githubusercontent.com/${OWNER}/${REPO}/gh-pages/wiki_index.hash" || true)
-          if [ -n "$PREV_HASH" ] && [ "$CURRENT_HASH" = "$PREV_HASH" ]; then
-            echo "skip=true" >> $GITHUB_OUTPUT
-          else
-            echo "skip=false" >> $GITHUB_OUTPUT
-          fi
-
       - name: Build BM25 index
-        if: ${{ steps.docs_hash.outputs.skip == 'false' }}
         run: |
           python docs/wiki/build_bm25_index.py \
             --docs-dir docs/wiki \
@@ -84,8 +68,7 @@ jobs:
             --gzip
           echo "${{ hashFiles('docs/wiki/**') }}" > site/wiki_index.hash
 
-      - name: Gzip index and size-check
-        if: ${{ steps.docs_hash.outputs.skip == 'false' }}
+      - name: Verify index and size-check
         run: |
           if [ -f site/wiki_index.json.gz ]; then
             s=$(wc -c < site/wiki_index.json.gz)
