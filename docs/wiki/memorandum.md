@@ -46,6 +46,8 @@ The backbone of community glitch research: the curators who maintain and organiz
 Special thanks to everyone helping with feedback, advice and informatiom.
 
 - **greninja**
+- **Echocolat**
+- **Blize**
 
 ## Dataminers & Game researchers
 ---
