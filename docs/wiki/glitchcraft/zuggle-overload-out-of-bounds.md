@@ -39,12 +39,11 @@ _AngryEgg (1.0 - 1.1.2)  - 18 May 2023_
 
 ## Resources
 ---
-- [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1108780208137437314)
+- [ZOOB demonstration](https://discord.com/channels/1086729144307564648/1105598687167664239/1108780208137437314)
+- ![ZOOB demonstration](https://cdn.discordapp.com/attachments/1105598687167664239/1108780207827079218/image.png?ex=699fbfc9&is=699e6e49&hm=8d5c9b3681c297aa2f28caeb12874f6e62043810c53015b73688d2d84db49be6&)
 - [Discovery for 1.2.0+](https://discordapp.com/channels/1086729144307564648/1113557914444111873/1394979337253687377)
 - [Discovery of arrow SDC](https://discordapp.com/channels/1086729144307564648/1105598687167664239/1399016292882714747)
 - [YouTube](https://www.youtube.com/watch?v=w1fI3QYrerQ)
-
-![ZOOB demonstration](https://cdn.discordapp.com/attachments/1105598687167664239/1108780207827079218/image.png?ex=699fbfc9&is=699e6e49&hm=8d5c9b3681c297aa2f28caeb12874f6e62043810c53015b73688d2d84db49be6&)
 
 ## Related
 ---
