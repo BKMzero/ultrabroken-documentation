@@ -41,7 +41,7 @@ For versions 1.2.0 - 1.2.1+:
 - [Discovery of arrow SDC](https://discordapp.com/channels/1086729144307564648/1105598687167664239/1399016292882714747)
 - [YouTube](https://www.youtube.com/watch?v=w1fI3QYrerQ)
 
-- ![ZOOB demonstration](https://cdn.discordapp.com/attachments/1105598687167664239/1108780207827079218/image.png?ex=699e6e49&is=699d1cc9&hm=ff5b33c53a5d61adb428f0b0c72460e41afb947cbb691fb5791783506d4b3fdd&)
+![ZOOB demonstration](https://cdn.discordapp.com/attachments/1105598687167664239/1108780207827079218/image.png?ex=699e6e49&is=699d1cc9&hm=ff5b33c53a5d61adb428f0b0c72460e41afb947cbb691fb5791783506d4b3fdd&)
 
 ## Related
 ---
