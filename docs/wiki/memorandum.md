@@ -17,6 +17,19 @@ The backbone of community glitch research: the curators who maintain and organiz
 
 - **[TotK Glitch Spreadsheet](https://docs.google.com/spreadsheets/d/1xNB1gOLZRSF9yp1mHUsS9ymogRJa1Wz8rTliTXezeRM/edit?usp=drivesdk)** — The community-maintained glitch spreadsheet curated by the Zelda: Tears of the Kingdom Speedrunning community and its spreadsheet managers
 
+## Informants
+---
+Special thanks to everyone helping with feedback, advice and informatiom.
+
+- **greninja**
+
+## Dataminers
+---
+Where scratching the surface is not enough, they mine deeper to learn Hylias language and share the wisdom.
+
+- **Echocolat**
+- **dt13269**
+
 ## Communities
 ---
 The glitch hunting, speedrunning, and research communities that made this documentation possible through collaborative investigation and discovery.
