@@ -23,8 +23,7 @@ _mulberry, Aergyl; optimizations by Jordan, MandelbrotChaylay, mulberry - 6 Dece
 ### Base Setup
 The main method of achieving SFO involves making ~20 Fuse Overload-ed PSLOTted pieces of equipment, which can be done using Despawn Interrupt (DI). It is recommended that you first learn how to maneuver useful glitches (Smuggle, Zuggle, FE, ...) on DI equipment.
 
-- [ ] If you wish to steal mineru's arm, make an autosave in the tunnel to ganondorf, right next to the army trigger. If you wish to steal zelda's torch, make an autosave anywhere in the prologue. If you wish to use SFO to duplicate zonai devices, make a save directly next to a minigame NPC
-
+0. If you wish to steal mineru's arm, make an autosave in the tunnel to ganondorf, right next to the army trigger. If you wish to steal zelda's torch, make an autosave anywhere in the prologue. If you wish to use SFO to duplicate zonai devices, make a save directly next to a minigame NPC
 1. Invizuggle 12 pieces of equipment
 2. Make an eaten DI weapon
 3. Use eaten DI weapon to create the following FE chains: A->B->C and D->E, where A is the original DI weapon, B is a regular weapon, C is an eaten DI shield, D is a zuggle dropped DI shield, and E is a regular shield.
