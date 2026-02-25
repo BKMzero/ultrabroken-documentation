@@ -50,4 +50,4 @@ Once AC is set up, in order to tangible, put a SDC in the wind and the base outs
 
 ## Related
 ---
-- [Object Culling](search:Object Culling]
+- [Object Culling](search:Object Culling)
