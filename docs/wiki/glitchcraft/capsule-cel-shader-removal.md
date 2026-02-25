@@ -2,7 +2,7 @@
 title: "Capsule Cel Shader Removal"
 abbreviation: "CCSR"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
-credits: ["NX721"]
+credits: ["NX"]
 date: "2023-12-04"
 description: "Enables the inside of capsules to remove the cel shader and other shaders"
 aliases: ["capsule-cel-shader-removal"]
@@ -16,7 +16,7 @@ tags: ["duplication", "ultrahand"]
 ---
 Enables the inside of capsules to remove the cel shader and other shaders
 
-_NX721 - 4 December 2023_
+_nx - 4 December 2023_
 
 ## Instructions
 ---

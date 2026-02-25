@@ -15,11 +15,28 @@ This archive would not exist without the dedicated work of community archivists 
 ---
 The backbone of community glitch research: the curators who maintain and organize the canonical glitch spreadsheet, validate discoveries, manage attribution, and ensure data integrity.
 
-- **Phil** - Primary maintainer of the canonical glitch spreqdsheet
-- **Lightos**
-- **PetitFrapo**
-- **WinnerBoi77**
+- **jem** - Creator of the canonical TotK Glitch Spreadsheet
+
+- **Phil**
+- **1000 hours in tokt for what**
+- **Blackmars**
+- **Blize**
+- **Delta / MCMi460**
+- **Deyestroyer**
+- **Flash, Persists on 1.0/1.1.1**
+- **kurocat471**
+- **Lightos_**
+- **Mozz**
 - **NghtmaR3**
+- **nx**
+- **ofstrings2**
+- **PetitFrapo**
+- **R4000(1.0.0)**
+- **Suishi**
+- **swinginman**
+- **Tauktes / Spreadsheet AI**
+- **WinnerBoi77**
+- **Yoda39**
 
 ## Informants
 ---

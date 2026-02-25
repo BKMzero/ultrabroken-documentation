@@ -2,7 +2,7 @@
 title: "Unsheathed Mastersword"
 abbreviation: "UMS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
-credits: ["NX721", "DanielNeia"]
+credits: ["nx", "DanielNeia"]
 date: "2023-07-11"
 description: "Puts the master sword in a visual state where it is outside of it's sheath."
 aliases: ["unsheathed-mastersword"]
@@ -16,7 +16,7 @@ tags: ["duplication", "weapon"]
 ---
 Puts the master sword in a visual state where it is outside of it's sheath.
 
-_NX721, DanielNeia - 11 July 2023_
+_nx, DanielNeia - 11 July 2023_
 
 ## Instructions
 ---

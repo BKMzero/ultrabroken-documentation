@@ -2,7 +2,7 @@
 title: "GAS Launching"
 abbreviation: "GASL"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
-credits: ["NX721", "pyuk", "Flash", "Mozz", "Blize"]
+credits: ["NX", "pyuk", "Flash", "Mozz", "Blize"]
 date: "2023-06-25"
 description: "Causes the object to fling Link great distances with relative ease."
 aliases: ["gas-launching"]
@@ -16,7 +16,7 @@ tags: ["gas", "launching"]
 ---
 Causes the object to fling Link great distances with relative ease.
 
-_NX721, pyuk, Flash, Mozz, Blize - 25 June 2023_
+_nx, pyuk, Flash, Mozz, Blize - 25 June 2023_
 
 ## Instructions
 ---
