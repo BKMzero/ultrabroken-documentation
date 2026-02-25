@@ -47,3 +47,11 @@ Thumbs.db
 
 # Local scripts used for repo maintenance
 .resources/
+serve.sh
+
+# Index jsons
+docs/assets/data/grimoire-data.json
+docs/assets/data/leaderboard-data.json
+
+# Cache
+.cache
