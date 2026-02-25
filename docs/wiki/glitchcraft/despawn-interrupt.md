@@ -31,8 +31,8 @@ This is done most easily if you have a travel medallion directly next to the fro
 7. Pick up the dropped equipment and run away from the frox
 8. If done correctly, the fused item will now be in a despawn interrupted state and ghosted
 9. If you wish, detangle the fused item from its base. 
-
-This is easiest if the item you fused to was a shield
+!!! note
+    This is easiest if the item you fused to was a shield
 
 ### An easier setup for 1.2+
 1. FE your target to a shield
