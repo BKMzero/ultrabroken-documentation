@@ -1,16 +1,16 @@
 ---
-title: "Object (Moe) Enlargement"
-abbreviation: "MOE"
+title: "Moe Enlargement"
+abbreviation: "ME"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Toti Sauce", "PetitFrapo", "Jordan"]
 date: "2024-10-30"
 description: "Using a moblin, it's possible to enlarge objects"
-aliases: ["object-(moe)-enlargement"]
+aliases: ["object-(moe)-enlargement", "moe-enlargement", "object-enlargement"]
 tags: ["ultrahand"]
 ---
 
-# Object Enlargement `MOE`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+# Moe Enlargement `ME`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1+`
 
 ## Summary
 ---

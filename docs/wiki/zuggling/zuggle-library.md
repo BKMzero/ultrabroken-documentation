@@ -53,7 +53,7 @@ This page complies Smuggling and Zuggling related glitches for quick reference.
 - [Overload Persistent Save Load Object Transfer](../glitchcraft/overload-persistent-save-load-object-transfer.md)
 - [Aeroculling](../glitchcraft/aeroculling.md)
 - [Zapshield](../glitchcraft/zapshield.md)
-- [Object MOE Enlargement](../glitchcraft/object-moe-enlargement.md)
+- [Moe Enlargement](../glitchcraft/moe-enlargement.md)
 - [Temporary Devices](../glitchcraft/temporary-devices.md)
 - [Smuggle Retrieval](../glitchcraft/smuggle-retrieval.md)
 - [Dynamic Purgatory Zuggle](../glitchcraft/dynamic-purgatory-zuggle.md)
