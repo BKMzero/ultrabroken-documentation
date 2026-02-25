@@ -29,14 +29,14 @@ The main method of achieving SFO involves making ~20 Fuse Overload-ed PSLOTted p
 4. Use eaten DI weapon to create the following FE chains: A->B->C and D->E, where A is the original DI weapon, B is a regular weapon, C is an eaten DI shield, D is a zuggle dropped DI shield, and E is a regular shield.
 5. Glue E to something in the Rasitakiwak shrine, smuggle C, regularly equip B, and then overload pick up E
 6. Drop a shield, fuse it to your equipped shield twice, and quickly drop swap unequip B, and it is faster if it is a fail drop This should result in the dropped shield being eaten DI'd and ghosted
-7. Repeat step 5 until shields are no longer ghosted the second time you fuse them
+7. Repeat step 6 until shields are no longer ghosted the second time you fuse them
 8. Once this occurs, unquip shield E and pickup the shield that didn't get ghosted and unequip it
 9. Equip a random shield and drop it
 10. Retrive the shock emitter from the center box of the shrine and activate it near the ghosted shields you created
 11. Pick up a random shield, smuggle it, pickup another shield, and then shock drop it. Repeat this until all the shields are purgatorified
 12. Smuggle the last shield, pickup C, shock drop it, then unsheath it and drop it
 13. Fe a new shield to D, glue it to something random in Rasitakiwak, smuggle C, and then overload pick up the new shield
-14. Repeat step 5 until Link overload drops his armor in the menu
+14. Repeat step 6 until Link overload drops his armor in the menu
 15. Fail drop your equipped shield, then successfully drop it and B
 16. Recall lock all equipment that is not in the eaten DI state.
 
