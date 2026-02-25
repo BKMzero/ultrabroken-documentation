@@ -16,7 +16,10 @@ This archive would not exist without the dedicated work of community archivists 
 The backbone of community glitch research: the curators who maintain and organize the canonical glitch spreadsheet, validate discoveries, manage attribution, and ensure data integrity.
 
 - **Phil** - Primary maintainer of the canonical glitch spreqdsheet
-- **[TotK Glitch Spreadsheet](https://docs.google.com/spreadsheets/d/1xNB1gOLZRSF9yp1mHUsS9ymogRJa1Wz8rTliTXezeRM/edit?usp=drivesdk)** — The community-maintained glitch spreadsheet curated by the Zelda: Tears of the Kingdom Speedrunning community and its spreadsheet managers
+- **Lightos**
+- **PetitFrapo**
+- **WinnerBoi77**
+- **NightmaR3**
 
 ## Informants
 ---
