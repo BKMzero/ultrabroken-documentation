@@ -5,7 +5,7 @@ versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["mulberry", "Squidwest"]
 date: "2026-01-16"
 description: "A similar glitch to void dipping that has additional properties and is done with a molduga or frox."
-aliases: ["despawn-interrupt", "eaten di"]
+aliases: ["despawn-interrupt", "eaten di", "frox dipping", "frox dip", "duga dipping", "duga dip"]
 tags: ["item", "zuggling", "fuse", "despawn interrupt"]
 ---
 
@@ -65,7 +65,7 @@ The distance method should be done before detangling from the DI parent
 
 ## Notes
 ---
-Also known as "Eaten DI".
+Also known as "Eaten DI". Often referred to as "Frox Dipping" or "Duga Dipping".
 
 ## Resources
 ---
