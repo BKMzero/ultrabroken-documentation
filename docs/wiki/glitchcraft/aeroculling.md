@@ -46,7 +46,7 @@ Once AC is set up, in order to tangible, put a SDC in the wind and the base outs
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1283455775976718346)
-- [YouTube](https://www.youtube.com/watch?v=o-9HO3NbfPU)
+- [1.2.x Aeroculling setup](https://www.youtube.com/watch?v=o-9HO3NbfPU)
 
 ## Related
 ---
