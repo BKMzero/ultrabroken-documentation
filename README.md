@@ -48,7 +48,7 @@ To keep `##` sections visually consistent, place a horizontal rule immediately a
 
 #### Social links and leaderboard
 
-Contributor credit names are automatically aggregated into the leaderboard and converted into clickable social media links on the site using [`docs/assets/data/hunter-socials.json`](docs/assets/data/hunter-socials.json). The build system automatically adds newly credited names with an empty URL (`""`) as a pending placeholder. These names render as plain text in the docs and on the leaderboard until a social URL is manually filled in. To enable linking, open `hunter-socials.json` and replace the empty string with the contributor's profile URL.
+Contributor credit names are automatically aggregated into the leaderboard and converted into clickable social media links on the site using [`docs/assets/data/credits.json`](docs/assets/data/credits.json). The build system automatically adds newly credited names with an empty URL (`""`) as a pending placeholder. These names render as plain text in the docs and on the leaderboard until a social URL is manually filled in. To enable linking, open `credits.json` and replace the empty string with the contributor's profile URL.
 
 Each entry maps a name to a URL:
 
@@ -58,7 +58,7 @@ Each entry maps a name to a URL:
 }
 ```
 
-**Credit names must match exactly** the names in `hunter-socials.json` to work correctly.
+**Credit names must match exactly** the names in `credits.json` to work correctly.
 
 Mismatched names (different capitalization, spacing, or spelling) will:
 
@@ -66,7 +66,7 @@ Mismatched names (different capitalization, spacing, or spelling) will:
 - Prevent social media links from appearing
 - Give inaccurate credit attribution
 
-**Always check the exact spelling and capitalization** in `hunter-socials.json` before adding a credit.
+**Always check the exact spelling and capitalization** in `credits.json` before adding a credit.
 
 ## Markdown quick reference
 

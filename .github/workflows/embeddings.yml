@@ -65,7 +65,7 @@ jobs:
             --output site/wiki_index.json \
             --grimoire-output site/assets/data/grimoire-data.json \
             --leaderboard-output site/assets/data/leaderboard-data.json \
-            --socials-output site/assets/data/hunter-socials.json \
+            --socials-output site/assets/data/credits.json \
             --gzip
           echo "${{ hashFiles('docs/wiki/**') }}" > site/wiki_index.hash
 
@@ -83,15 +83,15 @@ jobs:
             exit 1
           fi
 
-      - name: Commit and push updated hunter-socials.json
+      - name: Commit and push updated credits.json
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet docs/assets/data/hunter-socials.json; then
-            echo "No changes to hunter-socials.json"
+          if git diff --quiet docs/assets/data/credits.json; then
+            echo "No changes to credits.json"
           else
-            echo "Found new contributors in hunter-socials.json, committing..."
-            git add docs/assets/data/hunter-socials.json
+            echo "Found new contributors in credits.json, committing..."
+            git add docs/assets/data/credits.json
             git commit -m "chore: auto-aggregate discovered contributors"
             git push origin main
           fi
