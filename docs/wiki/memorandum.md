@@ -40,7 +40,6 @@ The backbone of community glitch research: the curators who maintain and organiz
 - **Tauktes / Spreadsheet AI**
 - **WinnerBoi77**
 - **Yoda39**
-- **darkmatter**
 - **BigDUCCO**
 - **Ryan?**
 
