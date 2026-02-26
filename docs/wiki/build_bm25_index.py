@@ -318,6 +318,7 @@ def build_grimoire_data(output: str) -> tuple[list, Counter]:
     glitchcraft_dir = ROOT / 'docs' / 'wiki' / 'glitchcraft'
     entries = []
     all_credits: Counter = Counter()
+    tags_set: set[str] = set()
     for p in sorted(glitchcraft_dir.glob('*.md')):
         if p.stem in _SKIP:
             continue
@@ -328,6 +329,9 @@ def build_grimoire_data(output: str) -> tuple[list, Counter]:
         credits_list = [c.strip() for c in fm.get('credits', []) if c.strip()]
         for name in credits_list:
             all_credits[name] += 1
+        for t in fm.get('tags', []):
+            if t := (t or '').strip():
+                tags_set.add(t)
         entries.append({
             'name':     title,
             'abbr':     fm.get('abbreviation', ''),
@@ -341,11 +345,14 @@ def build_grimoire_data(output: str) -> tuple[list, Counter]:
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(entries, ensure_ascii=False), encoding='utf-8')
     print('WROTE', out)
-    return entries, all_credits
+    return entries, all_credits, tags_set
 
 
 
 _CONTRIBUTORS_JSON = ROOT / 'docs' / 'assets' / 'data' / 'credits.json'
+
+
+_TAGS_JSON = ROOT / 'docs' / 'assets' / 'data' / 'tags.json'
 
 
 def aggregate_contributors(discovered_credits: set[str]) -> None:
@@ -377,6 +384,34 @@ def aggregate_contributors(discovered_credits: set[str]) -> None:
         encoding='utf-8'
     )
     print(f'UPDATED credits.json (+{len(new_names)} pending: {', '.join(new_names)})')
+
+
+def aggregate_tags(discovered_tags: set[str]) -> None:
+    """Merge newly-discovered tag names into tags.json.
+
+    The file is a JSON array of tag strings. New tags are appended in
+    sorted order. Existing entries are never removed.
+    """
+    existing: list[str] = []
+    if _TAGS_JSON.exists():
+        try:
+            existing = json.loads(_TAGS_JSON.read_text(encoding='utf-8'))
+        except Exception:
+            pass
+
+    # Normalize to simple strings and filter empties
+    discovered = sorted({t for t in (discovered_tags or set()) if t})
+    new_tags = [t for t in discovered if t not in existing]
+    if not new_tags:
+        return
+
+    existing.extend(new_tags)
+    existing = sorted(existing)
+    _TAGS_JSON.write_text(
+        json.dumps(existing, ensure_ascii=False, indent=2),
+        encoding='utf-8'
+    )
+    print(f'UPDATED tags.json (+{len(new_tags)} new tags)')
 
 
 def build_leaderboard(json_path: str, discovered_credits: Counter | None = None):
@@ -465,17 +500,26 @@ def main():
         default=None,
         help='If given, also copy the updated credits.json to this path (e.g. site/assets/data/credits.json)',
     )
+    p.add_argument(
+        '--tags-output',
+        default=None,
+        help='If given, also copy the updated tags.json to this path (e.g. site/assets/data/tags.json)',
+    )
     args = p.parse_args()
     # allow overriding which docs subtree to index (default 'docs')
     global DOCS
     DOCS = ROOT / args.docs_dir
     build_index(args.output, gzip_output=args.gzip, chunk=args.chunk)
     credit_counts: Counter | None = None
+    discovered_tags: set[str] | None = None
     if args.grimoire:
-        _, credit_counts = build_grimoire_data(args.grimoire_output)
+        _, credit_counts, discovered_tags = build_grimoire_data(args.grimoire_output)
     # Aggregate newly-discovered credits exactly once, before leaderboard generation
     if credit_counts:
         aggregate_contributors(set(credit_counts.keys()))
+    # Aggregate newly-discovered tags exactly once as well
+    if discovered_tags:
+        aggregate_tags(set(discovered_tags))
     # Optionally copy the (now-updated) credits.json into the site directory
     if args.socials_output:
         import shutil
@@ -483,6 +527,13 @@ def main():
         dest.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(_CONTRIBUTORS_JSON, dest)
         print(f'COPIED credits.json -> {dest}')
+    # Optionally copy the (now-updated) tags.json into the site directory
+    if args.tags_output:
+        import shutil
+        dest = Path(args.tags_output)
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(_TAGS_JSON, dest)
+        print(f'COPIED tags.json -> {dest}')
     if args.leaderboard:
         build_leaderboard(args.leaderboard_output, discovered_credits=credit_counts)
 

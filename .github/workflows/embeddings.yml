@@ -66,6 +66,7 @@ jobs:
             --grimoire-output site/assets/data/grimoire-data.json \
             --leaderboard-output site/assets/data/leaderboard-data.json \
             --socials-output site/assets/data/credits.json \
+            --tags-output site/assets/data/tags.json \
             --gzip
           echo "${{ hashFiles('docs/wiki/**') }}" > site/wiki_index.hash
 
@@ -87,13 +88,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet docs/assets/data/credits.json; then
-            echo "No changes to credits.json"
+          if git diff --quiet docs/assets/data/credits.json docs/assets/data/tags.json; then
+            echo "No changes to credits.json or tags.json"
           else
-            echo "Found new contributors in credits.json, committing..."
-            git add docs/assets/data/credits.json
-            git commit -m "chore: auto-aggregate discovered contributors"
-            git push origin main
+            echo "Found new contributors or tags, committing..."
+            git add docs/assets/data/credits.json docs/assets/data/tags.json || true
+            git commit -m "chore: auto-aggregate discovered contributors and tags" || echo "Nothing to commit"
+            git push origin main || echo "Push failed"
           fi
 
       - name: Publish site

@@ -16,7 +16,7 @@ tags: ["equipment"]
 ---
 Makes weapons immovable, except by picking up and dropping them.
 
-_mulberry, dt13269, Squidwest - 23 February 2025_
+_mulberry, dt13269, Squidwest - 25 February 2026_
 
 ## Instructions
 ---
