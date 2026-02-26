@@ -1,16 +1,16 @@
 ---
 title: "Void Holding"
 abbreviation: "VH"
-versions: ["1.0.0", "1.1.0", "1.1.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1" "1.1.2" "1.2.0" "1.2.1"]
 credits: ["Lightos"]
 date: "2023-06-10"
 description: "Allows you to hold materials \"whenever you want\" as long as you are at a low enough Y coordinate"
 aliases: ["void-holding"]
-tags: ["item", "zuggling", "despawn interrupt"]
+tags: ["item"]
 ---
 
 # Void Holding `VH`
-`1.0.0` `1.1.0` `1.1.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary
 ---
