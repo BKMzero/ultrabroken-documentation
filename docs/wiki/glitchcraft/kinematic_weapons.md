@@ -23,7 +23,7 @@ _mulberry, dt13269, Squidwest - 25 February 2026_
 ### Base Setup
 1. Setup Zuggle Overload
 2. Go to a depths ghost with the desired weapon
-3. Zuggle a shield. This shield must not be in the EDI state
+3. Zuggle a shield. This shield must not be in the DI state
 4. Overload pick up the target weapon
 5. Run out of the ghost's range, a couple meters away from its base pillar
 6. Fail drop the target
