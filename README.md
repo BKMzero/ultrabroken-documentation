@@ -48,7 +48,7 @@ To keep `##` sections visually consistent, place a horizontal rule immediately a
 
 #### Social links and leaderboard
 
-Contributor credit names are automatically aggregated into the leaderboard and converted into clickable social media links on the site using [`docs/assets/data/credits.json`](docs/assets/data/credits.json). The build system automatically adds newly credited names with an empty URL (`""`) as a pending placeholder. These names render as plain text in the docs and on the leaderboard until a social URL is manually filled in. To enable linking, open `credits.json` and replace the empty string with the contributor's profile URL.
+Contributor credit names are automatically aggregated into the leaderboard and converted into clickable social media links on the site using [`docs/assets/data/credits.json`](docs/assets/data/credits.json). The build system automatically adds newly credited names with an empty URL (`""`) as a pending placeholder. These names render as plain text in the docs and on the leaderboard until a social URL is manually filled in. To enable linking, open `credits.json` and replace the empty string with the contributor's profile URL. Do not manually add or remove entries.
 
 Each entry maps a name to a URL:
 
