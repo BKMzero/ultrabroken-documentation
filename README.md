@@ -68,6 +68,10 @@ Mismatched names (different capitalization, spacing, or spelling) will:
 
 **Always check the exact spelling and capitalization** in `credits.json` before adding a credit.
 
+#### Tagging
+
+To see all available tags, check [`docs/assets/data/tags.json`](docs/assets/data/tags.json). Glitch and content tags are automatically aggregated into `tags.json` during the build process. When you add a new tag to a glitch's frontmatter (in the `tags:` field), the build system automatically discovers it and adds it to the tags file if it's not already present sorting it alphabetically.
+
 ## Markdown quick reference
 
 ### Headings
