@@ -6,7 +6,7 @@ credits: ["Squidwest", "mulberry", "Aergyl"]
 date: "2025-12-29"
 description: "An extremely powerful equipment state caused by interrupting and retrieving an equipment item that has been destroyed by the void."
 aliases: ["void-dipping"]
-tags: ["item", "equipment", "ultrahand"]
+tags: ["item", "equipment", "ultrahand", "despawn"]
 ---
 
 # Void Dipping `VD`

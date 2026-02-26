@@ -5,7 +5,7 @@ versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["mulberry", "dt13269"]
 date: "2026-02-25"
 description: "Makes weapons immovable, except by picking up and dropping them."
-aliases: ["kinematic","kinematic equipment","unmovable equipment"]
+aliases: ["kinematic equipment","unmovable equipment"]
 tags: ["equipment"]
 ---
 
@@ -16,7 +16,7 @@ tags: ["equipment"]
 ---
 Makes weapons immovable, except by picking up and dropping them.
 
-_mulberry, dt13269, Squidwest_
+_mulberry, dt13269, Squidwest - 23 February 2025_
 
 ## Instructions
 ---
@@ -34,15 +34,8 @@ _mulberry, dt13269, Squidwest_
 11. Detangle the weapon from the zuggled shield
 
 ## Notes
-- 
-### Remarks
-Remarks
-
-### Additions
-Additions
-
-### Extensions
-Extensions
+---
+—
 
 ## Resources
 ---
