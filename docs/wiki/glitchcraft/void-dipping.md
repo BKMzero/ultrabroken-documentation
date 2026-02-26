@@ -20,12 +20,14 @@ _Squidwest, mulberry, Aergyl - 29 December 2025_
 
 ## Instructions
 ---
+### Base Setup
 Perform one of the following dipping methods:
 
 - Pick up the target item the frame it is destroyed by the void
 - Ultrahand the overload-dropped target item into the void, recall it, and watch a memory
 - Drop the overload-dropped target item into the void and cull it on the frame it is destroyed by the void
 
+### Retrieval
 Then retrieve the item with one of the following methods:
 
 - Activate portacull
@@ -34,7 +36,7 @@ Then retrieve the item with one of the following methods:
 
 ## Notes
 ---
-Void dipped equipment have the following properties:
+### Void dipped equipment properties
 
 - Uninteractable by runes
 - Cannot lose durability
@@ -44,6 +46,7 @@ Void dipped equipment have the following properties:
 - Does not induce smuggle locking (d-pad lock) when smuggled on v1.1.2+
 - Overload dropping is not required for the 3rd dipping method if paired with the pickup retrieval method
 - Culling-related dipping methods are also possible with phase culling
+
 
 ## Resources
 ---
