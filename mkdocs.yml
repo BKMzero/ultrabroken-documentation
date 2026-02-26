@@ -85,6 +85,28 @@ nav:
     - Builds: wiki/ultrabroken/builds/index.md
     - Tips: wiki/ultrabroken/meta.md
     - Credits: wiki/ultrabroken/credits.md
+  #- Equipment States: 
+  #  - Smuggle: wiki/equipment-states/smuggle.md
+  #  - Zuggle: wiki/equipment-states/zuggle.md
+  #  - Zuggle Drop: wiki/equipment-states/zuggle-drop.md
+  #  - Drop Equip: wiki/equipment-states/drop-equip.md
+  #  - Drop Zuggle: wiki/equipment-states/drop-zuggle.md
+  #  - Invismuggle: wiki/equipment-states/invismuggle.md
+  #  - Invizuggle: wiki/equipment-states/invizuggle.md
+  #  - Dynamic Smuggle: wiki/equipment-states/dynamic-smuggle.md
+  #  - Dynamic Zuggle: wiki/equipment-states/dynamic-zuggle.md
+  #  - Fail Drop Equip: wiki/equipment-states/fail-drop-equip.md
+  #  - Fail Drop Zuggle: wiki/equipment-states/fail-drop-zuggle.md
+  #  - Sluggle: wiki/equipment-states/sluggle.md
+  #  - Overload Drop/Pickup: wiki/equipment-states/overload-drop.md
+  #  - Equipped Ghost: wiki/equipment-states/equipped-ghost.md
+  #  - Dropped Purgatory: wiki/equipment-states/dropped-purgatory.md
+  #  - Equipped Purgatory: wiki/equipment-states/equipped-purgatory.md
+  #  - Culled Purgatory: wiki/equipment-states/culled-purgatory.md
+  #  - Dynamic Purgatory: wiki/equipment-states/dynamic-purgatory.md
+  #  - Despawn Interrupt: wiki/equipment-states/despawn-interrupt.md
+  #  - Throken: wiki/equipment-states/throken.md
+  #  - Cold/Warm Drop: wiki/equipment-states/cold-warm-drop.md
   - Fuse Entanglement:
     - Introduction: wiki/fuse entanglement/index.md
     # - Fuse Entanglement: glitchcraft/fuse-entanglement.md
@@ -102,8 +124,8 @@ nav:
   - Zuggling:
     - Introduction: wiki/zuggling/index.md
     # - Zuggle: glitchcraft/zuggle.md
-    # - Equipment Collision Zuggle: glitchcraft/equipment-collision-zuggle.md
-    # - Map Zuggling: glitchcraft/map-zuggling.md
+    #- Equipment Collision Zuggle: wiki/glitchcraft/equipment-collision-zuggle.md
+    #- Map Zuggling: wiki/glitchcraft/map-zuggling.md
     # - Save Load Zuggling: glitchcraft/save-load-zuggling.md
     # - Pickup Smuggling: glitchcraft/pickup-smuggling.md
     # - Drop Smuggling: glitchcraft/drop-smuggling.md
