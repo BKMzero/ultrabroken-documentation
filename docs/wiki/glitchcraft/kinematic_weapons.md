@@ -14,7 +14,7 @@ tags: []
 
 ## Summary
 ---
-Makes weapons become immovable, except by picking up and dropping them.
+Makes weapons immovable, except by picking up and dropping them.
 
 _mulberry, dt13269, Squidwest_
 
