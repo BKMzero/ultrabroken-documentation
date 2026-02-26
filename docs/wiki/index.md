@@ -20,4 +20,4 @@ This site is a community-driven encyclopedia of glitches, techniques, and invest
 - **[Despawn Interrupt section](despawn interrupt/)** - Glitches and strats that get your gears despawn interrupted
 - **[Culling section](culling/)** - Explore the versatile powers of Culling in this section
 - **[Overload section](overload/)** - Detailed setups and techniques for reaching Overload states
-- **[Memorandum](memorandum/)** - Leaderboard for glitch hunters and hall of fame for archivists
+- **[Memorandum](memorandum/)** - Leaderboard for glitch hunters and hall of fame for archivists, spreadsheet managers,informants and dataminers
