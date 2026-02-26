@@ -29,6 +29,7 @@ This is intended to be lightweight and run in CI or locally. It does NOT
 produce embeddings — the Worker uses BM25 lexical retrieval over this index.
 """
 from pathlib import Path
+from collections import Counter
 import argparse
 import re
 import json
@@ -288,7 +289,7 @@ def build_index(output: str, gzip_output: bool = False, chunk: bool = True):
     print('WROTE', out)
 
 
-def build_grimoire_data(output: str):
+def build_grimoire_data(output: str) -> tuple[list, Counter]:
     """Generate grimoire-data.json for the grimoire sort/filter UI.
 
     Scans docs/wiki/glitchcraft/ for glitch entry files, extracts frontmatter
@@ -306,11 +307,18 @@ def build_grimoire_data(output: str):
       versions  – frontmatter versions list
       credits   – frontmatter credits list
       href      – relative link to the .md file, e.g. "./l-sprinting.md"
+
+    Returns:
+      (entries, all_credits) where all_credits is a Counter of {name: count}
+      tallied across all glitch files. Passed directly to build_leaderboard()
+      to avoid scanning the same files a second time.
     """
     _SKIP = {'_glitchcraft-grimoire'}  # non-entry pages to exclude
 
     glitchcraft_dir = ROOT / 'docs' / 'wiki' / 'glitchcraft'
     entries = []
+    all_credits: Counter = Counter()
+    tags_set: set[str] = set()
     for p in sorted(glitchcraft_dir.glob('*.md')):
         if p.stem in _SKIP:
             continue
@@ -318,39 +326,134 @@ def build_grimoire_data(output: str):
         title = fm.get('title', '')
         if not title:
             continue  # skip pages without a title (index/meta pages)
+        credits_list = [c.strip() for c in fm.get('credits', []) if c.strip()]
+        for name in credits_list:
+            all_credits[name] += 1
+        for t in fm.get('tags', []):
+            if t := (t or '').strip():
+                tags_set.add(t)
         entries.append({
             'name':     title,
             'abbr':     fm.get('abbreviation', ''),
             'date':     fm.get('date', ''),
             'tags':     fm.get('tags', []),
             'versions': fm.get('versions', []),
-            'credits':  fm.get('credits', []),
+            'credits':  credits_list,
             'href':     f'./{p.name}',
         })
     out = Path(output)
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(entries, ensure_ascii=False), encoding='utf-8')
     print('WROTE', out)
+    return entries, all_credits, tags_set
 
 
 
-_CONTRIBUTORS_JSON = ROOT / 'docs' / 'assets' / 'data' / 'hunter-socials.json'
+_CONTRIBUTORS_JSON = ROOT / 'docs' / 'assets' / 'data' / 'credits.json'
 
 
-def build_leaderboard(json_path: str):
-    """Write _leaderboard-data.json with pre-computed ranked contributor counts.
+_TAGS_JSON = ROOT / 'docs' / 'assets' / 'data' / 'tags.json'
 
-    Scans docs/wiki/glitchcraft/ for all credit entries, tallies per name,
-    and writes a JSON file consumed by leaderboard.js to render the table
-    client-side in memorandum.md.
 
-    Contributor profile URLs are read from contributors.json (manually maintained).
+def aggregate_contributors(discovered_credits: set[str]) -> None:
+    """Merge newly-discovered credit names into credits.json.
+
+    New names are added with an empty URL ("") as a pending placeholder
+    indicating that a social link is pending manual entry. Existing entries
+    are never overwritten.
+
+    Empty-URL entries are intentionally skipped by contributor_links.py so
+    they render as plain text (not broken links) until a URL is provided.
+
+    Also detects orphans (entries in JSON no longer referenced in frontmatter)
+    and prints a warning. Keys are sorted alphabetically for cleaner diffs.
     """
-    from collections import Counter
+    existing: dict[str, str] = {}
+    if _CONTRIBUTORS_JSON.exists():
+        try:
+            existing = json.loads(_CONTRIBUTORS_JSON.read_text(encoding='utf-8'))
+        except Exception:
+            pass
+
+    # Detect orphans: names in JSON that no longer appear in any frontmatter
+    orphans = sorted(name for name in existing if name not in discovered_credits)
+    if orphans:
+        print(f'WARNING: credits.json contains {len(orphans)} orphan(s) not in frontmatter: {', '.join(orphans)}')
+
+    new_names = sorted(name for name in discovered_credits if name and name not in existing)
+    for name in new_names:
+        existing[name] = ''
+
+    # Sort keys alphabetically for cleaner diffs
+    sorted_existing = dict(sorted(existing.items(), key=lambda x: x[0].lower()))
+
+    if list(existing.keys()) != list(sorted_existing.keys()) or new_names:
+        _CONTRIBUTORS_JSON.write_text(
+            json.dumps(sorted_existing, ensure_ascii=False, indent=2),
+            encoding='utf-8'
+        )
+        if new_names:
+            print(f'UPDATED credits.json (+{len(new_names)} pending: {', '.join(new_names)})')
+        else:
+            print('NORMALIZED credits.json (re-sorted keys)')
+
+
+def aggregate_tags(discovered_tags: set[str]) -> None:
+    """Merge newly-discovered tag names into tags.json.
+
+    The file is a JSON object mapping tag names to metadata (empty string
+    for now, mirroring credits.json). New tags are added with an empty
+    value as a placeholder. Existing entries are never overwritten.
+
+    Also detects orphans (entries in JSON no longer referenced in frontmatter)
+    and prints a warning. Keys are sorted alphabetically for cleaner diffs.
+    """
+    existing: dict[str, str] = {}
+    if _TAGS_JSON.exists():
+        try:
+            existing = json.loads(_TAGS_JSON.read_text(encoding='utf-8'))
+        except Exception:
+            pass
+
+    # Detect orphans: tags in JSON that no longer appear in any frontmatter
+    orphans = sorted(tag for tag in existing if tag not in discovered_tags)
+    if orphans:
+        print(f'WARNING: tags.json contains {len(orphans)} orphan(s) not in frontmatter: {", ".join(orphans)}')
+
+    new_tags = sorted(tag for tag in discovered_tags if tag and tag not in existing)
+    for tag in new_tags:
+        existing[tag] = ''
+
+    # Sort keys alphabetically for cleaner diffs
+    sorted_existing = dict(sorted(existing.items(), key=lambda x: x[0].lower()))
+
+    if list(existing.keys()) != list(sorted_existing.keys()) or new_tags:
+        _TAGS_JSON.write_text(
+            json.dumps(sorted_existing, ensure_ascii=False, indent=2),
+            encoding='utf-8'
+        )
+        if new_tags:
+            print(f'UPDATED tags.json (+{len(new_tags)} new tags: {", ".join(new_tags)})')
+        else:
+            print('NORMALIZED tags.json (re-sorted keys)')
+
+
+def build_leaderboard(json_path: str, discovered_credits: Counter | None = None):
+    """Write leaderboard-data.json with pre-computed ranked contributor counts.
+
+    If discovered_credits (a Counter of {name: count}) is provided — passed
+    from build_grimoire_data() — it is used directly to avoid scanning glitch
+    files a second time. Otherwise falls back to scanning docs/wiki/glitchcraft/
+    directly.
+
+    Note: Aggregation of new names into credits.json is handled by the
+    caller (main()) right after build_grimoire_data(), so it happens exactly
+    once and before this function is called.
+    """
     from datetime import date
     from itertools import groupby
 
-    # Load manually-maintained contributor links
+    # Load contributor social links (already updated with pending entries by main).
     contributor_links: dict[str, str] = {}
     if _CONTRIBUTORS_JSON.exists():
         try:
@@ -358,19 +461,22 @@ def build_leaderboard(json_path: str):
         except Exception:
             pass
 
-    _SKIP = {'_glitchcraft-grimoire'}
-    glitchcraft_dir = ROOT / 'docs' / 'wiki' / 'glitchcraft'
-
-    counts: Counter = Counter()
-    for p in glitchcraft_dir.glob('*.md'):
-        if p.stem in _SKIP:
-            continue
-        fm = extract_frontmatter(p)
-        if not fm.get('title'):
-            continue
-        for name in fm.get('credits', []):
-            if name := name.strip():
-                counts[name] += 1
+    # Use pre-computed credit counts if available, else scan glitch files directly.
+    if discovered_credits is not None:
+        counts: Counter = discovered_credits
+    else:
+        _SKIP = {'_glitchcraft-grimoire'}
+        glitchcraft_dir = ROOT / 'docs' / 'wiki' / 'glitchcraft'
+        counts = Counter()
+        for p in glitchcraft_dir.glob('*.md'):
+            if p.stem in _SKIP:
+                continue
+            fm = extract_frontmatter(p)
+            if not fm.get('title'):
+                continue
+            for name in fm.get('credits', []):
+                if name := name.strip():
+                    counts[name] += 1
 
     ranked = sorted(counts.items(), key=lambda x: (-x[1], x[0].lower()))
     total = len(ranked)
@@ -379,10 +485,11 @@ def build_leaderboard(json_path: str):
     entries = []
     for rank, (count, group) in enumerate(groupby(ranked, key=lambda x: x[1]), start=1):
         for name, _ in group:
+            url = contributor_links.get(name, '')
             entries.append({
                 'rank': rank,
                 'name': name,
-                'url': contributor_links.get(name),
+                'url': url if url else None,  # normalize "" to None for clean JSON
                 'count': count,
             })
 
@@ -412,15 +519,47 @@ def main():
     )
     p.add_argument('--no-leaderboard', dest='leaderboard', action='store_false',
                    help='Skip updating the Hall of Fame leaderboard')
+    p.add_argument(
+        '--socials-output',
+        default=None,
+        help='If given, also copy the updated credits.json to this path (e.g. site/assets/data/credits.json)',
+    )
+    p.add_argument(
+        '--tags-output',
+        default=None,
+        help='If given, also copy the updated tags.json to this path (e.g. site/assets/data/tags.json)',
+    )
     args = p.parse_args()
     # allow overriding which docs subtree to index (default 'docs')
     global DOCS
     DOCS = ROOT / args.docs_dir
     build_index(args.output, gzip_output=args.gzip, chunk=args.chunk)
+    credit_counts: Counter | None = None
+    discovered_tags: set[str] | None = None
     if args.grimoire:
-        build_grimoire_data(args.grimoire_output)
+        _, credit_counts, discovered_tags = build_grimoire_data(args.grimoire_output)
+    # Aggregate newly-discovered credits exactly once, before leaderboard generation
+    if credit_counts:
+        aggregate_contributors(set(credit_counts.keys()))
+    # Aggregate newly-discovered tags exactly once as well
+    if discovered_tags:
+        aggregate_tags(set(discovered_tags))
+    # Optionally copy the (now-updated) credits.json into the site directory
+    if args.socials_output:
+        import shutil
+        dest = Path(args.socials_output)
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(_CONTRIBUTORS_JSON, dest)
+        print(f'COPIED credits.json -> {dest}')
+    # Optionally copy the (now-updated) tags.json into the site directory
+    if args.tags_output:
+        import shutil
+        dest = Path(args.tags_output)
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(_TAGS_JSON, dest)
+        print(f'COPIED tags.json -> {dest}')
     if args.leaderboard:
-        build_leaderboard(args.leaderboard_output)
+        build_leaderboard(args.leaderboard_output, discovered_credits=credit_counts)
 
 
 if __name__ == '__main__':

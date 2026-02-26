@@ -8,7 +8,7 @@ Range: from commit `1e0a6934b4d5a929724e9c68e7ea36c7ee804b98` to commit `370841c
 **Key changes (grouped):**
 - **Data & Assets:** Updated and moved several data files into a central directory for the build pipeline.
   - Moved grimoire and leaderboard data into `docs/assets/data` and updated consumers accordingly.
-  - Migrated `hunter-socials.json` into `docs/assets/data` and adjusted hooks that read it (`docs/assets/hooks/contributor_links.py`).
+  - Migrated `credits.json` into `docs/assets/data` and adjusted hooks that read it (`docs/assets/hooks/contributor_links.py`).
   - Updated `docs/wiki/build_bm25_index.py` to read/write into `docs/assets/data` by default.
 
 - **Leaderboard / Socials:**
@@ -31,7 +31,7 @@ Range: from commit `1e0a6934b4d5a929724e9c68e7ea36c7ee804b98` to commit `370841c
 
 - **Frontend script fixes:**
   - Updated `grimoire-filter.js` and `leaderboard.js` to fetch from `docs/assets/data` paths.
-  - `docs/assets/hooks/contributor_links.py` updated to point to the new `hunter-socials.json` path.
+  - `docs/assets/hooks/contributor_links.py` updated to point to the new `credits.json` path.
 
 - **Documentation content:**
   - Large batch of edits to `docs/wiki/glitchcraft/*.md` (aliases, tags, related sections, and small content fixes). Many pages had a `## Related` section added or standardized.
@@ -52,7 +52,7 @@ Range: from commit `1e0a6934b4d5a929724e9c68e7ea36c7ee804b98` to commit `370841c
 **Representative files changed (non-exhaustive):**
 - `docs/assets/data/grimoire-data.json` (moved/rewritten)
 - `docs/assets/data/leaderboard-data.json` (rebuilt / data tweaks)
-- `docs/assets/data/hunter-socials.json`
+- `docs/assets/data/credits.json`
 - `docs/worker/worker.js` (scoring, evidence handling)
 - `docs/worker/synonyms.json` (synonym list adjustments)
 - `docs/assets/scripts/ai-worker-client.js` (evidence UI refactor)

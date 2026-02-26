@@ -1,4 +1,4 @@
-﻿site_name: Ultrabroken Archives
+site_name: Ultrabroken Archives
 # ci: trigger workflows
 site_description: Community-driven encyclopedia documenting glitches, techniques and investigations for The Legend of Zelda Tears of the Kingdom
 site_author: NaN Gogh & Community
@@ -166,7 +166,6 @@ nav:
     # - Double Bypass Zuggle: glitchcraft/double-bypass-zuggle.md
     # - Zuggle Overload Desync: glitchcraft/zuggle-overload-desync.md
     # - Collection: zuggling/zuggle-collection.md
-  - Desync: wiki/desync/index.md
   - Despawn Interrupt: wiki/despawn interrupt/index.md
   - Culling: wiki/culling/index.md
   - Overload: wiki/overload/index.md

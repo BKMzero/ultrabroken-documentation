@@ -6,7 +6,7 @@ credits: ["mulberry", "Squidwest"]
 date: "2026-01-16"
 description: "A similar glitch to void dipping that has additional properties and is done with a molduga or frox."
 aliases: ["despawn-interrupt", "eaten di", "frox dipping", "frox dip", "duga dipping", "duga dip"]
-tags: ["item", "zuggling", "fuse", "despawn interrupt"]
+tags: ["item", "zuggling", "fuse", "despawn"]
 ---
 
 # Despawn Interrupt `DI`
