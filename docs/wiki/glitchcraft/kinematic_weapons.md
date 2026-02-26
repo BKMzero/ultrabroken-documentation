@@ -16,7 +16,7 @@ tags: ["equipment"]
 ---
 Makes weapons immovable, except by picking up and dropping them.
 
-_mulberry, dt13269, Squidwest - 25 February 2026_
+_mulberry, dt13269, Squidwest; Optimization by mulberry - 25 February 2026_
 
 ## Instructions
 ---
@@ -32,6 +32,17 @@ _mulberry, dt13269, Squidwest - 25 February 2026_
 9. Fuse the target to your shield twice
 10. Load a save
 11. Detangle the weapon from the zuggled shield
+
+### Safe Setup (mulberry)
+1. Overload pickup weapon held by depths ghost
+2. Go out of range - this varies between ghosts
+3. While looking away from the ghost fail drop weapon
+4. Wait until Link holds it
+5. Drop it - it should be stuck in mid-air
+6. Keep looking away and resync zuggle a shield unless you already have one zuggled
+7. Overload cf the weapon twice to a random shield to pf it
+8. Load a save
+9. Either detangle out of weapon range or drop the zuggle and octo detangle it
 
 ## Notes
 ---
