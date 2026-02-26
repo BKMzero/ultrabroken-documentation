@@ -20,16 +20,16 @@ _mulberry, Aergyl; optimizations by Jordan, MandelbrotChaylay, mulberry - 6 Dece
 
 ## Instructions
 ---
-### Base Setup
-The main method of achieving SFO involves making ~20 Fuse Overload-ed PSLOTted pieces of equipment, which can be done using Despawn Interrupt (DI). It is recommended that you first learn how to maneuver useful glitches (Smuggle, Zuggle, FE, ...) on DI equipment.
+### Prerequisites
+If you wish to steal mineru's arm, make an autosave in the tunnel to ganondorf, right next to the army trigger. If you wish to steal zelda's torch, make an autosave anywhere in the prologue. If you wish to use SFO to duplicate zonai devices, make a save directly next to a minigame NPC
 
-1. If you wish to steal mineru's arm, make an autosave in the tunnel to ganondorf, right next to the army trigger. If you wish to steal zelda's torch, make an autosave anywhere in the prologue. If you wish to use SFO to duplicate zonai devices, make a save directly next to a minigame NPC
+### Base Setup
 2. Kill the constructs in Rasitakiwak shrine and get a save there
 3. Invizuggle 12 pieces of equipment
-4. Make an eaten DI weapon
-5. Use the eaten DI weapon to make a new Eaten di weapon ghost and detangle it from both of its parents. Call it A
+4. Make a DI weapon
+5. Use the DI weapon to make a new di weapon ghost and detangle it from both of its parents. Call it A
 6. Zuggle A and load the Rasitakiwak shrine save
-7. Setup two FE chains: Di weapon -> normal weapon -> di shield and di shield -> di shield using these steps:
+7. Setup two FE chains: DI weapon -> normal weapon -> DI shield and DI shield -> DI shield using these steps:
 8. Use A to make a frox shield
 9. Use that shield to make D and detangle both parents, then delete those parents
 10. Overload fe a new shield to D (this is the E shield)
@@ -49,7 +49,7 @@ The main method of achieving SFO involves making ~20 Fuse Overload-ed PSLOTted p
 24. Fe a new shield to D, glue it to something random in Rasitakiwak, smuggle C, and then overload pick up the new shield
 25. Repeat step 6 until Link overload drops his armor in the menu
 26. Fail drop your equipped shield, then successfully drop it and B
-27. Recall lock all equipment that is not in the eaten DI state.
+27. Recall lock all equipment that is not in the DI state.
 
 ### To obtain Zelda's torch:
 1. Load the prologue and pick up the torch, you may have to reload a couple times
@@ -83,10 +83,13 @@ The main method of achieving SFO involves making ~20 Fuse Overload-ed PSLOTted p
 
 ## Notes
 ---
+The main method of achieving SFO involves making ~20 Fuse Overload-ed PSLOTted pieces of equipment, which can be done using Despawn Interrupt (DI). It is recommended that you first learn how to maneuver useful glitches (Smuggle, Zuggle, FE, ...) on DI equipment.
+
 - SFO really likes to crash the game, so try to minimize the number of things you do in the overloaded state
 - Especially avoid going through loading screens besides loading saves
 - Mineru's arm, when it has something fused to it and the console is docked, also likes to crash the game 
 - Mineru's arm always fail drops unless link is in the air, which is good for zuggling and other glitches
+
 ## Resources
 ---
 - [Spreadsheet link](https://docs.google.com/spreadsheets/d/1xNB1gOLZRSF9yp1mHUsS9ymogRJa1Wz8rTliTXezeRM/edit?pli=1&hl=de&gid=0#gid=0&range=293:293)
