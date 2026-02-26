@@ -20,7 +20,7 @@ The backbone of community glitch research: the curators who maintain and organiz
 - **jem** - Creator of the canonical TotK Glitch Spreadsheet
 
 - **Phil**
-- **1000 hours in tokt for what**
+- **Pluto**
 - **Blackmars**
 - **Blize**
 - **Delta / MCMi460**
@@ -40,6 +40,9 @@ The backbone of community glitch research: the curators who maintain and organiz
 - **Tauktes / Spreadsheet AI**
 - **WinnerBoi77**
 - **Yoda39**
+- **darmatter**
+- **BigDUCCO**
+- **Ryan?**
 
 ## Informants
 ---
