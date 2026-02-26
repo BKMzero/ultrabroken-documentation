@@ -24,21 +24,32 @@ _mulberry, Aergyl; optimizations by Jordan, MandelbrotChaylay, mulberry - 6 Dece
 The main method of achieving SFO involves making ~20 Fuse Overload-ed PSLOTted pieces of equipment, which can be done using Despawn Interrupt (DI). It is recommended that you first learn how to maneuver useful glitches (Smuggle, Zuggle, FE, ...) on DI equipment.
 
 1. If you wish to steal mineru's arm, make an autosave in the tunnel to ganondorf, right next to the army trigger. If you wish to steal zelda's torch, make an autosave anywhere in the prologue. If you wish to use SFO to duplicate zonai devices, make a save directly next to a minigame NPC
-2. Invizuggle 12 pieces of equipment
-3. Make an eaten DI weapon
-4. Use eaten DI weapon to create the following FE chains: A->B->C and D->E, where A is the original DI weapon, B is a regular weapon, C is an eaten DI shield, D is a zuggle dropped DI shield, and E is a regular shield.
-5. Glue E to something in the Rasitakiwak shrine, smuggle C, regularly equip B, and then overload pick up E
-6. Drop a shield, fuse it to your equipped shield twice, and quickly drop swap unequip B, and it is faster if it is a fail drop This should result in the dropped shield being eaten DI'd and ghosted
-7. Repeat step 6 until shields are no longer ghosted the second time you fuse them
-8. Once this occurs, unquip shield E and pickup the shield that didn't get ghosted and unequip it
-9. Equip a random shield and drop it
-10. Retrive the shock emitter from the center box of the shrine and activate it near the ghosted shields you created
-11. Pick up a random shield, smuggle it, pickup another shield, and then shock drop it. Repeat this until all the shields are purgatorified
-12. Smuggle the last shield, pickup C, shock drop it, then unsheath it and drop it
-13. Fe a new shield to D, glue it to something random in Rasitakiwak, smuggle C, and then overload pick up the new shield
-14. Repeat step 6 until Link overload drops his armor in the menu
-15. Fail drop your equipped shield, then successfully drop it and B
-16. Recall lock all equipment that is not in the eaten DI state.
+2. Kill the constructs in Rasitakiwak shrine and get a save there
+3. Invizuggle 12 pieces of equipment
+4. Make an eaten DI weapon
+5. Use the eaten DI weapon to make a new Eaten di weapon ghost and detangle it from both of its parents. Call it A
+6. Zuggle A and load the Rasitakiwak shrine save
+7. Setup two FE chains: Di weapon -> normal weapon -> di shield and di shield -> di shield using these steps:
+8. Use A to make a frox shield
+9. Use that shield to make D and detangle both parents, then delete those parents
+10. Overload fe a new shield to D (this is the E shield)
+11. Use A to make another frox weapon
+12. Overload fe a weapon (which is now B) to A
+13. Smuggle the frox weapon that isn’t A and equip B
+14. Use this to make a frox shield (now C)
+15. Detangle the frox shield from the frox weapon
+16. Glue E to something in the Rasitakiwak shrine, smuggle C, regularly equip B, and then overload pick up E
+17. Drop a shield, fuse it to your equipped shield twice, and quickly drop swap unequip B, and it is faster if it is a fail drop This should result in the dropped shield being eaten DI'd and ghosted
+18. Repeat step 6 until shields are no longer ghosted the second time you fuse them
+19. Once this occurs, unquip shield E and pickup the shield that didn't get ghosted and unequip it
+20. Equip a random shield and drop it
+21. Retrive the shock emitter from the center box of the shrine and activate it near the ghosted shields you created
+22. Pick up a random shield, smuggle it, pickup another shield, and then shock drop it. Repeat this until all the shields are purgatorified
+23. Smuggle the last shield, pickup C, shock drop it, then unsheath it and drop it
+24. Fe a new shield to D, glue it to something random in Rasitakiwak, smuggle C, and then overload pick up the new shield
+25. Repeat step 6 until Link overload drops his armor in the menu
+26. Fail drop your equipped shield, then successfully drop it and B
+27. Recall lock all equipment that is not in the eaten DI state.
 
 ### To obtain Zelda's torch:
 1. Load the prologue and pick up the torch, you may have to reload a couple times
