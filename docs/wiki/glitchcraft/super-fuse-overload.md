@@ -16,7 +16,7 @@ tags: ["weapon", "overload", "fuse", "mineru"]
 ---
 Allows you to get Zelda's torch and Mineru's arm.
 
-_mulberry, Aergyl; optimizations by Jordan, MandelbrotChaylay, mulberry - 6 December 2025_
+_Discovered by mulberry, Aergyl; optimizations by Jordan, MandelbrotChaylay, mulberry - 6 December 2025_
 
 ## Instructions
 ---
