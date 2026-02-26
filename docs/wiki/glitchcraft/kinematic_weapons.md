@@ -9,7 +9,7 @@ aliases: ["kinematic equipment","unmovable equipment"]
 tags: ["equipment"]
 ---
 
-# Kinematic Weapons
+# Kinematic Weapons `KW`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary
