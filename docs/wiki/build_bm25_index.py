@@ -364,6 +364,9 @@ def aggregate_contributors(discovered_credits: set[str]) -> None:
 
     Empty-URL entries are intentionally skipped by contributor_links.py so
     they render as plain text (not broken links) until a URL is provided.
+
+    Also detects orphans (entries in JSON no longer referenced in frontmatter)
+    and prints a warning. Keys are sorted alphabetically for cleaner diffs.
     """
     existing: dict[str, str] = {}
     if _CONTRIBUTORS_JSON.exists():
@@ -372,6 +375,11 @@ def aggregate_contributors(discovered_credits: set[str]) -> None:
         except Exception:
             pass
 
+    # Detect orphans: names in JSON that no longer appear in any frontmatter
+    orphans = sorted(name for name in existing if name not in discovered_credits)
+    if orphans:
+        print(f'WARNING: credits.json contains {len(orphans)} orphan(s) not in frontmatter: {', '.join(orphans)}')
+
     new_names = sorted(name for name in discovered_credits if name and name not in existing)
     if not new_names:
         return
@@ -379,8 +387,11 @@ def aggregate_contributors(discovered_credits: set[str]) -> None:
     for name in new_names:
         existing[name] = ''
 
+    # Sort keys alphabetically for cleaner diffs
+    sorted_existing = dict(sorted(existing.items(), key=lambda x: x[0].lower()))
+
     _CONTRIBUTORS_JSON.write_text(
-        json.dumps(existing, ensure_ascii=False, indent=2),
+        json.dumps(sorted_existing, ensure_ascii=False, indent=2),
         encoding='utf-8'
     )
     print(f'UPDATED credits.json (+{len(new_names)} pending: {', '.join(new_names)})')
@@ -389,29 +400,40 @@ def aggregate_contributors(discovered_credits: set[str]) -> None:
 def aggregate_tags(discovered_tags: set[str]) -> None:
     """Merge newly-discovered tag names into tags.json.
 
-    The file is a JSON array of tag strings. New tags are appended in
-    sorted order. Existing entries are never removed.
+    The file is a JSON object mapping tag names to metadata (empty string
+    for now, mirroring credits.json). New tags are added with an empty
+    value as a placeholder. Existing entries are never overwritten.
+
+    Also detects orphans (entries in JSON no longer referenced in frontmatter)
+    and prints a warning. Keys are sorted alphabetically for cleaner diffs.
     """
-    existing: list[str] = []
+    existing: dict[str, str] = {}
     if _TAGS_JSON.exists():
         try:
             existing = json.loads(_TAGS_JSON.read_text(encoding='utf-8'))
         except Exception:
             pass
 
-    # Normalize to simple strings and filter empties
-    discovered = sorted({t for t in (discovered_tags or set()) if t})
-    new_tags = [t for t in discovered if t not in existing]
+    # Detect orphans: tags in JSON that no longer appear in any frontmatter
+    orphans = sorted(tag for tag in existing if tag not in discovered_tags)
+    if orphans:
+        print(f'WARNING: tags.json contains {len(orphans)} orphan(s) not in frontmatter: {", ".join(orphans)}')
+
+    new_tags = sorted(tag for tag in discovered_tags if tag and tag not in existing)
     if not new_tags:
         return
 
-    existing.extend(new_tags)
-    existing = sorted(existing)
+    for tag in new_tags:
+        existing[tag] = ''
+
+    # Sort keys alphabetically for cleaner diffs
+    sorted_existing = dict(sorted(existing.items(), key=lambda x: x[0].lower()))
+
     _TAGS_JSON.write_text(
-        json.dumps(existing, ensure_ascii=False, indent=2),
+        json.dumps(sorted_existing, ensure_ascii=False, indent=2),
         encoding='utf-8'
     )
-    print(f'UPDATED tags.json (+{len(new_tags)} new tags)')
+    print(f'UPDATED tags.json (+{len(new_tags)} new tags: {", ".join(new_tags)})')
 
 
 def build_leaderboard(json_path: str, discovered_credits: Counter | None = None):
