@@ -5,21 +5,18 @@ This repository holds the Ultrabroken Archives written in Markdown and published
 This README is focused on editors who will make content changes directly on GitHub. Editors typically do not need to run or build the site locally — just edit and commit. If you wish to build the site locally, ask the admin to receive a guide.
 
 ## How GitHub collaborators should contribute
-
 - Use the GitHub web editor or your normal GitHub workflow to edit Markdown files in the `docs/` folder.
 - Make small, focused commits and include a clear title/description for the change.
 - When ready, commit changes.
 - Keep changes scoped to documentation content: avoid editing `mkdocs.yml` or continuous integration (CI) workflows unless requested by maintainers.
 
 ### Quick tips for the GitHub editor
-
 1. Navigate to the file you want to change (for example `docs/effects/wacko-boingo.md`).
 2. Click the pencil ✏️ icon to edit the file in your browser or use the menu in the GitHub app.
 3. Make your edits, add a concise commit message, and commit directly to `main`.
 4. Open a pull request if you used a different branch than `main`.
 
 ## Recommended editing conventions
-
 - Write in present tense and keep instructions concise.
 - Use clear section headings and include example commands or code where useful.
 - Prefer relative links for cross-references inside the docs (for example `../effects/index.md`).
@@ -28,7 +25,6 @@ This README is focused on editors who will make content changes directly on GitH
 ### Additional editor conveniences
 
 #### Search links
-
 Write Markdown links that start with `search:` to create an editor-friendly trigger for the site's search overlay.
 
 ```markdown
@@ -47,7 +43,6 @@ To keep `##` sections visually consistent, place a horizontal rule immediately a
 ```
 
 #### Social links and leaderboard
-
 Contributor credit names are automatically aggregated into the leaderboard and converted into clickable social media links on the site using [`docs/assets/data/credits.json`](docs/assets/data/credits.json). The build system automatically adds newly credited names with an empty URL (`""`) as a pending placeholder. These names render as plain text in the docs and on the leaderboard until a social URL is manually filled in. To enable linking, open `credits.json` and replace the empty string with the contributor's profile URL. Do not manually add or remove entries.
 
 Each entry maps a name to a URL:
@@ -69,8 +64,16 @@ Mismatched names (different capitalization, spacing, or spelling) will:
 **Always check the exact spelling and capitalization** in `credits.json` before adding a credit.
 
 #### Tagging
-
 To see all available tags, check [`docs/assets/data/tags.json`](docs/assets/data/tags.json). Glitch and content tags are automatically aggregated into `tags.json` during the build process. When you add a new tag to a glitch's frontmatter (in the `tags:` field), the build system automatically discovers it and adds it to the tags file if it's not already present sorting it alphabetically. Do not edit `tags.json` manually.
+
+#### Naming conventions
+Acoid abbreviations in titles or filenames for easy parsing.
+
+#### Granulation
+Keep the steps of your instructions as granular as possible. Try to extract pausing / unpausing into dedicated steps for clarity.
+
+#### Work in progress
+Put your WIPs into the dedicated [`docs/wiki/wip/`](docs/wiki/wip/) folder.
 
 ## Markdown quick reference
 
