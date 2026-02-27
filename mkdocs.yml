@@ -124,8 +124,8 @@ nav:
   - Zuggling:
     - Introduction: wiki/zuggling/index.md
     # - Zuggle: glitchcraft/zuggle.md
-    #- Equipment Collision Zuggle: wiki/glitchcraft/equipment-collision-zuggle.md
-    #- Map Zuggling: wiki/glitchcraft/map-zuggling.md
+    # - Equipment Collision Zuggle: wiki/glitchcraft/equipment-collision-zuggle.md
+    # - Map Zuggling: wiki/glitchcraft/map-zuggling.md
     # - Save Load Zuggling: glitchcraft/save-load-zuggling.md
     # - Pickup Smuggling: glitchcraft/pickup-smuggling.md
     # - Drop Smuggling: glitchcraft/drop-smuggling.md
@@ -176,7 +176,9 @@ hooks:
   - docs/assets/hooks/contributor_links.py
 
 plugins:
-  - search
+  - search:
+      exclude:
+        - wiki/wip/*
   - minify
   - open-in-new-tab
   - social:

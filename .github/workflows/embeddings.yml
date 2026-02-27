@@ -67,6 +67,7 @@ jobs:
             --leaderboard-output site/assets/data/leaderboard-data.json \
             --socials-output site/assets/data/credits.json \
             --tags-output site/assets/data/tags.json \
+            --exclude "wip/*" \
             --gzip
           echo "${{ hashFiles('docs/wiki/**') }}" > site/wiki_index.hash
 
