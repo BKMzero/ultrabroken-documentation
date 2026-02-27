@@ -174,7 +174,7 @@ hooks:
   - docs/assets/hooks/youtube_embed.py
   - docs/assets/hooks/contributor_links.py
   - docs/assets/hooks/glitch_autolink.py
-  # - docs/assets/hooks/reader_compat.py
+  - docs/assets/hooks/reader_compat.py
 
 exclude_docs: |
   wiki/_wip/
