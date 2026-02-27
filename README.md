@@ -70,7 +70,7 @@ To see all available tags, check [`docs/assets/data/tags.json`](docs/assets/data
 Avoid abbreviations in titles or filenames for easy parsing.
 
 #### Granulation
-Keep the steps of your instructions as granular as possible. Try to extract pausing / unpausing into dedicated steps for clarity.
+Keep the steps of your instructions as granular as possible. Try to extract pausing / unpausing into dedicated steps with bold styling for clarity.
 
 #### Work in progress
 Put your WIPs into the dedicated [`docs/wiki/wip/`](docs/wiki/wip/) folder.
