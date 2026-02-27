@@ -38,6 +38,7 @@ extra_javascript:
   - assets/scripts/ai-worker-client.js
   - assets/scripts/grimoire-filter.js
   - assets/scripts/leaderboard.js
+  - assets/scripts/graph-view.js
   
 
 nav:
@@ -168,6 +169,7 @@ nav:
   - Despawn Interrupt: wiki/despawn interrupt/index.md
   - Culling: wiki/culling/index.md
   - Overload: wiki/overload/index.md
+  - Graph View: wiki/graph.md
   - Memorandum: wiki/memorandum.md
 
 hooks:

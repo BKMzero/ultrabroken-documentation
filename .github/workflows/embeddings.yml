@@ -68,6 +68,7 @@ jobs:
             --socials-output site/assets/data/credits.json \
             --tags-output site/assets/data/tags.json \
             --glossary-output site/assets/data/glossary.json \
+            --graph-output site/assets/data/graph.json \
             --exclude "_wip/*" \
             --gzip
           echo "${{ hashFiles('docs/wiki/**') }}" > site/wiki_index.hash
@@ -90,12 +91,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet docs/assets/data/credits.json docs/assets/data/tags.json docs/assets/data/glossary.json; then
+          if git diff --quiet docs/assets/data/credits.json docs/assets/data/tags.json docs/assets/data/glossary.json docs/assets/data/graph.json; then
             echo "No changes to data files"
           else
             echo "Found new contributors, tags, or glitches, committing..."
-            git add docs/assets/data/credits.json docs/assets/data/tags.json docs/assets/data/glossary.json || true
-            git commit -m "chore: auto-aggregate discovered contributors, tags, and glitches" || echo "Nothing to commit"
+            git add docs/assets/data/credits.json docs/assets/data/tags.json docs/assets/data/glossary.json docs/assets/data/graph.json || true
+            git commit -m "chore: auto-aggregate discovered contributors, tags, glitches, and graph" || echo "Nothing to commit"
             git push origin main || echo "Push failed"
           fi
 
