@@ -28,8 +28,7 @@ You now have access to Prologue Link!
 
 ## Notes
 ---
-The main effects are:
-
+### Main effects
 - 30 hearts in rows of 15, cannot be changed
 - Full stamina
 - MsgNotFound Master Sword
@@ -43,14 +42,12 @@ Now, perform Banc Storage, and load this save. You now have access to the AMS, w
 
 This glitch also allows for a setup to have infinite durability on any weapon, however due to its complexity this entry will not cover the steps. Feel free to ask glitch hunters in the speedrunning Discord about it.
 
-Check the Resources section for more specific effects, such as Awakened Master Sword
-
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1110956205624532993/1290703223467937898)
 - [YouTube](https://www.youtube.com/watch?v=RmjZKVGvstE)
-— [Banc Storage](./banc-storage.md)
 
 ## Related
 ---
-—
+- [Banc Storage](search:Banc Storage)
+- [Awakened Master Sword](search:Awakened Master Sword)
