@@ -173,6 +173,7 @@ nav:
 hooks:
   - docs/assets/hooks/youtube_embed.py
   - docs/assets/hooks/contributor_links.py
+  - docs/assets/hooks/glitch_autolink.py
 
 exclude_docs: |
   wiki/_wip/
