@@ -51,7 +51,7 @@ _mulberry, dt13269, Squidwest; Optimization by mulberry - 25 February 2026_
 ## Resources
 ---
 - [Original discovery](https://discordapp.com/channels/1086729144307564648/1110956205624532993/1476367185642520639)
-- [DI PSLOTed Kinematic Weapon](https://discord.com/channels/1086729144307564648/1110956205624532993/1476693921533923390)
+- [DI PSLOT Kinematic Weapon](https://discord.com/channels/1086729144307564648/1110956205624532993/1476693921533923390)
 
 ## Related
 ---
