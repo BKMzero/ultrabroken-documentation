@@ -2,7 +2,7 @@
 title: "Lift Smuggle"
 abbreviation: "LSMU"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
-credits: ["Blackmars"]
+credits: ["Blackmars", "Lightos_"]
 date: "2024-02-03"
 description: "By picking up an item like a battery while a specific cutscene (e.g. korok) is playing, you can get into a state similar to lift smuggeling (botw glitch)."
 aliases: ["lift-smuggle"]
@@ -16,7 +16,7 @@ tags: ["zuggling", "item", "equipment"]
 ---
 By picking up an item like a battery while a specific cutscene (e.g. korok) is playing, you can get into a state similar to lift smuggeling (botw glitch).
 
-_Blackmars - 3 February 2024_
+_Discoeverd by Blackmars; Extension by Lightos_ - 3 February 2024_
 
 ## Instructions
 ---
@@ -26,12 +26,12 @@ Don't swap shields!
 
 ## Notes
 ---
-Pressing Zr during a specific time frame also allows the bow to be held. This works independently from koroks too.
-https://discord.com/channels/1086729144307564648/1105598687167664239/1203350214304600084 (Lightos_)
+Pressing Zr during a specific time frame also allows the bow to be held. This works independently from koroks too. (Lightos_)
 
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1203341730867314723)
+- [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1203350214304600084)
 
 ## Related
 ---
