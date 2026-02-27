@@ -4,7 +4,7 @@ abbreviation: "ABST"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Blackmars", "R4000"]
 date: "2023-08-28"
-description: "Allows you to manually delay the instance of items being attached with Autobuild"
+description: "Allows you to manually delay the instance of items being attached with Autobuild."
 aliases: ["autobuild-storage"]
 tags: ["storage", "item", "autobuild"]
 ---
@@ -14,7 +14,7 @@ tags: ["storage", "item", "autobuild"]
 
 ## Summary
 ---
-Allows you to manually delay the instance of items being attached with Autobuild
+Allows you to manually delay the instance of items being attached with Autobuild.
 
 _Blackmars, R4000 - 28 August 2023_
 
