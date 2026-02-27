@@ -6,7 +6,7 @@ credits: ["mulberry"]
 date: "2026-1-22"
 description: "Despawn interrupt tech allows for an easy infinite pocket rocket setup"
 aliases: ["Despawn Iterrupt Infinite Pocket rocket", "Frox IPR"]
-tags: ["despawn interrupt","fuse","equipment]
+tags: ["despawn interrupt","fuse","equipment"]
 ---
 
 # Glitch Name

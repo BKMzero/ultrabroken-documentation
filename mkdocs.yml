@@ -178,7 +178,7 @@ hooks:
 plugins:
   - search:
       exclude:
-        - wiki/wip/*
+        - wiki/_wip/*
   - minify
   - open-in-new-tab
   - social:
