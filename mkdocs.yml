@@ -175,10 +175,11 @@ hooks:
   - docs/assets/hooks/youtube_embed.py
   - docs/assets/hooks/contributor_links.py
 
+exclude_docs: |
+  wiki/_wip/
+
 plugins:
-  - search:
-      exclude:
-        - wiki/_wip/*
+  - search
   - minify
   - open-in-new-tab
   - social:
