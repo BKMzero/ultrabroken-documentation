@@ -32,7 +32,7 @@ _mulberry, MandelbrotChaylay - 11 August 2025_
 A consistent setup with any wall would be:
 
 1. Face 90 degrees away from a wall/hoverstone.
-2. Do the setup above but after drop swapping your target drop three buffer equipment.
+2. Do the setup above but before drop swapping your target drop three buffer equipment. (two is enough on Switch 1)
 3. Hold your joystick away from the wall when unpausing.
 
 There is a different setup for zuggling portacull equipment:
