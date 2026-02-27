@@ -29,7 +29,6 @@ extra_javascript:
   - assets/vendor/marked.min.js
   - assets/vendor/purify.min.js
   - assets/scripts/clipboard-permalink.js
-  - assets/scripts/404-detect.js
   - assets/scripts/search-highlights-cleanup.js
   - assets/scripts/search-enter-disable.js
   - assets/scripts/header-reserve.js
