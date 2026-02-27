@@ -39,7 +39,7 @@ If you wish to steal mineru's arm, make an autosave in the tunnel to ganondorf, 
 14. Use this to make a frox shield (now C)
 15. Detangle the frox shield from the frox weapon
 16. Zuggle drop D, glue E to something in the Rasitakiwak shrine, smuggle C, regularly equip B, and then overload pick up E
-17. Drop a shield, fuse it to your equipped shield twice, and quickly drop swap unequip B, and it is faster if it is a fail drop This should result in the dropped shield being eaten DI'd and ghosted
+17. Drop a shield, fuse it to your equipped shield twice, and quickly drop swap unequip B, and it is faster if it is a fail drop This should result in the dropped shield being DI'd and ghosted
 18. Repeat step 17 until shields are no longer ghosted the second time you fuse them
 19. Once this occurs, unquip shield E and pickup the shield that didn't get ghosted and unequip it
 20. Equip a random shield and drop it
