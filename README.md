@@ -67,7 +67,7 @@ Mismatched names (different capitalization, spacing, or spelling) will:
 To see all available tags, check [`docs/assets/data/tags.json`](docs/assets/data/tags.json). Glitch and content tags are automatically aggregated into `tags.json` during the build process. When you add a new tag to a glitch's frontmatter (in the `tags:` field), the build system automatically discovers it and adds it to the tags file if it's not already present sorting it alphabetically. Do not edit `tags.json` manually.
 
 #### Naming conventions
-Acoid abbreviations in titles or filenames for easy parsing.
+Avoid abbreviations in titles or filenames for easy parsing.
 
 #### Granulation
 Keep the steps of your instructions as granular as possible. Try to extract pausing / unpausing into dedicated steps for clarity.
@@ -159,7 +159,7 @@ Supported by MkDocs Material:
 
 This is a community project — everyone is welcome to contribute even without a GitHub account. Join the discussion and show us what you got:
 
-- Download [`docs/wiki/blank.md`](docs/wiki/blank.md) if you need a starting point, write down your intel and post it in our **[dedicated Encyclopedia thread](https://discord.com/channels/1086729144307564648/1471224902890684557)** in the **[Zelda: Tears of the Kingdom Speedrunning Discord server](https://discord.gg/xM8NnTetb2)**
+- Download [`docs/wiki/wip/blank.md`](docs/wiki/wip/blank.md) if you need a starting point, write down your intel and post it in our **[dedicated Encyclopedia thread](https://discord.com/channels/1086729144307564648/1471224902890684557)** in the **[Zelda: Tears of the Kingdom Speedrunning Discord server](https://discord.gg/xM8NnTetb2)**
 
 ---
 
