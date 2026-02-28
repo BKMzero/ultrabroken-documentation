@@ -20,7 +20,7 @@ _mulberry, dt13269, Squidwest; Optimization by mulberry - 25 February 2026_
 
 ## Instructions
 ---
-### Base Setup
+### Basic Setup
 1. Setup Zuggle Overload
 2. Go to a depths ghost with the desired weapon
 3. Zuggle a shield. This shield must not be in the DI state
