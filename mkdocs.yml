@@ -170,7 +170,7 @@ nav:
   - Despawn Interrupt: wiki/despawn interrupt/index.md
   - Culling: wiki/culling/index.md
   - Overload: wiki/overload/index.md
-  - Graph View: wiki/graph.md
+  # - Graph View: wiki/graph.md
   - Memorandum: wiki/memorandum.md
 
 hooks:
