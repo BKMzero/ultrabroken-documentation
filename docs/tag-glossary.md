@@ -7,12 +7,12 @@ This table lists all glitches and techniques documented in the Ultrabroken Archi
 | Ability Wheel Loop | AWL |
 | Aeroculling | AC |
 | Animation Swap | ASWP |
-| Anti-gravity GAS | AGAS |
+| Anti-Gravity GAS | AG GAS |
 | Anti-Gravity Glitch | AGG |
 | Anti-Gravity Objects | AGO |
 | AntiGrav Weapons | AGW |
 | Arrow Prompt Storage | APS |
-| Arrow Smuggling | ASMU |
+| Arrow Smuggling | AS |
 | Arrow Unlink | AUL |
 | Arrow Unloading | AU |
 | Ascend Camera Glitch | ACG |
@@ -26,13 +26,13 @@ This table lists all glitches and techniques documented in the Ultrabroken Archi
 | Back to Back Bloodmoon | BTBB |
 | Back-in-Time Art | BIT |
 | Balloon Overload | BO |
-| Banc Storage | BANC |
+| Banc Storage | BS |
 | Bomb Skew | BSK |
 | Bow Attachment Desync | BAD |
 | Bow Attachment Storage | BAS |
-| Bow Sprinting | BS |
+| Bow Sprinting | BSP |
 | Breaking Awakened Master Sword | BAMS |
-| BThrow Sprinting | BTS |
+| BThrow Sprinting | BTSP |
 | Bundled Item Duplication | BID |
 | Buoy Bouncing | BB |
 | Camera CFW | CFW |
@@ -46,7 +46,7 @@ This table lists all glitches and techniques documented in the Ultrabroken Archi
 | Cold Fuse Stick Desync Clip | CSSDC |
 | Construct Fuse Entanglement | CNFE |
 | Corrupt Meal | CM |
-| Crouch Sprinting | CS |
+| Crouch Sprinting | CSP |
 | Crouch Throw Tap Sprinting | CTTS |
 | Cucco Warping | CW |
 | Cull Cold Fuse | CCF |
@@ -68,7 +68,7 @@ This table lists all glitches and techniques documented in the Ultrabroken Archi
 | Detanglement | DTG |
 | Dialog Permacull | DPC |
 | Disabled Enemy | DE |
-| Dispenser Storage | DISP |
+| Dispenser Storage | DSTR |
 | Display Duping | DD |
 | Display Master Sword | DMS |
 | Dive Cancel Glide Boost | DCGB |
@@ -76,12 +76,12 @@ This table lists all glitches and techniques documented in the Ultrabroken Archi
 | Double Shield Desync Clip Fuse Entanglement | DSDCFE |
 | Double Tulin Boost | DTB |
 | Double Unfuse Duplicashen | DUD |
-| Dpadlock-less Invizuggle | DLI |
+| Dpadlock-less Invizuggle | DLIZ |
 | Drop Delay Zuggle | DDZ |
 | Drop Restriction | DR |
-| Drop Smuggling | DSMU |
+| Drop Smuggling | DS |
 | Drop Zuggle | DZ |
-| Durability- | DUR |
+| Durability- | DURM |
 | Dynamic Purgatory Zuggle | DPZ |
 | Dynamic Zuggle | DZG |
 | Enemy Pickpocketing | EP |
@@ -91,7 +91,7 @@ This table lists all glitches and techniques documented in the Ultrabroken Archi
 | Equipment Shock Duping | ESD |
 | Equipment Smuggle | ESMU |
 | Equipped Throken | ETHK |
-| Extended Throw Sprinting | ETS |
+| Extended Throw Sprinting | ETSP |
 | Fall Damage Cancel | FDC |
 | Floorping | FLP |
 | Food Ability Buff Swap | FABS |
@@ -129,14 +129,14 @@ This table lists all glitches and techniques documented in the Ultrabroken Archi
 | Infinite Damage 2.0 | ID2 |
 | Infinite Height | IH |
 | Inventory Shift Duplication | ISD |
-| Invizuggle | IVZ |
+| Invizuggle | IZ |
 | Item Save Load Transfer | ISLT |
 | Item Throw Hitbox Disable | ITHD |
 | Jumpslash Cancel Clipping | JCC |
 | Jumpslash Canceling | JSC |
-| Kilovictor's quicksmuggle | KQS |
+| Kilovictor's quicksmuggle | KVQS |
 | Kinematic Weapons | KW |
-| L Sprinting | LS |
+| L Sprinting | LSP |
 | Lag Machines | LM |
 | Laser-OOB | LOOB |
 | Lift Fuse Interrupt | LFI |
@@ -159,7 +159,7 @@ This table lists all glitches and techniques documented in the Ultrabroken Archi
 | Map Zuggling | MZ |
 | Mass Amnesia | MA |
 | Master Sword Liberation | MSL |
-| Master Sword Zuggling/ Decayed Master Sword Zuggling | MSZ |
+| Master Sword Zuggling / Decayed Master Sword Zuggling | MSZ |
 | Memory Buffering | MB |
 | Memory Interrupt | MI |
 | Menu Overload | MO |
@@ -179,17 +179,17 @@ This table lists all glitches and techniques documented in the Ultrabroken Archi
 | MNF Fusing | MNFF |
 | MNF Glow Overload | MGO |
 | MNF Zuggle Fuse | MZF |
-| Model Teleport Desync | MTEL |
+| Model Teleport Desync | MTPD |
 | Modifier Deletion Weapon State Transfer | MDWST |
 | Modifier ONLY Transfer | MOT |
 | Moe Enlargement | ME |
 | Moobe Warping | MW |
 | Mount Lock | ML |
 | Mozdor Jumping/Slashing | MJS |
-| MSNF glowing | MG |
+| MSNF glowing | MNFG |
 | Mulberry's Out of Body Experience | MOOBE |
 | New Item Desync | NID |
-| No Bow Sprinting | NBS |
+| No Bow Sprinting | NBSP |
 | Null Dropping | ND |
 | Object Culling | OC |
 | Ocklusion | OCKL |
@@ -199,7 +199,7 @@ This table lists all glitches and techniques documented in the Ultrabroken Archi
 | Overload at Home | OAH |
 | Overload Cold Fuse | OCF |
 | Overload Drop Smuggling | ODS |
-| Overload Dynamic Zuggle | ODZ |
+| Overload Dynamic Zuggle | ODZGL |
 | Overload Fuse Entanglement | OFE |
 | Overload Persistent Save Load Object Transfer | OPSLOT |
 | Pelison Duping | PD |
@@ -207,12 +207,12 @@ This table lists all glitches and techniques documented in the Ultrabroken Archi
 | Pickup Smuggling | PSMU |
 | Pocket Rocket | PR |
 | Portable Cull Save Load Dupe | PSLD |
-| Portable Culling | PCULL |
-| Portacull Invismuggle | PCI |
+| Portable Culling | PC |
+| Portacull Invismuggle | PCIS |
 | Prologue Escape | PE |
 | Proxy Glitches | PG |
 | Purgatory Save Load Dupe | PGSLD |
-| Pyroculling | PYR |
+| Pyroculling | PYRC |
 | Quantum Linking | QL |
 | Quick Drop Smuggle | QDS |
 | Quick Smuggling | QS |
@@ -220,9 +220,10 @@ This table lists all glitches and techniques documented in the Ultrabroken Archi
 | Recall Cancel | RCC |
 | Recall Clip | RC |
 | Recall Drop Stacking | RDS |
-| Recall Launch | RL |
-| Recall Locking | RLK |
+| Recall Launch | RLNCH |
+| Recall Locking | RL |
 | Recall Sluggle | RSL |
+| Recall Telekinesis | RTK |
 | Recipe Storage | RS |
 | Remote Arrow | RAT |
 | Replacement Actor Fuse Entanglement | RAFE |
@@ -266,11 +267,11 @@ This table lists all glitches and techniques documented in the Ultrabroken Archi
 | Throwless Storage | THS |
 | Time Bomb cancel | TBC |
 | Toti Saucery | TOTS |
-| Travel Medallion storage | TMS |
+| Travel Medallion Storage | TMS |
 | Tulin Pumping | TP |
 | Two Handed With Shield | THWS |
 | Ultimate Pocket Rocket | UPR |
-| Ultra Save Load Object Transfer | USLOT |
+| Ultra Save Load Object Transfer | UltraSLOT |
 | Ultrabroken | UB |
 | Ultrabroken Smuggling | UBS |
 | Unload Duping | UD |
@@ -280,6 +281,7 @@ This table lists all glitches and techniques documented in the Ultrabroken Archi
 | Void Dipping | VD |
 | Void Hold Storage | VHS |
 | Void Holding | VH |
+| Vortaculling | VC |
 | Wacko Attacko | WATK |
 | Warp Bumping | WB |
 | Weapon Dash GAS | WDGAS |
@@ -296,7 +298,7 @@ This table lists all glitches and techniques documented in the Ultrabroken Archi
 | Wireless Energy | WE |
 | Wuggle | WGL |
 | Yee Fuse Entanglement | YEEFE |
-| Zapshield | ZAP |
+| Zapshield | ZAPSH |
 | ZL Animation Reset | ZLAR |
 | Zoggle | ZOG |
 | Zonai Inventory Shift Dupe | ZISD |
