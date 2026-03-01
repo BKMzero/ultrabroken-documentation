@@ -1,6 +1,6 @@
 ---
 title: "Overload Dynamic Zuggle"
-abbreviation: "ODZ"
+abbreviation: "ODZGL"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["mulberry"]
 date: "2025-05-19"
@@ -9,7 +9,7 @@ aliases: ["overload-dynamic-zuggle"]
 tags: ["zuggling", "overload", "item", "equipment"]
 ---
 
-# Overload Dynamic Zuggle `ODZ`
+# Overload Dynamic Zuggle `ODZGL`
 `1.0.0` `1.1.0` `1.1.1`
 
 ## Summary

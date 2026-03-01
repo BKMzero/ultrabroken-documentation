@@ -1,6 +1,6 @@
 ---
 title: "Durability-"
-abbreviation: "DUR"
+abbreviation: "DUR-"
 versions: ["1.0.0"]
 credits: ["Zas"]
 date: "2023-09-11"
@@ -9,7 +9,7 @@ aliases: []
 tags: ["item", "weapon", "bow"]
 ---
 
-# Durability- `DUR`
+# Durability- `DUR-`
 `1.0.0`
 
 ## Summary

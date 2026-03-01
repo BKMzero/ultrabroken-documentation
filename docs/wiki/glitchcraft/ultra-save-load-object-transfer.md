@@ -1,11 +1,11 @@
 ---
 title: "Ultra Save Load Object Transfer"
-abbreviation: "USLOT"
+abbreviation: "UltraSLOT"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["mulberry"]
 date: "2024-02-15"
 description: "Uses purgatory to transfer ultrahanded objects through file loads."
-aliases: ["ultra-save-load-object-transfer"]
+aliases: ["ultra-save-load-object-transfer", "ultraslot"]
 tags: ["save-load", "ultrahand"]
 ---
 

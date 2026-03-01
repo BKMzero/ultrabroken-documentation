@@ -1,6 +1,6 @@
 ---
 title: "Banc Storage"
-abbreviation: "BANC"
+abbreviation: "BS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1",]
 credits: ["Lightos", "mulberry", "Aergyl", "EOH_NS_SS"]
 date: "2024-10-01"
@@ -9,7 +9,7 @@ aliases: ["banc-storage"]
 tags: ["storage", "warping", "save-load", "bloodmoon"]
 ---
 
-# Banc Storage `BANC`
+# Banc Storage `BS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

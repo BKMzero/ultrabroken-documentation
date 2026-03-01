@@ -1,6 +1,6 @@
 ---
 title: "Dpadlock-less Invizuggle"
-abbreviation: "DLI"
+abbreviation: "DLIZ"
 versions: ["1.2.0", "1.2.1"]
 credits: ["mulberry", "Blackmars", "NghtmaR3"]
 date: "2024-07-17"
@@ -9,7 +9,7 @@ aliases: ["dpadlock-less-invizuggle"]
 tags: ["zuggling", "culling", "item", "equipment"]
 ---
 
-# Dpadlock-less Invizuggle `DLI`
+# Dpadlock-less Invizuggle `DLIZ`
 `1.2.0` `1.2.1`
 
 ## Summary

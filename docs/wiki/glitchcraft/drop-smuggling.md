@@ -1,6 +1,6 @@
 ---
 title: "Drop Smuggling"
-abbreviation: "DSMU"
+abbreviation: "DS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["LegendofLinkk"]
 date: "2023-05-31"
@@ -9,7 +9,7 @@ aliases: ["drop-smuggling"]
 tags: ["zuggling", "item", "equipment"]
 ---
 
-# Drop Smuggling `DSMU`
+# Drop Smuggling `DS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

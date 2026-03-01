@@ -1,6 +1,6 @@
 ---
 title: "Model Teleport Desync"
-abbreviation: "MTEL"
+abbreviation: "MTPD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["nx"]
 date: "2023-07-29"
@@ -9,7 +9,7 @@ aliases: ["model-teleport-desync"]
 tags: ["desync", "warping"]
 ---
 
-# Model Teleport Desync `MTEL`
+# Model Teleport Desync `MTPD`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

@@ -1,6 +1,6 @@
 ---
 title: "Extended Throw Sprinting"
-abbreviation: "ETS"
+abbreviation: "ETSP"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["briochoc"]
 date: "2023-05-12"
@@ -9,7 +9,7 @@ aliases: ["extended-throw-sprinting"]
 tags: ["sprinting"]
 ---
 
-# Extended Throw Sprinting `ETS`
+# Extended Throw Sprinting `ETSP`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

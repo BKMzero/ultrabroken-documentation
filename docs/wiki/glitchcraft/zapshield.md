@@ -1,6 +1,6 @@
 ---
 title: "Zapshield"
-abbreviation: "ZAP"
+abbreviation: "ZAPSH"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Aergyl"]
 date: "2024-09-16"
@@ -9,7 +9,7 @@ aliases: []
 tags: ["equipment", "culling", "fuse", "shield"]
 ---
 
-# Zapshield `ZAP`
+# Zapshield `ZAPSH`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

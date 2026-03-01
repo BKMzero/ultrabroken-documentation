@@ -1,15 +1,15 @@
 ---
 title: "Portable Culling"
-abbreviation: "PCULL"
+abbreviation: "PC"
 versions: ["1.2.0", "1.2.1"]
 credits: ["mulberry"]
 date: "2024-02-27"
 description: "Fusing a cold fused sdc stick makes it possible to cull link anywhere, empty slot smuggle (smuggle item without them being equipped), desync..."
-aliases: ["portable-culling"]
+aliases: ["portable-culling", "portacull"]
 tags: ["zuggling", "desync", "item", "culling", "fuse"]
 ---
 
-# Portable Culling `PCULL`
+# Portable Culling `PC`
 `1.2.0` `1.2.1`
 
 ## Summary

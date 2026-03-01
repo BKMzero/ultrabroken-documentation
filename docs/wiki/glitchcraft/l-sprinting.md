@@ -1,6 +1,6 @@
 ---
 title: "L Sprinting"
-abbreviation: "LS"
+abbreviation: "LSP"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Tauktes"]
 date: "2023-05-12"
@@ -9,7 +9,7 @@ aliases: ["l-sprinting"]
 tags: ["sprinting", "ultrahand"]
 ---
 
-# L Sprinting `LS`
+# L Sprinting `LSP`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

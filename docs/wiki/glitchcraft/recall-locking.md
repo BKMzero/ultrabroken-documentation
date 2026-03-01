@@ -1,6 +1,6 @@
 ---
 title: "Recall Locking"
-abbreviation: "RLK"
+abbreviation: "RL"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Ryan?"]
 date: "2023-06-11"
@@ -9,7 +9,7 @@ aliases: ["recall-locking"]
 tags: ["recall"]
 ---
 
-# Recall Locking `RLK`
+# Recall Locking `RL`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

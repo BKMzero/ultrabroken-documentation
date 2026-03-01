@@ -1,6 +1,6 @@
 ---
 title: "Bow Sprinting"
-abbreviation: "BS"
+abbreviation: "BSP"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Steel"]
 date: "2023-05-14"
@@ -9,7 +9,7 @@ aliases: ["bow sprint", "bow-sprinting"]
 tags: ["sprinting", "bow"]
 ---
 
-# Bow Sprinting `BS`
+# Bow Sprinting `BSP`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

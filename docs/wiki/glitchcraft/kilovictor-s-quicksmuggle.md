@@ -1,6 +1,6 @@
 ---
 title: "Kilovictor's quicksmuggle"
-abbreviation: "KQS"
+abbreviation: "KVQS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["KiloVictor"]
 date: "2024-02-23"
@@ -9,7 +9,7 @@ aliases: ["kilovictor's-quicksmuggle"]
 tags: ["zuggling", "equipment", "culling"]
 ---
 
-# KiloVictor's quicksmuggle `KQS`
+# KiloVictor's quicksmuggle `KVQS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

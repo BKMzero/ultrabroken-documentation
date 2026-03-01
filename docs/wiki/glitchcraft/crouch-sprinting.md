@@ -1,6 +1,6 @@
 ---
 title: "Crouch Sprinting"
-abbreviation: "CS"
+abbreviation: "CSP"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Mozz"]
 date: "2023-05-14"
@@ -9,7 +9,7 @@ aliases: ["crouch sprint", "crouch-sprint", "crouch-sprinting"]
 tags: ["sprinting"]
 ---
 
-# Crouch Sprinting `CS`
+# Crouch Sprinting `CSP`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

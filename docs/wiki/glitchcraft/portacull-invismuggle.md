@@ -1,6 +1,6 @@
 ---
 title: "Portacull Invismuggle"
-abbreviation: "PCI"
+abbreviation: "PCIS"
 versions: ["1.2.0"]
 credits: ["mulberry"]
 date: "2024-02-29"
@@ -9,7 +9,7 @@ aliases: ["portacull-invismuggle"]
 tags: ["zuggling", "equipment", "culling"]
 ---
 
-# Portacull Invismuggle `PCI`
+# Portacull Invismuggle `PCIS`
 `1.2.0` `1.2.1+`
 
 ## Summary

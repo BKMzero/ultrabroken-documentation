@@ -9,7 +9,7 @@ aliases: ["like-like-smuggle-desync"]
 tags: ["zuggling", "desync", "like-like"]
 ---
 
-# Like-Like Smuggle Desync `LSD`
+# Like-Like Smuggle Desync `LLSD`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

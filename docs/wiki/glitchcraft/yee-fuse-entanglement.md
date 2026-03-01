@@ -5,7 +5,7 @@ versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Yee", "mulberry"]
 date: "2024-02-20"
 description: "Uses culling with mineru and an sdc stick to fuse entangle"
-aliases: ["yee-fuse-entanglement"]
+aliases: ["yee-fuse-entanglement", "yeefe"]
 tags: ["entanglement", "culling", "fuse", "mineru"]
 ---
 

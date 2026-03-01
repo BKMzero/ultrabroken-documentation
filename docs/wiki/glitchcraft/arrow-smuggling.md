@@ -1,6 +1,6 @@
 ---
 title: "Arrow Smuggling"
-abbreviation: "ASMU"
+abbreviation: "AS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Mozz"]
 date: "2023-06-04"
@@ -9,7 +9,7 @@ aliases: ["arrow-smuggling"]
 tags: ["zuggling", "equipment", "bow", "arrow"]
 ---
 
-# Arrow Smuggling `ASMU`
+# Arrow Smuggling `AS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

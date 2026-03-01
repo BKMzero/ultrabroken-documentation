@@ -1,6 +1,6 @@
 ---
 title: "No Bow Sprinting"
-abbreviation: "NBS"
+abbreviation: "NBSP"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Steel"]
 date: "2023-05-12"
@@ -9,7 +9,7 @@ aliases: ["no-bow-sprinting"]
 tags: ["sprinting", "bow"]
 ---
 
-# No Bow Sprinting `NBS`
+# No Bow Sprinting `NBSP`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

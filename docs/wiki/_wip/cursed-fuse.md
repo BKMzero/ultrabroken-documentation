@@ -1,6 +1,6 @@
 ---
-title: "Cursed (Pseudo) Fuse"
-abbreviation: "CPF"
+title: "Cursed Fuse"
+abbreviation: "CF"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1+", "Switch 2"]
 credits: ["Zas"]
 date: "2024-01-19"
@@ -9,7 +9,7 @@ aliases: ["cursed-fuse", "cursed-pseudo-fuse"]
 tags: ["fuse"]
 ---
 
-# Cursed (Pseudo) Fuse `CPF`
+# Cursed Fuse `CF`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1+` `Switch 2`
 
 ## Summary

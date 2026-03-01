@@ -1,5 +1,5 @@
 ---
-title: "Master Sword Zuggling/ Decayed Master Sword Zuggling"
+title: "Master Sword Zuggling / Decayed Master Sword Zuggling"
 abbreviation: "MSZ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Zas"]
@@ -9,7 +9,7 @@ aliases: ["master-sword-zuggling"]
 tags: ["zuggling", "desync", "weapon"]
 ---
 
-# Master Sword Zuggling/ Decayed Master Sword Zuggling `MSZ`
+# Master Sword Zuggling / Decayed Master Sword Zuggling `MSZ`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary
