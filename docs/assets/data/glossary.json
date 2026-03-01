@@ -1788,6 +1788,14 @@
     "path": "wiki/glitchcraft/recall-sluggle/"
   },
   {
+    "name": "Recall Telekinesis",
+    "abbr": "RTK",
+    "aliases": [
+      "recall-telekinesis"
+    ],
+    "path": "wiki/glitchcraft/recall-telekinesis/"
+  },
+  {
     "name": "Recipe Storage",
     "abbr": "RS",
     "aliases": [
