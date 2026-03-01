@@ -14,18 +14,27 @@ tags: ["zuggling", "storage", "culling", "mineru"]
 
 ## Summary
 ---
-Stores the callback of Mineru while mouted on her, useful for swap resync zuggle setups
+Stores the callback of Mineru while mouted on her, useful for swap resync zuggle setups, _especially_ for self-zuggling sdc items (portaculls/vortaculls).
 
 _ofstrings2 - 9 November 2025_
 
 ## Instructions
 ---
-1. While riding Mineru, dismount and immediately take out a battery (or another zonai device of a similar size) and re-mount Mineru
-2. Release the stored cull by dismounting or portaculling on Mineru
+### Very reliable, fully portable variant
+1. Drop a zonai wing or hoverstone on the ground
+2. Walk Mineru onto wing/hoverstone and dismount her
+3. Drop a small device (like a battery) and quickly mount her
+4. Hold ZL to release stored cull (can be used for faildrop)
+
+### 100% consistent town/stable variant
+1. Fuse a rocket to one of Mineru's arms
+2. Ride Mineru to the edge of the town's limits 
+3. Shoot rocket, walk forward; stop before rocket detaches
+4. Hold ZL to release stored cull (can be used for faildrop)
 
 ## Notes
 ---
-Mineru Cull Storage SRZ neither requires frame–perfect pausing (like Mineru Dismissal SRZ) nor the risk of losing your portacull/vortacull (like Mineru Wall SRZ)
+Mineru Cull Storage SRZ neither requires frame–perfect pausing (like Mineru Dismissal SRZ) nor the risk of losing your portacull/vortacull (like Mineru Wall SRZ).
 
 ## Resources
 ---
