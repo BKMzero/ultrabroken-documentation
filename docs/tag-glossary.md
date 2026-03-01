@@ -1,6 +1,6 @@
-# Zelda TotK Glitch Abbreviation Glossary
+# Zelda TotK Glitch Tag Glossary
 
-This table lists all glitches and techniques documented in the Ultrabroken Archives with their proposed abbreviations for use in [search](https://nan-gogh.github.io/ultrabroken-documentation/wiki/?q=search%20here) and [quick discovery systems](https://nan-gogh.github.io/ultrabroken-documentation/wiki/#welcome) as well as [graphs](https://nan-gogh.github.io/ultrabroken-documentation/wiki/graph/).
+This table lists all glitches and techniques documented in the Ultrabroken Archives with their proposed tags for use in [search](https://nan-gogh.github.io/ultrabroken-documentation/wiki/?q=search%20here) and [quick discovery systems](https://nan-gogh.github.io/ultrabroken-documentation/wiki/#welcome) as well as [graphs](https://nan-gogh.github.io/ultrabroken-documentation/wiki/graph/).
 
 | Name | Abbreviation |
 |------|--------------|
