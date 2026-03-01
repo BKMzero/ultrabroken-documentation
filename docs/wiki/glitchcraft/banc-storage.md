@@ -16,12 +16,11 @@ tags: ["storage", "warping", "save-load", "bloodmoon"]
 ---
 Using memory interrupt, it's possible to store a banc change (shrine entry/exit, warp, panic blood moon, etc) to another save file.
 
-_Lightos_, mulberry, Aergyl - October 1st, 2024_
+_Lightos, mulberry, Aergyl - October 1st, 2024_
 
 ## Instructions
 ---
-Instructions for 1.0:
-
+### Instructions for 1.0:
 1. Perform Memory Interrupt. For Warp Storage, press R at the end of it, for Shrine Storage and all other banc changes, press -.
 2. Trigger the banc change
 3. The cutscene of the banc change will trigger the forced pause while in the loading screen. Even if you can't see it, you have access to your menu right now, and the loading is paused. Press + to go to the menu (you are on the Purah Pad), then press R a lot to go to the last tab.
@@ -29,8 +28,7 @@ Instructions for 1.0:
 It's also possible to go to the main menu, that way you can load a save and start a new game while seeing what you're doing, the banc change remains stored while in the main menu. Simply press down 5 times to get to the option, then press A, up and A again.
 After loading the save, the banc change should trigger.
 
-Instructions for 1.1+:
-
+### Instructions for 1.1+:
 1. Have a bubble gem, never have recieved the armor tutorial prompt, and have never talkedt to Kilton or Koltin
 2. Manually save near Kilton and Koltin
 3. FE a steering stick nearby to them
