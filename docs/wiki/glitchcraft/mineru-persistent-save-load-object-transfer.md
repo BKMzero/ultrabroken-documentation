@@ -16,7 +16,7 @@ tags: ["equipment", "culling", "save-load", "mineru"]
 ---
 Using Mineru Culling it's possible to send a piece of equipment to culled purgatory portably, allowing for PSLOT.
 
-_Discovered by mulberry, setup by Armindo, Emiya - 27 July 2024_
+_Discovered by mulberry; Setup by Armindo, Emiya - 27 July 2024_
 
 ## Instructions
 ---
