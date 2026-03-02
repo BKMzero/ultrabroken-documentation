@@ -14,7 +14,7 @@ tags: ["mnf"]
 
 ## Summary
 ---
-Allows you to obtain the prologue master sword (named MsgNotFound or MNF), whose durability cannot decrease
+Allows you to obtain the prologue master sword (named MsgNotFound or MNF), whose durability cannot decrease.
 
 _LegendofLinkk (Zuggle Method), Abahbob (SLD Method) - 17 May 2023_
 
@@ -22,7 +22,7 @@ _LegendofLinkk (Zuggle Method), Abahbob (SLD Method) - 17 May 2023_
 ---
 There are 2 methods to obtain the MNF: (Watch videos for more info) 
 
-SLD Method (recommended):
+### SLD Method (recommended)
 
 1. Go to the In-Isa shrine (Fuse shrine) 
 2. Bring one of the boulders over to the entrance with the fire fruit trees and jump on it (see video for precise location)
@@ -33,7 +33,7 @@ SLD Method (recommended):
 7. Load a save in the In-Isa shrine 
 8. Go back to the place in step 2 and pick up the MNF
 
-Zuggle Overload Method:
+### Zuggle Overload Method
 
 1. Zuggle overload
 2. Start new game 
