@@ -17,6 +17,7 @@ theme:
     - navigation.expand
     - search.highlight
     - search.share
+    - back-to-top
   palette:
     scheme: slate
     primary: teal
