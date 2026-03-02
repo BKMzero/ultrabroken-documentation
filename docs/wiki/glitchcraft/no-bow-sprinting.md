@@ -1,7 +1,7 @@
 ---
 title: "No Bow Sprinting"
 tag: "NBSP"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Steel"]
 date: "2023-05-12"
 description: "Infinite stamina sprinting method that uses bow interactions to maintain speed without a bow equipped"
@@ -10,7 +10,7 @@ tags: ["sprinting", "bow"]
 ---
 
 # No Bow Sprinting `NBSP`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

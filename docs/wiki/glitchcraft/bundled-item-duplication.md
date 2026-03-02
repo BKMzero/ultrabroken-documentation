@@ -1,7 +1,7 @@
 ---
 title: "Bundled Item Duplication"
 tag: "BID"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Ock"]
 date: "2023-12-12"
 description: "Culling dropping an item in a specific way and unloading it causes it to get put into a state of constantly respawning when holding another item..."
@@ -10,7 +10,7 @@ tags: ["duplication", "item", "culling"]
 ---
 
 # Bundled Item Duplication `BID`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

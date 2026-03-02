@@ -1,7 +1,7 @@
 ---
 title: "Entanglement Height Glitch"
 tag: "EHG"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Mozz"]
 date: "2023-05-24"
 description: "Suspends Link a certain distance off the ground while shield surfing."
@@ -10,7 +10,7 @@ tags: ["equipment", "entanglement", "movement", "shield"]
 ---
 
 # Entanglement Height Glitch `EHG`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

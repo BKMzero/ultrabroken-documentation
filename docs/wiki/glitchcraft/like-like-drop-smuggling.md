@@ -1,7 +1,7 @@
 ---
 title: "Like-Like Drop Smuggling"
 tag: "LLDS"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Mozz", "mulberry"]
 date: "2023-06-15"
 description: "Allows for Drop Smuggling via slugging"
@@ -10,7 +10,7 @@ tags: ["zuggling", "item", "like-like"]
 ---
 
 # Like-Like Drop Smuggling `LLDS`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

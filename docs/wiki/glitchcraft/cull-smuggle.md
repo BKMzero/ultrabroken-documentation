@@ -1,7 +1,7 @@
 ---
 title: "Cull Smuggle"
 tag: "CSMU"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Mozz", "ROBUXY2ND", "Ock"]
 date: "2023-06-27"
 description: "Allows any equipment that can be fuse entangled to be smuggled using margin culling."
@@ -10,7 +10,7 @@ tags: ["zuggling", "equipment", "culling", "fuse"]
 ---
 
 # Cull Smuggle `CSMU`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

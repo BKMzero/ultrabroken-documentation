@@ -1,7 +1,7 @@
 ---
 title: "Dynamic Purgatory Zuggle"
 tag: "DPZ"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["mulberry"]
 date: "2025-02-14"
 description: "It's possible to send a dynamic smuggle to purgatory, keeping it connected to Link by equipping (and zuggling) its FE base in a similar fashion to FEWZ."
@@ -10,7 +10,7 @@ tags: ["zuggling", "item", "equipment"]
 ---
 
 # Dynamic Purgatory Zuggle `DPZ`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

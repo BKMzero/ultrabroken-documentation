@@ -1,7 +1,7 @@
 ---
 title: "Horse Duping"
 tag: "HD"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Ock"]
 date: "2024-03-22"
 description: "Killing a horse while in a specific cull setup, sends it to the horse god without killing it."
@@ -10,7 +10,7 @@ tags: ["duplication", "culling", "horse"]
 ---
 
 # Horse Duping `HD`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

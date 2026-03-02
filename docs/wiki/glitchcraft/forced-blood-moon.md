@@ -1,7 +1,7 @@
 ---
 title: "Forced Blood Moon"
 tag: "FBM"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["1789(@W0ERYySQgZyGOY3)", "Simonfirefighter", "Maxmasher", "Flash", "acaepius"]
 date: "2023-05-28"
 description: "Allows you to force a blood moon whenever you want"
@@ -10,7 +10,7 @@ tags: ["bloodmoon"]
 ---
 
 # Forced Blood Moon `FBM`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Cold Fuse Stick Desync Clip"
 tag: "CSSDC"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["mulberry", "KiloVictor"]
 date: "2024-06-04"
 description: "An easier way to perform stick desync clip using cold fuse that allows for an almost immediate dismount, making it useful for stick desync without clipping"
@@ -10,7 +10,7 @@ tags: ["clipping", "desync", "weapon", "fuse"]
 ---
 
 # Cold Fuse Stick Desync Clip `CSSDC`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

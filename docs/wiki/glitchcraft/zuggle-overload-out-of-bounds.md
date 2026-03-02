@@ -1,7 +1,7 @@
 ---
 title: "Zuggle Overload Out Of Bounds"
 tag: "ZOOB"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["AngryEgg", "Dark", "Toti Sauce"]
 date: "2023-05-18"
 description: "Allows you to clip OOB using zuggle overload"
@@ -10,7 +10,7 @@ tags: ["clipping", "oob", "zuggling", "overload"]
 ---
 
 # Zuggle Overload Out Of Bounds `ZOOB`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

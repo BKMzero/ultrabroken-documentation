@@ -1,7 +1,7 @@
 ---
 title: "Culling Area Fuse Storage Fuse Entanglement"
 tag: "CFSFE"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["mulberry", "Yee", "Zas"]
 date: "2024-02-25"
 description: "A method for FSFE using Area Culling."
@@ -10,7 +10,7 @@ tags: ["storage", "entanglement", "culling", "fuse"]
 ---
 
 # Culling Area Fuse Storage Fuse Entanglement `CFSFE`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

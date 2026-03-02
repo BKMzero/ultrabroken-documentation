@@ -1,7 +1,7 @@
 ---
 title: "Slate Storage"
 tag: "SLST"
-versions: ["1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["LegendofLinkk"]
 date: "2024-09-21"
 description: "Storing the opening animation of the Purah Pad allows for Fall Damage Cancel"
@@ -10,7 +10,7 @@ tags: ["storage", "damage"]
 ---
 
 # Slate Storage `SLST`
-`1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

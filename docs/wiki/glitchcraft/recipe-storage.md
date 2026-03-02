@@ -1,7 +1,7 @@
 ---
 title: "Recipe Storage"
 tag: "RS"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Ock", "mulberry"]
 date: "2024-09-14"
 description: "Delaying the recipe menu by a few frames allow for some holding shenanigans"
@@ -10,7 +10,7 @@ tags: ["storage", "menu"]
 ---
 
 # Recipe Storage `RS`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

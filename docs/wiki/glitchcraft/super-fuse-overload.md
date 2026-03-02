@@ -1,7 +1,7 @@
 ---
 title: "Super Fuse Overload"
 tag: "SFO"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["mulberry", "Aergyl", "Jordan", "MandelbrotChaylay"]
 date: "2025-12-06"
 description: "Allows you to get Zelda's torch and Mineru's arm."
@@ -10,7 +10,7 @@ tags: ["weapon", "overload", "fuse", "mineru"]
 ---
 
 # Super Fuse Overload `SFO`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1+` `Switch 2`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

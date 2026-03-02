@@ -1,7 +1,7 @@
 ---
 title: "Cutscene Combo Amplifier"
 tag: "CCA"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Lightos"]
 date: "2023-12-22"
 description: "Extends and stacks the damage frames of an attack with memory buffering, causing huge damage."
@@ -10,7 +10,7 @@ tags: ["item", "buff", "damage"]
 ---
 
 # Cutscene Combo Amplifier `CCA`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

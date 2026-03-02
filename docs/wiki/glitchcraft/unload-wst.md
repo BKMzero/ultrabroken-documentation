@@ -1,7 +1,7 @@
 ---
 title: "Unload WST"
 tag: "UWST"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["BigDUCCO", "Vee.Might.Exist", "Syb"]
 date: "Unknown"
 description: "Allows you to transfer modifiers and materials to any weapon."
@@ -10,7 +10,7 @@ tags: ["item", "culling", "zuggling"]
 ---
 
 # Unload WST `UWST`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Like-Like Zuggling"
 tag: "LLZ"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["NaN Gogh", "Ryan?", "Blackmars"]
 date: "2023-06-15"
 description: "Allows for zuggling via slugging"
@@ -10,7 +10,7 @@ tags: ["zuggling", "like-like", "item", "equipment", "culling"]
 ---
 
 # Like-Like Zuggling `LLZ`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Dpadlock-less Invizuggle"
 tag: "DLIZ"
-versions: ["1.2.0", "1.2.1"]
+versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["mulberry", "Blackmars", "NghtmaR3"]
 date: "2024-07-17"
 description: "The first frame of a cull does not dpadlock, so it can be used for invizuggle"

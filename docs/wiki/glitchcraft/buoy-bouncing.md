@@ -1,7 +1,7 @@
 ---
 title: "Buoy Bouncing"
 tag: "BB"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["InAMuffinCup"]
 date: "2023-05-25"
 description: "Get an abnormaly large shield jump boost when coming into contact with water."
@@ -10,7 +10,7 @@ tags: ["equipment", "movement", "shield"]
 ---
 
 # Buoy Bouncing `BB`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

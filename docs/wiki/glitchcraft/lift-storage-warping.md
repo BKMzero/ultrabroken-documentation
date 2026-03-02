@@ -1,7 +1,7 @@
 ---
 title: "Lift Storage Warping"
 tag: "LSW"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["mulberry"]
 date: "2024-01-08"
 description: "Culling link while holding a zlot'ed item puts link into a wrong warp state."
@@ -10,7 +10,7 @@ tags: ["storage", "item", "culling", "warping"]
 ---
 
 # Lift Storage Warping `LSW`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

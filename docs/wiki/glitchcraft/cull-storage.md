@@ -1,7 +1,7 @@
 ---
 title: "Cull Storage"
 tag: "CSTR"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["mulberry"]
 date: "2024-01-20"
 description: "Culling and unculling an sdc stick in a specific way allows you to store its cull."
@@ -10,7 +10,7 @@ tags: ["storage", "culling"]
 ---
 
 # Cull Storage `CSTR`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

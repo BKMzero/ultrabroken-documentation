@@ -1,7 +1,7 @@
 ---
 title: "New Item Desync"
 tag: "NID"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Modoki_returns"]
 date: "2023-05-12"
 description: "Desyncs equipment after sorting a new item pickup, allowing for single use duplication, durability transfer, and transfering fused items."
@@ -10,7 +10,7 @@ tags: ["duplication", "desync", "menu", "item", "equipment", "fuse"]
 ---
 
 # New Item Desync `NID`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

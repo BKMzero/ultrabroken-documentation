@@ -1,7 +1,7 @@
 ---
 title: "Ascend Storage"
 tag: "ASTR"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Saria"]
 date: "2023-05-19"
 description: "Misplaces the point where Link goes after using Ascend."
@@ -10,7 +10,7 @@ tags: ["storage", "ascend"]
 ---
 
 # Ascend Storage `ASTR`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Fuse Entanglement"
 tag: "FE"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Physioninja"]
 date: "2023-05-24"
 description: "Allows your shield to have an effect on an object as though it is fused to the shield, despite the object existing in the world and not being tethered..."
@@ -10,7 +10,7 @@ tags: ["equipment", "entanglement", "fuse", "shield"]
 ---
 
 # Fuse Entanglement `FE`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

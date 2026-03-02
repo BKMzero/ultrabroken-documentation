@@ -1,7 +1,7 @@
 ---
 title: "Kinematic Weapons"
 tag: "KW"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["mulberry", "dt13269"]
 date: "2026-02-25"
 description: "Makes weapons immovable, except by picking up and dropping them."
@@ -10,7 +10,7 @@ tags: ["equipment"]
 ---
 
 # Kinematic Weapons `KW`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

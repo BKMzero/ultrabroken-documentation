@@ -1,7 +1,7 @@
 ---
 title: "GAS Warping"
 tag: "GASW"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Flash", "pyuk"]
 date: "2023-06-26"
 description: "Makes it so the game never updates Link's last valid coordinates for as long as the GAS device is active (a temporary travel medallion)."
@@ -10,7 +10,7 @@ tags: ["gas", "warping"]
 ---
 
 # GAS Warping `GASW`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

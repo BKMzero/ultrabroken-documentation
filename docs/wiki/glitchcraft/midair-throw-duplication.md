@@ -1,7 +1,7 @@
 ---
 title: "Midair Throw Duplication"
 tag: "MTD"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["quantim"]
 date: "2023-07-02"
 description: "Allows you to dupe any item that can be thrown, including Zonai capsules."
@@ -10,7 +10,7 @@ tags: ["duplication", "item", "zonai", "paraglide"]
 ---
 
 # Midair Throw Duplication `MTD`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Hold Storage Duplication"
 tag: "HSD"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["NaN Gogh", "Mozz"]
 date: "2023-07-03"
 description: "Allows you to dupe items via hold storage."
@@ -10,7 +10,7 @@ tags: ["duplication", "storage", "item"]
 ---
 
 # Hold Storage Duplication `HSD`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

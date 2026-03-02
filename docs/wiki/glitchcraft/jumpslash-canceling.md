@@ -1,7 +1,7 @@
 ---
 title: "Jumpslash Canceling"
 tag: "JSC"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["LegendofLinkk", "Mozz"]
 date: "2023-05-21"
 description: "Interrupt jumpslashes by swapping a shield mid-animation"
@@ -10,7 +10,7 @@ tags: ["animation", "equipment", "shield"]
 ---
 
 # Jumpslash Canceling `JSC`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

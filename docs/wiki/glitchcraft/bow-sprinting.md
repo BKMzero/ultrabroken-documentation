@@ -1,7 +1,7 @@
 ---
 title: "Bow Sprinting"
 tag: "BSP"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Steel"]
 date: "2023-05-14"
 description: "Infinite stamina sprinting method using bow inputs to maintain speed"
@@ -10,7 +10,7 @@ tags: ["sprinting", "bow"]
 ---
 
 # Bow Sprinting `BSP`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

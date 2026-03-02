@@ -1,7 +1,7 @@
 ---
 title: "Master Sword Zuggling / Decayed Master Sword Zuggling"
 tag: "MSZ"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Zas"]
 date: "2023-11-06"
 description: "Allows you to zuggle the master sword or decayed master sword by desyncing it"
@@ -10,7 +10,7 @@ tags: ["zuggling", "desync", "weapon"]
 ---
 
 # Master Sword Zuggling / Decayed Master Sword Zuggling `MSZ`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

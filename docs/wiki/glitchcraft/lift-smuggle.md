@@ -1,7 +1,7 @@
 ---
 title: "Lift Smuggle"
 tag: "LSMU"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Blackmars", "Lightos_"]
 date: "2024-02-03"
 description: "By picking up an item like a battery while a specific cutscene (e.g. korok) is playing, you can get into a state similar to lift smuggeling (botw glitch)."
@@ -10,7 +10,7 @@ tags: ["zuggling", "item", "equipment"]
 ---
 
 # Lift Smuggle `LSMU`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

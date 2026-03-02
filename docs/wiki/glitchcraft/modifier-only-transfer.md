@@ -1,7 +1,7 @@
 ---
 title: "Modifier ONLY Transfer"
 tag: "MOT"
-versions: ["1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["kurocat471", "BigDUCCO"]
 date: "2023-06-09"
 description: "Allows you to transfer only the modifier, but only works on weapons."
@@ -10,7 +10,7 @@ tags: ["weapon"]
 ---
 
 # Modifier ONLY Transfer `MOT`
-`1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

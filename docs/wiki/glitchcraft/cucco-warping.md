@@ -1,7 +1,7 @@
 ---
 title: "Cucco Warping"
 tag: "CW"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["orionsayshi"]
 date: "2023-07-23"
 description: "Picking up a cucco right as it voids out from entering water warps Link to its respawn location."
@@ -10,7 +10,7 @@ tags: ["warping"]
 ---
 
 # Cucco Warping `CW`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Autobuild Storage"
 tag: "ABST"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Blackmars", "R4000"]
 date: "2023-08-28"
 description: "Allows you to manually delay the instance of items being attached with Autobuild."
@@ -10,7 +10,7 @@ tags: ["storage", "item", "autobuild"]
 ---
 
 # Autobuild Storage `ABST`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

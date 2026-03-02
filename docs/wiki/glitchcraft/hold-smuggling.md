@@ -1,7 +1,7 @@
 ---
 title: "Hold Smuggling"
 tag: "HSM"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Mozz", "NaN Gogh"]
 date: "2023-07-04"
 description: "Enables full control of Link while holding objects in the menu."
@@ -10,7 +10,7 @@ tags: ["zuggling", "menu", "item", "equipment"]
 ---
 
 # Hold Smuggling `HSM`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

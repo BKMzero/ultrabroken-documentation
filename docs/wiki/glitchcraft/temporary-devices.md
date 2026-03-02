@@ -1,7 +1,7 @@
 ---
 title: "Temporary Devices"
 tag: "TD"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["mulberry"]
 date: "2024-11-30"
 description: "Fusing during the unsheathe animation of a bow causes the fuse to appear for a few frames"
@@ -10,7 +10,7 @@ tags: ["fuse", "bow"]
 ---
 
 # Temporary Devices `TD`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

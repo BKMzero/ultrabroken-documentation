@@ -1,7 +1,7 @@
 ---
 title: "Awakened Master Sword"
 tag: "AMS"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Tahata"]
 date: "2023-09-04"
 description: "You can use gas to leave a minigame and wrong warp into the phantom ganon fight, which makes it possible to escape the fight."
@@ -10,7 +10,7 @@ tags: ["weapon", "warping"]
 ---
 
 # Awakened Master Sword `AMS`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

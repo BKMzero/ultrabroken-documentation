@@ -1,7 +1,7 @@
 ---
 title: "Banc Storage"
 tag: "BS"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1",]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Lightos", "mulberry", "Aergyl", "EOH_NS_SS"]
 date: "2024-10-01"
 description: "Store banc changes to another save file using memory interrupt"
@@ -10,7 +10,7 @@ tags: ["storage", "warping", "save-load", "bloodmoon"]
 ---
 
 # Banc Storage `BS`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Overload Fuse Entanglement"
 tag: "OFE"
-versions: ["1.2.0", "1.2.1"]
+versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["mulberry"]
 date: "2024-07-23"
 description: "Allows for full fuse entanglement by combining portable culling with the mechanics of zuggle overload."

@@ -1,7 +1,7 @@
 ---
 title: "Disabled Enemy"
 tag: "DE"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["shio_0725", "ralseidewitt"]
 date: "2023-06-27"
 description: "Puts the enemy into a doll-like state similar to the glitch back in Breath of the Wild, disabling the enemy's movement."
@@ -10,7 +10,7 @@ tags: ["enemy"]
 ---
 
 # Disabled Enemy `DE`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

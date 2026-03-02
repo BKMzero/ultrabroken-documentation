@@ -1,7 +1,7 @@
 ---
 title: "Travel Medallion Storage"
 tag: "TMS"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["kirigaya"]
 date: "2023-06-16"
 description: "Places the travel medallion at links feet after loading a file."
@@ -10,7 +10,7 @@ tags: ["storage"]
 ---
 
 # Travel Medallion Storage `TMS`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

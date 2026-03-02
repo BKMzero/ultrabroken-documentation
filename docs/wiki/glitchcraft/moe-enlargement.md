@@ -1,7 +1,7 @@
 ---
 title: "Moe Enlargement"
 tag: "ME"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Toti Sauce", "PetitFrapo", "Jordan"]
 date: "2024-10-30"
 description: "Using a moblin, it's possible to enlarge objects"
@@ -10,7 +10,7 @@ tags: ["ultrahand"]
 ---
 
 # Moe Enlargement `ME`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1+`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

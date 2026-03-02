@@ -1,7 +1,7 @@
 ---
 title: "Sticky Dynamic Purgatory"
 tag: "SDP"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["mulberry"]
 date: "2024-02-15"
 description: "Culling the cold fuse base of a dynamic purgatory equipment using a like like temporarily removes its dynamic properties, allowing it to remain stuck..."
@@ -10,7 +10,7 @@ tags: ["equipment", "culling", "fuse"]
 ---
 
 # Sticky Dynamic Purgatory `SDP`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

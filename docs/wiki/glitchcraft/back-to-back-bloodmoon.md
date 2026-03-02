@@ -1,7 +1,7 @@
 ---
 title: "Back to Back Bloodmoon"
 tag: "BTBB"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Lopitty"]
 date: "2023-05-17"
 description: "A strange phenominon where blood moons occured back to back."
@@ -10,7 +10,7 @@ tags: ["bloodmoon"]
 ---
 
 # Back to Back Bloodmoon `BTBB`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

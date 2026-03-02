@@ -1,7 +1,7 @@
 ---
 title: "Model Teleport Desync"
 tag: "MTPD"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["nx"]
 date: "2023-07-29"
 description: "This allows for invisibility, model desyncing when gliding, staggering when getting hit to prevent ragdoll, without the previous method that required..."
@@ -10,7 +10,7 @@ tags: ["desync", "warping"]
 ---
 
 # Model Teleport Desync `MTPD`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

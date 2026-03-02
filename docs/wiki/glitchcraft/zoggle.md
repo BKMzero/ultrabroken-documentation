@@ -1,7 +1,7 @@
 ---
 title: "Zoggle"
 tag: "ZOG"
-versions: ["1.2.0", "1.2.1"]
+versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Ryan?", "Ock"]
 date: "2024-01-04"
 description: "Using deentenglement to untie the wuggled equippment from their fe parent"

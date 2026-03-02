@@ -1,7 +1,7 @@
 ---
 title: "Portable Cull Save Load Dupe"
 tag: "PSLD"
-versions: ["1.2.0", "1.2.1"]
+versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["NghtmaR3"]
 date: "2024-07-17"
 description: "Allows for Save Load Duplication on v1.2.0-1.2.1 by culling Link on the same frame that the process is performed."

@@ -1,7 +1,7 @@
 ---
 title: "Ultra Save Load Object Transfer"
 tag: "UltraSLOT"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["mulberry"]
 date: "2024-02-15"
 description: "Uses purgatory to transfer ultrahanded objects through file loads."
@@ -10,7 +10,7 @@ tags: ["save-load", "ultrahand"]
 ---
 
 # Ultra Save Load Object Transfer `USLOT`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

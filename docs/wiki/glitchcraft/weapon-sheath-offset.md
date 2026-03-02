@@ -1,7 +1,7 @@
 ---
 title: "Weapon Sheath Offset"
 tag: "WSO"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["circyit", "dash"]
 date: "2023-06-25"
 description: "Puts the weapon sheathe in an offset state, similar to the sheathe during Zuggle Overload"
@@ -10,7 +10,7 @@ tags: ["zuggling", "weapon", "overload"]
 ---
 
 # Weapon Sheath Offset `WSO`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

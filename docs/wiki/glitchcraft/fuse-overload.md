@@ -1,7 +1,7 @@
 ---
 title: "Fuse Overload"
 tag: "FO"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["ultrababouin", "NghtmaR3"]
 date: "2023-11-03"
 description: "By repeatedly cold fusing objects to the same weapon, it's possible to reach a limit that causes any additional cold fused objects to lose their collision."
@@ -10,7 +10,7 @@ tags: ["weapon", "overload", "fuse"]
 ---
 
 # Fuse Overload `FO`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

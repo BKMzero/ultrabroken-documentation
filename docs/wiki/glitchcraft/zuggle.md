@@ -1,7 +1,7 @@
 ---
 title: "Zuggle"
 tag: "ZGL"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Zvleon"]
 date: "2023-05-16"
 description: "Zuggling allows you to stack weapons to get more attack power by cloning equiment onto Link, adding hitboxes on top of each other."
@@ -10,7 +10,7 @@ tags: ["zuggling", "item", "equipment"]
 ---
 
 # Zuggle `ZGL`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

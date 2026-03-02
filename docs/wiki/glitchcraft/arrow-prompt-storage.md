@@ -1,7 +1,7 @@
 ---
 title: "Arrow Prompt Storage"
 tag: "APS"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Ryan?", "NghtmaR3"]
 date: "2023-10-04"
 description: "Allows storage of the arrow prompt and can be given multiple times via an enemy shooting their unloaded arrow."
@@ -10,7 +10,7 @@ tags: ["storage", "culling", "arrow"]
 ---
 
 # Arrow Prompt Storage `APS`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

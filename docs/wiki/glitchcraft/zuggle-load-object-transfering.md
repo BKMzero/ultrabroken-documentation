@@ -1,7 +1,7 @@
 ---
 title: "Zuggle Load Object Transfering"
 tag: "ZLOT"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["InAMuffinCup", "ChargeVolt"]
 date: "2023-06-07"
 description: "Allows you to transfer objects through loads while maintaining their coordinates."
@@ -10,7 +10,7 @@ tags: ["zuggling", "item", "equipment"]
 ---
 
 # Zuggle Load Object Transfering `ZLOT`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

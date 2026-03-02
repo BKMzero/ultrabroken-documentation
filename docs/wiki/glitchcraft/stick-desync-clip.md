@@ -1,7 +1,7 @@
 ---
 title: "Stick Desync Clip"
 tag: "SDC"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["NaN Gogh", "DisguisedMoth"]
 date: "2023-07-01"
 description: "By dropping a shield just before mounting a steering stick that is fuse entangled to it, we can clip through floors easily."
@@ -10,7 +10,7 @@ tags: ["clipping", "desync", "item", "equipment", "fuse", "shield"]
 ---
 
 # Stick Desync Clip `SDC`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

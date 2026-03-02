@@ -1,7 +1,7 @@
 ---
 title: "Camera Pose Glitch"
 tag: "CPG"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Unknown"]
 date: "Unknown"
 description: "Link keeps walking while frozen in the camera animation."
@@ -10,7 +10,7 @@ tags: ["camera"]
 ---
 
 # Camera Pose Glitch `CPG`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

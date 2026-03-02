@@ -1,7 +1,7 @@
 ---
 title: "Cave Flag Culling"
 tag: "CFC"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Ock", "Aergyl"]
 date: "2023-11-24"
 description: "For certain caves (like Pondside Cave), the game checks every object and determines if they belong to inside or outside the cave, and all objects with..."
@@ -10,7 +10,7 @@ tags: ["duplication", "culling", "overload"]
 ---
 
 # Cave Flag Culling `CFC`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

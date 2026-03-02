@@ -1,7 +1,7 @@
 ---
 title: "Chasm Delay Zuggle"
 tag: "CDZ"
-versions: ["1.2.0", "1.2.1"]
+versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Ock", "mulberry", "WinnerBoi77"]
 date: "2024-05-31"
 description: "Every chasm has an \"unload box\" that unloads the overworld if passed through."

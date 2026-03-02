@@ -1,7 +1,7 @@
 ---
 title: "Void Dipping"
 tag: "VD"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0", "1.4.0", "1.4.1", "1.4.2"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.3.0", "1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Squidwest", "mulberry", "Aergyl"]
 date: "2025-12-29"
 description: "An extremely powerful equipment state caused by interrupting and retrieving an equipment item that has been destroyed by the void."
@@ -10,7 +10,7 @@ tags: ["item", "equipment", "ultrahand", "despawn"]
 ---
 
 # Void Dipping `VD`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0` `1.4.0` `1.4.1` `1.4.2` `Switch 2`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.3.0` `1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

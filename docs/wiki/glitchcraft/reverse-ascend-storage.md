@@ -1,7 +1,7 @@
 ---
 title: "Reverse Ascend Storage"
 tag: "RAS"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Redrooey"]
 date: "2023-11-27"
 description: "Ascending through water under a plattform allows link to ascend up into the sky, provided that there is ground above him."
@@ -10,7 +10,7 @@ tags: ["storage", "ascend"]
 ---
 
 # Reverse Ascend Storage `RAS`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

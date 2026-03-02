@@ -1,7 +1,7 @@
 ---
 title: "Capsule Cel Shader Removal"
 tag: "CCSR"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["NX"]
 date: "2023-12-04"
 description: "Enables the inside of capsules to remove the cel shader and other shaders"
@@ -10,7 +10,7 @@ tags: ["duplication", "ultrahand"]
 ---
 
 # Capsule Cel Shader Removal `CCSR`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

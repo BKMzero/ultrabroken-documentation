@@ -1,7 +1,7 @@
 ---
 title: "Cull Fuse Entanglement"
 tag: "CFE"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["ultrababouin", "suusi", "Ock", "SteFen45"]
 date: "2023-09-21"
 description: "Allows you to Fuse Entangle objects by culling Link the same frame the fuse is applied."
@@ -10,7 +10,7 @@ tags: ["entanglement", "culling", "fuse"]
 ---
 
 # Cull Fuse Entanglement `CFE`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

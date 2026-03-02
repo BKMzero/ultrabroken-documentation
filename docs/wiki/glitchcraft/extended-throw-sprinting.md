@@ -1,7 +1,7 @@
 ---
 title: "Extended Throw Sprinting"
 tag: "ETSP"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["briochoc"]
 date: "2023-05-12"
 description: "Infinite stamina sprinting method using extended throws to maintain speed"
@@ -10,7 +10,7 @@ tags: ["sprinting"]
 ---
 
 # Extended Throw Sprinting `ETSP`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

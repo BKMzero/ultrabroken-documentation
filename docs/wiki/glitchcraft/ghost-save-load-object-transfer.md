@@ -1,7 +1,7 @@
 ---
 title: "Ghost Save Load Object Transfer"
 tag: "GSLOT"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Aergyl"]
 date: "2024-03-08"
 description: "Allows objects to be transferred through saves by creating a fuse ghost and detangling it out of range."
@@ -10,7 +10,7 @@ tags: ["save-load", "fuse"]
 ---
 
 # Ghost Save Load Object Transfer `GSLOT`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

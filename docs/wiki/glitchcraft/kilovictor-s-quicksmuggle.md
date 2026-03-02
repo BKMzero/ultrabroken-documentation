@@ -1,7 +1,7 @@
 ---
 title: "Kilovictor's quicksmuggle"
 tag: "KVQS"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["KiloVictor"]
 date: "2024-02-23"
 description: "Fusing an sdc stick to equipment allows for a different, stronger cull, which can be used to cull equipment."
@@ -10,7 +10,7 @@ tags: ["zuggling", "equipment", "culling"]
 ---
 
 # KiloVictor's quicksmuggle `KVQS`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

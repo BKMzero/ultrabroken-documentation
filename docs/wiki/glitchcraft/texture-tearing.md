@@ -1,7 +1,7 @@
 ---
 title: "Texture Tearing"
 tag: "TT"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Ock"]
 date: "2024-01-13"
 description: "During Menu Overload via Moobe, textures can be loaded incorrectly, broken, or even adopted from the enviroment/other equipment."
@@ -10,7 +10,7 @@ tags: ["oob", "menu", "equipment", "overload"]
 ---
 
 # Texture Tearing `TT`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

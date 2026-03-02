@@ -1,7 +1,7 @@
 ---
 title: "Recall Cancel"
 tag: "RCC"
-versions: ["1.2.0", "1.2.1"]
+versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["R4000"]
 date: "2023-07-20"
 description: "Lets you delay the dropping of weapon and items."

@@ -1,7 +1,7 @@
 ---
 title: "Memory Buffering"
 tag: "MB"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Mozz"]
 date: "2023-05-29"
 description: "Advances Links current animation by 1 frame while keeping the menu open. Links coordinates will not change."
@@ -10,7 +10,7 @@ tags: ["menu", "buff"]
 ---
 
 # Memory Buffering `MB`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

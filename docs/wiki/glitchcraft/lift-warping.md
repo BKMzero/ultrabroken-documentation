@@ -1,7 +1,7 @@
 ---
 title: "Lift Warping"
 tag: "LW"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Mozz"]
 date: "2023-06-15"
 description: "Links position is tied to any object he can lift over his head, should the position of the object change, Link will warp to it's new position."
@@ -10,7 +10,7 @@ tags: ["warping"]
 ---
 
 # Lift Warping `LW`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---
