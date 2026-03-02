@@ -8,6 +8,7 @@ use_directory_urls: true
 
 theme:
   name: material
+  custom_dir: overrides
   logo: assets/images/ultrabroken_rune.svg
   favicon: assets/images/ultrabroken_rune.ico
   features:
@@ -33,6 +34,7 @@ extra_javascript:
   - assets/scripts/search-enter-disable.js
   - assets/scripts/header-reserve.js
   - assets/scripts/header-marquee.js
+  - assets/scripts/font-size-toggle.js
   - assets/scripts/motion-toggle.js
   - assets/scripts/particles-constellations.js
   - assets/scripts/search-link.js
