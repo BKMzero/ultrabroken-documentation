@@ -8,7 +8,6 @@ use_directory_urls: true
 
 theme:
   name: material
-  custom_dir: overrides
   logo: assets/images/ultrabroken_rune.svg
   favicon: assets/images/ultrabroken_rune.ico
   features:
