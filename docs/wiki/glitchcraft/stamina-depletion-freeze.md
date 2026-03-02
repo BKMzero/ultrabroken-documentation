@@ -1,6 +1,6 @@
 ---
 title: "Stamina Depletion Freeze"
-abbreviation: "SDF"
+tag: "SDF"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Lightos"]
 date: "2023-05-20"

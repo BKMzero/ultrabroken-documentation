@@ -1,6 +1,6 @@
 ---
 title: "Food Ability Buff Swap"
-abbreviation: "FABS"
+tag: "FABS"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["fabs"]
 date: "2023-05-16"

@@ -1,6 +1,6 @@
 ---
 title: "Shrunken Actors"
-abbreviation: "SA"
+tag: "SA"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["mulberry"]
 date: "2025-10-26"

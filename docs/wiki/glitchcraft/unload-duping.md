@@ -1,6 +1,6 @@
 ---
 title: "Unload Duping"
-abbreviation: "UD"
+tag: "UD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["魔法本就不科学 (magic is not science)", "千年茶饼 (Thousand Year Tea)"]
 date: "2023-05-31"

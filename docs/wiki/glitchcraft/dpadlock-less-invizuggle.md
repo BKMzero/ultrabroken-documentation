@@ -1,6 +1,6 @@
 ---
 title: "Dpadlock-less Invizuggle"
-abbreviation: "DLIZ"
+tag: "DLIZ"
 versions: ["1.2.0", "1.2.1"]
 credits: ["mulberry", "Blackmars", "NghtmaR3"]
 date: "2024-07-17"

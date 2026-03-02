@@ -1,6 +1,6 @@
 ---
 title: "Bomb Skew"
-abbreviation: "BSK"
+tag: "BSK"
 versions: ["1.0.0"]
 credits: ["Aergyl", "FerrusCube", "Mozz"]
 date: "2023-09-21"

@@ -1,6 +1,6 @@
 ---
 title: "Shock Effect Overload"
-abbreviation: "SEO"
+tag: "SEO"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["nx", "R4000"]
 date: "2023-07-26"

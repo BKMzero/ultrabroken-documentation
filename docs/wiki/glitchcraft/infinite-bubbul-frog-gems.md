@@ -1,6 +1,6 @@
 ---
 title: "Infinite Bubbul Frog Gems"
-abbreviation: "IBFG"
+tag: "IBFG"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["Unknown"]
 date: "2023-05-21"

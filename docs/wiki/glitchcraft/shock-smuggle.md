@@ -1,6 +1,6 @@
 ---
 title: "Shock Smuggle"
-abbreviation: "SSMU"
+tag: "SSMU"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["sleepyppls"]
 date: "2023-06-01"

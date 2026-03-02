@@ -1,6 +1,6 @@
 ---
 title: "Resync Fuse Entanglement"
-abbreviation: "RFE"
+tag: "RFE"
 versions: ["1.0.0"]
 credits: ["Zas"]
 date: "2023-12-18"

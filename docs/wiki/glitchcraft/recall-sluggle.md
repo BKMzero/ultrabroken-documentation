@@ -1,6 +1,6 @@
 ---
 title: "Recall Sluggle"
-abbreviation: "RSL"
+tag: "RSL"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["WinnerBoi77"]
 date: "2025-07-12"

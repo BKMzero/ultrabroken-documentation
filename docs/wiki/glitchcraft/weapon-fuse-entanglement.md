@@ -1,6 +1,6 @@
 ---
 title: "Weapon Fuse Entangelemt"
-abbreviation: "WFE"
+tag: "WFE"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["ROBUXY2ND", "Physioninja"]
 date: "2023-06-01"

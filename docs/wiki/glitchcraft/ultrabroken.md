@@ -1,6 +1,6 @@
 ---
 title: "Ultrabroken"
-abbreviation: "UB"
+tag: "UB"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Duncan"]
 date: "2023-05-29"

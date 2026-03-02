@@ -1,6 +1,6 @@
 ---
 title: "Midair Throw Duplication"
-abbreviation: "MTD"
+tag: "MTD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["quantim"]
 date: "2023-07-02"

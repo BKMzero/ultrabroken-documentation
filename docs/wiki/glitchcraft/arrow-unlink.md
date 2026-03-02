@@ -1,6 +1,6 @@
 ---
 title: "Arrow Unlink"
-abbreviation: "AUL"
+tag: "AUL"
 versions: ["1.0.0"]
 credits: ["R4000"]
 date: "2023-10-26"

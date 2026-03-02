@@ -1,6 +1,6 @@
 ---
 title: "Detanglement"
-abbreviation: "DTG"
+tag: "DTG"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Zas"]
 date: "2023-09-09"

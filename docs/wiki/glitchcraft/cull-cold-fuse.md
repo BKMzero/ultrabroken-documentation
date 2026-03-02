@@ -1,6 +1,6 @@
 ---
 title: "Cull Cold Fuse"
-abbreviation: "CCF"
+tag: "CCF"
 versions: ["Unknown"]
 credits: ["mulberry"]
 date: "2024-02-01"

@@ -1,6 +1,6 @@
 ---
 title: "Cull Pickup Dynamic Zuggle"
-abbreviation: "CPDZ"
+tag: "CPDZ"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["mulberry"]
 date: "2025-05-18"

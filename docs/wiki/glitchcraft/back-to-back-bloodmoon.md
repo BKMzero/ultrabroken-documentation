@@ -1,6 +1,6 @@
 ---
 title: "Back to Back Bloodmoon"
-abbreviation: "BTBB"
+tag: "BTBB"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Lopitty"]
 date: "2023-05-17"

@@ -1,6 +1,6 @@
 ---
 title: "Remote Arrow"
-abbreviation: "RAT"
+tag: "RAT"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
 credits: ["Flash", "ElDuende", "kirigaya"]
 date: "2023-06-02"

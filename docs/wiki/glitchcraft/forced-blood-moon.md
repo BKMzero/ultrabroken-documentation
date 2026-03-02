@@ -1,6 +1,6 @@
 ---
 title: "Forced Blood Moon"
-abbreviation: "FBM"
+tag: "FBM"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["1789(@W0ERYySQgZyGOY3)", "Simonfirefighter", "Maxmasher", "Flash", "acaepius"]
 date: "2023-05-28"

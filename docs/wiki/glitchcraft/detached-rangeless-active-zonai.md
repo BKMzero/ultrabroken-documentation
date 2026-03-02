@@ -1,6 +1,6 @@
 ---
 title: "Detached Rangeless Active Zonai"
-abbreviation: "DRAZ"
+tag: "DRAZ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Venaticus"]
 date: "2023-06-15"

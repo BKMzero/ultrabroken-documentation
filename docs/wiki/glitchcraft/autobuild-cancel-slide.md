@@ -1,6 +1,6 @@
 ---
 title: "Autobuild Cancel Slide"
-abbreviation: "ABCS"
+tag: "ABCS"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["Takosensai1"]
 date: "2023-05-18"

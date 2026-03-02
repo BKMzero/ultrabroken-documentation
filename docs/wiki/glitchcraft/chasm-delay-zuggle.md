@@ -1,6 +1,6 @@
 ---
 title: "Chasm Delay Zuggle"
-abbreviation: "CDZ"
+tag: "CDZ"
 versions: ["1.2.0", "1.2.1"]
 credits: ["Ock", "mulberry", "WinnerBoi77"]
 date: "2024-05-31"

@@ -1,6 +1,6 @@
 ---
 title: "Aeroculling"
-abbreviation: "AC"
+tag: "AC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Aergyl", "mulberry"]
 date: "2024-08-11"

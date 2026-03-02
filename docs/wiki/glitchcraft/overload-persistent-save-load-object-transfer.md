@@ -1,6 +1,6 @@
 ---
 title: "Overload Persistent Save Load Object Transfer"
-abbreviation: "OPSLOT"
+tag: "OPSLOT"
 versions: ["1.2.0"]
 credits: ["mulberry"]
 date: "2024-07-26"

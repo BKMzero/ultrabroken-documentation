@@ -1,6 +1,6 @@
 ---
 title: "No Bow Sprinting"
-abbreviation: "NBSP"
+tag: "NBSP"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Steel"]
 date: "2023-05-12"

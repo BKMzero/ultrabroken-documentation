@@ -1,6 +1,6 @@
 ---
 title: "Like-Like Zuggling"
-abbreviation: "LLZ"
+tag: "LLZ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["NaN Gogh", "Ryan?", "Blackmars"]
 date: "2023-06-15"

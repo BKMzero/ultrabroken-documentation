@@ -1,6 +1,6 @@
 ---
 title: "Display Duping"
-abbreviation: "DD"
+tag: "DD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Pistonight"]
 date: "2023-05-27"

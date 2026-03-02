@@ -1,6 +1,6 @@
 ---
 title: "Cull Fuse Entanglement"
-abbreviation: "CFE"
+tag: "CFE"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["ultrababouin", "suusi", "Ock", "SteFen45"]
 date: "2023-09-21"

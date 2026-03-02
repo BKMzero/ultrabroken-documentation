@@ -1,6 +1,6 @@
 ---
 title: "Unsheathed Mastersword"
-abbreviation: "UMS"
+tag: "UMS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
 credits: ["nx", "DanielNeia"]
 date: "2023-07-11"

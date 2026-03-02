@@ -1,6 +1,6 @@
 ---
 title: "Overload Cold Fuse"
-abbreviation: "OCF"
+tag: "OCF"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["F. Buffalo"]
 date: "2023-07-23"

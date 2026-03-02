@@ -1,6 +1,6 @@
 ---
 title: "Culling Area Fuse Storage"
-abbreviation: "CAFS"
+tag: "CAFS"
 versions: ["Unknown"]
 credits: ["Mozz", "pyuk"]
 date: "2023-06-30"

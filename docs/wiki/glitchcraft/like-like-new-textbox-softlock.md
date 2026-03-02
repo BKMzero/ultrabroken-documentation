@@ -1,6 +1,6 @@
 ---
 title: "Like Like New Textbox Softlock"
-abbreviation: "LLTS"
+tag: "LLTS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Ryan?"]
 date: "2023-06-16"

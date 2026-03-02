@@ -1,6 +1,6 @@
 ---
 title: "Model Teleport Desync"
-abbreviation: "MTPD"
+tag: "MTPD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["nx"]
 date: "2023-07-29"

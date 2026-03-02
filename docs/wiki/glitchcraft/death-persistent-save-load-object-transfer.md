@@ -1,6 +1,6 @@
 ---
 title: "Death Persistent Save Load Object Transfer"
-abbreviation: "DPSLOT"
+tag: "DPSLOT"
 versions: ["1.2.0"]
 credits: ["mulberry"]
 date: "2025-06-26"

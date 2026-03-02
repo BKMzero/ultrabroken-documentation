@@ -1,6 +1,6 @@
 ---
 title: "Swap Resync"
-abbreviation: "SR"
+tag: "SR"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
 credits: ["MandelbrotChaylay"]
 date: "2025-08-10"

@@ -1,6 +1,6 @@
 ---
 title: "Null Dropping"
-abbreviation: "ND"
+tag: "ND"
 versions: ["1.0.0"]
 credits: ["Aergyl"]
 date: "2024-03-16"

@@ -1,6 +1,6 @@
 ---
 title: "Recall Cancel"
-abbreviation: "RCC"
+tag: "RCC"
 versions: ["1.2.0", "1.2.1"]
 credits: ["R4000"]
 date: "2023-07-20"

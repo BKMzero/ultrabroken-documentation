@@ -1,6 +1,6 @@
 ---
 title: "Map Zuggling"
-abbreviation: "MZ"
+tag: "MZ"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["BigDUCCO"]
 date: "2023-05-23"

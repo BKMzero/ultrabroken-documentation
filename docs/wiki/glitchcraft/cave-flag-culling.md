@@ -1,6 +1,6 @@
 ---
 title: "Cave Flag Culling"
-abbreviation: "CFC"
+tag: "CFC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Ock", "Aergyl"]
 date: "2023-11-24"

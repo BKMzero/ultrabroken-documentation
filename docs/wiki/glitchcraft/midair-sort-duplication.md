@@ -1,6 +1,6 @@
 ---
 title: "Midair Sort Duplication"
-abbreviation: "MSD"
+tag: "MSD"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["Zas", "kurocat471"]
 date: "2023-05-21"

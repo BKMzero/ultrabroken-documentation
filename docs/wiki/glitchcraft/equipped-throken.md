@@ -1,6 +1,6 @@
 ---
 title: "Equipped Throken"
-abbreviation: "ETHK"
+tag: "ETHK"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Aergyl", "mulberry"]
 date: "2025-05-20"

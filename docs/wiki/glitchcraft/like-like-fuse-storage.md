@@ -1,6 +1,6 @@
 ---
 title: "Like-Like Fuse Storage"
-abbreviation: "LLFS"
+tag: "LLFS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
 credits: ["Mozz"]
 date: "2023-06-18"

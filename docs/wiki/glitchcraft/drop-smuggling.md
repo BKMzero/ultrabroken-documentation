@@ -1,6 +1,6 @@
 ---
 title: "Drop Smuggling"
-abbreviation: "DS"
+tag: "DS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["LegendofLinkk"]
 date: "2023-05-31"

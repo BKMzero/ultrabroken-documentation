@@ -1,6 +1,6 @@
 ---
 title: "Equipment Shock Duping"
-abbreviation: "ESD"
+tag: "ESD"
 versions: ["1.0.0"]
 credits: ["Zas"]
 date: "2023-12-12"

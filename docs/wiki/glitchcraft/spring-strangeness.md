@@ -1,6 +1,6 @@
 ---
 title: "Spring Strangeness"
-abbreviation: "STRS"
+tag: "STRS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["orionsayshi", "Owen"]
 date: "2023-05-15"

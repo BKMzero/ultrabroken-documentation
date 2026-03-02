@@ -1,6 +1,6 @@
 ---
 title: "Capsule Cel Shader Removal"
-abbreviation: "CCSR"
+tag: "CCSR"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["NX"]
 date: "2023-12-04"

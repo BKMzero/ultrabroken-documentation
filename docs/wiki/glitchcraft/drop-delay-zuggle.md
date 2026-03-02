@@ -1,6 +1,6 @@
 ---
 title: "Drop Delay Zuggle"
-abbreviation: "DDZ"
+tag: "DDZ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["LegendofLinkk"]
 date: "2023-06-06"

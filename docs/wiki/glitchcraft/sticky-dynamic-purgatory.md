@@ -1,6 +1,6 @@
 ---
 title: "Sticky Dynamic Purgatory"
-abbreviation: "SDP"
+tag: "SDP"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["mulberry"]
 date: "2024-02-15"

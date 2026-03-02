@@ -1,6 +1,6 @@
 ---
 title: "Double Bypass Zuggle"
-abbreviation: "DBZ"
+tag: "DBZ"
 versions: ["1.2.0"]
 credits: ["mulberry", "dt13269"]
 date: "2025-06-16"

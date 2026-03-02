@@ -1,6 +1,6 @@
 ---
 title: "Unload WST"
-abbreviation: "UWST"
+tag: "UWST"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["BigDUCCO", "Vee.Might.Exist", "Syb"]
 date: "Unknown"

@@ -1,6 +1,6 @@
 ---
 title: "Cull Equipment Desync"
-abbreviation: "CED"
+tag: "CED"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Blize", "Ock"]
 date: "2023-10-10"

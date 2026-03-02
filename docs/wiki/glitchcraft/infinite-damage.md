@@ -1,6 +1,6 @@
 ---
 title: "Infinite Damage"
-abbreviation: "IDMG"
+tag: "IDMG"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["GamSla341"]
 date: "2023-05-13"

@@ -1,6 +1,6 @@
 ---
 title: "Quantum Linking"
-abbreviation: "QL"
+tag: "QL"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["NaN Gogh", "pyuk"]
 date: "2023-08-30"

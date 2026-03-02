@@ -1,6 +1,6 @@
 ---
 title: "Laser-OOB"
-abbreviation: "LOOB"
+tag: "LOOB"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["Xeryph"]
 date: "2023-05-13"

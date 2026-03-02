@@ -1,6 +1,6 @@
 ---
 title: "Freecall"
-abbreviation: "FC"
+tag: "FC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["suusi", "ROBUXY2ND"]
 date: "2023-09-09"

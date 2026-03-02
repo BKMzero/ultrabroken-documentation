@@ -1,6 +1,6 @@
 ---
 title: "Shadow/Void Icons"
-abbreviation: "SVI"
+tag: "SVI"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
 credits: ["Lightos", "PetitFrapo"]
 date: "2024-10-16"

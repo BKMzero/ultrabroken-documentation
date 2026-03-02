@@ -1,6 +1,6 @@
 ---
 title: "Modifier ONLY Transfer"
-abbreviation: "MOT"
+tag: "MOT"
 versions: ["1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["kurocat471", "BigDUCCO"]
 date: "2023-06-09"

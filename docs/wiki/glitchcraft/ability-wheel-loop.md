@@ -1,6 +1,6 @@
 ---
 title: "Ability Wheel Loop"
-abbreviation: "AWL"
+tag: "AWL"
 versions: ["1.0.0"]
 credits: ["Zas"]
 date: "2024-03-11"

@@ -1,6 +1,6 @@
 ---
 title: "Sage Madness"
-abbreviation: "SM"
+tag: "SM"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Aci"]
 date: "2023-07-18"

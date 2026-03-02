@@ -1,6 +1,6 @@
 ---
 title: "Portable Culling"
-abbreviation: "PC"
+tag: "PC"
 versions: ["1.2.0", "1.2.1"]
 credits: ["mulberry"]
 date: "2024-02-27"

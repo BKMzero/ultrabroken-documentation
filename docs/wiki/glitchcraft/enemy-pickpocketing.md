@@ -1,6 +1,6 @@
 ---
 title: "Enemy Pickpocketing"
-abbreviation: "EP"
+tag: "EP"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["KAIDUDE64"]
 date: "2023-09-16"

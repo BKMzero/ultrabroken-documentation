@@ -1,6 +1,6 @@
 ---
 title: "Mineru Text Storage"
-abbreviation: "MTS"
+tag: "MTS"
 versions: ["1.0.0"]
 credits: ["CM30"]
 date: "2024-07-11"

@@ -1,6 +1,6 @@
 ---
 title: "Item Throw Hitbox Disable"
-abbreviation: "ITHD"
+tag: "ITHD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Arfix", "Moonrise"]
 date: "2023-06-18"

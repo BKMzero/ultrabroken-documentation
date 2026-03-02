@@ -1,6 +1,6 @@
 ---
 title: "Anti-Gravity Glitch"
-abbreviation: "AGG"
+tag: "AGG"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Kaldemar"]
 date: "2023-05-13"

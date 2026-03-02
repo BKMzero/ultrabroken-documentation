@@ -1,6 +1,6 @@
 ---
 title: "Midair Item Transmutation"
-abbreviation: "MIT"
+tag: "MIT"
 versions: ["1.1.0", "1.1.1"]
 credits: ["eXe"]
 date: "2023-05-20"

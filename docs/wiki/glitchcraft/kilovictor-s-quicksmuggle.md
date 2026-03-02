@@ -1,6 +1,6 @@
 ---
 title: "Kilovictor's quicksmuggle"
-abbreviation: "KVQS"
+tag: "KVQS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["KiloVictor"]
 date: "2024-02-23"

@@ -1,6 +1,6 @@
 ---
 title: "Recall Drop Stacking"
-abbreviation: "RDS"
+tag: "RDS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Telkic", "mulberry"]
 date: "2025-01-04"

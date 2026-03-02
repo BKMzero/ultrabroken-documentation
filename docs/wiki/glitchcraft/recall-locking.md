@@ -1,6 +1,6 @@
 ---
 title: "Recall Locking"
-abbreviation: "RL"
+tag: "RL"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Ryan?"]
 date: "2023-06-11"

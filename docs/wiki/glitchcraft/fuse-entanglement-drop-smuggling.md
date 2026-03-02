@@ -1,6 +1,6 @@
 ---
 title: "Fuse Entanglement Drop Smuggling"
-abbreviation: "FEDS"
+tag: "FEDS"
 versions: ["1.2.0"]
 credits: ["Blize", "Blackmars"]
 date: "2023-08-15"

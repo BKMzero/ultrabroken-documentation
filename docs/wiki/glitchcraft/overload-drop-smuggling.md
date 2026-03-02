@@ -1,6 +1,6 @@
 ---
 title: "Overload Drop Smuggling"
-abbreviation: "ODS"
+tag: "ODS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["ChargeVolt", "Windocks"]
 date: "2023-06-12"

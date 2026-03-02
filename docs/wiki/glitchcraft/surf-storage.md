@@ -1,6 +1,6 @@
 ---
 title: "Surf storage"
-abbreviation: "SSTR"
+tag: "SSTR"
 versions: ["1.0.0"]
 credits: ["Mozz"]
 date: "2023-09-22"

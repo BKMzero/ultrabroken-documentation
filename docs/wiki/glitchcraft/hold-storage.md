@@ -1,6 +1,6 @@
 ---
 title: "Hold Storage"
-abbreviation: "HS"
+tag: "HS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Ryan?", "NaN Gogh", "Mozz"]
 date: "2023-07-02"

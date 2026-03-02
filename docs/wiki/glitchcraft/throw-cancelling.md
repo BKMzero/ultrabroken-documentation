@@ -1,6 +1,6 @@
 ---
 title: "Throw Cancelling"
-abbreviation: "TC"
+tag: "TC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Quelfth"]
 date: "Unknown"

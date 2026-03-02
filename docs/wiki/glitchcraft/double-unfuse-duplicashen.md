@@ -1,6 +1,6 @@
 ---
 title: "Double Unfuse Duplicashen"
-abbreviation: "DUD"
+tag: "DUD"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["鯉神 (Li Shen)"]
 date: "2023-05-15"

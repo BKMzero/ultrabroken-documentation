@@ -1,6 +1,6 @@
 ---
 title: "Replacement Actor Fuse Entanglement"
-abbreviation: "RAFE"
+tag: "RAFE"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["dt13269", "mulberry"]
 date: "2024-11-09"

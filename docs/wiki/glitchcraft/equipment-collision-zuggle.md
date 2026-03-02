@@ -1,6 +1,6 @@
 ---
 title: "Equipment Collision Zuggle"
-abbreviation: "ECZ"
+tag: "ECZ"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["Zvleon"]
 date: "2023-05-16"

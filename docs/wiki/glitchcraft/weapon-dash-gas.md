@@ -1,6 +1,6 @@
 ---
 title: "Weapon Dash GAS"
-abbreviation: "WDGAS"
+tag: "WDGAS"
 versions: ["1.2.0", "1.2.1", "1.3.0", "1.4.0", "1.4.1", "1.4.2"]
 credits: ["Toti Sauce"]
 date: "2025-11-28"

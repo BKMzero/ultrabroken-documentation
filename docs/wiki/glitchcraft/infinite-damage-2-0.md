@@ -1,6 +1,6 @@
 ---
 title: "Infinite Damage 2.0"
-abbreviation: "ID2"
+tag: "ID2"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["NghtmaR3"]
 date: "2024-01-21"

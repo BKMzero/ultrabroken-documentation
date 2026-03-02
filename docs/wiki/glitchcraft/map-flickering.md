@@ -1,6 +1,6 @@
 ---
 title: "Map Flickering"
-abbreviation: "MF"
+tag: "MF"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
 credits: ["Unknown"]
 date: "Unknown"

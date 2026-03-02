@@ -1,6 +1,6 @@
 ---
 title: "Swap Resync Zuggle"
-abbreviation: "SRZ"
+tag: "SRZ"
 versions: ["1.2.0"]
 credits: ["mulberry", "MandelbrotChaylay"]
 date: "2025-08-11"

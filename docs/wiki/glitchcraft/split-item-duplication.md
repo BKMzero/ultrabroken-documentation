@@ -1,6 +1,6 @@
 ---
 title: "Split Item Duplication"
-abbreviation: "SID"
+tag: "SID"
 versions: ["1.2.0"]
 credits: ["Telkic", "mulberry", "WinnerBoi77"]
 date: "2025-06-19"

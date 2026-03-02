@@ -1,6 +1,6 @@
 ---
 title: "Super Fuse Overload"
-abbreviation: "SFO"
+tag: "SFO"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["mulberry", "Aergyl", "Jordan", "MandelbrotChaylay"]
 date: "2025-12-06"

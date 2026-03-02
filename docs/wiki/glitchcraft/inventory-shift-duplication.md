@@ -1,6 +1,6 @@
 ---
 title: "Inventory Shift Duplication"
-abbreviation: "ISD"
+tag: "ISD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Blizzard Blanc", "BigDUCCO", "Maxmasher", "pyuk", "Zas"]
 date: "2023-06-25"

@@ -1,6 +1,6 @@
 ---
 title: "Hand Locked Equipment Smuggling"
-abbreviation: "HLES"
+tag: "HLES"
 versions: ["1.0.0"]
 credits: ["Aeolian"]
 date: "2023-07-11"

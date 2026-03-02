@@ -1,6 +1,6 @@
 ---
 title: "Double Shield Desync Clip Fuse Entanglement"
-abbreviation: "DSDCFE"
+tag: "DSDCFE"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["mulberry", "Yee"]
 date: "2024-06-06"

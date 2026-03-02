@@ -1,6 +1,6 @@
 ---
 title: "Two Handed With Shield"
-abbreviation: "THWS"
+tag: "THWS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["R4000", "Bucket_Sloe"]
 date: "2023-08-21"

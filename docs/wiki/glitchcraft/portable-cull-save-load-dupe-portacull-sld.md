@@ -1,6 +1,6 @@
 ---
 title: "Portable Cull Save Load Dupe"
-abbreviation: "PSLD"
+tag: "PSLD"
 versions: ["1.2.0", "1.2.1"]
 credits: ["NghtmaR3"]
 date: "2024-07-17"

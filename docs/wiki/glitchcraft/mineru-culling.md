@@ -1,6 +1,6 @@
 ---
 title: "Mineru Culling"
-abbreviation: "MC"
+tag: "MC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Lightos"]
 date: "2023-07-31"

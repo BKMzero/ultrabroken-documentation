@@ -1,6 +1,6 @@
 ---
 title: "Guard-less Active Shield"
-abbreviation: "GAS"
+tag: "GAS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Venaticus"]
 date: "2023-06-12"

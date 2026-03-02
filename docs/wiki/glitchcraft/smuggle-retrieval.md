@@ -1,6 +1,6 @@
 ---
 title: "Smuggle Retrieval"
-abbreviation: "SRET"
+tag: "SRET"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
 credits: ["PetitFrapo"]
 date: "2024-12-18"

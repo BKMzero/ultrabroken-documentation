@@ -1,6 +1,6 @@
 ---
 title: "Mineru Persistent Save Load Object Transfer"
-abbreviation: "MPSLOT"
+tag: "MPSLOT"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
 credits: ["mulberry", "Armindo", "Emiya"]
 date: "2024-07-27"

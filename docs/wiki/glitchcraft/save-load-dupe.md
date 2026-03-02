@@ -1,6 +1,6 @@
 ---
 title: "Save Load Dupe"
-abbreviation: "SLD"
+tag: "SLD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["ZombieBoy225", "ness", "ElDuende"]
 date: "2023-05-16"

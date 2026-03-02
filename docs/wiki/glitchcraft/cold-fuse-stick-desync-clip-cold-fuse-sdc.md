@@ -1,6 +1,6 @@
 ---
 title: "Cold Fuse Stick Desync Clip"
-abbreviation: "CSSDC"
+tag: "CSSDC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["mulberry", "KiloVictor"]
 date: "2024-06-04"

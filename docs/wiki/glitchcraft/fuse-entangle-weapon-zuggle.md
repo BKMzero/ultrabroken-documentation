@@ -1,6 +1,6 @@
 ---
 title: "Fuse Entangle Weapon Zuggle"
-abbreviation: "FEWZ"
+tag: "FEWZ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Ryan?"]
 date: "2023-06-10"

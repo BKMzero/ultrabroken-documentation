@@ -1,6 +1,6 @@
 ---
 title: "Dynamic Zuggle"
-abbreviation: "DZG"
+tag: "DZG"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Lightos", "Zas", "mulberry", "WinnerBoi77", "Ryan?", "CS16"]
 date: "2023-09-06"

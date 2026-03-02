@@ -1,6 +1,6 @@
 ---
 title: "Toti Saucery"
-abbreviation: "TOTS"
+tag: "TOTS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Toti Sauce", "Telkic"]
 date: "2024-08-17"

@@ -1,6 +1,6 @@
 ---
 title: "Autobuild Duplication"
-abbreviation: "ABD"
+tag: "ABD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Unknown"]
 date: "2023-06-11"

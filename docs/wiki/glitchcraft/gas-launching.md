@@ -1,6 +1,6 @@
 ---
 title: "GAS Launching"
-abbreviation: "GASL"
+tag: "GASL"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["NX", "pyuk", "Flash", "Mozz", "Blize"]
 date: "2023-06-25"

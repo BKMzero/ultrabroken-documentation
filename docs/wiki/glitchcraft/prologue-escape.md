@@ -1,6 +1,6 @@
 ---
 title: "Prologue Escape"
-abbreviation: "PE"
+tag: "PE"
 versions: ["1.0.0"]
 credits: ["LegendofLinkk", "mulberry", "Aergyl", "Lightos", "EOH_NS_SS"]
 date: "2024-10-01"

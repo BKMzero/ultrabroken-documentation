@@ -1,6 +1,6 @@
 ---
 title: "Fall Damage Cancel"
-abbreviation: "FDC"
+tag: "FDC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Simonfirefighter"]
 date: "2023-05-23"

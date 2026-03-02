@@ -1,6 +1,6 @@
 ---
 title: "Wheel Zoomy"
-abbreviation: "WZ"
+tag: "WZ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Solo_Turtle"]
 date: "2023-07-12"

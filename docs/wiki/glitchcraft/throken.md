@@ -1,6 +1,6 @@
 ---
 title: "Throken"
-abbreviation: "THK"
+tag: "THK"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Ikaboze"]
 date: "2025-05-17"

@@ -1,6 +1,6 @@
 ---
 title: "Floorping"
-abbreviation: "FLP"
+tag: "FLP"
 versions: ["1.1.0", "1.1.1"]
 credits: ["koreth"]
 date: "2024-01-02"

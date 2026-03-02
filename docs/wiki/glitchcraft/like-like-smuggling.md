@@ -1,6 +1,6 @@
 ---
 title: "Like-Like Smuggling"
-abbreviation: "LLS"
+tag: "LLS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Mozz", "mulberry"]
 date: "2023-06-15"

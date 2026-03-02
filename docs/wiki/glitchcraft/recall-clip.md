@@ -1,6 +1,6 @@
 ---
 title: "Recall Clip"
-abbreviation: "RC"
+tag: "RC"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["こんそめ"]
 date: "2023-05-16"

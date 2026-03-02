@@ -1,6 +1,6 @@
 ---
 title: "Map Storage"
-abbreviation: "MSTR"
+tag: "MSTR"
 versions: ["1.1.0", "1.1.1"]
 credits: ["blueberryoats"]
 date: "2023-05-29"

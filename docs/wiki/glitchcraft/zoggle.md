@@ -1,6 +1,6 @@
 ---
 title: "Zoggle"
-abbreviation: "ZOG"
+tag: "ZOG"
 versions: ["1.2.0", "1.2.1"]
 credits: ["Ryan?", "Ock"]
 date: "2024-01-04"

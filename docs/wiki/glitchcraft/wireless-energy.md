@@ -1,6 +1,6 @@
 ---
 title: "Wireless Energy"
-abbreviation: "WE"
+tag: "WE"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["NaN Gogh"]
 date: "2023-07-11"

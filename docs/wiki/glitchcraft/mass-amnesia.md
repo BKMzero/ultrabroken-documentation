@@ -1,6 +1,6 @@
 ---
 title: "Mass Amnesia"
-abbreviation: "MA"
+tag: "MA"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["NaN Gogh"]
 date: "2023-08-02"

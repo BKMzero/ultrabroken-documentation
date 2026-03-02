@@ -1,6 +1,6 @@
 ---
 title: "Warp Bumping"
-abbreviation: "WB"
+tag: "WB"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Mozz", "InAMuffinCup"]
 date: "2023-06-07"

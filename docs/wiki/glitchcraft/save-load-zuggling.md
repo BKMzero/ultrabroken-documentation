@@ -1,6 +1,6 @@
 ---
 title: "Save Load Zuggling"
-abbreviation: "SLZ"
+tag: "SLZ"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["NicNac", "Flash", "BigDUCCO", "Wip long sticks enjoyer"]
 date: "2023-05-23"

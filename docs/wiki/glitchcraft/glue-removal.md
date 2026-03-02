@@ -1,6 +1,6 @@
 ---
 title: "Glue Removal"
-abbreviation: "GR"
+tag: "GR"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["R4000"]
 date: "2023-10-05"

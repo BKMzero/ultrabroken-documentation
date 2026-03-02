@@ -1,6 +1,6 @@
 ---
 title: "Infinite Balloon"
-abbreviation: "IBAL"
+tag: "IBAL"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["kurone_yuu"]
 date: "2024-06-13"

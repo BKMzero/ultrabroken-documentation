@@ -1,6 +1,6 @@
 ---
 title: "Lift Fuse Interrupt"
-abbreviation: "LFI"
+tag: "LFI"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Yee"]
 date: "2025-04-22"

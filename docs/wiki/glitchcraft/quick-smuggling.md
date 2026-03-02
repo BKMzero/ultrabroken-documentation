@@ -1,6 +1,6 @@
 ---
 title: "Quick Smuggling"
-abbreviation: "QS"
+tag: "QS"
 versions: ["1.2.0"]
 credits: ["Suishi"]
 date: "2023-07-10"

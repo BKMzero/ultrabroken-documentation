@@ -1,6 +1,6 @@
 ---
 title: "Quick Drop Smuggle"
-abbreviation: "QDS"
+tag: "QDS"
 versions: ["1.0.0"]
 credits: ["mulberry", "Zas", "Aeolian", "WinnerBoi77", "Ryan?"]
 date: "2024-03-16"

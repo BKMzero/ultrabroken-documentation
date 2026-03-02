@@ -1,6 +1,6 @@
 ---
 title: "Void Hold Storage"
-abbreviation: "VHS"
+tag: "VHS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Lightos", "nx"]
 date: "2023-07-22"

@@ -1,6 +1,6 @@
 ---
 title: "Item Save Load Transfer"
-abbreviation: "ISLT"
+tag: "ISLT"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Luckstyle"]
 date: "2023-12-22"

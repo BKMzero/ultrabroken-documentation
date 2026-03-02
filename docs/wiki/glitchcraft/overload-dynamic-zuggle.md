@@ -1,6 +1,6 @@
 ---
 title: "Overload Dynamic Zuggle"
-abbreviation: "ODZGL"
+tag: "ODZGL"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["mulberry"]
 date: "2025-05-19"

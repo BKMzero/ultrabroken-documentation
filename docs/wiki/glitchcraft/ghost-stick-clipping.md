@@ -1,6 +1,6 @@
 ---
 title: "Ghost Stick Clipping"
-abbreviation: "GSC"
+tag: "GSC"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["rocomox"]
 date: "2023-05-28"

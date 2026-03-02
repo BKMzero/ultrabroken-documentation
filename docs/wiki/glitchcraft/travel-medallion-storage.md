@@ -1,6 +1,6 @@
 ---
 title: "Travel Medallion Storage"
-abbreviation: "TMS"
+tag: "TMS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["kirigaya"]
 date: "2023-06-16"

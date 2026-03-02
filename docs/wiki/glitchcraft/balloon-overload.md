@@ -1,6 +1,6 @@
 ---
 title: "Balloon Overload"
-abbreviation: "BO"
+tag: "BO"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Jordan", "mulberry", "ofstrings2"]
 date: "2025-03-08"

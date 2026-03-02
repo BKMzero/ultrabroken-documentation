@@ -1,6 +1,6 @@
 ---
 title: "Weapon Stand Dynamic Zuggle"
-abbreviation: "WSDZ"
+tag: "WSDZ"
 versions: ["1.0.0"]
 credits: ["WinnerBoi77"]
 date: "2024-03-14"

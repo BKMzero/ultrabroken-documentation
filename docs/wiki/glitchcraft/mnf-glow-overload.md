@@ -1,6 +1,6 @@
 ---
 title: "MNF Glow Overload"
-abbreviation: "MGO"
+tag: "MGO"
 versions: ["1.0.0"]
 credits: ["Toti Sauce"]
 date: "2025-01-03"

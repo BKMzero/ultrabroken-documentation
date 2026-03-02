@@ -1,6 +1,6 @@
 ---
 title: "Cull Storage Zuggle"
-abbreviation: "CSZ"
+tag: "CSZ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["mulberry", "Blackmars"]
 date: "2024-07-18"

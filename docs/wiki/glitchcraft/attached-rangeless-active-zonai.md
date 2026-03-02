@@ -1,6 +1,6 @@
 ---
 title: "Attached Rangeless Active Zonai"
-abbreviation: "ARAZ"
+tag: "ARAZ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Ryan?", "NX"]
 date: "2023-06-16"

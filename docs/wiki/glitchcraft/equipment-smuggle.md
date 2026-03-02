@@ -1,6 +1,6 @@
 ---
 title: "Equipment Smuggle"
-abbreviation: "ESMU"
+tag: "ESMU"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["sleepyppls", "Mozz", "mulberry", "NaN Gogh"]
 date: "2023-06-01"

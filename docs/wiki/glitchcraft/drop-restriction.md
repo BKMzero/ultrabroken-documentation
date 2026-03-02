@@ -1,6 +1,6 @@
 ---
 title: "Drop Restriction"
-abbreviation: "DR"
+tag: "DR"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["SCFD-GK2", "NicNac"]
 date: "2023-06-19"

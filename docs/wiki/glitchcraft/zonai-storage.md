@@ -1,6 +1,6 @@
 ---
 title: "Zonai Storage"
-abbreviation: "ZS"
+tag: "ZS"
 versions: ["1.0.0"]
 credits: ["bebu0815"]
 date: "2023-08-13"

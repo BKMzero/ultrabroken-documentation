@@ -1,6 +1,6 @@
 ---
 title: "Pyroculling"
-abbreviation: "PYRC"
+tag: "PYRC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.2.0"]
 credits: ["ROBUXY2ND"]
 date: "2023-11-17"

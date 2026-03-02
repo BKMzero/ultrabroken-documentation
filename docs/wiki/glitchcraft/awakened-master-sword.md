@@ -1,6 +1,6 @@
 ---
 title: "Awakened Master Sword"
-abbreviation: "AMS"
+tag: "AMS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Tahata"]
 date: "2023-09-04"

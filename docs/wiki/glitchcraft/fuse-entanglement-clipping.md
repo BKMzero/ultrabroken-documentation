@@ -1,6 +1,6 @@
 ---
 title: "Fuse Entanglement Clipping"
-abbreviation: "FEC"
+tag: "FEC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["circyit"]
 date: "2023-06-16"

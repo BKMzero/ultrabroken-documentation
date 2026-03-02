@@ -1,6 +1,6 @@
 ---
 title: "Dynamic Purgatory Zuggle"
-abbreviation: "DPZ"
+tag: "DPZ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["mulberry"]
 date: "2025-02-14"

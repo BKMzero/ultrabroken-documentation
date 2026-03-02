@@ -1,6 +1,6 @@
 ---
 title: "Menu Overload"
-abbreviation: "MO"
+tag: "MO"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Mozz"]
 date: "2024-01-11"

@@ -1,6 +1,6 @@
 ---
 title: "Smuggle Stacking Zuggle"
-abbreviation: "SSZ"
+tag: "SSZ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["BigDUCCO", "LegendofLinkk", "Mozz"]
 date: "2023-06-06"

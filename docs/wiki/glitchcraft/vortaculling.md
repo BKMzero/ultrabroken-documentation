@@ -1,6 +1,6 @@
 ---
 title: "Vortaculling"
-abbreviation: "VC"
+tag: "VC"
 versions: ["1.2.0", "1.2.1+", "Switch 2"]
 credits: ["ArmindoEmiya", "ofstrings2"]
 date: "2024-09-11"

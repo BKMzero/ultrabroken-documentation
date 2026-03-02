@@ -1,6 +1,6 @@
 ---
 title: "Ultimate Pocket Rocket"
-abbreviation: "UPR"
+tag: "UPR"
 versions: ["1.0.0"]
 credits: ["Aergyl", "mulberry", "Ikaboze", "Jordan"]
 date: "2025-05-20"

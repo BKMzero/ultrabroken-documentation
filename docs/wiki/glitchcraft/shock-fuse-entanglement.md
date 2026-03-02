@@ -1,6 +1,6 @@
 ---
 title: "Shock Fuse Entanglement"
-abbreviation: "SFE"
+tag: "SFE"
 versions: ["1.0.0"]
 credits: ["Zas"]
 date: "2023-09-12"

@@ -1,6 +1,6 @@
 ---
 title: "Culling Area Fuse Storage Fuse Entanglement"
-abbreviation: "CFSFE"
+tag: "CFSFE"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["mulberry", "Yee", "Zas"]
 date: "2024-02-25"

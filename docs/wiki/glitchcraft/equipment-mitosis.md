@@ -1,6 +1,6 @@
 ---
 title: "Equipment Mitosis"
-abbreviation: "EM"
+tag: "EM"
 versions: ["1.0.0"]
 credits: ["Mozz"]
 date: "2023-09-05"

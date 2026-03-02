@@ -1,6 +1,6 @@
 ---
 title: "Memory Interrupt"
-abbreviation: "MI"
+tag: "MI"
 versions: ["1.0.0"]
 credits: ["mulberry"]
 date: "2024-10-01"

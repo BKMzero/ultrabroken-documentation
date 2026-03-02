@@ -1,6 +1,6 @@
 ---
 title: "Crouch Sprinting"
-abbreviation: "CSP"
+tag: "CSP"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Mozz"]
 date: "2023-05-14"

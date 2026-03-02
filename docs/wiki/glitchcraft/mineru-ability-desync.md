@@ -1,6 +1,6 @@
 ---
 title: "Mineru Ability Desync"
-abbreviation: "MAD"
+tag: "MAD"
 versions: ["1.1.0", "1.1.1"]
 credits: ["Sillicat"]
 date: "2023-05-30"

@@ -1,6 +1,6 @@
 ---
 title: "Modifier Deletion Weapon State Transfer"
-abbreviation: "MDWST"
+tag: "MDWST"
 versions: ["1.0.0"]
 credits: ["Zas"]
 date: "Unknown"

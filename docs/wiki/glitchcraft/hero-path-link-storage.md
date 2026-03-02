@@ -1,6 +1,6 @@
 ---
 title: "Hero Path Link Storage"
-abbreviation: "HPLS"
+tag: "HPLS"
 versions: ["1.1.0", "1.1.1", "1.1.2"]
 credits: ["Lightos"]
 date: "2023-06-20"

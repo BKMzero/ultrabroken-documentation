@@ -1,6 +1,6 @@
 ---
 title: "Minecart Rail Collision Launching"
-abbreviation: "MRCL"
+tag: "MRCL"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["そら-さん"]
 date: "2023-05-18"

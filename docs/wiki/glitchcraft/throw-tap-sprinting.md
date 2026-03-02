@@ -1,6 +1,6 @@
 ---
 title: "Throw Tap Sprinting"
-abbreviation: "TTS"
+tag: "TTS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1"]
 credits: ["Deystroyer", "Tauktes"]
 date: "2023-05-14"

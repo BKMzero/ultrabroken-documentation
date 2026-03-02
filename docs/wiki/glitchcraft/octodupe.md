@@ -1,6 +1,6 @@
 ---
 title: "Octodupe"
-abbreviation: "OD"
+tag: "OD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Unknown"]
 date: "2023-05-26"

@@ -1,6 +1,6 @@
 ---
 title: "Shock Cold Fuse"
-abbreviation: "SCF"
+tag: "SCF"
 versions: ["1.0.0"]
 credits: ["Zas"]
 date: "2023-09-11"

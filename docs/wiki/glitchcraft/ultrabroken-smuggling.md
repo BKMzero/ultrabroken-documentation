@@ -1,6 +1,6 @@
 ---
 title: "Ultrabroken Smuggling"
-abbreviation: "UBS"
+tag: "UBS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["The_Andromeda"]
 date: "2023-06-13"
