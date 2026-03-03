@@ -231,3 +231,8 @@ extra:
 
 watch:
   - docs
+
+validation:
+  nav:
+    omitted_files: ignore
+

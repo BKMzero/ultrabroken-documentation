@@ -25,7 +25,7 @@ jobs:
       - name: Restore social plugin cache (fonts + card manifest)
         uses: actions/cache@v4
         with:
-          path: .cache/plugin/social
+          path: .cache
           key: ${{ runner.os }}-social-v2-${{ github.run_id }}
           restore-keys: |
             ${{ runner.os }}-social-v2-
