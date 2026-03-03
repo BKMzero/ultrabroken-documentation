@@ -1,6 +1,7 @@
----
+﻿---
 title: "Shock Smuggle"
-tag: "SSMU"
+uid: "61Q"
+label: "SSMU"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["sleepyppls"]
 date: "2023-06-01"
@@ -9,7 +10,7 @@ aliases: ["shock-smuggle"]
 tags: ["zuggling", "item", "equipment"]
 ---
 
-# Shock Smuggle `SSMU`
+# Shock Smuggle `SSMU` `61Q`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

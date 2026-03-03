@@ -1,6 +1,7 @@
----
+﻿---
 title: "Double Unfuse Duplicashen"
-tag: "DUD"
+uid: "BSN"
+label: "DUD"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["鯉神 (Li Shen)"]
 date: "2023-05-15"
@@ -9,7 +10,7 @@ aliases: ["double unfuse", "double unfuse duplicashen", "dupe unfuse"]
 tags: ["duplication", "item", "weapon", "fuse", "arrow"]
 ---
 
-# Double Unfuse Duplicashen `DUD`
+# Double Unfuse Duplicashen `DUD` `BSN`
 `1.0.0` `1.1.0` `1.1.1`
 
 ## Summary

@@ -1,6 +1,7 @@
----
+﻿---
 title: "Dpadlock-less Invizuggle"
-tag: "DLIZ"
+uid: "MP9"
+label: "DLIZ"
 versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["mulberry", "Blackmars", "NghtmaR3"]
 date: "2024-07-17"
@@ -9,7 +10,7 @@ aliases: ["dpadlock-less-invizuggle"]
 tags: ["zuggling", "culling", "item", "equipment"]
 ---
 
-# Dpadlock-less Invizuggle `DLIZ`
+# Dpadlock-less Invizuggle `DLIZ` `MP9`
 `1.2.0` `1.2.1`
 
 ## Summary

@@ -1,6 +1,7 @@
----
+﻿---
 title: "Item Throw Hitbox Disable"
-tag: "ITHD"
+uid: "W10"
+label: "ITHD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Arfix", "Moonrise"]
 date: "2023-06-18"
@@ -9,7 +10,7 @@ aliases: ["item-throw-hitbox-disable"]
 tags: ["item", "recall", "zuggling"]
 ---
 
-# Item Throw Hitbox Disable `ITHD`
+# Item Throw Hitbox Disable `ITHD` `W10`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

@@ -1,6 +1,7 @@
----
+﻿---
 title: "Equipment Collision Zuggle"
-tag: "ECZ"
+uid: "8FK"
+label: "ECZ"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["Zvleon"]
 date: "2023-05-16"
@@ -9,7 +10,7 @@ aliases: ["equipment collision", "equipment-collision-zuggle"]
 tags: ["zuggling", "equipment", "item", "shield"]
 ---
 
-# Equipment Collision Zuggle `ECZ`
+# Equipment Collision Zuggle `ECZ` `8FK`
 `1.0.0` `1.1.0` `1.1.1`
 
 ## Summary

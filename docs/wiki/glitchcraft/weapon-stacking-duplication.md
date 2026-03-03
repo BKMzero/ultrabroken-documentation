@@ -1,6 +1,7 @@
----
+﻿---
 title: "Weapon Stacking Duplication"
-tag: "WSD"
+uid: "WP6"
+label: "WSD"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["Erling附身"]
 date: "2023-05-16"
@@ -9,7 +10,7 @@ aliases: ["weapon stacking", "stacking weapons", "weapon stacking dupe", "weapon
 tags: ["duplication", "item", "weapon", "equipment", "bow"]
 ---
 
-# Weapon Stacking Duplication `WSD`
+# Weapon Stacking Duplication `WSD` `WP6`
 `1.0.0` `1.1.0` `1.1.1`
 
 ## Summary

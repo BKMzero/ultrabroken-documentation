@@ -1,6 +1,7 @@
----
+﻿---
 title: "Camera Pose Glitch"
-tag: "CPG"
+uid: "IHC"
+label: "CPG"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Unknown"]
 date: "Unknown"
@@ -9,7 +10,7 @@ aliases: ["camera-pose-glitch"]
 tags: ["camera"]
 ---
 
-# Camera Pose Glitch `CPG`
+# Camera Pose Glitch `CPG` `IHC`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

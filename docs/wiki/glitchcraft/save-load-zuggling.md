@@ -1,6 +1,7 @@
----
+﻿---
 title: "Save Load Zuggling"
-tag: "SLZ"
+uid: "HV7"
+label: "SLZ"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["NicNac", "Flash", "BigDUCCO", "Wip long sticks enjoyer"]
 date: "2023-05-23"
@@ -9,7 +10,7 @@ aliases: ["save-load-zuggling"]
 tags: ["zuggling", "save-load", "item", "equipment"]
 ---
 
-# Save Load Zuggling `SLZ`
+# Save Load Zuggling `SLZ` `HV7`
 `1.0.0` `1.1.0` `1.1.1`
 
 ## Summary

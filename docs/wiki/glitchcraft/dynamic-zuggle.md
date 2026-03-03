@@ -1,6 +1,7 @@
----
+﻿---
 title: "Dynamic Zuggle"
-tag: "DZG"
+uid: "CNV"
+label: "DZG"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Lightos", "Zas", "mulberry", "WinnerBoi77", "Ryan?", "CS16"]
 date: "2023-09-06"
@@ -9,7 +10,7 @@ aliases: ["dynamic-zuggle"]
 tags: ["zuggling", "item", "equipment"]
 ---
 
-# Dynamic Zuggle `DZG`
+# Dynamic Zuggle `DZG` `CNV`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

@@ -1,6 +1,7 @@
----
+﻿---
 title: "Bow Attachment Storage"
-tag: "BAS"
+uid: "V84"
+label: "BAS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["WinnerBoi77"]
 date: "2023-12-03"
@@ -9,7 +10,7 @@ aliases: ["bow-attachment-storage"]
 tags: ["storage", "item", "fuse", "bow"]
 ---
 
-# Bow Attachment Storage `BAS`
+# Bow Attachment Storage `BAS` `V84`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

@@ -1,6 +1,7 @@
----
+﻿---
 title: "Stack Splitting"
-tag: "SSPL"
+uid: "WFM"
+label: "SSPL"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
 credits: ["s0ft", "Telkic", "mulberry"]
 date: "2024-12-31"
@@ -9,7 +10,7 @@ aliases: ["stack-splitting"]
 tags: ["item", "fuse", "arrow"]
 ---
 
-# Stack Splitting `SSPL`
+# Stack Splitting `SSPL` `WFM`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1+`
 
 ## Summary

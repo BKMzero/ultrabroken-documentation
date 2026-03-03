@@ -1,6 +1,7 @@
----
+﻿---
 title: "Lift Smuggle"
-tag: "LSMU"
+uid: "46A"
+label: "LSMU"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Blackmars", "Lightos_"]
 date: "2024-02-03"
@@ -9,7 +10,7 @@ aliases: ["lift-smuggle"]
 tags: ["zuggling", "item", "equipment"]
 ---
 
-# Lift Smuggle `LSMU`
+# Lift Smuggle `LSMU` `46A`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

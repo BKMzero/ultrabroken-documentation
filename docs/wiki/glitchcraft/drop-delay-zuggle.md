@@ -1,6 +1,7 @@
----
+﻿---
 title: "Drop Delay Zuggle"
-tag: "DDZ"
+uid: "BX1"
+label: "DDZ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["LegendofLinkk"]
 date: "2023-06-06"
@@ -9,7 +10,7 @@ aliases: ["drop-delay-zuggle"]
 tags: ["zuggling", "item", "equipment"]
 ---
 
-# Drop Delay Zuggle `DDZ`
+# Drop Delay Zuggle `DDZ` `BX1`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

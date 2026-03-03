@@ -1,6 +1,7 @@
----
+﻿---
 title: "Message Not Found"
-tag: "MNF"
+uid: "056"
+label: "MNF"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["LegendofLinkk", "Abahbob"]
 date: "2023-05-17"
@@ -9,7 +10,7 @@ aliases: ["message not found", "message not found error", "message-not-found"]
 tags: ["mnf"]
 ---
 
-# Message Not Found `MNF`
+# Message Not Found `MNF` `056`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

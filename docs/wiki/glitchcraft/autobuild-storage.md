@@ -1,6 +1,7 @@
----
+﻿---
 title: "Autobuild Storage"
-tag: "ABST"
+uid: "W0E"
+label: "ABST"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Blackmars", "R4000"]
 date: "2023-08-28"
@@ -9,7 +10,7 @@ aliases: ["autobuild-storage"]
 tags: ["storage", "item", "autobuild"]
 ---
 
-# Autobuild Storage `ABST`
+# Autobuild Storage `ABST` `W0E`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

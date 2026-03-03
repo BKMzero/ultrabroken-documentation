@@ -1,6 +1,7 @@
----
+﻿---
 title: "Animation Swap"
-tag: "ASWP"
+uid: "S3L"
+label: "ASWP"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Swinginman"]
 date: "2023-05-17"
@@ -9,7 +10,7 @@ aliases: []
 tags: ["zuggling", "animation", "overload"]
 ---
 
-# Animation Swap `ASWP`
+# Animation Swap `ASWP` `S3L`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

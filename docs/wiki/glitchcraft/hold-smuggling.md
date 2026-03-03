@@ -1,6 +1,7 @@
----
+﻿---
 title: "Hold Smuggling"
-tag: "HSM"
+uid: "DHQ"
+label: "HSM"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Mozz", "NaN Gogh"]
 date: "2023-07-04"
@@ -9,7 +10,7 @@ aliases: ["hold-smuggling"]
 tags: ["zuggling", "menu", "item", "equipment"]
 ---
 
-# Hold Smuggling `HSM`
+# Hold Smuggling `HSM` `DHQ`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

@@ -1,6 +1,7 @@
----
+﻿---
 title: "New Item Desync"
-tag: "NID"
+uid: "MRB"
+label: "NID"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Modoki_returns"]
 date: "2023-05-12"
@@ -9,7 +10,7 @@ aliases: ["new-item-desync"]
 tags: ["duplication", "desync", "menu", "item", "equipment", "fuse"]
 ---
 
-# New Item Desync `NID`
+# New Item Desync `NID` `MRB`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

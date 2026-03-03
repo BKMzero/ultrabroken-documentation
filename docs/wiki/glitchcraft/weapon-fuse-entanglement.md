@@ -1,6 +1,7 @@
----
+﻿---
 title: "Weapon Fuse Entangelemt"
-tag: "WFE"
+uid: "JOY"
+label: "WFE"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["ROBUXY2ND", "Physioninja"]
 date: "2023-06-01"
@@ -9,7 +10,7 @@ aliases: ["weapon-fe", "weapon fe"]
 tags: ["weapon"]
 ---
 
-# Weapon Fuse Entangelemt `WFE`
+# Weapon Fuse Entangelemt `WFE` `JOY`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

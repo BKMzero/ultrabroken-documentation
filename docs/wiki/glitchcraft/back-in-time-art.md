@@ -1,6 +1,7 @@
----
+﻿---
 title: "Back-in-Time Art"
-tag: "BIT"
+uid: "4O8"
+label: "BIT"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["R4000", "Zas"]
 date: "2023-06-18"
@@ -9,7 +10,7 @@ aliases: ["back-in-time-art"]
 tags: ["save-load"]
 ---
 
-# Back-in-Time Art `BIT`
+# Back-in-Time Art `BIT` `4O8`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

@@ -1,6 +1,7 @@
----
+﻿---
 title: "Zonai Sort Duplication"
-tag: "ZSD"
+uid: "KVB"
+label: "ZSD"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["Quelfth", "Flash"]
 date: "2023-05-22"
@@ -9,7 +10,7 @@ aliases: ["zonai-sort-duplication"]
 tags: ["duplication", "menu", "zonai"]
 ---
 
-# Zonai Sort Duplication `ZSD`
+# Zonai Sort Duplication `ZSD` `KVB`
 `1.0.0` `1.1.0` `1.1.1`
 
 ## Summary

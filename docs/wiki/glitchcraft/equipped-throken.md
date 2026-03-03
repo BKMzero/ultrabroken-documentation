@@ -1,6 +1,7 @@
----
+﻿---
 title: "Equipped Throken"
-tag: "ETHK"
+uid: "6UC"
+label: "ETHK"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Aergyl", "mulberry"]
 date: "2025-05-20"
@@ -9,7 +10,7 @@ aliases: ["equipped-throken"]
 tags: ["weapon", "equipment", "shield", "zuggling"]
 ---
 
-# Equipped Throken `ETHK`
+# Equipped Throken `ETHK` `6UC`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

@@ -1,6 +1,7 @@
----
+﻿---
 title: "Crouch Sprinting"
-tag: "CSP"
+uid: "5IP"
+label: "CSP"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Mozz"]
 date: "2023-05-14"
@@ -9,7 +10,7 @@ aliases: ["crouch sprint", "crouch-sprint", "crouch-sprinting"]
 tags: ["sprinting"]
 ---
 
-# Crouch Sprinting `CSP`
+# Crouch Sprinting `CSP` `5IP`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

@@ -1,6 +1,7 @@
----
+﻿---
 title: "Ultrabroken Smuggling"
-tag: "UBS"
+uid: "RQB"
+label: "UBS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["The_Andromeda"]
 date: "2023-06-13"
@@ -9,7 +10,7 @@ aliases: ["ultrabroken-smuggling"]
 tags: ["zuggling", "equipment", "ultrahand", "shield"]
 ---
 
-# Ultrabroken Smuggling `UBS`
+# Ultrabroken Smuggling `UBS` `RQB`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

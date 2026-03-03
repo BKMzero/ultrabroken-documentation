@@ -1,6 +1,7 @@
----
+﻿---
 title: "Inventory Shift Duplication"
-tag: "ISD"
+uid: "12S"
+label: "ISD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Blizzard Blanc", "BigDUCCO", "Maxmasher", "pyuk", "Zas"]
 date: "2023-06-25"
@@ -9,7 +10,7 @@ aliases: ["inventory-shift-duplication"]
 tags: ["duplication", "menu", "item"]
 ---
 
-# Inventory Shift Duplication `ISD`
+# Inventory Shift Duplication `ISD` `12S`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

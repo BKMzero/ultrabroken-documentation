@@ -1,6 +1,7 @@
----
+﻿---
 title: "Hand Locked Equipment Smuggling"
-tag: "HLES"
+uid: "XK9"
+label: "HLES"
 versions: ["1.0.0"]
 credits: ["Aeolian"]
 date: "2023-07-11"
@@ -9,7 +10,7 @@ aliases: ["hand-locked-equipment-smuggling"]
 tags: ["zuggling", "equipment", "item", "shield"]
 ---
 
-# Hand Locked Equipment Smuggling `HLES`
+# Hand Locked Equipment Smuggling `HLES` `XK9`
 `1.0.0`
 
 ## Summary

@@ -1,6 +1,7 @@
----
+﻿---
 title: "Cull Fuse Entanglement"
-tag: "CFE"
+uid: "7VW"
+label: "CFE"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["ultrababouin", "suusi", "Ock", "SteFen45"]
 date: "2023-09-21"
@@ -9,7 +10,7 @@ aliases: ["cull-fuse-entanglement"]
 tags: ["entanglement", "culling", "fuse"]
 ---
 
-# Cull Fuse Entanglement `CFE`
+# Cull Fuse Entanglement `CFE` `7VW`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

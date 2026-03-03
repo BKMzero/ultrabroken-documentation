@@ -1,6 +1,7 @@
----
+﻿---
 title: "Mount Lock"
-tag: "ML"
+uid: "540"
+label: "ML"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Physioninja"]
 date: "2023-05-21"
@@ -9,7 +10,7 @@ aliases: ["mount-lock"]
 tags: ["ultrahand"]
 ---
 
-# Mount Lock `ML`
+# Mount Lock `ML` `540`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

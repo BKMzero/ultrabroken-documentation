@@ -1,6 +1,7 @@
----
+﻿---
 title: "Equipment Mitosis"
-tag: "EM"
+uid: "NZB"
+label: "EM"
 versions: ["1.0.0"]
 credits: ["Mozz"]
 date: "2023-09-05"
@@ -9,7 +10,7 @@ aliases: ["equipment-mitosis"]
 tags: ["duplication", "zuggling", "equipment", "overload"]
 ---
 
-# Equipment Mitosis `EM`
+# Equipment Mitosis `EM` `NZB`
 `1.0.0`
 
 ## Summary

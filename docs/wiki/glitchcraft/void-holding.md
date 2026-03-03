@@ -1,6 +1,7 @@
----
+﻿---
 title: "Void Holding"
-tag: "VH"
+uid: "0FD"
+label: "VH"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Lightos"]
 date: "2023-06-10"
@@ -9,7 +10,7 @@ aliases: ["void-holding"]
 tags: ["item"]
 ---
 
-# Void Holding `VH`
+# Void Holding `VH` `0FD`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

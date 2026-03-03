@@ -1,6 +1,7 @@
----
+﻿---
 title: "Cull Cold Fuse"
-tag: "CCF"
+uid: "KXM"
+label: "CCF"
 versions: ["Unknown"]
 credits: ["mulberry"]
 date: "2024-02-01"
@@ -9,7 +10,7 @@ aliases: ["cull-cold-fuse"]
 tags: ["weapon", "culling", "ultrahand", "fuse"]
 ---
 
-# Cull Cold Fuse `CCF`
+# Cull Cold Fuse `CCF` `KXM`
 _mulberry - 1 February 2024_
 
 ## Summary

@@ -1,6 +1,7 @@
----
+﻿---
 title: "Like-Like Drop Smuggling"
-tag: "LLDS"
+uid: "6GR"
+label: "LLDS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Mozz", "mulberry"]
 date: "2023-06-15"
@@ -9,7 +10,7 @@ aliases: ["like-like-drop-smuggling"]
 tags: ["zuggling", "item", "like-like"]
 ---
 
-# Like-Like Drop Smuggling `LLDS`
+# Like-Like Drop Smuggling `LLDS` `6GR`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

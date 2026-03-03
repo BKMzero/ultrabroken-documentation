@@ -1,6 +1,7 @@
----
+﻿---
 title: "Throwless Storage"
-tag: "THS"
+uid: "OL9"
+label: "THS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
 credits: ["evilgabe", "nx"]
 date: "2023-06-19"
@@ -9,7 +10,7 @@ aliases: ["throwless-storage"]
 tags: ["storage", "zonai"]
 ---
 
-# Throwless Storage `THS`
+# Throwless Storage `THS` `OL9`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0`
 
 ## Summary

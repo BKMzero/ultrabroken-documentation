@@ -1,6 +1,7 @@
----
+﻿---
 title: "Ultimate Pocket Rocket"
-tag: "UPR"
+uid: "05N"
+label: "UPR"
 versions: ["1.0.0"]
 credits: ["Aergyl", "mulberry", "Ikaboze", "Jordan"]
 date: "2025-05-20"
@@ -9,7 +10,7 @@ aliases: ["ultimate-pocket-rocket"]
 tags: ["launching", "warping", "ultrahand"]
 ---
 
-# Ultimate Pocket Rocket `UPR`
+# Ultimate Pocket Rocket `UPR` `05N`
 `1.0.0`
 
 ## Summary

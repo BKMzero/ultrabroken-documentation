@@ -1,6 +1,7 @@
----
+﻿---
 title: "Hero Path Link Storage"
-tag: "HPLS"
+uid: "YIS"
+label: "HPLS"
 versions: ["1.1.0", "1.1.1", "1.1.2"]
 credits: ["Lightos"]
 date: "2023-06-20"
@@ -9,7 +10,7 @@ aliases: ["hero-path-link-storage"]
 tags: ["storage"]
 ---
 
-# Hero Path Link Storage `HPLS`
+# Hero Path Link Storage `HPLS` `YIS`
 `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

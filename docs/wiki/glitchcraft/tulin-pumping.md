@@ -1,6 +1,7 @@
----
+﻿---
 title: "Tulin Pumping"
-tag: "TP"
+uid: "75S"
+label: "TP"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Ikkitrix"]
 date: "2023-05-14"
@@ -9,7 +10,7 @@ aliases: ["pump tulin", "tulin pump", "tulin-pump", "tulin-pumping", "tulinpump"
 tags: ["tulin"]
 ---
 
-# Tulin Pumping `TP`
+# Tulin Pumping `TP` `75S`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

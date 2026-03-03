@@ -1,6 +1,7 @@
----
+﻿---
 title: "Mineru Aim Permanence"
-tag: "MAIP"
+uid: "A4S"
+label: "MAIP"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Unknown"]
 date: "Unknown"
@@ -9,7 +10,7 @@ aliases: ["mineru-aim-permanence"]
 tags: ["mineru"]
 ---
 
-# Mineru Aim Permanence `MAIP`
+# Mineru Aim Permanence `MAIP` `A4S`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

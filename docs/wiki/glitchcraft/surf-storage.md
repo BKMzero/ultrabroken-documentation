@@ -1,6 +1,7 @@
----
+﻿---
 title: "Surf storage"
-tag: "SSTR"
+uid: "ARP"
+label: "SSTR"
 versions: ["1.0.0"]
 credits: ["Mozz"]
 date: "2023-09-22"
@@ -9,7 +10,7 @@ aliases: ["surf-storage"]
 tags: ["storage"]
 ---
 
-# Surf storage `SSTR`
+# Surf storage `SSTR` `ARP`
 `1.0.0`
 
 ## Summary

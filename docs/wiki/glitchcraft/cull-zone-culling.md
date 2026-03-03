@@ -1,6 +1,7 @@
----
+﻿---
 title: "Cull Zone Culling"
-tag: "CZC"
+uid: "RID"
+label: "CZC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Mozz"]
 date: "2023-06-27"
@@ -9,7 +10,7 @@ aliases: ["cull-zone-culling"]
 tags: ["culling"]
 ---
 
-# Cull Zone Culling `CZC`
+# Cull Zone Culling `CZC` `RID`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

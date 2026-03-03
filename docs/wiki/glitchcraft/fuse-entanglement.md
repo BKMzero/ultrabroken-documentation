@@ -1,6 +1,7 @@
----
+﻿---
 title: "Fuse Entanglement"
-tag: "FE"
+uid: "K4F"
+label: "FE"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Physioninja"]
 date: "2023-05-24"
@@ -9,7 +10,7 @@ aliases: ["fuse-entanglement"]
 tags: ["equipment", "entanglement", "fuse", "shield"]
 ---
 
-# Fuse Entanglement `FE`
+# Fuse Entanglement `FE` `K4F`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

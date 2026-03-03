@@ -1,6 +1,7 @@
----
+﻿---
 title: "Shock Effect Overload"
-tag: "SEO"
+uid: "X5Y"
+label: "SEO"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["nx", "R4000"]
 date: "2023-07-26"
@@ -9,7 +10,7 @@ aliases: ["shock-effect-overload"]
 tags: ["overload"]
 ---
 
-# Shock Effect Overload `SEO`
+# Shock Effect Overload `SEO` `X5Y`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

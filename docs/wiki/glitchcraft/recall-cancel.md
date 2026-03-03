@@ -1,6 +1,7 @@
----
+﻿---
 title: "Recall Cancel"
-tag: "RCC"
+uid: "CC5"
+label: "RCC"
 versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["R4000"]
 date: "2023-07-20"
@@ -9,7 +10,7 @@ aliases: ["recall-cancel"]
 tags: ["animation", "item", "recall"]
 ---
 
-# Recall Cancel `RCC`
+# Recall Cancel `RCC` `CC5`
 `1.2.0` `1.2.1`
 
 ## Summary

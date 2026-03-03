@@ -1,6 +1,7 @@
----
+﻿---
 title: "Back to Back Bloodmoon"
-tag: "BTBB"
+uid: "DDB"
+label: "BTBB"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Lopitty"]
 date: "2023-05-17"
@@ -9,7 +10,7 @@ aliases: ["back-to-back bloodmoon", "btb bloodmoon"]
 tags: ["bloodmoon"]
 ---
 
-# Back to Back Bloodmoon `BTBB`
+# Back to Back Bloodmoon `BTBB` `DDB`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

@@ -1,6 +1,7 @@
----
+﻿---
 title: "Balloon Overload"
-tag: "BO"
+uid: "S6U"
+label: "BO"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Jordan", "mulberry", "ofstrings2"]
 date: "2025-03-08"
@@ -9,7 +10,7 @@ aliases: ["balloon-overload"]
 tags: ["menu", "equipment", "overload", "fuse", "shield"]
 ---
 
-# Balloon Overload `BO`
+# Balloon Overload `BO` `S6U`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

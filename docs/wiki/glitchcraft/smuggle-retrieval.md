@@ -1,6 +1,7 @@
----
+﻿---
 title: "Smuggle Retrieval"
-tag: "SRET"
+uid: "S3N"
+label: "SRET"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
 credits: ["PetitFrapo"]
 date: "2024-12-18"
@@ -9,7 +10,7 @@ aliases: ["smuggle-retrieval"]
 tags: ["zuggling", "item", "equipment", "culling"]
 ---
 
-# Smuggle Retrieval `SRET`
+# Smuggle Retrieval `SRET` `S3N`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1+`
 
 ## Summary

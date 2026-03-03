@@ -1,6 +1,7 @@
----
+﻿---
 title: "Infinite Damage"
-tag: "IDMG"
+uid: "BVJ"
+label: "IDMG"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["GamSla341"]
 date: "2023-05-13"
@@ -9,7 +10,7 @@ aliases: ["infinite dmg", "infinite hp damage", "infinite-damage"]
 tags: ["damage"]
 ---
 
-# Infinite Damage `IDMG`
+# Infinite Damage `IDMG` `BVJ`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

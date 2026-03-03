@@ -1,6 +1,7 @@
----
+﻿---
 title: "Smuggle Stacking Zuggle"
-tag: "SSZ"
+uid: "DN4"
+label: "SSZ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["BigDUCCO", "LegendofLinkk", "Mozz"]
 date: "2023-06-06"
@@ -9,7 +10,7 @@ aliases: ["zuggle stacking", "zuggle stack", "smuggle-stacking-zuggle"]
 tags: ["zuggling", "item", "equipment", "shield", "bow"]
 ---
 
-# Smuggle Stacking Zuggle `SSZ`
+# Smuggle Stacking Zuggle `SSZ` `DN4`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

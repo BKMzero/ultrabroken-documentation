@@ -1,6 +1,7 @@
----
+﻿---
 title: "Weapon Sheath Offset"
-tag: "WSO"
+uid: "MC8"
+label: "WSO"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["circyit", "dash"]
 date: "2023-06-25"
@@ -9,7 +10,7 @@ aliases: ["weapon-sheath-offset"]
 tags: ["zuggling", "weapon", "overload"]
 ---
 
-# Weapon Sheath Offset `WSO`
+# Weapon Sheath Offset `WSO` `MC8`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

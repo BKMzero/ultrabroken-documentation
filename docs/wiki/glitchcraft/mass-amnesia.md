@@ -1,6 +1,7 @@
----
+﻿---
 title: "Mass Amnesia"
-tag: "MA"
+uid: "MLG"
+label: "MA"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["NaN Gogh"]
 date: "2023-08-02"
@@ -9,7 +10,7 @@ aliases: ["mass-amnesia"]
 tags: ["Unknown"]
 ---
 
-# Mass Amnesia `MA`
+# Mass Amnesia `MA` `MLG`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

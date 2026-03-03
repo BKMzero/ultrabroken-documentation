@@ -1,6 +1,7 @@
----
+﻿---
 title: "Zonai Storage"
-tag: "ZS"
+uid: "Y81"
+label: "ZS"
 versions: ["1.0.0"]
 credits: ["bebu0815"]
 date: "2023-08-13"
@@ -9,7 +10,7 @@ aliases: ["zonai-storage"]
 tags: ["storage", "zonai"]
 ---
 
-# Zonai Storage `ZS`
+# Zonai Storage `ZS` `Y81`
 `1.0.0`
 
 ## Summary

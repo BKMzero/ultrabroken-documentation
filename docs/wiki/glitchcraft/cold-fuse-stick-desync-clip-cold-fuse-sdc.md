@@ -1,6 +1,7 @@
----
+﻿---
 title: "Cold Fuse Stick Desync Clip"
-tag: "CSSDC"
+uid: "43H"
+label: "CSSDC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["mulberry", "KiloVictor"]
 date: "2024-06-04"
@@ -9,7 +10,7 @@ aliases: ["cold-fuse-stick-desync-clip"]
 tags: ["clipping", "desync", "weapon", "fuse"]
 ---
 
-# Cold Fuse Stick Desync Clip `CSSDC`
+# Cold Fuse Stick Desync Clip `CSSDC` `43H`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

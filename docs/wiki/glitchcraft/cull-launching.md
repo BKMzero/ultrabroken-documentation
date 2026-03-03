@@ -1,6 +1,7 @@
----
+﻿---
 title: "Cull Launching"
-tag: "CL"
+uid: "BKZ"
+label: "CL"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Asgorne"]
 date: "2023-07-01"
@@ -9,7 +10,7 @@ aliases: ["cull-launching"]
 tags: ["launching", "culling"]
 ---
 
-# Cull Launching `CL`
+# Cull Launching `CL` `BKZ`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

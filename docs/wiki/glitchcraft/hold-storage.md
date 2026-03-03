@@ -1,6 +1,7 @@
----
+﻿---
 title: "Hold Storage"
-tag: "HS"
+uid: "FQ7"
+label: "HS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Ryan?", "NaN Gogh", "Mozz"]
 date: "2023-07-02"
@@ -9,7 +10,7 @@ aliases: ["hold-storage"]
 tags: ["storage", "desync", "item"]
 ---
 
-# Hold Storage `HS`
+# Hold Storage `HS` `FQ7`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

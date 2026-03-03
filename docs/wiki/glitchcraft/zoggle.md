@@ -1,6 +1,7 @@
----
+﻿---
 title: "Zoggle"
-tag: "ZOG"
+uid: "9UF"
+label: "ZOG"
 versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Ryan?", "Ock"]
 date: "2024-01-04"
@@ -9,7 +10,7 @@ aliases: []
 tags: ["zuggling", "ultrahand", "item", "equipment"]
 ---
 
-# Zoggle `ZOG`
+# Zoggle `ZOG` `9UF`
 `1.2.0` `1.2.1`
 
 ## Summary

@@ -1,6 +1,7 @@
----
+﻿---
 title: "Map Zuggling"
-tag: "MZ"
+uid: "D55"
+label: "MZ"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["BigDUCCO"]
 date: "2023-05-23"
@@ -9,7 +10,7 @@ aliases: ["map-zuggling"]
 tags: ["zuggling", "map", "item", "equipment"]
 ---
 
-# Map Zuggling `MZ`
+# Map Zuggling `MZ` `D55`
 `1.0.0` `1.1.0` `1.1.1`
 
 ## Summary

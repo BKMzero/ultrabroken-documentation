@@ -1,6 +1,7 @@
----
+﻿---
 title: "Pocket Rocket"
-tag: "PR"
+uid: "1OP"
+label: "PR"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Mozz", "SmallAnt"]
 date: "2023-06-15"
@@ -9,7 +10,7 @@ aliases: ["pocket-rocket"]
 tags: ["launching", "equipment", "paraglide", "shield"]
 ---
 
-# Pocket Rocket `PR`
+# Pocket Rocket `PR` `1OP`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

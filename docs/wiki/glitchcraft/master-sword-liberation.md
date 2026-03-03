@@ -1,6 +1,7 @@
----
+﻿---
 title: "Master Sword Liberation"
-tag: "MSL"
+uid: "IK1"
+label: "MSL"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Ock", "mulberry"]
 date: "2023-11-11"
@@ -9,7 +10,7 @@ aliases: ["master-sword-liberation"]
 tags: ["duplication", "weapon"]
 ---
 
-# Master Sword Liberation `MSL`
+# Master Sword Liberation `MSL` `IK1`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

@@ -1,6 +1,7 @@
----
+﻿---
 title: "Display Duping"
-tag: "DD"
+uid: "RQ7"
+label: "DD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Pistonight"]
 date: "2023-05-27"
@@ -9,7 +10,7 @@ aliases: ["display-duping"]
 tags: ["duplication", "equipment", "shield", "zuggling"]
 ---
 
-# Display Duping `DD`
+# Display Duping `DD` `RQ7`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

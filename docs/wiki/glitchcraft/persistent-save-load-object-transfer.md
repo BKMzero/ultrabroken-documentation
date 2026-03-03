@@ -1,6 +1,7 @@
----
+﻿---
 title: "Persistent Save Load Object Transfer"
-tag: "PSLOT"
+uid: "BOF"
+label: "PSLOT"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["mulberry"]
 date: "2024-01-25"
@@ -9,7 +10,7 @@ aliases: ["save load dupe", "save/load dupe"]
 tags: ["culling", "save-load", "ultrahand"]
 ---
 
-# Persistent Save Load Object Transfer `PSLOT`
+# Persistent Save Load Object Transfer `PSLOT` `BOF`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

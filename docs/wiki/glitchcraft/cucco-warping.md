@@ -1,6 +1,7 @@
----
+﻿---
 title: "Cucco Warping"
-tag: "CW"
+uid: "0EL"
+label: "CW"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["orionsayshi"]
 date: "2023-07-23"
@@ -9,7 +10,7 @@ aliases: ["cucco-warping"]
 tags: ["warping"]
 ---
 
-# Cucco Warping `CW`
+# Cucco Warping `CW` `0EL`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

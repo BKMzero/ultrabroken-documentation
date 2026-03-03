@@ -1,6 +1,7 @@
----
+﻿---
 title: "Purgatory Save Load Dupe"
-tag: "PGSLD"
+uid: "EYH"
+label: "PGSLD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["mulberry"]
 date: "2024-02-11"
@@ -9,7 +10,7 @@ aliases: ["purgatory-save-load-dupe"]
 tags: ["duplication", "equipment", "save-load", "ultrahand"]
 ---
 
-# Purgatory Save Load Dupe `PGSLD`
+# Purgatory Save Load Dupe `PGSLD` `EYH`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

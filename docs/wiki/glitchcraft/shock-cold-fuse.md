@@ -1,6 +1,7 @@
----
+﻿---
 title: "Shock Cold Fuse"
-tag: "SCF"
+uid: "EKY"
+label: "SCF"
 versions: ["1.0.0"]
 credits: ["Zas"]
 date: "2023-09-11"
@@ -9,7 +10,7 @@ aliases: ["shock-cold-fuse"]
 tags: ["weapon", "fuse"]
 ---
 
-# Shock Cold Fuse `SCF`
+# Shock Cold Fuse `SCF` `EKY`
 `1.0.0`
 
 ## Summary

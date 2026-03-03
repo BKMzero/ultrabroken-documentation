@@ -1,6 +1,7 @@
----
+﻿---
 title: "Sage Madness"
-tag: "SM"
+uid: "I6X"
+label: "SM"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Aci"]
 date: "2023-07-18"
@@ -9,7 +10,7 @@ aliases: ["sage-madness"]
 tags: ["camera"]
 ---
 
-# Sage Madness `SM`
+# Sage Madness `SM` `I6X`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

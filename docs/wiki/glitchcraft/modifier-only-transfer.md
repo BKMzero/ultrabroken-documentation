@@ -1,6 +1,7 @@
----
+﻿---
 title: "Modifier ONLY Transfer"
-tag: "MOT"
+uid: "DUS"
+label: "MOT"
 versions: ["1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["kurocat471", "BigDUCCO"]
 date: "2023-06-09"
@@ -9,7 +10,7 @@ aliases: ["modifier-only-transfer"]
 tags: ["weapon"]
 ---
 
-# Modifier ONLY Transfer `MOT`
+# Modifier ONLY Transfer `MOT` `DUS`
 `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

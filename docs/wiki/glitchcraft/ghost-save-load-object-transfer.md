@@ -1,6 +1,7 @@
----
+﻿---
 title: "Ghost Save Load Object Transfer"
-tag: "GSLOT"
+uid: "WLM"
+label: "GSLOT"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Aergyl"]
 date: "2024-03-08"
@@ -9,7 +10,7 @@ aliases: ["ghost-save-load-object-transfer"]
 tags: ["save-load", "fuse"]
 ---
 
-# Ghost Save Load Object Transfer `GSLOT`
+# Ghost Save Load Object Transfer `GSLOT` `WLM`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

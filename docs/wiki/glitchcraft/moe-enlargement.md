@@ -1,6 +1,7 @@
----
+﻿---
 title: "Moe Enlargement"
-tag: "ME"
+uid: "DNU"
+label: "ME"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Toti Sauce", "PetitFrapo", "Jordan"]
 date: "2024-10-30"
@@ -9,7 +10,7 @@ aliases: ["object-(moe)-enlargement", "moe-enlargement", "object-enlargement"]
 tags: ["ultrahand"]
 ---
 
-# Moe Enlargement `ME`
+# Moe Enlargement `ME` `DNU`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

@@ -1,6 +1,7 @@
----
+﻿---
 title: "Wacko Attacko"
-tag: "WATK"
+uid: "O31"
+label: "WATK"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["NghtmaR3", "WinnerBoi77"]
 date: "2024-01-21"
@@ -9,7 +10,7 @@ aliases: ["wacko-attacko"]
 tags: ["animation"]
 ---
 
-# Wacko Attacko `WATK`
+# Wacko Attacko `WATK` `O31`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

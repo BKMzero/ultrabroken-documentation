@@ -1,6 +1,7 @@
----
+﻿---
 title: "Dive Cancel Glide Boost"
-tag: "DCGB"
+uid: "80I"
+label: "DCGB"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["kurocat471", "Mety333"]
 date: "2023-05-14"
@@ -9,7 +10,7 @@ aliases: ["dive cancel", "dive cancel gliding", "dive cancel glide", "glide boos
 tags: ["animation", "paraglide"]
 ---
 
-# Dive Cancel Glide Boost `DCGB`
+# Dive Cancel Glide Boost `DCGB` `80I`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

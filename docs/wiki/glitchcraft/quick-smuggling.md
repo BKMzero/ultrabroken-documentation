@@ -1,6 +1,7 @@
----
+﻿---
 title: "Quick Smuggling"
-tag: "QS"
+uid: "2D4"
+label: "QS"
 versions: ["1.2.0"]
 credits: ["Suishi"]
 date: "2023-07-10"
@@ -9,7 +10,7 @@ aliases: ["quick-smuggling"]
 tags: ["zuggling", "equipment", "arrow"]
 ---
 
-# Quick Smuggling `QS`
+# Quick Smuggling `QS` `2D4`
 `1.2.0`
 
 ## Summary

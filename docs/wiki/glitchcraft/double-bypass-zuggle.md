@@ -1,6 +1,7 @@
----
+﻿---
 title: "Double Bypass Zuggle"
-tag: "DBZ"
+uid: "QXN"
+label: "DBZ"
 versions: ["1.2.0"]
 credits: ["mulberry", "dt13269"]
 date: "2025-06-16"
@@ -9,7 +10,7 @@ aliases: ["double-bypass-zuggle"]
 tags: ["zuggling", "item", "culling", "ultrahand"]
 ---
 
-# Double Bypass Zuggle `DBZ`
+# Double Bypass Zuggle `DBZ` `QXN`
 `1.2.0` `1.2.1+`
 
 ## Summary

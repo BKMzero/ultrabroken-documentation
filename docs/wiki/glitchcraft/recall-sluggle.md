@@ -1,6 +1,7 @@
----
+﻿---
 title: "Recall Sluggle"
-tag: "RSL"
+uid: "WXE"
+label: "RSL"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["WinnerBoi77"]
 date: "2025-07-12"
@@ -9,7 +10,7 @@ aliases: ["recall-sluggle"]
 tags: ["zuggling", "menu", "recall"]
 ---
 
-# Recall Sluggle `RSL`
+# Recall Sluggle `RSL` `WXE`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

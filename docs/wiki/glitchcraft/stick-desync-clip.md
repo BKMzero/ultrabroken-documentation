@@ -1,6 +1,7 @@
----
+﻿---
 title: "Stick Desync Clip"
-tag: "SDC"
+uid: "L54"
+label: "SDC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["NaN Gogh", "DisguisedMoth"]
 date: "2023-07-01"
@@ -9,7 +10,7 @@ aliases: ["stick-desync-clip"]
 tags: ["clipping", "desync", "item", "equipment", "fuse", "shield"]
 ---
 
-# Stick Desync Clip `SDC`
+# Stick Desync Clip `SDC` `L54`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

@@ -1,6 +1,7 @@
----
+﻿---
 title: "Death Persistent Save Load Object Transfer"
-tag: "DPSLOT"
+uid: "15K"
+label: "DPSLOT"
 versions: ["1.2.0"]
 credits: ["mulberry"]
 date: "2025-06-26"
@@ -9,7 +10,7 @@ aliases: ["death-persistent-save-load-object-transfer"]
 tags: ["item", "save-load", "zuggling"]
 ---
 
-# Death Persistent Save Load Object Transfer `DPSLOT`
+# Death Persistent Save Load Object Transfer `DPSLOT` `15K`
 `1.2.0` `1.2.1+`
 
 ## Summary

@@ -1,6 +1,7 @@
----
+﻿---
 title: "Memory Interrupt"
-tag: "MI"
+uid: "BVN"
+label: "MI"
 versions: ["1.0.0"]
 credits: ["mulberry"]
 date: "2024-10-01"
@@ -9,7 +10,7 @@ aliases: ["memory-interrupt"]
 tags: ["Unknown"]
 ---
 
-# Memory Interrupt `MI`
+# Memory Interrupt `MI` `BVN`
 `1.0.0`
 
 ## Summary

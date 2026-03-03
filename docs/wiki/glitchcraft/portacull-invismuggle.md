@@ -1,6 +1,7 @@
----
+﻿---
 title: "Portacull Invismuggle"
-tag: "PCIS"
+uid: "OJU"
+label: "PCIS"
 versions: ["1.2.0"]
 credits: ["mulberry"]
 date: "2024-02-29"
@@ -9,7 +10,7 @@ aliases: ["portacull-invismuggle"]
 tags: ["zuggling", "equipment", "culling"]
 ---
 
-# Portacull Invismuggle `PCIS`
+# Portacull Invismuggle `PCIS` `OJU`
 `1.2.0` `1.2.1+`
 
 ## Summary

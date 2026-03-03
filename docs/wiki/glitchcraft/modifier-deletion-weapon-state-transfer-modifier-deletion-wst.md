@@ -1,6 +1,7 @@
----
+﻿---
 title: "Modifier Deletion Weapon State Transfer"
-tag: "MDWST"
+uid: "ZBS"
+label: "MDWST"
 versions: ["1.0.0"]
 credits: ["Zas"]
 date: "Unknown"
@@ -9,7 +10,7 @@ aliases: ["modifier-deletion-weapon-state-transfer"]
 tags: ["duplication", "weapon"]
 ---
 
-# Modifier Deletion Weapon State Transfer `MDWST`
+# Modifier Deletion Weapon State Transfer `MDWST` `ZBS`
 `1.0.0`
 Credit is almost impossible to pinpoint. Many people have found this, but most of the research was done by Zas
 

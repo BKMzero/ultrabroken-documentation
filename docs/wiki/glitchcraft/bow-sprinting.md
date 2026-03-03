@@ -1,6 +1,7 @@
----
+﻿---
 title: "Bow Sprinting"
-tag: "BSP"
+uid: "SIH"
+label: "BSP"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Steel"]
 date: "2023-05-14"
@@ -9,7 +10,7 @@ aliases: ["bow sprint", "bow-sprinting"]
 tags: ["sprinting", "bow"]
 ---
 
-# Bow Sprinting `BSP`
+# Bow Sprinting `BSP` `SIH`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

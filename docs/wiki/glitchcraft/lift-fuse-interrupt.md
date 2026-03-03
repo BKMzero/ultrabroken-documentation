@@ -1,6 +1,7 @@
----
+﻿---
 title: "Lift Fuse Interrupt"
-tag: "LFI"
+uid: "TC3"
+label: "LFI"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Yee"]
 date: "2025-04-22"
@@ -9,7 +10,7 @@ aliases: ["lift-fuse-interrupt"]
 tags: ["weapon", "fuse"]
 ---
 
-# Lift Fuse Interrupt `LFI`
+# Lift Fuse Interrupt `LFI` `TC3`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

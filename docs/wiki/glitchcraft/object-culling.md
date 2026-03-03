@@ -1,6 +1,7 @@
----
+﻿---
 title: "Object Culling"
-tag: "OC"
+uid: "M7L"
+label: "OC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Mozz", "tori", "mulberry", "Timber"]
 date: "2023-06-27"
@@ -9,7 +10,7 @@ aliases: ["object-culling"]
 tags: ["culling"]
 ---
 
-# Object Culling `OC`
+# Object Culling `OC` `M7L`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

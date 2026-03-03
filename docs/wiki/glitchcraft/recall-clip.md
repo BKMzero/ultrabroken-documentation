@@ -1,6 +1,7 @@
----
+﻿---
 title: "Recall Clip"
-tag: "RC"
+uid: "VDU"
+label: "RC"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["こんそめ"]
 date: "2023-05-16"
@@ -9,7 +10,7 @@ aliases: ["recall clip", "recall-clip glitch", "recall-clip", "recallclip"]
 tags: ["clipping", "ultrahand", "recall"]
 ---
 
-# Recall Clip `RC`
+# Recall Clip `RC` `VDU`
 `1.0.0` `1.1.0` `1.1.1`
 
 ## Summary

@@ -1,6 +1,7 @@
----
+﻿---
 title: "Map Storage"
-tag: "MSTR"
+uid: "OT8"
+label: "MSTR"
 versions: ["1.1.0", "1.1.1"]
 credits: ["blueberryoats"]
 date: "2023-05-29"
@@ -9,7 +10,7 @@ aliases: ["map-storage"]
 tags: ["storage", "map"]
 ---
 
-# Map Storage `MSTR`
+# Map Storage `MSTR` `OT8`
 `1.1.0` `1.1.1`
 
 ## Summary

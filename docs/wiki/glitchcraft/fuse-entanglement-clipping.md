@@ -1,6 +1,7 @@
----
+﻿---
 title: "Fuse Entanglement Clipping"
-tag: "FEC"
+uid: "Z2Z"
+label: "FEC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["circyit"]
 date: "2023-06-16"
@@ -9,7 +10,7 @@ aliases: ["fuse-entanglement-clipping"]
 tags: ["clipping", "entanglement", "fuse"]
 ---
 
-# Fuse Entanglement Clipping `FEC`
+# Fuse Entanglement Clipping `FEC` `Z2Z`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

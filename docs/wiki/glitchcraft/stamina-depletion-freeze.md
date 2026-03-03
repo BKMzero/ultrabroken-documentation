@@ -1,6 +1,7 @@
----
+﻿---
 title: "Stamina Depletion Freeze"
-tag: "SDF"
+uid: "XH0"
+label: "SDF"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Lightos"]
 date: "2023-05-20"
@@ -9,7 +10,7 @@ aliases: ["stamina depletion freeze", "stamina-depletion-freeze"]
 tags: ["Unknown"]
 ---
 
-# Stamina Depletion Freeze `SDF`
+# Stamina Depletion Freeze `SDF` `XH0`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

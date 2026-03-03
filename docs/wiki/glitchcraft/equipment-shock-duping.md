@@ -1,6 +1,7 @@
----
+﻿---
 title: "Equipment Shock Duping"
-tag: "ESD"
+uid: "DBF"
+label: "ESD"
 versions: ["1.0.0"]
 credits: ["Zas"]
 date: "2023-12-12"
@@ -9,7 +10,7 @@ aliases: ["equipment-shock-duping"]
 tags: ["duplication", "item", "equipment"]
 ---
 
-# Equipment Shock Duping `ESD`
+# Equipment Shock Duping `ESD` `DBF`
 `1.0.0`
 
 ## Summary

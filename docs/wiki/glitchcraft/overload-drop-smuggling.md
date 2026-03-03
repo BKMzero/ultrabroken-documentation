@@ -1,6 +1,7 @@
----
+﻿---
 title: "Overload Drop Smuggling"
-tag: "ODS"
+uid: "J9Y"
+label: "ODS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["ChargeVolt", "Windocks"]
 date: "2023-06-12"
@@ -9,7 +10,7 @@ aliases: ["overload-drop-smuggling"]
 tags: ["zuggling", "item", "overload"]
 ---
 
-# Overload Drop Smuggling `ODS`
+# Overload Drop Smuggling `ODS` `J9Y`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

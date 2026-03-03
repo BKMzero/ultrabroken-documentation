@@ -1,6 +1,7 @@
----
+﻿---
 title: "GAS Warping"
-tag: "GASW"
+uid: "S8G"
+label: "GASW"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Flash", "pyuk"]
 date: "2023-06-26"
@@ -9,7 +10,7 @@ aliases: ["gas-warping"]
 tags: ["gas", "warping"]
 ---
 
-# GAS Warping `GASW`
+# GAS Warping `GASW` `S8G`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

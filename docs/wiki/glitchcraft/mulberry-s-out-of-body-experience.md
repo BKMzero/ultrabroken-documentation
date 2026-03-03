@@ -1,6 +1,7 @@
----
+﻿---
 title: "Mulberry's Out of Body Experience"
-tag: "MOOBE"
+uid: "00I"
+label: "MOOBE"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["mulberry"]
 date: "2024-01-06"
@@ -9,7 +10,7 @@ aliases: ["mulberry's-out-of-body-experience"]
 tags: ["warping", "movement"]
 ---
 
-# mulberry's Out of Body Experience `MOOBE`
+# mulberry's Out of Body Experience `MOOBE` `00I`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

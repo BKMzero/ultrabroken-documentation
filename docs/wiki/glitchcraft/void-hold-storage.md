@@ -1,6 +1,7 @@
----
+﻿---
 title: "Void Hold Storage"
-tag: "VHS"
+uid: "AGZ"
+label: "VHS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Lightos", "nx"]
 date: "2023-07-22"
@@ -9,7 +10,7 @@ aliases: ["void-hold-storage"]
 tags: ["storage", "menu", "item"]
 ---
 
-# Void Hold Storage `VHS`
+# Void Hold Storage `VHS` `AGZ`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

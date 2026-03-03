@@ -1,6 +1,7 @@
----
+﻿---
 title: "Hold Storage Duplication"
-tag: "HSD"
+uid: "WEI"
+label: "HSD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["NaN Gogh", "Mozz"]
 date: "2023-07-03"
@@ -9,7 +10,7 @@ aliases: ["hold-storage-duplication"]
 tags: ["duplication", "storage", "item"]
 ---
 
-# Hold Storage Duplication `HSD`
+# Hold Storage Duplication `HSD` `WEI`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

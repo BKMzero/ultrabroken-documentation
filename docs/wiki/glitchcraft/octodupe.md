@@ -1,6 +1,7 @@
----
+﻿---
 title: "Octodupe"
-tag: "OD"
+uid: "4R4"
+label: "OD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Unknown"]
 date: "2023-05-26"
@@ -9,7 +10,7 @@ aliases: []
 tags: ["duplication", "item", "zuggling"]
 ---
 
-# Octodupe `OD`
+# Octodupe `OD` `4R4`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

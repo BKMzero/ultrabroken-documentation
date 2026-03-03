@@ -1,6 +1,7 @@
----
+﻿---
 title: "Throken"
-tag: "THK"
+uid: "M1W"
+label: "THK"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Ikaboze"]
 date: "2025-05-17"
@@ -9,7 +10,7 @@ aliases: []
 tags: ["weapon"]
 ---
 
-# Throken `THK`
+# Throken `THK` `M1W`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

@@ -1,6 +1,7 @@
----
+﻿---
 title: "Resync Fuse Entanglement"
-tag: "RFE"
+uid: "GPN"
+label: "RFE"
 versions: ["1.0.0"]
 credits: ["Zas"]
 date: "2023-12-18"
@@ -9,7 +10,7 @@ aliases: ["resync-fuse-entanglement"]
 tags: ["item", "entanglement", "fuse"]
 ---
 
-# Resync Fuse Entanglement `RFE`
+# Resync Fuse Entanglement `RFE` `GPN`
 `1.0.0`
 
 ## Summary

@@ -1,6 +1,7 @@
----
+﻿---
 title: "Mineru Text Storage"
-tag: "MTS"
+uid: "O3G"
+label: "MTS"
 versions: ["1.0.0"]
 credits: ["CM30"]
 date: "2024-07-11"
@@ -9,7 +10,7 @@ aliases: ["mineru-text-storage"]
 tags: ["storage", "mineru"]
 ---
 
-# Mineru Text Storage `MTS`
+# Mineru Text Storage `MTS` `O3G`
 `1.0.0`
 
 ## Summary

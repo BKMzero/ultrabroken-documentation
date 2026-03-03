@@ -1,6 +1,7 @@
----
+﻿---
 title: "Yee Fuse Entanglement"
-tag: "YEEFE"
+uid: "PM1"
+label: "YEEFE"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Yee", "mulberry"]
 date: "2024-02-20"
@@ -9,7 +10,7 @@ aliases: ["yee-fuse-entanglement", "yeefe"]
 tags: ["entanglement", "culling", "fuse", "mineru"]
 ---
 
-# Yee Fuse Entanglement `YEEFE`
+# Yee Fuse Entanglement `YEEFE` `PM1`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

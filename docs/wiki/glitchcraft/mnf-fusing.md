@@ -1,6 +1,7 @@
----
+﻿---
 title: "MNF Fusing"
-tag: "MNFF"
+uid: "CO6"
+label: "MNFF"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["LegendofLinkk"]
 date: "2023-06-05"
@@ -9,7 +10,7 @@ aliases: ["mnf-fusing"]
 tags: ["fuse", "mnf"]
 ---
 
-# MNF Fusing `MNFF`
+# MNF Fusing `MNFF` `CO6`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

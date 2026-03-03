@@ -1,6 +1,7 @@
----
+﻿---
 title: "Disabled Enemy"
-tag: "DE"
+uid: "WBZ"
+label: "DE"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["shio_0725", "ralseidewitt"]
 date: "2023-06-27"
@@ -9,7 +10,7 @@ aliases: ["disabled-enemy"]
 tags: ["enemy"]
 ---
 
-# Disabled Enemy `DE`
+# Disabled Enemy `DE` `WBZ`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

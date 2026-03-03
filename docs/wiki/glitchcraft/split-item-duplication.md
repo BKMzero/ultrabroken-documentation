@@ -1,6 +1,7 @@
----
+﻿---
 title: "Split Item Duplication"
-tag: "SID"
+uid: "E75"
+label: "SID"
 versions: ["1.2.0"]
 credits: ["Telkic", "mulberry", "WinnerBoi77"]
 date: "2025-06-19"
@@ -9,7 +10,7 @@ aliases: ["split-item-duplication"]
 tags: ["duplication", "item", "zuggling"]
 ---
 
-# Split Item Duplication `SID`
+# Split Item Duplication `SID` `E75`
 `1.2.0` `1.2.1+`
 
 ## Summary

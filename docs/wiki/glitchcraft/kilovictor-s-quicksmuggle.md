@@ -1,6 +1,7 @@
----
+﻿---
 title: "Kilovictor's quicksmuggle"
-tag: "KVQS"
+uid: "362"
+label: "KVQS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["KiloVictor"]
 date: "2024-02-23"
@@ -9,7 +10,7 @@ aliases: ["kilovictor's-quicksmuggle"]
 tags: ["zuggling", "equipment", "culling"]
 ---
 
-# KiloVictor's quicksmuggle `KVQS`
+# KiloVictor's quicksmuggle `KVQS` `362`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

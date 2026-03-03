@@ -1,6 +1,7 @@
----
+﻿---
 title: "Detached Rangeless Active Zonai"
-tag: "DRAZ"
+uid: "YM9"
+label: "DRAZ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Venaticus"]
 date: "2023-06-15"
@@ -9,7 +10,7 @@ aliases: ["detached-rangeless-active-zonai"]
 tags: ["zonai"]
 ---
 
-# Detached Rangeless Active Zonai `DRAZ`
+# Detached Rangeless Active Zonai `DRAZ` `YM9`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

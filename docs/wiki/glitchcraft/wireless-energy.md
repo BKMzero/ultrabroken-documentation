@@ -1,6 +1,7 @@
----
+﻿---
 title: "Wireless Energy"
-tag: "WE"
+uid: "PQ5"
+label: "WE"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["NaN Gogh"]
 date: "2023-07-11"
@@ -9,7 +10,7 @@ aliases: ["wireless-energy"]
 tags: ["equipment", "culling", "ultrahand", "shield"]
 ---
 
-# Wireless Energy `WE`
+# Wireless Energy `WE` `PQ5`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

@@ -1,6 +1,7 @@
----
+﻿---
 title: "Ability Wheel Loop"
-tag: "AWL"
+uid: "V2E"
+label: "AWL"
 versions: ["1.0.0"]
 credits: ["Zas"]
 date: "2024-03-11"
@@ -9,7 +10,7 @@ aliases: ["ability-wheel-loop"]
 tags: ["menu", "ultrahand", "zonai"]
 ---
 
-# Ability Wheel Loop `AWL`
+# Ability Wheel Loop `AWL` `V2E`
 `1.0.0`
 
 ## Summary

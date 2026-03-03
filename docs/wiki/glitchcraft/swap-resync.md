@@ -1,6 +1,7 @@
----
+﻿---
 title: "Swap Resync"
-tag: "SR"
+uid: "A0R"
+label: "SR"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
 credits: ["MandelbrotChaylay"]
 date: "2025-08-10"
@@ -9,7 +10,7 @@ aliases: ["swap-resync"]
 tags: ["equipment", "shield", "zuggling"]
 ---
 
-# Swap Resync `SR`
+# Swap Resync `SR` `A0R`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1+`
 
 ## Summary

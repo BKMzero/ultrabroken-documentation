@@ -1,6 +1,7 @@
----
+﻿---
 title: "Freecall"
-tag: "FC"
+uid: "JNU"
+label: "FC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["suusi", "ROBUXY2ND"]
 date: "2023-09-09"
@@ -9,7 +10,7 @@ aliases: []
 tags: ["ultrahand", "recall"]
 ---
 
-# Freecall `FC`
+# Freecall `FC` `JNU`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

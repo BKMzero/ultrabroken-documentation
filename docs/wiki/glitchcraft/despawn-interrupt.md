@@ -1,6 +1,7 @@
----
+﻿---
 title: "Despawn Interrupt"
-tag: "DI"
+uid: "MG1"
+label: "DI"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["mulberry", "Squidwest"]
 date: "2026-01-16"
@@ -9,7 +10,7 @@ aliases: ["despawn-interrupt", "eaten di", "frox dipping", "frox dip", "duga dip
 tags: ["item", "zuggling", "fuse", "despawn"]
 ---
 
-# Despawn Interrupt `DI`
+# Despawn Interrupt `DI` `MG1`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

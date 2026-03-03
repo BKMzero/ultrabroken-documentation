@@ -1,6 +1,7 @@
----
+﻿---
 title: "Moobe Warping"
-tag: "MW"
+uid: "V9V"
+label: "MW"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Ryan?"]
 date: "2024-01-12"
@@ -9,7 +10,7 @@ aliases: ["moobe-warping"]
 tags: ["oob", "warping", "movement", "horse"]
 ---
 
-# Moobe Warping `MW`
+# Moobe Warping `MW` `V9V`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

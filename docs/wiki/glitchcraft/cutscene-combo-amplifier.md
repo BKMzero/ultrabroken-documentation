@@ -1,6 +1,7 @@
----
+﻿---
 title: "Cutscene Combo Amplifier"
-tag: "CCA"
+uid: "M5E"
+label: "CCA"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Lightos"]
 date: "2023-12-22"
@@ -9,7 +10,7 @@ aliases: ["cutscene-combo-amplifier"]
 tags: ["item", "buff", "damage"]
 ---
 
-# Cutscene Combo Amplifier `CCA`
+# Cutscene Combo Amplifier `CCA` `M5E`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

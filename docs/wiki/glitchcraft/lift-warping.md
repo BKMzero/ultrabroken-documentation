@@ -1,6 +1,7 @@
----
+﻿---
 title: "Lift Warping"
-tag: "LW"
+uid: "2C6"
+label: "LW"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Mozz"]
 date: "2023-06-15"
@@ -9,7 +10,7 @@ aliases: ["lift-warping"]
 tags: ["warping"]
 ---
 
-# Lift Warping `LW`
+# Lift Warping `LW` `2C6`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

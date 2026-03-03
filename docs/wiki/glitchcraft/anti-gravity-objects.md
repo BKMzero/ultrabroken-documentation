@@ -1,6 +1,7 @@
----
+﻿---
 title: "Anti-Gravity Objects"
-tag: "AGO"
+uid: "9WZ"
+label: "AGO"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Unknown"]
 date: "Unknown"
@@ -9,7 +10,7 @@ aliases: ["anti-gravity-objects"]
 tags: ["ultrahand"]
 ---
 
-# Anti-Gravity Objects `AGO`
+# Anti-Gravity Objects `AGO` `9WZ`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

@@ -1,6 +1,7 @@
----
+﻿---
 title: "Minecart Rail Collision Launching"
-tag: "MRCL"
+uid: "74J"
+label: "MRCL"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["そら-さん"]
 date: "2023-05-18"
@@ -9,7 +10,7 @@ aliases: ["minecart collision", "minecart rail collision", "rail collision launc
 tags: ["launching"]
 ---
 
-# Minecart Rail Collision Launching `MRCL`
+# Minecart Rail Collision Launching `MRCL` `74J`
 `1.0.0` `1.1.0` `1.1.1`
 
 ## Summary

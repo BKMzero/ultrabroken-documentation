@@ -1,6 +1,7 @@
----
+﻿---
 title: "Bow Attachment Desync"
-tag: "BAD"
+uid: "J5Q"
+label: "BAD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Zas", "Aeolian"]
 date: "2023-07-11"
@@ -9,7 +10,7 @@ aliases: ["bow-attachment-desync"]
 tags: ["desync", "item", "bow", "arrow"]
 ---
 
-# Bow Attachment Desync `BAD`
+# Bow Attachment Desync `BAD` `J5Q`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

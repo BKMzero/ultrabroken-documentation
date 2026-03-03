@@ -1,6 +1,7 @@
----
+﻿---
 title: "Recall Launch"
-tag: "RLNCH"
+uid: "J5A"
+label: "RLNCH"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Deep"]
 date: "2023-05-17"
@@ -9,7 +10,7 @@ aliases: ["recall launch", "recall launch glitch", "recall-launch"]
 tags: ["launching", "ultrahand", "recall"]
 ---
 
-# Recall Launch `RLNCH`
+# Recall Launch `RLNCH` `J5A`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

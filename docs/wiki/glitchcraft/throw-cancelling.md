@@ -1,6 +1,7 @@
----
+﻿---
 title: "Throw Cancelling"
-tag: "TC"
+uid: "TK3"
+label: "TC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Quelfth"]
 date: "Unknown"
@@ -9,7 +10,7 @@ aliases: ["throw-cancelling"]
 tags: ["animation"]
 ---
 
-# Throw Cancelling `TC`
+# Throw Cancelling `TC` `TK3`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

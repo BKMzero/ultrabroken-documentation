@@ -1,6 +1,7 @@
----
+﻿---
 title: "Spring Fall Damage Cancel"
-tag: "SFDC"
+uid: "CFX"
+label: "SFDC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Mozz"]
 date: "2023-05-15"
@@ -9,7 +10,7 @@ aliases: ["spring-fall-damage-cancel"]
 tags: ["animation", "damage", "movement", "spring"]
 ---
 
-# Spring Fall Damage Cancel `SFDC`
+# Spring Fall Damage Cancel `SFDC` `CFX`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

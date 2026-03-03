@@ -1,6 +1,7 @@
----
+﻿---
 title: "Force Equip Zuggling"
-tag: "FEZ"
+uid: "3RI"
+label: "FEZ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["BigDUCCO", "Mozz", "Rhkellz", "Syb", "NaN Gogh"]
 date: "2023-06-07"
@@ -9,7 +10,7 @@ aliases: ["force-equip-zuggling"]
 tags: ["zuggling", "equipment", "item", "shield"]
 ---
 
-# Force Equip Zuggling `FEZ`
+# Force Equip Zuggling `FEZ` `3RI`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

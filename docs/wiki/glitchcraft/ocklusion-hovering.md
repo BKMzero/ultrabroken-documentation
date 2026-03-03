@@ -1,6 +1,7 @@
----
+﻿---
 title: "Ocklusion Hovering"
-tag: "OCKH"
+uid: "E0G"
+label: "OCKH"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.3.0", "1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Telkic"]
 date: "2025-10-12"
@@ -9,7 +10,7 @@ aliases: ["ocklusion-hovering"]
 tags: ["zuggling", "item", "equipment"]
 ---
 
-# Ocklusion Hovering `OCKH`
+# Ocklusion Hovering `OCKH` `E0G`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.3.0` `1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

@@ -1,6 +1,7 @@
----
+﻿---
 title: "Octo-balloon Detanglement"
-tag: "OBD"
+uid: "B3B"
+label: "OBD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.3.0", "1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["mulberry"]
 date: "2025-11-16"
@@ -9,7 +10,7 @@ aliases: ["octo-balloon-detanglement"]
 tags: ["equipment", "shield", "zuggling"]
 ---
 
-# Octo-balloon Detanglement `OBD`
+# Octo-balloon Detanglement `OBD` `B3B`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.3.0` `1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

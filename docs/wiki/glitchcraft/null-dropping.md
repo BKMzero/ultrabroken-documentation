@@ -1,6 +1,7 @@
----
+﻿---
 title: "Null Dropping"
-tag: "ND"
+uid: "IWQ"
+label: "ND"
 versions: ["1.0.0"]
 credits: ["Aergyl"]
 date: "2024-03-16"
@@ -9,7 +10,7 @@ aliases: ["null-dropping"]
 tags: ["menu", "item", "zuggling"]
 ---
 
-# Null Dropping `ND`
+# Null Dropping `ND` `IWQ`
 `1.0.0`
 
 ## Summary

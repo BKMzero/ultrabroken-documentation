@@ -1,6 +1,7 @@
----
+﻿---
 title: "Ultrabroken"
-tag: "UB"
+uid: "NU6"
+label: "UB"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Duncan"]
 date: "2023-05-29"
@@ -9,7 +10,7 @@ aliases: ["ultra-broken", "ultrabreak"]
 tags: ["item", "ultrahand", "zuggling"]
 ---
 
-# Ultrabroken `UB`
+# Ultrabroken `UB` `NU6`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

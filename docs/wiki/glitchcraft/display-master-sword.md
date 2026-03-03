@@ -1,6 +1,7 @@
----
+﻿---
 title: "Display Master Sword"
-tag: "DMS"
+uid: "KJR"
+label: "DMS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Zas"]
 date: "2023-06-08"
@@ -9,7 +10,7 @@ aliases: ["display-master-sword"]
 tags: ["weapon", "damage"]
 ---
 
-# Display Master Sword `DMS`
+# Display Master Sword `DMS` `KJR`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

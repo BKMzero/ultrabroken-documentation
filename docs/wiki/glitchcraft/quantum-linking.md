@@ -1,6 +1,7 @@
----
+﻿---
 title: "Quantum Linking"
-tag: "QL"
+uid: "PII"
+label: "QL"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["NaN Gogh", "pyuk"]
 date: "2023-08-30"
@@ -9,7 +10,7 @@ aliases: ["quantum-linking"]
 tags: ["culling", "ultrahand"]
 ---
 
-# Quantum Linking `QL`
+# Quantum Linking `QL` `PII`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

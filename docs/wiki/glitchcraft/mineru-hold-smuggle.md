@@ -1,6 +1,7 @@
----
+﻿---
 title: "Mineru Hold Smuggle"
-tag: "MHS"
+uid: "12A"
+label: "MHS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["WinnerBoi77"]
 date: "2023-12-20"
@@ -9,7 +10,7 @@ aliases: ["mineru-hold-smuggle"]
 tags: ["zuggling", "menu", "item", "mineru"]
 ---
 
-# Mineru Hold Smuggle `MHS`
+# Mineru Hold Smuggle `MHS` `12A`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

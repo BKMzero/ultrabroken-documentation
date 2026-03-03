@@ -1,6 +1,7 @@
----
+﻿---
 title: "Unload WST"
-tag: "UWST"
+uid: "YNP"
+label: "UWST"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["BigDUCCO", "Vee.Might.Exist", "Syb"]
 date: "Unknown"
@@ -9,7 +10,7 @@ aliases: ["unload-wst"]
 tags: ["item", "culling", "zuggling"]
 ---
 
-# Unload WST `UWST`
+# Unload WST `UWST` `YNP`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

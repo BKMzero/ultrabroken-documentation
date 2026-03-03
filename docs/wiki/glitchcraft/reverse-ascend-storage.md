@@ -1,6 +1,7 @@
----
+﻿---
 title: "Reverse Ascend Storage"
-tag: "RAS"
+uid: "70D"
+label: "RAS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Redrooey"]
 date: "2023-11-27"
@@ -9,7 +10,7 @@ aliases: ["reverse-ascend-storage"]
 tags: ["storage", "ascend"]
 ---
 
-# Reverse Ascend Storage `RAS`
+# Reverse Ascend Storage `RAS` `70D`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

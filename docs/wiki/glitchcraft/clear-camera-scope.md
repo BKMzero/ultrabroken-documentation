@@ -1,6 +1,7 @@
----
+﻿---
 title: "Clear Camera/Scope"
-tag: "CCS"
+uid: "7DQ"
+label: "CCS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["NX"]
 date: "2023-07-03"
@@ -9,7 +10,7 @@ aliases: ["clear-camera/scope"]
 tags: ["bow", "camera"]
 ---
 
-# Clear Camera/Scope `CCS`
+# Clear Camera/Scope `CCS` `7DQ`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

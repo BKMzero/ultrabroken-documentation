@@ -1,6 +1,7 @@
----
+﻿---
 title: "Cave Flag Culling"
-tag: "CFC"
+uid: "YK3"
+label: "CFC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Ock", "Aergyl"]
 date: "2023-11-24"
@@ -9,7 +10,7 @@ aliases: ["cave-flag-culling"]
 tags: ["duplication", "culling", "overload"]
 ---
 
-# Cave Flag Culling `CFC`
+# Cave Flag Culling `CFC` `YK3`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

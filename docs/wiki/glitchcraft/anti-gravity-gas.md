@@ -1,6 +1,7 @@
----
+﻿---
 title: "Anti-Gravity GAS"
-tag: "AG GAS"
+uid: "9R0"
+label: "AG GAS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["mulberry"]
 date: "2025-01-22"
@@ -9,7 +10,7 @@ aliases: ["anti-gravity-gas"]
 tags: ["gas"]
 ---
 
-# Anti-Gravity GAS `AG GAS`
+# Anti-Gravity GAS `AG GAS` `9R0`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

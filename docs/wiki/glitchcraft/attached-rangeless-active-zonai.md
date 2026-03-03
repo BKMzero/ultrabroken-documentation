@@ -1,6 +1,7 @@
----
+﻿---
 title: "Attached Rangeless Active Zonai"
-tag: "ARAZ"
+uid: "ZTD"
+label: "ARAZ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Ryan?", "NX"]
 date: "2023-06-16"
@@ -9,7 +10,7 @@ aliases: ["attached-rangeless-active-zonai"]
 tags: ["zonai"]
 ---
 
-# Attached Rangeless Active Zonai `ARAZ`
+# Attached Rangeless Active Zonai `ARAZ` `ZTD`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

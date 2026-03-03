@@ -1,6 +1,7 @@
----
+﻿---
 title: "Warp Bumping"
-tag: "WB"
+uid: "KNR"
+label: "WB"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Mozz", "InAMuffinCup"]
 date: "2023-06-07"
@@ -9,7 +10,7 @@ aliases: ["warp-bumping"]
 tags: ["warping"]
 ---
 
-# Warp Bumping `WB`
+# Warp Bumping `WB` `KNR`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

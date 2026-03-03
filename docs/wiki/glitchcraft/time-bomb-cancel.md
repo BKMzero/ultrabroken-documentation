@@ -1,6 +1,7 @@
----
+﻿---
 title: "Time Bomb cancel"
-tag: "TBC"
+uid: "7Y9"
+label: "TBC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["tzakazuki"]
 date: "2023-11-04"
@@ -9,7 +10,7 @@ aliases: ["time-bomb-cancel"]
 tags: ["animation", "equipment", "damage", "fuse", "shield"]
 ---
 
-# Time Bomb cancel `TBC`
+# Time Bomb cancel `TBC` `7Y9`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

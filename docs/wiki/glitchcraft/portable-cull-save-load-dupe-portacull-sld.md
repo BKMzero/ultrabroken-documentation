@@ -1,6 +1,7 @@
----
+﻿---
 title: "Portable Cull Save Load Dupe"
-tag: "PSLD"
+uid: "GFW"
+label: "PSLD"
 versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["NghtmaR3"]
 date: "2024-07-17"
@@ -9,7 +10,7 @@ aliases: ["portable-cull-save-load-dupe"]
 tags: ["duplication", "culling", "save-load"]
 ---
 
-# Portable Cull Save Load Dupe `PSLD`
+# Portable Cull Save Load Dupe `PSLD` `GFW`
 `1.2.0` `1.2.1`
 
 ## Summary

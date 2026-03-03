@@ -1,6 +1,7 @@
----
+﻿---
 title: "Fuse Entanglement Drop Smuggling"
-tag: "FEDS"
+uid: "N1T"
+label: "FEDS"
 versions: ["1.2.0"]
 credits: ["Blize", "Blackmars"]
 date: "2023-08-15"
@@ -9,7 +10,7 @@ aliases: ["fuse-entanglement-drop-smuggling"]
 tags: ["zuggling", "item", "equipment", "entanglement", "fuse"]
 ---
 
-# Fuse Entanglement Drop Smuggling `FEDS`
+# Fuse Entanglement Drop Smuggling `FEDS` `N1T`
 `1.2.0`
 
 ## Summary

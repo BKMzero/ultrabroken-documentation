@@ -1,6 +1,7 @@
----
+﻿---
 title: "Slate Storage"
-tag: "SLST"
+uid: "K7J"
+label: "SLST"
 versions: ["1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["LegendofLinkk"]
 date: "2024-09-21"
@@ -9,7 +10,7 @@ aliases: ["slate-storage"]
 tags: ["storage", "damage"]
 ---
 
-# Slate Storage `SLST`
+# Slate Storage `SLST` `K7J`
 `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

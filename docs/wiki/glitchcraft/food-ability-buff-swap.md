@@ -1,6 +1,7 @@
----
+﻿---
 title: "Food Ability Buff Swap"
-tag: "FABS"
+uid: "U0U"
+label: "FABS"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["fabs"]
 date: "2023-05-16"
@@ -9,7 +10,7 @@ aliases: ["food-ability-buff-swap"]
 tags: ["cooking", "item", "buff", "zuggling"]
 ---
 
-# Food Ability Buff Swap `FABS`
+# Food Ability Buff Swap `FABS` `U0U`
 `1.0.0` `1.1.0` `1.1.1`
 
 ## Summary

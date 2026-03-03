@@ -1,6 +1,7 @@
----
+﻿---
 title: "Weapon State Transfer"
-tag: "WST"
+uid: "JMU"
+label: "WST"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["BigDUCCO", "kurocat471", "ElDuende", "Mentor_Kurt"]
 date: "2023-05-19"
@@ -9,7 +10,7 @@ aliases: ["weapon transfer", "weapon-state-transfer"]
 tags: ["weapon", "fuse", "entanglement", "equipment", "item"]
 ---
 
-# Weapon State Transfer `WST`
+# Weapon State Transfer `WST` `JMU`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

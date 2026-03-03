@@ -1,6 +1,7 @@
----
+﻿---
 title: "Recall Telekinesis"
-tag: "RTK"
+uid: "1ZI"
+label: "RTK"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Deep"]
 date: "2023-05-17"
@@ -9,7 +10,7 @@ aliases: ["recall-telekinesis"]
 tags: ["recall", "ultrahand"]
 ---
 
-# Recall Telekinesis `RTK`
+# Recall Telekinesis `RTK` `1ZI`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

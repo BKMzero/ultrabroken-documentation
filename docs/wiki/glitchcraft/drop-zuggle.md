@@ -1,6 +1,7 @@
----
+﻿---
 title: "Drop Zuggle"
-tag: "DZ"
+uid: "9HN"
+label: "DZ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["BigDUCCO"]
 date: "2023-06-15"
@@ -9,7 +10,7 @@ aliases: ["drop-zuggle"]
 tags: ["zuggling", "item", "equipment"]
 ---
 
-# Drop Zuggle `DZ`
+# Drop Zuggle `DZ` `9HN`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

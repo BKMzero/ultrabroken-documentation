@@ -1,6 +1,7 @@
----
+﻿---
 title: "Wuggle"
-tag: "WGL"
+uid: "GJ2"
+label: "WGL"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Ock", "ROBUXY2ND"]
 date: "2023-12-29"
@@ -9,7 +10,7 @@ aliases: []
 tags: ["zuggling", "item", "equipment", "culling"]
 ---
 
-# Wuggle `WGL`
+# Wuggle `WGL` `GJ2`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

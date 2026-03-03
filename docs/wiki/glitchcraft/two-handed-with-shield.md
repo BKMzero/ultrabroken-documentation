@@ -1,6 +1,7 @@
----
+﻿---
 title: "Two Handed With Shield"
-tag: "THWS"
+uid: "GIO"
+label: "THWS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["R4000", "Bucket_Sloe"]
 date: "2023-08-21"
@@ -9,7 +10,7 @@ aliases: ["two-handed-with-shield"]
 tags: ["equipment", "shield", "zuggling"]
 ---
 
-# Two Handed With Shield `THWS`
+# Two Handed With Shield `THWS` `GIO`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

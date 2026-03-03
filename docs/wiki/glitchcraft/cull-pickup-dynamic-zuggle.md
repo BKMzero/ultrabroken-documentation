@@ -1,6 +1,7 @@
----
+﻿---
 title: "Cull Pickup Dynamic Zuggle"
-tag: "CPDZ"
+uid: "KID"
+label: "CPDZ"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["mulberry"]
 date: "2025-05-18"
@@ -9,7 +10,7 @@ aliases: ["cull-pickup-dynamic-zuggle"]
 tags: ["zuggling", "item", "culling"]
 ---
 
-# Cull Pickup Dynamic Zuggle `CPDZ`
+# Cull Pickup Dynamic Zuggle `CPDZ` `KID`
 `1.0.0` `1.1.0` `1.1.1`
 
 ## Summary

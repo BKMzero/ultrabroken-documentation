@@ -1,6 +1,7 @@
----
+﻿---
 title: "Lift Storage Warping"
-tag: "LSW"
+uid: "MUY"
+label: "LSW"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["mulberry"]
 date: "2024-01-08"
@@ -9,7 +10,7 @@ aliases: ["lift-storage-warping"]
 tags: ["storage", "item", "culling", "warping"]
 ---
 
-# Lift Storage Warping `LSW`
+# Lift Storage Warping `LSW` `MUY`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

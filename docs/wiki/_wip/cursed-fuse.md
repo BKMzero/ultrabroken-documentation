@@ -1,6 +1,6 @@
----
+﻿---
 title: "Cursed Fuse"
-tag: "CF"
+label: "CURF"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1+", "Switch 2"]
 credits: ["Zas"]
 date: "2024-01-19"

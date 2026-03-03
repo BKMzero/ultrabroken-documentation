@@ -1,6 +1,7 @@
----
+﻿---
 title: "Ascend Storage"
-tag: "ASTR"
+uid: "1TZ"
+label: "ASTR"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Saria"]
 date: "2023-05-19"
@@ -9,7 +10,7 @@ aliases: ["ascend storage", "ascend storage glitch", "ascend-storage", "storage 
 tags: ["storage", "ascend"]
 ---
 
-# Ascend Storage `ASTR`
+# Ascend Storage `ASTR` `1TZ`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

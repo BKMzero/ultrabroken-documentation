@@ -1,6 +1,7 @@
----
+﻿---
 title: "Arrow Smuggling"
-tag: "AS"
+uid: "VTO"
+label: "AS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Mozz"]
 date: "2023-06-04"
@@ -9,7 +10,7 @@ aliases: ["arrow-smuggling"]
 tags: ["zuggling", "equipment", "bow", "arrow"]
 ---
 
-# Arrow Smuggling `AS`
+# Arrow Smuggling `AS` `VTO`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

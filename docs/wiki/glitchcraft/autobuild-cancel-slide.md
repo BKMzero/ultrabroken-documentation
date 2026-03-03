@@ -1,6 +1,7 @@
----
+﻿---
 title: "Autobuild Cancel Slide"
-tag: "ABCS"
+uid: "SEO"
+label: "ABCS"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["Takosensai1"]
 date: "2023-05-18"
@@ -9,7 +10,7 @@ aliases: ["autobuild cancel", "auto-build"]
 tags: ["animation", "movement", "autobuild"]
 ---
 
-# Autobuild Cancel Slide `ABCS`
+# Autobuild Cancel Slide `ABCS` `SEO`
 `1.0.0` `1.1.0` `1.1.1`
 
 ## Summary

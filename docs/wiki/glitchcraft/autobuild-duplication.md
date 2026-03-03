@@ -1,6 +1,7 @@
----
+﻿---
 title: "Autobuild Duplication"
-tag: "ABD"
+uid: "BJ0"
+label: "ABD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Unknown"]
 date: "2023-06-11"
@@ -9,7 +10,7 @@ aliases: ["autobuild-duplication"]
 tags: ["duplication", "item", "ultrahand", "autobuild"]
 ---
 
-# Autobuild Duplication `ABD`
+# Autobuild Duplication `ABD` `BJ0`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

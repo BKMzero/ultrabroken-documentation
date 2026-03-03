@@ -1,6 +1,7 @@
----
+﻿---
 title: "Swap Resync Zuggle"
-tag: "SRZ"
+uid: "XTY"
+label: "SRZ"
 versions: ["1.2.0"]
 credits: ["mulberry", "MandelbrotChaylay"]
 date: "2025-08-11"
@@ -9,7 +10,7 @@ aliases: ["swap-resync-zuggle"]
 tags: ["zuggling", "equipment", "culling"]
 ---
 
-# Swap Resync Zuggle `SRZ`
+# Swap Resync Zuggle `SRZ` `XTY`
 `1.2.0` `1.2.1+`
 
 ## Summary

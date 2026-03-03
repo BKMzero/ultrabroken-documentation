@@ -1,6 +1,7 @@
----
+﻿---
 title: "Quick Drop Smuggle"
-tag: "QDS"
+uid: "OTD"
+label: "QDS"
 versions: ["1.0.0"]
 credits: ["mulberry", "Zas", "Aeolian", "WinnerBoi77", "Ryan?"]
 date: "2024-03-16"
@@ -9,7 +10,7 @@ aliases: ["quick-drop-smuggle"]
 tags: ["zuggling", "item", "equipment"]
 ---
 
-# Quick Drop Smuggle `QDS`
+# Quick Drop Smuggle `QDS` `OTD`
 `1.0.0`
 
 ## Summary

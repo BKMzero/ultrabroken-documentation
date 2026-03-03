@@ -1,6 +1,7 @@
----
+﻿---
 title: "ZL Animation Reset"
-tag: "ZLAR"
+uid: "0T9"
+label: "ZLAR"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["NghtmaR3"]
 date: "2024-01-21"
@@ -9,7 +10,7 @@ aliases: ["zl-animation-reset"]
 tags: ["animation", "equipment", "shield"]
 ---
 
-# ZL Animation Reset `ZLAR`
+# ZL Animation Reset `ZLAR` `0T9`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

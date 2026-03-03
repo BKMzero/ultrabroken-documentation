@@ -1,6 +1,7 @@
----
+﻿---
 title: "Pelison Duping"
-tag: "PD"
+uid: "WWV"
+label: "PD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["AngryEgg", "BigDUCCO"]
 date: "2023-05-25"
@@ -9,7 +10,7 @@ aliases: ["pelison-duping"]
 tags: ["duplication", "equipment", "shield"]
 ---
 
-# Pelison Duping `PD`
+# Pelison Duping `PD` `WWV`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

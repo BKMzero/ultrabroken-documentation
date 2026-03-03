@@ -1,6 +1,7 @@
----
+﻿---
 title: "Laser-OOB"
-tag: "LOOB"
+uid: "RHC"
+label: "LOOB"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["Xeryph"]
 date: "2023-05-13"
@@ -9,7 +10,7 @@ aliases: ["laser oob", "oob laser"]
 tags: ["duplication", "oob"]
 ---
 
-# Laser-OOB `LOOB`
+# Laser-OOB `LOOB` `RHC`
 `1.0.0` `1.1.0` `1.1.1`
 
 ## Summary

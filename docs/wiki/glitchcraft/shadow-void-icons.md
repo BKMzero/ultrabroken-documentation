@@ -1,6 +1,7 @@
----
+﻿---
 title: "Shadow/Void Icons"
-tag: "SVI"
+uid: "34T"
+label: "SVI"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
 credits: ["Lightos", "PetitFrapo"]
 date: "2024-10-16"
@@ -9,7 +10,7 @@ aliases: ["shadow/void-icons"]
 tags: ["equipment", "fuse", "camera"]
 ---
 
-# Shadow/Void Icons `SVI`
+# Shadow/Void Icons `SVI` `34T`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1+`
 
 ## Summary

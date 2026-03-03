@@ -1,6 +1,7 @@
----
+﻿---
 title: "Midair Sort Duplication"
-tag: "MSD"
+uid: "8MN"
+label: "MSD"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["Zas", "kurocat471"]
 date: "2023-05-21"
@@ -9,7 +10,7 @@ aliases: ["midair sort duplication", "midair-sort-duplication"]
 tags: ["duplication", "menu", "item", "paraglide"]
 ---
 
-# Midair Sort Duplication `MSD`
+# Midair Sort Duplication `MSD` `8MN`
 `1.0.0` `1.1.0` `1.1.1`
 
 ## Summary

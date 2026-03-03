@@ -1,6 +1,7 @@
----
+﻿---
 title: "Prologue Escape"
-tag: "PE"
+uid: "F4G"
+label: "PE"
 versions: ["1.0.0"]
 credits: ["LegendofLinkk", "mulberry", "Aergyl", "Lightos", "EOH_NS_SS"]
 date: "2024-10-01"
@@ -9,7 +10,7 @@ aliases: ["prologue-escape"]
 tags: ["duplication", "storage"]
 ---
 
-# Prologue Escape `PE`
+# Prologue Escape `PE` `F4G`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
 
 ## Summary

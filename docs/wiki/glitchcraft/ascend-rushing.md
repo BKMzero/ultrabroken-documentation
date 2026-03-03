@@ -1,6 +1,7 @@
----
+﻿---
 title: "Ascend Rushing"
-tag: "AR"
+uid: "JWD"
+label: "AR"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["R4000"]
 date: "2023-06-15"
@@ -9,7 +10,7 @@ aliases: ["ascend-rushing"]
 tags: ["ascend"]
 ---
 
-# Ascend Rushing `AR`
+# Ascend Rushing `AR` `JWD`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

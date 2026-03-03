@@ -1,6 +1,7 @@
----
+﻿---
 title: "Camera CFW"
-tag: "CFW"
+uid: "4SX"
+label: "CFW"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["NaN Gogh"]
 date: "2023-07-11"
@@ -9,7 +10,7 @@ aliases: ["camera-cfw"]
 tags: ["camera"]
 ---
 
-# Camera CFW `CFW`
+# Camera CFW `CFW` `4SX`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

@@ -1,6 +1,7 @@
----
+﻿---
 title: "Fuse Storage Fuse Entanglement"
-tag: "FSFE"
+uid: "HQF"
+label: "FSFE"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Ryan?", "Mozz"]
 date: "2023-06-18"
@@ -9,7 +10,7 @@ aliases: ["fuse-storage-fuse-entanglement"]
 tags: ["storage", "entanglement", "fuse"]
 ---
 
-# Fuse Storage Fuse Entanglement `FSFE`
+# Fuse Storage Fuse Entanglement `FSFE` `HQF`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

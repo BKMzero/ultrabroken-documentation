@@ -1,6 +1,7 @@
----
+﻿---
 title: "Drop Restriction"
-tag: "DR"
+uid: "1AH"
+label: "DR"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["SCFD-GK2", "NicNac"]
 date: "2023-06-19"
@@ -9,7 +10,7 @@ aliases: ["drop-restriction"]
 tags: ["menu", "item", "zonai"]
 ---
 
-# Drop Restriction `DR`
+# Drop Restriction `DR` `1AH`
 `1.0.0` `1.1.0` `1.1.1`
 
 ## Summary

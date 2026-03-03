@@ -1,6 +1,7 @@
----
+﻿---
 title: "Zapshield"
-tag: "ZAPSH"
+uid: "7F7"
+label: "ZAPSH"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Aergyl"]
 date: "2024-09-16"
@@ -9,7 +10,7 @@ aliases: []
 tags: ["equipment", "culling", "fuse", "shield"]
 ---
 
-# Zapshield `ZAPSH`
+# Zapshield `ZAPSH` `7F7`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

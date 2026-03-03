@@ -1,6 +1,7 @@
----
+﻿---
 title: "MNF Glow Overload"
-tag: "MGO"
+uid: "H2E"
+label: "MGO"
 versions: ["1.0.0"]
 credits: ["Toti Sauce"]
 date: "2025-01-03"
@@ -9,7 +10,7 @@ aliases: ["mnf-glow-overload"]
 tags: ["item", "overload", "mnf"]
 ---
 
-# MNF Glow Overload `MGO`
+# MNF Glow Overload `MGO` `H2E`
 `1.0.0`
 
 ## Summary

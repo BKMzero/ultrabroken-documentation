@@ -1,6 +1,7 @@
----
+﻿---
 title: "Midair Item Transmutation"
-tag: "MIT"
+uid: "7P8"
+label: "MIT"
 versions: ["1.1.0", "1.1.1"]
 credits: ["eXe"]
 date: "2023-05-20"
@@ -9,7 +10,7 @@ aliases: ["midair transmute", "midair-item-transmutation"]
 tags: ["item", "paraglide", "zuggling"]
 ---
 
-# Midair Item Transmutation `MIT`
+# Midair Item Transmutation `MIT` `7P8`
 `1.1.0` `1.1.1`
 
 ## Summary

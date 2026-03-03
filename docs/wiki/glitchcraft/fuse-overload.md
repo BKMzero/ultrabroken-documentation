@@ -1,6 +1,7 @@
----
+﻿---
 title: "Fuse Overload"
-tag: "FO"
+uid: "76A"
+label: "FO"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["ultrababouin", "NghtmaR3"]
 date: "2023-11-03"
@@ -9,7 +10,7 @@ aliases: ["fuse-overload"]
 tags: ["weapon", "overload", "fuse"]
 ---
 
-# Fuse Overload `FO`
+# Fuse Overload `FO` `76A`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

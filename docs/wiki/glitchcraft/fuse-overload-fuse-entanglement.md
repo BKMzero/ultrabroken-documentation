@@ -1,6 +1,7 @@
----
+﻿---
 title: "Fuse Overload Fuse Entanglement"
-tag: "FOFE"
+uid: "G8Q"
+label: "FOFE"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
 credits: ["mulberry"]
 date: "2025-05-26"
@@ -9,7 +10,7 @@ aliases: ["fuse-overload-fuse-entanglement"]
 tags: ["entanglement", "overload", "ultrahand", "fuse"]
 ---
 
-# Fuse Overload Fuse Entanglement `FOFE`
+# Fuse Overload Fuse Entanglement `FOFE` `G8Q`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1+`
 
 ## Summary

@@ -1,6 +1,7 @@
----
+﻿---
 title: "Shock Fuse Entanglement"
-tag: "SFE"
+uid: "ERF"
+label: "SFE"
 versions: ["1.0.0"]
 credits: ["Zas"]
 date: "2023-09-12"
@@ -9,7 +10,7 @@ aliases: ["shock-fuse-entanglement"]
 tags: ["zuggling", "item", "entanglement", "fuse"]
 ---
 
-# Shock Fuse Entanglement `SFE`
+# Shock Fuse Entanglement `SFE` `ERF`
 `1.0.0`
 
 ## Summary

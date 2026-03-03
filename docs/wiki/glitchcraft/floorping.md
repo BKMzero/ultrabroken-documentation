@@ -1,6 +1,7 @@
----
+﻿---
 title: "Floorping"
-tag: "FLP"
+uid: "Z63"
+label: "FLP"
 versions: ["1.1.0", "1.1.1"]
 credits: ["koreth"]
 date: "2024-01-02"
@@ -9,7 +10,7 @@ aliases: []
 tags: ["warping"]
 ---
 
-# Floorping `FLP`
+# Floorping `FLP` `Z63`
 `1.1.0` `1.1.1`
 
 ## Summary

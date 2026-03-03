@@ -1,6 +1,7 @@
----
+﻿---
 title: "Long Jump"
-tag: "LJ"
+uid: "OII"
+label: "LJ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Mozz"]
 date: "2023-05-18"
@@ -9,7 +10,7 @@ aliases: ["long jump", "long-jump", "longjump"]
 tags: ["movement"]
 ---
 
-# Long Jump `LJ`
+# Long Jump `LJ` `OII`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

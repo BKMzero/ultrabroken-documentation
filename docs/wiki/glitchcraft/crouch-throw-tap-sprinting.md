@@ -1,6 +1,7 @@
----
+﻿---
 title: "Crouch Throw Tap Sprinting"
-tag: "CTTS"
+uid: "VKB"
+label: "CTTS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Deystroyer"]
 date: "2023-05-15"
@@ -9,7 +10,7 @@ aliases: ["crouch-throw-tap-sprinting"]
 tags: ["sprinting"]
 ---
 
-# Crouch Throw Tap Sprinting `CTTS`
+# Crouch Throw Tap Sprinting `CTTS` `VKB`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

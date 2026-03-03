@@ -1,6 +1,7 @@
----
+﻿---
 title: "Enemy Pickpocketing"
-tag: "EP"
+uid: "UVT"
+label: "EP"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["KAIDUDE64"]
 date: "2023-09-16"
@@ -9,7 +10,7 @@ aliases: ["enemy-pickpocketing"]
 tags: ["item", "zuggling"]
 ---
 
-# Enemy Pickpocketing `EP`
+# Enemy Pickpocketing `EP` `UVT`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

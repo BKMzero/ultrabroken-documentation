@@ -1,6 +1,7 @@
----
+﻿---
 title: "Portable Culling"
-tag: "PC"
+uid: "LMB"
+label: "PC"
 versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["mulberry"]
 date: "2024-02-27"
@@ -9,7 +10,7 @@ aliases: ["portable-culling", "portacull"]
 tags: ["zuggling", "desync", "item", "culling", "fuse"]
 ---
 
-# Portable Culling `PC`
+# Portable Culling `PC` `LMB`
 `1.2.0` `1.2.1`
 
 ## Summary

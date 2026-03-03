@@ -1,6 +1,7 @@
----
+﻿---
 title: "Drop Smuggling"
-tag: "DS"
+uid: "CVH"
+label: "DS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["LegendofLinkk"]
 date: "2023-05-31"
@@ -9,7 +10,7 @@ aliases: ["drop-smuggling"]
 tags: ["zuggling", "item", "equipment"]
 ---
 
-# Drop Smuggling `DS`
+# Drop Smuggling `DS` `CVH`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

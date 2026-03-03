@@ -1,6 +1,7 @@
----
+﻿---
 title: "Unsheathed Mastersword"
-tag: "UMS"
+uid: "36U"
+label: "UMS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
 credits: ["nx", "DanielNeia"]
 date: "2023-07-11"
@@ -9,7 +10,7 @@ aliases: ["unsheathed-mastersword"]
 tags: ["duplication", "weapon"]
 ---
 
-# Unsheathed Mastersword `UMS`
+# Unsheathed Mastersword `UMS` `36U`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0`
 
 ## Summary

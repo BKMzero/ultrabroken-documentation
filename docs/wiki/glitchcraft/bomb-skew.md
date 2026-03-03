@@ -1,6 +1,7 @@
----
+﻿---
 title: "Bomb Skew"
-tag: "BSK"
+uid: "EJ4"
+label: "BSK"
 versions: ["1.0.0"]
 credits: ["Aergyl", "FerrusCube", "Mozz"]
 date: "2023-09-21"
@@ -9,7 +10,7 @@ aliases: ["bomb-skew"]
 tags: ["equipment", "shield", "zuggling"]
 ---
 
-# Bomb Skew `BSK`
+# Bomb Skew `BSK` `EJ4`
 `1.0.0`
 
 ## Summary

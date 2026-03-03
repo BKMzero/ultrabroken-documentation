@@ -1,6 +1,7 @@
----
+﻿---
 title: "Recipe Storage"
-tag: "RS"
+uid: "60D"
+label: "RS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Ock", "mulberry"]
 date: "2024-09-14"
@@ -9,7 +10,7 @@ aliases: ["recipe-storage"]
 tags: ["storage", "menu"]
 ---
 
-# Recipe Storage `RS`
+# Recipe Storage `RS` `60D`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

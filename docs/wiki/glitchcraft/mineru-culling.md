@@ -1,6 +1,7 @@
----
+﻿---
 title: "Mineru Culling"
-tag: "MC"
+uid: "BY4"
+label: "MC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Lightos"]
 date: "2023-07-31"
@@ -9,7 +10,7 @@ aliases: ["mineru-culling"]
 tags: ["culling", "mineru"]
 ---
 
-# Mineru Culling `MC`
+# Mineru Culling `MC` `BY4`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

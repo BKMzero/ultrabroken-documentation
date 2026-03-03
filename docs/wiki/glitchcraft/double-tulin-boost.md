@@ -1,6 +1,7 @@
----
+﻿---
 title: "Double Tulin Boost"
-tag: "DTB"
+uid: "A17"
+label: "DTB"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Unknown"]
 date: "2023-05-17"
@@ -9,7 +10,7 @@ aliases: ["double tulin", "double-tulin-boost"]
 tags: ["tulin"]
 ---
 
-# Double Tulin Boost `DTB`
+# Double Tulin Boost `DTB` `A17`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

@@ -1,6 +1,7 @@
----
+﻿---
 title: "Super Fuse Overload"
-tag: "SFO"
+uid: "TX4"
+label: "SFO"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["mulberry", "Aergyl", "Jordan", "MandelbrotChaylay"]
 date: "2025-12-06"
@@ -9,7 +10,7 @@ aliases: ["super-fuse-overload"]
 tags: ["weapon", "overload", "fuse", "mineru"]
 ---
 
-# Super Fuse Overload `SFO`
+# Super Fuse Overload `SFO` `TX4`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

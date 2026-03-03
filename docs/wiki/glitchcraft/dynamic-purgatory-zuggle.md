@@ -1,6 +1,7 @@
----
+﻿---
 title: "Dynamic Purgatory Zuggle"
-tag: "DPZ"
+uid: "DLG"
+label: "DPZ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["mulberry"]
 date: "2025-02-14"
@@ -9,7 +10,7 @@ aliases: ["dynamic-purgatory-zuggle"]
 tags: ["zuggling", "item", "equipment"]
 ---
 
-# Dynamic Purgatory Zuggle `DPZ`
+# Dynamic Purgatory Zuggle `DPZ` `DLG`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

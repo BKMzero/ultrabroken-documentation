@@ -1,6 +1,7 @@
----
+﻿---
 title: "Jumpslash Cancel Clipping"
-tag: "JCC"
+uid: "51R"
+label: "JCC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Mozz"]
 date: "2023-06-16"
@@ -9,7 +10,7 @@ aliases: ["jumpslash-cancel-clipping"]
 tags: ["clipping", "animation"]
 ---
 
-# Jumpslash Cancel Clipping `JCC`
+# Jumpslash Cancel Clipping `JCC` `51R`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

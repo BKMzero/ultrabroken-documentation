@@ -1,6 +1,7 @@
----
+﻿---
 title: "Hydro Clipping"
-tag: "HC"
+uid: "LYO"
+label: "HC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Simonfirefighter", "Maxmasher", "KnightPohtaytoh", "pyuk"]
 date: "2023-06-15"
@@ -9,7 +10,7 @@ aliases: ["hydro-clipping"]
 tags: ["clipping", "storage", "equipment", "shield"]
 ---
 
-# Hydro Clipping `HC`
+# Hydro Clipping `HC` `LYO`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

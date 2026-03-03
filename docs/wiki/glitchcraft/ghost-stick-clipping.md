@@ -1,6 +1,7 @@
----
+﻿---
 title: "Ghost Stick Clipping"
-tag: "GSC"
+uid: "MZA"
+label: "GSC"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["rocomox"]
 date: "2023-05-28"
@@ -9,7 +10,7 @@ aliases: ["ghost-stick-clipping"]
 tags: ["clipping"]
 ---
 
-# Ghost Stick Clipping `GSC`
+# Ghost Stick Clipping `GSC` `MZA`
 `1.0.0` `1.1.0` `1.1.1`
 
 ## Summary

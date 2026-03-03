@@ -1,6 +1,7 @@
----
+﻿---
 title: "Shrunken Actors"
-tag: "SA"
+uid: "DMF"
+label: "SA"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["mulberry"]
 date: "2025-10-26"
@@ -9,7 +10,7 @@ aliases: ["shrunken-actors"]
 tags: ["ultrahand"]
 ---
 
-# Shrunken Actors `SA`
+# Shrunken Actors `SA` `DMF`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

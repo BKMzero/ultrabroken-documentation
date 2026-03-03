@@ -1,6 +1,7 @@
----
+﻿---
 title: "Buoy Bouncing"
-tag: "BB"
+uid: "XY5"
+label: "BB"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["InAMuffinCup"]
 date: "2023-05-25"
@@ -9,7 +10,7 @@ aliases: ["buoy-bouncing"]
 tags: ["equipment", "movement", "shield"]
 ---
 
-# Buoy Bouncing `BB`
+# Buoy Bouncing `BB` `XY5`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

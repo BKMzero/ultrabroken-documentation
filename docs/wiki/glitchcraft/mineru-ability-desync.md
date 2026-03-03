@@ -1,6 +1,7 @@
----
+﻿---
 title: "Mineru Ability Desync"
-tag: "MAD"
+uid: "X9I"
+label: "MAD"
 versions: ["1.1.0", "1.1.1"]
 credits: ["Sillicat"]
 date: "2023-05-30"
@@ -9,7 +10,7 @@ aliases: ["mineru-ability-desync"]
 tags: ["desync", "mineru"]
 ---
 
-# Mineru Ability Desync `MAD`
+# Mineru Ability Desync `MAD` `X9I`
 `1.1.0` `1.1.1`
 
 ## Summary

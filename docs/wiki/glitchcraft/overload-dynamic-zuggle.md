@@ -1,6 +1,7 @@
----
+﻿---
 title: "Overload Dynamic Zuggle"
-tag: "ODZGL"
+uid: "AZT"
+label: "ODZGL"
 versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["mulberry"]
 date: "2025-05-19"
@@ -9,7 +10,7 @@ aliases: ["overload-dynamic-zuggle"]
 tags: ["zuggling", "overload", "item", "equipment"]
 ---
 
-# Overload Dynamic Zuggle `ODZGL`
+# Overload Dynamic Zuggle `ODZGL` `AZT`
 `1.0.0` `1.1.0` `1.1.1`
 
 ## Summary

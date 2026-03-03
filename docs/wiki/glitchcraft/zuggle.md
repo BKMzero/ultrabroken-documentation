@@ -1,6 +1,7 @@
----
+﻿---
 title: "Zuggle"
-tag: "ZGL"
+uid: "MCM"
+label: "ZGL"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Zvleon"]
 date: "2023-05-16"
@@ -9,7 +10,7 @@ aliases: ["zuggling", "zugl", "zug"]
 tags: ["zuggling", "item", "equipment"]
 ---
 
-# Zuggle `ZGL`
+# Zuggle `ZGL` `MCM`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

@@ -1,6 +1,7 @@
----
+﻿---
 title: "Infinite Damage 2.0"
-tag: "ID2"
+uid: "M8L"
+label: "ID2"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["NghtmaR3"]
 date: "2024-01-21"
@@ -9,7 +10,7 @@ aliases: ["infinite-damage-2.0"]
 tags: ["damage"]
 ---
 
-# Infinite Damage 2.0 `ID2`
+# Infinite Damage 2.0 `ID2` `M8L`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

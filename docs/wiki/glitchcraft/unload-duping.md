@@ -1,6 +1,7 @@
----
+﻿---
 title: "Unload Duping"
-tag: "UD"
+uid: "3HJ"
+label: "UD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["魔法本就不科学 (magic is not science)", "千年茶饼 (Thousand Year Tea)"]
 date: "2023-05-31"
@@ -9,7 +10,7 @@ aliases: ["unload-duping"]
 tags: ["duplication", "item", "culling", "fuse", "bow", "arrow"]
 ---
 
-# Unload Duping `UD`
+# Unload Duping `UD` `3HJ`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

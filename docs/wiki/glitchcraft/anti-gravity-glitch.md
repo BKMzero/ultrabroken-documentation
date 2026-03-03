@@ -1,6 +1,7 @@
----
+﻿---
 title: "Anti-Gravity Glitch"
-tag: "AGG"
+uid: "PEY"
+label: "AGG"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Kaldemar"]
 date: "2023-05-13"
@@ -9,7 +10,7 @@ aliases: ["anti gravity", "anti gravity glitch", "anti-gravity-glitch", "antigra
 tags: ["paraglide"]
 ---
 
-# Anti-Gravity Glitch `AGG`
+# Anti-Gravity Glitch `AGG` `PEY`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

@@ -1,6 +1,7 @@
----
+﻿---
 title: "Fuse Entangle Weapon Zuggle"
-tag: "FEWZ"
+uid: "L0R"
+label: "FEWZ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Ryan?"]
 date: "2023-06-10"
@@ -9,7 +10,7 @@ aliases: ["fuse-entangle-weapon-zuggle"]
 tags: ["zuggling", "item", "weapon", "damage", "entanglement", "fuse"]
 ---
 
-# Fuse Entangle Weapon Zuggle `FEWZ`
+# Fuse Entangle Weapon Zuggle `FEWZ` `L0R`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
 ## Summary

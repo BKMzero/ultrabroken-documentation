@@ -1,6 +1,7 @@
----
+﻿---
 title: "Wheel Zoomy"
-tag: "WZ"
+uid: "XPW"
+label: "WZ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Solo_Turtle"]
 date: "2023-07-12"
@@ -9,7 +10,7 @@ aliases: ["wheel-zoomy"]
 tags: ["movement", "zonai"]
 ---
 
-# Wheel Zoomy `WZ`
+# Wheel Zoomy `WZ` `XPW`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

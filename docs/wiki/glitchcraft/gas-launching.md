@@ -1,6 +1,7 @@
----
+﻿---
 title: "GAS Launching"
-tag: "GASL"
+uid: "N15"
+label: "GASL"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["NX", "pyuk", "Flash", "Mozz", "Blize"]
 date: "2023-06-25"
@@ -9,7 +10,7 @@ aliases: ["gas-launching"]
 tags: ["gas", "launching"]
 ---
 
-# GAS Launching `GASL`
+# GAS Launching `GASL` `N15`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

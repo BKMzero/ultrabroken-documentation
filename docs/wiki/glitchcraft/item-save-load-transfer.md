@@ -1,6 +1,7 @@
----
+﻿---
 title: "Item Save Load Transfer"
-tag: "ISLT"
+uid: "VDD"
+label: "ISLT"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Luckstyle"]
 date: "2023-12-22"
@@ -9,7 +10,7 @@ aliases: ["item-save-load-transfer"]
 tags: ["item", "save-load", "zuggling"]
 ---
 
-# Item Save Load Transfer `ISLT`
+# Item Save Load Transfer `ISLT` `VDD`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary

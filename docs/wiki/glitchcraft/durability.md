@@ -1,6 +1,7 @@
----
+﻿---
 title: "Durability-"
-tag: "DURM"
+uid: "J9U"
+label: "DURM"
 versions: ["1.0.0"]
 credits: ["Zas"]
 date: "2023-09-11"
@@ -9,7 +10,7 @@ aliases: []
 tags: ["item", "weapon", "bow"]
 ---
 
-# Durability- `DUR-`
+# Durability- `DUR-` `DURM` `J9U`
 `1.0.0`
 
 ## Summary
