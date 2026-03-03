@@ -29,6 +29,7 @@ GameSystemActor.EventClearActorsAnchor(
         'IsWaitEnd': False  # <-- THE BUG!
     }
 )
+```
 
 The `IsWaitEnd` being set to `False` instead of `True` causes the system to fail to properly wait for the end of the anchor clearing sequence, leaving objects in a broken state.
 
