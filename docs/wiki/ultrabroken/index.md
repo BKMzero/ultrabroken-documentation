@@ -10,12 +10,12 @@ Enter **Ultrabroken**, the superglitch of The Legend of Zelda: Tears of the King
 
 ## Quick Navigation
 ---
-- **[Ultrabroken Basics](basics/)** - Learn what Ultrabroken is and how to trigger it
-- **[Effects](effects/)** - Explore all known Ultrabroken effects
-- **[Zonai Device Hacks](devices/)** - Individual device breakdowns
-- **[Builds & UltraFuses](builds/)** - Creative constructions and combinations
-- **[Meta & Tips](meta/)** - Advanced strategies and guidance
-- **[Credits](credits/)** - Thanks to all contributors
+- **[Ultrabroken Basics](basics/index.md)** - Learn what Ultrabroken is and how to trigger it
+- **[Effects](effects/index.md)** - Explore all known Ultrabroken effects
+- **[Zonai Device Hacks](devices/index.md)** - Individual device breakdowns
+- **[Builds & UltraFuses](builds/index.md)** - Creative constructions and combinations
+- **[Meta & Tips](meta.md)** - Advanced strategies and guidance
+- **[Credits](credits.md)** - Thanks to all contributors
 
 ## What is Ultrabroken?
 ---

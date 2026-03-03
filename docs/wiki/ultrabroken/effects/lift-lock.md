@@ -59,6 +59,6 @@ If you encounter a Lift Lock:
 
 ---
 
-**Up Next:** [Recall Fling](../recall-fling/)
+**Up Next:** [Recall Fling](../recall-fling.md)
 
 
