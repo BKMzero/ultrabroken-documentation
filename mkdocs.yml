@@ -183,6 +183,7 @@ hooks:
   - docs/assets/hooks/contributor_links.py
   - docs/assets/hooks/glitch_autolink.py
   - docs/assets/hooks/reader_compat.py
+  - docs/assets/hooks/uid_links.py
 
 exclude_docs: |
   wiki/_wip/
