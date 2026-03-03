@@ -3,7 +3,7 @@ title: "Master Sword Zuggling / Decayed Master Sword Zuggling"
 uid: "5RG"
 label: "MSZ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
-credits: ["Zas"]
+credits: ["Zas", "mulberry"]
 date: "2023-11-06"
 description: "Allows you to zuggle the master sword or decayed master sword by desyncing it"
 aliases: ["master-sword-zuggling"]
@@ -15,13 +15,13 @@ tags: ["zuggling", "desync", "weapon"]
 
 ## Summary
 ---
-Allows you to zuggle the master sword or decayed master sword by desyncing it
+Allows you to zuggle the master sword or decayed master sword by desyncing it.
 
-_Zas - 6 November 2023_
+_Discovered by Zas; Optimization by mulberry  - 6 November 2023_
 
 ## Instructions
 ---
-Method1:
+### Method1
 1. Obtain a Mineru Culled Object.
 2. Bring the Mineru Culled Object to a location where holding a Minaru Culled Object causes you to blink.
 3. Equip the master sword
@@ -32,7 +32,7 @@ Method1:
 8. Unpause and drop the Mineru Culled Object.
 9. zuggle the newly equipped weapon.
 
-An alternative much easier method of getting the desync and transfering it:
+### Alternative much easier method of getting the desync and transfering it
 1. FE an object
 2. Feed the item that the object is fed to to a like like and also feed it a time bomb
 3. while the like like is preparing to eat it, pickup the fed object and face links back to a wall
@@ -46,13 +46,12 @@ An alternative much easier method of getting the desync and transfering it:
 
 ## Notes
 ---
-Altenative method (mulberry)
-https://discord.com/channels/1086729144307564648/1105598687167664239/1178791475216134194
-This can be combined with mastersword liberation to drop the dms/ms
+This can be combined with mastersword liberation to drop the dms/ms.
 
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1171061365667020821)
+- [Altenative method (mulberry)](https://discord.com/channels/1086729144307564648/1105598687167664239/1178791475216134194)
 
 ## Related
 ---
