@@ -78,6 +78,9 @@ Keep the steps of your instructions as granular as possible. Try to extract paus
 #### Work in progress
 Put your WIPs into the dedicated [`docs/wiki/wip/`](docs/wiki/wip/) folder.
 
+#### Build times
+After you have committed changes to the wiki, is takes around two minutes until those are reflected on the page.
+
 ## Markdown quick reference
 
 ### Headings
