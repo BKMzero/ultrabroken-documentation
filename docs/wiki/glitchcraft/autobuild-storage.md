@@ -27,7 +27,7 @@ _Blackmars, R4000 - 28 August 2023_
 
 ## Notes
 ---
-Can do launches with Octo Balloons and pulling items towards the Like Like's location
+Can do launches with Octo Balloons and pulling items towards the Like Like's location.
 
 ## Resources
 ---
