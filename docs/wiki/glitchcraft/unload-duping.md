@@ -25,10 +25,10 @@ _魔法本就不科学 (magic is not science), 千年茶饼 (Thousand Year Tea) 
 2. Take out any multi-shot bow (Five-Shot Burst bows work best).
 3. Fuse a material to your bow and shoot upwards into the cave from where you came from.
 
-If done properly, the arrows should unload, but the materials you fired will stay in the air. Walking up to them will make them fall down and allow you to collect them.
-
 ## Notes
 ---
+If done properly, the arrows should unload, but the materials you fired will stay in the air. Walking up to them will make them fall down and allow you to collect them.
+
 This also works in any other chasm in which you have enough room to shoot your arrows and unload them too.
 
 ## Resources
