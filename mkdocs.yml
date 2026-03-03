@@ -15,10 +15,9 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - navigation.expand
-    - navigation.top           # §4.2: proper feature name (replaces custom back-to-top.js)
     - search.highlight
     - search.share
-    - search.suggest           # §4.2 test: may fix Enter key issue natively
+    - search.suggest
   palette:
     scheme: slate
     primary: teal
@@ -39,7 +38,7 @@ extra_javascript:
   - assets/scripts/storage-toggle.js
   - assets/scripts/font-size-toggle.js
   - assets/scripts/motion-toggle.js
-  # - assets/scripts/back-to-top.js  # §4.2: replaced by native navigation.top feature
+  - assets/scripts/back-to-top.js  # Custom back-to-top with icon, no text
   - assets/scripts/particles-constellations.js
   - assets/scripts/search-link.js
   - assets/scripts/ai-worker-client.js
