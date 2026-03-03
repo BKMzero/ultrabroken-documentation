@@ -211,6 +211,11 @@ markdown_extensions:
       clickable_checkbox: true
   - toc:
       permalink: false
+  - attr_list
+  - md_in_html
+  - def_list
+  - pymdownx.tabbed:
+      alternate_style: true
 
 extra:
   homepage: /ultrabroken-documentation/wiki/
