@@ -45,7 +45,9 @@ extra_javascript:
   - assets/scripts/grimoire-filter.js
   - assets/scripts/leaderboard.js
   - assets/scripts/graph-view.js
-    - assets/scripts/cosmetic-urls.js
+  - assets/scripts/cosmetic-urls.js
+
+nav:
   - Home: wiki/index.md
   - About: wiki/about.md
      #- Welcome: index.md
