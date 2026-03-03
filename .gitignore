@@ -55,3 +55,6 @@ docs/assets/data/leaderboard-data.json
 
 # Cache
 .cache
+
+# Build logs
+build.log
