@@ -15,7 +15,7 @@ tags: ["animation", "damage", "movement"]
 
 ## Summary
 ---
-Allows you to cancel fall damage from any height
+Allows you to cancel fall damage from any height.
 
 _simonfirefighter - 23 May 2023_
 
