@@ -32,7 +32,7 @@ extra_javascript:
   - assets/vendor/purify.min.js
   - assets/scripts/clipboard-permalink.js
   - assets/scripts/search-highlights-cleanup.js
-  - assets/scripts/search-enter-disable.js  # Required: fixes focus state bug after Enter press
+  - assets/scripts/search-enter-navigate.js  # Fixes focus state bug + navigates to first result on Enter
   - assets/scripts/header-reserve.js
   - assets/scripts/header-marquee.js
   - assets/scripts/storage-manager.js
