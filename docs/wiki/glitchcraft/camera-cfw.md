@@ -15,35 +15,34 @@ tags: ["camera"]
 
 ## Summary
 ---
-Glitches out the camera rune and can remove the waymarkers and the camera UI
+Glitches out the camera rune and can remove the waymarkers and the camera UI.
 
 _NaN Gogh - 11 July 2023_
 
 ## Instructions
 ---
+### Base Setup
 1. Open camera rune
 2. Take a photograph
 3. Delete the snapshot
 4. Wait for a fraction of a second
 5. Press L and R3 at about the same time
 
-depending on how long you waited in step 4, you can get different modes:
-
-mode 1:
-camera and scope mixed
-waymarkers visible in camera mode
-
-mode 2:
-same as mode 1
-borders render layered weirdness
-
-mode 3:
-same as mode 1
-no camera ui
-
 ## Notes
 ---
-—
+Depending on how long you waited in step 4, you can get different modes.
+
+### Mode 1
+- Camera and scope mixed
+- Waymarkers visible in camera mode
+
+### Mode 2
+- Same as mode 1
+- Borders render layered weirdness
+
+### Mode 3
+- Same as mode 1
+- No camera ui
 
 ## Resources
 ---
