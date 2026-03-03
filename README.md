@@ -66,6 +66,9 @@ Mismatched names (different capitalization, spacing, or spelling) will:
 #### Tagging
 To see all available tags, check [`docs/assets/data/tags.json`](docs/assets/data/tags.json). Glitch and content tags are automatically aggregated into `tags.json` during the build process. When you add a new tag to a glitch's frontmatter (in the `tags:` field), the build system automatically discovers it and adds it to the tags file if it's not already present sorting it alphabetically. Do not edit `tags.json` manually.
 
+#### Unique identificators
+UIDs for files are generated automatically. Don't add UID fields to the frontmatter.
+
 #### Naming conventions
 Avoid abbreviations in titles or filenames for easy parsing.
 
@@ -109,7 +112,7 @@ echo "example"
 ```
 
 ### Lists
-
+*Leave a blank line between regular text and lists!*
 ```markdown
 - Unordered item
 - Another item
@@ -133,7 +136,7 @@ echo "example"
 ```
 
 ### Task lists
-
+*Currently broken!*
 Useful in pull requests:
 
 ```markdown
@@ -142,7 +145,7 @@ Useful in pull requests:
 ```
 
 ### Admonitions
-
+*Currently unimplemented!*
 Supported by MkDocs Material:
 
 ```markdown
@@ -152,7 +155,7 @@ Supported by MkDocs Material:
 
 ## Navigation and where to edit
 
-- Top-level docs live in `docs/`.
+- Top-level docs live in `docs/wiki/`.
 - Edit pages directly; to reorganize navigation, ask a maintainer or update `mkdocs.yml`.
 
 ## Community and contribution
