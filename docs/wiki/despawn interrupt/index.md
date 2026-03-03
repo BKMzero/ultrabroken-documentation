@@ -14,7 +14,7 @@ Despawn Interrupt refers to interrupting the despawning of an actor. When a piec
 - **[Despawn Interrupt Query](search:Despawn Interrupt)** - The main DI glitch with multiple setups
 - **[Fuse Entanglement Query](search:Fuse Entanglement)** - Often combined with DI for duplication
 - **[Detanglement Query](search:Detanglement)** - Remove items from DI parent bases
-- **[Culling Overview](../culling/)** - Game culling mechanics that enable DI
+- **[Culling Overview](../culling/index.md)** - Game culling mechanics that enable DI
 
 ## Despawn reasons
 ---
