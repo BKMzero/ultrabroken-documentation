@@ -56,6 +56,6 @@ This effect is also known as "Duncan's Ghost Glue."
 
 ---
 
-**Related:** See [Mass Matching](../mass-matching.md) for understanding Ghost Glue connections, or [Ghost Smuggle](../ghost-smuggle.md) for advanced techniques.
+**Related:** See [Mass Matching](mass-matching.md) for understanding Ghost Glue connections, or [Ghost Smuggle](ghost-smuggle.md) for advanced techniques.
 
 

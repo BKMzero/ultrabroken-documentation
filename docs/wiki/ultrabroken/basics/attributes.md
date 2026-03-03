@@ -23,10 +23,10 @@ Ultrabroken Objects can be easily identified through the use of the Ultrahand ab
 - **Cannot be glued to other objects regularly** - Normal gluing is impossible (but Ghost Glue works!)
 - **Extreme mass or friction** - Most Ultrabroken Objects appear to have either extremely high mass or friction attributes
 
-These attributes make Ultrabroken objects unique and are the foundation for the various effects described in the [Effects section](../../effects/index.md).
+These attributes make Ultrabroken objects unique and are the foundation for the various effects described in the [Effects section](../effects/index.md).
 
 ---
 
-**Next:** Explore [Theories](../theories.md) about how this works, or jump to [Effects](../../effects/index.md).
+**Next:** Explore [Theories](theories.md) about how this works, or jump to [Effects](../effects/index.md).
 
 

@@ -48,6 +48,6 @@ While there may not be any significant untapped potential in this phenomenon, it
 
 ---
 
-**Related:** [Phantom Smuggle](../phantom-smuggle.md) also uses Glue-Less Ultrabroken.
+**Related:** [Phantom Smuggle](phantom-smuggle.md) also uses Glue-Less Ultrabroken.
 
 

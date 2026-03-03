@@ -10,8 +10,8 @@ Welcome to the foundation of the Ultrabroken phenomenon. This section covers eve
 ---
 
 - **[Introduction](introduction.md)** - What is Ultrabroken?
-- **[Zorona & Kairo](introduction/#zorona-and-kairo)** - Meet the Riverside Trolls
-- **[Etymology](introduction/#etymology)** - How it got its name
+- **[Zorona & Kairo](introduction.md#zorona-and-kairo)** - Meet the Riverside Trolls
+- **[Etymology](introduction.md#etymology)** - How it got its name
 - **[Requirements](requirements.md)** - What you need to trigger it
 - **[Procedure](procedure.md)** - Step-by-step setup (works 99% of the time)
 - **[Exceptions](exceptions.md)** - Objects that don't break

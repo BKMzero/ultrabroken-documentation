@@ -54,6 +54,6 @@ This technique is also commonly referred to as "Ghost Glue Smuggling".
 
 ---
 
-**Related:** [Phantom Smuggle](../phantom-smuggle.md) - even more powerful!
+**Related:** [Phantom Smuggle](phantom-smuggle.md) - even more powerful!
 
 
