@@ -52,7 +52,7 @@ Methods 1 and 2 are obsolete, see Dpadlock-less Invizuggle for better options on
     10. Open chest with a full inventory and fail a drop with the zuggled item, this unlocks the dpad
 
 === "Method 3 `1.0.0-1.1.1`"
-    _mulberry_
+    _Discovered by mulberry_
     
     1. FE something to the item you wish to invizuggle (optional, but makes it more convenient)
     2. Drop the item and pick it up right when a like like eats it
@@ -60,7 +60,7 @@ Methods 1 and 2 are obsolete, see Dpadlock-less Invizuggle for better options on
     4. Warp away, if Link has the item fe'd to it equipped in the overworld, you invizuggled its basew (this check only works if you did the fe)
 
 === "Method 4 `1.0.0-1.1.2`"
-    _mulberry_
+    _Discovered by mulberry_
 
     1. Drop smuggle the target item with either Shock Smuggle or Cull Smuggle (you can FE any items before to ZLOT them)
     2. Trigger a like like to eat the drop smuggled equipment
