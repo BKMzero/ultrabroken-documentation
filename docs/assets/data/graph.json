@@ -2202,6 +2202,10 @@
     },
     {
       "source": "wiki/glitchcraft/7DA/",
+      "target": "wiki/glitchcraft/GM7/"
+    },
+    {
+      "source": "wiki/glitchcraft/7DA/",
       "target": "wiki/glitchcraft/JAP/"
     },
     {
@@ -2211,6 +2215,10 @@
     {
       "source": "wiki/glitchcraft/7DA/",
       "target": "wiki/glitchcraft/MCM/"
+    },
+    {
+      "source": "wiki/glitchcraft/7DA/",
+      "target": "wiki/glitchcraft/MP9/"
     },
     {
       "source": "wiki/glitchcraft/7DH/",
@@ -3122,6 +3130,10 @@
     },
     {
       "source": "wiki/glitchcraft/JDP/",
+      "target": "wiki/glitchcraft/B3B/"
+    },
+    {
+      "source": "wiki/glitchcraft/JDP/",
       "target": "wiki/glitchcraft/GDL/"
     },
     {
@@ -3447,6 +3459,10 @@
     {
       "source": "wiki/glitchcraft/MCM/",
       "target": "wiki/glitchcraft/SQF/"
+    },
+    {
+      "source": "wiki/glitchcraft/MG1/",
+      "target": "wiki/glitchcraft/B3B/"
     },
     {
       "source": "wiki/glitchcraft/MG1/",

@@ -21,9 +21,9 @@ _R4000 - 26 October 2023_
 
 ## Instructions
 ---
-1.Zuggle until your bow drops 
-2.Fuse the bow on the ground to a sheild
-3.let the arrow float away then drop the sheild
+1. Zuggle until your bow drops 
+2. Fuse the bow on the ground to a sheild
+3. Let the arrow float away then drop the sheild
 
 ## Notes
 ---

@@ -21,19 +21,19 @@ _Discovered by Ock, optimized by mulberry, WinnerBoi77 - 31 May 2024_
 
 ## Instructions
 ---
-1. setup portable culling using the opposite equipment type of your target
-2. position yourself anywhere inside a chasm box, for instance, the akkala citadel chasm box starts at y-coordinate 179
-3. equip target 
-4. hold L and select the map rune
-5. press dpad before map opens
-6. drop portable culling equipment
-7. swap to a different equipment of the same type
-8. drop target
-9. swap to a different equipment of the same type
-10. let the map rune open
-11. drop the portable equipment type
-12. unpause
-13. unlock dpad using a chest
+1. Setup portable culling using the opposite equipment type of your target
+2. Position yourself anywhere inside a chasm box, for instance, the akkala citadel chasm box starts at y-coordinate 179
+3. Equip target 
+4. Hold L and select the map rune
+5. Press dpad before map opens
+6. Drop portable culling equipment
+7. Swap to a different equipment of the same type
+8. Drop target
+9. Swap to a different equipment of the same type
+10. Let the map rune open
+11. Drop the portable equipment type
+12. Unpause
+13. Unlock the D-Pad using a chest
 
 ## Notes
 ---

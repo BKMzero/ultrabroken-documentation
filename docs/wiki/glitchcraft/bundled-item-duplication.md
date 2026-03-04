@@ -24,17 +24,16 @@ _Ock - 12 December 2023_
 1. Setup sdc culling or like like stick culling (some locations are more consistent than others(look-out landing like likes are terrible))
 2. Hold an item 1 frame before link culls
 If you are having trouble with this method, there is an altenative method that removes the timing, but it requires getting specific cull luck:
-Watch a memory to uncull, hold L during the memory and don't release it, wait 1 second, then unpause and choose the map rune 
-Discord (Lightos_)
-3. unload the item in some way, one way to do this is let a horse eat it (only works with apples)
-4. drop the unloaded item onto the ground
-5. mount a horse to stop the culling
-6. umount and hold 5 of the item you unloaded
-7. unpause
-8. stop holding 4 of the items and hold what you want to dupe
-9. prepare to throw an item so you can pick up stuff
-10. to dupe, unhold one dupe item and rehold it, then unpause
-11. pickup the items and repeat steps 9-11
+Watch a memory to uncull, hold L during the memory and don't release it, wait 1 second, then unpause and choose the map rune ([Discord](https://discord.com/channels/1086729144307564648/1110956205624532993/1197162039974580356) (Lightos_))
+3. Unload the item in some way, one way to do this is let a horse eat it (only works with apples)
+4. Drop the unloaded item onto the ground
+5. Mount a horse to stop the culling
+6. Umount and hold 5 of the item you unloaded
+7. Unpause
+8. Stop holding 4 of the items and hold what you want to dupe
+9. Prepare to throw an item so you can pick up stuff
+10. To dupe, unhold one dupe item and rehold it, then unpause
+11. Pickup the items and repeat steps 9-11
 
 ## Notes
 ---

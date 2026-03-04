@@ -36,7 +36,7 @@ Throwing the weapon, pausing on the first frame it leaves Link and loading achie
 
 Update to include the easier, old, drop swap drop method.
 
-Requires Portable culling to be performed on 1.2.0/1.2.1
+Requires Portable Culling to be performed on 1.2.0/1.2.1
 
 ## Resources
 ---

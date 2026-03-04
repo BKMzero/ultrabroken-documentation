@@ -22,7 +22,6 @@ _mulberry - 26 May 2025_
 ## Instructions
 ---
 Fuse Overload:
-
 1. Overload drop A and fuse A to B of opposite type.
 2. Overload cold fuse C of the same type as A to A by fusing C to A.
 3. Fail drop A, then drop A.
@@ -30,7 +29,6 @@ Fuse Overload:
 5. Fail drop C.
  
 FOFE:
-
 1. Equip B and C.
 2. Recall your target.
 3. Fuse the target to C. Because of fuse overload, the fuse will not finish properly.

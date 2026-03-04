@@ -20,26 +20,29 @@ Fusing to Mineru and then pausing the game or culling Link while riding Mineru o
 _ock (Method 1 & 3), WinnerBoi77 (Method 2), mulberry (Mineru Detanglement) - 18 October 2023_
 
 ## Instructions
----
-Method 1:
-1. Perform like like stick culling in an area where Mineru can be summoned
-2. Quickly mount Mineru and take out the target item
-3. Wait for Mineru to cull and watch a memory
-4. Unpause and fuse the target object to Mineru just before she culls
 
-Method 2:
-1. Set up portable culling
-2. Drop the target item on the ground
-3. Fuse the target item to Mineru and pause the game or open a d-pad menu exactly 3 frames later
-4. Drop the SDC shield/weapon and swap to a different shield/weapon corresponding with the same type as the SDC equipment
-5. Unpause
+=== "Method 1"
+    Original outdated method, for objects see method 2, and equipment see method 3
 
-Method 3:
-Note: This method ONLY works with bows, shields, and weapons
-1. Equip the target item and drop it on the ground
-2. Mount Mineru
-3. Fuse the target item to any slot and pause the game or open a d-pad menu exactly 3 frames later
-4. Close the menu/unpause
+    1. Perform like like stick culling in an area where Mineru can be summoned
+    2. Quickly mount Mineru and take out the target item
+    3. Wait for Mineru to cull and watch a memory
+    4. Unpause and fuse the target object to Mineru just before she culls
+
+=== "Method 2"
+    1. Set up portable culling
+    2. Drop the target item on the ground
+    3. Fuse the target item to Mineru and pause the game or open a d-pad menu exactly 3 frames later
+    4. Drop the SDC shield/weapon and swap to a different shield/weapon corresponding with the same type as the SDC equipment
+    5. Unpause
+
+=== "Method 3"
+    Note: This method ONLY works with bows, shields, and weapons
+    
+    1. Equip the target item and drop it on the ground
+    2. Mount Mineru
+    3. Fuse the target item to any slot and pause the game or open a d-pad menu exactly 3 frames later
+    4. Close the menu/unpause
 
 ## Notes
 ---

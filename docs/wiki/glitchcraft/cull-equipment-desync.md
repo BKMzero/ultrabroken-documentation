@@ -23,7 +23,7 @@ _Blize, Ock (Cull Arrow Smuggle), Blize - 10 October 2023_
 ---
 1. Cull 
 2. Equip your target item
-3. Close the menu                                                                                                                                                          
+3. Close the menu
 4. Drop your equipped target item 
 5. Close the menu
 6. Uncull

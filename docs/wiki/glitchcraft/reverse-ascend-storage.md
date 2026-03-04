@@ -15,13 +15,13 @@ tags: ["storage", "ascend"]
 
 ## Summary
 ---
-Ascending through water under a plattform allows link to ascend up into the sky, provided that there is ground above him. The limit for this seems to be around 700 meters.
+Ascending through water under a platform allows link to ascend up into the sky, provided that there is ground above him. The limit for this seems to be around 700 meters.
 
 _Redrooey - 27 November 2023_
 
 ## Instructions
 ---
-<Self explaining
+Self-explaining
 
 ## Notes
 ---

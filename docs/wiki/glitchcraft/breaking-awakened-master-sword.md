@@ -20,19 +20,19 @@ By using certain setups, it is possible to ignore the no durability use.
 _Infrasolid - 26 November 2023_
 
 ## Instructions
----
-Method 1:
-1. Activate arrow smuggle
-2. activate sidons ability
-3. mount mineru
-4. jump off and enter bullet time
-5. jump slash with the ams
 
-Method 2:
-1. Activate arrow smuggle
-2. hold out the bow
-3. side hop
-4. press Y
+=== "Method 1"
+    1. Activate Arrow Smuggle
+    2. Activate Sidon's ability
+    3. Mount Mineru
+    4. Jump off and enter bullet time
+    5. Jump slash with the AMS
+
+=== "Method 2"
+    1. Activate Arrow Smuggle
+    2. Hold out the bow
+    3. Side hop
+    4. Press Y
 
 ## Notes
 ---
