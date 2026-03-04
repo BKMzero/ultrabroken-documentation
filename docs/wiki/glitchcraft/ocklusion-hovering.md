@@ -2,7 +2,7 @@
 title: "Ocklusion Hovering"
 uid: "E0G"
 label: "OCKH"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.3.0", "1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Telkic"]
 date: "2025-10-12"
 description: "Triggering an ocklusion load while pickup smuggling certain objects pushes Link around, sometimes causing him to hover or levitate upwards"
@@ -11,7 +11,7 @@ tags: ["zuggling", "item", "equipment"]
 ---
 
 # Ocklusion Hovering `OCKH` `E0G`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.3.0` `1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

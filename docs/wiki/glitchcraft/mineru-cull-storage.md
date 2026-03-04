@@ -2,7 +2,7 @@
 title: "Mineru Cull Storage"
 uid: "7ZD"
 label: "MCS"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.3.0", "1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["ofstrings2"]
 date: "2025-11-09"
 description: "Stores the callback of Mineru while mouted on her, useful for swap resync zuggle setups"
@@ -11,7 +11,7 @@ tags: ["zuggling", "storage", "culling", "mineru"]
 ---
 
 # Mineru Cull Storage `MCS` `7ZD`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.3.0` `1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

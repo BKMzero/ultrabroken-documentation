@@ -2,7 +2,7 @@
 title: "Chasm Device Dupe"
 uid: "0FH"
 label: "CDD"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.3.0", "1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Telkic", "mulberry"]
 date: "2025-10-12"
 description: "Unloads throwable items in a way that allows them to be duped by picking them up from Link's hand, most notably zonai capsules"
@@ -11,7 +11,7 @@ tags: ["duplication", "item", "culling", "zonai"]
 ---
 
 # Chasm Device Dupe `CDD` `0FH`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.3.0` `1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---
