@@ -24,6 +24,8 @@ _ock, Yee - 3 January 2024_
 There are multiple methods:
 Methods 1 and 2 are obsolete, see Dpadlock-less Invizuggle for better options on 1.2.0+.
 
+### Methodology
+---
 === "Method 1 (1.2.0+)" 
     Method 1 is trickier, but keeps FE items.
 
