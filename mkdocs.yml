@@ -182,6 +182,7 @@ nav:
   - Memorandum: wiki/memorandum.md
 
 hooks:
+  - docs/assets/hooks/map_embed.py
   - docs/assets/hooks/youtube_embed.py
   - docs/assets/hooks/contributor_links.py
   - docs/assets/hooks/glitch_autolink.py
