@@ -12,6 +12,7 @@ This archive would not exist without the dedicated work of community archivists 
 
 - **PetitFrapo** — Lead archivist
 - **MandelbrotChaylay** — Lead archivist
+- **Squidwest** - Lead archivist
 
 ## Spreadsheet Managers
 ---
