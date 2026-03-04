@@ -24,12 +24,12 @@ _s0ft, Telkic, mulberry - 31 December 2024_
 === "Method 1 (All Versions, Telkic)"
     Method 1 works on all versions, but method 2 is preferred for 1.0.
 
-    Requirements for method 1: 
-    
+    ### Requirements for method 1
     - Have a sacrifice edible/usable item that sorts before your target item in any of the 4 ways to sort items. Either have 1 of the sacrifice, or drop all extra items to make it 1. It will be more convenient if you have a low amount of the sacrifice.
     - Have at least 2 of the target item you want to split (3 if you plan on using it for SID, see row 267). The target must be fusable to a bow.
     - Have at least 1 bow, and the fuse ability.
 
+    ### Steps
     1. Fuse the target item to a bow.
     2. Pause and eat your sacrifice, leaving a gap in the inventory.
     3. Unequip your bow.
