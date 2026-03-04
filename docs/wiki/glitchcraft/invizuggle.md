@@ -74,8 +74,8 @@ Methods 1 and 2 are obsolete, see Dpadlock-less Invizuggle for better options on
 
 ## Notes
 ---
-Todo:
-Add Method 5
+### Todo
+- [ ] Add Method 5
 
 ## Resources
 ---
