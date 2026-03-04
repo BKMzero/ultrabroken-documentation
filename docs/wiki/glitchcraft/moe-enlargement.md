@@ -22,16 +22,16 @@ _Discovered by Toti Sauce, developed by PetitFrapo, Jordan - October 30th, 2024_
 ## Instructions
 ---
 1. Get an equipped ghost, there are 2 methods:
-- Method 1 (All Versions):
-   - Overload drop/pickup a weapon/shield
-   - Fuse it to the opposite equipment
-   - Fail drop the overload drop
-- Method 2 (1.0.0):
-   - Put Link's back to a wall
-   - Pull out fuse
-   - Swap to target, drop it
-   - Unpause pause quickly, drop the equipment, then swap to anything else and unequip it
-   - Repeat the last step 3 times, then unpause, and quickly press ZL/Y to fuse what's at Link's feet to the opposite type
+=== "Method 1 (All Versions)"
+   1. Overload drop/pickup a weapon/shield
+   2. Fuse it to the opposite equipment
+   3. Fail drop the overload drop
+=== "Method 2 (1.0.0)"
+   1. Put Link's back to a wall
+   2. Pull out fuse
+   3. Swap to target, drop it
+   4. Unpause pause quickly, drop the equipment, then swap to anything else and unequip it
+   5. Repeat the last step 3 times, then unpause, and quickly press ZL/Y to fuse what's at Link's feet to the opposite type
 
 2. Give the parent of the ghost to a moblin
 

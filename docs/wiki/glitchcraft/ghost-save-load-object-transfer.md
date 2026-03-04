@@ -20,23 +20,21 @@ Allows objects to be transferred through saves by creating a fuse ghost and deta
 _Aergyl - 8 March 2024_
 
 ## Instructions
----
-There are two ways to achieve this:
 
-1. Fuse entangle the target object to a shield
-2. Cold fuse (or null fuse) the same object to a different shield
-3. Zuggle the shield the object is entangled to
-4. Move out of range of the target object and detangle it from the zuggled shield
+=== "Method 1"
+ 1. Fuse entangle the target object to a shield
+ 2. Cold fuse (or null fuse) the same object to a different shield
+ 3. Zuggle the shield the object is entangled to
+ 4. Move out of range of the target object and detangle it from the zuggled shield
 
-OR
+=== "Method 2"
+ 1. Zuggle Overload
+ 2. Swap to the target equipment such that it falls on the ground
+ 3. Fuse the target equipment to a shield
+ 4. Drop the target equipment with Link's back to a wall, then move away from a wall and drop it again
+ 5. Zuggle the shield and detangle it from the target equipment out of range
 
-1. Zuggle Overload
-2. Swap to the target equipment such that it falls on the ground
-3. Fuse the target equipment to a shield
-4. Drop the target equipment with Link's back to a wall, then move away from a wall and drop it again
-5. Zuggle the shield and detangle it from the target equipment out of range
-
-A slight variation of this setup can be used to ghost SLOT objects, check Example(s) for more info.
+A slight variation of this setup can be used to Ghost SLOT objects, check Resources for more info.
 
 ## Notes
 ---

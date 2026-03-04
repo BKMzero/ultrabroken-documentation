@@ -20,18 +20,16 @@ Unloads a fired arrow while retaining its fused attachment, leading to strange i
 _Mozz, pyuk, Zas - 18 June 2023_
 
 ## Instructions
----
-Method 1:
 
-1. Zuggle Overload
-2. Drop a bow by switching equipment
-3. Fuse Entangle the dropped bow
-4. Zuggle the shield
+=== "Method 1"
+ 1. Zuggle Overload
+ 2. Drop a bow by switching equipment
+ 3. Fuse Entangle the dropped bow
+ 4. Zuggle the shield
 
-Method 2: 
-
-1. Drop a bow in front of a Like-like and stand next to it.
-2. Pick up the bow from the ground as late as possible when the Like-like goes to eat it and Link.
+=== "Method 2"
+ 1. Drop a bow in front of a Like-like and stand next to it.
+ 2. Pick up the bow from the ground as late as possible when the Like-like goes to eat it and Link.
 
 ## Notes
 ---

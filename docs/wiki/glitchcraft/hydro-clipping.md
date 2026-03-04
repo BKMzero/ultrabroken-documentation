@@ -17,25 +17,23 @@ tags: ["clipping", "storage", "equipment", "shield"]
 ---
 Using  guardless active shield or throwless storage on a hydrant shield (FED to a weapon) can cause link and enemies to clip through the ground. It can also force panic blood moons
 
-_Simonfirefighter, Maxmasher (Flurry rush method), KnightPohtaytoh (Crouch method), pyuk (throw method) - 15 June 2023_
+_Simonfirefighter, Maxmasher (Flurry rush method), KnightPohtaytoe (Crouch method), pyuk (throw method) - 15 June 2023_
 
 ## Instructions
----
-Method 1:  
 
-1. FE a hydrant
-2. Fuse hydrant to a weapon (or shield, it's slower)
-3. Perform guardless active shield
+=== "Method 1 (1.0.0-1.1.2)"
+ Technically works on 1.2.0+, but for the sole purpose of clipping, methods 2 and 3 are preferred.
+ 1. FE a hydrant
+ 2. Fuse hydrant to a weapon (or shield, it's slower)
+ 3. Perform Guardless Active Shield
 
-Method 2:
+=== "Method 2 (1.2.0)"
+ 1. Perform Throwless Storage
+ 2. Equip a weapon with a hydrant fused to it
 
-1. Perform throwless storage
-2. Equip a weapon with a hydrant fused to it
-
-Method 3:
-
-1. Throw a hydro weapon and activate recall before it hits something (must be equipped fresh from the inventory)
-2. wait 15-20 seconds
+=== "Method 3 (1.2.1+)"
+ 1. Throw a hydro weapon and activate recall before it hits something (must be equipped fresh from the inventory)
+ 2. wait 15-20 seconds
 
 There are a couple of ways to clip with hydro clipping, the most practial methods are:
 

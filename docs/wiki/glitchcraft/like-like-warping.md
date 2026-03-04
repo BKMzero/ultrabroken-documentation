@@ -20,7 +20,6 @@ _Mozz - 15 June 2023_
 ## Instructions
 ---
 1. Fuse Entangle a (preferably timed) bomb to a shield.
-
 2. Draw the Like-Likes attention to the shield, and before it eats it, pickup the entangled bomb.
 
 ## Notes

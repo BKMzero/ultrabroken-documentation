@@ -20,34 +20,34 @@ Using memory interrupt, it's possible to store a banc change (shrine entry/exit,
 _Lightos, mulberry, Aergyl - October 1st, 2024_
 
 ## Instructions
----
-### Instructions for 1.0:
-1. Perform Memory Interrupt. For Warp Storage, press R at the end of it, for Shrine Storage and all other banc changes, press -.
-2. Trigger the banc change
-3. The cutscene of the banc change will trigger the forced pause while in the loading screen. Even if you can't see it, you have access to your menu right now, and the loading is paused. Press + to go to the menu (you are on the Purah Pad), then press R a lot to go to the last tab.
-4. Load a save. Go down once, then press A. You have 6 save slots, press down to get to the one you want to load, then press A, up and A. After a few seconds, the loading will start again, and will load your save.
-It's also possible to go to the main menu, that way you can load a save and start a new game while seeing what you're doing, the banc change remains stored while in the main menu. Simply press down 5 times to get to the option, then press A, up and A again.
-After loading the save, the banc change should trigger.
 
-### Instructions for 1.1+:
-1. Have a bubble gem, never have recieved the armor tutorial prompt, and have never talkedt to Kilton or Koltin
-2. Manually save near Kilton and Koltin
-3. FE a steering stick nearby to them
-4. SDC the stick and unlock the l-wheel
-5. With the base shield equipped, warp to the nearest warp point, generally Ekochiu shrine
-6. Zuggle the base shield
-7. Put the steering stick approximately where Koltin will walk to when you talk to Kilton
-8. Talk to Kilton. If the steering stick's position was correct, Koltin will still be walking after the dialogue ends and you should reload the manual save. If not, adjust, reload, and check again
-9. Upon reloading, grab a rock, talk to Kilton, mash through the dialogue and afterwards, keep Koltin scared so he doesn't walk back to his normal position with zonai devices and throw aims
-10. Attach two carts under Koltin so that they for a floor under him, and build a flying machine out from those carts, including the rock
-11. Use the flying machine to travel to whatever shrine you would like to store the entry to, while keeping Koltin in the camera frame
-12. Position Koltin next to the entrance of the shrine, keeping him scared
-13. Place the rock closer to the shrine entranc, and put link in the entrance, being carful to not let link fully enter the shrine
-14. Facing the rock, press A->ZL->A. You should see Link get pushed into the shrine entrance as he talks to Kilton. Otherwise, retry.
-15. Mash through Kilton's dialogue until the armor tutorial
-16. Got to the inventory and then the map, and watch a memory
-17. Once you get a loading screen, follow these inputs: +, mash R, mash dpad down, a, dpad up, a
-18. You will end up on the title screen. Load whatever file you would like to store the shrine entry to.
+=== "Method 1 (1.0.0)"
+ 1. Perform Memory Interrupt. For Warp Storage, press R at the end of it, for Shrine Storage and all other banc changes, press -.
+ 2. Trigger the banc change
+ 3. The cutscene of the banc change will trigger the forced pause while in the loading screen. Even if you can't see it, you have access to your menu right now, and the loading is paused. Press + to go to the menu (you are on the Purah Pad), then press R a lot to go to the last tab.
+ 4. Load a save. Go down once, then press A. You have 6 save slots, press down to get to the one you want to load, then press A, up and A. After a few seconds, the loading will start again, and will load your save.
+ It's also possible to go to the main menu, that way you can load a save and start a new game while seeing what you're doing, the banc change remains stored while in the main menu. Simply press down 5 times to get to the option, then press A, up and A again.
+ After loading the save, the banc change should trigger.
+
+=== "Method 2 (1.1.0+)"
+ 1. Have a bubble gem, never have recieved the armor tutorial prompt, and have never talked to Kilton or Koltin
+ 2. Manually save near Kilton and Koltin
+ 3. FE a steering stick nearby to them
+ 4. SDC the stick and unlock the L-wheel by mounting and unmounting another stick
+ 5. With the base shield equipped, warp to the nearest warp point, generally Ekochiu shrine
+ 6. Zuggle the base shield
+ 7. Put the steering stick approximately where Koltin will walk to when you talk to Kilton
+ 8. Talk to Kilton. If the steering stick's position was correct, Koltin will still be walking after the dialogue ends and you should reload the manual save. If not, adjust, reload, and check again
+ 9. Upon reloading, grab a rock, talk to Kilton, mash through the dialogue and afterwards, keep Koltin scared so he doesn't walk back to his normal position with zonai devices and throw aims
+ 10. Attach two carts under Koltin so that they for a floor under him, and build a flying machine out from those carts, including the rock
+ 11. Use the flying machine to travel to whatever shrine you would like to store the entry to, while keeping Koltin in the camera frame
+ 12. Position Koltin next to the entrance of the shrine, keeping him scared
+ 13. Place the rock closer to the shrine entranc, and put link in the entrance, being carful to not let link fully enter the shrine
+ 14. Facing the rock, press A->ZL->A. You should see Link get pushed into the shrine entrance as he talks to Kilton. Otherwise, retry.
+ 15. Mash through Kilton's dialogue until the armor tutorial
+ 16. Got to the inventory and then the map, and watch a memory
+ 17. Once you get a loading screen, follow these inputs: +, mash R, mash dpad down, a, dpad up, a
+ 18. You will end up on the title screen. Load whatever file you would like to store the shrine entry to.
 
 ## Notes
 ---

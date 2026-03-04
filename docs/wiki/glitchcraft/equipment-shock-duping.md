@@ -21,9 +21,8 @@ _Zas - 12 December 2023_
 
 ## Instructions
 ---
-1. hold out a piece of equipment
-
-2. equip a new item right before getting shocked and drop it
+1. Hold out a piece of equipment
+2. Equip a new item right before getting shocked and drop it
 
 ## Notes
 ---

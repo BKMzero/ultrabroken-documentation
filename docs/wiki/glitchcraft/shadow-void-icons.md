@@ -28,12 +28,8 @@ The icon stays on save/loading.
 
 ## Notes
 ---
-Dropping the equipment
-makes it lose its special
-icon, except if you instantly
-pick it back up.
-Timing on Switch 2 may be
-tighter.
+- Dropping the equipment makes it lose its special icon, except if you instantly pick it back up.
+- Timing on Switch 2 may be tighter.
 
 ## Resources
 ---

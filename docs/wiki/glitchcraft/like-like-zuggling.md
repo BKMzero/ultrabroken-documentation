@@ -20,23 +20,23 @@ Allows for zuggling via slugging
 _NaN Gogh, Ryan?, Blackmars - 15 June 2023_
 
 ## Instructions
----
-Method 1 (works 1.0.0-1.1.2):
 
-1. Sluggle and drop the equipped sluggled item, then equip another item of the same type
-2. Zuggle by dropping the item you swapped to (see notes for 1.1.2)
-3. Retrieve the item from the like like
+=== "Method 1 (1.0.0-1.1.2)"
 
-Method 2 (works 1.2.0-1.2.1)
+ 1. Sluggle and drop the equipped sluggled item, then equip another item of the same type
+ 2. Zuggle by dropping the item you swapped to (see notes for 1.1.2)
+ 3. Retrieve the item from the like like
 
-1. Prepare a portacull shield/weapon
-2. Sluggle the target item
-3. Put Link's back against a wall and drop the item while unsheathed (do this twice if slugging with zuggle overload)
-4. Hold L, select the map rune, and spam right on the d-pad as the menu fades to enter the weapon quick menu before the map opens 
-5. Drop the target item, swap to a different item of the same type, enter the shield quick menu, drop the SDC shield/weapon and swap to a different item of the same type in this order all without unpausing
-6. Close the quick menu and let the map open
-7. Press + to go into the inventory, drop the item that you first swapped to
-8. Retrieve the item from the like like
+=== "Method 2 (1.2.0+)"
+
+ 1. Prepare a portacull shield/weapon
+ 2. Sluggle the target item
+ 3. Put Link's back against a wall and drop the item while unsheathed (do this twice if slugging with zuggle overload)
+ 4. Hold L, select the map rune, and spam right on the d-pad as the menu fades to enter the weapon quick menu before the map opens 
+ 5. Drop the target item, swap to a different item of the same type, enter the shield quick menu, drop the SDC shield/weapon and swap to a different item of the same type in this order all without unpausing
+ 6. Close the quick menu and let the map open
+ 7. Press + to go into the inventory, drop the item that you first swapped to
+ 8. Retrieve the item from the like like
 
 ## Notes
 ---

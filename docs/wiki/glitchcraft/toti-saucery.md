@@ -28,7 +28,7 @@ Anti-gravity:
 2. Use autobuild, and select the freshly made build.
 3. Let autobuild snap both of the items, and when you put your target in place, press A to build, it will be in the air without falling.
 
-Prompt Storage:
+New Item Prompt Storage:
 - Before unpausing after the FSFE, watch another memory, this stores the new item prompt.
 For more details, check the next row (not done yet, work in progress).
 

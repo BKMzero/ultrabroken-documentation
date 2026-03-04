@@ -20,17 +20,18 @@ Delaying the recipe menu by a few frames allow for some holding shenanigans
 _ock, mulberry - September 14th, 2024; November 10th, 2024_
 
 ## Instructions
----
-Method 1 (1.0.0) (mulberry):
-1. Select a meal
-2. Hold up, press B then A a frame later, then X in the next 2 frames
-You should now have 2 recipe menus back to back, check the rest of the entry for what can be done with them.
 
-Method 2 (All Versions, but 1.2.x is easier):
-1. Perform Ocklusion at the East Gerudo Chasm
-2. Go in the last room of the Lightning Temple, on the secret stone pedestal
-By going down the stairs, the game will load, this is called stutter. Go back up and down to get it again.
-3. Pause right before the stutter, if the game loads in the menu, check the recipe on a meal, it shouldn't open immediately. This state is equivalent to the end of method 1.
+=== "Method 1 (1.0.0) (mulberry)"
+ 1. Select a meal
+ 2. Hold up, press B then A a frame later, then X in the next 2 frames
+ You should now have 2 recipe menus back to back, check the rest of the entry for what can be done with them.
+
+=== "Method 2 (All Versions)"
+ Method 2 works on all versions, but it is much easier on 1.2.0+
+ 1. Perform Ocklusion at the East Gerudo Chasm
+ 2. Go in the last room of the Lightning Temple, on the secret stone pedestal
+ By going down the stairs, the game will load, this is called stutter. Go back up and down to get it again.
+ 3. Pause right before the stutter, if the game loads in the menu, check the recipe on a meal, it shouldn't open immediately. This state is equivalent to the end of method 1.
 
 Uses:
 Overload Only Holding:

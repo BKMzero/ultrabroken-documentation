@@ -19,10 +19,7 @@ Swapping any piece of equipment/armor attempts to sync any swaps that may have f
 
 _MandelbrotChaylay - 10 August 2025_
 
-## Instructions
----
-
-## Notes
+## Extensions
 ---
 A few uses of swap resync:
 

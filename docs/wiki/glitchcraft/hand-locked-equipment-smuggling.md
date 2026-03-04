@@ -21,12 +21,12 @@ _Aeolian - 11 July 2023_
 
 ## Instructions
 ---
-Stand next to a wall facing away from it
-Equip a bow/shield/weapon (this one wont get smuggled)
-Make sure the equipment is in your hands
-Open inventory and drop equipped bow/shield/weapon
-Equip a different bow/shield/weapon and then drop it too (this one gets smuggled)
-Hold any material
+1. Stand next to a wall facing away from it
+2. Equip a bow/shield/weapon (this one wont get smuggled)
+3. Make sure the equipment is in your hands
+4. Open inventory and drop equipped bow/shield/weapon
+5. Equip a different bow/shield/weapon and then drop it too (this one gets smuggled)
+6. Hold any material
 
 ## Notes
 ---

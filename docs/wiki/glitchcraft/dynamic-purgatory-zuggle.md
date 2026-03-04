@@ -21,24 +21,23 @@ _mulberry - 14 February 2025_
 
 ## Instructions
 ---
-For 1.0.0-1.1.2:
 
-1. Fuse entangle a weapon to a shield and drop both on the ground
-2. Smuggle a different weapon, then equip and unequip a third weapon from the inventory
-3. Pickup the weapon entangled to the shield and dynamic smuggle it
-4. Swap weapons and get eaten by a like like to send the dynamic smuggle to purgatory
-5. Zuggle the FE base shield
+=== "Method 1 (1.0.0-1.1.2)"
+ 1. Fuse entangle a weapon to a shield and drop both on the ground
+ 2. Smuggle a different weapon, then equip and unequip a third weapon from the inventory
+ 3. Pickup the weapon entangled to the shield and dynamic smuggle it
+ 4. Swap weapons and get eaten by a like like to send the dynamic smuggle to purgatory
+ 5. Zuggle the FE base shield
 
-For 1.2.0-1.2.1:
-
-1. Fuse entangle a weapon to a shield and drop both on the ground
-2. Feed the weapon entangled to the shield to a like like
-3. Invizuggle the FE base shield with portable culling
-4. Retrieve the weapon from the like like and drop it on the ground
-5. Equip a different weapon and invismuggle it using portable culling, make sure Link has nothing equipped at the end of the invismuggle process
-6. Pickup the weapon fuse entangled to the shield and get eaten by a like like to sluggle it
-7. Without unsheathing, drop the equipped weapon with Link's back to a wall
-8. Stand on top of a fire chuchu jelly and get eaten by a like like
+=== "Method 2 (1.2.0+)"
+ 1. Fuse entangle a weapon to a shield and drop both on the ground
+ 2. Feed the weapon entangled to the shield to a like like
+ 3. Invizuggle the FE base shield with portable culling
+ 4. Retrieve the weapon from the like like and drop it on the ground
+ 5. Equip a different weapon and invismuggle it using portable culling, make sure Link has nothing equipped at the end of the invismuggle process
+ 6. Pickup the weapon fuse entangled to the shield and get eaten by a like like to sluggle it
+ 7. Without unsheathing, drop the equipped weapon with Link's back to a wall
+ 8. Stand on top of a fire chuchu jelly and get eaten by a like like
 
 ## Notes
 ---
