@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Octo-balloon Detanglement"
 uid: "B3B"
 label: "OBD"
@@ -6,7 +6,7 @@ versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", 
 credits: ["mulberry"]
 date: "2025-11-16"
 description: "Allows for easy detanglement of any shield using octoballoons"
-aliases: ["octo-balloon-detanglement"]
+aliases: ["Octo Detanglement", "octo-balloon-detanglement"]
 tags: ["equipment", "shield", "zuggling"]
 ---
 
