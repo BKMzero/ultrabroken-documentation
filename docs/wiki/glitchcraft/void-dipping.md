@@ -30,17 +30,22 @@ All methods follow the same general pattern:
 ### Locations
 Most Voidouts are in big pits with little ability to get close. Three of the most popular exceptions (and how to retrieve from them) are given below:
 
-- Fire Temple: Warp there, turn around, and take the first right turn to find a lava river with a Hydrant making Lava Slabs. At the near-side downstream corner of the channel (not in the alcove), there is a Voidout under the lava. Retrieve targets by climbing down the corner wall, mounting Mineru to stand in the lava, or fishing it out with an object.
-- Lomei Ledge: East of Oshozan-u Shrine, on the way to the North Lomei Labyrinth, there's a ledge (height ~160) with a vertical Voidout wall starting at X=-1117. Retrieve targets by picking them up before they slide down the cliff.
-- Nachoyah Shrine (The Ability to Rewind): in the alcove the rafts disappear into, there's a small Voidout at the back. Retrieve targets by swimming into the alcove and mashing A.
+#### Fire Temple
+Warp there, turn around, and take the first right turn to find a lava river with a Hydrant making Lava Slabs. At the near-side downstream corner of the channel (not in the alcove), there is a Voidout under the lava. Retrieve targets by climbing down the corner wall, mounting Mineru to stand in the lava, or fishing it out with an object.
+
+#### Lomei Ledge
+East of Oshozan-u Shrine, on the way to the North Lomei Labyrinth, there's a ledge (height ~160) with a vertical Voidout wall starting at X=-1117. Retrieve targets by picking them up before they slide down the cliff.
+
+#### Nachoyah Shrine (The Ability to Rewind)
+In the alcove the rafts disappear into, there's a small Voidout at the back. Retrieve targets by swimming into the alcove and mashing A.
 
 ### Instructions
 There are many viable methods. Three of the most popular are given in detail below, along with a summary of other more marginal methods.
 
 === "FE Method"
+    _Discovered by Squidwest_
 
-    (_Squidwest_)
-    Requires a way to cull Link (and thus the parent) on v1.1.2 or earlier, due to the absence of drop-swap culling.
+    Requires a way to cull Link (and thus the parent) on `1.1.2` or earlier, due to the absence of drop-swap culling.
 
     1. Use Fuse Entanglement to give the target an FE parent shield
     2. Equip the parent shield
@@ -52,9 +57,9 @@ There are many viable methods. Three of the most popular are given in detail bel
     8. Use Octo Detanglement on the parent shield to remove the connection without destroying the target
 
 === "Overload Method"
+    _Discovered by mulberry, Aergyl (?)_
 
-    (_mulberry, Aergyl_)(?)
-    Specifc wall geometry, equipment collision, or a modified setup is required to fail-drop the target without fail-dropping the portacull, but skips the retrieval step. Requires a different culling method entirely on v1.1.2 or earlier (most feasibly aerophasing).
+    Specifc wall geometry, equipment collision, or a modified setup is required to fail-drop the target without fail-dropping the portacull, but skips the retrieval step. Requires a different culling method entirely on `1.1.2` or earlier (most feasibly aerophasing).
 
     1. Prepare a Portacull equipment of a different type than the target
     2. Overload Drop or Overload Pickup the target
@@ -67,9 +72,9 @@ There are many viable methods. Three of the most popular are given in detail bel
     9. If target was not fail-dropped, retrieve it
 
 === "Mineru FE Limbo Method"
+    _Discovered by Kleric, Squidwest_
 
-    (Lomei Ledge version) (_Kleric, Squidwest_)
-    Requires significant modification in other locations, due to the delicate nature of Mineru Limbo and the lack of a vertical Voidout elsewhere.
+    Lomei Ledge version - requires significant modification in other locations, due to the delicate nature of Mineru Limbo and the lack of a vertical Voidout elsewhere.
 
     1. Fuse Entangle the target to Mineru
     2. Face west and inch backwards against the wall until you reach X=-1117. Dropping the target here will put it directly in the void
@@ -87,13 +92,12 @@ There are many viable methods. Three of the most popular are given in detail bel
 ## Notes
 ---
 ### Void Dipped equipment properties
-
 - Uninteractable by runes, including fusing directly to it
 - Cannot lose durability, but can break if it is thrown at low durability and strikes terrain
 - Some single-use fuses become infinite use (eg Ancient Blades)
 - Cannot be directly culled from drop swap culling
 - Can be easily smuggled via drop swap unequip or fail drop
-- Does not induce smuggle locking (d-pad lock) when smuggled on v1.1.2+
+- Does not induce smuggle locking (d-pad lock) when smuggled on `1.1.2+`
 - Must be zuggled to keep its properties on warp
 
 ## Resources
