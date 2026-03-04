@@ -21,13 +21,13 @@ _NaN Gogh - 2 August 2023_
 
 ## Instructions
 ---
-General setup:
+### General setup
 1. ZLOT an object and recall-lock it
 2. Glue the recall-locked object to your desired objects
 4. Get some distance
 3. Unzuggle the FE-shield, euip it and swap to another shield
 
-Time Bomb setup:
+### Time Bomb setup
 1. ZLOT a Time Bomb and recall-lock it
 2. Glue your desired objects to the recall-locked Time Bomb
 4. Get some distance

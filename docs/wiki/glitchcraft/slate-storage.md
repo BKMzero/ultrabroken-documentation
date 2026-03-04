@@ -25,15 +25,16 @@ Please note that this does not work on 1.0.
 The glitch can only be performed if you have never seen the Purah Pad opening animation.
 
 === "Method 1 (Yee)"
- 1. Get Link close to a ledge, but not too close (a bit less than a crouch dash away)
- 2. Crouch dash, and press - during the dash, Link should fall off the ledge, the HUD should disappear for a few frames
+    1. Get Link close to a ledge, but not too close (a bit less than a crouch dash away)
+    2. Crouch dash, and press - during the dash, Link should fall off the ledge, the HUD should disappear for a few frames
 
 === "Method 2 (Telkic)"
- 1. Shield surf
- 2. When Link's shield touches the ground, press -, the HUD should disappear for a few frames
+    1. Shield surf
+    2. When Link's shield touches the ground, press -, the HUD should disappear for a few frames
 
 To release the storage, open and close the map while in the air, the pad's put away animation will trigger.
 Fall Damage Cancel (Yee):
+
 0. Setup Slate Storage beforehand.
 1. Jump. When at a reasonably close distance to the ground (one where if you jumped from there you wouldnt take fall damage), open and close the Purah Pad
 2. The put away animation should trigger, mash R to start diving as soon as possible

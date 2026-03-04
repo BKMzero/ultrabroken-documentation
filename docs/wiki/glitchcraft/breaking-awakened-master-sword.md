@@ -22,17 +22,17 @@ _Infrasolid - 26 November 2023_
 ## Instructions
 
 === "Method 1"
-1. Activate Arrow Smuggle
-2. Activate Sidon's ability
-3. Mount Mineru
-4. Jump off and enter bullet time
-5. Jump slash with the AMS
+    1. Activate Arrow Smuggle
+    2. Activate Sidon's ability
+    3. Mount Mineru
+    4. Jump off and enter bullet time
+    5. Jump slash with the AMS
 
 === "Method 2"
-1. Activate Arrow Smuggle
-2. Hold out the bow
-3. Side hop
-4. Press Y
+    1. Activate Arrow Smuggle
+    2. Hold out the bow
+    3. Side hop
+    4. Press Y
 
 ## Notes
 ---

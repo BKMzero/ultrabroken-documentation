@@ -22,12 +22,12 @@ _Ock, Aergyl - 24 November 2023_
 ## Instructions
 
 === "Method 1"
- 1. Drop a piece of equipment outside the cave and carry it inside with UH
- 2. Drop the equipment inside the cave
+    1. Drop a piece of equipment outside the cave and carry it inside with UH
+    2. Drop the equipment inside the cave
 
 === "Method 2"
- 1. Null-FE an object outside the cave and carry it inside with UH
- 2. Drop the equipment inside the cave
+    1. Null-FE an object outside the cave and carry it inside with UH
+    2. Drop the equipment inside the cave
 
 ## Notes
 ---

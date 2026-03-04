@@ -24,11 +24,13 @@ _Toti Sauce, Anti-grav discovered by Toti Sauce and Telkic - 17 August 2024_
 Perform FSFE on an undiscovered item/weapon to any type of equipment. This turns the undiscovered target invisible, creating what is called an "invisitem".
 
 Anti-gravity:
+
 1. Glue the target which gravity you want gone to the now invisible object.
 2. Use autobuild, and select the freshly made build.
 3. Let autobuild snap both of the items, and when you put your target in place, press A to build, it will be in the air without falling.
 
 New Item Prompt Storage:
+
 - Before unpausing after the FSFE, watch another memory, this stores the new item prompt.
 For more details, check the next row (not done yet, work in progress).
 

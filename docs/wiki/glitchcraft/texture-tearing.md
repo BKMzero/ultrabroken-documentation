@@ -23,6 +23,7 @@ _ock - 13 January 2024_
 ---
 CURRENT METHODS ARE INCONSITENT
 The exact cause of texture tearing remains unknown and there are no well defined steps to replicate it.
+
 1. Perform Menu Overload via Moobe
 2. Swap any or all equipment while transitioning to and from the - and + menus.
 3. Check periodically for strange colors, and odd or incorect textures.

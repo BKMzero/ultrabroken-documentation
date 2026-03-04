@@ -22,15 +22,15 @@ _ferruscube, Aergyl - 14 September 2023_
 ## Instructions
 
 === "Method 1"
- 1. Perform a neutral shieldjump with a bomb shield 
- 2. Jump on the frame you land on the ground
+    1. Perform a neutral shieldjump with a bomb shield 
+    2. Jump on the frame you land on the ground
 
 === "Method 2"
- 1. Surf on the ground
- 2. Switch to the bomb shield
- 3. Drop it (if you are on 1.1.0 and newer, skip this step)
- 4. Unpause
- 5. Press X as soon as you unpause
+    1. Surf on the ground
+    2. Switch to the bomb shield
+    3. Drop it (if you are on 1.1.0 and newer, skip this step)
+    4. Unpause
+    5. Press X as soon as you unpause
 
 Method 2 in 1.0.0 will allow you to reuse your bomb flower infinitely, but also delete the modifier (modifier deletion wst).
 
