@@ -37,46 +37,50 @@ Most Voidouts are in big pits with little ability to get close. Three of the mos
 ### Instructions
 There are many viable methods. Three of the most popular are given in detail below, along with a summary of other more marginal methods.
 
-#### FE Method (_Squidwest_)
-Requires a way to cull Link (and thus the parent) on v1.1.2 or earlier, due to the absence of drop-swap culling.
+=== "FE Method"
 
-- Use Fuse Entanglement to give the target an FE parent shield
-- Equip the parent shield
-- Ultrahand the target into the Voidout
-- Switch directly to Recall without closing UH
-- **Pause** the game and watch a memory
-- Drop the parent, equip another shield, and unequip it
-- **Unpause** and retrieve the target
-- Use Octo Detanglement on the parent shield to remove the connection without destroying the target
+  (_Squidwest_)
+  Requires a way to cull Link (and thus the parent) on v1.1.2 or earlier, due to the absence of drop-swap culling.
 
-#### Overload Method (_mulberry, Aergyl_)(?)
-Specifc wall geometry, equipment collision, or a modified setup is required to fail-drop the target without fail-dropping the portacull, but skips the retrieval step. Requires a different culling method entirely on v1.1.2 or earlier (most feasibly aerophasing).
+  1. Use Fuse Entanglement to give the target an FE parent shield
+  2. Equip the parent shield
+  3. Ultrahand the target into the Voidout
+  4. Switch directly to Recall without closing UH
+  5. **Pause** the game and watch a memory
+  6. Drop the parent, equip another shield, and unequip it
+  7. **Unpause** and retrieve the target
+  8. Use Octo Detanglement on the parent shield to remove the connection without destroying the target
 
-- Prepare a Portacull equipment of a different type than the target
-- Overload Drop or Overload Pickup the target
-- Ultrahand it into the Voidout
-- Switch directly to Recall without closing UH
-- **Pause** the game, fail-drop the target if possible, then watch a memory
-- Activate the portacull
-- If the target was not fail-dropped, swap to another equipment of that type
-- **Unpause**
-- If target was not fail-dropped, retrieve it
+=== "Overload Method"
 
-#### Mineru FE Limbo Method (Lomei Ledge version) (_Kleric, Squidwest_)
-Requires significant modification in other locations, due to the delicate nature of Mineru Limbo and the lack of a vertical Voidout elsewhere.
+  (_mulberry, Aergyl_)(?)
+  Specifc wall geometry, equipment collision, or a modified setup is required to fail-drop the target without fail-dropping the portacull, but skips the retrieval step. Requires a different culling method entirely on v1.1.2 or earlier (most feasibly aerophasing).
 
-- Fuse Entangle the target to Mineru
-- Face west and inch backwards against the wall until you reach X=-1117. Dropping the target here will put it directly in the void
-- Momentarily scope in on Mineru to put her in "Limbo": The target should appear on your back, while Mineru remains absent. If she reappears, scope in where she reappears until she stops (turning back around after if needed)
-- Drop the target and activate Ultrahand immediately after to cull the target
-- Cancel Ultrahand and pick up the target as soon as it unculls
-- Fuse over the target on Mineru to detangle it
+  1. Prepare a Portacull equipment of a different type than the target
+  2. Overload Drop or Overload Pickup the target
+  3. Ultrahand it into the Voidout
+  4. Switch directly to Recall without closing UH
+  5. **Pause** the game, fail-drop the target if possible, then watch a memory
+  6. Activate the portacull
+  7. If the target was not fail-dropped, swap to another equipment of that type
+  8. **Unpause**
+  9. If target was not fail-dropped, retrieve it
 
-#### Other Methods
+=== "Mineru FE Limbo Method"
+  (Lomei Ledge version) (_Kleric, Squidwest_)
+  Requires significant modification in other locations, due to the delicate nature of Mineru Limbo and the lack of a vertical Voidout elsewhere.
 
-- Mineru FE the target and have her orb return immediately after the target starts fading
-- Pickup the target as soon as it starts fading and immediately cull Link
-- Throw a boomerang into a large Voidout and cull it right after it enters, then simply catch it to retrieve
+  1. Fuse Entangle the target to Mineru
+  2. Face west and inch backwards against the wall until you reach X=-1117. Dropping the target here will put it directly in the void
+  3. Momentarily scope in on Mineru to put her in "Limbo": The target should appear on your back, while Mineru remains absent. If she reappears, scope in where she reappears until she stops (turning back around after if needed)
+  4. Drop the target and activate Ultrahand immediately after to cull the target
+  5. Cancel Ultrahand and pick up the target as soon as it unculls
+  6. Fuse over the target on Mineru to detangle it
+
+=== "Other Methods"
+  - Mineru FE the target and have her orb return immediately after the target starts fading
+  - Pickup the target as soon as it starts fading and immediately cull Link
+  - Throw a boomerang into a large Voidout and cull it right after it enters, then simply catch it to retrieve
 
 ## Notes
 ---
