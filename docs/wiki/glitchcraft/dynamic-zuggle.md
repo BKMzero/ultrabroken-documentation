@@ -33,9 +33,9 @@ _Lightos_, Zas, mulberry, WinnerBoi77, Ryan?, CS16 - 6 September 2023_
     9. Fail drop against a wall to turn it into dynamic *zuggle*
 
 === "Method 2 (1.0.0-1.1.2) (WinnerBoi77, CS16)"
-    (This also works for 1.2.0-1.2.1, but you can't finish the setup because of dpadlock which is currently impossible to remove)
+    (This also works for 1.2.0-1.2.1, but you can't finish the setup because of dpadlock which is currently impossible to remove).
     This only works with shields and bows for 1.1.2.
-    
+
     1. Have a full inventory of whatever you are intending to dynamic zuggle
     2. Cull in a way that memories uncull you (SDC or like-likes)
     3. Swap bow or shields
