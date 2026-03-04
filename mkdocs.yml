@@ -30,6 +30,7 @@ extra_css:
 extra_javascript:
   - assets/vendor/marked.min.js
   - assets/vendor/purify.min.js
+  - assets/scripts/tab-scroll-fix.js  # Prevents overshoot when scrolling tabs near boundaries
   - assets/scripts/clipboard-permalink.js
   - assets/scripts/search-highlights-cleanup.js
   - assets/scripts/search-enter-navigate.js  # Fixes focus state bug + navigates to first result on Enter
