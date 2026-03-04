@@ -6,7 +6,7 @@ versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["Zvleon"]
 date: "2023-05-16"
 description: "The original zuggle method discovered by Zvleon."
-aliases: ["equipment collision", "equipment-collision-zuggle"]
+aliases: ["equipment-collision-zuggle"]
 tags: ["zuggling", "equipment", "item", "shield"]
 ---
 
