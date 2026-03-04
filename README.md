@@ -33,6 +33,22 @@ Write Markdown links that start with `search:` to create an editor-friendly trig
 
 These links are intercepted client-side and open the Material theme search with the provided query instead of navigating away. They are safe to edit in GitHub and make finding related content easier.
 
+#### Map embeds
+Embed interactive map previews from the [TotK Object Map](https://objmap-totk.zeldamods.org/) using shorthand coordinate syntax:
+
+```markdown
+[Fire Temple VD location](8, x:1321.68, z:-2823.71, Depths)
+```
+
+Format: `[Label](zoom, x:x_coord, z:z_coord[, layer])`
+
+- **zoom**: Required — initial zoom level (e.g., `8`, `10`)
+- **x:x_coord**: Required — X coordinate (supports decimals)
+- **z:z_coord**: Required — Z coordinate (supports decimals)
+- **layer**: Optional — map layer (`Surface`, `Sky`, `Depths`; defaults to `Surface`)
+
+The embed automatically generates two versions: desktop at the specified zoom, and mobile at zoom `-1` for better mobile viewing. Desktop shows at full size (500px), while mobile portrait shows at 300px height and mobile landscape at 55vh.
+
 #### Level-2 section separators
 
 To keep `##` sections visually consistent, place a horizontal rule immediately after the level-2 heading by adding a line with three dashes on the next line.
