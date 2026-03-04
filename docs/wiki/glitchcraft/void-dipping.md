@@ -104,6 +104,7 @@ There are many viable methods. Three of the most popular are given in detail bel
 ---
 - [Discord](https://discord.com/channels/1111875355758837830/1128775917376897145/1455340505096261796)
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1456747616430850126)
+- [Fire Temple VD location TotK Object Map](https://objmap-totk.zeldamods.org/#/map/z10,1321.6875,-2823.71875,Depths)
 
 ## Related
 ---
