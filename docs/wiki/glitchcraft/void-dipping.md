@@ -33,7 +33,7 @@ Most Voidouts are in big pits with little ability to get close. Three of the mos
 #### Fire Temple
 Warp there, turn around, and take the first right turn to find a lava river with a Hydrant making Lava Slabs. At the near-side downstream corner of the channel (not in the alcove), there is a Voidout under the lava. Retrieve targets by climbing down the corner wall, mounting Mineru to stand in the lava, or fishing it out with an object.
 
-[Fire Temple VD location](x:1321.68, z:-2823.71, Depths, 9)
+[Fire Temple VD location](x:1321.68, z:-2823.71, Depths, 8)
 
 #### Lomei Ledge
 East of Oshozan-u Shrine, on the way to the North Lomei Labyrinth, there's a ledge (height ~160) with a vertical Voidout wall starting at X=-1117. Retrieve targets by picking them up before they slide down the cliff.
@@ -57,6 +57,8 @@ There are many viable methods. Three of the most popular are given in detail bel
     6. Drop the parent, equip another shield, and unequip it
     7. **Unpause** and retrieve the target
     8. Use Octo Detanglement on the parent shield to remove the connection without destroying the target
+
+    [Fire Temple VD location](x:1321.68, z:-2823.71, Depths, 8)
 
 === "Overload Method"
     _Discovered by mulberry, Aergyl (?)_
