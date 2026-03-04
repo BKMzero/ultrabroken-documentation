@@ -11,7 +11,7 @@ tags: ["zuggling", "culling", "item", "equipment"]
 ---
 
 # Dpadlock-less Invizuggle `DLIZ` `MP9`
-`1.2.0` `1.2.1`
+`1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---
@@ -22,6 +22,7 @@ _Discovered by mulberry, optimized by Blackmars, mulberry, NghtmaR3 (order is al
 ## Instructions
 ---
 The easiest way:
+
 1. Prepare a portable cull item of the opposite equippment type that you intend to invizuggle
 2. Hold L to open the ability menu and select the map
 3. open a quickmenu before the map opens
@@ -36,6 +37,7 @@ The easiest way:
 This can be replaced with any type!
 
 If you want to zlot an item with invizuggle, you can do the following:
+
 1. fe the target item
 2. put an sdc stick inside a culling area, preferable using fe
 3. drop the base of the sdc stick outside of the culling area if you didn't use cold fusion
