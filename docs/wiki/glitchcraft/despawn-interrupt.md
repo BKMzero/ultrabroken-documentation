@@ -69,7 +69,8 @@ The distance method should be done before detangling from the DI parent
 
 ## Notes
 ---
-Also known as "Eaten DI". Often referred to as "Frox Dipping" or as "Duga Dipping".
+- Also known as "Eaten DI". Often referred to as "Frox Dipping" or as "Duga Dipping".
+- ALthough void dipping is also technically a form of despawn iterrupt, DI and despawn interrupt refers to the eaten variation by convention.
 
 ## Resources
 ---

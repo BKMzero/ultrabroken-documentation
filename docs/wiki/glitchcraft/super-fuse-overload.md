@@ -24,33 +24,33 @@ _Discovered by mulberry, Aergyl; optimizations by Jordan, MandelbrotChaylay, mul
 ### Prerequisites
 If you wish to steal mineru's arm, make an autosave in the tunnel to ganondorf, right next to the army trigger. If you wish to steal zelda's torch, make an autosave anywhere in the prologue. If you wish to use SFO to duplicate zonai devices, make a save directly next to a minigame NPC
 
-### Base Setup
-2. Kill the constructs in Rasitakiwak shrine and get a save there
-3. Invizuggle 12 pieces of equipment
-4. Make a DI weapon
-5. Use the DI weapon to make a new di weapon ghost and detangle it from both of its parents. Call it A
-6. Zuggle A and load the Rasitakiwak shrine save
-7. Setup two FE chains: DI weapon -> normal weapon -> DI shield and DI shield -> DI shield using these steps:
-8. Use A to make a frox shield
-9. Use that shield to make D and detangle both parents, then delete those parents
-10. Overload fe a new shield to D (this is the E shield)
-11. Use A to make another frox weapon
-12. Overload fe a weapon (which is now B) to A
-13. Smuggle the frox weapon that isn’t A and equip B
-14. Use this to make a frox shield (now C)
-15. Detangle the frox shield from the frox weapon
-16. Zuggle drop D, glue E to something in the Rasitakiwak shrine, smuggle C, regularly equip B, and then overload pick up E
-17. Drop a shield, fuse it to your equipped shield twice, and quickly drop swap unequip B, and it is faster if it is a fail drop This should result in the dropped shield being DI'd and ghosted
-18. Repeat step 17 until shields are no longer ghosted the second time you fuse them
-19. Once this occurs, unquip shield E and pickup the shield that didn't get ghosted and unequip it
-20. Equip a random shield and drop it
-21. Retrive the shock emitter from the center box of the shrine and activate it near the ghosted shields you created
-22. Pick up a random shield, smuggle it, pickup another shield, and then shock drop it. Repeat this until all the shields are purgatorified
-23. Smuggle the last shield, pickup C, shock drop it, then unsheath it and drop it
-24. Fe a new shield to D, glue it to something random in Rasitakiwak, smuggle C, and then overload pick up the new shield
-25. Repeat step 17 until Link overload drops his armor in the menu
-26. Fail drop your equipped shield, then successfully drop it and B
-27. Recall lock all equipment that is not in the DI state.
+### Base Setup for 1.2.0 - 1.4.3
+1. Kill the constructs in Rasitakiwak shrine and get a save there
+2. Invizuggle 12 pieces of equipment
+3. Make a DI weapon
+4. Use the DI weapon to make a new di weapon ghost and detangle it from both of its parents. Call it A
+5. Zuggle A and load the Rasitakiwak shrine save
+6. Setup two FE chains: DI weapon -> normal weapon -> DI shield and DI shield -> DI shield using these steps:
+7. Use A to make a frox shield
+8. Use that shield to make D and detangle both parents, then delete those parents
+9. Overload fe a new shield to D (this is the E shield)
+10. Use A to make another frox weapon
+11. Overload fe a weapon (which is now B) to A
+12. Smuggle the frox weapon that isn’t A and equip B
+13. Use this to make a frox shield (now C)
+14. Detangle the frox shield from the frox weapon
+15. Zuggle drop D, glue E to something in the Rasitakiwak shrine, smuggle C, regularly equip B, and then overload pick up E
+16. Drop a shield, fuse it to your equipped shield twice, and quickly drop swap unequip B, and it is faster if it is a fail drop This should result in the dropped shield being DI'd and ghosted
+17. Repeat step 17 until shields are no longer ghosted the second time you fuse them
+18. Once this occurs, unquip shield E and pickup the shield that didn't get ghosted and unequip it
+19. Equip a random shield and drop it
+20. Retrive the shock emitter from the center box of the shrine and activate it near the ghosted shields you created
+21. Pick up a random shield, smuggle it, pickup another shield, and then shock drop it. Repeat this until all the shields are purgatorified
+22. Smuggle the last shield, pickup C, shock drop it, then unsheath it and drop it
+23. Fe a new shield to D, glue it to something random in Rasitakiwak, smuggle C, and then overload pick up the new shield
+24. Repeat step 17 until Link overload drops his armor in the menu
+25. Fail drop your equipped shield, then successfully drop it and B
+26. Recall lock all equipment that is not in the DI state.
 
 ### To obtain Zelda's torch:
 1. Load the prologue and pick up the torch, you may have to reload a couple times
