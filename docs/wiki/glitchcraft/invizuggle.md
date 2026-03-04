@@ -17,7 +17,7 @@ tags: ["zuggling", "item", "equipment", "culling"]
 ---
 Dropping equipment in a specific way during a cull causes an indestructable and invisible zuggle.
 
-_ock, Yee; Extension by mulberry - 3 January 2024_
+_Discovered by ock, Yee; Extension by mulberry - 3 January 2024_
 
 ## Instructions
 ---
