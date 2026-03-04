@@ -3,7 +3,7 @@ title: "Invizuggle"
 uid: "7DA"
 label: "IZ"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
-credits: ["Ock", "Yee"]
+credits: ["Ock", "Yee", "mulberry"]
 date: "2024-01-03"
 description: "Dropping equipment in a specific way during a cull causes an indestructable and invisible zuggle."
 aliases: []
@@ -17,7 +17,7 @@ tags: ["zuggling", "item", "equipment", "culling"]
 ---
 Dropping equipment in a specific way during a cull causes an indestructable and invisible zuggle.
 
-_ock, Yee - 3 January 2024_
+_ock, Yee; Extension by mulberry - 3 January 2024_
 
 ## Instructions
 ---
