@@ -10,8 +10,8 @@ This archive would not exist without the dedicated work of community archivists 
 
 - **NaN Gogh** — Curator of this documentation and primary author of the Ultrabroken section
 
-- **MandelbrotChaylay** — Lead archivist
 - **PetitFrapo** — Lead archivist
+- **MandelbrotChaylay** — Lead archivist
 
 ## Spreadsheet Managers
 ---
