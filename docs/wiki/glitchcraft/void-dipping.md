@@ -37,7 +37,9 @@ Most Voidouts are in big pits with little ability to get close. Three of the mos
 ### Instructions
 There are many viable methods. Three of the most popular are given in detail below, along with a summary of other more marginal methods.
 
-#### FE Method (_Squidwest_)
+=== "Tab 1: FE Method"
+
+(_Squidwest_)
 Requires a way to cull Link (and thus the parent) on v1.1.2 or earlier, due to the absence of drop-swap culling.
 
 - Use Fuse Entanglement to give the target an FE parent shield
@@ -49,7 +51,9 @@ Requires a way to cull Link (and thus the parent) on v1.1.2 or earlier, due to t
 - **Unpause** and retrieve the target
 - Use Octo Detanglement on the parent shield to remove the connection without destroying the target
 
-#### Overload Method (_mulberry, Aergyl_)(?)
+=== "Tab 2: Overload Method"
+
+(_mulberry, Aergyl_)(?)
 Specifc wall geometry, equipment collision, or a modified setup is required to fail-drop the target without fail-dropping the portacull, but skips the retrieval step. Requires a different culling method entirely on v1.1.2 or earlier (most feasibly aerophasing).
 
 - Prepare a Portacull equipment of a different type than the target
@@ -62,7 +66,9 @@ Specifc wall geometry, equipment collision, or a modified setup is required to f
 - **Unpause**
 - If target was not fail-dropped, retrieve it
 
-#### Mineru FE Limbo Method (Lomei Ledge version) (_Kleric, Squidwest_)
+=== "Tab 3: Mineru FE Limbo Method"
+
+(Lomei Ledge version) (_Kleric, Squidwest_)
 Requires significant modification in other locations, due to the delicate nature of Mineru Limbo and the lack of a vertical Voidout elsewhere.
 
 - Fuse Entangle the target to Mineru
@@ -72,7 +78,7 @@ Requires significant modification in other locations, due to the delicate nature
 - Cancel Ultrahand and pick up the target as soon as it unculls
 - Fuse over the target on Mineru to detangle it
 
-#### Other Methods
+=== "Tab 4: Other Methods"
 
 - Mineru FE the target and have her orb return immediately after the target starts fading
 - Pickup the target as soon as it starts fading and immediately cull Link
