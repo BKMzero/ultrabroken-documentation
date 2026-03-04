@@ -53,6 +53,7 @@ Methods 1 and 2 are obsolete, see Dpadlock-less Invizuggle for better options on
 
 === "Method 3 `1.0.0-1.1.1`"
     _mulberry_
+    
     1. FE something to the item you wish to invizuggle (optional, but makes it more convenient)
     2. Drop the item and pick it up right when a like like eats it
     3. Map Zuggle it
@@ -60,6 +61,7 @@ Methods 1 and 2 are obsolete, see Dpadlock-less Invizuggle for better options on
 
 === "Method 4 `1.0.0-1.1.2`"
     _mulberry_
+
     1. Drop smuggle the target item with either Shock Smuggle or Cull Smuggle (you can FE any items before to ZLOT them)
     2. Trigger a like like to eat the drop smuggled equipment
     3. Backflip out of its attack to let it eat the drop smuggled equipment without eating link
