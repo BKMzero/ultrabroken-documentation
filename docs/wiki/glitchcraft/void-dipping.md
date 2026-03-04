@@ -22,6 +22,7 @@ _Squidwest, mulberry, Aergyl - 29 December 2025_
 ## Methodology
 ---
 All methods follow the same general pattern:
+
 - Make a target equipment item enter a Voidout
 - Cull the target after it starts fading, but before it fully disappears
 - Retrieve the target (some methods do this before the cull)
@@ -38,6 +39,7 @@ There are many viable methods. Three of the most popular are given in detail bel
 
 ### FE Method
 Requires a way to cull Link (and thus the parent) on v1.1.2 or earlier, due to the absence of drop-swap culling.
+
 - Use Fuse Entanglement to give the target an FE parent shield
 - Equip the parent shield
 - Ultrahand the target into the Voidout
@@ -49,6 +51,7 @@ Requires a way to cull Link (and thus the parent) on v1.1.2 or earlier, due to t
 
 ### Overload Method
 Specifc wall geometry or equipment collision is required to fail-drop the target without fail-dropping the portacull, but skips the retrieval step. Requires a different culling method entirely on v1.1.2 or earlier (most feasibly physical aerophasing).
+
 - Prepare a Portacull equipment of a different type than the target
 - Overload Drop or Overload Pickup the target
 - Ultrahand it into the Voidout
@@ -61,6 +64,7 @@ Specifc wall geometry or equipment collision is required to fail-drop the target
 
 ### Mineru FE Limbo Method (Lomei Ledge version)
 Requires significant modification in other locations, due to the delicate nature of Mineru Limbo and the lack of a vertical Voidout.
+
 - Fuse Entangle the target to Mineru
 - Face west and inch backwards against the wall until you reach X=-1117. Dropping the target here will put it directly in the void
 - Momentarily scope in on Mineru to put her in "Limbo": The target should appear on your back, while Mineru remains absent. If she reappears, scope in where she reappears until she stops (turning back around if needed)
@@ -69,6 +73,7 @@ Requires significant modification in other locations, due to the delicate nature
 - Fuse over the target on Mineru to detangle it
 
 ### Other Methods
+
 - Mineru FE the target and have her orb return immediately after the target starts fading
 - Pickup the target as soon as it starts fading and immediately cull Link
 - Throw a boomerang into a large Voidout and cull it right after it enters, then simply catch it to retrieve
@@ -76,6 +81,7 @@ Requires significant modification in other locations, due to the delicate nature
 ## Notes
 ---
 ### Void Dipped equipment properties
+
 - Uninteractable by runes, including fusing directly to it
 - Cannot lose durability, but can break if it is thrown at low durability and strikes terrain
 - Some single-use fuses become infinite use (eg Ancient Blades)
