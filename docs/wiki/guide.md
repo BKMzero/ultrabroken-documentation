@@ -513,6 +513,45 @@ Creates tabs for organizing related content groups.
 
     This is alternative approach B.
 
+### Mermaid Diagrams
+
+Creates interactive flowcharts, sequence diagrams, and other visual graphs using Mermaid syntax. Use Mermaid to illustrate processes, relationships, timelines, and complex workflows.
+
+#### Syntax
+
+````markdown
+```mermaid
+graph TD
+    A[Start] --> B{Decision}
+    B -->|Yes| C[Continue]
+    B -->|No| D[Stop]
+    C --> E[End]
+```
+````
+
+**Diagram Types:** `graph` (flowchart), `sequenceDiagram`, `classDiagram`, `stateDiagram-v2`, `erDiagram`, `gantt`, `pie` and more.
+
+**Common Operators:** 
+- `A --> B` creates a directed arrow from A to B
+- `A -->|Label| B` adds a label to the connection
+- `A[Text]` creates a box node
+- `A{Text}` creates a diamond decision node
+- `A(Text)` creates a rounded box
+
+#### Example
+
+```mermaid
+graph TD
+    A["Ultrabroken<br/>Discovered"] --> B{Glitch Type?}
+    B -->|Equipment| C["Zuggling"]
+    B -->|Movement| D["OOB"]
+    B -->|Physics| E["Entanglement"]
+    C --> F["Document<br/>Discovery"]
+    D --> F
+    E --> F
+    F --> G["Add to<br/>Encyclopedia"]
+```
+
 ## Extension Configuration
 ---
 
@@ -522,7 +561,11 @@ All extensions are defined in `mkdocs.yml`:
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.tasklist:
@@ -552,6 +595,7 @@ markdown_extensions:
 | **Md in HTML** | Markdown in HTML blocks | <div markdown="1"> |
 | **Def List** | Glossaries | Term\n:   Definition |
 | **Tabbed** | Organized content groups | === "Tab Name" |
+| **Mermaid** | Diagrams & flowcharts | \`\`\`mermaid graph TD \`\`\` |
 
 ## See Also
 ---
