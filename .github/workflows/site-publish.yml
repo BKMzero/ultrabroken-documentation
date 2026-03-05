@@ -2,7 +2,6 @@ name: Site — publish (assets-only)
 
 on:
   push:
-    branches: [main]
     paths:
       - 'docs/assets/**'
       - '.github/workflows/site-publish.yml'
