@@ -21,9 +21,9 @@ _?_
 
 ## Instructions
 ---
-1. Create an invisible item.
-2. Attach an object to the invisible item with ultrahand.
-3. Use autobuild on the invisible item and object.
+1. Create an invisible item
+2. Attach an object to the invisible item with ultrahand
+3. Use autobuild on the invisible item and object
 
 ## Notes
 ---
