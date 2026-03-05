@@ -162,9 +162,9 @@ Standard Markdown syntax reference.
 
 #### Example
 
-# Heading 1
-## Heading 2
-### Heading 3
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
 
 ### Emphasis
 
@@ -204,13 +204,19 @@ Standard Markdown syntax reference.
 
 #### Example 
 
-##### Unordered List
+<div markdown="1">
+
+**Unordered List**
+
 - Unordered item
 - Another item
 
-##### Odered List
+**Ordered List**
+
 1. Ordered item
 2. Second item
+
+</div>
 
 #### Bad Syntax A
 
@@ -526,9 +532,9 @@ Shows decision flows and process steps with nodes and connections.
 ````markdown
 ```mermaid
 graph TD
-    A[Start] --> B{Decision?}
-    B -->|Yes| C[Action A]
-    B -->|No| D[Action B]
+    A["Glitch<br/>discovery"] --> B{New?}
+    B -->|Yes| C[Archive]
+    B -->|No| D[Chillax]
     C --> E[End]
     D --> E
 ```
@@ -538,9 +544,9 @@ graph TD
 
 ```mermaid
 graph TD
-    A[Start] --> B{Decision?}
-    B -->|Yes| C[Action A]
-    B -->|No| D[Action B]
+    A["Glitch<br/>discovery"] --> B{New?}
+    B -->|Yes| C[Archive]
+    B -->|No| D[Chillax]
     C --> E[End]
     D --> E
 ```
