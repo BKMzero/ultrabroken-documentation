@@ -725,19 +725,31 @@ gantt
 
 Displays proportional data distribution.
 
-### Mermaid Inline Theme Overrides
-
-The global theme applies automatically to all diagrams. For one-off overrides — such as a specific diagram that needs different colors — use an `%%{init:}%%` directive at the top of the diagram block.
-
 #### Syntax
 
 ````markdown
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#hex', 'primaryBorderColor': '#hex', 'textColor': '#hex'}}}%%
-graph TD
-    A[Node] --> B[Node]
+pie title Glitch Discovery by Category
+    "Equipment Duplication" : 35
+    "Movement Abuse" : 25
+    "Collision Exploitation" : 20
+    "Physics Exploitation" : 20
 ```
 ````
+
+#### Example
+
+```mermaid
+pie title Glitch Discovery by Category
+    "Equipment Duplication" : 35
+    "Movement Abuse" : 25
+    "Collision Exploitation" : 20
+    "Physics Exploitation" : 20
+```
+
+### Mermaid Inline Theme Overrides
+
+The global theme applies automatically to all diagrams. For one-off overrides — such as a specific diagram that needs different colors — use an `%%{init:}%%` directive at the top of the diagram block.
 
 **Common `themeVariables` keys:**
 
@@ -751,34 +763,22 @@ graph TD
 | `titleColor` | Diagram title |
 | `edgeLabelBackground` | Label backgrounds on edges |
 
-#### Example
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#4a148c', 'primaryBorderColor': '#ce93d8', 'primaryTextColor': '#fff', 'lineColor': '#ce93d8', 'textColor': '#fff', 'titleColor': '#ce93d8'}}}%%
-graph LR
-    A[Override] -->|custom colors| B[Applied]
-```
-
 #### Syntax
 
 ````markdown
 ```mermaid
-pie title Glitch Discovery by Category
-    "Equipment Duplication" : 35
-    "Movement Abuse" : 25
-    "Collision Exploitation" : 20
-    "Physics Exploitation" : 20
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#hex', 'primaryBorderColor': '#hex', 'textColor': '#hex'}}}%%
+graph TD
+    A[Node] --> B[Node]
 ```
 ````
 
 #### Example
 
 ```mermaid
-pie title Glitch Discovery by Category
-    "Equipment Duplication" : 35
-    "Movement Abuse" : 25
-    "Collision Exploitation" : 20
-    "Physics Exploitation" : 20
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#4a148c', 'primaryBorderColor': '#ce93d8', 'primaryTextColor': '#fff', 'lineColor': '#ce93d8', 'textColor': '#fff', 'titleColor': '#ce93d8'}}}%%
+graph LR
+    A[Override] -->|custom colors| B[Applied]
 ```
 
 ## Extension Configuration
