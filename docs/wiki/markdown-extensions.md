@@ -28,7 +28,7 @@ This page provides a comprehensive guide for editors contributing to the Ultrabr
 - Avoid abbreviations in titles or filenames for easy parsing.
 - Prefer relative links for cross-references inside the wiki (for example `../wiki/effects/index.md`).
 - For images, put files in `docs/assets/images/` and reference them with relative paths.
-- Put your WIPs into the dedicated [`docs/wiki/wip/`](docs/wiki/wip/) folder.
+- Put your WIPs into the dedicated [`docs/wiki/wip/`](./wip/) folder.
 - UIDs for files are generated automatically. Don't manually add UID fields to the frontmatter.
 - After you have committed changes to the wiki, is takes around two minutes until those are reflected on the page. Wait until the page build finishes before making the next commit.
 
