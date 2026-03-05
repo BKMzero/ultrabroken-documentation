@@ -530,7 +530,7 @@ Shows decision flows and process steps with nodes and connections.
 graph TD
     A["Glitch<br/>discovery"] --> B{New?}
     B -->|Yes| C[Archive]
-    B -->|No| D[Chillax]
+    B -->|No| D[T-Pose]
     C --> E[End]
     D --> E
 ```
