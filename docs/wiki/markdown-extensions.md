@@ -46,11 +46,11 @@ This is a community project — everyone is welcome to contribute even without a
 
 ### Level-2 Separation
 
-Place `` after `##` headings for visual consistency:
+Place `---` after `##` headings for visual consistency:
 
 ```markdown
 ## Instructions
-
+---
 ```
 
 ### Relative Linking
@@ -195,27 +195,31 @@ Standard Markdown syntax reference.
 
 ### Lists
 
-Leave a blank line between regular text and lists!
+**Leave a blank line between regular text and lists and separate unordered lists from ordered lists by headlines!**
 
 #### Syntax
 
 ```markdown
+##### Unordered List
 - Unordered item
 - Another item
 
+##### Odered List
 1. Ordered item
 2. Second item
 ```
 
-#### Example
+#### Example 
 
+##### Unordered List
 - Unordered item
 - Another item
 
+##### Odered List
 1. Ordered item
 2. Second item
 
-#### Bad Syntax
+#### Bad Syntax A
 
 ```markdown
 Some text
@@ -223,11 +227,31 @@ Some text
 - Another item
 ```
 
-#### Bad Example
+#### Bad Example A
 
 Some text
 - Unordered item
 - Another item
+
+
+
+#### Bad Syntax B
+```
+- Unordered item
+- Another item
+
+1. Ordered item
+2. Second item
+```
+
+#### Bad Exmaple B
+
+- Unordered item
+- Another item
+
+1. Ordered item
+2. Second item
+
 
 ### Blockquotes
 
