@@ -32,94 +32,139 @@ This page provides a comprehensive guide for editors contributing to the Ultrabr
 - UIDs for files are generated automatically. Don't manually add UID fields to the frontmatter.
 - After you have committed changes to the wiki, is takes around two minutes until those are reflected on the page. Wait until the page build finishes before making the next commit.
 
-## Additional editor conventions
+## Frontmatter Reference
+---
 
-### Titles and Labels
+Every wiki page begins with YAML frontmatter between `---` delimiters. Here are all available fields:
+
+### title
+
+The display title for the page. Required.
 
 ```yaml
----
 title: "Zuggle Overload"
-label: ["ZO"]
----
 ```
 
-### Tagging
-Glitch and content tags are automatically aggregated from `tags` fields into tags.json during the build process. 
+### label
+
+A short abbreviation displayed alongside the title (e.g., "ZO" for "Zuggle Overload").
 
 ```yaml
----
+label: "ZO"
+```
+
+### versions
+
+List of game versions where the glitch/technique works.
+
+```yaml
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+```
+
+### credits
+
+Contributors who discovered or documented the technique. Names must match [credits.json](../assets/data/credits.json) exactly for leaderboard aggregation.
+
+```yaml
+credits: ["Zvleon", "Mozz"]
+```
+
+### date
+
+Discovery or documentation date in `YYYY-MM-DD` format.
+
+```yaml
+date: "2023-05-16"
+```
+
+### description
+
+A brief summary used for search results and SEO.
+
+```yaml
+description: "Zuggling allows you to stack weapons to get more attack power by cloning equipment onto Link."
+```
+
+### tags
+
+Categorization tags. Auto-indexed into [tags.json](../assets/data/tags.json) during build.
+
+```yaml
 tags: ["zuggling", "overload", "item", "equipment"]
----
 ```
 
-To see all available tags, check [tags.json](../assets/data/tags.json). When you add a new tag to a glitch's frontmatter (in the tags: field), the build system automatically discovers it and adds it to the tags file if it's not already present sorting it alphabetically. Do not edit tags.json manually.
+### aliases
 
-### Aliases
-Aliases make pages discoverable under alternative names. Add them to a page's frontmatter using the `aliases` field:
+Alternative names for search discovery. Case-insensitive.
+
+```yaml
+aliases: ["zuggo", "overloaded zuggle"]
+```
+
+### uid
+
+Auto-generated unique identifier. **Do not add manually.**
+
+### Complete Example
 
 ```yaml
 ---
 title: "Zuggle Overload"
-aliases: ["zuggo", "overloaded zuggle"]
+label: "ZO"
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0"]
+credits: ["Zvleon"]
+date: "2023-05-16"
+description: "Zuggling allows you to stack weapons by cloning equipment onto Link."
+aliases: ["zuggo", "ZO"]
+tags: ["zuggling", "overload"]
 ---
 ```
 
-When a reader searches for any of these alias names (e.g., "ZO" or "overload-zuggle"), the search system will find and suggest this page. Use aliases for:
+## Custom Site Features
+---
 
-- **Alternative names**: Common alternate names or spellings
-- **Old page names**: If you rename a page, keep the old name as an alias so old links still work
-
-Aliases are case-insensitive and automatically indexed during the build process.
+These are site-specific enhancements beyond standard Markdown.
 
 ### Search links
-Write Markdown links that start with "search:" to create an editor-friendly trigger for the site's search overlay.
+
+Links prefixed with `search:` open the site search overlay instead of navigating.
 
 ```markdown
 [Slugging](search:Slugging)
 ```
 
-These links are intercepted client-side and open the Material theme search with the provided query instead of navigating away. They are safe to edit in GitHub and make finding related content easier.
-
 ### Map embeds
-Embed interactive map previews from the [TotK Object Map](https://objmap-totk.zeldamods.org/) using shorthand coordinate syntax:
+
+Embed interactive [TotK Object Map](https://objmap-totk.zeldamods.org/) previews using coordinate shorthand.
+
+**Format:** `[Label](zoom, x:x_coord, z:z_coord[, layer])`
+
+| Parameter | Required | Description |
+|-----------|----------|-------------|
+| zoom | Yes | Initial zoom level (e.g., 8, 10) |
+| x:x_coord | Yes | X coordinate (decimals OK) |
+| z:z_coord | Yes | Z coordinate (decimals OK) |
+| layer | No | Surface, Sky, or Depths (default: Surface) |
 
 ```markdown
 [Fire Temple VD location](8, x:1321.68, z:-2823.71, Depths)
 ```
 
-Format: [Label](zoom, x:x_coord, z:z_coord[, layer])
-
-- **zoom**: Required — initial zoom level (e.g., 8, 10)
-- **x:x_coord**: Required — X coordinate (supports decimals)
-- **z:z_coord**: Required — Z coordinate (supports decimals)
-- **layer**: Optional — map layer (Surface, Sky, Depths; defaults to Surface)
-
-The embed automatically generates two versions: desktop at the specified zoom, and mobile at zoom -1 for better mobile viewing. Desktop shows at full size (500px), while mobile portrait shows at 300px height and mobile landscape at 55vh.
-
-
 ### Social links and leaderboard
-Contributor credit names are automatically aggregated into the leaderboard and converted into clickable social media links on the site using [credits.json](../assets/data/credits.json). The build system automatically adds newly credited names with an empty URL ("") as a pending placeholder. These names render as plain text in the docs and on the leaderboard until a social URL is manually filled in. To enable linking, open credits.json and replace the empty string with the contributor's profile URL. Do not manually add or remove entries.
 
-Each entry maps a name to a URL:
+Credit names in frontmatter are aggregated into the leaderboard. Names link to social profiles when mapped in [credits.json](../assets/data/credits.json).
 
 ```json
 {
-    "Mozz": "https://www.youtube.com/@M0zzed",
+    "Mozz": "https://www.youtube.com/@M0zzed"
 }
 ```
 
-**Credit names must match exactly** the names in credits.json to work correctly.
-
-Mismatched names (different capitalization, spacing, or spelling) will:
-
-- Create separate leaderboard entries instead of aggregating contributions
-- Prevent social media links from appearing
-- Give inaccurate credit attribution
-
-**Always check the exact spelling and capitalization** in credits.json before adding a credit.
+**Names must match exactly** — mismatched capitalization or spelling prevents linking and splits leaderboard entries.
 
 ### Level-2 section separators
-To keep `##` sections visually consistent, place a horizontal rule immediately after the level-2 heading by adding a line with three dashes on the next line.
+
+Place `---` after `##` headings for visual consistency:
 
 ```markdown
 ## Instructions
@@ -127,8 +172,9 @@ To keep `##` sections visually consistent, place a horizontal rule immediately a
 ```
 
 ## Markdown Extensions
+---
 
-This site uses customized extensions to enhance standard Markdown formatting. Each extension below includes syntax and a rendered example.
+This site uses customized extensions to enhance standard Markdown. Each extension includes syntax and a rendered example.
 
 ### Admonition
 
@@ -358,11 +404,14 @@ Zuggle
 OOB (Out of Bounds)
 :   Exploiting collision detection to move Link outside the intended playable area.
 
+---
+
 ### Tabbed (Tabbed Content)
 
 Creates tabs for organizing related content groups.
 
 #### Syntax
+
 ```markdown
 === "Tab 1"
 
@@ -373,8 +422,8 @@ Creates tabs for organizing related content groups.
     Content for tab 2.
 ```
 
-
 #### Example
+
 === "Method A"
 
     This is approach A.
@@ -386,8 +435,9 @@ Creates tabs for organizing related content groups.
 ---
 
 ## Extension Configuration
+---
 
-All extensions are defined in mkdocs.yml under the markdown_extensions section:
+All extensions are defined in `mkdocs.yml`:
 
 ```yaml
 markdown_extensions:
@@ -409,7 +459,8 @@ markdown_extensions:
 
 ---
 
-## Quick Reference Cheat Sheet
+## Quick Reference
+---
 
 | Extension | Purpose | Key Syntax |
 |---|---|---|
@@ -428,6 +479,7 @@ markdown_extensions:
 ---
 
 ## Best Practices
+---
 
 1. **Use Admonitions** for important callouts (notes, warnings, tips)
 2. **Prefer collapsible Details** only when content is optional or supplementary
@@ -442,17 +494,14 @@ markdown_extensions:
 ## Navigation and where to edit
 ---
 
-- Top-level docs live in `docs/wiki/`.
-- Edit pages directly; to reorganize navigation, ask a maintainer or update `mkdocs.yml`.
+Top-level docs live in `docs/wiki/`. Edit pages directly; to reorganize navigation, ask a maintainer or update `mkdocs.yml`.
 
 ## Community and contribution
 ---
 
-This is a community project — everyone is welcome to contribute even without a GitHub account. Join the discussion and show us what you got:
+This is a community project — everyone is welcome to contribute even without a GitHub account. Join the discussion:
 
-- Download [blank.md](_wip/blank.md) if you need a starting point, write down your intel and post it in our **[dedicated Encyclopedia thread](https://discord.com/channels/1086729144307564648/1471224902890684557)** in the **[Zelda: Tears of the Kingdom Speedrunning Discord server](https://discord.gg/xM8NnTetb2)**
-
-Thanks for contributing — keep changes focused, documented, and easy to review.
+- Download [blank.md](_wip/blank.md) as a starting point and post your discoveries in our **[dedicated Encyclopedia thread](https://discord.com/channels/1086729144307564648/1471224902890684557)** on the **[TotK Speedrunning Discord](https://discord.gg/xM8NnTetb2)**
 
 ## See Also
 ---
@@ -464,7 +513,7 @@ Thanks for contributing — keep changes focused, documented, and easy to review
 ## Appendix: Markdown Basics
 ---
 
-Quick reference for standard Markdown syntax:
+Standard Markdown syntax reference:
 
 ```markdown
 # Heading 1
