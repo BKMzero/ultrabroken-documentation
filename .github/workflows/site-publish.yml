@@ -7,6 +7,10 @@ on:
       - '.github/workflows/site-publish.yml'
   workflow_dispatch: {}
 
+concurrency:
+  group: site-publish-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   publish-assets:
     runs-on: ubuntu-latest
