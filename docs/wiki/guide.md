@@ -749,7 +749,7 @@ pie title Glitch Discovery by Category
 
 ### Mermaid Inline Theme Overrides
 
-The global theme applies automatically to all diagrams. For one-off overrides — such as a specific diagram that needs different colors — use an `%%{init:}%%` directive at the top of the diagram block.
+The global theme is controlled via CSS custom properties (`--md-mermaid-*`) in `glow.css` and applies automatically to all diagrams. For one-off overrides — such as a specific diagram that needs different colors — use an `%%{init:}%%` directive at the top of the diagram block.
 
 **Common `themeVariables` keys:**
 
