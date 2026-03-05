@@ -21,15 +21,20 @@ This page provides a comprehensive guide for editors contributing to the Ultrabr
 3. Make your edits, add a concise commit message, and commit directly to "main".
 4. Open a pull request if you used a different branch than "main".
 
-## Recommended editing conventions
+## Recommended editing guidelines
 - Write in present tense and keep instructions concise.
 - Use clear section headings and include example commands or code where useful.
-- Prefer relative links for cross-references inside the docs (for example "../effects/index.md").
-- For images, put files in "docs/assets/images/" and reference them with relative paths.
+- Keep the steps of your instructions as granular as possible. Try to extract pausing / unpausing into dedicated steps with bold styling for clarity.
+- Avoid abbreviations in titles or filenames for easy parsing.
+- Prefer relative links for cross-references inside the wiki (for example `../wiki/effects/index.md`).
+- For images, put files in `docs/assets/images/` and reference them with relative paths.
+- Put your WIPs into the dedicated [`docs/wiki/wip/`](docs/wiki/wip/) folder.
+- UIDs for files are generated automatically. Don't manually add UID fields to the frontmatter.
+- After you have committed changes to the wiki, is takes around two minutes until those are reflected on the page. Wait until the page build finishes before making the next commit.
 
-### Additional editor conveniences
+## Additional editor conventions
 
-#### Search links
+### Search links
 Write Markdown links that start with "search:" to create an editor-friendly trigger for the site's search overlay.
 
 `markdown
@@ -38,7 +43,7 @@ Write Markdown links that start with "search:" to create an editor-friendly trig
 
 These links are intercepted client-side and open the Material theme search with the provided query instead of navigating away. They are safe to edit in GitHub and make finding related content easier.
 
-#### Map embeds
+### Map embeds
 Embed interactive map previews from the [TotK Object Map](https://objmap-totk.zeldamods.org/) using shorthand coordinate syntax:
 
 `markdown
@@ -54,16 +59,8 @@ Format: [Label](zoom, x:x_coord, z:z_coord[, layer])
 
 The embed automatically generates two versions: desktop at the specified zoom, and mobile at zoom -1 for better mobile viewing. Desktop shows at full size (500px), while mobile portrait shows at 300px height and mobile landscape at 55vh.
 
-#### Level-2 section separators
 
-To keep ## sections visually consistent, place a horizontal rule immediately after the level-2 heading by adding a line with three dashes on the next line.
-
-`markdown
-## Instructions
----
-`
-
-#### Social links and leaderboard
+### Social links and leaderboard
 Contributor credit names are automatically aggregated into the leaderboard and converted into clickable social media links on the site using [docs/assets/data/credits.json](docs/assets/data/credits.json). The build system automatically adds newly credited names with an empty URL ("") as a pending placeholder. These names render as plain text in the docs and on the leaderboard until a social URL is manually filled in. To enable linking, open credits.json and replace the empty string with the contributor's profile URL. Do not manually add or remove entries.
 
 Each entry maps a name to a URL:
@@ -84,72 +81,83 @@ Mismatched names (different capitalization, spacing, or spelling) will:
 
 **Always check the exact spelling and capitalization** in credits.json before adding a credit.
 
-#### Tagging
-To see all available tags, check [docs/assets/data/tags.json](docs/assets/data/tags.json). Glitch and content tags are automatically aggregated into 	ags.json during the build process. When you add a new tag to a glitch's frontmatter (in the 	ags: field), the build system automatically discovers it and adds it to the tags file if it's not already present sorting it alphabetically. Do not edit 	ags.json manually.
+### Tagging
+To see all available tags, check [docs/assets/data/tags.json](docs/assets/data/tags.json). Glitch and content tags are automatically aggregated into tags.json during the build process. When you add a new tag to a glitch's frontmatter (in the tags: field), the build system automatically discovers it and adds it to the tags file if it's not already present sorting it alphabetically. Do not edit tags.json manually.
 
-#### Unique identificators
-UIDs for files are generated automatically. Don't manually add UID fields to the frontmatter.
+### Aliases
+Aliases make pages discoverable under alternative names. Add them to a page's frontmatter using the `aliases` field:
 
-#### Naming conventions
-Avoid abbreviations in titles or filenames for easy parsing.
+```yaml
+---
+title: "Zuggle Overload"
+aliases: ["zuggle-o", "ZO", "overload-zuggle"]
+---
+```
 
-#### Granulation
-Keep the steps of your instructions as granular as possible. Try to extract pausing / unpausing into dedicated steps with bold styling for clarity.
+When a reader searches for any of these alias names (e.g., "ZO" or "overload-zuggle"), the search system will find and suggest this page. Use aliases for:
 
-#### Work in progress
-Put your WIPs into the dedicated [docs/wiki/wip/](docs/wiki/wip/) folder.
+- **Abbreviations**: Common shorthand references (e.g., "VD" for "Void Dipping")
+- **Alternative names**: Common alternate names or spellings
+- **Old page names**: If you rename a page, keep the old name as an alias so old links still work
 
-#### Build times
-After you have committed changes to the wiki, it takes around two minutes until those are reflected on the page.
+Aliases are case-insensitive and automatically indexed during the build process.
+
+### Level-2 section separators
+To keep `##` sections visually consistent, place a horizontal rule immediately after the level-2 heading by adding a line with three dashes on the next line.
+
+```markdown
+## Instructions
+---
+```
 
 ## Markdown Quick Reference
 
 ### Headings
 
-`markdown
+```markdown
 # Heading 1
 ## Heading 2
 ### Heading 3
-`
+```
 
 ### Emphasis
 
-`markdown
+```markdown
 **bold**
 _italic_
 inline code
-`
+```
 
 ### Links and images
 
-`markdown
+```markdown
 [Link text](path/to/file.md)
 ![Alt text](assets/images/example.png)
-`
+```
 
 ### Lists
 *Leave a blank line between regular text and lists!*
-`markdown
+```markdown
 - Unordered item
 - Another item
 
 1. First item
 2. Second item
-`
+```
 
 ### Blockquotes
 
-`markdown
+```markdown
 > This is a quote
-`
+```
 
 ### Tables
 
-`markdown
+```markdown
 | Column A | Column B |
 |---|---|
 | Value 1  | Value 2  |
-`
+```
 
 ## Active Markdown Extensions
 
@@ -309,7 +317,7 @@ Paragraph with a class.
 Allows Markdown to be written inside HTML blocks.
 
 #### Syntax
-`html
+```html
 <div markdown="1">
 
 # Markdown in HTML
@@ -319,7 +327,7 @@ This paragraph uses **Markdown formatting** inside an HTML div.
 - List item 2
 
 </div>
-`
+```
 
 #### Use Cases
 - Complex layouts requiring HTML structure with Markdown flexibility
