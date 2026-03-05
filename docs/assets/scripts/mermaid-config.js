@@ -108,8 +108,8 @@ var PIE = {
       '{fill:rgba(0,240,194,1)!important;' +
       'stroke:' + THEME.dark + '!important;stroke-width:1.5px!important;' +
       'rx:3px!important;ry:3px!important}' +
-    /* ── Gantt: overall background (opaque with outline) ── */
-    'rect.background{fill:#2a2f3f!important;stroke:' + THEME.primary + '!important;stroke-width:2px!important}' +
+    /* ── Gantt: overall background (dark fill, teal outline) ── */
+    'rect.background{fill:' + THEME.dark + '!important;stroke:' + THEME.primary + '!important;stroke-width:2px!important}' +
     /* ── Pie ── */
     '.pieTitleText{font-size:' + PIE.titleSize + '!important;' +
       'font-family:' + THEME.titleFont + ',' + THEME.textFont + '!important;' +
@@ -156,6 +156,22 @@ var PIE = {
             p[3] += extra;    /* increase height */
             svg.setAttribute('viewBox', p.join(' '));
           }
+          /* Style gantt background rect directly as SVG attributes */
+          var bg = svg.querySelector('rect.background');
+          if (bg) {
+            bg.setAttribute('fill', THEME.dark);
+            bg.setAttribute('stroke', THEME.primary);
+            bg.setAttribute('stroke-width', '2');
+            bg.setAttribute('rx', '3');
+            bg.setAttribute('ry', '3');
+          }
+          /* Apply rounded corners to section bands via attributes */
+          svg.querySelectorAll('.section0,.section1,.section2,.section3').forEach(function(r) {
+            r.setAttribute('stroke', THEME.dark);
+            r.setAttribute('stroke-width', '1.5');
+            r.setAttribute('rx', '3');
+            r.setAttribute('ry', '3');
+          });
         }
       }
     }
@@ -251,8 +267,8 @@ Object.defineProperty(window, 'mermaid', {
             '{fill:rgba(0,240,194,1)!important;' +
             'stroke:' + THEME.dark + '!important;stroke-width:1.5px!important;' +
             'rx:3px!important;ry:3px!important}' +
-          /* Gantt: overall background (opaque with teal outline) */
-          'rect.background{fill:#2a2f3f!important;stroke:' + THEME.primary + '!important;stroke-width:2px!important}' +
+          /* Gantt: overall background (dark fill, teal outline) */
+          'rect.background{fill:' + THEME.dark + '!important;stroke:' + THEME.primary + '!important;stroke-width:2px!important}' +
           /* Pie */
           '.pieTitleText{fill:' + THEME.primary + '!important;font-size:' + PIE.titleSize + '!important;' +
             'font-family:' + THEME.titleFont + ',' + THEME.textFont + '!important}' +
