@@ -52,7 +52,6 @@ extra_javascript:
 
 nav:
   - Home: wiki/index.md
-  - About: wiki/about.md
      #- Welcome: index.md
      #- Ultrabroken: ultrabroken/index.md
      #- Entanglement: entanglement/index.md
@@ -181,6 +180,7 @@ nav:
   - Overload: wiki/overload/index.md
   # - Graph View: wiki/graph.md
   - Memorandum: wiki/memorandum.md
+  - About: wiki/about.md
 
 hooks:
   - docs/assets/hooks/map_embed.py
