@@ -698,7 +698,7 @@ Timeline visualization for project schedules and dependencies.
 ````markdown
 ```mermaid
 gantt
-    title Discovery Timeline
+    title Ignore this field
     dateFormat YYYY-MM-DD
     section Phase
     Research           :a1, 2024-01-01, 30d
@@ -712,7 +712,7 @@ gantt
 
 ```mermaid
 gantt
-    title Discovery Timeline
+    title Ignore this field
     dateFormat YYYY-MM-DD
     section Phase
     Research           :a1, 2024-01-01, 30d
