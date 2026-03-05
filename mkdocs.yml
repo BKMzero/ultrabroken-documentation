@@ -28,6 +28,7 @@ extra_css:
   - assets/stylesheets/glow.css
 
 extra_javascript:
+  - assets/scripts/mermaid-config.js
   - assets/vendor/marked.min.js
   - assets/vendor/purify.min.js
   - assets/scripts/tab-scroll-fix.js  # Prevents overshoot when scrolling tabs near boundaries
