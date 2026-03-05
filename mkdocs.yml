@@ -58,6 +58,7 @@ nav:
      #- Entanglement: entanglement/index.md
      #- Zuggling: zuggling/index.md
      #- Glitchcraft: glitchcraft/index.md
+  - Guide: wiki/guide.md
   - Glitchcraft: wiki/glitchcraft/_glitchcraft-grimoire.md
   - Ultrabroken: 
     - Introduction: wiki/ultrabroken/index.md
