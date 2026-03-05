@@ -52,7 +52,7 @@ tags: ["zuggling", "overload", "item", "equipment"]
 ---
 ```
 
-To see all available tags, check [docs/assets/data/tags.json](docs/assets/data/tags.json). When you add a new tag to a glitch's frontmatter (in the tags: field), the build system automatically discovers it and adds it to the tags file if it's not already present sorting it alphabetically. Do not edit tags.json manually.
+To see all available tags, check [tags.json](../assets/data/tags.json). When you add a new tag to a glitch's frontmatter (in the tags: field), the build system automatically discovers it and adds it to the tags file if it's not already present sorting it alphabetically. Do not edit tags.json manually.
 
 ### Aliases
 Aliases make pages discoverable under alternative names. Add them to a page's frontmatter using the `aliases` field:
@@ -98,7 +98,7 @@ The embed automatically generates two versions: desktop at the specified zoom, a
 
 
 ### Social links and leaderboard
-Contributor credit names are automatically aggregated into the leaderboard and converted into clickable social media links on the site using [docs/assets/data/credits.json](docs/assets/data/credits.json). The build system automatically adds newly credited names with an empty URL ("") as a pending placeholder. These names render as plain text in the docs and on the leaderboard until a social URL is manually filled in. To enable linking, open credits.json and replace the empty string with the contributor's profile URL. Do not manually add or remove entries.
+Contributor credit names are automatically aggregated into the leaderboard and converted into clickable social media links on the site using [credits.json](../assets/data/credits.json). The build system automatically adds newly credited names with an empty URL ("") as a pending placeholder. These names render as plain text in the docs and on the leaderboard until a social URL is manually filled in. To enable linking, open credits.json and replace the empty string with the contributor's profile URL. Do not manually add or remove entries.
 
 Each entry maps a name to a URL:
 
@@ -126,63 +126,16 @@ To keep `##` sections visually consistent, place a horizontal rule immediately a
 ---
 ```
 
-## Markdown Quick Reference
+## Markdown Extensions
 
-### Headings
+This site uses customized extensions to enhance standard Markdown formatting. Each extension below includes syntax and a rendered example.
 
-```markdown
-# Heading 1
-## Heading 2
-### Heading 3
-```
+### Admonition
 
-### Emphasis
-
-```markdown
-**bold**
-_italic_
-inline code
-```
-
-### Links and images
-
-```markdown
-[Link text](path/to/file.md)
-![Alt text](assets/images/example.png)
-```
-
-### Lists
-*Leave a blank line between regular text and lists!*
-```markdown
-- Unordered item
-- Another item
-
-1. First item
-2. Second item
-```
-
-### Blockquotes
-
-```markdown
-> This is a quote
-```
-
-### Tables
-
-```markdown
-| Column A | Column B |
-|---|---|
-| Value 1  | Value 2  |
-```
-
-## Active Markdown Extensions
-
-This site uses customized extensions to enhance standard Markdown formatting.
-
-### 1. **Admonition**
 Displays highlighted blocks for notes, tips, warnings, and other callouts.
 
 #### Syntax
+
 ```markdown
 !!! note "Optional Title"
     This is a note. The title is optional.
@@ -197,7 +150,8 @@ Displays highlighted blocks for notes, tips, warnings, and other callouts.
     Critical danger notice.
 ```
 
-#### Examples
+#### Example
+
 !!! note "Example Note"
     Admonitions draw attention to important content with a colored border and background.
 
@@ -206,115 +160,140 @@ Displays highlighted blocks for notes, tips, warnings, and other callouts.
 
 ---
 
-### 2. **Pymdownx Details** (Collapsible Blocks)
+### Details (Collapsible Blocks)
+
 Creates expandable/collapsible sections of content.
 
 #### Syntax
+
 ```markdown
 ??? note "Click to expand"
     Hidden content appears when you click the title.
-
-??? warning "Collapsible warning"
-    This section is hidden by default.
 
 ???+ tip "Expanded by default"
     The + makes it expand automatically on page load.
 ```
 
-#### Examples
+#### Example
+
 ??? note "Hidden Content Example"
     This content is collapsed by default. Click the title to expand it.
 
 ???+ tip "Expanded by Default"
-    Use the + prefix to show collapsed blocks expanded initially.
+    Use the `+` prefix to show collapsed blocks expanded initially.
 
 ---
 
-### 3. **Pymdownx Superfences**
+### Superfences (Code Blocks)
+
 Enables advanced code block features including syntax highlighting, line numbers, and custom attributes.
 
 #### Syntax
-```markdown
-`python
+
+````markdown
+```python
 def hello_world():
     print("Hello, World!")
-`
+```
 
-`javascript title="filename.js" linenums="1"
+```javascript title="filename.js" linenums="1"
 console.log("Line numbers and titles work!");
-`
 ```
+````
 
-#### Features
-- **Syntax highlighting** for 100+ languages
-- **Line numbers** with linenums="1"
-- **Titles** with 	itle="your_title"
-- **Callout lines** with hl_lines="1 2 3"
+**Options:** `linenums="1"` for line numbers, `title="name"` for titles, `hl_lines="1 2 3"` to highlight lines.
 
----
+#### Example
 
-### 4. **Pymdownx Highlight**
-Provides syntax highlighting for code blocks with customizable themes and styles.
-
-Works transparently with **Superfences** to color-code code blocks based on language.
-
-#### Supported Languages
-Python, JavaScript, TypeScript, Java, C++, CSS, HTML, Bash, JSON, YAML, Markdown, Regex, and 100+ more.
-
----
-
-### 5. **Pymdownx InlineHilite**
-Highlights inline code snippets with syntax coloring (without backticks).
-
-#### Syntax
-```markdown
-:::python print("inline code with highlighting")
-
-:::javascript const x = 42;
+```python title="example.py" linenums="1"
+def hello_world():
+    print("Hello, World!")
 ```
 
 ---
 
-### 6. **Pymdownx Tasklist**
-Renders interactive checkboxes for task lists.
+### Highlight
+
+Provides syntax highlighting for code blocks. Works transparently with Superfences to color-code code blocks based on language.
 
 #### Syntax
+
+Simply specify the language after the opening triple backticks:
+
+````markdown
+```python
+print("Highlighted automatically")
+```
+````
+
+#### Example
+
+```python
+print("Highlighted automatically")
+```
+
+---
+
+### InlineHilite
+
+Highlights inline code snippets with syntax coloring.
+
+#### Syntax
+
 ```markdown
-- [x] Completed task
-- [ ] Incomplete task
-- [x] Another completed task
+Use `#!python print("inline")` for inline highlighting.
 ```
 
 #### Example
+
+Use `#!python print("inline")` for inline highlighting or `#!javascript const x = 42;` for JavaScript.
+
+---
+
+### Tasklist
+
+Renders interactive checkboxes for task lists.
+
+#### Syntax
+
+```markdown
+- [x] Completed task
+- [ ] Incomplete task
+```
+
+#### Example
+
 - [x] Study Ultrabroken mechanics
 - [ ] Master zuggling techniques
 - [x] Document discoveries
 
-**Features:** Clickable checkboxes (when enabled) allow tasks to be marked complete.
+---
+
+### TOC (Table of Contents)
+
+Automatically generates a table of contents from headings in the sidebar. Supports custom heading IDs via the Attr List extension.
+
+#### Syntax
+
+```markdown
+## My Section {#custom-anchor}
+
+Link to it with [jump to section](#custom-anchor).
+```
+
+#### Example
+
+The sidebar navigation on this page is automatically generated from headings.
 
 ---
 
-### 7. **TOC (Table of Contents)**
-Automatically generates a table of contents from headings. Includes **permalink support** for linking directly to sections.
+### Attr List
 
-#### Current Config
-- permalink: false — Permalinks are disabled in the extension config
-- Material Theme provides native styling and sidebar integration
-- Use heading anchors like [Link](#section-title) to reference sections
-
-#### Features
-- Automatically detects heading hierarchy (h1, h2, h3, etc.)
-- Integrated into Material theme sidebar
-- Supports custom IDs with  ttr_list extension
-
----
-
-### 8. **Attr List**
 Adds support for custom attributes (IDs, classes) on elements.
 
 #### Syntax
-```markdown
 
+```markdown
 # Heading with Custom ID {#custom-id}
 
 Paragraph with a class.
@@ -323,22 +302,23 @@ Paragraph with a class.
 [Link text](#custom-id){ .button }
 ```
 
-#### Use Cases
-- Custom IDs for deep linking: {#section-name}
-- CSS class application: {: .highlight }
-- Custom styling on images, lists, and blocks
+#### Example
+
+This paragraph has custom styling applied.
+{: .md-typeset }
 
 ---
 
-### 9. **Md in HTML**
+### Md in HTML
+
 Allows Markdown to be written inside HTML blocks.
 
 #### Syntax
+
 ```html
 <div markdown="1">
 
-# Markdown in HTML
-This paragraph uses **Markdown formatting** inside an HTML div.
+**Markdown** inside an HTML div.
 
 - List item 1
 - List item 2
@@ -346,65 +326,53 @@ This paragraph uses **Markdown formatting** inside an HTML div.
 </div>
 ```
 
-#### Use Cases
-- Complex layouts requiring HTML structure with Markdown flexibility
-- Custom containers with Markdown content inside
-- Preserve Markdown rendering within semantic HTML
+#### Example
+
+<div markdown="1">
+
+**Markdown** renders correctly inside HTML containers.
+
+</div>
 
 ---
 
-### 10. **Def List** (Definition Lists)
-Creates structured definition/term pairs useful for glossaries and terminology.
+### Def List (Definition Lists)
+
+Creates structured definition/term pairs useful for glossaries.
 
 #### Syntax
+
 ```markdown
-Term 1
-:   Definition of term 1 with full support for **bold**, *italic*, and [links](/).
+Term
+:   Definition of the term.
 
-Term 2
-:   Multi-paragraph definitions.
-:   Supported by adding multiple :  entries.
-
-Zuggle
-:   A complex glitch involving equipment state manipulation.
+Another Term
+:   Another definition.
 ```
 
 #### Example
+
 Zuggle
-:   A glitch technique where Link's equipment state becomes desynchronized with the inventory display, allowing impossible item combinations.
+:   A glitch technique where Link's equipment state becomes desynchronized with the inventory display.
 
 OOB (Out of Bounds)
 :   Exploiting collision detection to move Link outside the intended playable area.
 
----
+### Tabbed (Tabbed Content)
 
-### 11. **Pymdownx Tabbed** (Tabbed Content)
 Creates tabs for organizing related content groups.
 
 #### Syntax
 ```markdown
-=== "Tab 1: Python"
+=== "Tab 1"
 
-    `python
-    print("Python code here")
-    `
+    Content for tab 1.
 
-=== "Tab 2: JavaScript"
+=== "Tab 2"
 
-    `javascript
-    console.log("JavaScript");
-    `
-
-=== "Tab 3: Notes"
-
-    Regular content here.
+    Content for tab 2.
 ```
 
-#### Features
-- Multiple tabs within a single block
-- Support for arbitrary content (code, text, lists)
-- lternate_style: true enabled for modern Material theme styling
-- Improves readability when comparing related content
 
 #### Example
 === "Method A"
@@ -449,7 +417,7 @@ markdown_extensions:
 | **Details** | Collapsible sections | ??? note "Title" |
 | **Superfences** | Advanced code blocks |  `python title="..." `  |
 | **Highlight** | Syntax coloring | (Automatic with Superfences) |
-| **InlineHilite** | Inline code highlighting | :::python code |
+| **InlineHilite** | Inline code highlighting | `#!python code` |
 | **Tasklist** | Interactive checkboxes | - [x] Task |
 | **TOC** | Auto table of contents | (Automatic from headings) |
 | **Attr List** | Custom attributes | {#id .class} |
@@ -464,7 +432,7 @@ markdown_extensions:
 1. **Use Admonitions** for important callouts (notes, warnings, tips)
 2. **Prefer collapsible Details** only when content is optional or supplementary
 3. **Leverage code block titles** to label examples
-4. **Apply custom IDs** with ttr_list for deep-linking to specific sections
+4. **Apply custom IDs** with Attr List for deep-linking to specific sections
 5. **Use Def Lists** for glossaries and terminology sections
 6. **Tab related content** to keep pages more scannable
 7. **Nest extensions** appropriately (e.g., code blocks inside admonitions)
@@ -472,22 +440,50 @@ markdown_extensions:
 ---
 
 ## Navigation and where to edit
+---
 
-- Top-level docs live in "docs/wiki/".
-- Edit pages directly; to reorganize navigation, ask a maintainer or update "mkdocs.yml".
+- Top-level docs live in `docs/wiki/`.
+- Edit pages directly; to reorganize navigation, ask a maintainer or update `mkdocs.yml`.
 
 ## Community and contribution
+---
 
 This is a community project — everyone is welcome to contribute even without a GitHub account. Join the discussion and show us what you got:
 
-- Download [docs/wiki/_wip/blank.md](docs/wiki/_wip/blank.md) if you need a starting point, write down your intel and post it in our **[dedicated Encyclopedia thread](https://discord.com/channels/1086729144307564648/1471224902890684557)** in the **[Zelda: Tears of the Kingdom Speedrunning Discord server](https://discord.gg/xM8NnTetb2)**
-
----
+- Download [blank.md](_wip/blank.md) if you need a starting point, write down your intel and post it in our **[dedicated Encyclopedia thread](https://discord.com/channels/1086729144307564648/1471224902890684557)** in the **[Zelda: Tears of the Kingdom Speedrunning Discord server](https://discord.gg/xM8NnTetb2)**
 
 Thanks for contributing — keep changes focused, documented, and easy to review.
 
 ## See Also
+---
 
 - [MkDocs Material Documentation](https://squidfunk.github.io/mkdocs-material/)
 - [Python-Markdown Extensions](https://python-markdown.github.io/extensions/)
 - [PyMdown Extensions](https://facelessuser.github.io/pymdown-extensions/)
+
+## Appendix: Markdown Basics
+---
+
+Quick reference for standard Markdown syntax:
+
+```markdown
+# Heading 1
+## Heading 2
+### Heading 3
+
+**bold** and _italic_
+
+`inline code`
+
+[Link text](path/to/file.md)
+![Alt text](assets/images/example.png)
+
+- Unordered item
+1. Ordered item
+
+> Blockquote
+
+| Column A | Column B |
+|----------|----------|
+| Value 1  | Value 2  |
+```
