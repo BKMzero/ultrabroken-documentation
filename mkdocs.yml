@@ -57,7 +57,7 @@ nav:
      #- Entanglement: entanglement/index.md
      #- Zuggling: zuggling/index.md
      #- Glitchcraft: glitchcraft/index.md
-  - Guide: wiki/guide.md
+  - About: wiki/about.md
   - Glitchcraft: wiki/glitchcraft/_glitchcraft-grimoire.md
   - Ultrabroken: 
     - Introduction: wiki/ultrabroken/index.md
@@ -180,7 +180,7 @@ nav:
   - Overload: wiki/overload/index.md
   # - Graph View: wiki/graph.md
   - Memorandum: wiki/memorandum.md
-  - About: wiki/about.md
+  - Guide: wiki/guide.md
 
 hooks:
   - docs/assets/hooks/map_embed.py

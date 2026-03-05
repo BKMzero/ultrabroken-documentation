@@ -1,4 +1,4 @@
-﻿# Editor Guide & Markdown Reference
+# Editor Guide & Markdown Reference
 
 This page provides a comprehensive guide for editors contributing to the Ultrabroken Archives written in Markdown and published with MkDocs + Material. It covers contribution workflows, conventions, custom site features, and all active Markdown extensions.
 
@@ -305,8 +305,6 @@ Displays highlighted blocks for notes, tips, warnings, and other callouts.
 !!! tip
     Use admonitions sparingly to maintain visual hierarchy.
 
-
-
 ### Details (Collapsible Blocks)
 
 Creates expandable/collapsible sections of content.
@@ -328,8 +326,6 @@ Creates expandable/collapsible sections of content.
 
 ???+ tip "Expanded by Default"
     Use the `+` prefix to show collapsed blocks expanded initially.
-
-
 
 ### Superfences (Code Blocks)
 
@@ -357,8 +353,6 @@ def hello_world():
     print("Hello, World!")
 ```
 
-
-
 ### Highlight
 
 Provides syntax highlighting for code blocks. Works transparently with Superfences to color-code code blocks based on language.
@@ -379,8 +373,6 @@ print("Highlighted automatically")
 print("Highlighted automatically")
 ```
 
-
-
 ### InlineHilite
 
 Highlights inline code snippets with syntax coloring.
@@ -394,8 +386,6 @@ Use `#!python print("inline")` for inline highlighting.
 #### Example
 
 Use `#!python print("inline")` for inline highlighting or `#!javascript const x = 42;` for JavaScript.
-
-
 
 ### Tasklist
 
@@ -414,8 +404,6 @@ Renders interactive checkboxes for task lists.
 - [ ] Master zuggling techniques
 - [x] Document discoveries
 
-
-
 ### TOC (Table of Contents)
 
 Automatically generates a table of contents from headings in the sidebar. Supports custom heading IDs via the Attr List extension.
@@ -431,8 +419,6 @@ Link to it with [jump to section](#custom-anchor).
 #### Example
 
 The sidebar navigation on this page is automatically generated from headings.
-
-
 
 ### Attr List
 
@@ -454,9 +440,7 @@ Paragraph with a class.
 This paragraph has custom styling applied.
 {: .md-typeset }
 
-
-
-### Md in HTML
+### MD in HTML
 
 Allows Markdown to be written inside HTML blocks.
 
@@ -481,8 +465,6 @@ Allows Markdown to be written inside HTML blocks.
 
 </div>
 
-
-
 ### Def List (Definition Lists)
 
 Creates structured definition/term pairs useful for glossaries.
@@ -504,8 +486,6 @@ Zuggle
 
 OOB (Out of Bounds)
 :   Exploiting collision detection to move Link outside the intended playable area.
-
-
 
 ### Tabbed (Tabbed Content)
 
@@ -556,8 +536,6 @@ markdown_extensions:
       alternate_style: true
 ```
 
-
-
 ## Quick Reference
 ---
 
@@ -574,8 +552,6 @@ markdown_extensions:
 | **Md in HTML** | Markdown in HTML blocks | <div markdown="1"> |
 | **Def List** | Glossaries | Term\n:   Definition |
 | **Tabbed** | Organized content groups | === "Tab Name" |
-
-
 
 ## See Also
 ---
