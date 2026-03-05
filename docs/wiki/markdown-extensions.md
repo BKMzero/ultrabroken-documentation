@@ -1,9 +1,9 @@
-﻿---
+﻿
 uid: editor-guide
 label: Editor Guide
 title: Editor Guide & Markdown Reference
 aliases: ["markdown-extensions"]
----
+
 
 # Editor Guide & Markdown Reference
 
@@ -33,7 +33,7 @@ This is a community project — everyone is welcome to contribute even without a
 - Write in the present tense and keep instructions concise.
 - Keep steps as granular as possible. Extract pausing / unpausing into dedicated steps with **bold** styling.
 - Avoid abbreviations in titles or filenames for easy parsing.
-- Put image files in [`docs/assets/images/`](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/docs/assets/images) and reference them with relative paths (e.g., [`assets/images/graphics/ultrabroken-rune.svg`](assets/images/graphics/ultrabroken-rune.svg)).
+- Put image files in [`docs/assets/images/`](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/docs/assets/images).
 
 ### Markdown Extension Best Practices
 - **Use Admonitions** for important callouts (notes, warnings, tips).
@@ -46,11 +46,11 @@ This is a community project — everyone is welcome to contribute even without a
 
 ### Level-2 Separation
 
-Place `---` after `##` headings for visual consistency:
+Place `` after `##` headings for visual consistency:
 
 ```markdown
 ## Instructions
----
+
 ```
 
 ### Relative Linking
@@ -68,89 +68,37 @@ A relative link resolves the path based on the current markdown file's location 
 ## Frontmatter Reference
 ---
 
-Every wiki page begins with YAML frontmatter between `---` delimiters. Here are all available fields:
+Every wiki page begins with YAML frontmatter between `` delimiters. Here are all available fields:
 
-### title
+### Frontmatter Fields
 
-The display title for the page. Required.
+The display `title` is required. All other fields are optional but recommended.
 
-```yaml
-title: "Zuggle Overload"
-```
+#### Syntax 
 
-### label
 
-A short abbreviation displayed alongside the title (e.g., "ZO" for "Zuggle Overload").
+- **label**: A short abbreviation displayed alongside the title
+- **versions**: List of game versions where the technique works
+- **credits**: Names must match [credits.json](../assets/data/credits.json) exactly for leaderboard aggregation
+- **date**: Discovery or documentation date in `YYYY-MM-DD` format
+- **description**: A brief summary used for search results and SEO
+- **tags**: Categorization tags. Auto-indexed into [tags.json](../assets/data/tags.json)
+- **aliases**: Alternative names for search discovery. Case-insensitive.
+- **uid**: Auto-generated unique identifier. **Do not add manually.**
 
-```yaml
-label: "ZO"
-```
-
-### versions
-
-List of game versions where the glitch/technique works.
+#### Example
 
 ```yaml
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
-```
 
-### credits
-
-Contributors who discovered or documented the technique. Names must match [credits.json](../assets/data/credits.json) exactly for leaderboard aggregation.
-
-```yaml
-credits: ["Zvleon", "Mozz"]
-```
-
-### date
-
-Discovery or documentation date in `YYYY-MM-DD` format.
-
-```yaml
-date: "2023-05-16"
-```
-
-### description
-
-A brief summary used for search results and SEO.
-
-```yaml
-description: "Zuggling allows you to stack weapons to get more attack power by cloning equipment onto Link."
-```
-
-### tags
-
-Categorization tags. Auto-indexed into [tags.json](../assets/data/tags.json) during build.
-
-```yaml
-tags: ["zuggling", "overload", "item", "equipment"]
-```
-
-### aliases
-
-Alternative names for search discovery. Case-insensitive.
-
-```yaml
-aliases: ["zuggo", "overloaded zuggle"]
-```
-
-### uid
-
-Auto-generated unique identifier. **Do not add manually.**
-
-### Complete Example
-
-```yaml
----
 title: "Zuggle Overload"
 label: "ZO"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0"]
-credits: ["Zvleon"]
+credits: ["Zvleon", "Mozz"]
 date: "2023-05-16"
 description: "Zuggling allows you to stack weapons by cloning equipment onto Link."
 aliases: ["zuggo", "ZO"]
 tags: ["zuggling", "overload"]
----
+
 ```
 
 ## Custom Site Features
@@ -160,32 +108,42 @@ These are site-specific enhancements beyond standard Markdown.
 
 ### Search links
 
-Links prefixed with `search:` open the site search overlay instead of navigating.
+Links prefixed with `search:` open the site search overlay with the query pre-filled instead of navigating away.
+
+#### Syntax / Example
 
 ```markdown
 [Slugging](search:Slugging)
 ```
 
+#### Example
+
+[Slugging](search:Slugging)
+
 ### Map embeds
 
 Embed interactive [TotK Object Map](https://objmap-totk.zeldamods.org/) previews using coordinate shorthand.
 
-**Format:** `[Label](zoom, x:x_coord, z:z_coord[, layer])`
+#### Syntax
+
+`[Label](zoom, x:x_coord, z:z_coord[, layer])`
 
 | Parameter | Required | Description |
-|-----------|----------|-------------|
+|--|-|-|
 | zoom | Yes | Initial zoom level (e.g., 8, 10) |
 | x:x_coord | Yes | X coordinate (decimals OK) |
 | z:z_coord | Yes | Z coordinate (decimals OK) |
 | layer | No | Surface, Sky, or Depths (default: Surface) |
 
-```markdown
+#### Example
+
 [Fire Temple VD location](8, x:1321.68, z:-2823.71, Depths)
-```
 
-### Social links and leaderboard
+### Social Links and Leaderboard
 
-Credit names in frontmatter are aggregated into the leaderboard. Names link to social profiles when mapped in [credits.json](../assets/data/credits.json).
+Credit names in frontmatter are automatically aggregated into the leaderboard. Names will link to social profiles when mapped in [credits.json](https://github.com/nan-gogh/ultrabroken-documentation/blob/main/docs/assets/data/credits.json).
+
+#### Example
 
 ```json
 {
@@ -198,29 +156,107 @@ Credit names in frontmatter are aggregated into the leaderboard. Names link to s
 ## Markdown Basics
 ---
 
-Standard Markdown syntax reference:
+Standard Markdown syntax reference.
+
+### Headings
+
+#### Syntax
 
 ```markdown
 # Heading 1
 ## Heading 2
 ### Heading 3
+```
 
-**bold** and _italic_
+#### Example
+
+# Heading 1
+## Heading 2
+### Heading 3
+
+### Emphasis
+
+#### Syntax
+
+```markdown
+**bold text**
+
+*italic text*
+
+`inline code`
+```
+
+#### Example
+
+**bold text**
+
+*italic text*
 
 `inline code`
 
-[Link text](path/to/file.md)
-![Alt text](assets/images/example.png)
+### Lists
+
+Leave a blank line between regular text and lists!
+
+#### Syntax
+
+```markdown
+- Unordered item
+- Another item
+
+1. Ordered item
+2. Second item
+```
+
+#### Example
 
 - Unordered item
+- Another item
+
 1. Ordered item
+2. Second item
 
-> Blockquote
+#### Bad Syntax
 
+```markdown
+Some text
+- Unordered item
+- Another item
+```
+
+#### Bad Example
+
+Some text
+- Unordered item
+- Another item
+
+### Blockquotes
+
+#### Syntax
+
+```markdown
+> This is a quote block.
+```
+
+#### Example
+
+> This is a quote block.
+
+### Tables
+
+#### Syntax
+
+```markdown
 | Column A | Column B |
-|----------|----------|
+|-|-|
 | Value 1  | Value 2  |
 ```
+
+#### Example
+
+| Column A | Column B |
+|-|-|
+| Value 1  | Value 2  |
 
 ## Markdown Extensions
 ---
@@ -255,7 +291,7 @@ Displays highlighted blocks for notes, tips, warnings, and other callouts.
 !!! tip
     Use admonitions sparingly to maintain visual hierarchy.
 
----
+
 
 ### Details (Collapsible Blocks)
 
@@ -279,7 +315,7 @@ Creates expandable/collapsible sections of content.
 ???+ tip "Expanded by Default"
     Use the `+` prefix to show collapsed blocks expanded initially.
 
----
+
 
 ### Superfences (Code Blocks)
 
@@ -307,7 +343,7 @@ def hello_world():
     print("Hello, World!")
 ```
 
----
+
 
 ### Highlight
 
@@ -329,7 +365,7 @@ print("Highlighted automatically")
 print("Highlighted automatically")
 ```
 
----
+
 
 ### InlineHilite
 
@@ -345,7 +381,7 @@ Use `#!python print("inline")` for inline highlighting.
 
 Use `#!python print("inline")` for inline highlighting or `#!javascript const x = 42;` for JavaScript.
 
----
+
 
 ### Tasklist
 
@@ -364,7 +400,7 @@ Renders interactive checkboxes for task lists.
 - [ ] Master zuggling techniques
 - [x] Document discoveries
 
----
+
 
 ### TOC (Table of Contents)
 
@@ -382,7 +418,7 @@ Link to it with [jump to section](#custom-anchor).
 
 The sidebar navigation on this page is automatically generated from headings.
 
----
+
 
 ### Attr List
 
@@ -404,7 +440,7 @@ Paragraph with a class.
 This paragraph has custom styling applied.
 {: .md-typeset }
 
----
+
 
 ### Md in HTML
 
@@ -431,7 +467,7 @@ Allows Markdown to be written inside HTML blocks.
 
 </div>
 
----
+
 
 ### Def List (Definition Lists)
 
@@ -455,7 +491,7 @@ Zuggle
 OOB (Out of Bounds)
 :   Exploiting collision detection to move Link outside the intended playable area.
 
----
+
 
 ### Tabbed (Tabbed Content)
 
@@ -483,8 +519,6 @@ Creates tabs for organizing related content groups.
 
     This is alternative approach B.
 
----
-
 ## Extension Configuration
 ---
 
@@ -508,13 +542,13 @@ markdown_extensions:
       alternate_style: true
 ```
 
----
+
 
 ## Quick Reference
 ---
 
 | Extension | Purpose | Key Syntax |
-|---|---|---|
+||||
 | **Admonition** | Callout blocks | !!! type "Title" |
 | **Details** | Collapsible sections | ??? note "Title" |
 | **Superfences** | Advanced code blocks |  `python title="..." `  |
@@ -527,7 +561,7 @@ markdown_extensions:
 | **Def List** | Glossaries | Term\n:   Definition |
 | **Tabbed** | Organized content groups | === "Tab Name" |
 
----
+
 
 ## See Also
 ---
