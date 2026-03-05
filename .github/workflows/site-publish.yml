@@ -1,5 +1,5 @@
 name: Site — publish (assets-only)
-
+# Updated workflow to force GitHub re-indexing
 on:
   push:
     paths:
