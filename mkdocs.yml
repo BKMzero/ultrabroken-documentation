@@ -61,7 +61,6 @@ nav:
   - About: wiki/about.md
   - Glitchcraft:
     - Grimoire: wiki/glitchcraft/_glitchcraft-grimoire.md
-    - ... 
   - Ultrabroken: 
     - Introduction: wiki/ultrabroken/index.md
     - Basics: 
@@ -192,13 +191,13 @@ hooks:
   - docs/assets/hooks/glitch_autolink.py
   - docs/assets/hooks/reader_compat.py
   - docs/assets/hooks/uid_links.py
+  - docs/assets/hooks/glitchcraft_nav.py
 
 exclude_docs: |
   wiki/_wip/
 
 plugins:
   - search
-  - awesome-pages
   - minify
   - open-in-new-tab
   - social:
