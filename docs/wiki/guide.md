@@ -519,15 +519,11 @@ Creates tabs for organizing related content groups.
 
     This is alternative approach B.
 
-### Mermaid Diagrams
-
-Creates interactive flowcharts, sequence diagrams, class diagrams, state diagrams, entity-relationship diagrams, Gantt charts, pie charts, and other visual graphs using Mermaid syntax. Use Mermaid to illustrate processes, relationships, timelines, workflows, and data structures.
-
-#### Flowchart
+### Mermaid Flowchart
 
 Shows decision flows and process steps with nodes and connections.
 
-##### Syntax
+#### Syntax
 
 ````markdown
 ```mermaid
@@ -540,7 +536,7 @@ graph TD
 ```
 ````
 
-##### Example
+#### Example
 
 ```mermaid
 graph TD
@@ -551,11 +547,11 @@ graph TD
     D --> E
 ```
 
-#### Sequence Diagram
+### Mermaid Sequence Diagram
 
 Shows interactions between actors or systems over time, useful for documenting workflows and protocols.
 
-##### Syntax
+#### Syntax
 
 ````markdown
 ```mermaid
@@ -570,7 +566,7 @@ sequenceDiagram
 ```
 ````
 
-##### Example
+#### Example
 
 ```mermaid
 sequenceDiagram
@@ -583,11 +579,11 @@ sequenceDiagram
     Inventory-->>Player: Display synced state
 ```
 
-#### Class Diagram
+### Mermaid Class Diagram
 
 Illustrates object-oriented structures, classes, and their relationships.
 
-##### Syntax
+#### Syntax
 
 ````markdown
 ```mermaid
@@ -607,7 +603,7 @@ classDiagram
 ```
 ````
 
-##### Example
+#### Example
 
 ```mermaid
 classDiagram
@@ -625,11 +621,11 @@ classDiagram
     Glitch --> Equipment : affects
 ```
 
-#### State Diagram
+### Mermaid State Diagram
 
 Represents state transitions and conditional logic for system behavior.
 
-##### Syntax
+#### Syntax
 
 ````markdown
 ```mermaid
@@ -642,7 +638,7 @@ stateDiagram-v2
 ```
 ````
 
-##### Example
+#### Example
 
 ```mermaid
 stateDiagram-v2
@@ -653,11 +649,11 @@ stateDiagram-v2
     Equipment_Cloned --> [*]
 ```
 
-#### Entity-Relationship Diagram
+### Mermaid Entity-Relationship Diagram
 
 Models database schemas and entity relationships.
 
-##### Syntax
+#### Syntax
 
 ````markdown
 ```mermaid
@@ -676,7 +672,7 @@ erDiagram
 ```
 ````
 
-##### Example
+#### Example
 
 ```mermaid
 erDiagram
@@ -693,11 +689,11 @@ erDiagram
     }
 ```
 
-#### Gantt Chart
+### Mermaid Gantt Chart
 
 Timeline visualization for project schedules and dependencies.
 
-##### Syntax
+#### Syntax
 
 ````markdown
 ```mermaid
@@ -712,7 +708,7 @@ gantt
 ```
 ````
 
-##### Example
+#### Example
 
 ```mermaid
 gantt
@@ -725,11 +721,11 @@ gantt
     Publication        :crit, a4, after a3, 10d
 ```
 
-#### Pie Chart
+### Mermaid Pie Chart
 
 Displays proportional data distribution.
 
-##### Syntax
+#### Syntax
 
 ````markdown
 ```mermaid
@@ -741,7 +737,7 @@ pie title Glitch Discovery by Category
 ```
 ````
 
-##### Example
+#### Example
 
 ```mermaid
 pie title Glitch Discovery by Category
