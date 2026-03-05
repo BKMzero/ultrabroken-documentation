@@ -1,20 +1,165 @@
+﻿---
+uid: editor-guide
+label: Editor Guide
+title: Editor Guide & Markdown Reference
+aliases: ["markdown-extensions"]
 ---
-uid: markdown-extensions
-label: Markdown Extensions
-title: Markdown Extensions Reference
+
+# Editor Guide & Markdown Reference
+
+This page provides a comprehensive guide for editors contributing to the Ultrabroken Archives written in Markdown and published with MkDocs + Material. It covers contribution workflows, conventions, custom site features, and all active Markdown extensions.
+
+## How GitHub collaborators should contribute
+- Use the GitHub web editor or your normal GitHub workflow to edit Markdown files in the "docs/" folder.
+- Make small, focused commits and include a clear title/description for the change.
+- When ready, commit changes.
+- Keep changes scoped to documentation content: avoid editing "mkdocs.yml" or continuous integration (CI) workflows unless requested by maintainers.
+
+### Quick tips for the GitHub editor
+1. Navigate to the file you want to change (for example "docs/effects/wacko-boingo.md").
+2. Click the pencil ✏️ icon to edit the file in your browser or use the menu in the GitHub app.
+3. Make your edits, add a concise commit message, and commit directly to "main".
+4. Open a pull request if you used a different branch than "main".
+
+## Recommended editing conventions
+- Write in present tense and keep instructions concise.
+- Use clear section headings and include example commands or code where useful.
+- Prefer relative links for cross-references inside the docs (for example "../effects/index.md").
+- For images, put files in "docs/assets/images/" and reference them with relative paths.
+
+### Additional editor conveniences
+
+#### Search links
+Write Markdown links that start with "search:" to create an editor-friendly trigger for the site's search overlay.
+
+`markdown
+[Slugging](search:Slugging)
+`
+
+These links are intercepted client-side and open the Material theme search with the provided query instead of navigating away. They are safe to edit in GitHub and make finding related content easier.
+
+#### Map embeds
+Embed interactive map previews from the [TotK Object Map](https://objmap-totk.zeldamods.org/) using shorthand coordinate syntax:
+
+`markdown
+[Fire Temple VD location](8, x:1321.68, z:-2823.71, Depths)
+`
+
+Format: [Label](zoom, x:x_coord, z:z_coord[, layer])
+
+- **zoom**: Required — initial zoom level (e.g., 8, 10)
+- **x:x_coord**: Required — X coordinate (supports decimals)
+- **z:z_coord**: Required — Z coordinate (supports decimals)
+- **layer**: Optional — map layer (Surface, Sky, Depths; defaults to Surface)
+
+The embed automatically generates two versions: desktop at the specified zoom, and mobile at zoom -1 for better mobile viewing. Desktop shows at full size (500px), while mobile portrait shows at 300px height and mobile landscape at 55vh.
+
+#### Level-2 section separators
+
+To keep ## sections visually consistent, place a horizontal rule immediately after the level-2 heading by adding a line with three dashes on the next line.
+
+`markdown
+## Instructions
 ---
+`
 
-# Markdown Extensions Reference
+#### Social links and leaderboard
+Contributor credit names are automatically aggregated into the leaderboard and converted into clickable social media links on the site using [docs/assets/data/credits.json](docs/assets/data/credits.json). The build system automatically adds newly credited names with an empty URL ("") as a pending placeholder. These names render as plain text in the docs and on the leaderboard until a social URL is manually filled in. To enable linking, open credits.json and replace the empty string with the contributor's profile URL. Do not manually add or remove entries.
 
-This page documents all active Markdown extensions configured for the Ultrabroken Archives site. These extensions enhance the Markdown syntax to support rich formatting, interactive elements, and improved readability.
+Each entry maps a name to a URL:
 
-## Active Extensions
+`json
+{
+    "Mozz": "https://www.youtube.com/@M0zzed",
+}
+`
+
+**Credit names must match exactly** the names in credits.json to work correctly.
+
+Mismatched names (different capitalization, spacing, or spelling) will:
+
+- Create separate leaderboard entries instead of aggregating contributions
+- Prevent social media links from appearing
+- Give inaccurate credit attribution
+
+**Always check the exact spelling and capitalization** in credits.json before adding a credit.
+
+#### Tagging
+To see all available tags, check [docs/assets/data/tags.json](docs/assets/data/tags.json). Glitch and content tags are automatically aggregated into 	ags.json during the build process. When you add a new tag to a glitch's frontmatter (in the 	ags: field), the build system automatically discovers it and adds it to the tags file if it's not already present sorting it alphabetically. Do not edit 	ags.json manually.
+
+#### Unique identificators
+UIDs for files are generated automatically. Don't manually add UID fields to the frontmatter.
+
+#### Naming conventions
+Avoid abbreviations in titles or filenames for easy parsing.
+
+#### Granulation
+Keep the steps of your instructions as granular as possible. Try to extract pausing / unpausing into dedicated steps with bold styling for clarity.
+
+#### Work in progress
+Put your WIPs into the dedicated [docs/wiki/wip/](docs/wiki/wip/) folder.
+
+#### Build times
+After you have committed changes to the wiki, it takes around two minutes until those are reflected on the page.
+
+## Markdown Quick Reference
+
+### Headings
+
+`markdown
+# Heading 1
+## Heading 2
+### Heading 3
+`
+
+### Emphasis
+
+`markdown
+**bold**
+_italic_
+inline code
+`
+
+### Links and images
+
+`markdown
+[Link text](path/to/file.md)
+![Alt text](assets/images/example.png)
+`
+
+### Lists
+*Leave a blank line between regular text and lists!*
+`markdown
+- Unordered item
+- Another item
+
+1. First item
+2. Second item
+`
+
+### Blockquotes
+
+`markdown
+> This is a quote
+`
+
+### Tables
+
+`markdown
+| Column A | Column B |
+|---|---|
+| Value 1  | Value 2  |
+`
+
+## Active Markdown Extensions
+
+This site uses customized extensions to enhance standard Markdown formatting.
 
 ### 1. **Admonition**
 Displays highlighted blocks for notes, tips, warnings, and other callouts.
 
 #### Syntax
-```markdown
+`markdown
 !!! note "Optional Title"
     This is a note. The title is optional.
 
@@ -26,7 +171,7 @@ Displays highlighted blocks for notes, tips, warnings, and other callouts.
 
 !!! danger
     Critical danger notice.
-```
+`
 
 #### Examples
 !!! note "Example Note"
@@ -41,7 +186,7 @@ Displays highlighted blocks for notes, tips, warnings, and other callouts.
 Creates expandable/collapsible sections of content.
 
 #### Syntax
-```markdown
+`markdown
 ??? note "Click to expand"
     Hidden content appears when you click the title.
 
@@ -49,15 +194,15 @@ Creates expandable/collapsible sections of content.
     This section is hidden by default.
 
 ???+ tip "Expanded by default"
-    The `+` makes it expand automatically on page load.
-```
+    The + makes it expand automatically on page load.
+`
 
 #### Examples
 ??? note "Hidden Content Example"
     This content is collapsed by default. Click the title to expand it.
 
 ???+ tip "Expanded by Default"
-    Use the `+` prefix to show collapsed blocks expanded initially.
+    Use the + prefix to show collapsed blocks expanded initially.
 
 ---
 
@@ -65,22 +210,22 @@ Creates expandable/collapsible sections of content.
 Enables advanced code block features including syntax highlighting, line numbers, and custom attributes.
 
 #### Syntax
-````markdown
-```python
+``markdown
+`python
 def hello_world():
     print("Hello, World!")
-```
+`
 
-```javascript title="filename.js" linenums="1"
+`javascript title="filename.js" linenums="1"
 console.log("Line numbers and titles work!");
-```
-````
+`
+``
 
 #### Features
 - **Syntax highlighting** for 100+ languages
-- **Line numbers** with `linenums="1"`
-- **Titles** with `title="your_title"`
-- **Callout lines** with `hl_lines="1 2 3"`
+- **Line numbers** with linenums="1"
+- **Titles** with 	itle="your_title"
+- **Callout lines** with hl_lines="1 2 3"
 
 ---
 
@@ -98,11 +243,11 @@ Python, JavaScript, TypeScript, Java, C++, CSS, HTML, Bash, JSON, YAML, Markdown
 Highlights inline code snippets with syntax coloring (without backticks).
 
 #### Syntax
-```markdown
+`markdown
 :::python print("inline code with highlighting")
 
 :::javascript const x = 42;
-```
+`
 
 ---
 
@@ -110,11 +255,11 @@ Highlights inline code snippets with syntax coloring (without backticks).
 Renders interactive checkboxes for task lists.
 
 #### Syntax
-```markdown
+`markdown
 - [x] Completed task
 - [ ] Incomplete task
 - [x] Another completed task
-```
+`
 
 #### Example
 - [x] Study Ultrabroken mechanics
@@ -129,14 +274,14 @@ Renders interactive checkboxes for task lists.
 Automatically generates a table of contents from headings. Includes **permalink support** for linking directly to sections.
 
 #### Current Config
-- `permalink: false` — Permalinks are disabled in the extension config
+- permalink: false — Permalinks are disabled in the extension config
 - Material Theme provides native styling and sidebar integration
-- Use heading anchors like `[Link](#section-title)` to reference sections
+- Use heading anchors like [Link](#section-title) to reference sections
 
 #### Features
 - Automatically detects heading hierarchy (h1, h2, h3, etc.)
 - Integrated into Material theme sidebar
-- Supports custom IDs with `attr_list` extension
+- Supports custom IDs with ttr_list extension
 
 ---
 
@@ -144,18 +289,18 @@ Automatically generates a table of contents from headings. Includes **permalink 
 Adds support for custom attributes (IDs, classes) on elements.
 
 #### Syntax
-```markdown
+`markdown
 # Heading with Custom ID {#custom-id}
 
 Paragraph with a class.
 {: .custom-class }
 
 [Link text](#custom-id){ .button }
-```
+`
 
 #### Use Cases
-- Custom IDs for deep linking: `{#section-name}`
-- CSS class application: `{: .highlight }`
+- Custom IDs for deep linking: {#section-name}
+- CSS class application: {: .highlight }
 - Custom styling on images, lists, and blocks
 
 ---
@@ -164,7 +309,7 @@ Paragraph with a class.
 Allows Markdown to be written inside HTML blocks.
 
 #### Syntax
-```html
+`html
 <div markdown="1">
 
 # Markdown in HTML
@@ -174,7 +319,7 @@ This paragraph uses **Markdown formatting** inside an HTML div.
 - List item 2
 
 </div>
-```
+`
 
 #### Use Cases
 - Complex layouts requiring HTML structure with Markdown flexibility
@@ -187,17 +332,17 @@ This paragraph uses **Markdown formatting** inside an HTML div.
 Creates structured definition/term pairs useful for glossaries and terminology.
 
 #### Syntax
-```markdown
+`markdown
 Term 1
 :   Definition of term 1 with full support for **bold**, *italic*, and [links](/).
 
 Term 2
 :   Multi-paragraph definitions.
-:   Supported by adding multiple `: ` entries.
+:   Supported by adding multiple :  entries.
 
 Zuggle
 :   A complex glitch involving equipment state manipulation.
-```
+`
 
 #### Example
 Zuggle
@@ -212,28 +357,28 @@ OOB (Out of Bounds)
 Creates tabs for organizing related content groups.
 
 #### Syntax
-```markdown
+`markdown
 === "Tab 1: Python"
 
-    ```python
+    `python
     print("Python code here")
-    ```
+    `
 
 === "Tab 2: JavaScript"
 
-    ```javascript
+    `javascript
     console.log("JavaScript");
-    ```
+    `
 
 === "Tab 3: Notes"
 
     Regular content here.
-```
+`
 
 #### Features
 - Multiple tabs within a single block
 - Support for arbitrary content (code, text, lists)
-- `alternate_style: true` enabled for modern Material theme styling
+- lternate_style: true enabled for modern Material theme styling
 - Improves readability when comparing related content
 
 #### Example
@@ -249,9 +394,9 @@ Creates tabs for organizing related content groups.
 
 ## Extension Configuration
 
-All extensions are defined in `mkdocs.yml` under the `markdown_extensions` section:
+All extensions are defined in mkdocs.yml under the markdown_extensions section:
 
-```yaml
+`yaml
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -267,7 +412,7 @@ markdown_extensions:
   - def_list
   - pymdownx.tabbed:
       alternate_style: true
-```
+`
 
 ---
 
@@ -275,17 +420,17 @@ markdown_extensions:
 
 | Extension | Purpose | Key Syntax |
 |---|---|---|
-| **Admonition** | Callout blocks | `!!! type "Title"` |
-| **Details** | Collapsible sections | `??? note "Title"` |
-| **Superfences** | Advanced code blocks | ` ```python title="..." ``` ` |
+| **Admonition** | Callout blocks | !!! type "Title" |
+| **Details** | Collapsible sections | ??? note "Title" |
+| **Superfences** | Advanced code blocks |  `python title="..." `  |
 | **Highlight** | Syntax coloring | (Automatic with Superfences) |
-| **InlineHilite** | Inline code highlighting | `:::python code` |
-| **Tasklist** | Interactive checkboxes | `- [x] Task` |
+| **InlineHilite** | Inline code highlighting | :::python code |
+| **Tasklist** | Interactive checkboxes | - [x] Task |
 | **TOC** | Auto table of contents | (Automatic from headings) |
-| **Attr List** | Custom attributes | `{#id .class}` |
-| **Md in HTML** | Markdown in HTML blocks | `<div markdown="1">` |
-| **Def List** | Glossaries | `Term\n:   Definition` |
-| **Tabbed** | Organized content groups | `=== "Tab Name"` |
+| **Attr List** | Custom attributes | {#id .class} |
+| **Md in HTML** | Markdown in HTML blocks | <div markdown="1"> |
+| **Def List** | Glossaries | Term\n:   Definition |
+| **Tabbed** | Organized content groups | === "Tab Name" |
 
 ---
 
@@ -294,12 +439,27 @@ markdown_extensions:
 1. **Use Admonitions** for important callouts (notes, warnings, tips)
 2. **Prefer collapsible Details** only when content is optional or supplementary
 3. **Leverage code block titles** to label examples
-4. **Apply custom IDs** with `attr_list` for deep-linking to specific sections
+4. **Apply custom IDs** with ttr_list for deep-linking to specific sections
 5. **Use Def Lists** for glossaries and terminology sections
 6. **Tab related content** to keep pages more scannable
 7. **Nest extensions** appropriately (e.g., code blocks inside admonitions)
 
 ---
+
+## Navigation and where to edit
+
+- Top-level docs live in "docs/wiki/".
+- Edit pages directly; to reorganize navigation, ask a maintainer or update "mkdocs.yml".
+
+## Community and contribution
+
+This is a community project — everyone is welcome to contribute even without a GitHub account. Join the discussion and show us what you got:
+
+- Download [docs/wiki/_wip/blank.md](docs/wiki/_wip/blank.md) if you need a starting point, write down your intel and post it in our **[dedicated Encyclopedia thread](https://discord.com/channels/1086729144307564648/1471224902890684557)** in the **[Zelda: Tears of the Kingdom Speedrunning Discord server](https://discord.gg/xM8NnTetb2)**
+
+---
+
+Thanks for contributing — keep changes focused, documented, and easy to review.
 
 ## See Also
 
