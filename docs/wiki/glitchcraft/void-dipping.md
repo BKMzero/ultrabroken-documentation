@@ -38,10 +38,12 @@ Warp there, turn around, and take the first right turn to find a lava river with
 #### Lomei Ledge
 East of Oshozan-u Shrine, on the way to the North Lomei Labyrinth, there's a ledge (height ~160) with a vertical Voidout wall starting at X=-1117. Retrieve targets by picking them up before they slide down the cliff.
 
-[Fire Temple VD location](8, x:-1130, z:-3630, Surface)
+[Fire Temple VD location](7, x:-1130, z:-3630, Surface)
 
 #### Nachoyah Shrine _The Ability to Rewind_
 In the alcove the rafts disappear into, there's a small Voidout at the back. Retrieve targets by swimming into the alcove and mashing A.
+
+![Nachoyah Shrine VD](../../assets/images/screens/nachoyah-vd.avif)
 
 ### Instructions
 There are many viable methods. Three of the most popular are given in detail below, along with a summary of other more marginal methods.

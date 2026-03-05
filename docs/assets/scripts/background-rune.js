@@ -1,39 +1,39 @@
 /**
  * Background rune
- * ───────────────
+ * â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
  * Displays the Ultrabroken rune as a centred, pulsing SVG watermark behind
- * all page content.  Pure HTML/CSS — no <canvas>, no animation loop, no DPR
+ * all page content.  Pure HTML/CSS â€” no <canvas>, no animation loop, no DPR
  * tracking, no resize handler.
  *
  * HOW IT AVOIDS VERTICAL JUMPING
- * ───────────────────────────────
- * • The image is positioned at a fixed pixel distance from the physical screen
+ * â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+ * â€¢ The image is positioned at a fixed pixel distance from the physical screen
  *   top (screen.height / 2 minus half the image height).
- * • Physical screen dimensions (screen.width/height) are immutable — they never
+ * â€¢ Physical screen dimensions (screen.width/height) are immutable â€” they never
  *   change when address bars appear/disappear or viewports shift.
- * • Thus the rune stays vertically locked regardless of viewport changes.
- * • On orientation change (portrait ↔ landscape), screen.w/h swap, so we
+ * â€¢ Thus the rune stays vertically locked regardless of viewport changes.
+ * â€¢ On orientation change (portrait â†” landscape), screen.w/h swap, so we
  *   re-measure and reposition via orientationchange listener.
- * • The opacity pulse is a CSS @keyframes animation — the compositor runs
+ * â€¢ The opacity pulse is a CSS @keyframes animation â€” the compositor runs
  *   it off the main thread.
  *
  * Three background modes (driven by motion-toggle.js via data-ub-bg):
- *   'animate' → rune pulse animates via CSS @keyframes
- *   'frozen'  → rune visible at static mid-opacity (CSS pauses animation)
- *   'hidden'  → rune container hidden entirely (CSS display:none)
+ *   'animate' â†’ rune pulse animates via CSS @keyframes
+ *   'frozen'  â†’ rune visible at static mid-opacity (CSS pauses animation)
+ *   'hidden'  â†’ rune container hidden entirely (CSS display:none)
  *
  * 404 detection: flips the rune upside-down on 404 pages via a body class.
  */
 (function () {
   'use strict';
 
-  /* ── Site-root detection (for asset URL) ───────────────────────── */
+  /* â”€â”€ Site-root detection (for asset URL) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
   var scriptEl = document.currentScript;
   var siteRoot = (scriptEl && scriptEl.src)
     ? scriptEl.src.replace(/assets\/scripts\/[^/]+$/, '')
     : location.href.replace(/\/[^/]*$/, '/');
 
-  /* ── Create DOM ────────────────────────────────────────────────── */
+  /* â”€â”€ Create DOM â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
   var wrapper = document.createElement('div');
   wrapper.className = 'ub-rune-bg';
 
@@ -41,7 +41,7 @@
   img.className = 'ub-rune-img';
   img.alt = '';
   img.draggable = false;
-  img.src = siteRoot + 'assets/images/ultrabroken_rune.svg';
+  img.src = siteRoot + 'assets/images/graphics/ultrabroken_rune.svg';
   img.style.visibility = 'hidden'; // Hide until positioned
 
 
@@ -56,7 +56,7 @@
     });
   }
 
-  /* ── 404 detection ─────────────────────────────────────────────── */
+  /* â”€â”€ 404 detection â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
   function detect404() {
     var title = (document.title || '').trim();
     if (/\b404\b|page not found|could not find/i.test(title)) return true;
@@ -74,7 +74,7 @@
     }
   }
 
-  /* ── 404 observer ──────────────────────────────────────────────── */
+  /* â”€â”€ 404 observer â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
   function attach404Observer() {
     // MkDocs Material provides an observable (document$) that emits on layout swap
     if (typeof document$ !== 'undefined') {
@@ -101,7 +101,7 @@
     }
   }
 
-  /* ── Fixed distance lock (all devices) ────────────────────────────────── */
+  /* â”€â”€ Fixed distance lock (all devices) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
   // Position the rune at a fixed pixel distance from the top of the physical
   // screen (screen.height / 2). Since physical screen dimensions never change
   // when address bars appear/disappear or viewports shift, the rune stays
@@ -136,7 +136,7 @@
     });
   }
 
-  /* ── Bootstrap ─────────────────────────────────────────────────── */
+  /* â”€â”€ Bootstrap â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
   function init() {
     lockImageVerticalPosition();
     attachOrientationListener();

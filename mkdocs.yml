@@ -9,8 +9,8 @@ use_directory_urls: true
 theme:
   name: material
   custom_dir: overrides
-  logo: assets/images/ultrabroken_rune.svg
-  favicon: assets/images/ultrabroken_rune.ico
+  logo: assets/images/graphics/ultrabroken_rune.svg
+  favicon: assets/images/icons/ultrabroken_rune.ico
   features:
     - navigation.instant
     - navigation.tracking
@@ -42,7 +42,7 @@ extra_javascript:
   - assets/scripts/motion-toggle.js
   - assets/scripts/tasklist-enhance.js  # Makes entire task-list item clickable
   - assets/scripts/back-to-top.js  # Custom back-to-top with icon, no text
-  - assets/scripts/particles-constellations.js
+  - assets/scripts/background-rune.js  # Display animated background rune watermark
   - assets/scripts/search-link.js
   - assets/scripts/ai-worker-client.js
   - assets/scripts/grimoire-filter.js
@@ -202,7 +202,7 @@ plugins:
         font_family: New Rocker
         background_color: "#00796b"
         #background_color: transparent
-        #background_image: docs/assets/images/ultrabroken_social_card_background.jpg
+        #background_image: docs/assets/images/graphics/ultrabroken_social_card_background.jpg
         color: "#00f0c2"
 
 markdown_extensions:
