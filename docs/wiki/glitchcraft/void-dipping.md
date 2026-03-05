@@ -33,10 +33,12 @@ Most Voidouts are in big pits with little ability to get close. Three of the mos
 #### Fire Temple
 Warp there, turn around, and take the first right turn to find a lava river with a Hydrant making Lava Slabs. At the near-side downstream corner of the channel (not in the alcove), there is a Voidout under the lava. Retrieve targets by climbing down the corner wall, mounting Mineru to stand in the lava, or fishing it out with an object.
 
-[Fire Temple VD location](8, x:1321.68, z:-2823.71, Depths)
+[Fire Temple VD location](8, x:1321, z:-2823, Depths)
 
 #### Lomei Ledge
 East of Oshozan-u Shrine, on the way to the North Lomei Labyrinth, there's a ledge (height ~160) with a vertical Voidout wall starting at X=-1117. Retrieve targets by picking them up before they slide down the cliff.
+
+[Fire Temple VD location](8, x:-1130, z:-3630, Surface)
 
 #### Nachoyah Shrine _The Ability to Rewind_
 In the alcove the rafts disappear into, there's a small Voidout at the back. Retrieve targets by swimming into the alcove and mashing A.
