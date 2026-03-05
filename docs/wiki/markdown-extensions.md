@@ -16,7 +16,7 @@ This page provides a comprehensive guide for editors contributing to the Ultrabr
 - Keep changes scoped to documentation content: avoid editing [mkdocs.yml](https://github.com/nan-gogh/ultrabroken-documentation/blob/main/mkdocs.yml) or [continuous integration (CI) workflows](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/.github/workflows) unless requested by maintainers.
 
 ### Quick tips for the GitHub editor
-1. Navigate to the file you want to change (for example "docs/effects/wacko-boingo.md").
+1. Navigate to the file you want to change (for example [docs/effects/wacko-boingo.md](https://github.com/nan-gogh/ultrabroken-documentation/blob/main/docs/wiki/ultrabroken/effects/wacko-boingo.md)).
 2. Click the pencil ✏️ icon to edit the file in your browser or use the menu in the GitHub app.
 3. Make your edits, add a concise commit message, and commit directly to "main".
 4. Open a pull request if you used a different branch than "main".
