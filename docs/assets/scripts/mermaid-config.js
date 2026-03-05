@@ -113,7 +113,7 @@ var PIE = {
     'text.pieSectionText,.pieLegendText{fill:' + THEME.accent + '!important;' +
       'font-size:' + PIE.labelSize + '!important;' +
       'font-family:' + THEME.textFont + '!important}' +
-    '.slice{stroke:' + THEME.dark + '!important;stroke-width:2px!important}' +
+    '.slice{stroke:none!important}' +
     'g.legend>text{fill:' + THEME.accent + '!important;' +
       'font-size:' + PIE.legendSize + '!important;' +
       'font-family:' + THEME.textFont + '!important}';
@@ -232,7 +232,7 @@ Object.defineProperty(window, 'mermaid', {
           'text.pieSectionText,.pieLegendText{fill:' + THEME.accent + '!important;' +
             'font-size:' + PIE.labelSize + '!important;' +
             'font-family:' + THEME.textFont + '!important}' +
-          '.slice{stroke:' + THEME.dark + '!important;stroke-width:2px!important}' +
+          '.slice{stroke:none!important}' +
           'g.legend>text{fill:' + THEME.accent + '!important;' +
             'font-size:' + PIE.legendSize + '!important;' +
             'font-family:' + THEME.textFont + '!important}';
