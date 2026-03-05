@@ -691,14 +691,14 @@ erDiagram
 
 ### Mermaid Gantt Chart
 
-Timeline visualization for project schedules and dependencies.
+Timeline visualization for project schedules and dependencies. The chart title is automatically hidden.
 
 #### Syntax
 
 ````markdown
 ```mermaid
 gantt
-    title Ignore this field
+    title Chart Title (hidden)
     dateFormat YYYY-MM-DD
     section Phase
     Research           :a1, 2024-01-01, 30d
@@ -712,7 +712,7 @@ gantt
 
 ```mermaid
 gantt
-    title Ignore this field
+    title Chart Title (hidden)
     dateFormat YYYY-MM-DD
     section Phase
     Research           :a1, 2024-01-01, 30d
@@ -723,13 +723,13 @@ gantt
 
 ### Mermaid Pie Chart
 
-Displays proportional data distribution.
+Displays proportional data distribution. The chart title is automatically hidden.
 
 #### Syntax
 
 ````markdown
 ```mermaid
-pie title Glitch Discovery by Category
+pie title Chart Title (hidden)
     "Equipment Duplication" : 35
     "Movement Abuse" : 25
     "Collision Exploitation" : 20
@@ -740,45 +740,11 @@ pie title Glitch Discovery by Category
 #### Example
 
 ```mermaid
-pie title Glitch Discovery by Category
+pie title Chart Title (hidden)
     "Equipment Duplication" : 35
     "Movement Abuse" : 25
     "Collision Exploitation" : 20
     "Physics Exploitation" : 20
-```
-
-### Mermaid Inline Theme Overrides
-
-The global theme is controlled via CSS custom properties (`--md-mermaid-*`) in `glow.css` and applies automatically to all diagrams. For one-off overrides — such as a specific diagram that needs different colors — use an `%%{init:}%%` directive at the top of the diagram block.
-
-**Common `themeVariables` keys:**
-
-| Key | Affects |
-|-|-|
-| `primaryColor` | Node / shape fill |
-| `primaryBorderColor` | Node borders |
-| `primaryTextColor` | Text inside nodes |
-| `lineColor` | Arrows and connectors |
-| `textColor` | General diagram text |
-| `titleColor` | Diagram title |
-| `edgeLabelBackground` | Label backgrounds on edges |
-
-#### Syntax
-
-````markdown
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#hex', 'primaryBorderColor': '#hex', 'textColor': '#hex'}}}%%
-graph TD
-    A[Node] --> B[Node]
-```
-````
-
-#### Example
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#4a148c', 'primaryBorderColor': '#ce93d8', 'primaryTextColor': '#fff', 'lineColor': '#ce93d8', 'textColor': '#fff', 'titleColor': '#ce93d8'}}}%%
-graph LR
-    A[Override] -->|custom colors| B[Applied]
 ```
 
 ## Extension Configuration
