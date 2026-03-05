@@ -9,28 +9,61 @@ aliases: ["markdown-extensions"]
 
 This page provides a comprehensive guide for editors contributing to the Ultrabroken Archives written in Markdown and published with MkDocs + Material. It covers contribution workflows, conventions, custom site features, and all active Markdown extensions.
 
-## How GitHub collaborators should contribute
-- Use the GitHub web editor or your normal GitHub workflow to edit Markdown files in the [`docs/`](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/docs) folder.
-- Make small, focused commits and include a clear title/description for the change.
-- When ready, commit changes.
-- Keep changes scoped to documentation content: avoid editing [`mkdocs.yml`](https://github.com/nan-gogh/ultrabroken-documentation/blob/main/mkdocs.yml) or continuous integration (CI) workflows in [`github/workflows`](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/.github/workflows) unless requested by maintainers.
+## Community & Contribution Guidelines
+---
 
-### Quick tips for the GitHub editor
-1. Navigate to the file you want to change (for example [`docs/effects/wacko-boingo.md`](https://github.com/nan-gogh/ultrabroken-documentation/blob/main/docs/wiki/ultrabroken/effects/wacko-boingo.md)).
-2. Click the pencil ✏️ icon to edit the file in your browser or use the menu in the GitHub app.
-3. Make your edits, add a concise commit message, and commit directly to "main".
-4. Open a pull request if you used a different branch than "main".
+This is a community project — everyone is welcome to contribute even without a GitHub account. Join the discussion and post your discoveries in our **[dedicated Encyclopedia thread](https://discord.com/channels/1086729144307564648/1471224902890684557)** on the **[TotK Speedrunning Discord](https://discord.gg/xM8NnTetb2)**.
 
-## Recommended editing guidelines
-- Write in present tense and keep instructions concise.
-- Use clear section headings and include example commands or code where useful.
-- Keep the steps of your instructions as granular as possible. Try to extract pausing / unpausing into dedicated steps with bold styling for clarity.
+### Navigation and where to edit
+
+- Top-level docs live in the [`docs/wiki/`](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/docs/wiki) folder. Edit Markdown files directly.
+- Put your WIPs into the dedicated `docs/wiki/_wip/` folder. Download `_wip/blank.md` if you need a starting point.
+- To reorganize navigation, ask a maintainer or update [`mkdocs.yml`](https://github.com/nan-gogh/ultrabroken-documentation/blob/main/mkdocs.yml).
+- Keep changes scoped to documentation content: avoid editing continuous integration (CI) workflows in `.github/workflows` unless requested.
+
+### GitHub Workflow
+
+1. Navigate to the file you want to change (for example [`docs/wiki/ultrabroken/effects/wacko-boingo.md`](https://github.com/nan-gogh/ultrabroken-documentation/blob/main/docs/wiki/ultrabroken/effects/wacko-boingo.md)).
+2. Click the pencil ✏️ icon to edit the file in your browser, or use your normal GitHub workflow.
+3. Make your edits, add a concise commit message, and commit directly to "main" (or open a Pull Request).
+4. After committing, it takes around two minutes for the page to build. Wait until it finishes before making the next commit.
+
+### Editing & Style Best Practices
+
+- Write in the present tense and keep instructions concise.
+- Keep steps as granular as possible. Extract pausing / unpausing into dedicated steps with **bold** styling.
 - Avoid abbreviations in titles or filenames for easy parsing.
-- Prefer relative links for cross-references inside the wiki (for example `../wiki/effects/index.md`).
-- For images, put files in [`docs/assets/images/`](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/docs/assets/images) and reference them with relative paths.
-- Put your WIPs into the dedicated [`docs/wiki/wip/`](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/docs/wiki/_wip) folder.
-- UIDs for files are generated automatically. Don't manually add UID fields to the frontmatter.
-- After you have committed changes to the wiki, is takes around two minutes until those are reflected on the page. Wait until the page build finishes before making the next commit.
+- Put image files in [`docs/assets/images/`](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/docs/assets/images) and reference them with relative paths (e.g., [`assets/images/graphics/ultrabroken-rune.svg`](assets/images/graphics/ultrabroken-rune.svg)).
+
+### Markdown Extension Best Practices
+- **Use Admonitions** for important callouts (notes, warnings, tips).
+- **Prefer collapsible Details** only when content is optional or supplementary.
+- **Leverage code block titles** to label examples.
+- **Apply custom IDs** with Attr List for deep-linking to specific sections.
+- **Use Def Lists** for glossaries and terminology sections.
+- **Tab related content** to keep pages more scannable.
+- **Nest extensions** appropriately (e.g., code blocks inside admonitions).
+
+### Level-2 Separation
+
+Place `---` after `##` headings for visual consistency:
+
+```markdown
+## Instructions
+---
+```
+
+### Relative Linking
+
+Prefer **relative links** for cross-references to other markdown pages or images inside the wiki. MkDocs verifies these during the build process to prevent broken links and it ensures links still work correctly across forks. 
+
+A relative link resolves the path based on the current markdown file's location inside the folder structure. Use `../` to climb one directory higher up.
+
+- To link a file in the **same folder**: `[Link Text](other-file.md)`
+- To link a file in a **subdirectory**: `[Link Text](subfolder/other-file.md)`
+- To link a file in a **parent folder**: `[Link Text](../other-file.md)`
+- To link a file in a **different branch**: `[Link Text](../../other-folder/other-file.md)`
+
 
 ## Frontmatter Reference
 ---
@@ -162,13 +195,31 @@ Credit names in frontmatter are aggregated into the leaderboard. Names link to s
 
 **Names must match exactly** — mismatched capitalization or spelling prevents linking and splits leaderboard entries.
 
-### Level-2 section separators
+## Markdown Basics
+---
 
-Place `---` after `##` headings for visual consistency:
+Standard Markdown syntax reference:
 
 ```markdown
-## Instructions
----
+# Heading 1
+## Heading 2
+### Heading 3
+
+**bold** and _italic_
+
+`inline code`
+
+[Link text](path/to/file.md)
+![Alt text](assets/images/example.png)
+
+- Unordered item
+1. Ordered item
+
+> Blockquote
+
+| Column A | Column B |
+|----------|----------|
+| Value 1  | Value 2  |
 ```
 
 ## Markdown Extensions
@@ -478,61 +529,9 @@ markdown_extensions:
 
 ---
 
-## Best Practices
----
-
-1. **Use Admonitions** for important callouts (notes, warnings, tips)
-2. **Prefer collapsible Details** only when content is optional or supplementary
-3. **Leverage code block titles** to label examples
-4. **Apply custom IDs** with Attr List for deep-linking to specific sections
-5. **Use Def Lists** for glossaries and terminology sections
-6. **Tab related content** to keep pages more scannable
-7. **Nest extensions** appropriately (e.g., code blocks inside admonitions)
-
----
-
-## Navigation and where to edit
----
-
-Top-level docs live in `docs/wiki/`. Edit pages directly; to reorganize navigation, ask a maintainer or update `mkdocs.yml`.
-
-## Community and contribution
----
-
-This is a community project — everyone is welcome to contribute even without a GitHub account. Join the discussion:
-
-- Download [blank.md](_wip/blank.md) as a starting point and post your discoveries in our **[dedicated Encyclopedia thread](https://discord.com/channels/1086729144307564648/1471224902890684557)** on the **[TotK Speedrunning Discord](https://discord.gg/xM8NnTetb2)**
-
 ## See Also
 ---
 
 - [MkDocs Material Documentation](https://squidfunk.github.io/mkdocs-material/)
 - [Python-Markdown Extensions](https://python-markdown.github.io/extensions/)
 - [PyMdown Extensions](https://facelessuser.github.io/pymdown-extensions/)
-
-## Appendix: Markdown Basics
----
-
-Standard Markdown syntax reference:
-
-```markdown
-# Heading 1
-## Heading 2
-### Heading 3
-
-**bold** and _italic_
-
-`inline code`
-
-[Link text](path/to/file.md)
-![Alt text](assets/images/example.png)
-
-- Unordered item
-1. Ordered item
-
-> Blockquote
-
-| Column A | Column B |
-|----------|----------|
-| Value 1  | Value 2  |
-```
