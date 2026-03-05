@@ -10,10 +10,10 @@ aliases: ["markdown-extensions"]
 This page provides a comprehensive guide for editors contributing to the Ultrabroken Archives written in Markdown and published with MkDocs + Material. It covers contribution workflows, conventions, custom site features, and all active Markdown extensions.
 
 ## How GitHub collaborators should contribute
-- Use the GitHub web editor or your normal GitHub workflow to edit Markdown files in the "docs/" folder.
+- Use the GitHub web editor or your normal GitHub workflow to edit Markdown files in the [docs/](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/docs) folder.
 - Make small, focused commits and include a clear title/description for the change.
 - When ready, commit changes.
-- Keep changes scoped to documentation content: avoid editing "mkdocs.yml" or continuous integration (CI) workflows unless requested by maintainers.
+- Keep changes scoped to documentation content: avoid editing [mkdocs.yml](https://github.com/nan-gogh/ultrabroken-documentation/blob/main/mkdocs.yml) or [continuous integration (CI) workflows](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/.github/workflows) unless requested by maintainers.
 
 ### Quick tips for the GitHub editor
 1. Navigate to the file you want to change (for example "docs/effects/wacko-boingo.md").
