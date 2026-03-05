@@ -62,8 +62,6 @@ There are many viable methods. Three of the most popular are given in detail bel
     7. **Unpause** and retrieve the target
     8. Use Octo Detanglement on the parent shield to remove the connection without destroying the target
 
-    [Fire Temple VD location](8, x:1321.68, z:-2823.71, Depths)
-
 === "Overload Method"
     _Discovered by mulberry, Aergyl (?)_
 

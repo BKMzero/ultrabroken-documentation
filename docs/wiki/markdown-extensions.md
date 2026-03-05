@@ -34,21 +34,58 @@ This page provides a comprehensive guide for editors contributing to the Ultrabr
 
 ## Additional editor conventions
 
+### Titles and Labels
+
+```yaml
+---
+title: "Zuggle Overload"
+label: ["ZO"]
+---
+```
+
+### Tagging
+Glitch and content tags are automatically aggregated from `tags` fields into tags.json during the build process. 
+
+```yaml
+---
+tags: ["zuggling", "overload", "item", "equipment"]
+---
+```
+
+To see all available tags, check [docs/assets/data/tags.json](docs/assets/data/tags.json). When you add a new tag to a glitch's frontmatter (in the tags: field), the build system automatically discovers it and adds it to the tags file if it's not already present sorting it alphabetically. Do not edit tags.json manually.
+
+### Aliases
+Aliases make pages discoverable under alternative names. Add them to a page's frontmatter using the `aliases` field:
+
+```yaml
+---
+title: "Zuggle Overload"
+aliases: ["zuggo", "overloaded zuggle"]
+---
+```
+
+When a reader searches for any of these alias names (e.g., "ZO" or "overload-zuggle"), the search system will find and suggest this page. Use aliases for:
+
+- **Alternative names**: Common alternate names or spellings
+- **Old page names**: If you rename a page, keep the old name as an alias so old links still work
+
+Aliases are case-insensitive and automatically indexed during the build process.
+
 ### Search links
 Write Markdown links that start with "search:" to create an editor-friendly trigger for the site's search overlay.
 
-`markdown
+```markdown
 [Slugging](search:Slugging)
-`
+```
 
 These links are intercepted client-side and open the Material theme search with the provided query instead of navigating away. They are safe to edit in GitHub and make finding related content easier.
 
 ### Map embeds
 Embed interactive map previews from the [TotK Object Map](https://objmap-totk.zeldamods.org/) using shorthand coordinate syntax:
 
-`markdown
+```markdown
 [Fire Temple VD location](8, x:1321.68, z:-2823.71, Depths)
-`
+```
 
 Format: [Label](zoom, x:x_coord, z:z_coord[, layer])
 
@@ -65,11 +102,11 @@ Contributor credit names are automatically aggregated into the leaderboard and c
 
 Each entry maps a name to a URL:
 
-`json
+```json
 {
     "Mozz": "https://www.youtube.com/@M0zzed",
 }
-`
+```
 
 **Credit names must match exactly** the names in credits.json to work correctly.
 
@@ -80,27 +117,6 @@ Mismatched names (different capitalization, spacing, or spelling) will:
 - Give inaccurate credit attribution
 
 **Always check the exact spelling and capitalization** in credits.json before adding a credit.
-
-### Tagging
-To see all available tags, check [docs/assets/data/tags.json](docs/assets/data/tags.json). Glitch and content tags are automatically aggregated into tags.json during the build process. When you add a new tag to a glitch's frontmatter (in the tags: field), the build system automatically discovers it and adds it to the tags file if it's not already present sorting it alphabetically. Do not edit tags.json manually.
-
-### Aliases
-Aliases make pages discoverable under alternative names. Add them to a page's frontmatter using the `aliases` field:
-
-```yaml
----
-title: "Zuggle Overload"
-aliases: ["zuggle-o", "ZO", "overload-zuggle"]
----
-```
-
-When a reader searches for any of these alias names (e.g., "ZO" or "overload-zuggle"), the search system will find and suggest this page. Use aliases for:
-
-- **Abbreviations**: Common shorthand references (e.g., "VD" for "Void Dipping")
-- **Alternative names**: Common alternate names or spellings
-- **Old page names**: If you rename a page, keep the old name as an alias so old links still work
-
-Aliases are case-insensitive and automatically indexed during the build process.
 
 ### Level-2 section separators
 To keep `##` sections visually consistent, place a horizontal rule immediately after the level-2 heading by adding a line with three dashes on the next line.
@@ -167,7 +183,7 @@ This site uses customized extensions to enhance standard Markdown formatting.
 Displays highlighted blocks for notes, tips, warnings, and other callouts.
 
 #### Syntax
-`markdown
+```markdown
 !!! note "Optional Title"
     This is a note. The title is optional.
 
@@ -179,7 +195,7 @@ Displays highlighted blocks for notes, tips, warnings, and other callouts.
 
 !!! danger
     Critical danger notice.
-`
+```
 
 #### Examples
 !!! note "Example Note"
@@ -194,7 +210,7 @@ Displays highlighted blocks for notes, tips, warnings, and other callouts.
 Creates expandable/collapsible sections of content.
 
 #### Syntax
-`markdown
+```markdown
 ??? note "Click to expand"
     Hidden content appears when you click the title.
 
@@ -203,7 +219,7 @@ Creates expandable/collapsible sections of content.
 
 ???+ tip "Expanded by default"
     The + makes it expand automatically on page load.
-`
+```
 
 #### Examples
 ??? note "Hidden Content Example"
@@ -218,7 +234,7 @@ Creates expandable/collapsible sections of content.
 Enables advanced code block features including syntax highlighting, line numbers, and custom attributes.
 
 #### Syntax
-``markdown
+```markdown
 `python
 def hello_world():
     print("Hello, World!")
@@ -227,7 +243,7 @@ def hello_world():
 `javascript title="filename.js" linenums="1"
 console.log("Line numbers and titles work!");
 `
-``
+```
 
 #### Features
 - **Syntax highlighting** for 100+ languages
@@ -251,11 +267,11 @@ Python, JavaScript, TypeScript, Java, C++, CSS, HTML, Bash, JSON, YAML, Markdown
 Highlights inline code snippets with syntax coloring (without backticks).
 
 #### Syntax
-`markdown
+```markdown
 :::python print("inline code with highlighting")
 
 :::javascript const x = 42;
-`
+```
 
 ---
 
@@ -263,11 +279,11 @@ Highlights inline code snippets with syntax coloring (without backticks).
 Renders interactive checkboxes for task lists.
 
 #### Syntax
-`markdown
+```markdown
 - [x] Completed task
 - [ ] Incomplete task
 - [x] Another completed task
-`
+```
 
 #### Example
 - [x] Study Ultrabroken mechanics
@@ -289,7 +305,7 @@ Automatically generates a table of contents from headings. Includes **permalink 
 #### Features
 - Automatically detects heading hierarchy (h1, h2, h3, etc.)
 - Integrated into Material theme sidebar
-- Supports custom IDs with ttr_list extension
+- Supports custom IDs with  ttr_list extension
 
 ---
 
@@ -297,14 +313,15 @@ Automatically generates a table of contents from headings. Includes **permalink 
 Adds support for custom attributes (IDs, classes) on elements.
 
 #### Syntax
-`markdown
+```markdown
+
 # Heading with Custom ID {#custom-id}
 
 Paragraph with a class.
 {: .custom-class }
 
 [Link text](#custom-id){ .button }
-`
+```
 
 #### Use Cases
 - Custom IDs for deep linking: {#section-name}
@@ -340,7 +357,7 @@ This paragraph uses **Markdown formatting** inside an HTML div.
 Creates structured definition/term pairs useful for glossaries and terminology.
 
 #### Syntax
-`markdown
+```markdown
 Term 1
 :   Definition of term 1 with full support for **bold**, *italic*, and [links](/).
 
@@ -350,7 +367,7 @@ Term 2
 
 Zuggle
 :   A complex glitch involving equipment state manipulation.
-`
+```
 
 #### Example
 Zuggle
@@ -365,7 +382,7 @@ OOB (Out of Bounds)
 Creates tabs for organizing related content groups.
 
 #### Syntax
-`markdown
+```markdown
 === "Tab 1: Python"
 
     `python
@@ -381,7 +398,7 @@ Creates tabs for organizing related content groups.
 === "Tab 3: Notes"
 
     Regular content here.
-`
+```
 
 #### Features
 - Multiple tabs within a single block
@@ -404,7 +421,7 @@ Creates tabs for organizing related content groups.
 
 All extensions are defined in mkdocs.yml under the markdown_extensions section:
 
-`yaml
+```yaml
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -420,7 +437,7 @@ markdown_extensions:
   - def_list
   - pymdownx.tabbed:
       alternate_style: true
-`
+```
 
 ---
 
