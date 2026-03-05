@@ -1,11 +1,4 @@
-﻿
-uid: editor-guide
-label: Editor Guide
-title: Editor Guide & Markdown Reference
-aliases: ["markdown-extensions"]
-
-
-# Editor Guide & Markdown Reference
+﻿# Editor Guide & Markdown Reference
 
 This page provides a comprehensive guide for editors contributing to the Ultrabroken Archives written in Markdown and published with MkDocs + Material. It covers contribution workflows, conventions, custom site features, and all active Markdown extensions.
 
@@ -232,8 +225,6 @@ Some text
 Some text
 - Unordered item
 - Another item
-
-
 
 #### Bad Syntax B
 ```
