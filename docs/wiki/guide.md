@@ -725,6 +725,40 @@ gantt
 
 Displays proportional data distribution.
 
+### Mermaid Inline Theme Overrides
+
+The global theme applies automatically to all diagrams. For one-off overrides — such as a specific diagram that needs different colors — use an `%%{init:}%%` directive at the top of the diagram block.
+
+#### Syntax
+
+````markdown
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#hex', 'primaryBorderColor': '#hex', 'textColor': '#hex'}}}%%
+graph TD
+    A[Node] --> B[Node]
+```
+````
+
+**Common `themeVariables` keys:**
+
+| Key | Affects |
+|-|-|
+| `primaryColor` | Node / shape fill |
+| `primaryBorderColor` | Node borders |
+| `primaryTextColor` | Text inside nodes |
+| `lineColor` | Arrows and connectors |
+| `textColor` | General diagram text |
+| `titleColor` | Diagram title |
+| `edgeLabelBackground` | Label backgrounds on edges |
+
+#### Example
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#4a148c', 'primaryBorderColor': '#ce93d8', 'primaryTextColor': '#fff', 'lineColor': '#ce93d8', 'textColor': '#fff', 'titleColor': '#ce93d8'}}}%%
+graph LR
+    A[Override] -->|custom colors| B[Applied]
+```
+
 #### Syntax
 
 ````markdown
@@ -798,3 +832,5 @@ markdown_extensions:
 - [MkDocs Material Documentation](https://squidfunk.github.io/mkdocs-material/)
 - [Python-Markdown Extensions](https://python-markdown.github.io/extensions/)
 - [PyMdown Extensions](https://facelessuser.github.io/pymdown-extensions/)
+- [Mermaid Theming Documentation](https://mermaid.js.org/config/theming.html)
+
