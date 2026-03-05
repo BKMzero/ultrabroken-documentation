@@ -76,15 +76,14 @@ The display `title` is required. All other fields are optional but recommended.
 
 #### Syntax 
 
-
-- **label**: A short abbreviation displayed alongside the title
-- **versions**: List of game versions where the technique works
-- **credits**: Names must match [credits.json](../assets/data/credits.json) exactly for leaderboard aggregation
-- **date**: Discovery or documentation date in `YYYY-MM-DD` format
-- **description**: A brief summary used for search results and SEO
-- **tags**: Categorization tags. Auto-indexed into [tags.json](../assets/data/tags.json)
-- **aliases**: Alternative names for search discovery. Case-insensitive.
-- **uid**: Auto-generated unique identifier. **Do not add manually.**
+- `label`: A short abbreviation displayed alongside the title
+- `versions`: List of game versions where the technique works
+- `credits`: Names must match [credits.json](../assets/data/credits.json) exactly for leaderboard aggregation
+- `date*`: Discovery or documentation date in `YYYY-MM-DD` format
+- `description`: A brief summary used for search results and SEO
+- `tags`: Categorization tags. Auto-indexed into [tags.json](../assets/data/tags.json)
+- `aliases`: Alternative names for search discovery. Case-insensitive.
+- `uid`: Auto-generated unique identifier. **Do not add manually.**
 
 #### Example
 
