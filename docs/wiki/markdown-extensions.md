@@ -10,13 +10,13 @@ aliases: ["markdown-extensions"]
 This page provides a comprehensive guide for editors contributing to the Ultrabroken Archives written in Markdown and published with MkDocs + Material. It covers contribution workflows, conventions, custom site features, and all active Markdown extensions.
 
 ## How GitHub collaborators should contribute
-- Use the GitHub web editor or your normal GitHub workflow to edit Markdown files in the [docs/](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/docs) folder.
+- Use the GitHub web editor or your normal GitHub workflow to edit Markdown files in the [`docs/`](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/docs) folder.
 - Make small, focused commits and include a clear title/description for the change.
 - When ready, commit changes.
-- Keep changes scoped to documentation content: avoid editing [mkdocs.yml](https://github.com/nan-gogh/ultrabroken-documentation/blob/main/mkdocs.yml) or [continuous integration (CI) workflows](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/.github/workflows) unless requested by maintainers.
+- Keep changes scoped to documentation content: avoid editing [`mkdocs.yml`](https://github.com/nan-gogh/ultrabroken-documentation/blob/main/mkdocs.yml) or continuous integration (CI) workflows in [`github/workflows`](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/.github/workflows) unless requested by maintainers.
 
 ### Quick tips for the GitHub editor
-1. Navigate to the file you want to change (for example [docs/effects/wacko-boingo.md](https://github.com/nan-gogh/ultrabroken-documentation/blob/main/docs/wiki/ultrabroken/effects/wacko-boingo.md)).
+1. Navigate to the file you want to change (for example [`docs/effects/wacko-boingo.md`](https://github.com/nan-gogh/ultrabroken-documentation/blob/main/docs/wiki/ultrabroken/effects/wacko-boingo.md)).
 2. Click the pencil ✏️ icon to edit the file in your browser or use the menu in the GitHub app.
 3. Make your edits, add a concise commit message, and commit directly to "main".
 4. Open a pull request if you used a different branch than "main".
@@ -27,8 +27,8 @@ This page provides a comprehensive guide for editors contributing to the Ultrabr
 - Keep the steps of your instructions as granular as possible. Try to extract pausing / unpausing into dedicated steps with bold styling for clarity.
 - Avoid abbreviations in titles or filenames for easy parsing.
 - Prefer relative links for cross-references inside the wiki (for example `../wiki/effects/index.md`).
-- For images, put files in `docs/assets/images/` and reference them with relative paths.
-- Put your WIPs into the dedicated [`docs/wiki/wip/`](./wip/) folder.
+- For images, put files in [`docs/assets/images/`]() and reference them with relative paths.
+- Put your WIPs into the dedicated [`docs/wiki/wip/`](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/docs/wiki/_wip) folder.
 - UIDs for files are generated automatically. Don't manually add UID fields to the frontmatter.
 - After you have committed changes to the wiki, is takes around two minutes until those are reflected on the page. Wait until the page build finishes before making the next commit.
 
