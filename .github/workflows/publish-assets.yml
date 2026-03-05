@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - 'docs/assets/**'
-      - '.github/workflows/site-publish.yml'
+      - '.github/workflows/publish-assets.yml'
   workflow_dispatch: {}
 
 concurrency:
