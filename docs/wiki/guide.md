@@ -515,41 +515,234 @@ Creates tabs for organizing related content groups.
 
 ### Mermaid Diagrams
 
-Creates interactive flowcharts, sequence diagrams, and other visual graphs using Mermaid syntax. Use Mermaid to illustrate processes, relationships, timelines, and complex workflows.
+Creates interactive flowcharts, sequence diagrams, class diagrams, state diagrams, entity-relationship diagrams, Gantt charts, pie charts, and other visual graphs using Mermaid syntax. Use Mermaid to illustrate processes, relationships, timelines, workflows, and data structures.
 
-#### Syntax
+#### Flowchart
+
+Shows decision flows and process steps with nodes and connections.
+
+##### Syntax
 
 ````markdown
 ```mermaid
 graph TD
-    A[Start] --> B{Decision}
-    B -->|Yes| C[Continue]
-    B -->|No| D[Stop]
+    A[Start] --> B{Decision?}
+    B -->|Yes| C[Action A]
+    B -->|No| D[Action B]
     C --> E[End]
+    D --> E
 ```
 ````
 
-**Diagram Types:** `graph` (flowchart), `sequenceDiagram`, `classDiagram`, `stateDiagram-v2`, `erDiagram`, `gantt`, `pie` and more.
-
-**Common Operators:** 
-- `A --> B` creates a directed arrow from A to B
-- `A -->|Label| B` adds a label to the connection
-- `A[Text]` creates a box node
-- `A{Text}` creates a diamond decision node
-- `A(Text)` creates a rounded box
-
-#### Example
+##### Example
 
 ```mermaid
 graph TD
-    A["Ultrabroken<br/>Discovered"] --> B{Glitch Type?}
-    B -->|Equipment| C["Zuggling"]
-    B -->|Movement| D["OOB"]
-    B -->|Physics| E["Entanglement"]
-    C --> F["Document<br/>Discovery"]
-    D --> F
-    E --> F
-    F --> G["Add to<br/>Encyclopedia"]
+    A[Start] --> B{Decision?}
+    B -->|Yes| C[Action A]
+    B -->|No| D[Action B]
+    C --> E[End]
+    D --> E
+```
+
+#### Sequence Diagram
+
+Shows interactions between actors or systems over time, useful for documenting workflows and protocols.
+
+##### Syntax
+
+````markdown
+```mermaid
+sequenceDiagram
+    participant Player as Link
+    participant Inventory
+    participant Equipment
+    Player->>Inventory: Open inventory
+    Inventory->>Equipment: Load equipment state
+    Equipment-->>Inventory: Zuggle state synced
+    Inventory-->>Player: Display synced state
+```
+````
+
+##### Example
+
+```mermaid
+sequenceDiagram
+    participant Player as Link
+    participant Inventory
+    participant Equipment
+    Player->>Inventory: Open inventory
+    Inventory->>Equipment: Load equipment state
+    Equipment-->>Inventory: Zuggle state synced
+    Inventory-->>Player: Display synced state
+```
+
+#### Class Diagram
+
+Illustrates object-oriented structures, classes, and their relationships.
+
+##### Syntax
+
+````markdown
+```mermaid
+classDiagram
+    class Glitch {
+        +string name
+        +string technique
+        +string[] versions
+        +execute()
+    }
+    class Equipment {
+        +string id
+        +int durability
+        +getState()
+    }
+    Glitch --> Equipment : affects
+```
+````
+
+##### Example
+
+```mermaid
+classDiagram
+    class Glitch {
+        +string name
+        +string technique
+        +string[] versions
+        +execute()
+    }
+    class Equipment {
+        +string id
+        +int durability
+        +getState()
+    }
+    Glitch --> Equipment : affects
+```
+
+#### State Diagram
+
+Represents state transitions and conditional logic for system behavior.
+
+##### Syntax
+
+````markdown
+```mermaid
+stateDiagram-v2
+    [*] --> Normal
+    Normal --> Desync: Trigger glitch
+    Desync --> Equipment_Cloned: Fuse cloned
+    Equipment_Cloned --> Normal: Inventory reload
+    Equipment_Cloned --> [*]
+```
+````
+
+##### Example
+
+```mermaid
+stateDiagram-v2
+    [*] --> Normal
+    Normal --> Desync: Trigger glitch
+    Desync --> Equipment_Cloned: Fuse cloned
+    Equipment_Cloned --> Normal: Inventory reload
+    Equipment_Cloned --> [*]
+```
+
+#### Entity-Relationship Diagram
+
+Models database schemas and entity relationships.
+
+##### Syntax
+
+````markdown
+```mermaid
+erDiagram
+    GLITCH ||--o{ TECHNIQUE : has
+    GLITCH ||--o{ VERSION : supports
+    TECHNIQUE {
+        int id
+        string name
+        string description
+    }
+    VERSION {
+        string number
+        date release_date
+    }
+```
+````
+
+##### Example
+
+```mermaid
+erDiagram
+    GLITCH ||--o{ TECHNIQUE : has
+    GLITCH ||--o{ VERSION : supports
+    TECHNIQUE {
+        int id
+        string name
+        string description
+    }
+    VERSION {
+        string number
+        date release_date
+    }
+```
+
+#### Gantt Chart
+
+Timeline visualization for project schedules and dependencies.
+
+##### Syntax
+
+````markdown
+```mermaid
+gantt
+    title Discovery Timeline
+    dateFormat YYYY-MM-DD
+    section Phase
+    Research           :a1, 2024-01-01, 30d
+    Testing            :a2, after a1, 20d
+    Documentation      :a3, after a2, 15d
+    Publication        :crit, a4, after a3, 10d
+```
+````
+
+##### Example
+
+```mermaid
+gantt
+    title Discovery Timeline
+    dateFormat YYYY-MM-DD
+    section Phase
+    Research           :a1, 2024-01-01, 30d
+    Testing            :a2, after a1, 20d
+    Documentation      :a3, after a2, 15d
+    Publication        :crit, a4, after a3, 10d
+```
+
+#### Pie Chart
+
+Displays proportional data distribution.
+
+##### Syntax
+
+````markdown
+```mermaid
+pie title Glitch Discovery by Category
+    "Equipment Duplication" : 35
+    "Movement Abuse" : 25
+    "Collision Exploitation" : 20
+    "Physics Exploitation" : 20
+```
+````
+
+##### Example
+
+```mermaid
+pie title Glitch Discovery by Category
+    "Equipment Duplication" : 35
+    "Movement Abuse" : 25
+    "Collision Exploitation" : 20
+    "Physics Exploitation" : 20
 ```
 
 ## Extension Configuration
