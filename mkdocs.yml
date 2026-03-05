@@ -59,7 +59,9 @@ nav:
      #- Zuggling: zuggling/index.md
      #- Glitchcraft: glitchcraft/index.md
   - About: wiki/about.md
-  - Glitchcraft: wiki/glitchcraft/_glitchcraft-grimoire.md
+  - Glitchcraft:
+    - Grimoire: wiki/glitchcraft/_glitchcraft-grimoire.md
+    - ... 
   - Ultrabroken: 
     - Introduction: wiki/ultrabroken/index.md
     - Basics: 
@@ -196,6 +198,7 @@ exclude_docs: |
 
 plugins:
   - search
+  - awesome-pages
   - minify
   - open-in-new-tab
   - social:

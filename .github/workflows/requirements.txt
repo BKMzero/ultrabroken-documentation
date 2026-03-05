@@ -2,6 +2,7 @@ mkdocs
 mkdocs-material[imaging]
 mkdocs-minify-plugin
 mkdocs-open-in-new-tab
+mkdocs-awesome-pages-plugin
 beautifulsoup4
 tqdm
 wheel
