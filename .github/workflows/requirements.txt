@@ -1,5 +1,5 @@
 mkdocs
-mkdocs-material[imaging]
+mkdocs-material
 mkdocs-minify-plugin
 mkdocs-open-in-new-tab
 beautifulsoup4
@@ -7,4 +7,3 @@ tqdm
 wheel
 Pillow
 requests
-cairosvg

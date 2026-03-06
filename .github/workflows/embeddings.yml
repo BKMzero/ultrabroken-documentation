@@ -55,9 +55,9 @@ jobs:
           python -m pip install --upgrade pip
           mkdir -p ./.wheels
           pip wheel --wheel-dir ./.wheels -r .github/workflows/requirements.txt || true
-          pip wheel --wheel-dir ./.wheels mkdocs mkdocs-material[imaging] mkdocs-minify-plugin mkdocs-open-in-new-tab || true
+          pip wheel --wheel-dir ./.wheels mkdocs mkdocs-material mkdocs-minify-plugin mkdocs-open-in-new-tab || true
           pip install --find-links ./.wheels -r .github/workflows/requirements.txt
-          pip install --find-links ./.wheels mkdocs mkdocs-material[imaging] mkdocs-minify-plugin mkdocs-open-in-new-tab
+          pip install --find-links ./.wheels mkdocs mkdocs-material mkdocs-minify-plugin mkdocs-open-in-new-tab
 
       - name: Build MkDocs site
         run: mkdocs build
