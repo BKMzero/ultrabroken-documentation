@@ -185,6 +185,7 @@ nav:
   - Guide: wiki/guide.md
 
 hooks:
+  - docs/assets/hooks/social_cards.py
   - docs/assets/hooks/map_embed.py
   - docs/assets/hooks/youtube_embed.py
   - docs/assets/hooks/contributor_links.py
@@ -199,14 +200,15 @@ plugins:
   - search
   - minify
   - open-in-new-tab
-  - social:
-      cards_layout: default
-      cards_layout_options:
-        font_family: New Rocker
-        background_color: "#00796b"
-        #background_color: transparent
-        #background_image: docs/assets/images/graphics/ultrabroken_social_card_background.jpg
-        color: "#00f0c2"
+  # ── Native social cards (commented out — using custom hook instead) ──
+  # - social:
+  #     cards_layout: default
+  #     cards_layout_options:
+  #       font_family: New Rocker
+  #       background_color: "#00796b"
+  #       #background_color: transparent
+  #       #background_image: docs/assets/images/graphics/ultrabroken_social_card_background.jpg
+  #       color: "#00f0c2"
 
 markdown_extensions:
   - admonition

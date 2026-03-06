@@ -5,3 +5,6 @@ mkdocs-open-in-new-tab
 beautifulsoup4
 tqdm
 wheel
+Pillow
+requests
+cairosvg
