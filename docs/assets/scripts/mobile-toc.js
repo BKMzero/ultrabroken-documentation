@@ -1,5 +1,5 @@
 /**
- * mobile-toc.js — Table of contents in nav drawer (mobile only)
+ * mobile-toc.js — Table of contents in nav drawer + smooth-scroll
  * ──────────────────────────────────────────────────────────────
  * Injects a collapsible "Table of contents" entry at the top of EVERY
  * nav list in the primary sidebar, so it's reachable at any navigation
@@ -7,6 +7,11 @@
  * flattened list of all heading links.
  *
  * Desktop already has the right sidebar TOC, so nothing is injected there.
+ *
+ * All TOC link clicks (desktop + mobile) are intercepted via event
+ * delegation: they smooth-scroll to the heading instead of triggering
+ * a native anchor jump, and use replaceState so the browser back
+ * button isn't polluted.
  *
  * Hooks into Material's document$ observable for SPA navigation support.
  */
@@ -179,6 +184,41 @@
     });
     drawer.__ubTocListener = true;
   }
+
+  /* ── Smooth-scroll for ALL TOC links (desktop + mobile) ──────
+     Uses event delegation so it works across SPA navigations
+     without re-binding.  Catches clicks on:
+       • Desktop secondary sidebar  (.md-sidebar--secondary a)
+       • Mobile injected TOC items  (.ub-toc-nav-item a)        ── */
+  document.addEventListener('click', function (e) {
+    var link = e.target.closest(
+      '.md-sidebar--secondary .md-nav__link, .ub-toc-nav-item .md-nav__link'
+    );
+    if (!link) return;
+
+    var hash = link.getAttribute('href');
+    if (!hash || hash.charAt(0) !== '#') return;
+
+    e.preventDefault();
+
+    var targetId = decodeURIComponent(hash.slice(1));
+    var target = document.getElementById(targetId);
+
+    // On mobile, close the drawer first
+    var drawer = document.getElementById('__drawer');
+    var isMobile = drawer && drawer.checked;
+    if (isMobile) drawer.checked = false;
+
+    if (target) {
+      var delay = isMobile ? 150 : 0;
+      setTimeout(function () {
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, delay);
+    }
+
+    // Update hash without creating a history entry
+    history.replaceState(null, '', hash);
+  });
 
   /* ── Bootstrap ─────────────────────────────────────────────── */
   if (typeof document$ !== 'undefined') {
