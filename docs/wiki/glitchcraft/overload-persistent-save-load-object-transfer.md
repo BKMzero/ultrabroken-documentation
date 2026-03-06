@@ -2,7 +2,7 @@
 title: "Overload Persistent Save Load Object Transfer"
 uid: "LJH"
 label: "OPSLOT"
-versions: ["1.2.0"]
+versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["mulberry"]
 date: "2024-07-26"
 description: "Using Overload it's possible to fully portably PSLOT on current versions"
@@ -11,7 +11,7 @@ tags: ["overload", "save-load"]
 ---
 
 # Overload Persistent Save Load Object Transfer `OPSLOT` `LJH`
-`1.2.0` `1.2.1+`
+`1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

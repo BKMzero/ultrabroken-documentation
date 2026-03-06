@@ -2,7 +2,7 @@
 title: "Fuse Overload Fuse Entanglement"
 uid: "G8Q"
 label: "FOFE"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["mulberry"]
 date: "2025-05-26"
 description: "Using Fuse Overload it's possible to portably and quickly Fuse Entangle"
@@ -11,7 +11,7 @@ tags: ["entanglement", "overload", "ultrahand", "fuse"]
 ---
 
 # Fuse Overload Fuse Entanglement `FOFE` `G8Q`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1+`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

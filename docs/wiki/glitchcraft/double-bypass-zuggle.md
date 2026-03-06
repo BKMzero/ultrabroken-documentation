@@ -2,20 +2,20 @@
 title: "Double Bypass Zuggle"
 uid: "QXN"
 label: "DBZ"
-versions: ["1.2.0"]
+versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["mulberry", "dt13269"]
 date: "2025-06-16"
-description: "Using a very specific and complex setup, it's possible to bypass dpad lock as well as drop swap culling, effectively giving parentless unculled zuggle..."
+description: "Using a very specific and complex setup, it's possible to bypass dpad lock as well as drop swap culling, effectively giving parentless unculled zuggle on 1.2+."
 aliases: ["double-bypass-zuggle"]
 tags: ["zuggling", "item", "culling", "ultrahand"]
 ---
 
 # Double Bypass Zuggle `DBZ` `QXN`
-`1.2.0` `1.2.1+`
+`1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---
-Using a very specific and complex setup, it's possible to bypass dpad lock as well as drop swap culling, effectively giving parentless unculled zuggle on 1.2+
+Using a very specific and complex setup, it's possible to bypass dpad lock as well as drop swap culling, effectively giving parentless unculled zuggle on 1.2+.
 
 _mulberry, dt13269 for making the culling logger which allowed for the discovery of the drop swap culling bypass frame in the menu - 16 June 2025_
 

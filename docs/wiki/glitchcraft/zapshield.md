@@ -5,7 +5,7 @@ label: "ZAPSH"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Aergyl"]
 date: "2024-09-16"
-description: "Fuse entangling a shock emitter to two shields and permaculling one of its FE bases results in a permanently electrified shield which makes..."
+description: "Fuse entangling a shock emitter to two shields and permaculling one of its FE bases results in a permanently electrified shield which makes applications involving shock more portable."
 aliases: []
 tags: ["equipment", "culling", "fuse", "shield"]
 ---
@@ -15,7 +15,7 @@ tags: ["equipment", "culling", "fuse", "shield"]
 
 ## Summary
 ---
-Fuse entangling a shock emitter to two shields and permaculling one of its FE bases results in a permanently electrified shield which makes applications involving shock more portable
+Fuse entangling a shock emitter to two shields and permaculling one of its FE bases results in a permanently electrified shield which makes applications involving shock more portable.
 
 _Aergyl - 16 September 2024_
 

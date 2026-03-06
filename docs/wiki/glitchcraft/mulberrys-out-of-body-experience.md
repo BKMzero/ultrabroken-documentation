@@ -5,7 +5,7 @@ label: "MOOBE"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["mulberry"]
 date: "2024-01-06"
-description: "(Temporarily) Warps Link to a previous climbing position from anywhere in the world, only while the game is paused."
+description: "Temporarily warps Link to a previous climbing position from anywhere in the world, only while the game is paused."
 aliases: ["mulberry's-out-of-body-experience"]
 tags: ["warping", "movement"]
 ---
@@ -15,7 +15,7 @@ tags: ["warping", "movement"]
 
 ## Summary
 ---
-(Temporarily) Warps Link to a previous climbing position from anywhere in the world, only while the game is paused.
+Temporarily warps Link to a previous climbing position from anywhere in the world, only while the game is paused.
 
 _mulberry - 6 January 2024_
 

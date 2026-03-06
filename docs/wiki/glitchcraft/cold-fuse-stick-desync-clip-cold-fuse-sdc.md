@@ -5,7 +5,7 @@ label: "CSSDC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["mulberry", "KiloVictor"]
 date: "2024-06-04"
-description: "An easier way to perform stick desync clip using cold fuse that allows for an almost immediate dismount, making it useful for stick desync without clipping"
+description: "An easier way to perform stick desync clip using cold fuse that allows for an almost immediate dismount, making it useful for stick desync without clipping."
 aliases: ["cold-fuse-stick-desync-clip"]
 tags: ["clipping", "desync", "weapon", "fuse"]
 ---
@@ -15,7 +15,7 @@ tags: ["clipping", "desync", "weapon", "fuse"]
 
 ## Summary
 ---
-An easier way to perform stick desync clip using cold fuse that allows for an almost immediate dismount, making it useful for stick desync without clipping
+An easier way to perform stick desync clip using cold fuse that allows for an almost immediate dismount, making it useful for stick desync without clipping.
 
 _mulberry, KiloVictor - 4 June 2024_
 

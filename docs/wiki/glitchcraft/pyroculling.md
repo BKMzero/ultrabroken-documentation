@@ -2,7 +2,7 @@
 title: "Pyroculling"
 uid: "9R8"
 label: "PYRC"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.2.0"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["ROBUXY2ND"]
 date: "2023-11-17"
 description: "The fire from a fire emitter prevents objects in a cull area from culling until the game is paused (also works with ice emitters)"
@@ -11,7 +11,7 @@ tags: ["culling"]
 ---
 
 # Pyroculling `PYRC` `9R8`
-`1.0.0` `1.1.0` `1.1.1` `1.2.0` `1.2.1+`
+`1.0.0` `1.1.0` `1.1.1` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

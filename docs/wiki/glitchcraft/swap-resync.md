@@ -2,7 +2,7 @@
 title: "Swap Resync"
 uid: "A0R"
 label: "SR"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["MandelbrotChaylay"]
 date: "2025-08-10"
 description: "Swapping any piece of equipment/armor attempts to sync any swaps that may have failed to register."
@@ -11,7 +11,7 @@ tags: ["equipment", "shield", "zuggling"]
 ---
 
 # Swap Resync `SR` `A0R`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1+`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

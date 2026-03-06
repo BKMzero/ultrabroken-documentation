@@ -5,7 +5,7 @@ label: "DZG"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Lightos", "Zas", "mulberry", "WinnerBoi77", "Ryan?", "CS16"]
 date: "2023-09-06"
-description: "Dropping equippment in a specific way causes it to be put into a linked state between drop smuggled and zuggled, while the dynamic zuggled item is..."
+description: "The dynamic zuggled item is alternating between sheathed and unsheated together with your equippment."
 aliases: ["dynamic-zuggle"]
 tags: ["zuggling", "item", "equipment"]
 ---

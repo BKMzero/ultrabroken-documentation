@@ -5,7 +5,7 @@ label: "ML"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Physioninja"]
 date: "2023-05-21"
-description: "Dismounting a steering stick on the same frame that a temple discovery cutscene is played causes Link to be stuck to the steering stick while standing..."
+description: "Dismounting a steering stick on the same frame that a temple discovery cutscene is played causes Link to be stuck to the steering stick while standing on it."
 aliases: ["mount-lock"]
 tags: ["ultrahand"]
 ---

@@ -2,7 +2,7 @@
 title: "Death Persistent Save Load Object Transfer"
 uid: "15K"
 label: "DPSLOT"
-versions: ["1.2.0"]
+versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["mulberry"]
 date: "2025-06-26"
 description: "Death dropping is equivalent to shock dropping."
@@ -11,7 +11,7 @@ tags: ["item", "save-load", "zuggling"]
 ---
 
 # Death Persistent Save Load Object Transfer `DPSLOT` `15K`
-`1.2.0` `1.2.1+`
+`1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

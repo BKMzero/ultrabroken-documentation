@@ -5,7 +5,7 @@ label: "CL"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
 credits: ["Asgorne"]
 date: "2023-07-01"
-description: "By culling as object while its glued to another object, the unculled object will be sent towards the position of the culled object when it is unculled..."
+description: "By culling as object while its glued to another object, the unculled object will be sent towards the position of the culled object when it is unculled."
 aliases: ["cull-launching"]
 tags: ["launching", "culling"]
 ---

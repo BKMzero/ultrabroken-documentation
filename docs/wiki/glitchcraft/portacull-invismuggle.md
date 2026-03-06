@@ -2,7 +2,7 @@
 title: "Portacull Invismuggle"
 uid: "OJU"
 label: "PCIS"
-versions: ["1.2.0"]
+versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["mulberry"]
 date: "2024-02-29"
 description: "Using portable culling equipment it's possible to get a culled smuggle (invismuggle)."
@@ -11,7 +11,7 @@ tags: ["zuggling", "equipment", "culling"]
 ---
 
 # Portacull Invismuggle `PCIS` `OJU`
-`1.2.0` `1.2.1+`
+`1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

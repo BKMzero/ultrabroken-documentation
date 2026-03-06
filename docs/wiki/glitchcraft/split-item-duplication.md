@@ -2,7 +2,7 @@
 title: "Split Item Duplication"
 uid: "E75"
 label: "SID"
-versions: ["1.2.0"]
+versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Telkic", "mulberry", "WinnerBoi77"]
 date: "2025-06-19"
 description: "Allows you to dupe materials through Stack Splitting"
@@ -11,7 +11,7 @@ tags: ["duplication", "item", "zuggling"]
 ---
 
 # Split Item Duplication `SID` `E75`
-`1.2.0` `1.2.1+`
+`1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

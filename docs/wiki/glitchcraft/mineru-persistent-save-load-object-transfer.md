@@ -2,7 +2,7 @@
 title: "Mineru Persistent Save Load Object Transfer"
 uid: "KZ4"
 label: "MPSLOT"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["mulberry", "Armindo", "Emiya"]
 date: "2024-07-27"
 description: "Using Mineru Culling it's possible to send a piece of equipment to culled purgatory portably, allowing for PSLOT"
@@ -11,7 +11,7 @@ tags: ["equipment", "culling", "save-load", "mineru"]
 ---
 
 # Mineru Persistent Save Load Object Transfer `MPSLOT` `KZ4`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1+`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---

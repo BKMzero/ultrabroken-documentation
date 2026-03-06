@@ -5,7 +5,7 @@ label: "HSCA"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Blackmars", "Tahata", "EM"]
 date: "2024-04-19"
-description: "Escaping the cave quest where Link's inventory gets removed allows you to buy inventory slots from Hestu with just 1 korok seed per slot and reach max..."
+description: "Allows you to buy inventory slots from Hestu with just 1 korok seed per slot and reach max inventory slots with significantly less korok seeds."
 aliases: ["hestu-scamming"]
 tags: ["menu"]
 ---

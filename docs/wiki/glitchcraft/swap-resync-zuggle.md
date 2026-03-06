@@ -2,7 +2,7 @@
 title: "Swap Resync Zuggle"
 uid: "XTY"
 label: "SRZ"
-versions: ["1.2.0"]
+versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["mulberry", "MandelbrotChaylay"]
 date: "2025-08-11"
 description: "Using Swap Resync, it's possible to zuggle anywhere simply using portacull equipment."
@@ -11,7 +11,7 @@ tags: ["zuggling", "equipment", "culling"]
 ---
 
 # Swap Resync Zuggle `SRZ` `XTY`
-`1.2.0` `1.2.1+`
+`1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
 ---
