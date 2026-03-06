@@ -27,7 +27,9 @@ _Zas - 9 September 2023_
 ## Notes
 ---
 Can be used to detangle wuggled equipment, turning it into a true zuggle.
+
 Fuse entangling a detangled object and dropping the shield will delete it.
+
 Objects fuse entangled to Mineru can be detangled by fusing another object over the same slot as the target object.
 
 ## Resources
