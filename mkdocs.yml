@@ -50,6 +50,7 @@ extra_javascript:
   - assets/scripts/leaderboard.js
   - assets/scripts/graph-view.js
   - assets/scripts/cosmetic-urls.js
+  - assets/scripts/mobile-toc.js
 
 nav:
   - Home: wiki/index.md
