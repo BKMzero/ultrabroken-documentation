@@ -5,6 +5,7 @@ on:
     paths:
       - 'docs/wiki/**'
       - 'docs/worker/**'
+      - 'docs/assets/**'
       - 'mkdocs.yml'
       - '.github/workflows/embeddings.yml'
       - '.github/workflows/requirements.txt'
