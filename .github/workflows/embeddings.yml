@@ -4,7 +4,6 @@ on:
   push:
     paths:
       - 'docs/wiki/**'
-      - 'docs/assets/**'
       - 'docs/worker/**'
       - 'docs/hooks/**'
       - 'mkdocs.yml'
@@ -24,8 +23,6 @@ concurrency:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 jobs:
   build:
@@ -124,23 +121,10 @@ jobs:
             git push origin main || echo "Push failed"
           fi
 
-      - name: Publish site
-        uses: actions/upload-pages-artifact@v3
+      - name: Publish site (gh-pages)
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          path: ./site
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    permissions:
-      pages: write
-      id-token: write
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
 
 
