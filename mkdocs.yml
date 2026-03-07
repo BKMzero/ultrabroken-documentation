@@ -185,13 +185,13 @@ nav:
   - Guide: wiki/guide.md
 
 hooks:
-  - docs/assets/hooks/social_cards.py
-  - docs/assets/hooks/map_embed.py
-  - docs/assets/hooks/youtube_embed.py
-  - docs/assets/hooks/contributor_links.py
-  - docs/assets/hooks/glitch_autolink.py
-  - docs/assets/hooks/reader_compat.py
-  - docs/assets/hooks/uid_links.py
+  - docs/hooks/social_cards.py
+  - docs/hooks/map_embed.py
+  - docs/hooks/youtube_embed.py
+  - docs/hooks/contributor_links.py
+  - docs/hooks/glitch_autolink.py
+  - docs/hooks/reader_compat.py
+  - docs/hooks/uid_links.py
 
 exclude_docs: |
   wiki/_wip/
