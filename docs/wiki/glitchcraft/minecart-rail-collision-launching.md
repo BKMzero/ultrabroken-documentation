@@ -12,6 +12,7 @@ tags: ["launching"]
 
 # Minecart Rail Collision Launching `MRCL`
 `1.0.0` `1.1.0` `1.1.1`
+
 `74J`
 ## Summary
 ---

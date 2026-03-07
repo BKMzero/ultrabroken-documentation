@@ -12,6 +12,7 @@ tags: ["zuggling", "item", "equipment"]
 
 # Quick Drop Smuggle `QDS`
 `1.0.0`
+
 `OTD`
 ## Summary
 ---

@@ -12,6 +12,7 @@ tags: ["zuggling", "item", "equipment"]
 
 # Shock Smuggle `SSMU`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
+
 `61Q`
 ## Summary
 ---

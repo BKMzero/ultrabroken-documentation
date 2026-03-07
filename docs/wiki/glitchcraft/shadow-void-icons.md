@@ -12,6 +12,7 @@ tags: ["equipment", "fuse", "camera"]
 
 # Shadow/Void Icons `SVI`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1+`
+
 `34T`
 ## Summary
 ---

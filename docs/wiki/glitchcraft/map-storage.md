@@ -12,6 +12,7 @@ tags: ["storage", "map"]
 
 # Map Storage `MSTR`
 `1.1.0` `1.1.1`
+
 `OT8`
 ## Summary
 ---

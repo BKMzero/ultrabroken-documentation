@@ -12,6 +12,7 @@ tags: ["item", "recall", "zuggling"]
 
 # Item Throw Hitbox Disable `ITHD`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
+
 `W10`
 ## Summary
 ---

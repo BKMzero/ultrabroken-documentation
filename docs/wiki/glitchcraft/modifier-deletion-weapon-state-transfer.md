@@ -12,6 +12,7 @@ tags: ["duplication", "weapon"]
 
 # Modifier Deletion Weapon State Transfer `MDWST`
 `1.0.0`
+
 `ZBS`
 ## Summary
 ---

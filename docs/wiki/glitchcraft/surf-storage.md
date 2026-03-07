@@ -12,6 +12,7 @@ tags: ["storage"]
 
 # Surf storage `SSTR`
 `1.0.0`
+
 `ARP`
 ## Summary
 ---

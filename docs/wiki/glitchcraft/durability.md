@@ -12,6 +12,7 @@ tags: ["item", "weapon", "bow"]
 
 # Durability- `DUR-` `DURM`
 `1.0.0`
+
 `J9U`
 ## Summary
 ---

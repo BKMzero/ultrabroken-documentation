@@ -12,6 +12,7 @@ tags: ["zuggling", "ultrahand", "item", "equipment"]
 
 # Zoggle `ZOG`
 `1.2.0` `1.2.1`
+
 `9UF`
 ## Summary
 ---

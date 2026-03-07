@@ -12,6 +12,7 @@ tags: ["weapon", "fuse"]
 
 # Shock Cold Fuse `SCF`
 `1.0.0`
+
 `EKY`
 ## Summary
 ---

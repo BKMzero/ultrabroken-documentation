@@ -12,6 +12,7 @@ tags: ["zuggling", "equipment", "item", "shield"]
 
 # Force Equip Zuggling `FEZ`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
+
 `3RI`
 ## Summary
 ---

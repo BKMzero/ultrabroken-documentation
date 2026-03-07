@@ -12,6 +12,7 @@ tags: ["zuggling", "item", "equipment"]
 
 # Drop Delay Zuggle `DDZ`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
+
 `BX1`
 ## Summary
 ---

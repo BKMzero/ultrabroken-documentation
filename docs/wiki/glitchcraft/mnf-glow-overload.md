@@ -12,6 +12,7 @@ tags: ["item", "overload", "mnf"]
 
 # MNF Glow Overload `MGO`
 `1.0.0`
+
 `H2E`
 ## Summary
 ---

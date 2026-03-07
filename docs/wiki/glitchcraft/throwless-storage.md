@@ -12,6 +12,7 @@ tags: ["storage", "zonai"]
 
 # Throwless Storage `THS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0`
+
 `OL9`
 ## Summary
 ---

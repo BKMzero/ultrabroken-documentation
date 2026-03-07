@@ -12,6 +12,7 @@ tags: ["Unknown"]
 
 # Mass Amnesia `MA`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
+
 `MLG`
 ## Summary
 ---

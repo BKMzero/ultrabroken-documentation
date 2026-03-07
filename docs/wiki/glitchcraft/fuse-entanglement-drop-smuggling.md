@@ -12,6 +12,7 @@ tags: ["zuggling", "item", "equipment", "entanglement", "fuse"]
 
 # Fuse Entanglement Drop Smuggling `FEDS`
 `1.2.0`
+
 `N1T`
 ## Summary
 ---

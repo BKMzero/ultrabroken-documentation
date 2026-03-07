@@ -12,6 +12,7 @@ tags: ["storage", "zonai"]
 
 # Zonai Storage `ZS`
 `1.0.0`
+
 `Y81`
 ## Summary
 ---

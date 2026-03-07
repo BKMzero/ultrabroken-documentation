@@ -12,6 +12,7 @@ tags: ["desync", "mineru"]
 
 # Mineru Ability Desync `MAD`
 `1.1.0` `1.1.1`
+
 `X9I`
 ## Summary
 ---

@@ -12,6 +12,7 @@ tags: ["zuggling", "item", "culling"]
 
 # Cull Pickup Dynamic Zuggle `CPDZ`
 `1.0.0` `1.1.0` `1.1.1`
+
 `KID`
 ## Summary
 ---

@@ -12,6 +12,7 @@ tags: ["weapon", "damage"]
 
 # Display Master Sword `DMS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
+
 `KJR`
 ## Summary
 ---

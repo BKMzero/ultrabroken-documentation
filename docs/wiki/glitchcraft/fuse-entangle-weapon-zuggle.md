@@ -12,6 +12,7 @@ tags: ["zuggling", "item", "weapon", "damage", "entanglement", "fuse"]
 
 # Fuse Entangle Weapon Zuggle `FEWZ`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
+
 `L0R`
 ## Summary
 ---

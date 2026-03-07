@@ -12,6 +12,7 @@ tags: ["item", "like-like", "zuggling"]
 
 # Like Like New Textbox Softlock `LLTS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
+
 `8TU`
 ## Summary
 ---

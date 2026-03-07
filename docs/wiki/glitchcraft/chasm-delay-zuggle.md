@@ -12,6 +12,7 @@ tags: ["zuggling", "culling", "item", "equipment"]
 
 # Chasm Delay Zuggle `CDZ`
 `1.2.0` `1.2.1`
+
 `JJB`
 ## Summary
 ---

@@ -12,6 +12,7 @@ tags: ["zuggling", "overload", "item", "equipment"]
 
 # Overload Dynamic Zuggle `ODZGL`
 `1.0.0` `1.1.0` `1.1.1`
+
 `AZT`
 ## Summary
 ---

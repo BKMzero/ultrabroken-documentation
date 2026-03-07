@@ -12,6 +12,7 @@ tags: ["zuggling", "equipment", "arrow"]
 
 # Quick Smuggling `QS`
 `1.2.0`
+
 `2D4`
 ## Summary
 ---

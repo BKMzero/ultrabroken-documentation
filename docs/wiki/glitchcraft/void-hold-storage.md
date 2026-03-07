@@ -12,6 +12,7 @@ tags: ["storage", "menu", "item"]
 
 # Void Hold Storage `VHS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
+
 `AGZ`
 ## Summary
 ---

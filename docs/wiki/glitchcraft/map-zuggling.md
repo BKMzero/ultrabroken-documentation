@@ -12,6 +12,7 @@ tags: ["zuggling", "map", "item", "equipment"]
 
 # Map Zuggling `MZ`
 `1.0.0` `1.1.0` `1.1.1`
+
 `D55`
 ## Summary
 ---

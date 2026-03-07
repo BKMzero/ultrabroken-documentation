@@ -12,6 +12,7 @@ tags: ["item", "ultrahand", "zuggling"]
 
 # Ultrabroken `UB`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
+
 `NU6`
 ## Summary
 ---

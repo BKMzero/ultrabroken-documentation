@@ -12,6 +12,7 @@ tags: ["item", "entanglement", "fuse"]
 
 # Resync Fuse Entanglement `RFE`
 `1.0.0`
+
 `GPN`
 ## Summary
 ---

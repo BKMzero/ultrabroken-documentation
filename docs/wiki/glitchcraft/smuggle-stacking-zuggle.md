@@ -12,6 +12,7 @@ tags: ["zuggling", "item", "equipment", "shield", "bow"]
 
 # Smuggle Stacking Zuggle `SSZ`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
+
 `DN4`
 ## Summary
 ---

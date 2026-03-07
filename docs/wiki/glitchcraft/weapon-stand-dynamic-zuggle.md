@@ -12,6 +12,7 @@ tags: ["zuggling", "weapon", "item", "equipment"]
 
 # Weapon Stand Dynamic Zuggle `WSDZ`
 `1.0.0`
+
 `1PY`
 ## Summary
 ---

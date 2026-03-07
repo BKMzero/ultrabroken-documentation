@@ -12,6 +12,7 @@ tags: ["duplication", "item", "weapon", "equipment", "bow"]
 
 # Weapon Stacking Duplication `WSD`
 `1.0.0` `1.1.0` `1.1.1`
+
 `WP6`
 ## Summary
 ---

@@ -12,6 +12,7 @@ tags: ["equipment", "shield", "zuggling"]
 
 # Bomb Skew `BSK`
 `1.0.0`
+
 `EJ4`
 ## Summary
 ---

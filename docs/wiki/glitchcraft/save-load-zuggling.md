@@ -12,6 +12,7 @@ tags: ["zuggling", "save-load", "item", "equipment"]
 
 # Save Load Zuggling `SLZ`
 `1.0.0` `1.1.0` `1.1.1`
+
 `HV7`
 ## Summary
 ---

@@ -12,6 +12,7 @@ tags: ["zuggling", "equipment", "item", "shield"]
 
 # Hand Locked Equipment Smuggling `HLES`
 `1.0.0`
+
 `XK9`
 ## Summary
 ---

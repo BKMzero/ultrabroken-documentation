@@ -12,6 +12,7 @@ tags: ["weapon"]
 
 # Weapon Fuse Entangelemt `WFE`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
+
 `JOY`
 ## Summary
 ---
