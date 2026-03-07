@@ -2,7 +2,7 @@
 title: "Kinematic Weapons"
 uid: "OO2"
 label: "KW"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+versions: ["1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["mulberry", "dt13269"]
 date: "2026-02-25"
 description: "Makes weapons immovable, except by picking up and dropping them."
@@ -11,7 +11,7 @@ tags: ["equipment"]
 ---
 
 # Kinematic Weapons `KW`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+`1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 `OO2`
 ## Summary
@@ -22,24 +22,25 @@ _mulberry, dt13269; Optimization by mulberry - 25 February 2026_
 
 ## Instructions
 ---
-### Basic Setup
-1. Overload pickup weapon held by depths ghost
-2. Go out of range - this varies between ghosts
-3. While looking away from the ghost fail drop weapon
-4. Wait until Link holds it
-5. Drop it - it should be stuck in mid-air
-6. Keep looking away and resync zuggle a shield unless you already have one zuggled
-7. Overload CF the weapon twice to a random shield to PF it
-8. Load a save
-9. Either detangle out of weapon range or drop the zuggle and octo detangle it
 
-### Extension: DI PSLOTted Kinematic Weapon setup
-1. Zuggle a DI ghost shield
-2. Overload pick up a kinematic weapon
-3. Fail drop and drop the kinematic weapon out of range
-4. Overload FE the weapon (using the shield zuggle) and load null fuse it (= overload cold fuse to your shield + pause on the FE frame -> load)
-5. Detangle out of range
-6. Overload FE the kinematic weapon and unzuggle parent
+=== "Basic Setup"
+    1. Overload pickup weapon held by depths ghost
+    2. Go out of range - this varies between ghosts
+    3. While looking away from the ghost fail drop weapon
+    4. Wait until Link holds it
+    5. Drop it - it should be stuck in mid-air
+    6. Keep looking away and resync zuggle a shield unless you already have one zuggled
+    7. Overload CF the weapon twice to a random shield to PF it
+    8. Load a save
+    9. Either detangle out of weapon range or drop the zuggle and octo detangle it
+
+=== "Extension: DI PSLOTted Kinematic Weapon setup"
+    1. Zuggle a DI ghost shield
+    2. Overload pick up a kinematic weapon
+    3. Fail drop and drop the kinematic weapon out of range
+    4. Overload FE the weapon (using the shield zuggle) and load null fuse it (= overload cold fuse to your shield + pause on the FE frame -> load)
+    5. Detangle out of range
+    6. Overload FE the kinematic weapon and unzuggle parent
 
 ## Notes
 ---
