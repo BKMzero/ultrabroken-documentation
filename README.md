@@ -1,180 +1,32 @@
-# Ultrabroken Archives — Editor Guide
+# Ultrabroken Archives
 
-This repository holds the Ultrabroken Archives written in Markdown and published with MkDocs + Material.
+Community-driven encyclopedia documenting glitches, techniques, and investigations for the videogame *The Legend of Zelda: Tears of the Kingdom*, published with MkDocs + Material.
 
-This README is focused on editors who will make content changes directly on GitHub. Editors typically do not need to run or build the site locally — just edit and commit. If you wish to build the site locally, ask the admin to receive a guide.
+## Contributing
 
-## How GitHub collaborators should contribute
-- Use the GitHub web editor or your normal GitHub workflow to edit Markdown files in the `docs/` folder.
-- Make small, focused commits and include a clear title/description for the change.
-- When ready, commit changes.
-- Keep changes scoped to documentation content: avoid editing `mkdocs.yml` or continuous integration (CI) workflows unless requested by maintainers.
+This is a community project — everyone is welcome to contribute even without a GitHub account.
 
-### Quick tips for the GitHub editor
-1. Navigate to the file you want to change (for example `docs/effects/wacko-boingo.md`).
-2. Click the pencil ✏️ icon to edit the file in your browser or use the menu in the GitHub app.
-3. Make your edits, add a concise commit message, and commit directly to `main`.
-4. Open a pull request if you used a different branch than `main`.
+### For Editors
 
-## Recommended editing guidelines
-- Write in present tense and keep instructions concise.
-- Use clear section headings and include example commands or code where useful.
-- Keep the steps of your instructions as granular as possible. Try to extract pausing / unpausing into dedicated steps with bold styling for clarity.
-- Avoid abbreviations in titles or filenames for easy parsing.
-- Prefer relative links for cross-references inside the wiki (for example `../wiki/effects/index.md`).
-- For images, put files in `docs/assets/images/` and reference them with relative paths.
-- Put your WIPs into the dedicated [`docs/wiki/wip/`](docs/wiki/wip/) folder.
-- UIDs for files are generated automatically. Don't manually add UID fields to the frontmatter.
-- After you have committed changes to the wiki, is takes around two minutes until those are reflected on the page. Wait until the page build finishes before making the next commit.
+**👉 All editing guidelines, markdown reference, and contribution workflows are documented in the [Editor Guide & Markdown Reference](https://nan-gogh.github.io/ultrabroken-documentation/wiki/guide/) on the live site.**
 
-## Additional editor conventions
+The guide covers:
+- Contribution workflow and best practices
+- Frontmatter conventions (title, label, versions, credits, tags)
+- All markdown extensions with examples
+- Site-specific features (search links, map embeds, leaderboard integration)
+- Quick reference tables
 
-### Search links
-Write Markdown links that start with `search:` to create an editor-friendly trigger for the site's search overlay.
+### Quick Start
 
-```markdown
-[Slugging](search:Slugging)
-```
+1. Edit Markdown files in `docs/wiki/` directly on GitHub using the pencil ✏️ icon, or use your normal GitHub workflow.
+2. Make small, focused commits with clear titles.
+3. Commit to `main` — changes build and deploy automatically (~2 minutes).
+4. Keep edits scoped to documentation content; avoid `mkdocs.yml` or `.github/workflows/` unless requested.
 
-These links are intercepted client-side and open the Material theme search with the provided query instead of navigating away. They are safe to edit in GitHub and make finding related content easier.
+### For the Community
 
-### Map embeds
-Embed interactive map previews from the [TotK Object Map](https://objmap-totk.zeldamods.org/) using shorthand coordinate syntax:
+Join the discussion and share discoveries in our **[dedicated Encyclopedia thread](https://discord.com/channels/1086729144307564648/1471224902890684557)** on the **[TotK Speedrunning Discord](https://discord.gg/xM8NnTetb2)**.
 
-```markdown
-[Fire Temple VD location](8, x:1321.68, z:-2823.71, Depths)
-```
-
-Format: `[Label](zoom, x:x_coord, z:z_coord[, layer])`
-
-- **zoom**: Required — initial zoom level (e.g., `8`, `10`)
-- **x:x_coord**: Required — X coordinate (supports decimals)
-- **z:z_coord**: Required — Z coordinate (supports decimals)
-- **layer**: Optional — map layer (`Surface`, `Sky`, `Depths`; defaults to `Surface`)
-
-The embed automatically generates two versions: desktop at the specified zoom, and mobile at zoom `-1` for better mobile viewing. Desktop shows at full size (500px), while mobile portrait shows at 300px height and mobile landscape at 55vh.
-
-### Social links and leaderboard
-Contributor credit names are automatically aggregated into the leaderboard and converted into clickable social media links on the site using [`docs/assets/data/credits.json`](docs/assets/data/credits.json). The build system automatically adds newly credited names with an empty URL (`""`) as a pending placeholder. These names render as plain text in the docs and on the leaderboard until a social URL is manually filled in. To enable linking, open `credits.json` and replace the empty string with the contributor's profile URL. Do not manually add or remove entries.
-
-Each entry maps a name to a URL:
-
-```json
-{
-    "Mozz": "https://www.youtube.com/@M0zzed",
-}
-```
-
-**Credit names must match exactly** the names in `credits.json` to work correctly.
-
-Mismatched names (different capitalization, spacing, or spelling) will:
-
-- Create separate leaderboard entries instead of aggregating contributions
-- Prevent social media links from appearing
-- Give inaccurate credit attribution
-
-**Always check the exact spelling and capitalization** in `credits.json` before adding a credit.
-
-### Tagging
-To see all available tags, check [`docs/assets/data/tags.json`](docs/assets/data/tags.json). Glitch and content tags are automatically aggregated into `tags.json` during the build process. When you add a new tag to a glitch's frontmatter (in the `tags:` field), the build system automatically discovers it and adds it to the tags file if it's not already present sorting it alphabetically. Do not edit `tags.json` manually.
-
-
-
-### Level-2 section separators
-To keep `##` sections visually consistent, place a horizontal rule immediately after the level-2 heading by adding a line with three dashes on the next line.
-
-```markdown
-## Instructions
----
-```
-
-## Markdown quick reference
-
-### Headings
-
-```markdown
-# Heading 1
-## Heading 2
-### Heading 3
-```
-
-### Emphasis
-
-```markdown
-**bold**
-_italic_
-`inline code`
-```
-
-### Code blocks
-
-````markdown
-```bash
-echo "example"
-```
-````
-
-### Links and images
-
-```markdown
-[Link text](path/to/file.md)
-![Alt text](assets/images/example.png)
-```
-
-### Lists
-*Leave a blank line between regular text and lists!*
-```markdown
-- Unordered item
-- Another item
-
-1. First item
-2. Second item
-```
-
-### Blockquotes
-
-```markdown
-> This is a quote
-```
-
-### Tables
-
-```markdown
-| Column A | Column B |
-|---|---|
-| Value 1  | Value 2  |
-```
-
-### Task lists
-*Currently broken!*
-Useful in pull requests:
-
-```markdown
-- [ ] Open review
-- [x] Addressed comments
-```
-
-### Admonitions
-*Currently unimplemented!*
-Supported by MkDocs Material:
-
-```markdown
-!!! note
-    This is a helpful note.
-```
-
-## Navigation and where to edit
-
-- Top-level docs live in `docs/wiki/`.
-- Edit pages directly; to reorganize navigation, ask a maintainer or update `mkdocs.yml`.
-
-## Community and contribution
-
-This is a community project — everyone is welcome to contribute even without a GitHub account. Join the discussion and show us what you got:
-
-- Download [`docs/wiki/_wip/blank.md`](docs/wiki/_wip/blank.md) if you need a starting point, write down your intel and post it in our **[dedicated Encyclopedia thread](https://discord.com/channels/1086729144307564648/1471224902890684557)** in the **[Zelda: Tears of the Kingdom Speedrunning Discord server](https://discord.gg/xM8NnTetb2)**
-
----
-
-Thanks for contributing — keep changes focused, documented, and easy to review.
+Download [`docs/wiki/_wip/blank.md`](docs/wiki/_wip/blank.md) as a starting point for new articles.
 
