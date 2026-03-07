@@ -30,20 +30,26 @@ All methods follow the same general pattern:
 ### Locations
 Most Voidouts are in big pits with little ability to get close. Three of the most popular exceptions (and how to retrieve from them) are given below:
 
-#### Fire Temple
-Warp there, turn around, and take the first right turn to find a lava river with a Hydrant making Lava Slabs. At the near-side downstream corner of the channel (not in the alcove), there is a Voidout under the lava. Retrieve targets by climbing down the corner wall, mounting Mineru to stand in the lava, or fishing it out with an object.
+=== "Fire Temple"
+    _Discovered by mulberry_
 
-[Fire Temple VD location](8, x:1321, z:-2823, Depths)
+    [Fire Temple VD location](8, x:1321, z:-2823, Depths)
 
-#### Lomei Ledge
-East of Oshozan-u Shrine, on the way to the North Lomei Labyrinth, there's a ledge (height ~160) with a vertical Voidout wall starting at X=-1117. Retrieve targets by picking them up before they slide down the cliff.
+    To reach: Warp to the temple, turn around, and take the first right turn to find a lava river with a Hydrant making Lava Slabs. At the near-side downstream corner of the channel (not in the alcove), there is a Voidout under the lava. Retrieve targets by climbing down the corner wall, mounting Mineru to stand in the lava, or fishing it out with an object.
 
-[Lomei Ledge VD location](7, x:-1130, z:-3630, Surface)
+=== "Lomei Ledge"
+    _Discovered by Squidwest_
 
-#### Nachoyah Shrine _The Ability to Rewind_
-In the alcove the rafts disappear into, there's a small Voidout at the back. Retrieve targets by swimming into the alcove and mashing A.
+    [Lomei Ledge VD location](7, x:-1130, z:-3630, Surface)
 
-![Nachoyah Shrine VD](../../assets/images/screens/nachoyah-vd.avif)
+    To reach: Warp to Oshozan-u Shrine and head East. Off the edge of the path to North Lomei Labyrinth, there's a ledge (height ~160) with a vertical Voidout wall starting at X=-1117. Retrieve targets by picking them up before they slide down the cliff.
+
+=== "Nachoyah Shrine"
+    _Discovered by Yee_
+
+    ![Nachoyah Shrine VD](../../assets/images/screens/nachoyah-vd.avif)
+
+    To reach: Enter the shrine. Inside the alcove beneath the starting area, there's a small Voidout at the very back, to delete the rafts and "rescue" careless Links. Retrieve targets by swimming into the alcove and mashing A.
 
 ### Instructions
 There are many viable methods. Three of the most popular are given in detail below, along with a summary of other more marginal methods.
