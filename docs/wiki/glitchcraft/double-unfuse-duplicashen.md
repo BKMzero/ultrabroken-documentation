@@ -2,7 +2,7 @@
 title: "Double Unfuse Duplicashen"
 uid: "BSN"
 label: "DUD"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2" "1.2.0" "1.2.1" "1.3.0/1.4.0" "1.4.1" "1.4.2" "1.4.3"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3"]
 credits: ["鯉神 (Li Shen)"]
 date: "2023-05-15"
 description: "Allows you to duplicate any material that can be fused to an arrow, including Zonai Devices"
