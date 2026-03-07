@@ -73,7 +73,7 @@ The display `title` is required. All other fields are optional but recommended.
 - `versions`: List of game versions where the technique works - used for filtering and search discovery
 - `credits`: Names must match [credits.json](../assets/data/credits.json) exactly  - used for autolinking and leaderboard aggregation
 - `date*`: Discovery or documentation date in `YYYY-MM-DD` format - used for filtering / sorting
-- `description`: A brief summary used for search results and SEO - used for search discovery
+- `description`: A brief summary used for search results and SEO - used for search discovery. **Keep under 185 characters** for optimal Discord preview display.
 - `tags`: Categorization tags. Auto-indexed into [tags.json](../assets/data/tags.json) - used for filtering and search discovery
 - `aliases`: Alternative names for search discovery. Case-insensitive. - used for autolinking
 - `uid`: Auto-generated unique identifier. **Do not add manually.**
