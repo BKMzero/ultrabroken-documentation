@@ -1,7 +1,7 @@
 ---
 title: Glitch Encyclopedia
 ---
-
+<!-- concurrency test -->
 # The Legend of Zelda: Tears of the Kingdom — Glitch Encyclopedia
 
 ## Welcome
