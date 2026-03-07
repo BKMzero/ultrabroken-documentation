@@ -9,7 +9,13 @@ on:
       - 'mkdocs.yml'
       - '.github/workflows/embeddings.yml'
       - '.github/workflows/requirements.txt'
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      refresh:
+        description: 'Refresh all social cards (ignore cache)'
+        required: false
+        default: false
+        type: boolean
 
 concurrency:
   group: wiki-build-${{ github.ref }}
@@ -60,6 +66,12 @@ jobs:
           pip wheel --wheel-dir ./.wheels mkdocs mkdocs-material mkdocs-minify-plugin mkdocs-open-in-new-tab || true
           pip install --find-links ./.wheels -r .github/workflows/requirements.txt
           pip install --find-links ./.wheels mkdocs mkdocs-material mkdocs-minify-plugin mkdocs-open-in-new-tab
+
+      - name: Clear social card cache (if refresh requested)
+        if: ${{ inputs.refresh == true }}
+        run: |
+          rm -f .cache/hooks/social_cards/manifest.json
+          echo "Social card cache cleared — all cards will be regenerated"
 
       - name: Build MkDocs site
         run: mkdocs build
