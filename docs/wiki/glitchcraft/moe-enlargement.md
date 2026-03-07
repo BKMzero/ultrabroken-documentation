@@ -10,9 +10,9 @@ aliases: ["object-(moe)-enlargement", "moe-enlargement", "object-enlargement"]
 tags: ["ultrahand"]
 ---
 
-# Moe Enlargement `ME` `DNU`
+# Moe Enlargement `ME`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`DNU`
 ## Summary
 ---
 Using a moblin, it's possible to enlarge objects

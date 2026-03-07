@@ -10,9 +10,9 @@ aliases: ["display-duping"]
 tags: ["duplication", "equipment", "shield", "zuggling"]
 ---
 
-# Display Duping `DD` `RQ7`
+# Display Duping `DD`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
-
+`RQ7`
 ## Summary
 ---
 Allows you to dupe equipment that can be put into displays.

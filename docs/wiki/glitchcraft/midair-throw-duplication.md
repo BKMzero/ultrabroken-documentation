@@ -10,9 +10,9 @@ aliases: ["midair duplication", "air dupe", "midair-throw-duplication"]
 tags: ["duplication", "item", "zonai", "paraglide"]
 ---
 
-# Midair Throw Duplication `MTD` `5A5`
+# Midair Throw Duplication `MTD`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`5A5`
 ## Summary
 ---
 Allows you to dupe any item that can be thrown, including Zonai capsules.

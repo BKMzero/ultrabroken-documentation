@@ -10,9 +10,9 @@ aliases: ["resync-fuse-entanglement"]
 tags: ["item", "entanglement", "fuse"]
 ---
 
-# Resync Fuse Entanglement `RFE` `GPN`
+# Resync Fuse Entanglement `RFE`
 `1.0.0`
-
+`GPN`
 ## Summary
 ---
 "Fe'ing" with a drop swap drop and then pausing to mess with the fuse prevents a full fuse and causes FE

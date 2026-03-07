@@ -10,9 +10,9 @@ aliases: ["minecart collision", "minecart rail collision", "rail collision launc
 tags: ["launching"]
 ---
 
-# Minecart Rail Collision Launching `MRCL` `74J`
+# Minecart Rail Collision Launching `MRCL`
 `1.0.0` `1.1.0` `1.1.1`
-
+`74J`
 ## Summary
 ---
 Allows the usage of minecarts to be launched from awkward collision grabbing on rails.

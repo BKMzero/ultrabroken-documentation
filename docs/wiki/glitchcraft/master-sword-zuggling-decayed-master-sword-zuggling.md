@@ -10,9 +10,9 @@ aliases: ["master-sword-zuggling"]
 tags: ["zuggling", "desync", "weapon"]
 ---
 
-# Master Sword Zuggling / Decayed Master Sword Zuggling `MSZ` `5RG`
+# Master Sword Zuggling / Decayed Master Sword Zuggling `MSZ`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`5RG`
 ## Summary
 ---
 Allows you to zuggle the master sword or decayed master sword by desyncing it.

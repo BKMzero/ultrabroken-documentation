@@ -10,9 +10,9 @@ aliases: ["recall-locking"]
 tags: ["recall"]
 ---
 
-# Recall Locking `RL` `EY8`
+# Recall Locking `RL`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`EY8`
 ## Summary
 ---
 Completely locks objects in place by recalling it before zlotting it

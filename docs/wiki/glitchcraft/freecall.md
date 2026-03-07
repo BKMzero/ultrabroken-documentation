@@ -10,9 +10,9 @@ aliases: []
 tags: ["ultrahand", "recall"]
 ---
 
-# Freecall `FC` `JNU`
+# Freecall `FC`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`JNU`
 ## Summary
 ---
 Breaks the lock on a recall lock, allowing the object to be in freecalled state.

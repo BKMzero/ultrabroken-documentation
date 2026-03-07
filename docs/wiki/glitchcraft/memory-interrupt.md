@@ -10,9 +10,9 @@ aliases: ["memory-interrupt"]
 tags: ["Unknown"]
 ---
 
-# Memory Interrupt `MI` `BVN`
+# Memory Interrupt `MI`
 `1.0.0`
-
+`BVN`
 ## Summary
 ---
 Interrupting a memory causes a forced pause after a dialogue

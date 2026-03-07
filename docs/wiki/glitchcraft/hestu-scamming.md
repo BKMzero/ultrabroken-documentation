@@ -10,9 +10,9 @@ aliases: ["hestu-scamming"]
 tags: ["menu"]
 ---
 
-# Hestu Scamming `HSCA` `U1A`
+# Hestu Scamming `HSCA`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`U1A`
 ## Summary
 ---
 Escaping the cave quest where Link's inventory gets removed allows you to buy inventory slots from Hestu with just 1 korok seed per slot and reach max inventory slots with significantly less korok seeds.

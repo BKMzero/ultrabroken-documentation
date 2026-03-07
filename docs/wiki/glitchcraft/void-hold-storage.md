@@ -10,9 +10,9 @@ aliases: ["void-hold-storage"]
 tags: ["storage", "menu", "item"]
 ---
 
-# Void Hold Storage `VHS` `AGZ`
+# Void Hold Storage `VHS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
-
+`AGZ`
 ## Summary
 ---
 Causes a menu softlock that revokes certain actions but allows for Link's model in the control panel, softlocks when attempting exiting any menu, and Link can be moved freely before opening the menu.

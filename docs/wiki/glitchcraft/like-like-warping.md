@@ -10,9 +10,9 @@ aliases: ["like-like-warping"]
 tags: ["warping", "fuse", "like-like"]
 ---
 
-# Like-Like Warping `LLW` `O04`
+# Like-Like Warping `LLW`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`O04`
 ## Summary
 ---
 _Mozz - 15 June 2023_

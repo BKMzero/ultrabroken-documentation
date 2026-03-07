@@ -10,9 +10,9 @@ aliases: ["shock-cold-fuse"]
 tags: ["weapon", "fuse"]
 ---
 
-# Shock Cold Fuse `SCF` `EKY`
+# Shock Cold Fuse `SCF`
 `1.0.0`
-
+`EKY`
 ## Summary
 ---
 Interrupting a fuse on the first possible frame with shock causes cold fusion

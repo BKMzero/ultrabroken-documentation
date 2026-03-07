@@ -10,9 +10,9 @@ aliases: ["ability-wheel-loop"]
 tags: ["menu", "ultrahand", "zonai"]
 ---
 
-# Ability Wheel Loop `AWL` `V2E`
+# Ability Wheel Loop `AWL`
 `1.0.0`
-
+`V2E`
 ## Summary
 ---
 Gets you stuck in the ability wheel indefinitely opening and closing.

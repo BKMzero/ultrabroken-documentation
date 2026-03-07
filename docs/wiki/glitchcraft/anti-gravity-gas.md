@@ -10,9 +10,9 @@ aliases: ["anti-gravity-gas"]
 tags: ["gas"]
 ---
 
-# Anti-Gravity GAS `AG GAS` `9R0`
+# Anti-Gravity GAS `AG GAS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
-
+`9R0`
 ## Summary
 ---
 Allows for weapon GAS by throwing the base of an ARAZ connection just as Link gets shocked

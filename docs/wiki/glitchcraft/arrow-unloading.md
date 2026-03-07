@@ -10,9 +10,9 @@ aliases: ["arrow-unloading"]
 tags: ["culling", "fuse", "arrow"]
 ---
 
-# Arrow Unloading `AU` `MW4`
+# Arrow Unloading `AU`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`MW4`
 ## Summary
 ---
 Unloads a fired arrow while retaining its fused attachment, leading to strange interactions.

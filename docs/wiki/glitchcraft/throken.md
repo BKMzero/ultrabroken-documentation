@@ -10,9 +10,9 @@ aliases: []
 tags: ["weapon"]
 ---
 
-# Throken `THK` `M1W`
+# Throken `THK`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`M1W`
 ## Summary
 ---
 Puts thrown weapons into a state of being broken and unbroken at the same time, leading to strange behavior such as being unable to be picked up by Link or enemies.

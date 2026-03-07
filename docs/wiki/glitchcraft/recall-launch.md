@@ -10,9 +10,9 @@ aliases: ["recall launch", "recall launch glitch", "recall-launch"]
 tags: ["launching", "ultrahand", "recall"]
 ---
 
-# Recall Launch `RLNCH` `J5A`
+# Recall Launch `RLNCH`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`J5A`
 ## Summary
 ---
 Allows you to launch yourself very far

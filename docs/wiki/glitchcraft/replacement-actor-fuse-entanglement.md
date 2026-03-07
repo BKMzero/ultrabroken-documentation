@@ -10,9 +10,9 @@ aliases: ["replacement-actor-fuse-entanglement"]
 tags: ["entanglement", "fuse"]
 ---
 
-# Replacement Actor Fuse Entanglement `RAFE` `E2K`
+# Replacement Actor Fuse Entanglement `RAFE`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`E2K`
 ## Summary
 ---
 Allows objects that have fuse replacement actors to be fuse entangled. Objects that have replacement actors set to themselves, such as bomb flowers, cannot be fuse entangled

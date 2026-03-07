@@ -10,9 +10,9 @@ aliases: ["zonai-storage"]
 tags: ["storage", "zonai"]
 ---
 
-# Zonai Storage `ZS` `Y81`
+# Zonai Storage `ZS`
 `1.0.0`
-
+`Y81`
 ## Summary
 ---
 Allows Zonai devices to be stored and taken into shrines

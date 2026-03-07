@@ -10,9 +10,9 @@ aliases: ["gas-warping"]
 tags: ["gas", "warping"]
 ---
 
-# GAS Warping `GASW` `S8G`
+# GAS Warping `GASW`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`S8G`
 ## Summary
 ---
 Makes it so the game never updates Link's last valid coordinates for as long as the GAS device is active (a temporary travel medallion).

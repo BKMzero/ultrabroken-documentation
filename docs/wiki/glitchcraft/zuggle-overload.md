@@ -10,9 +10,9 @@ aliases: ["zuggle-overload"]
 tags: ["zuggling", "overload", "item", "equipment"]
 ---
 
-# Zuggle Overload `ZO` `8QH`
+# Zuggle Overload `ZO`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`8QH`
 ## Summary
 ---
 Allows you to overload your game, causing many other glitches

@@ -10,9 +10,9 @@ aliases: ["wireless-energy"]
 tags: ["equipment", "culling", "ultrahand", "shield"]
 ---
 
-# Wireless Energy `WE` `PQ5`
+# Wireless Energy `WE`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
-
+`PQ5`
 ## Summary
 ---
 Creates a wireless connection to a culled battery. By attaching a dragon part to the battery shield, you can increase the range up to 2000m.

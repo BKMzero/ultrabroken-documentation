@@ -10,9 +10,9 @@ aliases: ["jumpslash cancel", "jump slash", "jumpslash", "jump-slash", "jump sla
 tags: ["animation", "equipment", "shield"]
 ---
 
-# Jumpslash Canceling `JSC` `WMG`
+# Jumpslash Canceling `JSC`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`WMG`
 ## Summary
 ---
 Interrupt jumpslashes by swapping a shield mid-animation

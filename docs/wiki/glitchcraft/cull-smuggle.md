@@ -10,9 +10,9 @@ aliases: ["cull-smuggle"]
 tags: ["zuggling", "equipment", "culling", "fuse"]
 ---
 
-# Cull Smuggle `CSMU` `JAP`
+# Cull Smuggle `CSMU`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`JAP`
 ## Summary
 ---
 Allows any equipment that can be fuse entangled to be smuggled using margin culling.

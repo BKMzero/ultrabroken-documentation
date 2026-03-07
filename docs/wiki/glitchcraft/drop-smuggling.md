@@ -10,9 +10,9 @@ aliases: ["drop-smuggling"]
 tags: ["zuggling", "item", "equipment"]
 ---
 
-# Drop Smuggling `DS` `CVH`
+# Drop Smuggling `DS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
-
+`CVH`
 ## Summary
 ---
 Trick the game into thinking a weapon is both dropped and equiped at the same time, leading to strange behaviors.

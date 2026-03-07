@@ -10,9 +10,9 @@ aliases: ["autobuild-duplication"]
 tags: ["duplication", "item", "ultrahand", "autobuild"]
 ---
 
-# Autobuild Duplication `ABD` `BJ0`
+# Autobuild Duplication `ABD`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
-
+`BJ0`
 ## Summary
 ---
 Allows you to dupe materials that change into other materials in other temperature. (For example raw meat.)

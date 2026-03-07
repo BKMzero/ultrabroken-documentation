@@ -10,9 +10,9 @@ aliases: ["quick-smuggling"]
 tags: ["zuggling", "equipment", "arrow"]
 ---
 
-# Quick Smuggling `QS` `2D4`
+# Quick Smuggling `QS`
 `1.2.0`
-
+`2D4`
 ## Summary
 ---
 Allows for easy and quick smuggling of any equipment, including arrow smuggle.

@@ -10,9 +10,9 @@ aliases: ["autobuild-storage"]
 tags: ["storage", "item", "autobuild"]
 ---
 
-# Autobuild Storage `ABST` `W0E`
+# Autobuild Storage `ABST`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`W0E`
 ## Summary
 ---
 Allows you to manually delay the instance of items being attached with Autobuild.

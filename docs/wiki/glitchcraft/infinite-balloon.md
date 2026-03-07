@@ -10,9 +10,9 @@ aliases: ["infinite-balloon"]
 tags: ["ultrahand"]
 ---
 
-# Infinite Balloon `IBAL` `ZBB`
+# Infinite Balloon `IBAL`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`ZBB`
 ## Summary
 ---
 Steal Robbie's balloon which will never deplete.

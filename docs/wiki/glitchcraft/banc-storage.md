@@ -10,9 +10,9 @@ aliases: ["banc-storage"]
 tags: ["storage", "warping", "save-load", "bloodmoon"]
 ---
 
-# Banc Storage `BS` `FD4`
+# Banc Storage `BS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`FD4`
 ## Summary
 ---
 Using memory interrupt, it's possible to store a banc change (shrine entry/exit, warp, panic blood moon, etc) to another save file.

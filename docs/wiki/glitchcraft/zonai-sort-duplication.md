@@ -10,9 +10,9 @@ aliases: ["zonai-sort-duplication"]
 tags: ["duplication", "menu", "zonai"]
 ---
 
-# Zonai Sort Duplication `ZSD` `KVB`
+# Zonai Sort Duplication `ZSD`
 `1.0.0` `1.1.0` `1.1.1`
-
+`KVB`
 ## Summary
 ---
 Allows you to dupe zonai parts back into your inventory.

@@ -10,9 +10,9 @@ aliases: ["save load dupe", "save/load dupe"]
 tags: ["culling", "save-load", "ultrahand"]
 ---
 
-# Persistent Save Load Object Transfer `PSLOT` `BOF`
+# Persistent Save Load Object Transfer `PSLOT`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`BOF`
 ## Summary
 ---
 Allows objects to go through saves by permanently culling their FE bases (parents). Unlike ZLOT, PSLOT can only be cancelled by destroying the object being transferred or closing the game.

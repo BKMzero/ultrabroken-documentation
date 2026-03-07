@@ -10,9 +10,9 @@ aliases: ["throw-cancelling"]
 tags: ["animation"]
 ---
 
-# Throw Cancelling `TC` `TK3`
+# Throw Cancelling `TC`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`TK3`
 ## Summary
 ---
 Allows you to cancel the ending animation of throwing via Runes, allowing you to throw faster

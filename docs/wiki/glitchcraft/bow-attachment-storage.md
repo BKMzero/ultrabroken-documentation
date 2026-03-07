@@ -10,9 +10,9 @@ aliases: ["bow-attachment-storage"]
 tags: ["storage", "item", "fuse", "bow"]
 ---
 
-# Bow Attachment Storage `BAS` `V84`
+# Bow Attachment Storage `BAS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`V84`
 ## Summary
 ---
 You can store the bow fuse by dropping the bow during the bow fuse and interupting it with throw aim or a jump slash.

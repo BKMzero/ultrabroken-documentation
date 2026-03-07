@@ -10,9 +10,9 @@ aliases: ["remote-arrow-trap"]
 tags: ["arrow"]
 ---
 
-# Remote Arrow `RAT` `ZJF`
+# Remote Arrow `RAT`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0`
-
+`ZJF`
 ## Summary
 ---
 Allows you to fire arrows remotely from the location the glitch was set up in.

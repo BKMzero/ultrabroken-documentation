@@ -10,9 +10,9 @@ aliases: ["mass-amnesia"]
 tags: ["Unknown"]
 ---
 
-# Mass Amnesia `MA` `MLG`
+# Mass Amnesia `MA`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
-
+`MLG`
 ## Summary
 ---
 Freezes objects in a state where gravity does not affect them, as long as they are not messed with by any means.

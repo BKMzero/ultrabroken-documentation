@@ -10,9 +10,9 @@ aliases: []
 tags: ["equipment", "culling", "fuse", "shield"]
 ---
 
-# Zapshield `ZAPSH` `7F7`
+# Zapshield `ZAPSH`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`7F7`
 ## Summary
 ---
 Fuse entangling a shock emitter to two shields and permaculling one of its FE bases results in a permanently electrified shield which makes applications involving shock more portable.

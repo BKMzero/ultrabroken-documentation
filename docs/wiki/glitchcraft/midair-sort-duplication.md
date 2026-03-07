@@ -10,9 +10,9 @@ aliases: ["midair sort duplication", "midair-sort-duplication"]
 tags: ["duplication", "menu", "item", "paraglide"]
 ---
 
-# Midair Sort Duplication `MSD` `8MN`
+# Midair Sort Duplication `MSD`
 `1.0.0` `1.1.0` `1.1.1`
-
+`8MN`
 ## Summary
 ---
 Allows duplication of materials while midair.

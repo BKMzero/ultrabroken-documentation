@@ -10,9 +10,9 @@ aliases: ["double tulin", "double-tulin-boost"]
 tags: ["tulin"]
 ---
 
-# Double Tulin Boost `DTB` `A17`
+# Double Tulin Boost `DTB`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
-
+`A17`
 ## Summary
 ---
 Allows you to get more speed with tulin than just normal tulin (isnt' as effective as tulin pumping)

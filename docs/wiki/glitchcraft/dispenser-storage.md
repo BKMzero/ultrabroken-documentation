@@ -10,9 +10,9 @@ aliases: ["dispenser-storage"]
 tags: ["storage", "item", "ultrahand", "zonai"]
 ---
 
-# Dispenser Storage `DISP` `DSTR` `F8J`
+# Dispenser Storage `DISP` `DSTR`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`F8J`
 ## Summary
 ---
 Allows you to use zonai device dispensers as a temporary means to store items and bypass the 21 ground items limit.

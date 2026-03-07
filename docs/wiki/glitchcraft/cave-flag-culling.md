@@ -10,9 +10,9 @@ aliases: ["cave-flag-culling"]
 tags: ["duplication", "culling", "overload"]
 ---
 
-# Cave Flag Culling `CFC` `YK3`
+# Cave Flag Culling `CFC`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`YK3`
 ## Summary
 ---
 For certain caves (like Pondside Cave), the game checks every object and determines if they belong to inside or outside the cave, and all objects with the outside value culls when Link is inside the cave.

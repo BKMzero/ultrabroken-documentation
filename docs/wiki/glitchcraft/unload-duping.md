@@ -10,9 +10,9 @@ aliases: ["unload-duping"]
 tags: ["duplication", "item", "culling", "fuse", "bow", "arrow"]
 ---
 
-# Unload Duping `UD` `3HJ`
+# Unload Duping `UD`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
-
+`3HJ`
 ## Summary
 ---
 By firing arrows between load triggers, items fused to the arrows get dropped. Allowing you to dupe items with multi-shot bows.

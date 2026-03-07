@@ -10,9 +10,9 @@ aliases: ["texture-tearing"]
 tags: ["oob", "menu", "equipment", "overload"]
 ---
 
-# Texture Tearing `TT` `11M`
+# Texture Tearing `TT`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`11M`
 ## Summary
 ---
 During Menu Overload via Moobe, textures can be loaded incorrectly, broken, or even adopted from the enviroment/other equipment. Resulting in interesting visual effects and unique appearences of hair, armor, and equipment.

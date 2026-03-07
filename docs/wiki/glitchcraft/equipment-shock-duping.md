@@ -10,9 +10,9 @@ aliases: ["equipment-shock-duping"]
 tags: ["duplication", "item", "equipment"]
 ---
 
-# Equipment Shock Duping `ESD` `DBF`
+# Equipment Shock Duping `ESD`
 `1.0.0`
-
+`DBF`
 ## Summary
 ---
 Droping a recently equipped weapon shortly before shock dropping it, can cause a dupe.

@@ -10,9 +10,9 @@ aliases: ["jumpslash-cancel-clipping"]
 tags: ["clipping", "animation"]
 ---
 
-# Jumpslash Cancel Clipping `JCC` `51R`
+# Jumpslash Cancel Clipping `JCC`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`51R`
 ## Summary
 ---
 Allows for clipping through thin ceilings.

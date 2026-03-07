@@ -10,9 +10,9 @@ aliases: ["menu-overload"]
 tags: ["oob", "menu", "item", "overload"]
 ---
 
-# Menu Overload `MO` `BK4`
+# Menu Overload `MO`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`BK4`
 ## Summary
 ---
 Overloads the item menu via Moobe, acting similarly to menu overload in BOTW

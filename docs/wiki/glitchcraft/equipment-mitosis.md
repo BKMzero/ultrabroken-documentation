@@ -10,9 +10,9 @@ aliases: ["equipment-mitosis"]
 tags: ["duplication", "zuggling", "equipment", "overload"]
 ---
 
-# Equipment Mitosis `EM` `NZB`
+# Equipment Mitosis `EM`
 `1.0.0`
-
+`NZB`
 ## Summary
 ---
 By combining zuggle overload with 1.0 modifier deletion, it is possible to mass dupe equipment

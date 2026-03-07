@@ -10,9 +10,9 @@ aliases: ["hydro-clipping"]
 tags: ["clipping", "storage", "equipment", "shield"]
 ---
 
-# Hydro Clipping `HC` `LYO`
+# Hydro Clipping `HC`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`LYO`
 ## Summary
 ---
 Using  guardless active shield or throwless storage on a hydrant shield (FED to a weapon) can cause link and enemies to clip through the ground. It can also force panic blood moons

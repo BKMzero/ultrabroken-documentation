@@ -10,9 +10,9 @@ aliases: ["recall clip", "recall-clip glitch", "recall-clip", "recallclip"]
 tags: ["clipping", "ultrahand", "recall"]
 ---
 
-# Recall Clip `RC` `VDU`
+# Recall Clip `RC`
 `1.0.0` `1.1.0` `1.1.1`
-
+`VDU`
 ## Summary
 ---
 Allows you to clip through things using a large object and recall

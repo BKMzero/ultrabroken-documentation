@@ -10,9 +10,9 @@ aliases: ["reverse-ascend-storage"]
 tags: ["storage", "ascend"]
 ---
 
-# Reverse Ascend Storage `RAS` `70D`
+# Reverse Ascend Storage `RAS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`70D`
 ## Summary
 ---
 Ascending through water under a platform allows link to ascend up into the sky, provided that there is ground above him. The limit for this seems to be around 700 meters.

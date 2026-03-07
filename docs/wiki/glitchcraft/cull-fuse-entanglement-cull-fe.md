@@ -10,9 +10,9 @@ aliases: ["cull-fuse-entanglement"]
 tags: ["entanglement", "culling", "fuse"]
 ---
 
-# Cull Fuse Entanglement `CFE` `7VW`
+# Cull Fuse Entanglement `CFE`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`7VW`
 ## Summary
 ---
 Allows you to Fuse Entangle objects by culling Link the same frame the fuse is applied.

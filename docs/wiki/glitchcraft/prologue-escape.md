@@ -10,9 +10,9 @@ aliases: ["prologue-escape"]
 tags: ["duplication", "storage"]
 ---
 
-# Prologue Escape `PE` `F4G`
+# Prologue Escape `PE`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1`
-
+`F4G`
 ## Summary
 ---
 Using Banc Storage, it's possible to get Link out of the prologue, allowing for a lot of side effects.

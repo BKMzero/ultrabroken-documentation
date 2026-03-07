@@ -10,9 +10,9 @@ aliases: ["cull-zone-culling"]
 tags: ["culling"]
 ---
 
-# Cull Zone Culling `CZC` `RID`
+# Cull Zone Culling `CZC`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`RID`
 ## Summary
 ---
 A method for object culling.

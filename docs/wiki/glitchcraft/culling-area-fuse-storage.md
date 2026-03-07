@@ -10,7 +10,7 @@ aliases: ["culling-area-fuse-storage"]
 tags: ["storage", "culling", "fuse"]
 ---
 
-# Culling Area Fuse Storage `CAFS` `ERN`
+# Culling Area Fuse Storage `CAFS`
 _Mozz, pyuk - 30 June 2023_
 
 ## Summary
@@ -18,7 +18,7 @@ _Mozz, pyuk - 30 June 2023_
 A method of Fuse Storage using Area Culling
 
 `?`
-
+`ERN`
 ## Instructions
 ---
 —

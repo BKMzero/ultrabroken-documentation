@@ -10,9 +10,9 @@ aliases: ["mount-lock"]
 tags: ["ultrahand"]
 ---
 
-# Mount Lock `ML` `540`
+# Mount Lock `ML`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`540`
 ## Summary
 ---
 Dismounting a steering stick on the same frame that a temple discovery cutscene is played causes Link to be stuck to the steering stick while standing on it, allowing him to perform actions that would otherwise be impossible while mounted.

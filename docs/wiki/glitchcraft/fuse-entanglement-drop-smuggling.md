@@ -10,9 +10,9 @@ aliases: ["fuse-entanglement-drop-smuggling"]
 tags: ["zuggling", "item", "equipment", "entanglement", "fuse"]
 ---
 
-# Fuse Entanglement Drop Smuggling `FEDS` `N1T`
+# Fuse Entanglement Drop Smuggling `FEDS`
 `1.2.0`
-
+`N1T`
 ## Summary
 ---
 Allows for Drop Smuggling of Fuse Entangled Equipment. Can be used for GAS and Double-FE on 1.2.0

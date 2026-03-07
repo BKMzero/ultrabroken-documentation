@@ -10,9 +10,9 @@ aliases: ["arrow-unlink"]
 tags: ["fuse", "arrow"]
 ---
 
-# Arrow Unlink `AUL` `HW8`
+# Arrow Unlink `AUL`
 `1.0.0`
-
+`HW8`
 ## Summary
 ---
 makes arrow float away allowing you to spawn fused stuff in other loactions

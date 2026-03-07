@@ -10,9 +10,9 @@ aliases: ["model-teleport-desync"]
 tags: ["desync", "warping"]
 ---
 
-# Model Teleport Desync `MTPD` `XN2`
+# Model Teleport Desync `MTPD`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`XN2`
 ## Summary
 ---
 This allows for invisibility, model desyncing when gliding, staggering when getting hit to prevent ragdoll, without the previous method that required you to overload.

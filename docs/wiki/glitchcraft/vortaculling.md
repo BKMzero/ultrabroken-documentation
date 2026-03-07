@@ -10,9 +10,9 @@ aliases: ["vortacull", "vortaculling"]
 tags: ["culling"]
 ---
 
-# Vortaculling `VC` `X06`
+# Vortaculling `VC`
 `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`X06`
 ## Summary
 ---
 Placing an sdc stick in a culling area as well as blown upon by a vortex of wind allows for an FE-compatible cull which can be triggered, on-demand, by portaculling w/ the vortacull parent item. 

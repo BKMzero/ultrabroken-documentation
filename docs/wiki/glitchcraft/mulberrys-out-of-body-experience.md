@@ -10,9 +10,9 @@ aliases: ["mulberry's-out-of-body-experience"]
 tags: ["warping", "movement"]
 ---
 
-# mulberry's Out of Body Experience `MOOBE` `00I`
+# mulberry's Out of Body Experience `MOOBE`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`00I`
 ## Summary
 ---
 Temporarily warps Link to a previous climbing position from anywhere in the world, only while the game is paused.

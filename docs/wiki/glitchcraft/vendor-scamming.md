@@ -10,9 +10,9 @@ aliases: ["vendor-scamming"]
 tags: ["zuggling", "storage", "item"]
 ---
 
-# Vendor Scamming `VS` `94V`
+# Vendor Scamming `VS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0`
-
+`94V`
 ## Summary
 ---
 Allows you to infinitely sell items to (steal from) a vendor using Hold Storage/Smuggling.

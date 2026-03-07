@@ -10,9 +10,9 @@ aliases: ["recall-sluggle"]
 tags: ["zuggling", "menu", "recall"]
 ---
 
-# Recall Sluggle `RSL` `WXE`
+# Recall Sluggle `RSL`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
-
+`WXE`
 ## Summary
 ---
 Using recall it's possible to sluggle a weapon by having access to it in the menu before it's properly equipped.

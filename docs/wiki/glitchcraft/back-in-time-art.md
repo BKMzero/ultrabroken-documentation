@@ -10,9 +10,9 @@ aliases: ["back-in-time-art"]
 tags: ["save-load"]
 ---
 
-# Back-in-Time Art `BIT` `4O8`
+# Back-in-Time Art `BIT`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`4O8`
 ## Summary
 ---
 Transfers the picture in Link's House to a previous save. Is also capable of transferring compendium pictures.

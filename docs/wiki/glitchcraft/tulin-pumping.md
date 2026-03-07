@@ -10,9 +10,9 @@ aliases: ["pump tulin", "tulin pump", "tulin-pump", "tulin-pumping", "tulinpump"
 tags: ["tulin"]
 ---
 
-# Tulin Pumping `TUP` `75S`
+# Tulin Pumping `TUP`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`75S`
 ## Summary
 ---
 Preserves the initial boost of tulin

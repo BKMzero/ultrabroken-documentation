@@ -10,9 +10,9 @@ aliases: ["throwless-storage"]
 tags: ["storage", "zonai"]
 ---
 
-# Throwless Storage `THS` `OL9`
+# Throwless Storage `THS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0`
-
+`OL9`
 ## Summary
 ---
 Makes it so that Link puts the weapon in an active state (allows for activation of Zonai Devices at all times).

@@ -10,9 +10,9 @@ aliases: ["null-dropping"]
 tags: ["menu", "item", "zuggling"]
 ---
 
-# Null Dropping `ND` `IWQ`
+# Null Dropping `ND`
 `1.0.0`
-
+`IWQ`
 ## Summary
 ---
 Displays a glitched and empty chest quickmenu.

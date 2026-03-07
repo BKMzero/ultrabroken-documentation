@@ -10,9 +10,9 @@ aliases: ["weapon-stand-dynamic-zuggle"]
 tags: ["zuggling", "weapon", "item", "equipment"]
 ---
 
-# Weapon Stand Dynamic Zuggle `WSDZ` `1PY`
+# Weapon Stand Dynamic Zuggle `WSDZ`
 `1.0.0`
-
+`1PY`
 ## Summary
 ---
 Weapon stands force equip with a little delay on 1.0, making it possible to dynamic zuggle with them

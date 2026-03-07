@@ -10,13 +10,13 @@ aliases: ["cull-cold-fuse"]
 tags: ["weapon", "culling", "ultrahand", "fuse"]
 ---
 
-# Cull Cold Fuse `CCF` `KXM`
+# Cull Cold Fuse `CCF`
 _mulberry - 1 February 2024_
 
 ## Summary
 ---
 `?`
-
+`KXM`
 ## Instructions
 ---
 1. place object in tarrey town culling area

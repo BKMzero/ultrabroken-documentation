@@ -10,9 +10,9 @@ aliases: ["fuse-entanglement"]
 tags: ["equipment", "entanglement", "fuse", "shield"]
 ---
 
-# Fuse Entanglement `FE` `K4F`
+# Fuse Entanglement `FE`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`K4F`
 ## Summary
 ---
 Allows your shield to have an effect on an object as though it is fused to the shield, despite the object existing in the world and not being tethered to your shield.

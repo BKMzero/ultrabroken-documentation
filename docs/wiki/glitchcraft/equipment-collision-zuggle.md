@@ -10,9 +10,9 @@ aliases: ["equipment-collision-zuggle"]
 tags: ["zuggling", "equipment", "item", "shield"]
 ---
 
-# Equipment Collision Zuggle `ECZ` `8FK`
+# Equipment Collision Zuggle `ECZ`
 `1.0.0` `1.1.0` `1.1.1`
-
+`8FK`
 ## Summary
 ---
 The original zuggle method discovered by Zvleon.

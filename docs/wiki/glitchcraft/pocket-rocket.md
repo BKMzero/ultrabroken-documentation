@@ -10,9 +10,9 @@ aliases: ["pocket-rocket"]
 tags: ["launching", "equipment", "paraglide", "shield"]
 ---
 
-# Pocket Rocket `PR` `1OP`
+# Pocket Rocket `PR`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`1OP`
 ## Summary
 ---
 Allows for repeated boost from a midair rocket shield surf, making it a very good movement option.

@@ -10,9 +10,9 @@ aliases: ["stick-desync-clip"]
 tags: ["clipping", "desync", "item", "equipment", "fuse", "shield"]
 ---
 
-# Stick Desync Clip `SDC` `L54`
+# Stick Desync Clip `SDC`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`L54`
 ## Summary
 ---
 By dropping a shield just before mounting a steering stick that is fuse entangled to it, we can clip through floors easily.

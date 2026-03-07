@@ -10,9 +10,9 @@ aliases: ["cull-pickup-dynamic-zuggle"]
 tags: ["zuggling", "item", "culling"]
 ---
 
-# Cull Pickup Dynamic Zuggle `CPDZ` `KID`
+# Cull Pickup Dynamic Zuggle `CPDZ`
 `1.0.0` `1.1.0` `1.1.1`
-
+`KID`
 ## Summary
 ---
 Picking up a thrown boomerang on the same frame that it culls can lead to dynamic zuggle

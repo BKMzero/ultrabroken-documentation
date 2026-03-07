@@ -10,9 +10,9 @@ aliases: []
 tags: ["zuggling", "equipment", "culling"]
 ---
 
-# Slugging `SLG` `0QL`
+# Slugging `SLG`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`0QL`
 ## Summary
 ---
 Allows Link to hold an unloaded piece of equipment using a like like. This also causes the item to share a relation with the like like, allowing for many glitches

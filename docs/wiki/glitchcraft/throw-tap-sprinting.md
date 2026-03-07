@@ -10,9 +10,9 @@ aliases: ["throw tap", "throw-tap", "throw-tap-sprinting"]
 tags: ["sprinting"]
 ---
 
-# Throw Tap Sprinting `TTS` `QME`
+# Throw Tap Sprinting `TTS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`QME`
 ## Summary
 ---
 _Deystroyer, Tauktes - 14 May 2023_

@@ -10,9 +10,9 @@ aliases: ["bundled-item-duplication"]
 tags: ["duplication", "item", "culling"]
 ---
 
-# Bundled Item Duplication `BID` `099`
+# Bundled Item Duplication `BID`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`099`
 ## Summary
 ---
 Culling dropping an item in a specific way and unloading it causes it to get put into a state of constantly respawning when holding another item, allowing for massive duping.

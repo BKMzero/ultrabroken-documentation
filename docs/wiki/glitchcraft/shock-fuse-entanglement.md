@@ -10,9 +10,9 @@ aliases: ["shock-fuse-entanglement"]
 tags: ["zuggling", "item", "entanglement", "fuse"]
 ---
 
-# Shock Fuse Entanglement `SFE` `ERF`
+# Shock Fuse Entanglement `SFE`
 `1.0.0`
-
+`ERF`
 ## Summary
 ---
 Interrupting a fuse to a zuggled item causes FE

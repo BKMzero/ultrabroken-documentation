@@ -10,9 +10,9 @@ aliases: ["anti gravity", "anti gravity glitch", "anti-gravity-glitch", "antigra
 tags: ["paraglide"]
 ---
 
-# Anti-Gravity Glitch `AGG` `PEY`
+# Anti-Gravity Glitch `AGG`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
-
+`PEY`
 ## Summary
 ---
 After a specific cutscene, Link is stuck airborne when attempting to descend

@@ -10,9 +10,9 @@ aliases: ["anti-gravity-objects"]
 tags: ["ultrahand"]
 ---
 
-# Anti-Gravity Objects `AGO` `9WZ`
+# Anti-Gravity Objects `AGO`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
-
+`9WZ`
 ## Summary
 ---
 Allows objects to lose their gravity.

@@ -10,9 +10,9 @@ aliases: ["arrow-prompt-storage"]
 tags: ["storage", "culling", "arrow"]
 ---
 
-# Arrow Prompt Storage `APS` `3ME`
+# Arrow Prompt Storage `APS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`3ME`
 ## Summary
 ---
 Allows storage of the arrow prompt and can be given multiple times via an enemy shooting their unloaded arrow.

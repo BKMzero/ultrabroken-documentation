@@ -10,9 +10,9 @@ aliases: ["cull-storage"]
 tags: ["storage", "culling"]
 ---
 
-# Cull Storage `CSTR` `7A4`
+# Cull Storage `CSTR`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`7A4`
 ## Summary
 ---
 Culling and unculling an sdc stick in a specific way allows you to store its cull.

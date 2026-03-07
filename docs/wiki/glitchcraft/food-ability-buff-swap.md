@@ -10,9 +10,9 @@ aliases: ["food-ability-buff-swap"]
 tags: ["cooking", "item", "buff", "zuggling"]
 ---
 
-# Food Ability Buff Swap `FABS` `U0U`
+# Food Ability Buff Swap `FABS`
 `1.0.0` `1.1.0` `1.1.1`
-
+`U0U`
 ## Summary
 ---
 Allows you to get roasted food (stackable) with a food effect

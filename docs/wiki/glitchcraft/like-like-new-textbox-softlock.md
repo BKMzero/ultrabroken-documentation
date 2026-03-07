@@ -10,9 +10,9 @@ aliases: ["like-like-new-textbox-softlock"]
 tags: ["item", "like-like", "zuggling"]
 ---
 
-# Like Like New Textbox Softlock `LLTS` `8TU`
+# Like Like New Textbox Softlock `LLTS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
-
+`8TU`
 ## Summary
 ---
 Picking up a new item while it gets eaten by a like like softlocks the game

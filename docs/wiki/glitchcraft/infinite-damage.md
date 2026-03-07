@@ -10,9 +10,9 @@ aliases: ["infinite dmg", "infinite hp damage", "infinite-damage"]
 tags: ["damage"]
 ---
 
-# Infinite Damage `IDMG` `BVJ`
+# Infinite Damage `IDMG`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
-
+`BVJ`
 ## Summary
 ---
 Damage repeats infinitely during spin attack.

@@ -10,9 +10,9 @@ aliases: ["overload-at-home"]
 tags: ["zuggling", "culling", "overload"]
 ---
 
-# Overload at Home `OAH` `7S4`
+# Overload at Home `OAH`
 `1.2.0` `1.2.1`
-
+`7S4`
 ## Summary
 ---
 By repeatedly culling Link while lifting an object during house building, it's possible to achieve an effect similar to zuggle overload

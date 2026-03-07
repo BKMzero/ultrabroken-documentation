@@ -10,9 +10,9 @@ aliases: ["zuggle stacking", "zuggle stack", "smuggle-stacking-zuggle"]
 tags: ["zuggling", "item", "equipment", "shield", "bow"]
 ---
 
-# Smuggle Stacking Zuggle `SSZ` `DN4`
+# Smuggle Stacking Zuggle `SSZ`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
-
+`DN4`
 ## Summary
 ---
 Allows to zuggle bows and shields in version 1.1.2. Weapon zuggle on 1.1.2 is a little bit more complicated. Check the next glitch (FEZ) for that.

@@ -10,9 +10,9 @@ aliases: ["equipment-smuggle"]
 tags: ["zuggling", "menu", "item", "equipment"]
 ---
 
-# Equipment Smuggle `ESMU` `A9N`
+# Equipment Smuggle `ESMU`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`A9N`
 ## Summary
 ---
 An equipment state where items remain equipped in Link's hands after being removed from the inventory

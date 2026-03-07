@@ -10,9 +10,9 @@ aliases: ["new-item-desync"]
 tags: ["duplication", "desync", "menu", "item", "equipment", "fuse"]
 ---
 
-# New Item Desync `NID` `MRB`
+# New Item Desync `NID`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`MRB`
 ## Summary
 ---
 Desyncs equipment after sorting a new item pickup, allowing for single use duplication, durability transfer, and transfering fused items.

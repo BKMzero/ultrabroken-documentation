@@ -10,9 +10,9 @@ aliases: ["culling-area-fuse-storage-fuse-entanglement"]
 tags: ["storage", "entanglement", "culling", "fuse"]
 ---
 
-# Culling Area Fuse Storage Fuse Entanglement `CFSFE` `IFQ`
+# Culling Area Fuse Storage Fuse Entanglement `CFSFE`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`IFQ`
 ## Summary
 ---
 A method for FSFE using Area Culling.

@@ -10,9 +10,9 @@ aliases: ["weather-amnesia"]
 tags: ["environment"]
 ---
 
-# Weather Amnesia `WA` `UR8`
+# Weather Amnesia `WA`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
-
+`UR8`
 ## Summary
 ---
 Viewing a memory near a cave will overwrite its local weather with the overworld's weather.
