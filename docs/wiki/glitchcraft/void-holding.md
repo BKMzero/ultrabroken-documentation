@@ -5,7 +5,7 @@ label: "VH"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Lightos"]
 date: "2023-06-10"
-description: "Allows you to hold materials \"whenever you want\" as long as you are at a low enough Y coordinate"
+description: "Allows you to hold materials \"whenever you want\" as long as you are at a low enough Y coordinate."
 aliases: ["void-holding"]
 tags: ["item"]
 ---
@@ -15,7 +15,7 @@ tags: ["item"]
 
 ## Summary
 ---
-Allows you to hold materials "whenever you want" as long as you are at a low enough Y coordinate
+Allows you to hold materials "whenever you want" as long as you are at a low enough Y coordinate.
 
 _Lightos_ - 10 June 2023_
 
