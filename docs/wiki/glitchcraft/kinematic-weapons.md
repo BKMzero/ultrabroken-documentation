@@ -34,7 +34,7 @@ _mulberry, dt13269; Optimization by mulberry - 25 February 2026_
     8. Load a save
     9. Either detangle out of weapon range or drop the zuggle and octo detangle it
 
-=== "Extension: DI PSLOTted Kinematic Weapon setup"
+=== "DI PSLOTted Kinematic Weapon setup"
     1. Zuggle a DI ghost shield
     2. Overload pick up a kinematic weapon
     3. Fail drop and drop the kinematic weapon out of range
