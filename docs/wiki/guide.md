@@ -2,12 +2,15 @@
 
 This page provides a comprehensive guide for editors contributing to the Ultrabroken Archives written in Markdown and published with MkDocs + Material. It covers contribution workflows, conventions, custom site features, and all active Markdown extensions.
 
-## Community & Contribution Guidelines
+!!! abstract "Quick Navigation"
+    [Contributing](#contributing) · [Frontmatter Reference](#frontmatter-reference) · [Site-Specific Features](#site-specific-features) · [Markdown Reference](#markdown-reference) · [Quick Reference](#quick-reference) · [See Also](#see-also)
+
+## Contributing
 ---
 
 This is a community project — everyone is welcome to contribute even without a GitHub account. Join the discussion and post your discoveries in our **[dedicated Encyclopedia thread](https://discord.com/channels/1086729144307564648/1471224902890684557)** on the **[TotK Speedrunning Discord](https://discord.gg/xM8NnTetb2)**.
 
-### Navigation and where to edit
+### Where to Edit
 
 - Top-level docs live in the [`docs/wiki/`](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/docs/wiki) folder. Edit Markdown files directly.
 - Put your WIPs into the dedicated `docs/wiki/_wip/` folder. Download `_wip/blank.md` if you need a starting point.
@@ -21,14 +24,12 @@ This is a community project — everyone is welcome to contribute even without a
 3. Make your edits, add a concise commit message, and commit directly to "main" (or open a Pull Request).
 4. After committing, it takes around two minutes for the page to build. Wait until it finishes before making the next commit.
 
-### Editing & Style Best Practices
+### Style Best Practices
 
 - Write in the present tense and keep instructions concise.
 - Keep steps as granular as possible. Extract pausing / unpausing into dedicated steps with **bold** styling.
 - Avoid abbreviations in titles or filenames for easy parsing.
 - Put image files in [`docs/assets/images/`](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/docs/assets/images).
-
-### Markdown Extension Best Practices
 - **Use Admonitions** for important callouts (notes, warnings, tips).
 - **Prefer collapsible Details** only when content is optional or supplementary.
 - **Leverage code block titles** to label examples.
@@ -36,21 +37,11 @@ This is a community project — everyone is welcome to contribute even without a
 - **Use Def Lists** for glossaries and terminology sections.
 - **Tab related content** to keep pages more scannable.
 - **Nest extensions** appropriately (e.g., code blocks inside admonitions).
-
-### Level-2 Separation
-
-Place `---` after `##` headings for visual consistency:
-
-```markdown
-## Instructions
----
-```
+- Place `---` after `##` headings for visual consistency.
 
 ### Relative Linking
 
-Prefer **relative links** for cross-references to other markdown pages or images inside the wiki. MkDocs verifies these during the build process to prevent broken links and it ensures links still work correctly across forks. 
-
-A relative link resolves the path based on the current markdown file's location inside the folder structure. Use `../` to climb one directory higher up.
+Prefer **relative links** for cross-references to other markdown pages or images inside the wiki. MkDocs verifies these during the build process to prevent broken links and it ensures links still work correctly across forks. A relative link resolves the path based on the current markdown file's location inside the folder structure. Use `../` to climb one directory higher up.
 
 - To link a file in the **same folder**: `[Link Text](other-file.md)`
 - To link a file in a **subdirectory**: `[Link Text](subfolder/other-file.md)`
@@ -93,12 +84,12 @@ tags: ["zuggling", "overload"]
 
 ```
 
-## Custom Site Features
+## Site-Specific Features
 ---
 
 These are site-specific enhancements beyond standard Markdown.
 
-### Search links
+### Search Links
 
 Links prefixed with `search:` open the site search overlay with the query pre-filled instead of navigating away.
 
@@ -112,7 +103,7 @@ Links prefixed with `search:` open the site search overlay with the query pre-fi
 
 [Slugging](search:Slugging)
 
-### Map embeds
+### Map Embeds
 
 Embed interactive [TotK Object Map](https://objmap-totk.zeldamods.org/) previews using coordinate shorthand.
 
@@ -145,10 +136,12 @@ Credit names in frontmatter are automatically aggregated into the leaderboard. N
 
 **Names must match exactly** — mismatched capitalization or spelling prevents autolinking and splits leaderboard entries.
 
-## Markdown Basics
+## Markdown Reference
 ---
 
-Standard Markdown syntax reference.
+<details>
+<summary>Basics — click to expand</summary>
+<div markdown="1">
 
 ### Headings
 
@@ -278,10 +271,8 @@ Some text
 |-|-|
 | Value 1  | Value 2  |
 
-## Markdown Extensions
----
-
-This site uses customized extensions to enhance standard Markdown. Each extension includes syntax and a rendered example.
+</div>
+</details>
 
 ### Admonition
 
@@ -519,233 +510,253 @@ Creates tabs for organizing related content groups.
 
     This is alternative approach B.
 
-### Mermaid Flowchart
+### Diagrams
 
-Shows decision flows and process steps with nodes and connections.
+=== "Flowchart"
 
-#### Syntax
+    Shows decision flows and process steps with nodes and connections.
 
-````markdown
-```mermaid
-graph TD
-    A["Glitch<br/>discovery"] --> B{New?}
-    B -->|Yes| C[Archive]
-    B -->|No| D[T-Pose]
-    C --> E[End]
-    D --> E
-```
-````
+    #### Syntax
 
-#### Example
+    ````markdown
+    ```mermaid
+    graph TD
+        A["Glitch<br/>discovery"] --> B{New?}
+        B -->|Yes| C[Archive]
+        B -->|No| D[T-Pose]
+        C --> E[End]
+        D --> E
+    ```
+    ````
 
-```mermaid
-graph TD
-    A["Glitch<br/>discovery"] --> B{New?}
-    B -->|Yes| C[Archive]
-    B -->|No| D[T-Pose]
-    C --> E[End]
-    D --> E
-```
+    #### Example
 
-### Mermaid Sequence Diagram
+    ```mermaid
+    graph TD
+        A["Glitch<br/>discovery"] --> B{New?}
+        B -->|Yes| C[Archive]
+        B -->|No| D[T-Pose]
+        C --> E[End]
+        D --> E
+    ```
 
-Shows interactions between actors or systems over time, useful for documenting workflows and protocols.
+=== "Sequence"
 
-#### Syntax
+    Shows interactions between actors or systems over time, useful for documenting workflows and protocols.
 
-````markdown
-```mermaid
-sequenceDiagram
-    participant Player as Link
-    participant Inventory
-    participant Equipment
-    Player->>Inventory: Open inventory
-    Inventory->>Equipment: Load equipment state
-    Equipment-->>Inventory: Zuggle state synced
-    Inventory-->>Player: Display synced state
-```
-````
+    #### Syntax
 
-#### Example
+    ````markdown
+    ```mermaid
+    sequenceDiagram
+        participant Player as Link
+        participant Inventory
+        participant Equipment
+        Player->>Inventory: Open inventory
+        Inventory->>Equipment: Load equipment state
+        Equipment-->>Inventory: Zuggle state synced
+        Inventory-->>Player: Display synced state
+    ```
+    ````
 
-```mermaid
-sequenceDiagram
-    participant Player as Link
-    participant Inventory
-    participant Equipment
-    Player->>Inventory: Open inventory
-    Inventory->>Equipment: Load equipment state
-    Equipment-->>Inventory: Zuggle state synced
-    Inventory-->>Player: Display synced state
-```
+    #### Example
 
-### Mermaid Class Diagram
+    ```mermaid
+    sequenceDiagram
+        participant Player as Link
+        participant Inventory
+        participant Equipment
+        Player->>Inventory: Open inventory
+        Inventory->>Equipment: Load equipment state
+        Equipment-->>Inventory: Zuggle state synced
+        Inventory-->>Player: Display synced state
+    ```
 
-Illustrates object-oriented structures, classes, and their relationships.
+=== "Class"
 
-#### Syntax
+    Illustrates object-oriented structures, classes, and their relationships.
 
-````markdown
-```mermaid
-classDiagram
-    class Glitch {
-        +string name
-        +string technique
-        +string[] versions
-        +execute()
-    }
-    class Equipment {
-        +string id
-        +int durability
-        +getState()
-    }
-    Glitch --> Equipment : affects
-```
-````
+    #### Syntax
 
-#### Example
+    ````markdown
+    ```mermaid
+    classDiagram
+        class Glitch {
+            +string name
+            +string technique
+            +string[] versions
+            +execute()
+        }
+        class Equipment {
+            +string id
+            +int durability
+            +getState()
+        }
+        Glitch --> Equipment : affects
+    ```
+    ````
 
-```mermaid
-classDiagram
-    class Glitch {
-        +string name
-        +string technique
-        +string[] versions
-        +execute()
-    }
-    class Equipment {
-        +string id
-        +int durability
-        +getState()
-    }
-    Glitch --> Equipment : affects
-```
+    #### Example
 
-### Mermaid State Diagram
+    ```mermaid
+    classDiagram
+        class Glitch {
+            +string name
+            +string technique
+            +string[] versions
+            +execute()
+        }
+        class Equipment {
+            +string id
+            +int durability
+            +getState()
+        }
+        Glitch --> Equipment : affects
+    ```
 
-Represents state transitions and conditional logic for system behavior.
+=== "State"
 
-#### Syntax
+    Represents state transitions and conditional logic for system behavior.
 
-````markdown
-```mermaid
-stateDiagram-v2
-    [*] --> Normal
-    Normal --> Desync: Trigger glitch
-    Desync --> Equipment_Cloned: Fuse cloned
-    Equipment_Cloned --> Normal: Inventory reload
-    Equipment_Cloned --> [*]
-```
-````
+    #### Syntax
 
-#### Example
+    ````markdown
+    ```mermaid
+    stateDiagram-v2
+        [*] --> Normal
+        Normal --> Desync: Trigger glitch
+        Desync --> Equipment_Cloned: Fuse cloned
+        Equipment_Cloned --> Normal: Inventory reload
+        Equipment_Cloned --> [*]
+    ```
+    ````
 
-```mermaid
-stateDiagram-v2
-    [*] --> Normal
-    Normal --> Desync: Trigger glitch
-    Desync --> Equipment_Cloned: Fuse cloned
-    Equipment_Cloned --> Normal: Inventory reload
-    Equipment_Cloned --> [*]
-```
+    #### Example
 
-### Mermaid Entity-Relationship Diagram
+    ```mermaid
+    stateDiagram-v2
+        [*] --> Normal
+        Normal --> Desync: Trigger glitch
+        Desync --> Equipment_Cloned: Fuse cloned
+        Equipment_Cloned --> Normal: Inventory reload
+        Equipment_Cloned --> [*]
+    ```
 
-Models database schemas and entity relationships.
+=== "ER Diagram"
 
-#### Syntax
+    Models database schemas and entity relationships.
 
-````markdown
-```mermaid
-erDiagram
-    GLITCH ||--o{ TECHNIQUE : has
-    GLITCH ||--o{ VERSION : supports
-    TECHNIQUE {
-        int id
-        string name
-        string description
-    }
-    VERSION {
-        string number
-        date release_date
-    }
-```
-````
+    #### Syntax
 
-#### Example
+    ````markdown
+    ```mermaid
+    erDiagram
+        GLITCH ||--o{ TECHNIQUE : has
+        GLITCH ||--o{ VERSION : supports
+        TECHNIQUE {
+            int id
+            string name
+            string description
+        }
+        VERSION {
+            string number
+            date release_date
+        }
+    ```
+    ````
 
-```mermaid
-erDiagram
-    GLITCH ||--o{ TECHNIQUE : has
-    GLITCH ||--o{ VERSION : supports
-    TECHNIQUE {
-        int id
-        string name
-        string description
-    }
-    VERSION {
-        string number
-        date release_date
-    }
-```
+    #### Example
 
-### Mermaid Gantt Chart
+    ```mermaid
+    erDiagram
+        GLITCH ||--o{ TECHNIQUE : has
+        GLITCH ||--o{ VERSION : supports
+        TECHNIQUE {
+            int id
+            string name
+            string description
+        }
+        VERSION {
+            string number
+            date release_date
+        }
+    ```
 
-Timeline visualization for project schedules and dependencies. The chart title is automatically hidden.
+=== "Gantt"
 
-#### Syntax
+    Timeline visualization for project schedules and dependencies. The chart title is automatically hidden.
 
-````markdown
-```mermaid
-gantt
-    title Chart Title (hidden)
-    dateFormat YYYY-MM-DD
-    section Phase
-    Research           :a1, 2024-01-01, 30d
-    Testing            :a2, after a1, 20d
-    Documentation      :a3, after a2, 15d
-    Publication        :crit, a4, after a3, 10d
-```
-````
+    #### Syntax
 
-#### Example
+    ````markdown
+    ```mermaid
+    gantt
+        title Chart Title (hidden)
+        dateFormat YYYY-MM-DD
+        section Phase
+        Research           :a1, 2024-01-01, 30d
+        Testing            :a2, after a1, 20d
+        Documentation      :a3, after a2, 15d
+        Publication        :crit, a4, after a3, 10d
+    ```
+    ````
 
-```mermaid
-gantt
-    title Chart Title (hidden)
-    dateFormat YYYY-MM-DD
-    section Phase
-    Research           :a1, 2024-01-01, 30d
-    Testing            :a2, after a1, 20d
-    Documentation      :a3, after a2, 15d
-    Publication        :crit, a4, after a3, 10d
-```
+    #### Example
 
-### Mermaid Pie Chart
+    ```mermaid
+    gantt
+        title Chart Title (hidden)
+        dateFormat YYYY-MM-DD
+        section Phase
+        Research           :a1, 2024-01-01, 30d
+        Testing            :a2, after a1, 20d
+        Documentation      :a3, after a2, 15d
+        Publication        :crit, a4, after a3, 10d
+    ```
 
-Displays proportional data distribution. The chart title is automatically hidden.
+=== "Pie"
 
-#### Syntax
+    Displays proportional data distribution. The chart title is automatically hidden.
 
-````markdown
-```mermaid
-pie title Chart Title (hidden)
-    "Equipment Duplication" : 35
-    "Movement Abuse" : 25
-    "Collision Exploitation" : 20
-    "Physics Exploitation" : 20
-```
-````
+    #### Syntax
 
-#### Example
+    ````markdown
+    ```mermaid
+    pie title Chart Title (hidden)
+        "Equipment Duplication" : 35
+        "Movement Abuse" : 25
+        "Collision Exploitation" : 20
+        "Physics Exploitation" : 20
+    ```
+    ````
 
-```mermaid
-pie title Chart Title (hidden)
-    "Equipment Duplication" : 35
-    "Movement Abuse" : 25
-    "Collision Exploitation" : 20
-    "Physics Exploitation" : 20
-```
+    #### Example
+
+    ```mermaid
+    pie title Chart Title (hidden)
+        "Equipment Duplication" : 35
+        "Movement Abuse" : 25
+        "Collision Exploitation" : 20
+        "Physics Exploitation" : 20
+    ```
+
+## Quick Reference
+---
+
+| Extension | Purpose | Key Syntax |
+||||
+| **Admonition** | Callout blocks | !!! type "Title" |
+| **Details** | Collapsible sections | ??? note "Title" |
+| **Superfences** | Advanced code blocks |  `python title="..." `  |
+| **Highlight** | Syntax coloring | (Automatic with Superfences) |
+| **InlineHilite** | Inline code highlighting | `#!python code` |
+| **Tasklist** | Interactive checkboxes | - [x] Task |
+| **TOC** | Auto table of contents | (Automatic from headings) |
+| **Attr List** | Custom attributes | {#id .class} |
+| **Md in HTML** | Markdown in HTML blocks | <div markdown="1"> |
+| **Def List** | Glossaries | Term\n:   Definition |
+| **Tabbed** | Organized content groups | === "Tab Name" |
+| **Mermaid** | Diagrams & flowcharts | \`\`\`mermaid graph TD \`\`\` |
 
 ## Extension Configuration
 ---
@@ -773,24 +784,6 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
 ```
-
-## Quick Reference
----
-
-| Extension | Purpose | Key Syntax |
-||||
-| **Admonition** | Callout blocks | !!! type "Title" |
-| **Details** | Collapsible sections | ??? note "Title" |
-| **Superfences** | Advanced code blocks |  `python title="..." `  |
-| **Highlight** | Syntax coloring | (Automatic with Superfences) |
-| **InlineHilite** | Inline code highlighting | `#!python code` |
-| **Tasklist** | Interactive checkboxes | - [x] Task |
-| **TOC** | Auto table of contents | (Automatic from headings) |
-| **Attr List** | Custom attributes | {#id .class} |
-| **Md in HTML** | Markdown in HTML blocks | <div markdown="1"> |
-| **Def List** | Glossaries | Term\n:   Definition |
-| **Tabbed** | Organized content groups | === "Tab Name" |
-| **Mermaid** | Diagrams & flowcharts | \`\`\`mermaid graph TD \`\`\` |
 
 ## See Also
 ---
