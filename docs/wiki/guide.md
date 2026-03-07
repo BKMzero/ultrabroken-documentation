@@ -275,28 +275,48 @@ Displays highlighted blocks for notes, tips, warnings, and other callouts.
 
 ```markdown
 !!! note "Optional Title"
-    This is a note. The title is optional.
-
-!!! tip
-    Pro tip for readers.
-
-!!! warning
-    Pay attention to this warning.
-
-!!! danger
-    Critical danger notice.
+    The title is optional. Omit the quoted string to use the type name as title.
 ```
 
-#### Example
+Aliases: `note`
 
-!!! note "Example Note"
-    Admonitions draw attention to important content with a colored border and background.
+#### All Types
 
-!!! tip
-    Use admonitions sparingly to maintain visual hierarchy.
+!!! note "note"
+    General information or supplementary context.
 
-!!! danger
-    This action is irreversible. Proceed with caution.
+!!! abstract "abstract"
+    High-level summary or overview. Aliases: `abstract`, `summary`, `tldr`
+
+!!! info "info"
+    Factual detail or background. Aliases: `info`, `todo`
+
+!!! tip "tip"
+    Helpful suggestion or best practice. Aliases: `tip`, `hint`, `important`
+
+!!! success "success"
+    Confirmation or positive outcome. Aliases: `success`, `check`, `done`
+
+!!! question "question"
+    Open question or FAQ entry. Aliases: `question`, `help`, `faq`
+
+!!! warning "warning"
+    Something to be careful about. Aliases: `warning`, `caution`, `attention`
+
+!!! failure "failure"
+    Something that went wrong or is missing. Aliases: `failure`, `fail`, `missing`
+
+!!! danger "danger"
+    Critical risk or irreversible action. Aliases: `danger`, `error`
+
+!!! bug "bug"
+    Known issue or unexpected behaviour.
+
+!!! example "example"
+    Illustrative example or demo.
+
+!!! quote "quote"
+    Citation or referenced material. Aliases: `quote`, `cite`
 
 ### Details (Collapsible Blocks)
 
