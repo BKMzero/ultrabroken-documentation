@@ -11,34 +11,73 @@ tags: ["duplication", "item", "weapon", "fuse", "arrow"]
 ---
 
 # Double Unfuse Duplicashen `DUD` `BSN`
-`1.0.0` `1.1.0` `1.1.1`
+`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3`
 
 ## Summary
 ---
-allows you to duplicate any material that can be fused to an arrow
+Allows you to duplicate any material that can be fused to an arrow, including Zonai Devices.
 
 _鯉神 (Li Shen) - 15 May 2023_
 
 ## Instructions
 ---
-Required: 2 bows, 1 arrow, material to dupe, melee weapon
 
-1. Make sure you have a melee weapon equiped.
-2. Tap ZR to draw bow
-3. Fuse an item to the bow
-4. Press '+', drop equipped bow, equip new bow
-5. Double-press '+' (the pauses needs to be 3 frames or less apart) to pause stutter , then drop equipped bow.
-6. Exit menu
-7. Tada! you now have another item of whatever was fused to the bow
+!!! note "Consistently inconsistent"
+    This glitch relies on the processing order of the bows involved. The order can be manipulated to an extent, but there is always a degree of randomness.
+    All methods will be more reliable in lower-lag environments.
+
+=== "Method 1"
+
+    1. Unsheathe a bow
+    2. Fuse an item to your arrow
+    3. **Pause**
+    4. **Drop** your equipped bow and **swap** to another
+    5. Pause buffer (unpause and pause again as quickly as possible)
+    6. **Drop** your newly equipped bow
+    7. **Unpause**
+    8. Repeat from step 1
+
+    !!! note
+        Versions `1.2.0` and newer must use Void Dipping or DI on the first bow to be allowed to drop the second at the right time.
+
+=== "Method 2"
+
+    1. Zuggle one or more bows
+    2. Equip another bow
+    3. Fuse an item to your arrow
+    4. **Drop** your equipped bow
+    5. Repeat from step 1
+
+    !!! note
+        Due to the mechanics of this glitch, this method can dupe up to 2 materials on Switch 1, and up to 5 on switch 2.
+
+    !!! tip
+        The more bows you zuggle, the higher the chance of success, and of getting multiple dupes at once.
+
+=== "Method 3"
+
+    1. Drop Zuggle one or more bows
+    2. Equip another bow
+    3. Fuse an item to your arrow
+    4. **Drop** your equipped bow (this will **not** affect your drop zuggles)
+    5. Repeat from step 2
+
+    !!! note
+        Due to the mechanics of this glitch, this method can dupe up to 2 materials on Switch 1, and up to 5 on switch 2.
+
+    !!! tip
+        The more bows you zuggle, the higher the chance of success, and of getting multiple dupes at once.
 
 ## Notes
 ---
-Stops working if cooked meals page is full
+Generally not worthwhile over faster duping methods, except for select Zonai Devices which are hard/impossible to find in dispensers.
 
 ## Resources
 ---
 - [Bilibili](https://www.bilibili.com/video/BV19h4y147iR/)
 - [YouTube](https://www.youtube.com/watch?v=0sRvQzU2j5w)
+- [Discord](https://discord.com/channels/1086729144307564648/1110956205624532993/1479640116569047100)
+- [Discord](https://discord.com/channels/1086729144307564648/1110956205624532993/1479644906409689189)
 
 ## Related
 ---
