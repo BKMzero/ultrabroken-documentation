@@ -139,10 +139,6 @@ Credit names in frontmatter are automatically aggregated into the leaderboard. N
 ## Markdown Reference
 ---
 
-<details>
-<summary>Basics — click to expand</summary>
-<div markdown="1">
-
 ### Headings
 
 #### Syntax
@@ -271,9 +267,6 @@ Some text
 |-|-|
 | Value 1  | Value 2  |
 
-</div>
-</details>
-
 ### Admonition
 
 Displays highlighted blocks for notes, tips, warnings, and other callouts.
@@ -301,6 +294,9 @@ Displays highlighted blocks for notes, tips, warnings, and other callouts.
 
 !!! tip
     Use admonitions sparingly to maintain visual hierarchy.
+
+!!! danger
+    This action is irreversible. Proceed with caution.
 
 ### Details (Collapsible Blocks)
 
