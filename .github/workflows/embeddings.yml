@@ -18,8 +18,8 @@ on:
         type: boolean
 
 concurrency:
-  group: wiki-build-${{ github.ref }}
-  cancel-in-progress: true
+  group: deploy
+  cancel-in-progress: false
 
 permissions:
   contents: write

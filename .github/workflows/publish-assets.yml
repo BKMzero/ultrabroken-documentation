@@ -8,8 +8,8 @@ on:
   workflow_dispatch: {}
 
 concurrency:
-  group: site-publish-${{ github.ref }}
-  cancel-in-progress: true
+  group: deploy
+  cancel-in-progress: false
 
 jobs:
   publish-assets:
