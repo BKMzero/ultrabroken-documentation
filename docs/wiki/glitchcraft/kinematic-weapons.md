@@ -36,7 +36,7 @@ _mulberry, dt13269; Optimization by mulberry - 25 February 2026_
 
 === "DI PSLOTted Kinematic Weapon setup"
     1. Zuggle a DI ghost shield
-    2. Overload pick up a kinematic weapon
+    2. Overload pick up a kinematic weapon held by ghost
     3. Fail drop and drop the kinematic weapon out of range
     4. Overload FE the weapon (using the shield zuggle) and load null fuse it (= overload cold fuse to your shield + pause on the FE frame -> load)
     5. Detangle out of range
