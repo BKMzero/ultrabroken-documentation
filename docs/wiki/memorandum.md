@@ -66,9 +66,10 @@ Where scratching the surface is not enough, they mine deeper to learn Hylias lan
 ---
 The glitch hunting, speedrunning, and research communities that made this documentation possible through collaborative investigation and discovery.
 
-- **[Zelda: Tears of the Kingdom Speedrunning](https://discord.gg/xM8NnTetb2)** — Primary spreadsheet curation and glitch hunting
-- **[The Hyrule Engineering Club](https://discord.gg/uZqvjnwqF3)** — Vanilla and glitched constructions ad absurdum
-- **[TotK グリッチ鯖](https://discord.gg/SQXkjxRazk)** — Japanese TotK glitch research community
+- **[Zelda: Tears of the Kingdom Speedrunning](https://discord.gg/xM8NnTetb2)** — Primary spreadsheet curation and glitch hunting Discord community
+- **[The Hyrule Engineering Club Discord Server](https://discord.gg/uZqvjnwqF3)** — Extensive vanilla and glitched constructions Discord community
+- **[The Hyrule Engineering Club Reddit](https://www.reddit.com/r/HyruleEngineering/)** — Engineering Reddit frontend for vanilla and glitched builds 
+- **[TotK グリッチ鯖](https://discord.gg/SQXkjxRazk)** — Japanese TotK glitch research Discord community
 
 ## Glitch Hunters & Contributors
 ---

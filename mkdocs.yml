@@ -242,6 +242,9 @@ extra:
       link: https://discord.gg/xM8NnTetb2
     - icon: fontawesome/brands/discord
       link: https://discord.gg/uZqvjnwqF3
+      link: https://discord.gg/xM8NnTetb2
+    - icon: fontawesome/brands/reddit
+      link: https://www.reddit.com/r/HyruleEngineering/
 
 watch:
   - docs
