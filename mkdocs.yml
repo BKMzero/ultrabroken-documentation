@@ -120,7 +120,7 @@ nav:
   #  - Throken: wiki/equipment-states/throken.md
   #  - Cold/Warm Drop: wiki/equipment-states/cold-warm-drop.md
   - Fuse Entanglement:
-    - Introduction: wiki/fuse entanglement/index.md
+    - Introduction: wiki/fuse-entanglement/index.md
     # - Fuse Entanglement: glitchcraft/fuse-entanglement.md
     # - Fuse Storage Fuse Entanglement: glitchcraft/fuse-storage-fuse-entanglement.md
     # - Cull Fuse Entanglement: glitchcraft/cull-fuse-entanglement-cull-fe.md
@@ -178,7 +178,7 @@ nav:
     # - Double Bypass Zuggle: glitchcraft/double-bypass-zuggle.md
     # - Zuggle Overload Desync: glitchcraft/zuggle-overload-desync.md
     # - Collection: zuggling/zuggle-collection.md
-  - Despawn Interrupt: wiki/despawn interrupt/index.md
+  - Despawn Interrupt: wiki/despawn-interrupt/index.md
   - Culling: wiki/culling/index.md
   - Overload: wiki/overload/index.md
   # - Graph View: wiki/graph.md
