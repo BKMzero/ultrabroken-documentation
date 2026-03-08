@@ -21,7 +21,7 @@ All wiki content lives in [`docs/wiki/`](https://github.com/nan-gogh/ultrabroken
 
 **Not ready to publish?** Place your file in [`docs/wiki/_wip/`](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/docs/wiki/_wip) or add `draft: true` to frontmatter — the page builds and gets a shareable URL but stays hidden from search, the grimoire, and web crawlers. See [Drafts & Previews](#drafts--previews) below.
 
-- New filenames use lowercase kebab-case. Glitchcraft entries also need a 4-digit zero-padded sequential prefix — check the last number in [`docs/wiki/glitchcraft/`](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/docs/wiki/glitchcraft) and increment by one (e.g. `0044-your-new-glitch.md`).
+- Use lowercase kebab-case for all filenames.
 - Image files go in [`docs/assets/images/`](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/docs/assets/images).
 - To reorganize navigation, update [`mkdocs.yml`](https://github.com/nan-gogh/ultrabroken-documentation/blob/main/mkdocs.yml) or ask a maintainer.
 - Avoid editing CI workflows in `.github/workflows/` unless asked.
