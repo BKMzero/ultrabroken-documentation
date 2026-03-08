@@ -127,6 +127,15 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
 
+      - name: Cache npm packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-wrangler-4
+
+      - name: Install wrangler
+        run: npm install -g wrangler@4
+
       - name: Upload social cards to R2
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -167,7 +176,7 @@ jobs:
               continue
             fi
             echo "Uploading $key"
-            npx wrangler r2 object put "ultrabroken-media/$key" --file="$file" --content-type="image/png" --remote
+            wrangler r2 object put "ultrabroken-media/$key" --file="$file" --content-type="image/png" --remote
             # Update manifest entry
             python3 -c "
           import json
@@ -208,7 +217,7 @@ jobs:
           for key in orphaned:
               print(f"  Deleting: {key}")
               subprocess.run(
-                  ["npx", "wrangler", "r2", "object", "delete",
+                  ["wrangler", "r2", "object", "delete",
                    f"ultrabroken-media/{key}", "--remote"],
                   check=False,
               )
