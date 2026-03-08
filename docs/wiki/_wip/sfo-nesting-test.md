@@ -62,6 +62,23 @@ _Discovered by mulberry, Aergyl; Optimizations by Jordan, MandelbrotChaylay, mul
 
     (Squidwest's method)
 
+    ??? example "Diagram"
+
+        ```mermaid
+        graph TD
+            A[DI Shield] -->|FE| B["Recall Locked<br/>Weapon"]
+            C[DI Shield] -->|FE| D["Recall Locked<br/>Weapon"]
+            B -->|Fuse| E[DI Shield]
+            F[DI Weapon] -->|FE| E
+            E -->|FE| F["30 DI Weapons<br/>(Purgatorized)"]
+            H[Normal Shield] -->|CF| F
+            H -->|CF| G
+            F -->|FE| H [20 DI Shields]
+            D -->|CF| H
+            H --> I{620 total connections}
+            H --> J[Take in 1+]
+        ```
+        
     === "For Zelda's Torch"
         To obtain Zelda's Torch, perform this setup in a shrine.
 
@@ -71,7 +88,7 @@ _Discovered by mulberry, Aergyl; Optimizations by Jordan, MandelbrotChaylay, mul
     === "For Mineru's Arm"
         To obtain Mineru's Arm, perform this setup in the tunnel before Ganondorf
 
-        (extension that tells you to zuggle several child shields into the fight for later destruction (to undo SFO enough to fuse/zuggle Arm)
+        (extension that tells you to zuggle 1+ child shields into the fight for later destruction (to undo SFO enough to fuse/zuggle Arm)
 
     !!! info "Persistent?"
         This setup _does_ persist through warps and loads, allowing it in theory to be used for any use case. However, it is more difficult to undo than local methods, which can be inconvenient.
