@@ -21,6 +21,7 @@ All wiki content lives in [`docs/wiki/`](https://github.com/nan-gogh/ultrabroken
 
 **Not ready to publish?** Place your file in [`docs/wiki/_wip/`](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/docs/wiki/_wip) or add `draft: true` to frontmatter — the page builds and gets a shareable URL but stays hidden from search, the grimoire, and web crawlers. See [Drafts & Previews](#drafts--previews) below.
 
+- New filenames use lowercase kebab-case. Glitchcraft entries also need a 4-digit zero-padded sequential prefix — check the last number in [`docs/wiki/glitchcraft/`](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/docs/wiki/glitchcraft) and increment by one (e.g. `0044-your-new-glitch.md`).
 - Image files go in [`docs/assets/images/`](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/docs/assets/images).
 - To reorganize navigation, update [`mkdocs.yml`](https://github.com/nan-gogh/ultrabroken-documentation/blob/main/mkdocs.yml) or ask a maintainer.
 - Avoid editing CI workflows in `.github/workflows/` unless asked.
@@ -67,7 +68,6 @@ When ready to publish, simply remove the `draft: true` line and commit. The page
 - Write in the present tense and keep instructions concise.
 - Keep steps as granular as possible. Extract pausing / unpausing into dedicated steps with **bold** styling.
 - Avoid abbreviations in titles or filenames for easy parsing.
-- Put image files in [`docs/assets/images/`](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/docs/assets/images).
 - **Use Admonitions** for important callouts (notes, warnings, tips).
 - **Prefer collapsible Details** only when content is optional or supplementary.
 - **Leverage code block titles** to label examples.
@@ -84,13 +84,13 @@ Prefer **relative links** for cross-references to other markdown pages or images
 - To link a file in the **same folder**: `[Link Text](other-file.md)`
 - To link a file in a **subdirectory**: `[Link Text](subfolder/other-file.md)`
 - To link a file in a **parent folder**: `[Link Text](../other-file.md)`
-- To link a file in a **different branch**: `[Link Text](../../other-folder/other-file.md)`
+- To link a file in **another section of the wiki**: `[Link Text](../../other-folder/other-file.md)`
 
 
 ## Frontmatter Reference
 ---
 
-Every wiki page begins with YAML frontmatter between `` delimiters. Here are all available fields:
+Every wiki page begins with YAML frontmatter between `---` delimiter lines. Here are all available fields:
 
 ### Frontmatter Fields
 
@@ -99,12 +99,12 @@ The display `title` is required. All other fields are optional but recommended.
 #### Syntax 
 
 - `label`: A short abbreviation displayed alongside the title - used for autolinking and search discovery
-- `versions`: List of game versions where the technique works - used for filtering and search discovery
+- `versions`: List of game versions where the technique works — used for filtering and search discovery. Use slash notation (e.g. `"1.3.0/1.4.0"`) for two versions that share identical behaviour.
 - `credits`: Names must match [credits.json](../assets/data/credits.json) exactly  - used for autolinking and leaderboard aggregation
-- `date*`: Discovery or documentation date in `YYYY-MM-DD` format - used for filtering / sorting
+- `date`: Discovery or documentation date in `YYYY-MM-DD` format — used for filtering and sorting
 - `description`: A brief summary used for search results and SEO - used for search discovery. **Keep under 185 characters** for optimal Discord preview display.
 - `tags`: Categorization tags. Auto-indexed into [tags.json](../assets/data/tags.json) - used for filtering and search discovery
-- `aliases`: Alternative names for search discovery. Case-insensitive. - used for autolinking
+- `aliases`: Alternative names for search discovery. Case-insensitive — used for autolinking (see [Glitch Autolinks](#glitch-autolinks))
 - `draft`: Set to `true` to mark a page as a draft — hides it from search, grimoire, and web crawlers while keeping it accessible via direct URL (see [Drafts & Previews](#drafts--previews))
 - `uid`: Auto-generated unique identifier. **Do not add manually.**
 
@@ -161,9 +161,25 @@ Embed interactive [TotK Object Map](https://objmap-totk.zeldamods.org/) previews
 
 [Fire Temple VD location](8, x:1321.68, z:-2823.71, Depths)
 
+### YouTube Embeds
+
+Links to YouTube are automatically converted to responsive embedded iframes during the build. No special syntax is required — just use a standard Markdown link pointing to a YouTube URL.
+
+#### Syntax / Example
+
+```markdown
+[YouTube](https://youtu.be/VIDEO_ID)
+
+[Crouch Sprinting showcase](https://youtu.be/VIDEO_ID?t=30)
+```
+
+**Generic labels** (`YouTube`, `Video`, `Watch`, etc.) render as a bare iframe with no caption. **Descriptive labels** appear as a bold caption above the iframe. Timestamps (`?t=30`) are preserved in the embed. Duplicate video IDs on the same page: all but the first occurrence are dropped.
+
 ### Social Links and Leaderboard
 
 Credit names in frontmatter are automatically aggregated into the leaderboard. Names will link to social profiles when mapped in [credits.json](https://github.com/nan-gogh/ultrabroken-documentation/blob/main/docs/assets/data/credits.json).
+
+Contributor names are also **automatically hyperlinked in body text** anywhere they appear — so writing "discovered by Mozz" renders as a live link without any manual markup. Names inside code spans or existing links are left untouched.
 
 #### Example
 
@@ -174,6 +190,19 @@ Credit names in frontmatter are automatically aggregated into the leaderboard. N
 ```
 
 **Names must match exactly** — mismatched capitalization or spelling prevents autolinking and splits leaderboard entries.
+
+### Glitch Autolinks
+
+The first mention of any glitch's name, label, or alias in paragraph text is automatically hyperlinked to that glitch's page. This is powered by a glossary built from all published frontmatter.
+
+#### Rules
+
+- Only the **first** occurrence of each glitch name per page is linked.
+- A page is never auto-linked to itself — self-mentions stay as plain text.
+- Text inside code spans, code blocks, headings, and existing links is never touched.
+- Names and aliases match **case-insensitively**. Labels (abbreviations) are **case-sensitive** to avoid false positives on common words.
+
+To mention a glitch without triggering a link, wrap it in a code span (`` `ETS` ``) or an explicit link. To suppress a link entirely, check that the `label` or `aliases` values are not accidentally matching unrelated text.
 
 ## Markdown Reference
 ---
