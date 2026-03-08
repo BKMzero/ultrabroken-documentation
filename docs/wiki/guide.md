@@ -10,20 +10,57 @@ This page provides a comprehensive guide for editors contributing to the Ultrabr
 
 This is a community project — everyone is welcome to contribute even without a GitHub account. Join the discussion and post your discoveries in our **[dedicated Encyclopedia thread](https://discord.com/channels/1086729144307564648/1471224902890684557)** on the **[TotK Speedrunning Discord](https://discord.gg/xM8NnTetb2)**.
 
-### Where to Edit
+### Editing Workflow
 
-- Top-level docs live in the [`docs/wiki/`](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/docs/wiki) folder. Edit Markdown files directly.
-- Put your WIPs into the dedicated [`docs/wiki/_wip/`](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/docs/wiki/_wip) folder. Download [`_wip/blank.md`](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/docs/wiki/_wip/blank.md) if you need a starting point.
-- Near-final drafts can live in their real folder with `draft: true` in frontmatter (see [Drafts & Previews](#drafts--previews)).
-- To reorganize navigation, ask a maintainer or update [`mkdocs.yml`](https://github.com/nan-gogh/ultrabroken-documentation/blob/main/mkdocs.yml).
-- Keep changes scoped to documentation content: avoid editing continuous integration (CI) workflows in `.github/workflows` unless requested.
+All wiki content lives in [`docs/wiki/`](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/docs/wiki). Edit Markdown files directly on GitHub or via your normal git workflow.
 
-### GitHub Workflow
+1. Navigate to the file you want to change, or create a new one in the appropriate subfolder. Use [`_wip/blank.md`](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/docs/wiki/_wip/blank.md) as a starting template.
+2. Click the pencil ✏️ icon to edit in the browser, or use your normal GitHub workflow.
+3. Make your edits, write a concise commit message, and commit directly to "main" (or open a Pull Request).
+4. After committing, the site rebuilds in around two minutes. Wait until it finishes before making the next commit.
 
-1. Navigate to the file you want to change (for example [`docs/wiki/ultrabroken/effects/wacko-boingo.md`](https://github.com/nan-gogh/ultrabroken-documentation/blob/main/docs/wiki/ultrabroken/effects/wacko-boingo.md)).
-2. Click the pencil ✏️ icon to edit the file in your browser, or use your normal GitHub workflow.
-3. Make your edits, add a concise commit message, and commit directly to "main" (or open a Pull Request).
-4. After committing, it takes around two minutes for the page to build. Wait until it finishes before making the next commit.
+**Not ready to publish?** Place your file in [`docs/wiki/_wip/`](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/docs/wiki/_wip) or add `draft: true` to frontmatter — the page builds and gets a shareable URL but stays hidden from search, the grimoire, and web crawlers. See [Drafts & Previews](#drafts--previews) below.
+
+- Image files go in [`docs/assets/images/`](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/docs/assets/images).
+- To reorganize navigation, update [`mkdocs.yml`](https://github.com/nan-gogh/ultrabroken-documentation/blob/main/mkdocs.yml) or ask a maintainer.
+- Avoid editing CI workflows in `.github/workflows/` unless asked.
+
+### Drafts & Previews
+
+Pages can be marked as drafts so they build and deploy to the live site (allowing editors to preview rendered output and share the URL for feedback) while staying completely hidden from all discovery systems.
+
+**A page is treated as a draft when either condition is true:**
+
+- It lives anywhere under the `docs/wiki/_wip/` folder (path-based — no frontmatter needed).
+- Its frontmatter contains `draft: true` (flag-based — works in any folder).
+
+#### What drafts are hidden from
+
+| System | Hidden? | How |
+|---|---|---|
+| Site search | Yes | `search.exclude` metadata injected automatically |
+| Grimoire | Yes | BM25 index builder skips draft pages |
+| Web crawlers | Yes | `<meta name="robots" content="noindex">` injected |
+| Direct URL access | **No** | Pages are accessible — share the link for review |
+
+#### Using `_wip/` (early exploration)
+
+Place your file in `docs/wiki/_wip/`. It will be built and accessible at its URL but invisible to search and the grimoire. No frontmatter flag needed — the path is enough.
+
+The `_wip/blank.md` template already includes `draft: true` by default.
+
+#### Using `draft: true` (near-final drafts)
+
+When a page is close to final and already lives in its real location (e.g., `docs/wiki/glitchcraft/my-new-glitch.md`), add `draft: true` to its frontmatter:
+
+```yaml
+
+title: "My New Glitch"
+draft: true
+
+```
+
+When ready to publish, simply remove the `draft: true` line and commit. The page immediately becomes discoverable.
 
 ### Style Best Practices
 
@@ -68,7 +105,7 @@ The display `title` is required. All other fields are optional but recommended.
 - `description`: A brief summary used for search results and SEO - used for search discovery. **Keep under 185 characters** for optimal Discord preview display.
 - `tags`: Categorization tags. Auto-indexed into [tags.json](../assets/data/tags.json) - used for filtering and search discovery
 - `aliases`: Alternative names for search discovery. Case-insensitive. - used for autolinking
-- `draft`: Set to `true` to mark a page as a draft — hides it from search, grimoire, and web crawlers while keeping it accessible via direct URL (see [Drafts & Previews](#drafts-previews))
+- `draft`: Set to `true` to mark a page as a draft — hides it from search, grimoire, and web crawlers while keeping it accessible via direct URL (see [Drafts & Previews](#drafts--previews))
 - `uid`: Auto-generated unique identifier. **Do not add manually.**
 
 #### Example
@@ -137,43 +174,6 @@ Credit names in frontmatter are automatically aggregated into the leaderboard. N
 ```
 
 **Names must match exactly** — mismatched capitalization or spelling prevents autolinking and splits leaderboard entries.
-
-### Drafts & Previews
-
-Pages can be marked as drafts so they build and deploy to the live site (allowing editors to preview rendered output and share the URL for feedback) while staying completely hidden from all discovery systems.
-
-**A page is treated as a draft when either condition is true:**
-
-- It lives anywhere under the `docs/wiki/_wip/` folder (path-based — no frontmatter needed).
-- Its frontmatter contains `draft: true` (flag-based — works in any folder).
-
-#### What drafts are hidden from
-
-| System | Hidden? | How |
-|---|---|---|
-| Site search | Yes | `search.exclude` metadata injected automatically |
-| Grimoire | Yes | BM25 index builder skips draft pages |
-| Web crawlers | Yes | `<meta name="robots" content="noindex">` injected |
-| Direct URL access | **No** | Pages are accessible — share the link for review |
-
-#### Using `_wip/` (early exploration)
-
-Place your file in `docs/wiki/_wip/`. It will be built and accessible at its URL but invisible to search and the grimoire. No frontmatter flag needed — the path is enough.
-
-The `_wip/blank.md` template already includes `draft: true` by default.
-
-#### Using `draft: true` (near-final drafts)
-
-When a page is close to final and already lives in its real location (e.g., `docs/wiki/glitchcraft/my-new-glitch.md`), add `draft: true` to its frontmatter:
-
-```yaml
-
-title: "My New Glitch"
-draft: true
-
-```
-
-When ready to publish, simply remove the `draft: true` line and commit. The page immediately becomes discoverable.
 
 ## Markdown Reference
 ---
