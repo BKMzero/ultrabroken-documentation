@@ -146,11 +146,38 @@ jobs:
             exit 0
           fi
 
-          # Upload each social card PNG directly to the R2 bucket
+          # Track which cards have been uploaded via a hash manifest in .cache
+          UPLOAD_MANIFEST=".cache/hooks/social_cards/r2-uploads.json"
+          mkdir -p "$(dirname "$UPLOAD_MANIFEST")"
+          if [ ! -f "$UPLOAD_MANIFEST" ]; then
+            echo '{}' > "$UPLOAD_MANIFEST"
+          fi
+
+          uploaded=0
+          skipped=0
+
           find "$SOCIAL_DIR" -type f -name '*.png' | while read -r file; do
             key="social/${file#$SOCIAL_DIR/}"
+            # Compute content hash
+            hash=$(sha256sum "$file" | cut -d' ' -f1)
+            # Check if already uploaded with same hash
+            prev=$(python3 -c "import json,sys; d=json.load(open('$UPLOAD_MANIFEST')); print(d.get('$key',''))" 2>/dev/null || echo "")
+            if [ "$hash" = "$prev" ]; then
+              skipped=$((skipped + 1))
+              continue
+            fi
             echo "Uploading $key"
             npx wrangler r2 object put "ultrabroken-media/$key" --file="$file" --content-type="image/png" --remote
+            # Update manifest entry
+            python3 -c "
+          import json
+          m = json.load(open('$UPLOAD_MANIFEST'))
+          m['$key'] = '$hash'
+          json.dump(m, open('$UPLOAD_MANIFEST', 'w'), indent=2)
+          "
+            uploaded=$((uploaded + 1))
           done
+
+          echo "Upload complete: $uploaded new/changed, $skipped unchanged (skipped)"
 
 
