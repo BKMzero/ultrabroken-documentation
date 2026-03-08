@@ -13,7 +13,7 @@ This is a community project — everyone is welcome to contribute even without a
 ### Where to Edit
 
 - Top-level docs live in the [`docs/wiki/`](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/docs/wiki) folder. Edit Markdown files directly.
-- Put your WIPs into the dedicated `docs/wiki/_wip/` folder. Download `_wip/blank.md` if you need a starting point.
+- Put your WIPs into the dedicated [`docs/wiki/_wip/`](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/docs/wiki/_wip) folder. Download [`_wip/blank.md`](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/docs/wiki/_wip/blank.md) if you need a starting point.
 - Near-final drafts can live in their real folder with `draft: true` in frontmatter (see [Drafts & Previews](#drafts--previews)).
 - To reorganize navigation, ask a maintainer or update [`mkdocs.yml`](https://github.com/nan-gogh/ultrabroken-documentation/blob/main/mkdocs.yml).
 - Keep changes scoped to documentation content: avoid editing continuous integration (CI) workflows in `.github/workflows` unless requested.
