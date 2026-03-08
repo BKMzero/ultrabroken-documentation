@@ -150,7 +150,7 @@ jobs:
           find "$SOCIAL_DIR" -type f -name '*.png' | while read -r file; do
             key="social/${file#$SOCIAL_DIR/}"
             echo "Uploading $key"
-            npx wrangler r2 object put "ultrabroken-media/$key" --file="$file" --content-type="image/png"
+            npx wrangler r2 object put "ultrabroken-media/$key" --file="$file" --content-type="image/png" --remote
           done
 
 
