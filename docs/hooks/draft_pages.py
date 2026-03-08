@@ -31,12 +31,12 @@ def _is_draft(page) -> bool:
     return "/_wip/" in src or src.startswith("_wip/")
 
 
-def on_page_meta(meta, page, config, **kwargs):
+def on_page_context(context, page, config, nav, **kwargs):
     """Inject search.exclude into draft page metadata so Material's
     search plugin skips the page entirely."""
     if _is_draft(page):
-        meta.setdefault("search", {})["exclude"] = True
-    return meta
+        page.meta.setdefault("search", {})["exclude"] = True
+    return context
 
 
 def on_post_page(output, page, config, **kwargs):
