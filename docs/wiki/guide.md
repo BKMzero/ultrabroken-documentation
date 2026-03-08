@@ -22,6 +22,7 @@ All wiki content lives in [`docs/wiki/`](https://github.com/nan-gogh/ultrabroken
 **Not ready to publish?** Place your file in [`docs/wiki/_wip/`](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/docs/wiki/_wip) or add `draft: true` to frontmatter — the page builds and gets a shareable URL but stays hidden from search, the grimoire, and web crawlers. See [Drafts & Previews](#drafts--previews) below.
 
 - Use lowercase kebab-case for all filenames.
+- Don't append abbreviations or aliases to filenames
 - Image files go in [`docs/assets/images/`](https://github.com/nan-gogh/ultrabroken-documentation/tree/main/docs/assets/images).
 - To reorganize navigation, update [`mkdocs.yml`](https://github.com/nan-gogh/ultrabroken-documentation/blob/main/mkdocs.yml) or ask a maintainer.
 - Avoid editing CI workflows in `.github/workflows/` unless asked.
@@ -67,7 +68,7 @@ When ready to publish, simply remove the `draft: true` line and commit. The page
 
 - Write in the present tense and keep instructions concise.
 - Keep steps as granular as possible. Extract pausing / unpausing into dedicated steps with **bold** styling.
-- Avoid abbreviations in titles or filenames for easy parsing.
+- **Avoid abbreviations** in titles for easy parsing.
 - **Use Admonitions** for important callouts (notes, warnings, tips).
 - **Prefer collapsible Details** only when content is optional or supplementary.
 - **Leverage code block titles** to label examples.
