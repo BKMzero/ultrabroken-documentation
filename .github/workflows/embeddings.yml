@@ -127,4 +127,30 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
 
+      - name: Upload social cards to R2
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          set -euo pipefail
+
+          # Skip if Cloudflare secrets not configured yet
+          if [ -z "${CLOUDFLARE_API_TOKEN:-}" ] || [ -z "${CLOUDFLARE_ACCOUNT_ID:-}" ]; then
+            echo "Cloudflare secrets not set — skipping social card upload"
+            exit 0
+          fi
+
+          SOCIAL_DIR="site/assets/images/social"
+          if [ ! -d "$SOCIAL_DIR" ]; then
+            echo "No social cards directory found — skipping"
+            exit 0
+          fi
+
+          # Upload each social card PNG directly to the R2 bucket
+          find "$SOCIAL_DIR" -type f -name '*.png' | while read -r file; do
+            key="social/${file#$SOCIAL_DIR/}"
+            echo "Uploading $key"
+            npx wrangler r2 object put "ultrabroken-media/$key" --file="$file" --content-type="image/png"
+          done
+
 

@@ -143,6 +143,23 @@ Links prefixed with `search:` open the site search overlay with the query pre-fi
 
 [Slugging](search:Slugging)
 
+### Media Links
+
+Images and videos are hosted on Cloudflare R2, served by a [Worker](https://github.com/nan-gogh/ultrabroken-media). Use the `media:` prefix to reference assets — the build hook rewrites it to the full URL automatically.
+
+#### Syntax / Example
+
+```markdown
+![Nachoyah Shrine VD](media:screens/nachoyah-vd.avif)
+```
+
+| Prefix path | Content |
+|--|--|
+| `media:screens/` | Screenshots (AVIF) |
+| `media:video/` | Video clips (AV1+Opus WebM) |
+
+Compress files locally before uploading — use [Squoosh](https://squoosh.app/) for images (AVIF) and HandBrake or ffmpeg for video (AV1+Opus WebM). Upload via the media management UI (requires GitHub login).
+
 ### Map Embeds
 
 Embed interactive [TotK Object Map](https://objmap-totk.zeldamods.org/) previews using coordinate shorthand.

@@ -49,6 +49,9 @@ Thumbs.db
 .resources/
 serve.sh
 
+# Wrangler local cache (not secrets, but no need to commit)
+.wrangler/
+
 # Index jsons
 docs/assets/data/grimoire-data.json
 docs/assets/data/leaderboard-data.json

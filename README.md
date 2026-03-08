@@ -14,7 +14,7 @@ The guide covers:
 - Contribution workflow and best practices
 - Frontmatter conventions (title, label, versions, credits, tags)
 - All markdown extensions with examples
-- Site-specific features (search links, map embeds, leaderboard integration)
+- Site-specific features (search links, media links, map embeds, leaderboard integration)
 - Quick reference tables
 
 ### Quick Start
@@ -22,7 +22,8 @@ The guide covers:
 1. Edit Markdown files in `docs/wiki/` directly on GitHub using the pencil ✏️ icon, or use your normal GitHub workflow.
 2. Make small, focused commits with clear titles.
 3. Commit to `main` — changes build and deploy automatically (~2 minutes).
-4. Keep edits scoped to documentation content; avoid `mkdocs.yml` or `.github/workflows/` unless requested.
+4. Images and videos are hosted on Cloudflare R2 — reference them with `media:` prefix (e.g. `![alt](media:screens/file.avif)`). Upload via the [media management UI](https://ultrabroken-media.gl1tchcr4vt.workers.dev/manage) (requires GitHub login).
+5. Keep edits scoped to documentation content; avoid `mkdocs.yml` or `.github/workflows/` unless requested.
 
 ### For the Community
 

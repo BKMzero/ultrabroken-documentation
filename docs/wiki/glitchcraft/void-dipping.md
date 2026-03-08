@@ -48,7 +48,7 @@ Most Voidouts are in big pits with little ability to get close. Three of the mos
 === "Nachoyah Shrine"
     _Discovered by Yee_
 
-    ![Nachoyah Shrine VD](../../assets/images/screens/nachoyah-vd.avif)
+    ![Nachoyah Shrine VD](media:screens/nachoyah-vd.jpg)
 
     AKA _The Ability to Recall_. To reach: Enter the shrine. Inside the alcove beneath the starting area, there's a small Voidout at the very back, to delete the rafts and "rescue" careless Links. Retrieve targets by swimming into the alcove and mashing A.
 
