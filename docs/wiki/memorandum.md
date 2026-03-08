@@ -11,8 +11,8 @@ This archive would not exist without the dedicated work of community archivists 
 - **NaN Gogh** — Curator of this documentation and primary author of the Ultrabroken section
 
 - **PetitFrapo** — Lead archivist
-- **MandelbrotChaylay** — Lead archivist
 - **Squidwest** - Lead archivist
+- **MandelbrotChaylay** — Lead archivist
 
 ## Spreadsheet Managers
 ---
