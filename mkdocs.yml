@@ -193,9 +193,7 @@ hooks:
   - docs/hooks/glitch_autolink.py
   - docs/hooks/reader_compat.py
   - docs/hooks/uid_links.py
-
-exclude_docs: |
-  wiki/_wip/
+  - docs/hooks/draft_pages.py
 
 plugins:
   - search
