@@ -26,6 +26,7 @@ Method 3: like method 1 but uses dropdowns instead of subtabs
 Method 4: like method 2 but with dropdowns
 
 Todo:
+
 - Find a good, stable minigame or two to recommend
 - Double check duplication order of operations and correct if needed
 - Decide on preferred method layout and redo rejected method layouts to match
@@ -79,6 +80,7 @@ Todo:
     === "For Zelda's Torch"
 
         Prepare:
+        
         - 13 Zuggle Overload
         - 2 DI Ghost Weapons, one for duping, the other dubbed "C"
         - 3 DI Ghost Shields, one for duping, the other two dubbed "A" and "B"
@@ -87,6 +89,7 @@ Todo:
         - An autosave within a shrine (ideally Rasitakiwak)
 
         Part 1: Performing SFO
+        
         1. Enter Rasitakiwak Shrine, defeat all the constructs, and dispose of their weapons (for example by leaving/reentering)
         2. A1 [Overload FE] Weapon D
         3. [Recall Lock] D
@@ -131,6 +134,7 @@ Todo:
     === "For duplication"
 
         Prepare:
+        
         - 13 Zuggle Overload
         - 2 DI Ghost Weapons, one for duping, the other dubbed "C"
         - 3 DI Ghost Shields, one for duping, the other two dubbed "A" and "B"
@@ -138,6 +142,7 @@ Todo:
         - 1 or more of the duplication target
 
         Part 1: Performing SFO
+        
         1. If duplicating Zonai Devices, enter a minigame with no timer. If duplicating other materials, enter a minigame or a shrine
         2. A1 [Overload FE] Weapon D
         3. [Recall Lock] D
@@ -183,6 +188,7 @@ Todo:
     === "For Mineru's Arm"
 
         Prepare:
+        
         - 13 Zuggle Overload
         - 2 DI Ghost Weapons, one for duping, the other dubbed "C"
         - 3 DI Ghost Shields, one for duping, the other two dubbed "A" and "B"
@@ -192,6 +198,7 @@ Todo:
         An save in Rasitakiwak Shrine is recommended, though other shrines (or none at all) will work if you know what you're doing
 
         Part 1: Performing SFO
+        
         1. Defeat Army and enter the tunnel before Ganondorf.
         2. A1 [Overload FE] Weapon D
         3. [Recall Lock] D
@@ -264,6 +271,7 @@ Todo:
     ??? abstract "For mineru's Arm"
 
         Prepare:
+        
         - 13 zuggle overload
         - A bow
         - A weapon
@@ -323,6 +331,7 @@ Todo:
     ??? abstract "For Duplication"
 
         Prepare:
+        
         - 13 zuggle overload
         - A bow
         - A weapon
