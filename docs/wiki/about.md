@@ -31,3 +31,57 @@ The integrated site search, searchbar- and permalinks as well as AI assisted que
 ## AI Search
 ---
 When you ask The Librarian, an algorithm searches our archives for documents that match your query and supplies only those matched records to the answer syntesizer. The syntesizer creates a response and assembles searchbar links from involved sources for your single request based solely on the provided records — it does not retain your query nor learn from it or the answer it created. This way we don't trade our archives for the conveniece of AI-assisted navigation features. The accuracy of responses depends mainly the zeal of our Archivists and the quality of their contributions - always verify against the source pages.
+
+## Infrastructure
+---
+The archives run on open-source tooling across GitHub and Cloudflare. Media uploads require authentication via the `ultrabroken-archivists` GitHub organisation — membership is managed by invite only. No personal data is collected; Cloudflare Access verifies org membership through GitHub OAuth and does not store credentials beyond session tokens.
+
+``` mermaid
+graph TB
+    subgraph people ["Collaborators"]
+        OWNER["Owner — nan-gogh"]
+        MEMBERS["Org Members — invited by username"]
+    end
+
+    subgraph org ["GitHub Organisation — ultrabroken-archivists"]
+        ORG["Membership Roster\nused only as an access-control list"]
+        OAUTH["OAuth App\nclient ID + secret shared with Cloudflare"]
+    end
+
+    subgraph repos ["GitHub Repositories — nan-gogh"]
+        WIKI_REPO["ultrabroken-documentation\nMkDocs wiki source\nMarkdown · CSS · JS · config"]
+        MEDIA_REPO["ultrabroken-media\nCloudflare Worker source\nworker.js · wrangler.toml · workflows"]
+
+        subgraph actions ["GitHub Actions"]
+            DEPLOY["deploy.yml\nauto-deploy Worker on push"]
+            OPTIMIZE["optimize.yml\nAVIF image optimization\nsharp · quality 65"]
+            TRANSCODE["transcode.yml\nAV1+Opus video transcode\nffmpeg · libsvtav1 CRF 35"]
+        end
+    end
+
+    subgraph cloudflare ["Cloudflare"]
+        ACCESS["Cloudflare Access — Zero Trust\nPolicy: require ultrabroken-archivists membership"]
+        WORKER["Cloudflare Worker\nserves files · /manage UI\nupload · delete · purge"]
+        R2["Cloudflare R2 — Object Storage\nscreens/ · video/ · social/\nmetadata tracks optimization status"]
+        PAGES["GitHub Pages\nhosts the wiki site"]
+    end
+
+    VISITOR["Wiki Visitors — public, no auth"]
+
+    OWNER -->|owns| ORG
+    MEMBERS -->|member of| ORG
+    ORG -->|membership check| ACCESS
+    OAUTH -->|credentials| ACCESS
+    OWNER & MEMBERS -->|GitHub login| ACCESS
+    ACCESS -->|authenticated| WORKER
+    WORKER -->|read / write| R2
+    WORKER -->|dispatch via PAT| OPTIMIZE & TRANSCODE
+    OPTIMIZE -->|convert and reupload| R2
+    TRANSCODE -->|transcode and reupload| R2
+    DEPLOY -->|wrangler deploy| WORKER
+    MEDIA_REPO -->|push triggers| DEPLOY
+    WIKI_REPO -->|push triggers| PAGES
+    PAGES -->|media links| R2
+    VISITOR -->|reads| PAGES
+    VISITOR -->|loads media| R2
+```

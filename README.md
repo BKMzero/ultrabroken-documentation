@@ -22,7 +22,7 @@ The guide covers:
 1. Edit Markdown files in `docs/wiki/` directly on GitHub using the pencil ✏️ icon, or use your normal GitHub workflow.
 2. Make small, focused commits with clear titles.
 3. Commit to `main` — changes build and deploy automatically (~2 minutes).
-4. Images and videos are hosted on Cloudflare R2 — reference them with `media:` prefix (e.g. `![alt](media:screens/file.avif)`). Upload via the [media management UI](https://ultrabroken-media.gl1tchcr4vt.workers.dev/manage) (requires GitHub login).
+4. Images and videos are hosted on Cloudflare R2 — reference them with `media:` prefix (e.g. `![alt](media:screens/file.avif)`). Upload via the [media management UI](https://ultrabroken-media.gl1tchcr4vt.workers.dev/manage) (requires GitHub login via [`ultrabroken-archivists`](https://github.com/ultrabroken-archivists) org membership — see [Infrastructure](https://nan-gogh.github.io/ultrabroken-documentation/wiki/about/#infrastructure)).
 5. Keep edits scoped to documentation content; avoid `mkdocs.yml` or `.github/workflows/` unless requested.
 
 ### For the Community
