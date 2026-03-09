@@ -70,13 +70,13 @@ Method 4: like method 2 but with dropdowns
 
             ```mermaid
             graph TD
-                B -->|FE| F[RL Weapon]
-                E -->|FE| G[RL Weapon]
+                B[DI Shield] -->|FE| F[RL Weapon]
+                E[DI Shield] -->|FE| G[RL Weapon]
                 F -->|Fuse| H[DI Shield]
-                C -->|FE| H
-                H -->|FE| I[30 DI Weapons]
-                D -->|CF| I
-                I -->|FE| J[20 DI Shields]
+                C[DI Weapon] -->|FE| H
+                H -->|FE| I["30 DI Weapons<br/>(purgatorized)"]
+                D[Normal Shield] -->|CF| I
+                I -->|FE| J["20 DI Shields<br/>(or weapons/bows)"]
                 G -->|CF| J
             ```
 
