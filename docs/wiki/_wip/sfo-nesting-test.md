@@ -66,16 +66,16 @@ _Discovered by mulberry, Aergyl; Optimizations by Jordan, MandelbrotChaylay, mul
 
         ```mermaid
         graph TD
-            A[DI Shield] -->|FE| B["Recall Locked<br/>Weapon"]
-            C[DI Shield] -->|FE| D["Recall Locked<br/>Weapon"]
+            A[DI Shield] -->|FE| B[RL Weapon]
+            C[DI Shield] -->|FE| D[RL Weapon]
             B -->|Fuse| E[DI Shield]
             F[DI Weapon] -->|FE| E
-            E -->|FE| G["30 DI Weapons<br/>(Purgatorized)"]
+            E -->|FE| G[30 Purg'd DI Weapons]
             H[Normal Shield] -->|CF| G
             G -->|FE| H [20 DI Shields]
             D -->|CF| H
             H --> I{620 total connections}
-            H --> J[Take in 1+]
+            H --> J{Take in 1 or more}
         ```
         
     === "For Zelda's Torch"
