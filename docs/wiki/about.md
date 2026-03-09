@@ -34,7 +34,7 @@ When you ask The Librarian, an algorithm searches our archives for documents tha
 
 ## Infrastructure
 ---
-The archives run on open-source tooling across GitHub and Cloudflare. Media uploads require authentication via the `ultrabroken-archivists` GitHub organisation — membership is managed by invite only. No personal data is collected; Cloudflare Access verifies org membership through GitHub OAuth and does not store credentials beyond session tokens.
+The archives run on open-source tooling across GitHub and Cloudflare. Media uploads require authentication via the [`ultrabroken-archivists`](https://github.com/ultrabroken-archivists) GitHub organisation — membership is managed by invite only. No personal data is collected; Cloudflare Access verifies org membership through GitHub OAuth and does not store credentials beyond session tokens.
 
 <div class="diagram-pan">
   <div class="diagram-zoom">
