@@ -146,6 +146,10 @@ graph LR
         inner.dataset.baseH = h;
         inner.style.width  = w + 'px';
         inner.style.height = h + 'px';
+        // Lock the pan container to its current rendered size so it
+        // stays fixed regardless of zoom level changes.
+        pan.style.width  = pan.offsetWidth  + 'px';
+        pan.style.height = pan.offsetHeight + 'px';
       } else {
         requestAnimationFrame(initSizes);
       }
