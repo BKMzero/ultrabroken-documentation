@@ -74,6 +74,9 @@ _Discovered by mulberry, Aergyl; Optimizations by Jordan, MandelbrotChaylay, mul
             H[Normal Shield] -->|CF| G
             G -->|FE| I [20 DI Shields]
             D -->|CF| I
+            A -->|useless line| C
+            A -->|useless line| F
+            A -->|useless line| H
         ```
         
     === "For Zelda's Torch"
