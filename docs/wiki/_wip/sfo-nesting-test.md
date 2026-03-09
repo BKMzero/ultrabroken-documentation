@@ -70,10 +70,9 @@ _Discovered by mulberry, Aergyl; Optimizations by Jordan, MandelbrotChaylay, mul
             C[DI Shield] -->|FE| D["Recall Locked<br/>Weapon"]
             B -->|Fuse| E[DI Shield]
             F[DI Weapon] -->|FE| E
-            E -->|FE| F["30 DI Weapons<br/>(Purgatorized)"]
-            H[Normal Shield] -->|CF| F
-            H -->|CF| G
-            F -->|FE| H [20 DI Shields]
+            E -->|FE| G["30 DI Weapons<br/>(Purgatorized)"]
+            H[Normal Shield] -->|CF| G
+            G -->|FE| H [20 DI Shields]
             D -->|CF| H
             H --> I{620 total connections}
             H --> J[Take in 1+]
