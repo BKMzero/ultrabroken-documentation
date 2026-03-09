@@ -187,12 +187,12 @@ The archives run on open-source tooling across GitHub and Cloudflare. Media uplo
 
 <div class="diagram-pan">
   <div class="diagram-zoom">
-    <input type="range" min="40" max="400" value="100" oninput="diagramSlide(this)">
+    <input type="range" min="40" max="400" value="100">
     <span class="diagram-level">100%</span>
-    <button onclick="diagramReset(this)">Reset</button>
+    <button>Reset</button>
   </div>
   <div class="diagram-inner">
-    <div class="mermaid">
+```mermaid
 graph TD
     OWNER["👤 Owner<br/>nan-gogh"]
     MEMBERS["👥 Org Members<br/>invited by username"]
@@ -231,16 +231,6 @@ graph TD
     PAGES -->|media links| R2
     VISITOR -->|reads| PAGES
     VISITOR -->|loads media| R2
-    
-    classDef people fill:#1a3a39,stroke:#00f0c2,stroke-width:2px
-    classDef repos fill:#1a3a39,stroke:#00f0c2,stroke-width:1.5px
-    classDef actions fill:#1a3a39,stroke:#00f0c2,stroke-width:1.5px
-    classDef services fill:#1a3a39,stroke:#00f0c2,stroke-width:1.5px
-    
-    class OWNER,MEMBERS people
-    class MEDIA_REPO,WIKI_REPO repos
-    class DEPLOY,OPTIMIZE,TRANSCODE actions
-    class ACCESS,WORKER,R2,PAGES services
-    </div>
+```
   </div>
 </div>
