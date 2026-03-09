@@ -38,10 +38,9 @@ The archives run on open-source tooling across GitHub and Cloudflare. Media uplo
 
 <div class="diagram-pan">
   <div class="diagram-zoom">
-    <button onclick="diagramZoom(this,-1)">−</button>
-    <button onclick="diagramZoom(this,0)">Reset</button>
-    <button onclick="diagramZoom(this,1)">+</button>
+    <input type="range" min="40" max="400" value="100" oninput="diagramSlide(this)">
     <span class="diagram-level">100%</span>
+    <button onclick="diagramReset(this)">Reset</button>
   </div>
   <div class="diagram-inner">
 
@@ -103,16 +102,19 @@ graph LR
 </div>
 
 <script>
-function diagramZoom(btn, dir) {
-  var container = btn.closest('.diagram-pan');
+function diagramSlide(slider) {
+  var container = slider.closest('.diagram-pan');
   var inner = container.querySelector('.diagram-inner');
   var label = container.querySelector('.diagram-level');
-  var current = parseFloat(inner.dataset.zoom || 1);
-  if (dir === 0) current = 1;
-  else current = Math.min(2, Math.max(0.4, current + dir * 0.2));
-  inner.dataset.zoom = current;
-  inner.style.transform = 'scale(' + current + ')';
-  label.textContent = Math.round(current * 100) + '%';
+  var zoom = parseInt(slider.value) / 100;
+  inner.style.transform = 'scale(' + zoom + ')';
+  label.textContent = slider.value + '%';
+}
+function diagramReset(btn) {
+  var container = btn.closest('.diagram-pan');
+  var slider = container.querySelector('input[type=range]');
+  slider.value = 100;
+  diagramSlide(slider);
 }
 
 document.querySelectorAll('.diagram-pan').forEach(function(pan) {
