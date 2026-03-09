@@ -72,10 +72,8 @@ _Discovered by mulberry, Aergyl; Optimizations by Jordan, MandelbrotChaylay, mul
             F[DI Weapon] -->|FE| E
             E -->|FE| G[30 Purg'd DI Weapons]
             H[Normal Shield] -->|CF| G
-            G -->|FE| H [20 DI Shields]
-            D -->|CF| H
-            H --> I{620 total connections}
-            H --> J{Take in 1 or more}
+            G -->|FE| I [20 DI Shields]
+            D -->|CF| I
         ```
         
     === "For Zelda's Torch"
