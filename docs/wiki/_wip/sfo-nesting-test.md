@@ -70,10 +70,6 @@ Method 4: like method 2 but with dropdowns
 
             ```mermaid
             graph TD
-                A[Equipment] -->|Prepare| B[DI Shield]
-                A -->|Prepare| C[DI Weapon] 
-                A -->|Prepare| D[Normal Shield]
-                A -->|Prepare| E[DI Shield]
                 B -->|FE| F[RL Weapon]
                 E -->|FE| G[RL Weapon]
                 F -->|Fuse| H[DI Shield]
