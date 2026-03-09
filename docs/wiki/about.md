@@ -110,7 +110,6 @@ graph LR
     var oldZoom = parseFloat(inner.dataset.zoom || 1);
     newZoom = Math.max(0.4, Math.min(4, newZoom));
     newZoom = Math.round(newZoom * 100) / 100;
-    if (newZoom === oldZoom) return;
     var ratio = newZoom / oldZoom;
     var baseW = parseFloat(inner.dataset.baseW);
     var baseH = parseFloat(inner.dataset.baseH);
@@ -152,7 +151,10 @@ graph LR
     function measureAndApply() {
       var mermaidEl = inner.querySelector('.mermaid');
       var mRect = mermaidEl.getBoundingClientRect();
-      if (mRect.width <= 0 || mRect.height <= 0) return;
+      if (mRect.width <= 0 || mRect.height <= 0) {
+        requestAnimationFrame(measureAndApply);
+        return;
+      }
       var cs = getComputedStyle(inner);
       var padV = parseFloat(cs.paddingTop) + parseFloat(cs.paddingBottom);
       var w = inner.offsetWidth;
