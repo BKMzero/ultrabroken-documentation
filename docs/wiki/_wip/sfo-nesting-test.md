@@ -19,13 +19,17 @@ By creating 600-700 Cold Fuse connections, the game will be overloaded and unabl
 
 _Discovered by mulberry, Aergyl; Optimizations by Jordan, MandelbrotChaylay, mulberry, Squidwest_
 
-...just gonna run with the idea that these can nest and get to work. even if not, the work can be reused. Could probably use dropdowns instead if needed?
+The nesting works in theory. A/B testing with other ideas to see what works best.
+Method 1: provides the method in the main tab body and the use-cases in the subtabs
+Method 2: duplicates the method into the subtabs to maximize instruction clarity
+Method 3: like method 1 but uses dropdowns instead of subtabs
+Method 4: like method 2 but with dropdowns
 
 ## Forewarnings
 ---
 
-!!! info "Buckle up"
-    Due to the massive number of connections required, every method is relatively complex. Be sure to read the steps carefully, and be sure you understand the glitches that go into your chosen method, **before** you begin!
+!!! info "Buckle up!"
+    Due to the massive number of connections required, every method is relatively complex. Before you begin, be sure to read the steps carefully, and be sure you understand the glitches that go into your chosen method.
 
 !!! warning "Panic!"
     While SFO is active, Panic Blood Moons will constantly occur if they are able (ie on the main map and not in a minigame or cutscene). Additionally, some dependencies will **crash the game** if they fail to form!
@@ -34,12 +38,12 @@ _Discovered by mulberry, Aergyl; Optimizations by Jordan, MandelbrotChaylay, mul
 ---
 
 !!! note "Useful?"
-    There are three main use cases for SFO: Obtaining Mineru's Arm, obtaining Zelda's Torch, and duplicating anything you can throw. For the sake of providing clear instructions, each method below has its use cases *nested* in its tab.
+    There are three main use cases for SFO: Obtaining Mineru's Arm, obtaining Zelda's Torch, and duplicating anything you can throw. For the sake of providing clear instructions, a variant/extension of each method is given for each use case.
 
 === "Method 1"
     This is a persistent method that makes use of DI equipment to maximize setup speed. It can be used for anything, but is best-suited for Zelda's Torch and duplication.
 
-    (Mandelbrot's method)
+    (Main part of Mandelbrot's Method)
 
     === "For Zelda's Torch"
         To obtain Zelda's Torch, perform this setup in Rasitakiwak Shrine
@@ -60,35 +64,39 @@ _Discovered by mulberry, Aergyl; Optimizations by Jordan, MandelbrotChaylay, mul
 === "Method 2"
     This is a persistent method that makes use of DI equipment to balance speed, simplicity, and ease of use. It can be used for anything, but is best-suited for Zelda's Torch and duplication.
 
-    (Squidwest's method)
-
-    ??? example "Diagram"
-
-        ```mermaid
-        graph TD
-            A[DI Shield] -->|FE| B[RL Weapon]
-            C[DI Shield] -->|FE| D[RL Weapon]
-            B -->|Fuse| E[DI Shield]
-            F[DI Weapon] -->|FE| E
-            E -->|FE| G[30 Purg'd DI Weapons]
-            H[Normal Shield] -->|CF| G
-            G -->|FE| I [20 DI Shields]
-            D -->|CF| I
-            A -->|useless line| C
-            A -->|useless line| F
-            A -->|useless line| H
-        ```
-        
     === "For Zelda's Torch"
-        To obtain Zelda's Torch, perform this setup in a shrine.
+
+        ??? example "Diagram"
+
+            ```mermaid
+            graph TD
+                A[Equipment] --> B [DI Shield]
+                A --> C [DI Weapon] 
+                A --> D [Normal Shield]
+                A --> E [DI Shield]
+                B -->|FE| F [RL Weapon]
+                E -->|FE| G [RL Weapon]
+                F -->|Fuse| H [DI Shield]
+                C -->|FE| H
+                H -->|FE| I[30 DI Weapons]
+                D -->|CF| I
+                I -->|FE| J[20 DI Shields]
+                G -->|CF| J
+            ```
+
+        (method goes here)
 
     === "For duplication"
-        (this repeats what I give in Mandelbrot's method)
+
+        (diagram here)
+        
+        (then the method)
 
     === "For Mineru's Arm"
-        To obtain Mineru's Arm, perform this setup in the tunnel before Ganondorf
 
-        (extension that tells you to zuggle 1+ child shields into the fight for later destruction (to undo SFO enough to fuse/zuggle Arm)
+        (diagram)
+
+        (method)
 
     !!! info "Persistent?"
         This setup _does_ persist through warps and loads, allowing it in theory to be used for any use case. However, it is more difficult to undo than local methods, which can be inconvenient.
@@ -96,15 +104,17 @@ _Discovered by mulberry, Aergyl; Optimizations by Jordan, MandelbrotChaylay, mul
 === "Method 3"
     This is a local method that makes use of DI equipment to maximize portability and speed. It is ideal for Mineru's Arm and duplication, but cannot be used for Zelda's Torch.
 
-    (mulberry's method)
+    (main part of mulberry's method)
 
-    === "For Mineru's Arm"
+    ??? abstract "For Mineru's Arm"
         To obtain Mineru's Arm, perform this setup in the tunnel before Ganondorf
 
         (extension that tells you how to preserve SFO into the fight, obtain MinArm, and zuggle it out)
 
-    === "For Duplication"
+    ??? abstract "For Duplication"
         To duplicate Zonai Devices, perform this setup in the [find it] Minigame. For other throwables, simply perform in a shrine.
+
+        (extension that tells you how to dupe with sfo)
 
     !!! info "Local?"
         This setup _does not_ persist through warps and loads, limiting its uses. However, this also makes it easy to _undo_, and therefore more convenient for some tasks.
@@ -114,27 +124,36 @@ _Discovered by mulberry, Aergyl; Optimizations by Jordan, MandelbrotChaylay, mul
 
     (method based on Tahata's guide, placed last due to being somewhat outmoded by DI methods, but included due to being simplistic)
 
-    ??? example "Diagram"
-    
-        ```mermaid
-        graph TD
-            A[Shield B] -->|Fuse| B[Weapon A]
-            B -->|cf| C[Shields C1-C21]
-            C -->|cf| D[Materials D1-D30]
-            A -->|Take in| E{Ganon Room}
-            C -->|Take in| E
-            D -->|Take in| E
-        ```
+    ??? abstract "For mineru's Arm"
+
+        ??? example "Diagram"
         
-    === "For Mineru's Arm"
-        To obtain Mineru's Arm, perform this setup in the tunnel before Ganondorf
+            ```mermaid
+            graph TD
+                A[Shield B] -->|Fuse| B[Weapon A]
+                B -->|cf| C[Shields C1-C21]
+                C -->|cf| D[Materials D1-D30]
+                A -->|Take in| E{Ganon Room}
+                C -->|Take in| E
+                D -->|Take in| E
+            ```
 
-        (extension that tells you how to properly preserve sfo into the fight, obtain MinArm, and zuggle it out)
+        (method, then how to get Mineru's Arm with it)
+    
+    ??? abstract "For Duplication"
 
-    === "For Duplication"
-        To duplicate Zonai Devices, perform this setup in the [find a stable minigame] Minigame. For other throwables, simply perform in a shrine.
+        ??? example "Diagram"
 
-        (explanation of how to dupe with SFO)
+            ```mermaid
+            graph TD
+                A{Enter Minigame} -->|Equip| B[Shield B]
+                A -->|Overload Drop| C[Weapon A]
+                B -->|Fuse| C
+                C -->|cf| D[Shields C1-C21]
+                D -->|cf| E[Materials D1-D30]
+            ```
+
+        (method, then explanation of how to dupe with SFO)
 
     !!! info "Local?"
         This setup _does not_ persist through warps and loads, limiting its uses. However, this also makes it easy to _undo_, and therefore more convenient for some tasks.
