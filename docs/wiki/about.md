@@ -36,37 +36,50 @@ When you ask The Librarian, an algorithm searches our archives for documents tha
 ---
 The archives run on open-source tooling across GitHub and Cloudflare. Media uploads require authentication via the `ultrabroken-archivists` GitHub organisation — membership is managed by invite only. No personal data is collected; Cloudflare Access verifies org membership through GitHub OAuth and does not store credentials beyond session tokens.
 
+<div class="diagram-pan">
+  <div class="diagram-zoom">
+    <button onclick="diagramZoom(this,-1)">−</button>
+    <button onclick="diagramZoom(this,0)">Reset</button>
+    <button onclick="diagramZoom(this,1)">+</button>
+    <span class="diagram-level">100%</span>
+  </div>
+  <div class="diagram-inner">
+
 ``` mermaid
-graph TB
+graph LR
     subgraph people ["Collaborators"]
-        OWNER["Owner — nan-gogh"]
-        MEMBERS["Org Members — invited by username"]
+        direction TB
+        OWNER["Owner<br/>nan-gogh"]
+        MEMBERS["Org Members<br/>invited by username"]
     end
 
-    subgraph org ["GitHub Organisation — ultrabroken-archivists"]
-        ORG["Membership Roster<br/>used only as an access-control list"]
-        OAUTH["OAuth App<br/>client ID + secret shared with Cloudflare"]
+    subgraph org ["GitHub Org: ultrabroken-archivists"]
+        direction TB
+        ORG["Membership Roster<br/>access-control list only"]
+        OAUTH["OAuth App<br/>credentials shared<br/>with Cloudflare"]
     end
 
-    subgraph repos ["GitHub Repositories — nan-gogh"]
-        WIKI_REPO["ultrabroken-documentation<br/>MkDocs wiki source<br/>Markdown · CSS · JS · config"]
-        MEDIA_REPO["ultrabroken-media<br/>Cloudflare Worker source<br/>worker.js · wrangler.toml · workflows"]
-
+    subgraph repos ["GitHub Repos (nan-gogh)"]
+        direction TB
+        WIKI_REPO["ultrabroken-documentation<br/>MkDocs wiki source"]
+        MEDIA_REPO["ultrabroken-media<br/>Worker source + workflows"]
         subgraph actions ["GitHub Actions"]
-            DEPLOY["deploy.yml<br/>auto-deploy Worker on push"]
-            OPTIMIZE["optimize.yml<br/>AVIF image optimization<br/>sharp · quality 65"]
-            TRANSCODE["transcode.yml<br/>AV1+Opus video transcode<br/>ffmpeg · libsvtav1 CRF 35"]
+            direction TB
+            DEPLOY["deploy.yml<br/>auto-deploy Worker"]
+            OPTIMIZE["optimize.yml<br/>AVIF via sharp"]
+            TRANSCODE["transcode.yml<br/>AV1 via ffmpeg"]
         end
     end
 
     subgraph cloudflare ["Cloudflare"]
-        ACCESS["Cloudflare Access — Zero Trust<br/>Policy: require ultrabroken-archivists membership"]
-        WORKER["Cloudflare Worker<br/>serves files · /manage UI<br/>upload · delete · purge"]
-        R2["Cloudflare R2 — Object Storage<br/>screens/ · video/ · social/<br/>metadata tracks optimization status"]
-        PAGES["GitHub Pages<br/>hosts the wiki site"]
+        direction TB
+        ACCESS["Cloudflare Access<br/>Zero Trust gateway<br/>requires org membership"]
+        WORKER["Worker<br/>serves files + /manage UI<br/>upload · delete · purge"]
+        R2["R2 Object Storage<br/>screens/ · video/ · social/"]
+        PAGES["GitHub Pages<br/>hosts the wiki"]
     end
 
-    VISITOR["Wiki Visitors — public, no auth"]
+    VISITOR["Wiki Visitors<br/>public — no auth"]
 
     OWNER -->|owns| ORG
     MEMBERS -->|member of| ORG
@@ -76,8 +89,8 @@ graph TB
     ACCESS -->|authenticated| WORKER
     WORKER -->|read / write| R2
     WORKER -->|dispatch via PAT| OPTIMIZE & TRANSCODE
-    OPTIMIZE -->|convert and reupload| R2
-    TRANSCODE -->|transcode and reupload| R2
+    OPTIMIZE -->|convert + reupload| R2
+    TRANSCODE -->|transcode + reupload| R2
     DEPLOY -->|wrangler deploy| WORKER
     MEDIA_REPO -->|push triggers| DEPLOY
     WIKI_REPO -->|push triggers| PAGES
@@ -85,3 +98,20 @@ graph TB
     VISITOR -->|reads| PAGES
     VISITOR -->|loads media| R2
 ```
+
+  </div>
+</div>
+
+<script>
+function diagramZoom(btn, dir) {
+  var container = btn.closest('.diagram-pan');
+  var inner = container.querySelector('.diagram-inner');
+  var label = container.querySelector('.diagram-level');
+  var current = parseFloat(inner.dataset.zoom || 1);
+  if (dir === 0) current = 1;
+  else current = Math.min(2, Math.max(0.4, current + dir * 0.2));
+  inner.dataset.zoom = current;
+  inner.style.transform = 'scale(' + current + ')';
+  label.textContent = Math.round(current * 100) + '%';
+}
+</script>
