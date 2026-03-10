@@ -157,7 +157,7 @@ graph TD
         settingScroll = true;
         pan.scrollLeft = vSX;
         pan.scrollTop = vSY;
-        settingScroll = false;
+        setTimeout(function(){ settingScroll = false; }, 0);
       }
     }
 
@@ -175,12 +175,12 @@ graph TD
       settingScroll = true;
       pan.scrollLeft = vSX;
       pan.scrollTop = vSY;
-      settingScroll = false;
+      setTimeout(function(){ settingScroll = false; }, 0);
     }
 
     // Sync virtual scroll only from user-initiated scrolling (drag), not programmatic
     pan.addEventListener('scroll', function() {
-      if (!settingScroll) {
+      if (!settingScroll && lastTouchDist === null) {
         vSX = pan.scrollLeft;
         vSY = pan.scrollTop;
       }
@@ -248,7 +248,7 @@ graph TD
         settingScroll = true;
         pan.scrollLeft = vSX;
         pan.scrollTop = vSY;
-        settingScroll = false;
+        setTimeout(function(){ settingScroll = false; }, 0);
         lastTouchDist = dist;
         lastTouchMid = mid;
       } else if (e.touches.length === 1 && dragging) {
