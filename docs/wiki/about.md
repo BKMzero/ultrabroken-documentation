@@ -197,7 +197,7 @@ graph TD
       if (e.target.closest('.diagram-zoom')) return;
       e.preventDefault();
       var r = pan.getBoundingClientRect();
-      zoomAt(zoom + (e.deltaY > 0 ? -0.2 : 0.2), e.clientX - r.left, e.clientY - r.top);
+      zoomAt(zoom + (e.deltaY > 0 ? -0.3 : 0.3), e.clientX - r.left, e.clientY - r.top);
     }, { passive: false });
 
     // Drag: pan by mouse
