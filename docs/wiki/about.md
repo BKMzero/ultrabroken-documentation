@@ -102,6 +102,7 @@ graph TD
     // Virtual (unclamped) scroll position — prevents drift from browser clamping
     var vSX = 0, vSY = 0;
     var settingScroll = false; // guard against scroll event overwriting unclamped values
+    var sliderActive = false; // guard during slider interaction
 
     // Sizer div defines the scrollable area
     var sizer = document.createElement('div');
@@ -180,7 +181,7 @@ graph TD
 
     // Sync virtual scroll only from user-initiated scrolling (drag), not programmatic
     pan.addEventListener('scroll', function() {
-      if (!settingScroll && lastTouchDist === null) {
+      if (!settingScroll && lastTouchDist === null && !sliderActive) {
         vSX = pan.scrollLeft;
         vSY = pan.scrollTop;
       }
@@ -188,7 +189,11 @@ graph TD
 
     // Slider: zoom toward viewport center
     slider.addEventListener('input', function() {
+      sliderActive = true;
       zoomAt(parseInt(slider.value) / 100, pan.clientWidth / 2, pan.clientHeight / 2);
+    });
+    slider.addEventListener('change', function() {
+      setTimeout(function(){ sliderActive = false; }, 50);
     });
     resetBtn.addEventListener('click', function() { applyZoom(1, true); });
 
