@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Hestu Scamming"
 uid: "U1A"
 label: "HSCA"
@@ -22,10 +22,11 @@ _Blackmars, Tahata, EM - 19 April 2024_
 
 ## Instructions
 ---
-Prerequisites:
-- Both the "For the Princess" and "The All-Clucking Cucco" side adventures uncompleted and in your quest log
-- At least 35 korok seeds
+### Prerequisites
+- [ ] Both the "For the Princess" and "The All-Clucking Cucco" side adventures uncompleted and in your quest log
+- [ ] At least 35 korok seeds
 
+### Setup
 1. Build a platform made from two carts and a stake and position it just behind the NPCs standing in the entrance of the Foothill Monster Den
 2. While standing on top of the platform, run and jump towards the cave entrance so Link lands on the ground in between the two NPCs
 3. Decline their offer to play the cave minigame. When Link starts walking away, the platform should get in the way and prevent Link from leaving the dialog trigger. If not, reposition the platform and try again
