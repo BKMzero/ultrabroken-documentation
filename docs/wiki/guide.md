@@ -616,9 +616,22 @@ Creates tabs for organizing related content groups.
 
 === "Interactive Viewer"
 
-    Any Mermaid diagram can be made interactive (pan, zoom, drag) by adding the `viewer` keyword to the code fence info string. The build hook wraps it in the pan-zoom container automatically.
+    #### How to Use
 
-    #### Syntax
+    Add the word `viewer` after `mermaid` on the opening fence line. That's all — the build system automatically wraps your diagram in an interactive pan-zoom viewer.
+
+    #### Example
+
+    Change this:
+
+    ````markdown
+    ```mermaid
+    graph TD
+        A --> B
+    ```
+    ````
+
+    To this:
 
     ````markdown
     ```mermaid viewer
@@ -627,16 +640,18 @@ Creates tabs for organizing related content groups.
     ```
     ````
 
-    #### Features
+    #### What You Get
 
-    - **Scroll wheel zoom**: Zoom in/out toward the cursor position
-    - **Pinch zoom** (mobile): Zoom to the pinch center point
-    - **Slider zoom**: Adjust zoom level toward the viewport center
-    - **Mouse drag**: Click and drag to pan the diagram
+    Your diagram becomes interactive with:
+
+    - **Scroll wheel zoom**: Zoom in/out toward the cursor
+    - **Pinch zoom** (mobile): Zoom to the pinch center
+    - **Slider**: Manually adjust zoom level (easy 22px touch target)
+    - **Mouse drag**: Click and drag to pan
     - **Touch drag** (mobile): Single-finger drag to pan
-    - **Reset button**: Return to the initial zoom level (1×) and centered position
+    - **Reset button**: Return to default zoom (1×) and centered view
 
-    See the [Infrastructure diagram](/wiki/about/#infrastructure) on the About page for a live example.
+    See the [Infrastructure diagram on the About page](/wiki/about/#infrastructure) for a live example.
 
 === "Flowchart"
 
