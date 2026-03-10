@@ -210,6 +210,7 @@ graph TD
         pinchSX = pan.scrollLeft;
         pinchSY = pan.scrollTop;
       } else if (e.touches.length === 1) {
+        if (e.target.closest('.diagram-zoom')) return;
         dragging = true;
         dragX = e.touches[0].clientX; dragY = e.touches[0].clientY;
         scrollL = pan.scrollLeft; scrollT = pan.scrollTop;
