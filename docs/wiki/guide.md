@@ -614,45 +614,6 @@ Creates tabs for organizing related content groups.
 
 ### Diagrams
 
-=== "Interactive Viewer"
-
-    #### How to Use
-
-    Add the word `viewer` after `mermaid` on the opening fence line. That's all — the build system automatically wraps your diagram in an interactive pan-zoom viewer.
-
-    #### Example
-
-    Change this:
-
-    ````markdown
-    ```mermaid
-    graph TD
-        A --> B
-    ```
-    ````
-
-    To this:
-
-    ````markdown
-    ```mermaid viewer
-    graph TD
-        A --> B
-    ```
-    ````
-
-    #### What You Get
-
-    Your diagram becomes interactive with:
-
-    - **Scroll wheel zoom**: Zoom in/out toward the cursor
-    - **Pinch zoom** (mobile): Zoom to the pinch center
-    - **Slider**: Manually adjust zoom level (easy 22px touch target)
-    - **Mouse drag**: Click and drag to pan
-    - **Touch drag** (mobile): Single-finger drag to pan
-    - **Reset button**: Return to default zoom (1×) and centered view
-
-    See the [Infrastructure diagram on the About page](/wiki/about/#infrastructure) for a live example.
-
 === "Flowchart"
 
     Shows decision flows and process steps with nodes and connections.
@@ -880,6 +841,38 @@ Creates tabs for organizing related content groups.
         "Collision Exploitation" : 20
         "Physics Exploitation" : 20
     ```
+
+=== "Interactive Viewer"
+
+    Add the word `viewer` after `mermaid` on the opening fence line — the build system automatically wraps your diagram in an interactive pan-zoom viewer.
+
+    #### Syntax
+
+    ````markdown
+    ```mermaid viewer
+    graph TD
+        A --> B
+    ```
+    ````
+
+    #### Example
+
+    ```mermaid viewer
+    graph TD
+        A["Glitch discovery"] --> B{New?}
+        B -->|Yes| C[Archive]
+        B -->|No| D[T-Pose]
+        C --> E[End]
+        D --> E
+    ```
+
+    #### Features
+
+    - **Scroll wheel**: Zoom in/out toward the cursor
+    - **Pinch zoom** (mobile): Zoom to the pinch center
+    - **Slider**: Manually adjust zoom level
+    - **Drag**: Pan in any direction
+    - **Reset**: Return to default zoom and center
 
 ## Quick Reference
 ---
