@@ -117,9 +117,59 @@
     parentNav.insertBefore(wrapper, list);
   }
 
+  /* ── toc.follow for mobile ─────────────────────────────────
+     A MutationObserver watches the desktop TOC for class changes.
+     Whenever Material marks a link active, we mirror it into
+     every mobile TOC clone in real-time — so the highlight is
+     already there when the user opens the panel.              ── */
+  var tocObserver = null;
+
+  function startTocFollow(tocNav) {
+    stopTocFollow();
+
+    var clones = document.querySelectorAll('.ub-toc-header nav.md-nav');
+    if (!clones.length) return;
+
+    function syncAll() {
+      var activeDesktop = tocNav.querySelector('.md-nav__link--active');
+      var activeHref = activeDesktop
+        ? activeDesktop.getAttribute('href')
+        : null;
+
+      clones.forEach(function (clone) {
+        clone.querySelectorAll('.md-nav__link--active').forEach(function (el) {
+          el.classList.remove('md-nav__link--active');
+        });
+        if (!activeHref) return;
+        var match = clone.querySelector(
+          'a.md-nav__link[href="' + CSS.escape(activeHref) + '"]'
+        );
+        if (match) match.classList.add('md-nav__link--active');
+      });
+    }
+
+    // Initial sync
+    syncAll();
+
+    tocObserver = new MutationObserver(syncAll);
+    tocObserver.observe(tocNav, {
+      attributes: true,
+      subtree: true,
+      attributeFilter: ['class']
+    });
+  }
+
+  function stopTocFollow() {
+    if (tocObserver) {
+      tocObserver.disconnect();
+      tocObserver = null;
+    }
+  }
+
   /* ── Inject TOC into every nav panel in the primary sidebar ── */
   function injectHeaderToc() {
     // Remove any previous injections (SPA nav rebuilds the page)
+    stopTocFollow();
     document.querySelectorAll('.ub-toc-header').forEach(function (el) {
       el.remove();
     });
@@ -145,6 +195,9 @@
       var level = parseInt(nav.getAttribute('data-md-level') || '1', 10) + 1;
       injectIntoNav(nav, level, TOGGLE_PREFIX + '_' + counter++, tocNav);
     });
+
+    // Start mirroring the desktop TOC's active link into mobile clones
+    startTocFollow(tocNav);
   }
 
   /* ── Reset nav on drawer open ────────────────────────────────
