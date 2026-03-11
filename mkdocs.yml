@@ -28,6 +28,8 @@ theme:
 
 extra_css:
   - assets/stylesheets/glow.css
+  - assets/stylesheets/ai-widget.css
+  - assets/stylesheets/grimoire.css
 
 extra_javascript:
   - assets/scripts/mermaid-config.js
