@@ -3,7 +3,7 @@ title: "Kinematic Weapons"
 uid: "OO2"
 label: "KW"
 versions: ["1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
-credits: ["mulberry", "dt13269" "Squidwest"]
+credits: ["mulberry", "dt13269", "Squidwest"]
 date: "2026-02-25"
 description: "Makes weapons immovable, except by picking up and dropping them."
 aliases: ["kinematic equipment","unmovable equipment"]
