@@ -13,10 +13,13 @@ theme:
   favicon: assets/images/icons/ultrabroken_rune.ico
   features:
     - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
     - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.expand
+    - navigation.indexes
     - search.highlight
     - search.share
     - search.suggest
