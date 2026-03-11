@@ -20,6 +20,8 @@ theme:
     - navigation.tabs.sticky
     - navigation.expand
     - navigation.indexes
+    - navigation.prune
+    - toc.follow
     - search.highlight
     - search.share
     - search.suggest
