@@ -32,6 +32,7 @@ theme:
     accent: teal
 
 extra_css:
+  - assets/stylesheets/fonts.css
   - assets/stylesheets/glow.css
   - assets/stylesheets/ai-widget.css
   - assets/stylesheets/grimoire.css
