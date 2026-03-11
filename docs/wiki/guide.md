@@ -612,267 +612,265 @@ Creates tabs for organizing related content groups.
 
     This is alternative approach B.
 
-### Diagrams
+### Flowchart
 
-=== "Flowchart"
+Shows decision flows and process steps with nodes and connections.
 
-    Shows decision flows and process steps with nodes and connections.
+#### Syntax
 
-    #### Syntax
+````markdown
+```mermaid
+graph TD
+    A["Glitch<br/>discovery"] --> B{New?}
+    B -->|Yes| C[Archive]
+    B -->|No| D[T-Pose]
+    C --> E[End]
+    D --> E
+```
+````
 
-    ````markdown
-    ```mermaid
-    graph TD
-        A["Glitch<br/>discovery"] --> B{New?}
-        B -->|Yes| C[Archive]
-        B -->|No| D[T-Pose]
-        C --> E[End]
-        D --> E
-    ```
-    ````
+#### Example
 
-    #### Example
+```mermaid
+graph TD
+    A["Glitch<br/>discovery"] --> B{New?}
+    B -->|Yes| C[Archive]
+    B -->|No| D[T-Pose]
+    C --> E[End]
+    D --> E
+```
 
-    ```mermaid
-    graph TD
-        A["Glitch<br/>discovery"] --> B{New?}
-        B -->|Yes| C[Archive]
-        B -->|No| D[T-Pose]
-        C --> E[End]
-        D --> E
-    ```
+### Sequence
 
-=== "Sequence"
+Shows interactions between actors or systems over time, useful for documenting workflows and protocols.
 
-    Shows interactions between actors or systems over time, useful for documenting workflows and protocols.
+#### Syntax
 
-    #### Syntax
+````markdown
+```mermaid
+sequenceDiagram
+    participant Player as Link
+    participant Inventory
+    participant Equipment
+    Player->>Inventory: Open inventory
+    Inventory->>Equipment: Load equipment state
+    Equipment-->>Inventory: Zuggle state synced
+    Inventory-->>Player: Display synced state
+```
+````
 
-    ````markdown
-    ```mermaid
-    sequenceDiagram
-        participant Player as Link
-        participant Inventory
-        participant Equipment
-        Player->>Inventory: Open inventory
-        Inventory->>Equipment: Load equipment state
-        Equipment-->>Inventory: Zuggle state synced
-        Inventory-->>Player: Display synced state
-    ```
-    ````
+#### Example
 
-    #### Example
+```mermaid
+sequenceDiagram
+    participant Player as Link
+    participant Inventory
+    participant Equipment
+    Player->>Inventory: Open inventory
+    Inventory->>Equipment: Load equipment state
+    Equipment-->>Inventory: Zuggle state synced
+    Inventory-->>Player: Display synced state
+```
 
-    ```mermaid
-    sequenceDiagram
-        participant Player as Link
-        participant Inventory
-        participant Equipment
-        Player->>Inventory: Open inventory
-        Inventory->>Equipment: Load equipment state
-        Equipment-->>Inventory: Zuggle state synced
-        Inventory-->>Player: Display synced state
-    ```
+### Class
 
-=== "Class"
+Illustrates object-oriented structures, classes, and their relationships.
 
-    Illustrates object-oriented structures, classes, and their relationships.
+#### Syntax
 
-    #### Syntax
+````markdown
+```mermaid
+classDiagram
+    class Glitch {
+        +string name
+        +string technique
+        +string[] versions
+        +execute()
+    }
+    class Equipment {
+        +string id
+        +int durability
+        +getState()
+    }
+    Glitch --> Equipment : affects
+```
+````
 
-    ````markdown
-    ```mermaid
-    classDiagram
-        class Glitch {
-            +string name
-            +string technique
-            +string[] versions
-            +execute()
-        }
-        class Equipment {
-            +string id
-            +int durability
-            +getState()
-        }
-        Glitch --> Equipment : affects
-    ```
-    ````
+#### Example
 
-    #### Example
+```mermaid
+classDiagram
+    class Glitch {
+        +string name
+        +string technique
+        +string[] versions
+        +execute()
+    }
+    class Equipment {
+        +string id
+        +int durability
+        +getState()
+    }
+    Glitch --> Equipment : affects
+```
 
-    ```mermaid
-    classDiagram
-        class Glitch {
-            +string name
-            +string technique
-            +string[] versions
-            +execute()
-        }
-        class Equipment {
-            +string id
-            +int durability
-            +getState()
-        }
-        Glitch --> Equipment : affects
-    ```
+### State
 
-=== "State"
+Represents state transitions and conditional logic for system behavior.
 
-    Represents state transitions and conditional logic for system behavior.
+#### Syntax
 
-    #### Syntax
+````markdown
+```mermaid
+stateDiagram-v2
+    [*] --> Normal
+    Normal --> Desync: Trigger glitch
+    Desync --> Equipment_Cloned: Fuse cloned
+    Equipment_Cloned --> Normal: Inventory reload
+    Equipment_Cloned --> [*]
+```
+````
 
-    ````markdown
-    ```mermaid
-    stateDiagram-v2
-        [*] --> Normal
-        Normal --> Desync: Trigger glitch
-        Desync --> Equipment_Cloned: Fuse cloned
-        Equipment_Cloned --> Normal: Inventory reload
-        Equipment_Cloned --> [*]
-    ```
-    ````
+#### Example
 
-    #### Example
+```mermaid
+stateDiagram-v2
+    [*] --> Normal
+    Normal --> Desync: Trigger glitch
+    Desync --> Equipment_Cloned: Fuse cloned
+    Equipment_Cloned --> Normal: Inventory reload
+    Equipment_Cloned --> [*]
+```
 
-    ```mermaid
-    stateDiagram-v2
-        [*] --> Normal
-        Normal --> Desync: Trigger glitch
-        Desync --> Equipment_Cloned: Fuse cloned
-        Equipment_Cloned --> Normal: Inventory reload
-        Equipment_Cloned --> [*]
-    ```
+### ER Diagram
 
-=== "ER Diagram"
+Models database schemas and entity relationships.
 
-    Models database schemas and entity relationships.
+#### Syntax
 
-    #### Syntax
+````markdown
+```mermaid
+erDiagram
+    GLITCH ||--o{ TECHNIQUE : has
+    GLITCH ||--o{ VERSION : supports
+    TECHNIQUE {
+        int id
+        string name
+        string description
+    }
+    VERSION {
+        string number
+        date release_date
+    }
+```
+````
 
-    ````markdown
-    ```mermaid
-    erDiagram
-        GLITCH ||--o{ TECHNIQUE : has
-        GLITCH ||--o{ VERSION : supports
-        TECHNIQUE {
-            int id
-            string name
-            string description
-        }
-        VERSION {
-            string number
-            date release_date
-        }
-    ```
-    ````
+#### Example
 
-    #### Example
+```mermaid
+erDiagram
+    GLITCH ||--o{ TECHNIQUE : has
+    GLITCH ||--o{ VERSION : supports
+    TECHNIQUE {
+        int id
+        string name
+        string description
+    }
+    VERSION {
+        string number
+        date release_date
+    }
+```
 
-    ```mermaid
-    erDiagram
-        GLITCH ||--o{ TECHNIQUE : has
-        GLITCH ||--o{ VERSION : supports
-        TECHNIQUE {
-            int id
-            string name
-            string description
-        }
-        VERSION {
-            string number
-            date release_date
-        }
-    ```
+### Gantt
 
-=== "Gantt"
+Timeline visualization for project schedules and dependencies. The chart title is automatically hidden.
 
-    Timeline visualization for project schedules and dependencies. The chart title is automatically hidden.
+#### Syntax
 
-    #### Syntax
+````markdown
+```mermaid
+gantt
+    title Chart Title (hidden)
+    dateFormat YYYY-MM-DD
+    section Phase
+    Research           :a1, 2024-01-01, 30d
+    Testing            :a2, after a1, 20d
+    Documentation      :a3, after a2, 15d
+    Publication        :crit, a4, after a3, 10d
+```
+````
 
-    ````markdown
-    ```mermaid
-    gantt
-        title Chart Title (hidden)
-        dateFormat YYYY-MM-DD
-        section Phase
-        Research           :a1, 2024-01-01, 30d
-        Testing            :a2, after a1, 20d
-        Documentation      :a3, after a2, 15d
-        Publication        :crit, a4, after a3, 10d
-    ```
-    ````
+#### Example
 
-    #### Example
+```mermaid
+gantt
+    title Chart Title (hidden)
+    dateFormat YYYY-MM-DD
+    section Phase
+    Research           :a1, 2024-01-01, 30d
+    Testing            :a2, after a1, 20d
+    Documentation      :a3, after a2, 15d
+    Publication        :crit, a4, after a3, 10d
+```
 
-    ```mermaid
-    gantt
-        title Chart Title (hidden)
-        dateFormat YYYY-MM-DD
-        section Phase
-        Research           :a1, 2024-01-01, 30d
-        Testing            :a2, after a1, 20d
-        Documentation      :a3, after a2, 15d
-        Publication        :crit, a4, after a3, 10d
-    ```
+### Pie
 
-=== "Pie"
+Displays proportional data distribution. The chart title is automatically hidden.
 
-    Displays proportional data distribution. The chart title is automatically hidden.
+#### Syntax
 
-    #### Syntax
+````markdown
+```mermaid
+pie title Chart Title (hidden)
+    "Equipment Duplication" : 35
+    "Movement Abuse" : 25
+    "Collision Exploitation" : 20
+    "Physics Exploitation" : 20
+```
+````
 
-    ````markdown
-    ```mermaid
-    pie title Chart Title (hidden)
-        "Equipment Duplication" : 35
-        "Movement Abuse" : 25
-        "Collision Exploitation" : 20
-        "Physics Exploitation" : 20
-    ```
-    ````
+#### Example
 
-    #### Example
+```mermaid
+pie title Chart Title (hidden)
+    "Equipment Duplication" : 35
+    "Movement Abuse" : 25
+    "Collision Exploitation" : 20
+    "Physics Exploitation" : 20
+```
 
-    ```mermaid
-    pie title Chart Title (hidden)
-        "Equipment Duplication" : 35
-        "Movement Abuse" : 25
-        "Collision Exploitation" : 20
-        "Physics Exploitation" : 20
-    ```
+### Interactive Viewer
 
-=== "Interactive Viewer"
+Add the word `viewer` after `mermaid` on the opening fence line — the build system automatically wraps your diagram in an interactive pan-zoom viewer.
 
-    Add the word `viewer` after `mermaid` on the opening fence line — the build system automatically wraps your diagram in an interactive pan-zoom viewer.
+#### Syntax
 
-    #### Syntax
+````markdown
+```mermaid viewer
+graph TD
+    A --> B
+```
+````
 
-    ````markdown
-    ```mermaid viewer
-    graph TD
-        A --> B
-    ```
-    ````
+#### Example
 
-    #### Example
+```mermaid viewer
+graph TD
+    A["Glitch discovery"] --> B{New?}
+    B -->|Yes| C[Archive]
+    B -->|No| D[T-Pose]
+    C --> E[End]
+    D --> E
+```
 
-    ```mermaid viewer
-    graph TD
-        A["Glitch discovery"] --> B{New?}
-        B -->|Yes| C[Archive]
-        B -->|No| D[T-Pose]
-        C --> E[End]
-        D --> E
-    ```
+#### Features
 
-    #### Features
-
-    - **Scroll wheel**: Zoom in/out toward the cursor
-    - **Pinch zoom** (mobile): Zoom to the pinch center
-    - **Slider**: Manually adjust zoom level
-    - **Drag**: Pan in any direction
-    - **Reset**: Return to default zoom and center
+- **Scroll wheel**: Zoom in/out toward the cursor
+- **Pinch zoom** (mobile): Zoom to the pinch center
+- **Slider**: Manually adjust zoom level
+- **Drag**: Pan in any direction
+- **Reset**: Return to default zoom and center
 
 ## Quick Reference
 ---
