@@ -5,7 +5,7 @@ label: "LLC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Mozz"]
 date: "2023-06-13"
-description: "A method for object culling"
+description: "A Like-Like based method for object culling."
 aliases: ["like-like-culling"]
 tags: ["culling", "like-like"]
 ---
@@ -16,7 +16,7 @@ tags: ["culling", "like-like"]
 `M00`
 ## Summary
 ---
-A method for object culling
+A Like-Like based method for object culling.
 
 _Mozz - 13 June 2023_
 
