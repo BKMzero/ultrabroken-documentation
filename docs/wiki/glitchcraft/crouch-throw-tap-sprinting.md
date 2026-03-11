@@ -5,7 +5,7 @@ label: "CTTS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Deystroyer"]
 date: "2023-05-15"
-description: "Infinite and fastest way of sprinting"
+description: "Infinite and fastest way of sprinting."
 aliases: ["crouch-throw-tap-sprinting"]
 tags: ["sprinting"]
 ---
@@ -16,7 +16,7 @@ tags: ["sprinting"]
 `VKB`
 ## Summary
 ---
-Infinite and fastest way of sprinting
+Infinite and fastest way of sprinting.
 
 _Deystroyer - 15 May 2023_
 
