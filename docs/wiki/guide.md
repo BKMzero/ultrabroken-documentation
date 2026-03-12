@@ -156,9 +156,9 @@ Images and videos are hosted on Cloudflare R2, served by a [Worker](https://gith
 | Prefix path | Content |
 |--|--|
 | `media:screens/` | Screenshots (AVIF) |
-| `media:video/` | Video clips (AV1+Opus WebM) |
+| `media:video/` | Video clips (H.264+AAC MP4) |
 
-Compress files locally before uploading — use [Squoosh](https://squoosh.app/) for images (AVIF) and HandBrake or ffmpeg for video (AV1+Opus WebM). Upload via the media management UI (requires GitHub login).
+Compress files locally before uploading — use [Squoosh](https://squoosh.app/) for images (AVIF) and HandBrake or ffmpeg for video (H.264+AAC MP4). Upload via the media management UI (requires GitHub login).
 
 ### Map Embeds
 

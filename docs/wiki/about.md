@@ -47,7 +47,7 @@ graph TD
     WIKI_REPO["📚 ultrabroken-documentation<br/>MkDocs wiki source"]
     DEPLOY["⚙️ deploy.yml<br/>auto-deploy Worker"]
     OPTIMIZE["🖼️ optimize.yml<br/>AVIF via sharp"]
-    TRANSCODE["🎬 transcode.yml<br/>AV1 via ffmpeg"]
+    TRANSCODE["🎬 transcode.yml<br/>H.264 via ffmpeg"]
     
     ACCESS["🚪 Cloudflare Access<br/>Zero Trust gateway<br/>requires org membership"]
     WORKER["💼 Worker<br/>serves files + /manage UI<br/>upload · delete · purge"]
