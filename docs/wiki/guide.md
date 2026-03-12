@@ -150,12 +150,12 @@ Images and videos are hosted on Cloudflare R2, served by a [Worker](https://gith
 #### Syntax / Example
 
 ```markdown
-![Nachoyah Shrine VD](media:screens/nachoyah-vd.avif)
+![Nachoyah Shrine VD](media:image/nachoyah-vd.avif)
 ```
 
 | Prefix path | Content |
 |--|--|
-| `media:screens/` | Screenshots (AVIF) |
+| `media:image/` | Screenshots (AVIF) |
 | `media:video/` | Video clips (H.264+AAC MP4) |
 
 Compress files locally before uploading — use [Squoosh](https://squoosh.app/) for images (AVIF) and HandBrake or ffmpeg for video (H.264+AAC MP4). Upload via the media management UI (requires GitHub login).

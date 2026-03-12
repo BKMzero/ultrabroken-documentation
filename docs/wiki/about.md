@@ -51,7 +51,7 @@ graph TD
     
     ACCESS["🚪 Cloudflare Access<br/>Zero Trust gateway<br/>requires org membership"]
     WORKER["💼 Worker<br/>serves files + /manage UI<br/>upload · delete · purge"]
-    R2["🗄️ R2 Object Storage<br/>screens/ · video/ · social/"]
+    R2["🗄️ R2 Object Storage<br/>image/ · video/ · social/"]
     PAGES["📖 GitHub Pages<br/>hosts the wiki"]
     VISITOR["👁️ Wiki Visitors<br/>public — no auth"]
     
