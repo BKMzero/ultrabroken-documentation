@@ -145,7 +145,12 @@ Links prefixed with `search:` open the site search overlay with the query pre-fi
 
 ### Media Links
 
-Images and videos are hosted on Cloudflare R2, served by a [Worker](https://github.com/nan-gogh/ultrabroken-media). Use the `media:` prefix to reference assets — the build hook rewrites it to the full URL automatically.
+Upload, compress and edit images and videos via the [media vault](https://ultrabroken-media.gl1tchcr4vt.workers.dev/manage). Reference them with `media:` prefix.
+
+| Prefix path | Content |
+|--|--|
+| `media:image/` | Screenshots, graphics (AVIF) |
+| `media:video/` | Video clips (H.264+AAC MP4) |
 
 #### Syntax / Example
 
@@ -153,12 +158,9 @@ Images and videos are hosted on Cloudflare R2, served by a [Worker](https://gith
 ![Nachoyah Shrine VD](media:image/nachoyah-vd.avif)
 ```
 
-| Prefix path | Content |
-|--|--|
-| `media:image/` | Screenshots (AVIF) |
-| `media:video/` | Video clips (H.264+AAC MP4) |
+#### Example
 
-Compress files locally before uploading — use [Squoosh](https://squoosh.app/) for images (AVIF) and HandBrake or ffmpeg for video (H.264+AAC MP4). Upload via the media management UI (requires GitHub login).
+![Nachoyah Shrine VD](media:image/nachoyah-vd.avif)
 
 ### Map Embeds
 
