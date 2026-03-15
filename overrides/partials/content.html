@@ -8,6 +8,9 @@
 
 <div class="ub-page-actions">
   {% include "partials/actions.html" %}
+  {% if page.meta and page.meta.uid %}
+    <span class="ub-page-uid" title="Page UID">{{ page.meta.uid }}</span>
+  {% endif %}
 </div>
 
 {% if "\x3ch1" not in page.content %}
