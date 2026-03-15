@@ -1,3 +1,8 @@
+---
+title: "Editor Guide & Markdown Reference"
+unlisted: true
+---
+
 # Editor Guide & Markdown Reference
 
 This page provides a comprehensive guide for editors contributing to the Ultrabroken Archives written in Markdown and published with MkDocs + Material. It covers contribution workflows, conventions, custom site features, and all active Markdown extensions.
@@ -64,6 +69,26 @@ draft: true
 
 When ready to publish, simply remove the `draft: true` line and commit. The page immediately becomes discoverable.
 
+#### Using `unlisted: true` (permanent reference pages)
+
+For pages that are fully published and intentionally permanent — but shouldn't surface in search or AI results (e.g. editor guides, about pages, meta content) — use `unlisted: true`:
+
+```yaml
+
+title: "My Reference Page"
+unlisted: true
+
+```
+
+| System | Unlisted? | vs Draft |
+|---|---|---|
+| Site search | Excluded | Same |
+| AI evidence | Excluded | Same |
+| Web crawlers | **Crawlable** | Draft is noindex |
+| Draft banner | **None** | Draft shows banner |
+| Social cards / OG | **Generated** | Draft skips |
+| Direct URL access | Accessible | Same |
+
 ### Style Best Practices
 
 - Write in the present tense and keep instructions concise.
@@ -107,6 +132,7 @@ The display `title` is required. All other fields are optional but recommended.
 - `tags`: Categorization tags. Auto-indexed into [tags.json](../assets/data/tags.json) - used for filtering and search discovery
 - `aliases`: Alternative names for search discovery. Case-insensitive — used for autolinking (see [Glitch Autolinks](#glitch-autolinks))
 - `draft`: Set to `true` to mark a page as a draft — hides it from search, grimoire, and web crawlers while keeping it accessible via direct URL (see [Drafts & Previews](#drafts--previews))
+- `unlisted`: Set to `true` to permanently exclude a page from search and AI evidence without marking it as a draft — no banner, no noindex, social cards still generated. Use for reference pages or meta content that belongs in the wiki but shouldn't appear in discovery results.
 - `uid`: Auto-generated unique identifier. **Do not add manually.**
 
 #### Example
