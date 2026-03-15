@@ -13,7 +13,6 @@ tags: ["storage"]
 # Hero Path Link Storage `HPLS`
 `1.1.0` `1.1.1` `1.1.2`
 
-`YIS`
 ## Summary
 ---
 Visual glitch with the hero path.

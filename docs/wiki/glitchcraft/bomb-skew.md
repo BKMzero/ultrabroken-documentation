@@ -13,7 +13,6 @@ tags: ["equipment", "shield", "zuggling"]
 # Bomb Skew `BSK`
 `1.0.0`
 
-`EJ4`
 ## Summary
 ---
 In similar fashion to skew from BOTW, this affects the direction a shield surf spring jump will send you.

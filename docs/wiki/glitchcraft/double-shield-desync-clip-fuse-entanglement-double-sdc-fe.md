@@ -13,7 +13,6 @@ tags: ["duplication", "clipping", "desync", "equipment", "entanglement", "cullin
 # Double Shield Desync Clip Fuse Entanglement `DSDCFE`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
-`NMY`
 ## Summary
 ---
 Setting up an unlocked sdc stick in a culling area and a locked sdc outside of the culling area allows for short, softlock-free fe compatible culls.

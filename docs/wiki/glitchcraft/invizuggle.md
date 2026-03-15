@@ -13,7 +13,6 @@ tags: ["zuggling", "item", "equipment", "culling"]
 # Invizuggle `IZ`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
-`7DA`
 ## Summary
 ---
 Dropping equipment in a specific way during a cull causes an indestructable and invisible zuggle.

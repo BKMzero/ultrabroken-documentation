@@ -13,7 +13,6 @@ tags: ["zuggling", "entanglement", "culling", "overload", "fuse"]
 # Overload Fuse Entanglement `OFE`
 `1.2.0` `1.2.1`
 
-`0XV`
 ## Summary
 ---
 Allows for full fuse entanglement by combining portable culling with the mechanics of zuggle overload.

@@ -13,7 +13,6 @@ tags: ["item", "recall", "zonai"]
 # Recall Drop Stacking `RDS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
-`9C0`
 ## Summary
 ---
 Dropping many zonai devices in recall causes intense frame drops

@@ -17,7 +17,6 @@ _mulberry - 1 February 2024_
 ---
 `?`
 
-`KXM`
 ## Instructions
 ---
 1. place object in tarrey town culling area

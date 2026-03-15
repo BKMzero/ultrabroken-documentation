@@ -13,7 +13,6 @@ tags: ["zuggling", "item", "equipment"]
 # Zuggle Load Object Transfering `ZLOT`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
-`GM7`
 ## Summary
 ---
 Allows you to transfer objects through loads while maintaining their coordinates.

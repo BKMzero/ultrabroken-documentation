@@ -13,7 +13,6 @@ tags: ["duplication", "menu", "item"]
 # Inventory Shift Duplication `ISD`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
-`12S`
 ## Summary
 ---
 Exploits inventory shift after creating an empty inventory slot to duplicate items.

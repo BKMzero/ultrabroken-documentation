@@ -13,7 +13,6 @@ tags: ["storage"]
 # Surf storage `SSTR`
 `1.0.0`
 
-`ARP`
 ## Summary
 ---
 When Link surfes onto a slope and his surfing state gets canceled with in a single frame, the game stores his coordinates and the angle that he was surfing.

@@ -13,7 +13,6 @@ tags: ["equipment", "shield", "zuggling"]
 # Two Handed With Shield `THWS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
-`GIO`
 ## Summary
 ---
 Allows you to use a shield and a two handed weapon at the same time

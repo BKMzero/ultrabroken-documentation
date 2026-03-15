@@ -13,7 +13,6 @@ tags: ["zuggling", "equipment", "culling"]
 # Portacull Invismuggle `PCIS`
 `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
-`OJU`
 ## Summary
 ---
 Using portable culling equipment it's possible to get a culled smuggle (invismuggle).

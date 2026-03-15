@@ -13,7 +13,6 @@ tags: ["animation", "item", "recall"]
 # Recall Cancel `RCC`
 `1.2.0` `1.2.1`
 
-`CC5`
 ## Summary
 ---
 Lets you delay the dropping of weapon and items.

@@ -13,7 +13,6 @@ tags: ["save-load", "ultrahand"]
 # Ultra Save Load Object Transfer `USLOT` `UltraSLOT`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
-`OL6`
 ## Summary
 ---
 Uses purgatory to transfer ultrahanded objects through file loads.

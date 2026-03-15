@@ -13,7 +13,6 @@ tags: ["launching", "spring"]
 # Springdolling `SDOL`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
-`9OA`
 ## Summary
 ---
 allows you to launch a large horizontal distance using springs

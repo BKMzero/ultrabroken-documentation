@@ -13,7 +13,6 @@ tags: ["Unknown"]
 # Stamina Depletion Freeze `SDF`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
-`XH0`
 ## Summary
 ---
 Certain actions can cause the stamina depletion to glitch out.

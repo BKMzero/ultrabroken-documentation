@@ -13,7 +13,6 @@ tags: ["zuggling", "item", "weapon", "equipment", "entanglement", "fuse", "shiel
 # Fuse Entangle Drop Zuggle `FEDZ`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
-`A4A`
 ## Summary
 ---
 Similarily to FEWZ, this is not a real drop zuggle, but rather a shield zuggle

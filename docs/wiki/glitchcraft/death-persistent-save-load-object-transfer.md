@@ -13,7 +13,6 @@ tags: ["item", "save-load", "zuggling"]
 # Death Persistent Save Load Object Transfer `DPSLOT`
 `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
-`15K`
 ## Summary
 ---
 Death dropping is equivalent to shock dropping. It's therefore possible to use death dropping as a way to send to culled purgatory, effectively resulting in PSLOT

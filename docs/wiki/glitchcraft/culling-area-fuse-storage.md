@@ -19,7 +19,6 @@ A method of Fuse Storage using Area Culling
 
 `?`
 
-`ERN`
 ## Instructions
 ---
 —

@@ -13,7 +13,6 @@ tags: ["launching", "warping", "ultrahand"]
 # Ultimate Pocket Rocket `UPR`
 `1.0.0`
 
-`05N`
 ## Summary
 ---
 A pocket rocket which does not break on warps or drain energy cells, and has unlimited usage and range

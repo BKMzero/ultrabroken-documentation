@@ -13,7 +13,6 @@ tags: ["duplication", "item", "zuggling"]
 # Octodupe `OD`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
-`4R4`
 ## Summary
 ---
 Allows for the duplication of items sucked up by a rock octorok.

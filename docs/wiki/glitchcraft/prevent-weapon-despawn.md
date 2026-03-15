@@ -13,7 +13,6 @@ tags: ["weapon", "equipment", "ultrahand"]
 # Weapon Despawn Prevention `WDP`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
-`NM8`
 ## Summary
 ---
 Prevents equipment from despawning after certain NPC interactions and quests (Does not work in Pirate Ship quest, different flags).

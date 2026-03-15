@@ -13,7 +13,6 @@ tags: ["zuggling", "save-load", "item", "equipment"]
 # Save Load Zuggling `SLZ`
 `1.0.0` `1.1.0` `1.1.1`
 
-`HV7`
 ## Summary
 ---
 Allows you to zuggle anywhere as no wall is required. It is extremely similar to MZ, with only one aditional step of reloading at the end

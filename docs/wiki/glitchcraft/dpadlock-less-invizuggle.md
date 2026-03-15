@@ -13,7 +13,6 @@ tags: ["zuggling", "culling", "item", "equipment"]
 # Dpadlock-less Invizuggle `DLIZ`
 `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
-`MP9`
 ## Summary
 ---
 The first frame of a cull does not dpadlock, so it can be used for invizuggle

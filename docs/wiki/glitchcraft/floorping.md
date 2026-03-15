@@ -13,7 +13,6 @@ tags: ["warping"]
 # Floorping `FLP`
 `1.1.0` `1.1.1`
 
-`Z63`
 ## Summary
 ---
 When reloading a save, force Link to warp vertically on a floor he wasn't on previously.

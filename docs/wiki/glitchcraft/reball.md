@@ -13,7 +13,6 @@ tags: ["movement", "recall", "zonai"]
 # Reball `RBL`
 `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
-`93U`
 ## Summary
 ---
 By combining recall with throwing a Zonai device capsule, you can jump onto and transfer momentum from the capsule into Link, providing significant speed.

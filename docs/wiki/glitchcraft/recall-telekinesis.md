@@ -13,7 +13,6 @@ tags: ["recall", "ultrahand"]
 # Recall Telekinesis `RTK`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
-`1ZI`
 ## Summary
 ---
 Control recall locks or freecalls remotely by placing an object in any relative position you want them to go to.

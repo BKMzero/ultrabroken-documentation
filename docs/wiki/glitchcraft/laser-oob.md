@@ -13,7 +13,6 @@ tags: ["duplication", "oob"]
 # Laser-OOB `LOOB`
 `1.0.0` `1.1.0` `1.1.1`
 
-`RHC`
 ## Summary
 ---
 The game puts a floor inside Link

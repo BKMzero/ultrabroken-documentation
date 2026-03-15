@@ -13,7 +13,6 @@ tags: ["menu", "item", "zuggling"]
 # Null Dropping `ND`
 `1.0.0`
 
-`IWQ`
 ## Summary
 ---
 Displays a glitched and empty chest quickmenu.

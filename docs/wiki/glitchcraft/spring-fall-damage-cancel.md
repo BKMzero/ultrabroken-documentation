@@ -13,7 +13,6 @@ tags: ["animation", "damage", "movement", "spring"]
 # Spring Fall Damage Cancel `SFDC`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
-`CFX`
 ## Summary
 ---
 Currently allows you to fall from certian heights without taking fall damage

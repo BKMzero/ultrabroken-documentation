@@ -13,7 +13,6 @@ tags: ["equipment", "fuse", "shield"]
 # Guard-less Active Shield `GAS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
-`ZJ2`
 ## Summary
 ---
 Makes the fuse of a shield constantly active

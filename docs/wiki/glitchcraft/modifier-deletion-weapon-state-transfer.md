@@ -13,7 +13,6 @@ tags: ["duplication", "weapon"]
 # Modifier Deletion Weapon State Transfer `MDWST`
 `1.0.0`
 
-`ZBS`
 ## Summary
 ---
 Equipping and dropping items in a specific order causes wst with a sideeffect of deleting modifiers.

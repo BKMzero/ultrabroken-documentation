@@ -13,7 +13,6 @@ tags: ["animation", "paraglide"]
 # Dive Cancel Glide Boost `DCGB`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
-`80I`
 ## Summary
 ---
 Allows you to preserve the increased speed from diving with the Glide Suit into paragliding

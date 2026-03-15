@@ -13,7 +13,6 @@ tags: ["warping"]
 # Cucco Warping `CW`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
-`0EL`
 ## Summary
 ---
 Picking up a cucco right as it voids out from entering water warps Link to its respawn location.

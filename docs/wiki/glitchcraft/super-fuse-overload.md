@@ -13,7 +13,6 @@ tags: ["weapon", "overload", "fuse", "mineru"]
 # Super Fuse Overload `SFO`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
-`TX4`
 ## Summary
 ---
 Allows you to get Zelda's torch and Mineru's arm.

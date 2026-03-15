@@ -13,7 +13,6 @@ tags: ["duplication", "weapon"]
 # Unsheathed Mastersword `UMS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0`
 
-`36U`
 ## Summary
 ---
 Puts the master sword in a visual state where it is outside of it's sheath.

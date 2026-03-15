@@ -13,7 +13,6 @@ tags: ["launching", "warping", "zonai"]
 # Wheel Warping `WW`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
-`QR3`
 ## Summary
 ---
 Zips small wheels to certain coordinates extremely quickly and can be used to launch Link a good distance and even pass through objects.

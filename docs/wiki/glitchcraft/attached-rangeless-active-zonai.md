@@ -13,7 +13,6 @@ tags: ["zonai"]
 # Attached Rangeless Active Zonai `ARAZ`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
-`ZTD`
 ## Summary
 ---
 Is very similar to DRAZ but differs slightly.

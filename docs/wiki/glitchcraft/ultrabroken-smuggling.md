@@ -13,7 +13,6 @@ tags: ["zuggling", "equipment", "ultrahand", "shield"]
 # Ultrabroken Smuggling `UBS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
-`RQB`
 ## Summary
 ---
 Makes an FE'd object follow the shield.

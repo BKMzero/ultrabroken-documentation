@@ -13,7 +13,6 @@ tags: ["item", "weapon", "bow"]
 # Durability- `DUR-` `DURM`
 `1.0.0`
 
-`J9U`
 ## Summary
 ---
 Dropping and picking up a bow with a durability modifier removes the extra durability.

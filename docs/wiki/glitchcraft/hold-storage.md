@@ -13,7 +13,6 @@ tags: ["storage", "desync", "item"]
 # Hold Storage `HS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
-`FQ7`
 ## Summary
 ---
 Allows Link to remain in a object holding state when not normally possible, as well as desync the hold state.

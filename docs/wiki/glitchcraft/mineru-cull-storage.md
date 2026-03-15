@@ -13,7 +13,6 @@ tags: ["zuggling", "storage", "culling", "mineru"]
 # Mineru Cull Storage `MCS`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
-`7ZD`
 ## Summary
 ---
 Stores the callback of Mineru while mouted on her, useful for swap resync zuggle setups, _especially_ for self-zuggling sdc items (portaculls/vortaculls).

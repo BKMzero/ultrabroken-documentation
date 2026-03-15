@@ -13,7 +13,6 @@ tags: ["animation", "equipment", "shield"]
 # ZL Animation Reset `ZLAR`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
-`0T9`
 ## Summary
 ---
 Performing a zl-less jump while the "Two Handed With Shield" glitch is active (works with one handed weapons and spears too), then mashing zl upon landing causes links animation to constantly reset.

@@ -13,7 +13,6 @@ tags: ["camera"]
 # Camera CFW `CFW`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
-`4SX`
 ## Summary
 ---
 Glitches out the camera rune and can remove the waymarkers and the camera UI.

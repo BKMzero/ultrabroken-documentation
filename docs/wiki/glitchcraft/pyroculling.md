@@ -13,7 +13,6 @@ tags: ["culling"]
 # Pyroculling `PYRC`
 `1.0.0` `1.1.0` `1.1.1` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
-`9R8`
 ## Summary
 ---
 The fire from a fire emitter prevents objects in a cull area from culling until the game is paused (also works with ice emitters)

@@ -13,7 +13,6 @@ tags: ["storage", "zonai"]
 # Zonai Storage `ZS`
 `1.0.0`
 
-`Y81`
 ## Summary
 ---
 Allows Zonai devices to be stored and taken into shrines

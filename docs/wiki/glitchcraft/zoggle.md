@@ -13,7 +13,6 @@ tags: ["zuggling", "ultrahand", "item", "equipment"]
 # Zoggle `ZOG`
 `1.2.0` `1.2.1`
 
-`9UF`
 ## Summary
 ---
 Using deentenglement to untie the wuggled equippment from their fe parent

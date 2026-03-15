@@ -13,7 +13,6 @@ tags: ["storage", "mineru"]
 # Mineru Text Storage `MTS`
 `1.0.0`
 
-`O3G`
 ## Summary
 ---
 Lets you move while text is on screen

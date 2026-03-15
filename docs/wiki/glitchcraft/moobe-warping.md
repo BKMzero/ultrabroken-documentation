@@ -13,7 +13,6 @@ tags: ["oob", "warping", "movement", "horse"]
 # Moobe Warping `MW`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
-`V9V`
 ## Summary
 ---
 Using Moobe and a horse, it's possible to fully warp (opposed to only temporarily) to a preset climbing position.

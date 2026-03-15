@@ -13,7 +13,6 @@ tags: ["menu", "buff"]
 # Memory Buffering `MB`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
-`UWY`
 ## Summary
 ---
 Advances Links current animation by 1 frame while keeping the menu open. Links coordinates will not change.

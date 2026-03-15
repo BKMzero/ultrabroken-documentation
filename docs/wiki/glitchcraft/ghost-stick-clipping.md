@@ -13,7 +13,6 @@ tags: ["clipping"]
 # Ghost Stick Clipping `GSC`
 `1.0.0` `1.1.0` `1.1.1`
 
-`MZA`
 ## Summary
 ---
 Allows Link to clip through walls by stepping onto a steering stick during ABCS.

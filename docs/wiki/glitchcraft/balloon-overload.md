@@ -13,7 +13,6 @@ tags: ["menu", "equipment", "overload", "fuse", "shield"]
 # Balloon Overload `BO`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
-`S6U`
 ## Summary
 ---
 Equipping and unfusing a shield with Robbie's infinite balloon fused to it does not remove the balloon in the character preview in the inventory. This can be stacked to lag out the inventory, and has the potential to crash the game

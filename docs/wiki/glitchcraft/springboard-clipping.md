@@ -13,7 +13,6 @@ tags: ["clipping", "spring"]
 # Springboard Clipping `SBC`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
-`SU2`
 ## Summary
 ---
 Allows link to clip through the floor while springboarding under a low ceiling.

@@ -13,7 +13,6 @@ tags: ["zuggling", "item", "equipment"]
 # Quick Drop Smuggle `QDS`
 `1.0.0`
 
-`OTD`
 ## Summary
 ---
 Dropping and equipping weapons in a specific way causes drop smuggle.

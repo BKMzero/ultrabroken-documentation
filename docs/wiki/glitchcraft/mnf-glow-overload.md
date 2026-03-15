@@ -13,7 +13,6 @@ tags: ["item", "overload", "mnf"]
 # MNF Glow Overload `MGO`
 `1.0.0`
 
-`H2E`
 ## Summary
 ---
 Stacking the glow from the MsgNotFound sword to extreme lengths causes many visual effects to stop rendering correctly

@@ -13,7 +13,6 @@ tags: ["equipment", "shield", "zuggling"]
 # Swap Resync `SR`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
-`A0R`
 ## Summary
 ---
 Swapping any piece of equipment/armor attempts to sync any swaps that may have failed to register. The main use of this is to properly register swaps while Link is culled, allowing for various easier setups.

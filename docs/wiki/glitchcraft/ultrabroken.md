@@ -13,7 +13,6 @@ tags: ["item", "ultrahand", "zuggling"]
 # Ultrabroken `UB`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
-`NU6`
 ## Summary
 ---
 Allows you to pull the object with another glued material while Link stands on top of it, sending it flying forwards from the pull itself.

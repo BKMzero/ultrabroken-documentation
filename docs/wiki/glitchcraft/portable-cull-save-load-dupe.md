@@ -13,7 +13,6 @@ tags: ["duplication", "culling", "save-load"]
 # Portable Cull Save Load Dupe `PSLD`
 `1.2.0` `1.2.1`
 
-`GFW`
 ## Summary
 ---
 Allows for Save Load Duplication on v1.2.0-1.2.1 by culling Link on the same frame that the process is performed.

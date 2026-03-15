@@ -13,7 +13,6 @@ tags: ["ultrahand"]
 # Shrunken Actors `SA`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2`
 
-`DMF`
 ## Summary
 ---
 Permanently shrink any ultrahandable object (ultrabroken method)
