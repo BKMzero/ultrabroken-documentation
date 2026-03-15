@@ -4,6 +4,8 @@ site_description: Community-driven encyclopedia documenting glitches, techniques
 site_author: NaN Gogh & Community
 copyright: Community-Driven Research
 site_url: https://nan-gogh.github.io/ultrabroken-documentation/
+repo_url: https://github.com/nan-gogh/ultrabroken-documentation
+edit_uri: edit/main/docs/
 use_directory_urls: true
 
 theme:
@@ -26,6 +28,8 @@ theme:
     - search.share
     - search.suggest
     - content.code.copy
+    - content.action.edit
+    - content.action.view
   palette:
     scheme: slate
     primary: teal
