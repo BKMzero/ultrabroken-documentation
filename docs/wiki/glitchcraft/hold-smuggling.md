@@ -33,7 +33,8 @@ _Mozz, NaN Gogh - 4 July 2023_
 ## Notes
 ---
 Much more portable version of hold storage.
-Also removes HUD from Sheikah Scope
+
+Also removes HUD from Sheikah Scope.
 
 ## Resources
 ---
