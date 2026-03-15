@@ -55,6 +55,7 @@ extra_javascript:
   - assets/scripts/storage-manager.js
   - assets/scripts/storage-toggle.js
   - assets/scripts/font-size-toggle.js
+  - assets/scripts/editor-toggle.js
   - assets/scripts/motion-toggle.js
   - assets/scripts/tasklist-enhance.js  # Makes entire task-list item clickable
   - assets/scripts/back-to-top.js  # Custom back-to-top with icon, no text

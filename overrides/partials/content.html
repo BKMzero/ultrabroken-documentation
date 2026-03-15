@@ -1,0 +1,21 @@
+{#-
+  Override of Material's partials/content.html
+  Wraps the action buttons (edit / view-source) in a .ub-page-actions flex row
+  so the editor-toggle can hide/show them via CSS, and social-card-copy.js
+  can append its button without DOM restructuring.
+-#}
+{% include "partials/tags.html" %}
+
+<div class="ub-page-actions">
+  {% include "partials/actions.html" %}
+</div>
+
+{% if "\x3ch1" not in page.content %}
+  <h1>{{ page.title | d(config.site_name, true)}}</h1>
+{% endif %}
+
+{{ page.content }}
+
+{% include "partials/source-file.html" %}
+{% include "partials/feedback.html" %}
+{% include "partials/comments.html" %}
