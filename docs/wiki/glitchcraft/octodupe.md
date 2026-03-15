@@ -31,6 +31,7 @@ If performed successfully, the item should be in your inventory and shot out by 
 ## Notes
 ---
 If Link picks up the item at the exact same time the octorok shoots it out (frame perfect), it's possible to get both items with the same modifier (needs to be verified).
+
 The modifier on the base weapon can still be changed after this glitch is performed.
 This does not work on items that cannot be modified or octoroks that have already been used.
 
