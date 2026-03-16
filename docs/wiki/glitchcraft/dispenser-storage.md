@@ -33,7 +33,7 @@ _Mozz - 2 July 2023_
 Can be combined with ISD or MTD to reach max items.
 A Fan or Stabilizer placed next the hatch will stop it from closing when opened next.
 
-Two Fans fused at a 45 degree angle can be used to block the Dispenser, avoiding the time limit of an active Stabilizer (top fan can also be replaced with a small rock)
+Two Fans fused at a 45 degree angle can be used to block the Dispenser, avoiding the time limit of an active Stabilizer (top fan can also be replaced with a small rock).
 
 ## Resources
 ---
