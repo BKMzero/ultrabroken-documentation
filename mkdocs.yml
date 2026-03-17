@@ -210,10 +210,10 @@ hooks:
   - docs/hooks/youtube_embed.py
   - docs/hooks/diagram_viewer.py
   - docs/hooks/contributor_links.py
+  - docs/hooks/media_links.py
   - docs/hooks/glitch_autolink.py
   - docs/hooks/reader_compat.py
   - docs/hooks/uid_links.py
-  - docs/hooks/media_links.py
   - docs/hooks/draft_pages.py
 
 plugins:
