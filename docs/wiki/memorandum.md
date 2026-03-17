@@ -42,7 +42,6 @@ The backbone of community glitch research: the curators who maintain and organiz
 - **WinnerBoi77**
 - **Yoda39**
 - **BigDUCCO**
-- **Ryan?**
 
 ## Informants
 ---
