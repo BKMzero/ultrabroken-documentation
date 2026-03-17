@@ -68,13 +68,13 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
 
     ??? tip "Pause-Cancel???"
 
-        Instead of pausing during the FE, any method requiring it can alternatively be performed with Overload Pickup:
+        Instead of pausing during the FE, any method requiring Pause-Cancel can alternatively be performed with Overload Pickup:
 
         1. Overload Pickup the target weapon
         2. Move out of the ghost's update range, but stay within its spawn range
         3. This distance varies between ghosts, but can be made more lenient by facing the camera away from it
         4. Fail-drop the target, then drop it once it returns
-        5. Proceed with a given Pause-Cancel method; The ghost will not despawn even without performing Wheel-Cancel.
+        5. Proceed with a given Pause-Cancel method; The ghost will not despawn even without performing Pause-Cancel.
 
 === "Overload Pickup Methods"
 
@@ -160,7 +160,7 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
 Kinematic Weapons obey the "position lock" and "velocity reset" of recall, so the following will work to move/stop it:
 
 - Recalling an attached object; May break the glue sometimes
-- Recalling the kw along a return path
+- Recalling the Kinematic Weapon along a return path
 - Recall-locking it and dropping it somewhere else
 
 ### Others
