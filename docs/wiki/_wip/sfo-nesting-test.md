@@ -41,25 +41,23 @@ Todo:
     Due to the massive number of connections required, every method is relatively complex. Before you begin, be sure to read the steps carefully, and be sure you understand the glitches that go into your chosen method.
 
 !!! info "Local or persistent?"
-    There are two main types of SFO method: Local methods, which _do not_ persist through warps and loads, and Persistent methods, which... _do_ persist through warps and loads.
+    There are two main types of SFO method: Local methods, which _do not_ persist through warps and loads (including Panic Blood Moons), and Persistent methods, which... _do_ persist through warps and loads.
     Local methods are usually faster and easier, but cannot be used for some cases (eg Zelda's Torch).
     Persistent methods can be used for all cases, but are usually more time consuming and complex, and their persistence can make them difficult to work with in some cases (eg Mineru's Arm).
 
 ## Instructions
 ---
 
-!!! note "Choose your fighter!"
-    There are three main use cases for SFO: Obtaining Mineru's Arm, obtaining Zelda's Torch, and duplicating anything you can throw. For the sake of providing clear instructions, a variant of each method is given for each valid use case.
+There are three main use cases for SFO: Obtaining Mineru's Arm, obtaining Zelda's Torch, and duplicating anything you can throw. For the sake of providing clear instructions, a variant of each method is given for each valid use case.
 
 === "Method 1"
     This is a persistent method that makes use of DI equipment to maximize setup speed. It can be used for anything, but is best-suited for Zelda's Torch and duplication.
 
     (these shall be Mandelbrot's Method)
-    (I actually think mine is the better persistent method, but it feels wrong to put mine first)
 
     ??? abstract "For Zelda's Torch"
 
-        (Mandelbrot's Method with Zorch extension)
+        (Mandelbrot's Method with ZTorch extension)
 
     ??? abstract "For duplication"
 
@@ -73,7 +71,7 @@ Todo:
 === "Method 2"
     This is a persistent method for versions `1.2.0` and up that makes use of DI equipment to maximize adjustability, ease of use, and framerate. It can be used for anything, but is best-suited for Zelda's Torch and duplication.
 
-    ??? "For Zelda's Torch"
+    ??? abstract "For Zelda's Torch"
 
         Prepare:
         
@@ -121,9 +119,9 @@ Todo:
             ```mermaid
             graph TD
                 A[B1] -->|FE| B[B2]
-                C[A1] -->|DI| D[A3]
-                E[A2] -->|DI| D
-                C --> |FE| F[A4]
+                C[A2] -->|DI| D[A3]
+                E[A1] -->|DI| D
+                E --> |FE| F[A4]
                 D --> |Batch DI| G["C1-20"]
                 F --> |Batch DI| G
                 G --> |Batch DI| H["D1-30"]
@@ -175,12 +173,12 @@ Todo:
         
         ??? example "Diagram"
 
-           ```mermaid
+            ```mermaid
             graph TD
                 A[B1] -->|FE| B[B2]
-                C[A1] -->|DI| D[A3]
-                E[A2] -->|DI| D
-                C --> |FE| F[A4]
+                C[A2] -->|DI| D[A3]
+                E[A1] -->|DI| D
+                E --> |FE| F[A4]
                 D --> |Batch DI| G["C1-20"]
                 F --> |Batch DI| G
                 G --> |Batch DI| H["D1-30"]
@@ -245,12 +243,12 @@ Todo:
 
         ??? example "Diagram"
 
-           ```mermaid
+            ```mermaid
             graph TD
                 A[B1] -->|FE| B[B2]
-                C[A1] -->|DI| D[A3]
-                E[A2] -->|DI| D
-                C --> |FE| F[A4]
+                C[A2] -->|DI| D[A3]
+                E[A1] -->|DI| D
+                E --> |FE| F[A4]
                 D --> |Batch DI| G["C1-20"]
                 F --> |Batch DI| G
                 G --> |Batch DI| H["D1-30"]
@@ -263,11 +261,15 @@ Todo:
 
     ??? abstract "For Mineru's Arm"
 
-        (Mulberry's Method with MinArm extension)
+        (mulberry's Method with MinArm extension)
 
     ??? abstract "For Duplication"
 
-        (Mulberry's Method with duping extension)
+        (mulberry's Method with duping extension)
+
+    ??? failure "No, it really can't"
+
+        (Explanation of the fact that taking the time to pcull all of the other DI parents in mulberry's setup would be a profound waste of the special equipment you have to create as part of the setup, since you would be forced to close the game after using SFO to undo it, which would also cost you the special equipment)
 
 === "Method 4"
     This is a local method with minimal additional glitches required. It is perfectly acceptable for obtaining Mineru's Arm and duplicating throwables on all versions, but cannot be used to obtain Zelda's Torch.
@@ -392,7 +394,7 @@ Todo:
         Then, after reaching SFO:
 
         1. Equip your portacull weapon
-        2. Smuggle E and equip one of B, C, or D
+        2. Smuggle E and equip one of B, C, or D. If you didn't prepare E, use the portacull to SRZ a random other shield
         3. **Pause**
         4. Drop-swap the portacull, and drop your shield
         5. **Pause Buffer** (must be maximum speed)
