@@ -132,26 +132,26 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
 
     Warping causes a "sleep" on equipped items, which will undo this state! You can zuggle it to take it with you safely.
 
-### Ways to Move Kinematic Weapons
+??? info "Known Ways to Move Kinematic Weapons"
 
-#### Pickup-related Actions
+    #### Pickup-related Actions
 
-- Carrying it around; Drop Smuggle-like states retain collision and are notably more forceful than normal
-- Dropping it while moving, which directly adds Link's velocity
-- Throwing it, which directly adds throw velocity; Boomerangs will follow a return arc
+    - Carrying it around; Drop Smuggle-like states retain collision and are notably more forceful than normal
+    - Dropping it while moving, which directly adds Link's velocity
+    - Throwing it, which directly adds throw velocity; Boomerangs will follow a return arc
 
-#### Recall-related Actions
+    #### Recall-related Actions
 
-Kinematic Weapons obey the "position lock" and "velocity reset" of recall, so the following will work to **move**, then **stop** it:
+    Kinematic Weapons obey the "position lock" and "velocity reset" of recall, so the following will work to **move**, then **stop** it:
 
-- Recalling an attached object; May break the glue sometimes
-- Recalling the Kinematic Weapon along a return path
-- Recall-locking it and dropping it somewhere else
+    - Recalling an attached object; May break the glue sometimes
+    - Recalling the Kinematic Weapon along a return path
+    - Recall-locking it and dropping it somewhere else
 
-#### Other Actions
+    #### Other Actions
 
-- Attaching an upside-down wing; Seems to directly add velocity to build instead of applying a force
-- The "gravitational" force of attaching with Ultrahand can affect the velocity
+    - Attaching an upside-down wing; Seems to directly add velocity to build instead of applying a force
+    - The "gravitational" force of attaching with Ultrahand can affect the velocity
 
 ## Notes
 ---
