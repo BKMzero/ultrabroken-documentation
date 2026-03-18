@@ -120,37 +120,38 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
         11. When the game unpauses, the target weapon should warp to B and become uninteractible, without appearing fused in the inventory
         12. Exit the ghost's spawn range, then return to the target weapon; it should regain interaction and remain floating
 
-## Ways to Move Kinematic Weapons
+## Properties
 ---
 
-### Pickup-related Actions
+- Cannot be glued "from" (holding it/something attached to it), only "to" (holding something unattached to it)
+- Uses an effective mass of 1,000,000 for certain purposes, such as calculating glue strength
+- Does not collide with anything, though regular ("Dynamic") objects _will still collide with it_
+- As it does not collide, external forces do not affect it, thus only a select few actions can change its velocity
+
+!!! warning "Take care!"
+
+    Warping causes a "sleep" on equipped items, which will undo this state! You can zuggle it to take it with you safely.
+
+### Ways to Move Kinematic Weapons
+
+#### Pickup-related Actions
 
 - Carrying it around; Drop Smuggle-like states retain collision and are notably more forceful than normal
 - Dropping it while moving, which directly adds Link's velocity
 - Throwing it, which directly adds throw velocity; Boomerangs will follow a return arc
 
-### Recall-related Actions
+#### Recall-related Actions
 
-Kinematic Weapons obey the "position lock" and "velocity reset" of recall, so the following will work to move/stop it:
+Kinematic Weapons obey the "position lock" and "velocity reset" of recall, so the following will work to **move**, then **stop** it:
 
 - Recalling an attached object; May break the glue sometimes
 - Recalling the Kinematic Weapon along a return path
 - Recall-locking it and dropping it somewhere else
 
-### Others
+#### Other Actions
 
 - Attaching an upside-down wing; Seems to directly add velocity to build instead of applying a force
 - The "gravitational" force of attaching with Ultrahand can affect the velocity
-
-## Other Properties
----
-
-- Doesn't collide with objects with Kinematic or Static motion types (npcs, terrain, other KWs, etc)
-- Cannot be glued "from" (holding it or something attached to it), only "to" (holding something unattached to it)
-
-!!! warning "Take care!"
-
-    Warping causes a "sleep" on equipped items, which will undo this state! You can zuggle it to take it with you safely.
 
 ## Notes
 ---
