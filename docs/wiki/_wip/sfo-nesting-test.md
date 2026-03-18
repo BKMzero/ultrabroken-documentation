@@ -15,21 +15,16 @@ tags: ["Equipment", "Fuse", "Overload", "Mineru"]
 ## Summary
 ---
 
-By creating 600-700 Cold Fuse connections, the game will be overloaded and unable to form any new dependencies. This causes every actor to be Zuggle Overloaded, and every equipment to be Fuse Overloaded.
+By creating 600-700 Cold Fuse connections, the game will be overloaded and unable to form any new dependencies. This causes every actor to act Zuggle Overloaded, and every equipment to act Fuse Overloaded.
 
 _Discovered by mulberry, Aergyl; Optimizations by Jordan, MandelbrotChaylay, mulberry, Squidwest_
 
-The nesting works in theory. A/B testing with other ideas to see what works best.
-Method 1: provides the method in the main tab body and the use-cases in the subtabs
-Method 2: duplicates the method into the subtabs to maximize instruction clarity
-Method 3: like method 1 but uses dropdowns instead of subtabs
-Method 4: like method 2 but with dropdowns
+Have decided on tabs with dropdowns, and with the common elements of each method duplicated into said dropdowns. Will consider alternatives
 
 Todo:
 
-- Find a good, stable minigame or two to recommend
+- Find a good, stable minigame or two to recommend (minecart land pre-cart entry seems good, provisionally)
 - Double check duplication order of operations and correct if needed
-- Decide on preferred method layout and redo rejected method layouts to match
 - Do mulberry & Mandelbrot's methods to more accurately write them up
 - Actually obtain Zelda's Torch at some point to provide better directions and warn of the pitfalls
 - probably seek help on crediting and resources at some point
@@ -59,133 +54,140 @@ Todo:
 === "Method 1"
     This is a persistent method that makes use of DI equipment to maximize setup speed. It can be used for anything, but is best-suited for Zelda's Torch and duplication.
 
-    (Main part of Mandelbrot's Method)
+    (these shall be Mandelbrot's Method)
+    (I actually think mine is the better persistent method, but it feels wrong to put mine first)
 
-    === "For Zelda's Torch"
-        To obtain Zelda's Torch, perform this setup in Rasitakiwak Shrine
+    ??? abstract "For Zelda's Torch"
 
-        (extension that tells you how to get Zorch in an autosave, then links to the MNF page and tells you to zuggle it with your preferred MNF method)
+        (Mandelbrot's Method with Zorch extension)
 
-    === "For duplication"
-        To duplicate Zonai Devices, either A: perform this setup in a shrine, load a save at a minigame, and start it immediately, or B: perform this setup while already in a minigame. For other throwables, simply perform in a minigame.
+    ??? abstract "For duplication"
 
-    === "For Mineru's Arm"
-        (I don't really know a stable way to get MinArm with this one. Ideally you don't have to go through army with SFO, since that's super unstable. But if you set up in the tunnel, you're gonna have a hell of a time reducing your overload enough to fuse to MinArm, and to zuggle it without overload dropping anything important.)
+        (Mandelbrot's Method with duping extension)
 
-        (but presumably it's possible, say by: doing your initial overload with froxic ghosts in the tunnel, zuggling in your child shields, and destroying them after you have an appreciable number of Arms to attempt with?)
+    ??? abstract "For Mineru's Arm"
+
+        (Mandelbrot's Method with MinArm extension)
+        (assuming the adaptation I devised for my method is valid for his)
 
 === "Method 2"
     This is a persistent method for versions `1.2.0` and up that makes use of DI equipment to maximize adjustability, ease of use, and framerate. It can be used for anything, but is best-suited for Zelda's Torch and duplication.
 
-    === "For Zelda's Torch"
+    ??? "For Zelda's Torch"
 
         Prepare:
         
         - 13 Zuggle Overload
-        - 2 DI Ghost Weapons, one for duping, the other dubbed "C"
-        - 3 DI Ghost Shields, one for duping, the other two dubbed "A" and "B"
-        - A fused equipment item
+        - A bow to manage overload with
+        - A DI Ghost Weapon, dubbed "A1"
+        - A DI Ghost Shield, dubbed "B1"
+        - Ideally, a second of each to simplify duplication
+        - Optionally, a fused equipment item
         - The _second_ prologue autosave
-        - An autosave within a shrine (ideally Rasitakiwak)
 
-        Part 1: Performing SFO
+        Part 1: Creating the base setup
         
         1. Enter Rasitakiwak Shrine, defeat all the constructs, and dispose of their weapons (for example by leaving/reentering)
-        2. A1 [Overload FE] Weapon D
-        3. [Recall Lock] D
-        4. B1 Overload FE Weapon E
-        5. Recall Lock E
-        6. Smuggle C and equip D
-        8. C/D DI Shield F
-        9. C Overload FE Shield G
-        10. Recall lock G
-        11. Smuggle F and equip D
-        12. [Overload Pickup] G
-        13. F/G [Overload Batch DI] 30 Weapons H1-H30
-        14. Fail-drop G and leave it equipped
-        15. [Throw Purgatory] all H
-        16. [Zuggle Drop] C to "equip" all H
-        17. Overload Pickup E
-        18. Overload Batch DI **up to** 20 Shields (or Weapons/Bows) I1-I20. Starting with I17, check after each to see if Menu Link is overloaded. If so, proceed to step 19.
-        19. Drop your fused item. If the fuse gets deleted, _you are done_. If it doesn't, pick it up and create exactly _one_ more "I", and then you will be done.
+        2. B1 [Overload FE] Weapon B2
+        3. Recall-Lock B2
+        4. A1 and normal weapon A2 [make] DI Shield A3
+        5. A1 Overload FE normal Shield A4
+        6. Equip A2, [DI Smuggle] A3, and [Overload Pickup] A4
+        7. A2-A4 [Overload Batch DI] 19 Weapons C1-C19
+        8. *Fail-Drop* A4
+        9. A3 & A4 make DI Weapon C20
+        10. Drop A4
+        11. Re-smuggle A3, equip a random shield, and fuse something disposable to it. This will leave A4 as the sole FE parent of C20
+        12. [Throw purgatory] all C
+        13. Recall-Lock A4, discarding A2 and A3 through the load
 
-        Part 2: Obtaining Zelda's Torch
+        Part 2: Performing and undoing SFO
+        
+        1. [DI Zuggle Drop] B1, equip A4, and Overload Pickup B2
+        2. B1, B2, & A4 [Overload Batch DI] 30 Shields D1-D30
+        3. There will be a substantial lag on the second fuse of each shield after D1, so using the D-pad to drop-swap is advised
+        4. Super Fuse Overload should occur on the 30th shield. If confirmation is needed, drop the fused equipment item. If the fuse is deleted, SFO is active
+        5. To undo SFO pick up each D[n], unequip it, and drop it. Each removed shield will remove 20 dependencies from the global array
 
-        20. Load your prologue save. Zelda will drop her torch, so pick it up
-        21. Get another prologue autosave with the torch in your inventory, then either load back to Rasitakiwak to clear your SFO, or simply close the game
-        22. Follow your preferred method to obtain MNF, but zuggle Zelda's Torch instead
-        23. Save the game or get an autosave
+        Part 3: Obtaining Zelda's Torch
+
+        1. Load your prologue save. Zelda will drop her torch, so pick it up
+        2. Get another prologue autosave with the torch in your inventory, then either load back to Rasitakiwak to clear your SFO, or simply close the game
+        3. Follow your preferred method to obtain MNF, but zuggle Zelda's Torch instead
+        4. Save the game or get an autosave
 
         ??? example "Diagram"
 
             ```mermaid
             graph TD
-                B[DI Shield] -->|FE| F[RL Weapon]
-                E[DI Shield] -->|FE| G[RL Weapon]
-                F -->|Fuse| H[DI Shield]
-                C[DI Weapon] -->|FE| H
-                C -->|FE| D[Normal Shield]
-                H -->|FE| I["30 DI Weapons<br/>(purgatorized)"]
-                D -->|CF| I
-                I -->|FE| J["20 DI Shields<br/>(or weapons/bows)"]
-                G -->|CF| J
+                A[B1] -->|FE| B[B2]
+                C[A1] -->|DI| D[A3]
+                E[A2] -->|DI| D
+                C --> |FE| F[A4]
+                D --> |Batch DI| G["C1-20"]
+                F --> |Batch DI| G
+                G --> |Batch DI| H["D1-30"]
+                B --> |Batch DI| H
             ```
 
-    === "For duplication"
+    ??? abstract "For duplication"
 
         Prepare:
-        
         - 13 Zuggle Overload
-        - 2 DI Ghost Weapons, one for duping, the other dubbed "C"
-        - 3 DI Ghost Shields, one for duping, the other two dubbed "A" and "B"
-        - A fused equipment item
+        - A bow to manage overload with
+        - A DI Ghost Weapon, dubbed "A1"
+        - A DI Ghost Shield, dubbed "B1"
+        - Ideally, a second of each to simplify duplication
+        - Optionally, a fused equipment item
         - 1 or more of the duplication target
-
-        Part 1: Performing SFO
+        
+        Part 1: Creating the base setup
         
         1. If duplicating Zonai Devices, enter a minigame with no timer. If duplicating other materials, enter a minigame or a shrine
-        2. A1 [Overload FE] Weapon D
-        3. [Recall Lock] D
-        4. B1 Overload FE Weapon E
-        5. Recall Lock E
-        6. Smuggle C and equip D
-        8. C/D DI Shield F
-        9. C Overload FE Shield G
-        10. Recall lock G
-        11. Smuggle F and equip D
-        12. [Overload Pickup] G
-        13. F/G [Overload Batch DI] 30 Weapons H1-H30
-        14. Fail-drop G and leave it equipped
-        15. [Throw Purgatory] all H
-        16. [Zuggle Drop] C to "equip" all H
-        17. Overload Pickup E
-        18. Overload Batch DI **up to** 20 Shields (or Weapons/Bows) I1-I20. Starting with I17, check after each to see if Menu Link is overloaded. If so, proceed to step 19.
-        19. Drop your fused item. If the fuse gets deleted, _you are done_. If it doesn't, pick it up and create exactly _one_ more "I", and then you will be done.
+        2. B1 [Overload FE] Weapon B2
+        3. Recall-Lock B2
+        4. A1 and normal weapon A2 [make] DI Shield A3
+        5. A1 Overload FE normal Shield A4
+        6. Equip A2, [DI Smuggle] A3, and [Overload Pickup] A4
+        7. A2-A4 [Overload Batch DI] 19 Weapons C1-C19
+        8. *Fail-Drop* A4
+        9. A3 & A4 make DI Weapon C20
+        10. Drop A4
+        11. Re-smuggle A3, equip a random shield, and fuse something disposable to it. This will leave A4 as the sole FE parent of C20
+        12. [Throw purgatory] all C
+        13. Recall-Lock A4, discarding A2 and A3 through the load
 
-        Part 2: Duplicating with SFO
+        Part 2: Performing and undoing SFO
+        
+        1. [DI Zuggle Drop] B1, equip A4, and Overload Pickup B2
+        2. B1, B2, & A4 [Overload Batch DI] 30 Shields D1-D30
+        3. There will be a substantial lag on the second fuse of each shield after D1, so using the D-pad to drop-swap is advised
+        4. Super Fuse Overload should occur on the 30th shield. If confirmation is needed, drop the fused equipment item. If the fuse is deleted, SFO is active
+        5. To undo SFO pick up each D[n], unequip it, and drop it. Each removed shield will remove 20 dependencies from the global array
+
+        Part 3: Duplicating with SFO
         
         12. Ready a throw of the duplication target. It should fall to the ground
         13. Collect it
         14. Ready throw again. This will "put away" the target you "still had held" and drop another to the ground
         15. Each cycle will increase the quantity of your target by 1, and putting away the final throw will also add 1
-        16. Collect the cold-fused materials to end SFO before ending the minigame/exiting the shrine
+        16. Destroy all D[n] to end SFO before ending the minigame/exiting the shrine
         
         ??? example "Diagram"
 
-            ```mermaid
+           ```mermaid
             graph TD
-                B[DI Shield] -->|FE| F[RL Weapon]
-                E[DI Shield] -->|FE| G[RL Weapon]
-                F -->|Fuse| H[DI Shield]
-                C[DI Weapon] -->|FE| H
-                C -->|FE| D[Normal Shield]
-                H -->|FE| I["30 DI Weapons<br/>(purgatorized)"]
-                D -->|CF| I
-                I -->|FE| J["20 DI Shields<br/>(or weapons/bows)"]
-                G -->|CF| J
+                A[B1] -->|FE| B[B2]
+                C[A1] -->|DI| D[A3]
+                E[A2] -->|DI| D
+                C --> |FE| F[A4]
+                D --> |Batch DI| G["C1-20"]
+                F --> |Batch DI| G
+                G --> |Batch DI| H["D1-30"]
+                B --> |Batch DI| H
             ```
 
-    === "For Mineru's Arm"
+    ??? abstract "For Mineru's Arm"
 
         Prepare:
         
@@ -195,75 +197,77 @@ Todo:
         - Several fused equipment items
         - A portacull Shield (or the materials to make one with [Overload Cold Fuse]
 
-        An save in Rasitakiwak Shrine is recommended, though other shrines (or none at all) will work if you know what you're doing
+        An (auto)save in Rasitakiwak Shrine is recommended, though other shrines (or none at all) will work if you know what you're doing.
+        Due to requiring recall-locks
 
         Part 1: Performing SFO
         
-        1. Defeat Army and enter the tunnel before Ganondorf.
-        2. A1 [Overload FE] Weapon D
-        3. [Recall Lock] D
-        4. B1 Overload FE Weapon E
-        5. Recall Lock E
-        6. Smuggle C and equip D
-        8. C/D DI Shield F
-        9. C Overload FE Shield G
-        10. Recall lock G
-        11. Smuggle F and equip D
-        12. [Overload Pickup] G
-        13. F/G [Overload Batch DI] 30 Weapons H1-H30
-        14. Fail-drop G and leave it equipped
-        15. [Throw Purgatory] all H
-        16. [Zuggle Drop] C to "equip" all H
-        17. Overload Pickup E
-        18. Overload Batch DI **up to** 20 Shields (or Weapons/Bows) I1-I20. Starting with I17, check after each to see if Menu Link is overloaded. If so, proceed to step 19.
-        19. Drop your fused item. If the fuse gets deleted, _you are done_. If it doesn't, pick it up and create exactly _one_ more "I", and then you will be done.
-        20. Zuggle at least one "I", ideally as many as possible, and enter Ganon's Room.
+        1. Clip into the tunnel before Ganondorf without defeating Army
+        2. Sit at a campfire to get an autosave. This will be used to Recall-lock certain setup elements
+        3. B1 [Overload FE] Weapon B2
+        4. Recall-Lock B2
+        5. A1 and normal weapon A2 [make] DI Shield A3
+        6. A1 Overload FE normal Shield A4
+        7. Equip A2, [DI Smuggle] A3, and [Overload Pickup] A4
+        8. A2-A4 [Overload Batch DI] 19 Weapons C1-C19
+        9. *Fail-Drop* A4
+        10. A3 & A4 make DI Weapon C20
+        11. Drop A4
+        12. Re-smuggle A3, equip a random shield, and fuse something disposable to it. This will leave A4 as the sole FE parent of C20
+        13. [Throw purgatory] all C
+        14. Recall-Lock A4, discarding A2 and A3 through the load
 
-        Part 2: Obtaining Mineru's Arm
+        Part 2: Performing SFO
 
-        21. Progress the fight to Phase 2 (2nd form), and drop a fused equipment. The fuse should delete. If not, drop more one at a time until it does
-        22. Progress to Phase 3 (sages blown away), and find Mineru
-        23. Pick up her arm, which is invisible, collisionless, and repeatedly drops from either visible arm. It cannot be collected with an empty hand. Take several to be safe
-        24. Drop your zuggled "I"s and destroy them to reduce SFO, then UNDOCK THE CONSOLE
-        25. Fuse something to Mineru's Arm. _If the console is docked, this will crash the game!_
-        26. Use the Portacull to Swap Resync Zuggle Mineru's Arm. It will always fail-drop while on the ground, so you don't need a wall or any specific equipment
-        27. Load your save in Rasitakiwak
-        28. Stand on the grated portion of the wing platform and prepare recall
-        29. Drop an equipped weapon and immediately recall the item fused to Mineru's Arm (which still has no collision)
-        30. Equip a weapon and pick up Mineru's Arm (it still cannot be collected with an empty hand)
-        31. Destroy the fuse on Mineru's Arm, this will prevent it from crashing the game when used as a faildrop wall while docked
-        32. Save the game/Get an autosave
+        1. Move to the very start of the tunnel to activate Army, and defeat it. This will activate Panic Blood Moon protection and allow the Ganondorf fight to begin
+        2. Use [Overload Cold Fuse] to create a Portacull Shield and set it aside
+        2. [DI Zuggle Drop] B1, equip A4, and Overload Pickup B2
+        3. B1, B2, & A4 [Overload Batch DI] 30 Shields D1-D30
+        4. There will be a substantial lag on the second fuse of each shield after D1, so using the D-pad to drop-swap is advised
+        5. Super Fuse Overload should occur on the 30th shield. If confirmation is needed, drop the fused equipment item. If the fuse is deleted, SFO is active
+        6. Zuggle at least one D, ideally multiple.
+        7. Pick up the Portacull Shield and enter Ganon's Room.
+
+        Part 3: Obtaining Mineru's Arm
+
+        1. Progress the fight to Phase 2 (2nd form), and drop a fused equipment. The fuse should delete. If not, drop more one at a time until it does
+        2. Progress to Phase 3 (sages blown away), and find Mineru
+        3. Pick up her arm, which is invisible, collisionless, and repeatedly drops from either visible arm. It cannot be collected with an empty hand. Take several to be safe
+        4. Drop your zuggled "D"s and destroy them to reduce SFO, then UNDOCK THE CONSOLE
+        5. Fuse something to Mineru's Arm. _If the console is docked, this will crash the game!_
+        6. Use the Portacull to Swap Resync Zuggle Mineru's Arm. It will always fail-drop while on the ground, so you don't need a wall or any specific equipment
+        7. Load your save in Rasitakiwak
+        8. Stand on the grated portion of the wing platform and prepare recall
+        9. Drop an equipped weapon and immediately recall the item fused to Mineru's Arm (which still has no collision)
+        10. Equip a weapon and pick up Mineru's Arm (it still cannot be collected with an empty hand)
+        11. Destroy the fuse on Mineru's Arm, this will prevent it from crashing the game when used as a faildrop wall while docked
+        12. Save the game/Get an autosave
 
         ??? example "Diagram"
 
-            ```mermaid
+           ```mermaid
             graph TD
-                B[DI Shield] -->|FE| F[RL Weapon]
-                E[DI Shield] -->|FE| G[RL Weapon]
-                F -->|Fuse| H[DI Shield]
-                C[DI Weapon] -->|FE| H
-                C -->|FE| D[Normal Shield]
-                H -->|FE| I["30 DI Weapons<br/>(purgatorized)"]
-                D -->|CF| I
-                I -->|FE| J["20 DI Shields<br/>(or weapons/bows)"]
-                G -->|CF| J
-                J -->|Take in 1+| K[Ganon's Room]
+                A[B1] -->|FE| B[B2]
+                C[A1] -->|DI| D[A3]
+                E[A2] -->|DI| D
+                C --> |FE| F[A4]
+                D --> |Batch DI| G["C1-20"]
+                F --> |Batch DI| G
+                G --> |Batch DI| H["D1-30"]
+                B --> |Batch DI| H
+                H -->|Take in 1+| I[Ganon's Room]
             ```
 
 === "Method 3"
     This is a local method that makes use of specially-prepared DI equipment to maximize portability and speed. It is ideal for Mineru's Arm and duplication, but cannot be used for Zelda's Torch.
 
-    (main part of mulberry's method)
-
     ??? abstract "For Mineru's Arm"
-        To obtain Mineru's Arm, perform this setup in the tunnel before Ganondorf
 
-        (extension that tells you how to preserve SFO into the fight, obtain MinArm, and zuggle it out)
+        (Mulberry's Method with MinArm extension)
 
     ??? abstract "For Duplication"
-        To duplicate Zonai Devices, perform this setup in the [find it] Minigame. For other throwables, simply perform in a shrine.
 
-        (extension that tells you how to dupe with sfo)
+        (Mulberry's Method with duping extension)
 
 === "Method 4"
     This is a local method with minimal additional glitches required. It is perfectly acceptable for obtaining Mineru's Arm and duplicating throwables on all versions, but cannot be used to obtain Zelda's Torch.
@@ -383,7 +387,7 @@ Todo:
         - Prepare a Portacull Weapon
         - Optionally, prepare a VD or DI shield (E) to save yourself about 51 SRZs
         - Prepare the _second_ autosave in the prologue, and an autosave in Rasitakiwak Shrine
-        - Perform your setup in Rasitakiwak
+        - Perform your setup in Rasitakiwak, ensuring the absolute maximum overload is reached
         
         Then, after reaching SFO:
 
