@@ -128,10 +128,6 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
 - Does not collide with anything, though regular ("Dynamic") objects _will still collide with it_
 - As it does not collide, external forces do not affect it, thus only a select few actions can change its velocity
 
-!!! warning "Take care!"
-
-    Warping causes a "sleep" on equipped items, which will undo this state! You can zuggle it to take it with you safely.
-
 ??? info "Known Ways to Move Kinematic Weapons"
 
     #### Pickup-related Actions
@@ -152,6 +148,10 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
 
     - Attaching an upside-down wing; Seems to directly add velocity to build instead of applying a force
     - The "gravitational" force of attaching with Ultrahand can affect the velocity
+
+!!! warning "Take care!"
+
+    Warping causes a "sleep" on equipped items, which will undo this state! You can zuggle it to take it with you safely.
 
 ## Notes
 ---
