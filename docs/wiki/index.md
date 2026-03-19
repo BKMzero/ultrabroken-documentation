@@ -21,3 +21,7 @@ This site is a community-driven encyclopedia of glitches, techniques, and invest
 - **[Culling section](culling/index.md)** - Explore the versatile powers of Culling in this section
 - **[Overload section](overload/index.md)** - Detailed setups and techniques for reaching Overload states
 - **[Memorandum](memorandum.md)** - Leaderboard for glitch hunters and hall of fame for archivists, spreadsheet managers,informants and dataminers
+
+## Media Portal
+----
+All screenshots, video clips, and social cards for this wiki are hosted in the [Media Portal](https://nan-gogh.github.io/ultrabroken-media/) — browse media publicly, edit clips in-browser, or log in to manage files and run full-quality remote edits.
