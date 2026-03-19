@@ -31,7 +31,7 @@
     <li class="{{ class }}">
       {% set u = nav_item.url | url %}
       {% if u.startswith("http://") or u.startswith("https://") %}
-      <a href="{{ u }}" class="md-tabs__link" target="_blank" rel="noopener">
+      <a href="{{ u }}" class="md-tabs__link" target="_blank" rel="noopener" onclick="window.open(this.href,'_blank','noopener');return false;">
       {% else %}
       <a href="{{ u }}" class="md-tabs__link">
       {% endif %}
