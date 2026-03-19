@@ -41,4 +41,12 @@
     s.parentNode.insertBefore(c,s.nextSibling);
   })();
   </script>
+  <!-- Mark external nav-tab links so they open in a new tab -->
+  <script>
+  (function(){
+    document.querySelectorAll('.md-tabs__link').forEach(function(a){
+      try{ if(new URL(a.href).hostname!==location.hostname){a.target='_blank';a.rel='noopener';} }catch(e){}
+    });
+  })();
+  </script>
 {% endblock %}
