@@ -71,7 +71,6 @@ extra_javascript:
   - assets/scripts/graph-view.js
   - assets/scripts/cosmetic-urls.js
   - assets/scripts/mobile-toc.js
-  - assets/scripts/nav-external-links.js  # Opens external nav tab links in a new tab
 
 nav:
   - Home: wiki/index.md
