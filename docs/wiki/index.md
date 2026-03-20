@@ -20,8 +20,6 @@ This site is a community-driven encyclopedia of glitches, techniques, and invest
 - **[Despawn Interrupt section](despawn-interrupt/index.md)** - Glitches and strats that get your gear despawn interrupted
 - **[Culling section](culling/index.md)** - Explore the versatile powers of Culling in this section
 - **[Overload section](overload/index.md)** - Detailed setups and techniques for reaching Overload states
-- **[Memorandum](memorandum.md)** - Leaderboard for glitch hunters and hall of fame for archivists, spreadsheet managers,informants and dataminers
-
-## Media Portal
-----
-All screenshots, video clips, and social cards for this wiki are hosted in the [Media Portal](https://nan-gogh.github.io/ultrabroken-media/) — browse media publicly, edit clips in-browser, or log in to manage files and run full-quality remote edits.
+- **[Memorandum](memorandum.md)** - Leaderboard for glitch hunters and hall of fame for archivists, spreadsheet managers, informants and dataminers
+- **[Guide](guide.md)** - Extensive guide outlining editor guidelines and explaining all features of the project
+- **[Media](media.md)** - All screenshots, video clips, and social cards for this wiki are listed here alongside an in-browser video editor
