@@ -203,7 +203,7 @@ nav:
   # - Graph View: wiki/graph.md
   - Memorandum: wiki/memorandum.md
   - Guide: wiki/guide.md
-  - Media: https://nan-gogh.github.io/ultrabroken-media/
+  - Media: wiki/media/index.md
 
 hooks:
   - docs/hooks/social_cards.py
