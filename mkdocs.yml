@@ -46,6 +46,7 @@ extra_javascript:
   - assets/vendor/marked.min.js
   - assets/vendor/purify.min.js
   - assets/scripts/tab-scroll-fix.js  # Prevents overshoot when scrolling tabs near boundaries
+  - assets/scripts/touch-scroll-fix.js  # Suppress hover/active glow during swipe-scrolling
   - assets/scripts/clipboard-permalink.js
   - assets/scripts/social-card-copy.js
   - assets/scripts/search-highlights-cleanup.js
