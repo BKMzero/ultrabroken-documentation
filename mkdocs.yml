@@ -58,7 +58,7 @@ extra_javascript:
   - assets/scripts/back-to-top.js  # Custom back-to-top with icon, no text
   # - assets/scripts/background-rune.js  # Display animated background rune watermark
   # - assets/scripts/zonai-particles.js   # Floating Zonai glyphs in background
-  - assets/scripts/zonai-rain.js        # Matrix digital rain with Zonai font
+  # - assets/scripts/zonai-rain.js        # Matrix digital rain with Zonai font
   - assets/scripts/search-link.js
   - assets/scripts/ai-worker-config.js
   - assets/scripts/ai-worker-fetch.js
