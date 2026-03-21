@@ -1,9 +1,12 @@
 name: Site — publish (assets-only)
 # Updated workflow to force GitHub re-indexing
+# NOTE: Excludes docs/assets/data/** to prevent re-triggering from
+# embeddings.yml auto-commits (which push aggregated JSON data files).
 on:
   push:
     paths:
       - 'docs/assets/**'
+      - '!docs/assets/data/**'
       - '.github/workflows/publish-assets.yml'
   workflow_dispatch: {}
 
