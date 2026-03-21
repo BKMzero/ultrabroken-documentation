@@ -227,7 +227,7 @@ Embed [TOTK Event Flowcharts](https://restite.org/eventviewer-totk/) as interact
 
 #### Syntax
 
-`[Label](data[, entry[, version]])`
+`[Label](ev:data[, entry[, version]])`
 
 | Parameter | Position | Required | Description |
 |--|--|--|--|
@@ -236,18 +236,18 @@ Embed [TOTK Event Flowcharts](https://restite.org/eventviewer-totk/) as interact
 | version | 3 | No | Game version string (default: `EventFlow_v1.2.1`) |
 
 ```markdown
-[BreakawayFromSage](BreakawayFromSage)
+[BreakawayFromSage](ev:BreakawayFromSage)
 
-[BreakawayFromSage3 entry](BreakawayFromSage, BreakawayFromSage3)
+[BreakawayFromSage3 entry](ev:BreakawayFromSage, BreakawayFromSage3)
 
-[BreakawayFromSage3 entry](BreakawayFromSage, BreakawayFromSage3, EventFlow_v1.2.1)
+[BreakawayFromSage3 entry](ev:BreakawayFromSage, BreakawayFromSage3, EventFlow_v1.2.1)
 ```
 
 **Generic labels** (`event`, `event viewer`, `flowchart`) render as a bare iframe with no caption. **Descriptive labels** appear as a bold caption linking to the full viewer URL.
 
 #### Example
 
-[BreakawayFromSage3](BreakawayFromSage, BreakawayFromSage3)
+[BreakawayFromSage3](ev:BreakawayFromSage, BreakawayFromSage3)
 
 ### Social Links and Leaderboard
 
