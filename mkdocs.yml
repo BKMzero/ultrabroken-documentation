@@ -65,7 +65,6 @@ extra_javascript:
   - assets/scripts/ai-worker-client.js
   - assets/scripts/grimoire-filter.js
   - assets/scripts/leaderboard.js
-  - assets/scripts/embed-touch-guard.js
   - assets/scripts/diagram-pan-zoom.js
   - assets/scripts/graph-view.js
   - assets/scripts/cosmetic-urls.js
