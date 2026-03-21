@@ -27,7 +27,7 @@ _Mozz, AgdoR - 20 May 2023_
 
 ## Notes
 ---
-—
+— How fast you can repeat the inputs was nerfed in 1.1.0.
 
 ## Resources
 ---
