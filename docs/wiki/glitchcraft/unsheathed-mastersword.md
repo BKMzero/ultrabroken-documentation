@@ -3,7 +3,7 @@ title: "Unsheathed Mastersword"
 uid: "36U"
 label: "UMS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
-credits: ["nx", "DanielNeia"]
+credits: ["NX", "DanielNeia"]
 date: "2023-07-11"
 description: "Puts the master sword in a visual state where it is outside of it's sheath."
 aliases: ["unsheathed-mastersword"]

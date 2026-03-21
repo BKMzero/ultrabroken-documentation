@@ -3,7 +3,7 @@ title: "Weapon Despawn Prevention"
 uid: "NM8"
 label: "WDP"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
-credits: ["nx"]
+credits: ["NX"]
 date: "2023-06-28"
 description: "Prevents equipment from despawning after certain NPC interactions and quests (Does not work in Pirate Ship quest, different flags)."
 aliases: ["weapon-despawn-prevention"]

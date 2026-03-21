@@ -33,7 +33,7 @@ The backbone of community glitch research: the curators who maintain and organiz
 - **Mozz**
 - **NaN Gogh**
 - **NghtmaR3**
-- **nx**
+- **NX**
 - **ofstrings2**
 - **PetitFrapo**
 - **R4000(1.0.0)**

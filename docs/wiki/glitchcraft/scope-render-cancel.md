@@ -3,7 +3,7 @@ title: "Scope Render Cancel"
 uid: "O9Q"
 label: "SRC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
-credits: ["nx", "eXe"]
+credits: ["NX", "eXe"]
 date: "2023-05-19"
 description: "Removes scope HUD and reveals two borders that show an overlay that renders flames, visual effects, etc."
 aliases: ["scope render cancel", "scope-render-cancel"]

@@ -3,7 +3,7 @@ title: "Shock Effect Overload"
 uid: "X5Y"
 label: "SEO"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
-credits: ["nx", "R4000"]
+credits: ["NX", "R4000"]
 date: "2023-07-26"
 description: "Uses many non-despawnable Shock Emitters and placing them into a Fairy Fountain, activating them to overload the game’s memory."
 aliases: ["shock-effect-overload"]

@@ -3,7 +3,7 @@ title: "Void Hold Storage"
 uid: "AGZ"
 label: "VHS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
-credits: ["Lightos", "nx"]
+credits: ["Lightos", "NX"]
 date: "2023-07-22"
 description: "Causes a menu softlock that revokes certain actions but allows for Link's model in the control panel."
 aliases: ["void-hold-storage"]
@@ -17,7 +17,7 @@ tags: ["storage", "menu", "item"]
 ---
 Causes a menu softlock that revokes certain actions but allows for Link's model in the control panel, softlocks when attempting exiting any menu, and Link can be moved freely before opening the menu.
 
-_Lightos_, nx - 22 July 2023_
+_Lightos_, NX - 22 July 2023_
 
 ## Instructions
 ---

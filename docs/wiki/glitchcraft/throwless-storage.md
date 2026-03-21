@@ -3,7 +3,7 @@ title: "Throwless Storage"
 uid: "OL9"
 label: "THS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0"]
-credits: ["evilgabe", "nx"]
+credits: ["evilgabe", "NX"]
 date: "2023-06-19"
 description: "Makes it so that Link puts the weapon in an active state (allows for activation of Zonai Devices at all times)."
 aliases: ["throwless-storage"]
@@ -17,7 +17,7 @@ tags: ["storage", "zonai"]
 ---
 Makes it so that Link puts the weapon in an active state (allows for activation of Zonai Devices at all times).
 
-_evilgabe, nx - 19 June 2023_
+_evilgabe, NX - 19 June 2023_
 
 ## Instructions
 ---
