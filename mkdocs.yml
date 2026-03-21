@@ -276,6 +276,9 @@ extra:
     - icon: fontawesome/brands/reddit
       link: https://www.reddit.com/r/HyruleEngineering/
       name: Join the HyruleEngineering subreddit
+    - icon: zonai/t
+      link: https://curtisfenner.com/zonai/?samples=linear
+      name: Encrypt your text with Zonai Script
 
 watch:
   - docs
