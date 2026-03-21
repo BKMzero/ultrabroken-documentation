@@ -3,7 +3,7 @@ title: "Void Dipping"
 uid: "JDP"
 label: "VD"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
-credits: ["Squidwest", "mulberry", "Aergyl"]
+credits: ["Squidwest", "mulberry", "Aergyl", "Kleric"]
 date: "2025-12-29"
 description: "An extremely powerful equipment state caused by interrupting the fadeout of an equipment item that has been destroyed by the void, then retrieving it."
 aliases: ["void-dipping"]
