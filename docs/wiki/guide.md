@@ -203,9 +203,9 @@ Embed interactive [TotK Object Map](https://objmap-totk.zeldamods.org/) previews
 | z:z_coord | Yes | Z coordinate (decimals OK) |
 | layer | No | Surface, Sky, or Depths (default: Surface) |
 
-#### Example
+??? example "Live Example"
 
-[Fire Temple VD location](8, x:1321.68, z:-2823.71, Depths)
+    [Fire Temple VD location](8, x:1321.68, z:-2823.71, Depths)
 
 ### YouTube Embeds
 
@@ -245,9 +245,9 @@ Embed [TOTK Event Flowcharts](https://restite.org/eventviewer-totk/) as interact
 
 **Generic labels** (`event`, `event viewer`, `flowchart`) render as a bare iframe with no caption. **Descriptive labels** appear as a bold caption linking to the full viewer URL.
 
-#### Example
+??? example "Live Example"
 
-[BreakawayFromSage3](ev:BreakawayFromSage, BreakawayFromSage3)
+    [BreakawayFromSage3](ev:BreakawayFromSage, BreakawayFromSage3)
 
 ### Social Links and Leaderboard
 
