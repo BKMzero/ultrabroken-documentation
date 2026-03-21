@@ -49,7 +49,7 @@ The backbone of community glitch research: the curators who maintain and organiz
 Special thanks to everyone helping with feedback, advice and informatiom.
 
 - **greninja**
-- **[Echocolat](https://github.com/Echocolat)**
+- **Echocolat**
 - **Blize**
 - **Yoda39**
 
@@ -59,7 +59,7 @@ Where scratching the surface is not enough, they mine deeper to learn Hylias lan
 
 - **Watertoon**
 - **aquacluck**
-- **[Echocolat](https://github.com/Echocolat)**
+- **Echocolat**
 - **dt13269**
 
 ## Communities
