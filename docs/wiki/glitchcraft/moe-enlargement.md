@@ -1,7 +1,7 @@
-﻿---
+---
 title: "Moe Enlargement"
 uid: "DNU"
-label: "ME"
+label: "MOE"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Toti Sauce", "PetitFrapo", "Jordan"]
 date: "2024-10-30"
@@ -10,7 +10,7 @@ aliases: ["object-(moe)-enlargement", "moe-enlargement", "object-enlargement"]
 tags: ["ultrahand"]
 ---
 
-# Moe Enlargement `ME`
+# Moe Enlargement `MOE`
 `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
 
 ## Summary
@@ -55,6 +55,7 @@ In order to make it rangeless, you need to PSLOT the target.
 ## Resources
 ---
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1301144333499760670)
+- [kmarkows tangible MOE guide](https://youtu.be/3Z0EmfupGWY?is=FEX57UBsJedWaad9)
 
 ## Related
 ---
