@@ -243,7 +243,7 @@ Embed [TOTK Event Flowcharts](https://restite.org/eventviewer-totk/) as interact
 [BreakawayFromSage3 entry](BreakawayFromSage, BreakawayFromSage3, EventFlow_v1.2.1)
 ```
 
-**Generic labels** (`event`, `event viewer`, `flowchart`) render as a bare iframe with no caption. **Descriptive labels** appear as a bold caption linking to the full viewer URL. Full restite.org viewer URLs are also accepted directly.
+**Generic labels** (`event`, `event viewer`, `flowchart`) render as a bare iframe with no caption. **Descriptive labels** appear as a bold caption linking to the full viewer URL.
 
 #### Example
 
