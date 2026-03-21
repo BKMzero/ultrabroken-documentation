@@ -15,7 +15,7 @@ tags: ["bloodmoon"]
 
 ## Summary
 ---
-Allows you to force a blood moon whenever you want
+Allows you to force a blood moon whenever you want.
 
 _1789(@W0ERYySQgZyGOY3), Simonfirefighter, Maxmasher, Flash, acaepius - 28 May 2023_
 
