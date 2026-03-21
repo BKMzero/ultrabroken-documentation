@@ -53,10 +53,7 @@ extra_javascript:
   - assets/scripts/header-reserve.js
   - assets/scripts/header-marquee.js
   - assets/scripts/storage-manager.js
-  - assets/scripts/storage-toggle.js
-  - assets/scripts/font-size-toggle.js
-  - assets/scripts/editor-toggle.js
-  - assets/scripts/motion-toggle.js
+  - assets/scripts/toolbar.js
   - assets/scripts/tasklist-enhance.js  # Makes entire task-list item clickable
   - assets/scripts/back-to-top.js  # Custom back-to-top with icon, no text
   - assets/scripts/background-rune.js  # Display animated background rune watermark
@@ -68,6 +65,7 @@ extra_javascript:
   - assets/scripts/ai-worker-client.js
   - assets/scripts/grimoire-filter.js
   - assets/scripts/leaderboard.js
+  - assets/scripts/embed-touch-guard.js
   - assets/scripts/diagram-pan-zoom.js
   - assets/scripts/graph-view.js
   - assets/scripts/cosmetic-urls.js
