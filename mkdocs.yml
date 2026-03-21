@@ -257,18 +257,25 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/nan-gogh/ultrabroken-documentation
+      title: Check out Ultrabroken Documentation — source repository
     - icon: fontawesome/brands/github
       link: https://github.com/nan-gogh/ultrabroken-media
+      title: Check out Ultrabroken Media — video & asset tools
     - icon: fontawesome/brands/twitter
       link: https://x.com/_nan_gogh
+      title: Follow @_nan_gogh on X
     - icon: fontawesome/brands/discord
       link: https://discord.gg/xM8NnTetb2
+      title: Join the Totk Speedrunning Discord server
     - icon: fontawesome/brands/discord
       link: https://discord.gg/uZqvjnwqF3
+      title: Join the Hyule Engineering Club Discord server
     - icon: fontawesome/brands/discord
-      link: https://discord.gg/xM8NnTetb2
+      link: https://discord.gg/SQXkjxRazk
+      title: Join the Totk グリッチ鰤 Discord server
     - icon: fontawesome/brands/reddit
       link: https://www.reddit.com/r/HyruleEngineering/
+      title: Join the HyruleEngineering subreddit
 
 watch:
   - docs
