@@ -7,7 +7,7 @@
   <!-- Critical above-fold CSS: button + title styles available before glow.css loads.
        Prevents unstyled button flash and title width jump on hard refresh. -->
   <style>
-    .ub-header-toggles{display:flex;align-items:center;gap:0;position:absolute;left:50%;transform:translateX(-50%)}
+    .ub-header-toggles{display:flex;align-items:center;gap:0;position:absolute;left:50%;transform:translateX(-50%);z-index:2}
     .ub-motion-toggle,.ub-storage-toggle,.ub-font-toggle{display:inline-flex;align-items:center;justify-content:center;background:none;border:none;cursor:pointer;padding:4px;color:#00f0c2;vertical-align:middle;line-height:1}
     .ub-motion-toggle svg,.ub-storage-toggle svg,.ub-font-toggle svg{width:24px;height:24px;display:block}
     .md-header__title .md-ellipsis{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;max-width:var(--header-available-width,100%)}
