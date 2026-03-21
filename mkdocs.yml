@@ -205,7 +205,7 @@ nav:
   # - Graph View: wiki/graph.md
   - Memorandum: wiki/memorandum.md
   - Guide: wiki/guide.md
-  - Media: wiki/media/index.md
+  - Media: wiki/media.md
 
 hooks:
   - docs/hooks/social_cards.py
