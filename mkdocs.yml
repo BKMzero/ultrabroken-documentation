@@ -211,6 +211,7 @@ hooks:
   - docs/hooks/map_embed.py
   - docs/hooks/youtube_embed.py
   - docs/hooks/diagram_viewer.py
+  - docs/hooks/event_viewer.py
   - docs/hooks/contributor_links.py
   - docs/hooks/media_links.py
   - docs/hooks/glitch_autolink.py

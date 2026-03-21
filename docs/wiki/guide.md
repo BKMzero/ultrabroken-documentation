@@ -221,6 +221,34 @@ Links to YouTube are automatically converted to responsive embedded iframes duri
 
 **Generic labels** (`YouTube`, `Video`, `Watch`, etc.) render as a bare iframe with no caption. **Descriptive labels** appear as a bold caption above the iframe. Timestamps (`?t=30`) are preserved in the embed. Duplicate video IDs on the same page: all but the first occurrence are dropped.
 
+### Event Viewer Embeds
+
+Embed [TOTK Event Flowcharts](https://restite.org/eventviewer-totk/) as interactive iframes using a compact shorthand syntax.
+
+#### Syntax
+
+`[Label](data[, entry[, version]])`
+
+| Parameter | Position | Required | Description |
+|--|--|--|--|
+| data | 1 | Yes | JSON filename — `.json` auto-appended |
+| entry | 2 | No | Entry point name |
+| version | 3 | No | Game version string (default: `EventFlow_v1.2.1`) |
+
+```markdown
+[BreakawayFromSage](BreakawayFromSage)
+
+[BreakawayFromSage3 entry](BreakawayFromSage, BreakawayFromSage3)
+
+[BreakawayFromSage3 entry](BreakawayFromSage, BreakawayFromSage3, EventFlow_v1.2.1)
+```
+
+**Generic labels** (`event`, `event viewer`, `flowchart`) render as a bare iframe with no caption. **Descriptive labels** appear as a bold caption linking to the full viewer URL. Full restite.org viewer URLs are also accepted directly.
+
+#### Example
+
+[BreakawayFromSage3](BreakawayFromSage, BreakawayFromSage3)
+
 ### Social Links and Leaderboard
 
 Credit names in frontmatter are automatically aggregated into the leaderboard. Names will link to social profiles when mapped in [credits.json](https://github.com/nan-gogh/ultrabroken-documentation/blob/main/docs/assets/data/credits.json).
