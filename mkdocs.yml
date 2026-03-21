@@ -275,7 +275,7 @@ extra:
       name: Join the Totk グリッチ鰤 Discord server
     - icon: fontawesome/brands/reddit
       link: https://www.reddit.com/r/HyruleEngineering/
-      title: Join the HyruleEngineering subreddit
+      name: Join the HyruleEngineering subreddit
 
 watch:
   - docs
