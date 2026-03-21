@@ -20,6 +20,7 @@ This site is a community-driven encyclopedia of glitches, techniques, and invest
 - **[Despawn Interrupt section](despawn-interrupt/index.md)** - Glitches and strats that get your gear despawn interrupted
 - **[Culling section](culling/index.md)** - Explore the versatile powers of Culling in this section
 - **[Overload section](overload/index.md)** - Detailed setups and techniques for reaching Overload states
+- **[Purgatory section](purgatory/index.md)** - The purgatory equipment state, and what you can do with it.
 - **[Memorandum](memorandum.md)** - Leaderboard for glitch hunters and hall of fame for archivists, spreadsheet managers,informants and dataminers
 
 ## Media Portal
