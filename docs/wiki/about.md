@@ -35,7 +35,7 @@ When you ask The Librarian, an algorithm searches our archives for documents tha
 
 ## Infrastructure
 ---
-The archives run on open-source tooling across GitHub and Cloudflare. Media uploads require authentication via the [`ultrabroken-archivists`](https://github.com/ultrabroken-archivists) GitHub organisation — membership is managed by invite only. No personal data is collected; Cloudflare Access verifies org membership through GitHub OAuth and does not store credentials beyond session tokens.
+The archives run on open-source tooling across GitHub and Cloudflare. Media uploads require authentication via the [`ultrabroken-archivists`](https://github.com/ultrabroken-archivists) GitHub organisation — membership is managed by invite only. No personal data is collected; Cloudflare Access verifies org membership through GitHub OAuth and does not store credentials beyond session tokens. Media management is available through a browser-based remote editor and a local machine editor (both require org authentication), alongside a public read-only R2 browser accessible to all visitors.
 
 ```mermaid viewer
 graph TD
@@ -51,7 +51,10 @@ graph TD
     TRANSCODE["🎬 transcode.yml<br/>H.264 via ffmpeg"]
     
     ACCESS["🚪 Cloudflare Access<br/>Zero Trust gateway<br/>requires org membership"]
-    WORKER["💼 Worker<br/>serves files + /manage UI<br/>upload · delete · purge"]
+    WORKER["💼 Worker<br/>static file serving + API<br/>routes auth + public UIs"]
+    REMOTE_EDITOR["🖊️ Remote Editor<br/>browser-based · auth-only<br/>upload · delete · purge"]
+    PUBLIC_BROWSER["🌐 Public Browser<br/>R2 media index<br/>no auth required"]
+    LOCAL_EDITOR["💻 Local Editor<br/>local machine · public repo<br/>upload · delete · purge"]
     R2["🗄️ R2 Object Storage<br/>image/ · video/ · social/"]
     PAGES["📖 GitHub Pages<br/>hosts the wiki"]
     VISITOR["👁️ Wiki Visitors<br/>public — no auth"]
@@ -63,7 +66,16 @@ graph TD
     OWNER -->|GitHub login| ACCESS
     MEMBERS -->|GitHub login| ACCESS
     ACCESS -->|authenticated| WORKER
+    WORKER -->|auth-only route| REMOTE_EDITOR
+    WORKER -->|public route| PUBLIC_BROWSER
+    REMOTE_EDITOR -->|read / write| R2
+    PUBLIC_BROWSER -->|reads| R2
     WORKER -->|read / write| R2
+    
+    OWNER -->|runs locally| LOCAL_EDITOR
+    MEMBERS -->|runs locally| LOCAL_EDITOR
+    LOCAL_EDITOR -->|GitHub login| ACCESS
+    LOCAL_EDITOR -->|API call + session token| WORKER
     
     MEDIA_REPO -->|push triggers| DEPLOY
     DEPLOY -->|wrangler deploy| ACCESS
@@ -76,4 +88,5 @@ graph TD
     PAGES -->|media links| R2
     VISITOR -->|reads| PAGES
     VISITOR -->|loads media| R2
+    VISITOR -->|browses| PUBLIC_BROWSER
 ```
