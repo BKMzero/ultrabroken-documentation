@@ -249,6 +249,9 @@ Embed [TOTK Event Flowcharts](https://restite.org/eventviewer-totk/) as interact
 
     [BreakawayFromSage3](ev:BreakawayFromSage, BreakawayFromSage3)
 
+!!! warning "Heavy Embeds — Use Collapsible Blocks"
+    Event viewer embeds are resource-heavy cross-origin iframes. On mobile and lower-end devices, multiple embeds on a single page can cause performance issues or crashes. **Always wrap live embed examples in collapsible details blocks** (as shown above) so they don't load until the user explicitly opens them. On mobile, touch gestures on embeds may prevent page scrolling — this is a known upstream issue with the viewer.
+
 ### Social Links and Leaderboard
 
 Credit names in frontmatter are automatically aggregated into the leaderboard. Names will link to social profiles when mapped in [credits.json](https://github.com/nan-gogh/ultrabroken-documentation/blob/main/docs/assets/data/credits.json).
