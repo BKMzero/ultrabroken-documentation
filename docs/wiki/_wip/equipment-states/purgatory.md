@@ -7,14 +7,14 @@ tags: ["purgatory", "culling"]
 Is it equipped or not? Depends who you ask.
 
 !!! danger "Warning"
-    While purgatory is a useful equipment state to exploit, many ways to delete purgatory equipment will **crash** the game.
+    While purgatory is a useful equipment state to exploit, many ways to delete unculled purgatory equipment will **crash** the game.
 
 # Overview
 
 Normally, when you have something equipped, Link's actor and the equipment actor agree on what's going on:
 
 - Link has the equipment connected to him (as [a dependency](TODO_dropping), among other ways);
-- The equipment marks Link as its user.
+- The equipment considers Link to be its user.
 
 With purgatory equipment, only the latter is true. It considers itself to be equipped on Link, but Link disagrees.
 
@@ -28,8 +28,8 @@ Purgatory equipment acts like it's properly equipped in some regards:
 But it has the following differences:
 
 - It can't be picked up. If you try to pick it up with nothing of that kind equipped, nothing happens. If you try to pick it up when it would go straight into the inventory, the game will **crash**.
-- You can't fuse it to Mineru. If you try, the existing fuse is deleted and nothing else happens.
-- It ignores culling areas.
+- You can't fuse it to Mineru. If you try, the existing fuse on that attachment point is deleted and nothing else happens.
+- It ignores cull instructions from culling areas.
 
 ## Fuse Entanglement
 
@@ -37,7 +37,7 @@ Purgatory weapons and shields have some additional features when on one side of 
 
 ### As the FE parent
 
-- Ultrahanding the FE child will temporarily reconnect the purgatory equipment to Link, in the same position it was at when first sent to purgatory. It re-releases when you let go of ultrahand.<!-- I have a clip of doing this with a purg shield and steering stick FE; should add it here. PF-->
+- Ultrahanding the FE child will temporarily reconnect the purgatory equipment to Link, and keep it at the same position it was at when first sent to purgatory. It re-releases when you let go of ultrahand.<!-- I have a clip of doing this with a drop-purg shield and steering stick FE; should add it here. PF-->
 - Ultrahanding the FE child while loading a different file will [UltraSLOT](search:UltraSLOT) the equipment.
 
 # Creating purgatory equipment
@@ -45,7 +45,8 @@ Purgatory weapons and shields have some additional features when on one side of 
 To send equipment to pugatory (to 'purgatorify' it), you have several options:
 
 - Drop equip a piece of equipment, then drop it.
-- Smuggle a weapon or shield, then equip and shock-drop another. (If you smuggled a weapon, you can also throw the second.) The smuggle will lose collision and be purgatorified.
+    - Be ready for it to fly away from Link with great speed when you drop it!
+- Smuggle a weapon or shield, then equip and shock-drop another. (If you smuggled a weapon, you can also throw the second instead.) The smuggle will lose collision and be purgatorified.
     - The second piece of equipment will become drop-equipped, and thus also easy to purgatorify.
 - Drop some equipment while it's culled, and you have a zuggle of the same equipment kind. The dropped equipment will be sent to culled purgatory.<!-- TODO: confirm that Link doesn't have to be the cull source, even if that is the most convenient -->
     - This equipment will lose collision, even if you use an FE parent to uncull it later.
@@ -60,7 +61,7 @@ If equipment is in purgatory and culled, it will not be deleted on reload. If yo
 The following ways of deleting purgatory equipment will **crash** the game:
 
 - Picking it up and sending it straight to the inventory.
-- Burning.
+- Burning it.
 <!--TODO: there's more for sure -->
 
 But the following are always safe to do:
