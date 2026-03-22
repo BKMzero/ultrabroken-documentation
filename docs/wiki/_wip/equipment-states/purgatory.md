@@ -2,6 +2,7 @@
 title: "Purgatory"
 label: "PURG"
 tags: ["purgatory", "culling"]
+aliases: ["Culled Purgatory", "Cull purg", "dpurg"]
 ---
 
 Is it equipped or not? Depends who you ask.
@@ -37,8 +38,13 @@ Purgatory weapons and shields have some additional features when on one side of 
 
 ### As the FE parent
 
-- Ultrahanding the FE child will temporarily reconnect the purgatory equipment to Link, and keep it at the same position it was at when first sent to purgatory. It re-releases when you let go of ultrahand.<!-- I have a clip of doing this with a drop-purg shield and steering stick FE; should add it here. PF-->
+- Ultrahanding the FE child will temporarily reconnect the purgatory equipment to Link, and keep it at the same position it was at when first sent to purgatory. It re-releases when you let go of Ultrahand.<!-- I have a clip of doing this with a drop-purg shield and steering stick FE; should add it here. PF-->
 - Ultrahanding the FE child while loading a different file will [UltraSLOT](search:UltraSLOT) the equipment.
+
+### As the FE child
+
+- Having the FE parent equipped will keep the purgatory child equipped or positioned on Link as it was when it first entered purgatory. If you drop the parent, the child will drop from Link.
+- Warping with the FE parent equipped will undo the purgatory status of the FE child, which will drop at Link's last position before the warp.
 
 # Creating purgatory equipment
 
