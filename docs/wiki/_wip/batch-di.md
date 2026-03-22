@@ -1,7 +1,7 @@
 ﻿---
 title: "Batch DI"
 draft: true
-label: "Am I supposed to leave this blank or what"
+label: ""
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Does this really have credits, per se?"]
 date: "2023-05-12"
@@ -22,7 +22,7 @@ _Credits - Day Month Year_
 ## Instructions
 
 === "Method 1: Overload Batch DI"
-    This method uses overload to DI targets without ever creating normal parents, removing the need to despawn them between targets. It is ideal for creating very large quantities of DI Ghosts, especially on `1.2.0` and up. The steps given are specific to those patches.
+    This method uses Overload Pseudo Fuse to DI targets without ever creating normal parents, removing the need to despawn them between targets. It is ideal for creating very large quantities of DI Ghosts, especially on `1.2.0` and up. The steps given are specific to those patches.
 
     Prepare:
 
@@ -33,7 +33,7 @@ _Credits - Day Month Year_
     1. Overload FE normal item (C) to A; must be opposite of B's type
     2. Leave A Zuggle Dropped after completing step 1
     3. B make DI ghost (D) of C's type; keep the normal parent (E)
-    4. Smuggle D, equip E, and overload pick up C
+    4. Smuggle D, equip E, and overload pickup C
     5. glue C to something to elevate it and ensure it cannot accidentally be targeted by Fuse
     6. Optionally, position a wall behind Link's back which can force E to fail-drop
 
@@ -44,6 +44,14 @@ _Credits - Day Month Year_
     3. Pause the game before the target fully fades out
     4. Drop E, swap to another of that type, and unequip it. This will cull E, and thus D, and thus the target, DIing it
     5. If you fail-dropped E, proceed with the next target. If not, you'll need to pick it up
+
+    !!! danger "Fuse-Over(load)"
+
+        Detangling a DI Ghost from its parent by "fuse-over" leaves a Cold Fuse connection behind, and detaching a DI Ghost from its PF parent does the same. Due to this, D and E will each gain one _peristent_ dependency for each DI Ghost produced. After 30 uses, D and E will reach Fuse Overload. If a 31st use is attempted, you will create a "Reference FE" connection, which will **crash the game** if you drop D!
+
+    !!! danger "Self-Fusing"
+
+        When an overload-pickup has a connection back to link, it is possible to target it to be fused to itself. Under most circumstances, this will immediately **crash the game** if attempted.
 
 === "Method 2: DI Chaining"
     This method creates a chain of DI ghosts, allowing the normal-parent despawning to be saved until the end of the process (as each target retains a DI parent as long as desired). It is ideal for medium batches and minimal replication, but can _only_ be used for weapons and shields. Steps given are specific to `1.2.0` and up.
@@ -62,8 +70,7 @@ _Credits - Day Month Year_
     6. Optionally, pick up and drop A to remove its overload
     7. Pick up C
     8. Repeat from step 2, with C as the new smuggle, E as the new normal parent, and D as the new target
-    9. After the process has been repeated to satisfaction, despawn all the normal parents of the chain by distance or chasm (which is also distance)
-    10. If the chain is long, detangle it (oh im just so tired for this)
+    9. After the process has been repeated to satisfaction, despawn all the normal parents of the chain by distance or chasm (which also performa a FarDelete)
 
     ??? abstract "Fast Method"
 
@@ -76,11 +83,14 @@ _Credits - Day Month Year_
     7. Drop B and swap to D
     8. Dupe 2 copies of C, then drop D and pick up C
     9. Repeat from step 3 with D as the next target
-    10. After the process has been repeated to satisfaction, despawn all the normal parents of the chain by distance or chasm (easy distance)
-    11. detangle it
+    10. After the process has been repeated to satisfaction, despawn all the normal parents of the chain by distance or chasm (which also performs a FarDelete)
+
+    !!! danger "Long Chains"
+
+        Extended dependency chains (FE and CF) can cause instability, such as freezing the game on some cutscenes and loads. If this method is performed with shields, simply zuggle a handful at once and use a rocket shield to fully detangle them all, repeating for all of them. If weapons were used, zuggle every 3rd or 4th in the chain, use fuse-over detangle to leave only a cf remnant, then **destroy** the detangled weapons to break the chain apart. (a proper weapon detanglement is not viable for this use-case)
 
 === "Method 3: "Purgatory + Turbo Replication"
-    This method uses a purgatorized DI shield to repeatedly fuse, then Octo Detangle, each target in turn. It is ideal for shield batches of any size, but can be adapted for others.
+    This method uses a purgatorized DI shield to repeatedly fuse, then Octo Detangle, each target in turn. It is ideal for shield batches of any size, but can be adapted for others without too much trouble.
 
     Prepare:
 
@@ -88,7 +98,7 @@ _Credits - Day Month Year_
 
     First, creating the base setup:
     
-    1. Dupe [several] copies of A
+    1. Dupe 3 copies of A
     2. A make DI ghost B, dispose of the normal parent
     3. A make DI Octo Balloon, use the normal parent to detangle it
     4. Smuggle B and equip another shield over it
@@ -111,6 +121,11 @@ _Credits - Day Month Year_
 
         Done correctly, each new target will drop on the opposite side of Link as the previous one, and none will block A from being duped from. The only necessary movement will be turning to face A to grab a dupe, then turning to face the target before fusing it.
 
+        !!! tip "Mistake recovery"
+
+            If the detanglement is failed, disregard the still-attached target. Recover by additionally duping a new target from one of the prior targets and dropping it.
+
+            If the DI is failed, continue as though it succeeded.
 
     ??? abstract "For other equipment"
 
@@ -128,6 +143,12 @@ _Credits - Day Month Year_
         12. Repeat from step 5 until satisfied
         13. Pick up and drop A to detach B
 
+        !!! tip "Mistake recovery"
+
+            If the detanglement is failed, disregard the still-attached target and continue as normal. It can technically be detangled later, but the timing is stricter and it's slower than just running the process again.
+
+            If the DI is failed, continue as though it succeeded.
+
     ??? abstract "For non-equipment"
 
         1. Zuggle Drop A to attach B
@@ -142,6 +163,12 @@ _Credits - Day Month Year_
         10. Pick up and drop A to detach B
 
         DI Ghost objects cannot be interacted with, so this variant is perhaps of intellectual interest only.
+
+        !!! tip "Mistake recovery"
+
+            If the detanglement is failed, disregard the still-attached target.
+
+            If the DI is failed, continue as though it succeeded.
 
 ## Notes
 ---
