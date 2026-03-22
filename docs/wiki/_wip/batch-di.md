@@ -1,12 +1,12 @@
 ﻿---
 title: "Batch DI"
 draft: true
-label: ""
+label: "BDI"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
-credits: ["Does this really have credits, per se?"]
+credits: ["mulberry", "Squidwest"]
 date: "2023-05-12"
 description: "A collection of methods to produce large numbers of DI Ghost items quickly."
-aliases: [""]
+aliases: ["Batch-DI"]
 tags: ["despawn-interrupt", "culling"]
 ---
 
@@ -17,7 +17,7 @@ tags: ["despawn-interrupt", "culling"]
 ---
 Some of the properties of DI Ghosts (typically equipment, sometimes otherwise) are best exploited with large numbers of them. This page provides various convenient ways to produce large numbers of them.
 
-_Credits - Day Month Year_
+_Credits - Aergyl, mulberry, Squidwest - Jan 17, 2026_
 
 ## Instructions
 
@@ -52,6 +52,8 @@ _Credits - Day Month Year_
     !!! danger "Self-Fusing"
 
         When an overload-pickup has a connection back to link, it is possible to target it to be fused to itself. Under most circumstances, this will immediately **crash the game** if attempted.
+
+    _Method developed by mulberry_
 
 === "Method 2: DI Chaining"
     This method creates a chain of DI ghosts, allowing the normal-parent despawning to be saved until the end of the process (as each target retains a DI parent as long as desired). It is ideal for medium batches and minimal replication, but can _only_ be used for weapons and shields. Steps given are specific to `1.2.0` and up.
@@ -92,6 +94,8 @@ _Credits - Day Month Year_
         If this method is performed with shields, simply zuggle a handful at once and use a rocket shield to fully detangle them all, repeating for all of them.
         
         If weapons were used, zuggle every other in the chain (or less frequently if desired), use fuse-over detangle to leave only a cf remnant, then **destroy** the detangled weapons to break the chain apart. (a proper weapon detanglement is not viable for this use-case)
+
+    _Method developed by Squidwest_(?)
 
 === "Method 3: "Purgatory + Turbo Replication"
     This method uses a purgatorized DI shield to repeatedly fuse, then Octo Detangle, each target in turn. It is ideal for shield batches of any size, but can be adapted for others without too much trouble.
@@ -174,10 +178,12 @@ _Credits - Day Month Year_
 
             If the DI is failed, continue as though it succeeded.
 
+    _Turbo Replication developed by mulberry, Aergyl; Batch methods developed by Squidwest_
+
 ## Notes
 ---
-### Remarks
-Remarks
+
+- Due to the difference in resulting structure, these methods are usually _not_ interchangable
 
 ### Additions
 Additions
