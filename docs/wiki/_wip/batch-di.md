@@ -62,32 +62,36 @@ _Credits - Day Month Year_
 
     ??? abstract "Safe Method"
 
-    1. Duplicate three normal copies of A by DI Duping (B, C, & D)
-    2. Smuggle A and equip B, then drop C on the ground
-    3. Start to fuse C to B, then pause the game a few frames later (after it starts to fade, but before it fades fully)
-    4. Drop B and swap to D
-    5. C will be attached to B on the ground. Dupe two replacement copies (E and F), then drop D
-    6. Optionally, pick up and drop A to remove its overload
-    7. Pick up C
-    8. Repeat from step 2, with C as the new smuggle, E as the new normal parent, and D as the new target
-    9. After the process has been repeated to satisfaction, despawn all the normal parents of the chain by distance or chasm (which also performa a FarDelete)
+        1. Duplicate three normal copies of A by DI Duping (B, C, & D)
+        2. Smuggle A and equip B, then drop C on the ground
+        3. Start to fuse C to B, then pause the game a few frames later (after it starts to fade, but before it fades fully)
+        4. Drop B and swap to D
+        5. C will be attached to B on the ground. Dupe two replacement copies (E and F), then drop D
+        6. Optionally, pick up and drop A to remove its overload
+        7. Pick up C
+        8. Repeat from step 2, with C as the new smuggle, E as the new normal parent, and D as the new target
+        9. After the process has been repeated to satisfaction, despawn all the normal parents of the chain by distance or chasm (which also performa a FarDelete)
 
     ??? abstract "Fast Method"
 
-    1. Duplicate three normal copies of A by DI Duping (B, C, & D)
-    2. Equip A and drop C on the ground
-    3. Ready fuse targeting C and pause the game
-    4. Drop A and swap to B
-    5. Unpause and press fuse immediately
-    6. Either [pause immediately after pressing fuse, then pause buffer] or [pause a few frames after pressing fuse]
-    7. Drop B and swap to D
-    8. Dupe 2 copies of C, then drop D and pick up C
-    9. Repeat from step 3 with D as the next target
-    10. After the process has been repeated to satisfaction, despawn all the normal parents of the chain by distance or chasm (which also performs a FarDelete)
+        1. Duplicate three normal copies of A by DI Duping (B, C, & D)
+        2. Equip A and drop C on the ground
+        3. Ready fuse targeting C and pause the game
+        4. Drop A and swap to B
+        5. Unpause and press fuse immediately
+        6. Either [pause immediately after pressing fuse, then pause buffer] or [pause a few frames after pressing fuse]
+        7. Drop B and swap to D
+        8. Dupe 2 copies of C, then drop D and pick up C
+        9. Repeat from step 3 with D as the next target
+        10. After the process has been repeated to satisfaction, despawn all the normal parents of the chain by distance or chasm (which also performs a FarDelete)
 
     !!! danger "Long Chains"
 
-        Extended dependency chains (FE and CF) can cause instability, such as freezing the game on some cutscenes and loads. If this method is performed with shields, simply zuggle a handful at once and use a rocket shield to fully detangle them all, repeating for all of them. If weapons were used, zuggle every 3rd or 4th in the chain, use fuse-over detangle to leave only a cf remnant, then **destroy** the detangled weapons to break the chain apart. (a proper weapon detanglement is not viable for this use-case)
+        Extended dependency chains (FE and CF) can cause instability, such as freezing the game on some cutscenes and loads.
+        
+        If this method is performed with shields, simply zuggle a handful at once and use a rocket shield to fully detangle them all, repeating for all of them.
+        
+        If weapons were used, zuggle every other in the chain (or less frequently if desired), use fuse-over detangle to leave only a cf remnant, then **destroy** the detangled weapons to break the chain apart. (a proper weapon detanglement is not viable for this use-case)
 
 === "Method 3: "Purgatory + Turbo Replication"
     This method uses a purgatorized DI shield to repeatedly fuse, then Octo Detangle, each target in turn. It is ideal for shield batches of any size, but can be adapted for others without too much trouble.
