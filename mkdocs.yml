@@ -40,6 +40,7 @@ extra_css:
   - assets/stylesheets/glow.css
   - assets/stylesheets/ai-widget.css
   - assets/stylesheets/grimoire.css
+  - assets/stylesheets/media-browser.css
 
 extra_javascript:
   - assets/scripts/mermaid-config.js
@@ -66,6 +67,7 @@ extra_javascript:
   - assets/scripts/ai-worker-client.js
   - assets/scripts/grimoire-filter.js
   - assets/scripts/leaderboard.js
+  - assets/scripts/media-browser.js
   - assets/scripts/diagram-pan-zoom.js
   - assets/scripts/graph-view.js
   - assets/scripts/cosmetic-urls.js
