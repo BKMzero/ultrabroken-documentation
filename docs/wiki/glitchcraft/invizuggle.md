@@ -23,7 +23,7 @@ _Discovered by ock, Yee; Extension by mulberry - 3 January 2024_
 There are multiple methods:
 Methods 1 and 2 are obsolete, see Dpadlock-less Invizuggle for better options on 1.2.0+.
 
-=== "Method 1 `1.2.0+`"
+=== "Method 1"
     ---
     versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: true
@@ -40,7 +40,7 @@ Methods 1 and 2 are obsolete, see Dpadlock-less Invizuggle for better options on
     8. Open chest and fail a drop with the cull dropped item , this unlocks the dpad
     9. Fail a drop with the equipped and zuggled item against the wall and it should re appear
 
-=== "Method 2 `1.2.0+`"
+=== "Method 2"
     ---
     versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -58,7 +58,7 @@ Methods 1 and 2 are obsolete, see Dpadlock-less Invizuggle for better options on
     9. unpause and mount the steering stick to end culling
     10. Open chest with a full inventory and fail a drop with the zuggled item, this unlocks the dpad
 
-=== "Method 3 `1.0.0-1.1.1`"
+=== "Method 3"
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1"]
     obsolete: false
@@ -70,7 +70,7 @@ Methods 1 and 2 are obsolete, see Dpadlock-less Invizuggle for better options on
     3. Map Zuggle it
     4. Warp away, if Link has the item fe'd to it equipped in the overworld, you invizuggled its basew (this check only works if you did the fe)
 
-=== "Method 4 `1.0.0-1.1.2`"
+=== "Method 4"
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
     ---
