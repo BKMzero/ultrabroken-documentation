@@ -279,10 +279,10 @@ extra:
     - icon: fontawesome/brands/reddit
       link: https://www.reddit.com/r/HyruleEngineering/
       name: Join the HyruleEngineering subreddit
-    - icon: 
+    - icon: fontawesome/solid/map-location-dot
       link: https://objmap-totk.zeldamods.org/#/map/
       name: Map out your journey with the TotK Object Map
-    - icon: 
+    - icon: fontawesome/solid/timeline
       link: https://restite.org/eventviewer-totk/
       name: Flow with the TotK Event Viewer
     - icon: zonai/t
