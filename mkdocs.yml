@@ -218,6 +218,7 @@ hooks:
   - docs/hooks/glitch_autolink.py
   - docs/hooks/reader_compat.py
   - docs/hooks/uid_links.py
+  - docs/hooks/method_meta.py
   - docs/hooks/draft_pages.py
 
 plugins:
@@ -278,6 +279,12 @@ extra:
     - icon: fontawesome/brands/reddit
       link: https://www.reddit.com/r/HyruleEngineering/
       name: Join the HyruleEngineering subreddit
+    - icon: 
+      link: https://objmap-totk.zeldamods.org/#/map/
+      name: Map out your journey with the TotK Object Map
+    - icon: 
+      link: https://restite.org/eventviewer-totk/
+      name: Flow with the TotK Event Viewer
     - icon: zonai/t
       link: https://curtisfenner.com/zonai/?samples=linear
       name: Encrypt your text with Zonai Script

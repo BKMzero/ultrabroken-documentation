@@ -24,7 +24,11 @@ _Discovered by ock, Yee; Extension by mulberry - 3 January 2024_
 There are multiple methods:
 Methods 1 and 2 are obsolete, see Dpadlock-less Invizuggle for better options on 1.2.0+.
 
-=== "Method 1 `1.2.0+`" 
+=== "Method 1 `1.2.0+`"
+    ---
+    versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    obsolete: true
+    ---
     Method 1 is trickier, but keeps FE items.
 
     1. Like like stick cull
@@ -38,6 +42,10 @@ Methods 1 and 2 are obsolete, see Dpadlock-less Invizuggle for better options on
     9. Fail a drop with the equipped and zuggled item against the wall and it should re appear
 
 === "Method 2 `1.2.0+`"
+    ---
+    versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    obsolete: false
+    ---
     Method 2 is easier, but deletes FE items.
     
     1. Like like stick cull
@@ -52,6 +60,10 @@ Methods 1 and 2 are obsolete, see Dpadlock-less Invizuggle for better options on
     10. Open chest with a full inventory and fail a drop with the zuggled item, this unlocks the dpad
 
 === "Method 3 `1.0.0-1.1.1`"
+    ---
+    versions: ["1.0.0", "1.1.0", "1.1.1"]
+    obsolete: false
+    ---
     _Discovered by mulberry_
     
     1. FE something to the item you wish to invizuggle (optional, but makes it more convenient)
@@ -60,6 +72,9 @@ Methods 1 and 2 are obsolete, see Dpadlock-less Invizuggle for better options on
     4. Warp away, if Link has the item fe'd to it equipped in the overworld, you invizuggled its basew (this check only works if you did the fe)
 
 === "Method 4 `1.0.0-1.1.2`"
+    ---
+    versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+    ---
     _Discovered by mulberry_
 
     1. Drop smuggle the target item with either Shock Smuggle or Cull Smuggle (you can FE any items before to ZLOT them)
