@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Fuse Entanglement Drop Smuggling"
 uid: "N1T"
 label: "FEDS"
@@ -10,8 +10,7 @@ aliases: ["fuse-entanglement-drop-smuggling"]
 tags: ["zuggling", "item", "equipment", "entanglement", "fuse"]
 ---
 
-# Fuse Entanglement Drop Smuggling `FEDS`
-`1.2.0`
+# Fuse Entanglement Drop Smuggling
 
 ## Summary
 ---

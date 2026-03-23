@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Food Ability Buff Swap"
 uid: "U0U"
 label: "FABS"
@@ -10,8 +10,7 @@ aliases: ["food-ability-buff-swap"]
 tags: ["cooking", "item", "buff", "zuggling"]
 ---
 
-# Food Ability Buff Swap `FABS`
-`1.0.0` `1.1.0` `1.1.1`
+# Food Ability Buff Swap
 
 ## Summary
 ---

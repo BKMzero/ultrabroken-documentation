@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Culling Area Fuse Storage"
 uid: "ERN"
 label: "CAFS"
@@ -10,7 +10,7 @@ aliases: ["culling-area-fuse-storage"]
 tags: ["storage", "culling", "fuse"]
 ---
 
-# Culling Area Fuse Storage `CAFS`
+# Culling Area Fuse Storage
 _Mozz, pyuk - 30 June 2023_
 
 ## Summary

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Weapon Stand Dynamic Zuggle"
 uid: "1PY"
 label: "WSDZ"
@@ -10,8 +10,7 @@ aliases: ["weapon-stand-dynamic-zuggle"]
 tags: ["zuggling", "weapon", "item", "equipment"]
 ---
 
-# Weapon Stand Dynamic Zuggle `WSDZ`
-`1.0.0`
+# Weapon Stand Dynamic Zuggle
 
 ## Summary
 ---

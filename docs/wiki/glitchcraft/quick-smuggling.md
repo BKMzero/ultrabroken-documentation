@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Quick Smuggling"
 uid: "2D4"
 label: "QS"
@@ -10,8 +10,7 @@ aliases: ["quick-smuggling"]
 tags: ["zuggling", "equipment", "arrow"]
 ---
 
-# Quick Smuggling `QS`
-`1.2.0`
+# Quick Smuggling
 
 ## Summary
 ---

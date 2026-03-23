@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Dynamic Zuggle"
 uid: "CNV"
 label: "DZG"
@@ -10,8 +10,7 @@ aliases: ["dynamic-zuggle"]
 tags: ["zuggling", "item", "equipment"]
 ---
 
-# Dynamic Zuggle `DZG`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# Dynamic Zuggle
 
 ## Summary
 ---

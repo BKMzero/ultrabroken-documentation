@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Floorping"
 uid: "Z63"
 label: "FLP"
@@ -10,8 +10,7 @@ aliases: []
 tags: ["warping"]
 ---
 
-# Floorping `FLP`
-`1.1.0` `1.1.1`
+# Floorping
 
 ## Summary
 ---

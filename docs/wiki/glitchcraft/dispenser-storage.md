@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Dispenser Storage"
 uid: "F8J"
 label: "DSTR"
@@ -10,8 +10,7 @@ aliases: ["dispenser-storage"]
 tags: ["storage", "item", "ultrahand", "zonai"]
 ---
 
-# Dispenser Storage `DISP` `DSTR`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Dispenser Storage `DISP`
 
 ## Summary
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Cull Launching"
 uid: "BKZ"
 label: "CL"
@@ -10,8 +10,7 @@ aliases: ["cull-launching"]
 tags: ["launching", "culling"]
 ---
 
-# Cull Launching `CL`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# Cull Launching
 
 ## Summary
 ---

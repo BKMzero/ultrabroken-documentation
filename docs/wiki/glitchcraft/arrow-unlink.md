@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Arrow Unlink"
 uid: "HW8"
 label: "AUL"
@@ -10,8 +10,7 @@ aliases: ["arrow-unlink"]
 tags: ["fuse", "arrow"]
 ---
 
-# Arrow Unlink `AUL`
-`1.0.0`
+# Arrow Unlink
 
 ## Summary
 ---

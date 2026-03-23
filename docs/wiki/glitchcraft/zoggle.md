@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Zoggle"
 uid: "9UF"
 label: "ZOG"
@@ -10,8 +10,7 @@ aliases: []
 tags: ["zuggling", "ultrahand", "item", "equipment"]
 ---
 
-# Zoggle `ZOG`
-`1.2.0` `1.2.1`
+# Zoggle
 
 ## Summary
 ---

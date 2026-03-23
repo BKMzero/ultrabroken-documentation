@@ -1,4 +1,4 @@
-﻿---
+---
 title: "MNF Zuggle Fuse"
 uid: "JCJ"
 label: "MZF"
@@ -10,8 +10,7 @@ aliases: ["message not found zuggle", "mnf zuggle", "mnf-zuggle-fuse"]
 tags: ["zuggling", "weapon", "fuse", "mnf"]
 ---
 
-# MNF Zuggle Fuse `MZF`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# MNF Zuggle Fuse
 
 ## Summary
 ---

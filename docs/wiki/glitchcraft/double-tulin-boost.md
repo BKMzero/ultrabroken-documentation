@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Double Tulin Boost"
 uid: "A17"
 label: "DTB"
@@ -10,8 +10,7 @@ aliases: ["double tulin", "double-tulin-boost"]
 tags: ["tulin"]
 ---
 
-# Double Tulin Boost `DTB`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# Double Tulin Boost
 
 ## Summary
 ---

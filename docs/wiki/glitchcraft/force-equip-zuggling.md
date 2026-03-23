@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Force Equip Zuggling"
 uid: "3RI"
 label: "FEZ"
@@ -10,8 +10,7 @@ aliases: ["force-equip-zuggling"]
 tags: ["zuggling", "equipment", "item", "shield"]
 ---
 
-# Force Equip Zuggling `FEZ`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# Force Equip Zuggling
 
 ## Summary
 ---

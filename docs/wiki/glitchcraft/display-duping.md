@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Display Duping"
 uid: "RQ7"
 label: "DD"
@@ -10,8 +10,7 @@ aliases: ["display-duping"]
 tags: ["duplication", "equipment", "shield", "zuggling"]
 ---
 
-# Display Duping `DD`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# Display Duping
 
 ## Summary
 ---

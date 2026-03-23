@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Mineru Cull Storage"
 uid: "7ZD"
 label: "MCS"
@@ -10,8 +10,7 @@ aliases: ["mineru-cull-storage"]
 tags: ["zuggling", "storage", "culling", "mineru"]
 ---
 
-# Mineru Cull Storage `MCS`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Mineru Cull Storage
 
 ## Summary
 ---

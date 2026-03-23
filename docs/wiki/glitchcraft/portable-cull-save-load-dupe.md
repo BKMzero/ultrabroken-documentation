@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Portable Cull Save Load Dupe"
 uid: "GFW"
 label: "PSLD"
@@ -10,8 +10,7 @@ aliases: ["portable-cull-save-load-dupe"]
 tags: ["duplication", "culling", "save-load"]
 ---
 
-# Portable Cull Save Load Dupe `PSLD`
-`1.2.0` `1.2.1`
+# Portable Cull Save Load Dupe
 
 ## Summary
 ---

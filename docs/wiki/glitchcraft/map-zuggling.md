@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Map Zuggling"
 uid: "D55"
 label: "MZ"
@@ -10,8 +10,7 @@ aliases: ["map-zuggling"]
 tags: ["zuggling", "map", "item", "equipment"]
 ---
 
-# Map Zuggling `MZ`
-`1.0.0` `1.1.0` `1.1.1`
+# Map Zuggling
 
 ## Summary
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Sage Madness"
 uid: "I6X"
 label: "SM"
@@ -10,8 +10,7 @@ aliases: ["sage-madness"]
 tags: ["camera"]
 ---
 
-# Sage Madness `SM`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Sage Madness
 
 ## Summary
 ---

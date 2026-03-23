@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Hero Path Link Storage"
 uid: "YIS"
 label: "HPLS"
@@ -10,8 +10,7 @@ aliases: ["hero-path-link-storage"]
 tags: ["storage"]
 ---
 
-# Hero Path Link Storage `HPLS`
-`1.1.0` `1.1.1` `1.1.2`
+# Hero Path Link Storage
 
 ## Summary
 ---

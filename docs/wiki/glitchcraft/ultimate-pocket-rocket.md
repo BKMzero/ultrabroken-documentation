@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Ultimate Pocket Rocket"
 uid: "05N"
 label: "UPR"
@@ -10,8 +10,7 @@ aliases: ["ultimate-pocket-rocket"]
 tags: ["launching", "warping", "ultrahand"]
 ---
 
-# Ultimate Pocket Rocket `UPR`
-`1.0.0`
+# Ultimate Pocket Rocket
 
 ## Summary
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Map Storage"
 uid: "OT8"
 label: "MSTR"
@@ -10,8 +10,7 @@ aliases: ["map-storage"]
 tags: ["storage", "map"]
 ---
 
-# Map Storage `MSTR`
-`1.1.0` `1.1.1`
+# Map Storage
 
 ## Summary
 ---

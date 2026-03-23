@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Attached Rangeless Active Zonai"
 uid: "ZTD"
 label: "ARAZ"
@@ -10,8 +10,7 @@ aliases: ["attached-rangeless-active-zonai"]
 tags: ["zonai"]
 ---
 
-# Attached Rangeless Active Zonai `ARAZ`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# Attached Rangeless Active Zonai
 
 ## Summary
 ---

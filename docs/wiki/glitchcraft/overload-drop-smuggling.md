@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Overload Drop Smuggling"
 uid: "J9Y"
 label: "ODS"
@@ -10,8 +10,7 @@ aliases: ["overload-drop-smuggling"]
 tags: ["zuggling", "item", "overload"]
 ---
 
-# Overload Drop Smuggling `ODS`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# Overload Drop Smuggling
 
 ## Summary
 ---

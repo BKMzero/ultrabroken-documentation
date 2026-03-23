@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Death Persistent Save Load Object Transfer"
 uid: "15K"
 label: "DPSLOT"
@@ -10,8 +10,7 @@ aliases: ["death-persistent-save-load-object-transfer"]
 tags: ["item", "save-load", "zuggling"]
 ---
 
-# Death Persistent Save Load Object Transfer `DPSLOT`
-`1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Death Persistent Save Load Object Transfer
 
 ## Summary
 ---

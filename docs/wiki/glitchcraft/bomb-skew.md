@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Bomb Skew"
 uid: "EJ4"
 label: "BSK"
@@ -10,8 +10,7 @@ aliases: ["bomb-skew"]
 tags: ["equipment", "shield", "zuggling"]
 ---
 
-# Bomb Skew `BSK`
-`1.0.0`
+# Bomb Skew
 
 ## Summary
 ---

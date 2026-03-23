@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Overload Fuse Entanglement"
 uid: "0XV"
 label: "OFE"
@@ -10,8 +10,7 @@ aliases: ["overload-fuse-entanglement"]
 tags: ["zuggling", "entanglement", "culling", "overload", "fuse"]
 ---
 
-# Overload Fuse Entanglement `OFE`
-`1.2.0` `1.2.1`
+# Overload Fuse Entanglement
 
 ## Summary
 ---

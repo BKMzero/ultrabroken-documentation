@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Mass Amnesia"
 uid: "MLG"
 label: "MA"
@@ -10,8 +10,7 @@ aliases: ["mass-amnesia"]
 tags: ["Unknown"]
 ---
 
-# Mass Amnesia `MA`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# Mass Amnesia
 
 ## Summary
 ---

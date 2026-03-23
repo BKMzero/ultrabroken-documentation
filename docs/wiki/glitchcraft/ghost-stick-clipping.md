@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Ghost Stick Clipping"
 uid: "MZA"
 label: "GSC"
@@ -10,8 +10,7 @@ aliases: ["ghost-stick-clipping"]
 tags: ["clipping"]
 ---
 
-# Ghost Stick Clipping `GSC`
-`1.0.0` `1.1.0` `1.1.1`
+# Ghost Stick Clipping
 
 ## Summary
 ---

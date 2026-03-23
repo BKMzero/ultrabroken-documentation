@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Weapon Fuse Entangelemt"
 uid: "JOY"
 label: "WFE"
@@ -10,8 +10,7 @@ aliases: ["weapon-fe", "weapon fe"]
 tags: ["weapon"]
 ---
 
-# Weapon Fuse Entangelemt `WFE`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# Weapon Fuse Entangelemt
 
 ## Summary
 ---

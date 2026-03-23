@@ -1,4 +1,4 @@
-﻿---
+---
 title: "MNF Fusing"
 uid: "CO6"
 label: "MNFF"
@@ -10,8 +10,7 @@ aliases: ["mnf-fusing"]
 tags: ["fuse", "mnf"]
 ---
 
-# MNF Fusing `MNFF`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# MNF Fusing
 
 ## Summary
 ---

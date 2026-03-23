@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Vendor Scamming"
 uid: "94V"
 label: "VS"
@@ -10,8 +10,7 @@ aliases: ["vendor-scamming"]
 tags: ["zuggling", "storage", "item"]
 ---
 
-# Vendor Scamming `VS`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0`
+# Vendor Scamming
 
 ## Summary
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Minecart Rail Collision Launching"
 uid: "74J"
 label: "MRCL"
@@ -10,8 +10,7 @@ aliases: ["minecart collision", "minecart rail collision", "rail collision launc
 tags: ["launching"]
 ---
 
-# Minecart Rail Collision Launching `MRCL`
-`1.0.0` `1.1.0` `1.1.1`
+# Minecart Rail Collision Launching
 
 ## Summary
 ---

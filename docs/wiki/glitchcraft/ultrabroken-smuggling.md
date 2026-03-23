@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Ultrabroken Smuggling"
 uid: "RQB"
 label: "UBS"
@@ -10,8 +10,7 @@ aliases: ["ultrabroken-smuggling"]
 tags: ["zuggling", "equipment", "ultrahand", "shield"]
 ---
 
-# Ultrabroken Smuggling `UBS`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# Ultrabroken Smuggling
 
 ## Summary
 ---

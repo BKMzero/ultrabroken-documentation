@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Equipment Shock Duping"
 uid: "DBF"
 label: "ESD"
@@ -10,8 +10,7 @@ aliases: ["equipment-shock-duping"]
 tags: ["duplication", "item", "equipment"]
 ---
 
-# Equipment Shock Duping `ESD`
-`1.0.0`
+# Equipment Shock Duping
 
 ## Summary
 ---

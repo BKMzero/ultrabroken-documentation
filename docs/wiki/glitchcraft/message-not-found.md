@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Message Not Found"
 uid: "056"
 label: "MNF"
@@ -10,8 +10,7 @@ aliases: ["message not found", "message not found error", "message-not-found"]
 tags: ["mnf"]
 ---
 
-# Message Not Found `MNF`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Message Not Found
 
 ## Summary
 ---

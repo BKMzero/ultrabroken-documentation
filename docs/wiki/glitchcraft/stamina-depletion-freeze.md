@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Stamina Depletion Freeze"
 uid: "XH0"
 label: "SDF"
@@ -10,8 +10,7 @@ aliases: ["stamina depletion freeze", "stamina-depletion-freeze"]
 tags: ["Unknown"]
 ---
 
-# Stamina Depletion Freeze `SDF`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# Stamina Depletion Freeze
 
 ## Summary
 ---

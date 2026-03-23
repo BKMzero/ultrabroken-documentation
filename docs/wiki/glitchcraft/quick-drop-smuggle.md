@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Quick Drop Smuggle"
 uid: "OTD"
 label: "QDS"
@@ -10,8 +10,7 @@ aliases: ["quick-drop-smuggle"]
 tags: ["zuggling", "item", "equipment"]
 ---
 
-# Quick Drop Smuggle `QDS`
-`1.0.0`
+# Quick Drop Smuggle
 
 ## Summary
 ---

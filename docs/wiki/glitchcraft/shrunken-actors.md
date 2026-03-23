@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Shrunken Actors"
 uid: "DMF"
 label: "SA"
@@ -10,8 +10,7 @@ aliases: ["shrunken-actors"]
 tags: ["ultrahand"]
 ---
 
-# Shrunken Actors `SA`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# Shrunken Actors
 
 ## Summary
 ---

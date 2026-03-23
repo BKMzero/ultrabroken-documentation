@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Reverse Ascend Storage"
 uid: "70D"
 label: "RAS"
@@ -10,8 +10,7 @@ aliases: ["reverse-ascend-storage"]
 tags: ["storage", "ascend"]
 ---
 
-# Reverse Ascend Storage `RAS`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Reverse Ascend Storage
 
 ## Summary
 ---

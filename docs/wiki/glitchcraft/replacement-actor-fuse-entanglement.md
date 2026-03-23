@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Replacement Actor Fuse Entanglement"
 uid: "E2K"
 label: "RAFE"
@@ -10,8 +10,7 @@ aliases: ["replacement-actor-fuse-entanglement"]
 tags: ["entanglement", "fuse"]
 ---
 
-# Replacement Actor Fuse Entanglement `RAFE`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Replacement Actor Fuse Entanglement
 
 ## Summary
 ---

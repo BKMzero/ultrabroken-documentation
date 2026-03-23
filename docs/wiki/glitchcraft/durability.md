@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Durability-"
 uid: "J9U"
 label: "DURM"
@@ -10,8 +10,7 @@ aliases: []
 tags: ["item", "weapon", "bow"]
 ---
 
-# Durability- `DUR-` `DURM`
-`1.0.0`
+# Durability- `DUR-`
 
 ## Summary
 ---

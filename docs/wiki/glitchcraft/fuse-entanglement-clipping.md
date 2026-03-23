@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Fuse Entanglement Clipping"
 uid: "Z2Z"
 label: "FEC"
@@ -10,8 +10,7 @@ aliases: ["fuse-entanglement-clipping"]
 tags: ["clipping", "entanglement", "fuse"]
 ---
 
-# Fuse Entanglement Clipping `FEC`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# Fuse Entanglement Clipping
 
 ## Summary
 ---

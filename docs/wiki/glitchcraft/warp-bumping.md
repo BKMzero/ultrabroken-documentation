@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Warp Bumping"
 uid: "KNR"
 label: "WB"
@@ -10,8 +10,7 @@ aliases: ["warp-bumping"]
 tags: ["warping"]
 ---
 
-# Warp Bumping `WB`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# Warp Bumping
 
 ## Summary
 ---

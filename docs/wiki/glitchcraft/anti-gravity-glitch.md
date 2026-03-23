@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Anti-Gravity Glitch"
 uid: "PEY"
 label: "AGG"
@@ -10,8 +10,7 @@ aliases: ["anti gravity", "anti gravity glitch", "anti-gravity-glitch", "antigra
 tags: ["paraglide"]
 ---
 
-# Anti-Gravity Glitch `AGG`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# Anti-Gravity Glitch
 
 ## Summary
 ---

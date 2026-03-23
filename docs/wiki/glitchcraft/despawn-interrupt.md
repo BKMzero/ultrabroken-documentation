@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Despawn Interrupt"
 uid: "MG1"
 label: "DI"
@@ -10,8 +10,7 @@ aliases: ["despawn-interrupt", "eaten di", "frox dipping", "frox dip", "duga dip
 tags: ["item", "zuggling", "fuse", "despawn"]
 ---
 
-# Despawn Interrupt `DI`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Despawn Interrupt
 
 ## Summary
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Detached Rangeless Active Zonai"
 uid: "YM9"
 label: "DRAZ"
@@ -10,8 +10,7 @@ aliases: ["detached-rangeless-active-zonai"]
 tags: ["zonai"]
 ---
 
-# Detached Rangeless Active Zonai `DRAZ`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# Detached Rangeless Active Zonai
 
 ## Summary
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Like Like New Textbox Softlock"
 uid: "8TU"
 label: "LLTS"
@@ -10,8 +10,7 @@ aliases: ["like-like-new-textbox-softlock"]
 tags: ["item", "like-like", "zuggling"]
 ---
 
-# Like Like New Textbox Softlock `LLTS`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# Like Like New Textbox Softlock
 
 ## Summary
 ---

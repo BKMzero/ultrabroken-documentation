@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Sage Recycling"
 uid: "4BI"
 label: "SRCY"
@@ -10,8 +10,7 @@ aliases: ["sage-recycling"]
 tags: ["duplication", "tulin"]
 ---
 
-# Sage Recycling `SRCY`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Sage Recycling
 
 ## Summary
 ---

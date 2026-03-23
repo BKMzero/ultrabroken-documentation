@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Yee Fuse Entanglement"
 uid: "PM1"
 label: "YEEFE"
@@ -10,8 +10,7 @@ aliases: ["yee-fuse-entanglement", "yeefe"]
 tags: ["entanglement", "culling", "fuse", "mineru"]
 ---
 
-# Yee Fuse Entanglement `YEEFE`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Yee Fuse Entanglement
 
 ## Summary
 ---

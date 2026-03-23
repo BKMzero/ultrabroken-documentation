@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Unsheathed Mastersword"
 uid: "36U"
 label: "UMS"
@@ -10,8 +10,7 @@ aliases: ["unsheathed-mastersword"]
 tags: ["duplication", "weapon"]
 ---
 
-# Unsheathed Mastersword `UMS`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0`
+# Unsheathed Mastersword
 
 ## Summary
 ---

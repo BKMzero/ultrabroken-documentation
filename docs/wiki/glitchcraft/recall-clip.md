@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Recall Clip"
 uid: "VDU"
 label: "RC"
@@ -10,8 +10,7 @@ aliases: ["recall clip", "recall-clip glitch", "recall-clip", "recallclip"]
 tags: ["clipping", "ultrahand", "recall"]
 ---
 
-# Recall Clip `RC`
-`1.0.0` `1.1.0` `1.1.1`
+# Recall Clip
 
 ## Summary
 ---

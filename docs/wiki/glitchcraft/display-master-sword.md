@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Display Master Sword"
 uid: "KJR"
 label: "DMS"
@@ -10,8 +10,7 @@ aliases: ["display-master-sword"]
 tags: ["weapon", "damage"]
 ---
 
-# Display Master Sword `DMS`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# Display Master Sword
 
 ## Summary
 ---

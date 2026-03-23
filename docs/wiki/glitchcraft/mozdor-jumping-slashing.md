@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Mozdor Jumping/Slashing"
 uid: "EWY"
 label: "MJS"
@@ -10,8 +10,7 @@ aliases: ["mozdor jumping slashing", "mozdor", "mozdor-jumping/slashing"]
 tags: ["movement", "weapon"]
 ---
 
-# Mozdor Jumping/Slashing `MJS`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Mozdor Jumping/Slashing
 
 ## Summary
 ---

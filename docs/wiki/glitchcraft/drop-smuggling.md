@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Drop Smuggling"
 uid: "CVH"
 label: "DS"
@@ -10,8 +10,7 @@ aliases: ["drop-smuggling"]
 tags: ["zuggling", "item", "equipment"]
 ---
 
-# Drop Smuggling `DS`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# Drop Smuggling
 
 ## Summary
 ---

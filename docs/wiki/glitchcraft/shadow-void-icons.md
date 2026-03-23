@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Shadow/Void Icons"
 uid: "34T"
 label: "SVI"
@@ -10,8 +10,7 @@ aliases: ["shadow/void-icons"]
 tags: ["equipment", "fuse", "camera"]
 ---
 
-# Shadow/Void Icons `SVI`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1+`
+# Shadow/Void Icons
 
 ## Summary
 ---

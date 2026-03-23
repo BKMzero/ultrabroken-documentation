@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Void Hold Storage"
 uid: "AGZ"
 label: "VHS"
@@ -10,8 +10,7 @@ aliases: ["void-hold-storage"]
 tags: ["storage", "menu", "item"]
 ---
 
-# Void Hold Storage `VHS`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# Void Hold Storage
 
 ## Summary
 ---

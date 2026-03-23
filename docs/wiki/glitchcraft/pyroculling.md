@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Pyroculling"
 uid: "9R8"
 label: "PYRC"
@@ -10,8 +10,7 @@ aliases: []
 tags: ["culling"]
 ---
 
-# Pyroculling `PYRC`
-`1.0.0` `1.1.0` `1.1.1` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Pyroculling
 
 ## Summary
 ---

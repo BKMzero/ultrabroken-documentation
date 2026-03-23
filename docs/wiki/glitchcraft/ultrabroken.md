@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Ultrabroken"
 uid: "NU6"
 label: "UB"
@@ -10,8 +10,7 @@ aliases: ["ultra-broken", "ultrabreak"]
 tags: ["item", "ultrahand", "zuggling"]
 ---
 
-# Ultrabroken `UB`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# Ultrabroken
 
 ## Summary
 ---

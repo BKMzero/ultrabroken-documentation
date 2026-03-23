@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Modifier Deletion Weapon State Transfer"
 uid: "ZBS"
 label: "MDWST"
@@ -10,8 +10,7 @@ aliases: ["modifier-deletion-weapon-state-transfer"]
 tags: ["duplication", "weapon"]
 ---
 
-# Modifier Deletion Weapon State Transfer `MDWST`
-`1.0.0`
+# Modifier Deletion Weapon State Transfer
 
 ## Summary
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Cull Pickup Dynamic Zuggle"
 uid: "KID"
 label: "CPDZ"
@@ -10,8 +10,7 @@ aliases: ["cull-pickup-dynamic-zuggle"]
 tags: ["zuggling", "item", "culling"]
 ---
 
-# Cull Pickup Dynamic Zuggle `CPDZ`
-`1.0.0` `1.1.0` `1.1.1`
+# Cull Pickup Dynamic Zuggle
 
 ## Summary
 ---

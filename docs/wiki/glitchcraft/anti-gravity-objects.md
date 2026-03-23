@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Anti-Gravity Objects"
 uid: "9WZ"
 label: "AGO"
@@ -10,8 +10,7 @@ aliases: ["anti-gravity-objects"]
 tags: ["ultrahand"]
 ---
 
-# Anti-Gravity Objects `AGO`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# Anti-Gravity Objects
 
 ## Summary
 ---

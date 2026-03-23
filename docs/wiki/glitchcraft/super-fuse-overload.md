@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Super Fuse Overload"
 uid: "TX4"
 label: "SFO"
@@ -10,8 +10,7 @@ aliases: ["super-fuse-overload"]
 tags: ["weapon", "overload", "fuse", "mineru"]
 ---
 
-# Super Fuse Overload `SFO`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Super Fuse Overload
 
 ## Summary
 ---

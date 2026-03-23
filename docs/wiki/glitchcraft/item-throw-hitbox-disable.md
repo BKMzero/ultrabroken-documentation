@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Item Throw Hitbox Disable"
 uid: "W10"
 label: "ITHD"
@@ -10,8 +10,7 @@ aliases: ["item-throw-hitbox-disable"]
 tags: ["item", "recall", "zuggling"]
 ---
 
-# Item Throw Hitbox Disable `ITHD`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# Item Throw Hitbox Disable
 
 ## Summary
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Save Load Zuggling"
 uid: "HV7"
 label: "SLZ"
@@ -10,8 +10,7 @@ aliases: ["save-load-zuggling"]
 tags: ["zuggling", "save-load", "item", "equipment"]
 ---
 
-# Save Load Zuggling `SLZ`
-`1.0.0` `1.1.0` `1.1.1`
+# Save Load Zuggling
 
 ## Summary
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Zonai Inventory Shift Dupe"
 uid: "Y29"
 label: "ZISD"
@@ -10,8 +10,7 @@ aliases: ["zonai-inventory-shift-dupe"]
 tags: ["duplication", "menu", "buff", "zonai"]
 ---
 
-# Zonai Inventory Shift Dupe `ZISD`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Zonai Inventory Shift Dupe
 
 ## Summary
 ---

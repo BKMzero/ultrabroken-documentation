@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Midair Item Transmutation"
 uid: "7P8"
 label: "MIT"
@@ -10,8 +10,7 @@ aliases: ["midair transmute", "midair-item-transmutation"]
 tags: ["item", "paraglide", "zuggling"]
 ---
 
-# Midair Item Transmutation `MIT`
-`1.1.0` `1.1.1`
+# Midair Item Transmutation
 
 ## Summary
 ---

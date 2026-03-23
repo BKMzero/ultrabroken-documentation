@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Recall Cancel"
 uid: "CC5"
 label: "RCC"
@@ -10,8 +10,7 @@ aliases: ["recall-cancel"]
 tags: ["animation", "item", "recall"]
 ---
 
-# Recall Cancel `RCC`
-`1.2.0` `1.2.1`
+# Recall Cancel
 
 ## Summary
 ---

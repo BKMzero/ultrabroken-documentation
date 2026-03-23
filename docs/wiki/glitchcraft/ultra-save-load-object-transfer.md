@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Ultra Save Load Object Transfer"
 uid: "OL6"
 label: "USLOT"
@@ -10,8 +10,7 @@ aliases: ["ultra-save-load-object-transfer", "ultraslot", "UltraSLOT"]
 tags: ["save-load", "ultrahand"]
 ---
 
-# Ultra Save Load Object Transfer `USLOT`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Ultra Save Load Object Transfer
 
 ## Summary
 ---

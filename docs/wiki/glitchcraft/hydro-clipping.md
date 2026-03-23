@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Hydro Clipping"
 uid: "LYO"
 label: "HC"
@@ -10,8 +10,7 @@ aliases: ["hydro-clipping"]
 tags: ["clipping", "storage", "equipment", "shield"]
 ---
 
-# Hydro Clipping `HC`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Hydro Clipping
 
 ## Summary
 ---

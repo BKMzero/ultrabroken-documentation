@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Infinite Damage 2.0"
 uid: "M8L"
 label: "ID2"
@@ -10,8 +10,7 @@ aliases: ["infinite-damage-2.0"]
 tags: ["damage"]
 ---
 
-# Infinite Damage 2.0 `ID2`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Infinite Damage 2.0
 
 ## Summary
 ---

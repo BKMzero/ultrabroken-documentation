@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Entanglement Height Glitch"
 uid: "8MP"
 label: "EHG"
@@ -10,8 +10,7 @@ aliases: ["entanglement-height-glitch"]
 tags: ["equipment", "entanglement", "movement", "shield"]
 ---
 
-# Entanglement Height Glitch `EHG`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Entanglement Height Glitch
 
 ## Summary
 ---

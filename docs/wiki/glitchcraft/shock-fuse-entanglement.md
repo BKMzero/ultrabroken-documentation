@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Shock Fuse Entanglement"
 uid: "ERF"
 label: "SFE"
@@ -10,8 +10,7 @@ aliases: ["shock-fuse-entanglement"]
 tags: ["zuggling", "item", "entanglement", "fuse"]
 ---
 
-# Shock Fuse Entanglement `SFE`
-`1.0.0`
+# Shock Fuse Entanglement
 
 ## Summary
 ---

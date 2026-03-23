@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Wireless Energy"
 uid: "PQ5"
 label: "WE"
@@ -10,8 +10,7 @@ aliases: ["wireless-energy"]
 tags: ["equipment", "culling", "ultrahand", "shield"]
 ---
 
-# Wireless Energy `WE`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# Wireless Energy
 
 ## Summary
 ---

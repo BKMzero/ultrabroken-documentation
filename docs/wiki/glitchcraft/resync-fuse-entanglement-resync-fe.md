@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Resync Fuse Entanglement"
 uid: "GPN"
 label: "RFE"
@@ -10,8 +10,7 @@ aliases: ["resync-fuse-entanglement"]
 tags: ["item", "entanglement", "fuse"]
 ---
 
-# Resync Fuse Entanglement `RFE`
-`1.0.0`
+# Resync Fuse Entanglement
 
 ## Summary
 ---

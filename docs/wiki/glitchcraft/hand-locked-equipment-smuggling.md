@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Hand Locked Equipment Smuggling"
 uid: "XK9"
 label: "HLES"
@@ -10,8 +10,7 @@ aliases: ["hand-locked-equipment-smuggling"]
 tags: ["zuggling", "equipment", "item", "shield"]
 ---
 
-# Hand Locked Equipment Smuggling `HLES`
-`1.0.0`
+# Hand Locked Equipment Smuggling
 
 ## Summary
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Null Dropping"
 uid: "IWQ"
 label: "ND"
@@ -10,8 +10,7 @@ aliases: ["null-dropping"]
 tags: ["menu", "item", "zuggling"]
 ---
 
-# Null Dropping `ND`
-`1.0.0`
+# Null Dropping
 
 ## Summary
 ---

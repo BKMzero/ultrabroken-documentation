@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Zonai Storage"
 uid: "Y81"
 label: "ZS"
@@ -10,8 +10,7 @@ aliases: ["zonai-storage"]
 tags: ["storage", "zonai"]
 ---
 
-# Zonai Storage `ZS`
-`1.0.0`
+# Zonai Storage
 
 ## Summary
 ---

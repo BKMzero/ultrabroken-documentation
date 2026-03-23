@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Recall Sluggle"
 uid: "WXE"
 label: "RSL"
@@ -10,8 +10,7 @@ aliases: ["recall-sluggle"]
 tags: ["zuggling", "menu", "recall"]
 ---
 
-# Recall Sluggle `RSL`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# Recall Sluggle
 
 ## Summary
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Mineru Ability Desync"
 uid: "X9I"
 label: "MAD"
@@ -10,8 +10,7 @@ aliases: ["mineru-ability-desync"]
 tags: ["desync", "mineru"]
 ---
 
-# Mineru Ability Desync `MAD`
-`1.1.0` `1.1.1`
+# Mineru Ability Desync
 
 ## Summary
 ---

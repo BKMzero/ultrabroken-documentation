@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Shock Cold Fuse"
 uid: "EKY"
 label: "SCF"
@@ -10,8 +10,7 @@ aliases: ["shock-cold-fuse"]
 tags: ["weapon", "fuse"]
 ---
 
-# Shock Cold Fuse `SCF`
-`1.0.0`
+# Shock Cold Fuse
 
 ## Summary
 ---

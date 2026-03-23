@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Like-Like Zuggling"
 uid: "SQF"
 label: "LLZ"
@@ -10,8 +10,7 @@ aliases: ["like-like-zuggling"]
 tags: ["zuggling", "like-like", "item", "equipment", "culling"]
 ---
 
-# Like-Like Zuggling `LLZ`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Like-Like Zuggling
 
 ## Summary
 ---

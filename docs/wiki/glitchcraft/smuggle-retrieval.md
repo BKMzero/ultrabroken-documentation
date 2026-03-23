@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Smuggle Retrieval"
 uid: "S3N"
 label: "SRET"
@@ -10,8 +10,7 @@ aliases: ["smuggle-retrieval"]
 tags: ["zuggling", "item", "equipment", "culling"]
 ---
 
-# Smuggle Retrieval `SRET`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1+`
+# Smuggle Retrieval
 
 ## Summary
 ---

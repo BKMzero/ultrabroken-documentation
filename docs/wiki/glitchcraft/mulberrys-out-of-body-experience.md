@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Mulberry's Out of Body Experience"
 uid: "00I"
 label: "MOOBE"
@@ -10,8 +10,7 @@ aliases: ["mulberry's-out-of-body-experience"]
 tags: ["warping", "movement"]
 ---
 
-# mulberry's Out of Body Experience `MOOBE`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# mulberry's Out of Body Experience
 
 ## Summary
 ---

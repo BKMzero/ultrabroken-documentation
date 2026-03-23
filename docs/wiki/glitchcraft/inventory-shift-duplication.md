@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Inventory Shift Duplication"
 uid: "12S"
 label: "ISD"
@@ -10,8 +10,7 @@ aliases: ["inventory-shift-duplication"]
 tags: ["duplication", "menu", "item"]
 ---
 
-# Inventory Shift Duplication `ISD`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# Inventory Shift Duplication
 
 ## Summary
 ---

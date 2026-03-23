@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Drop Restriction"
 uid: "1AH"
 label: "DR"
@@ -10,8 +10,7 @@ aliases: ["drop-restriction"]
 tags: ["menu", "item", "zonai"]
 ---
 
-# Drop Restriction `DR`
-`1.0.0` `1.1.0` `1.1.1`
+# Drop Restriction
 
 ## Summary
 ---

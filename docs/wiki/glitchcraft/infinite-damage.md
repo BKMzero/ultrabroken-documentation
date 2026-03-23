@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Infinite Damage"
 uid: "BVJ"
 label: "IDMG"
@@ -10,8 +10,7 @@ aliases: ["infinite dmg", "infinite hp damage", "infinite-damage"]
 tags: ["damage"]
 ---
 
-# Infinite Damage `IDMG`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# Infinite Damage
 
 ## Summary
 ---

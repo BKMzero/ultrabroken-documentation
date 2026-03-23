@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Mineru Persistent Save Load Object Transfer"
 uid: "KZ4"
 label: "MPSLOT"
@@ -10,8 +10,7 @@ aliases: ["mineru-persistent-save-load-object-transfer"]
 tags: ["equipment", "culling", "save-load", "mineru"]
 ---
 
-# Mineru Persistent Save Load Object Transfer `MPSLOT`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Mineru Persistent Save Load Object Transfer
 
 ## Summary
 ---

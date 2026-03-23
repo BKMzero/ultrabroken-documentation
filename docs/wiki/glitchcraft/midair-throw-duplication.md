@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Midair Throw Duplication"
 uid: "5A5"
 label: "MTD"
@@ -10,8 +10,7 @@ aliases: ["midair duplication", "air dupe", "midair-throw-duplication"]
 tags: ["duplication", "item", "zonai", "paraglide"]
 ---
 
-# Midair Throw Duplication `MTD`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Midair Throw Duplication
 
 ## Summary
 ---

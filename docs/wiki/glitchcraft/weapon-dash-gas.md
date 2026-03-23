@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Weapon Dash GAS"
 uid: "S9A"
 label: "WDGAS"
@@ -10,8 +10,7 @@ aliases: ["weapon-dash-gas"]
 tags: ["gas", "weapon", "culling", "fuse", "zonai"]
 ---
 
-# Weapon Dash GAS `WDGAS`
-`1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Weapon Dash GAS
 
 ## Summary
 ---

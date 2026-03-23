@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Ascend Storage"
 uid: "1TZ"
 label: "ASTR"
@@ -10,8 +10,7 @@ aliases: ["ascend storage", "ascend storage glitch", "ascend-storage", "storage 
 tags: ["storage", "ascend"]
 ---
 
-# Ascend Storage `ASTR`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Ascend Storage
 
 ## Summary
 ---

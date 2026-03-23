@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Hold Storage"
 uid: "FQ7"
 label: "HS"
@@ -10,8 +10,7 @@ aliases: ["hold-storage"]
 tags: ["storage", "desync", "item"]
 ---
 
-# Hold Storage `HS`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Hold Storage
 
 ## Summary
 ---

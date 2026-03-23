@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Back-in-Time Art"
 uid: "4O8"
 label: "BIT"
@@ -10,8 +10,7 @@ aliases: ["back-in-time-art"]
 tags: ["save-load"]
 ---
 
-# Back-in-Time Art `BIT`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Back-in-Time Art
 
 ## Summary
 ---

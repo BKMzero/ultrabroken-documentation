@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Capsule Cel Shader Removal"
 uid: "GRJ"
 label: "CCSR"
@@ -10,8 +10,7 @@ aliases: ["capsule-cel-shader-removal"]
 tags: ["duplication", "ultrahand"]
 ---
 
-# Capsule Cel Shader Removal `CCSR`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Capsule Cel Shader Removal
 
 ## Summary
 ---

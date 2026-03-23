@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Wacko Attacko"
 uid: "O31"
 label: "WATK"
@@ -10,8 +10,7 @@ aliases: ["wacko-attacko"]
 tags: ["animation"]
 ---
 
-# Wacko Attacko `WATK`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Wacko Attacko
 
 ## Summary
 ---

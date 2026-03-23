@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Infinite Bubbul Frog Gems"
 uid: "TN5"
 label: "IBFG"
@@ -10,8 +10,7 @@ aliases: ["infinite-bubbul-frog-gems"]
 tags: ["Unknown"]
 ---
 
-# Infinite Bubbul Frog Gems `IBFG`
-`1.0.0` `1.1.0` `1.1.1`
+# Infinite Bubbul Frog Gems
 
 ## Summary
 ---

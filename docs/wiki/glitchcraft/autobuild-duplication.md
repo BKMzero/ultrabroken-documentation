@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Autobuild Duplication"
 uid: "BJ0"
 label: "ABD"
@@ -10,8 +10,7 @@ aliases: ["autobuild-duplication"]
 tags: ["duplication", "item", "ultrahand", "autobuild"]
 ---
 
-# Autobuild Duplication `ABD`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# Autobuild Duplication
 
 ## Summary
 ---

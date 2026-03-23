@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Mineru Culling"
 uid: "BY4"
 label: "MC"
@@ -10,8 +10,7 @@ aliases: ["mineru-culling"]
 tags: ["culling", "mineru"]
 ---
 
-# Mineru Culling `MC`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# Mineru Culling
 
 ## Summary
 ---

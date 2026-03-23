@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Fuse Entangle Drop Zuggle"
 uid: "A4A"
 label: "FEDZ"
@@ -10,8 +10,7 @@ aliases: ["fuse-entangle-drop-zuggle"]
 tags: ["zuggling", "item", "weapon", "equipment", "entanglement", "fuse", "shield"]
 ---
 
-# Fuse Entangle Drop Zuggle `FEDZ`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# Fuse Entangle Drop Zuggle
 
 ## Summary
 ---

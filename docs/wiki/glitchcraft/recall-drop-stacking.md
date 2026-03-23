@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Recall Drop Stacking"
 uid: "9C0"
 label: "RDS"
@@ -10,8 +10,7 @@ aliases: ["recall-drop-stacking"]
 tags: ["item", "recall", "zonai"]
 ---
 
-# Recall Drop Stacking `RDS`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# Recall Drop Stacking
 
 ## Summary
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Unload Duping"
 uid: "3HJ"
 label: "UD"
@@ -10,8 +10,7 @@ aliases: ["unload-duping"]
 tags: ["duplication", "item", "culling", "fuse", "bow", "arrow"]
 ---
 
-# Unload Duping `UD`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# Unload Duping
 
 ## Summary
 ---

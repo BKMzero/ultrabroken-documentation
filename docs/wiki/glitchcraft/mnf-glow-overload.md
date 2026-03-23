@@ -1,4 +1,4 @@
-﻿---
+---
 title: "MNF Glow Overload"
 uid: "H2E"
 label: "MGO"
@@ -10,8 +10,7 @@ aliases: ["mnf-glow-overload"]
 tags: ["item", "overload", "mnf"]
 ---
 
-# MNF Glow Overload `MGO`
-`1.0.0`
+# MNF Glow Overload
 
 ## Summary
 ---

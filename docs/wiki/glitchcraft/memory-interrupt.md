@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Memory Interrupt"
 uid: "BVN"
 label: "MI"
@@ -10,8 +10,7 @@ aliases: ["memory-interrupt"]
 tags: ["Unknown"]
 ---
 
-# Memory Interrupt `MI`
-`1.0.0`
+# Memory Interrupt
 
 ## Summary
 ---

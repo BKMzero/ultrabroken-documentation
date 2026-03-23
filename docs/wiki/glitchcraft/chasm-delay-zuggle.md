@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Chasm Delay Zuggle"
 uid: "JJB"
 label: "CDZ"
@@ -10,8 +10,7 @@ aliases: ["chasm-delay-zuggle"]
 tags: ["zuggling", "culling", "item", "equipment"]
 ---
 
-# Chasm Delay Zuggle `CDZ`
-`1.2.0` `1.2.1`
+# Chasm Delay Zuggle
 
 ## Summary
 ---

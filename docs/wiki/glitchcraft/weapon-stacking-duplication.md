@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Weapon Stacking Duplication"
 uid: "WP6"
 label: "WSD"
@@ -10,8 +10,7 @@ aliases: ["weapon stacking", "stacking weapons", "weapon stacking dupe", "weapon
 tags: ["duplication", "item", "weapon", "equipment", "bow"]
 ---
 
-# Weapon Stacking Duplication `WSD`
-`1.0.0` `1.1.0` `1.1.1`
+# Weapon Stacking Duplication
 
 ## Summary
 ---

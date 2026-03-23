@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Equipment Collision Zuggle"
 uid: "8FK"
 label: "ECZ"
@@ -10,8 +10,7 @@ aliases: ["equipment-collision-zuggle"]
 tags: ["zuggling", "equipment", "item", "shield"]
 ---
 
-# Equipment Collision Zuggle `ECZ`
-`1.0.0` `1.1.0` `1.1.1`
+# Equipment Collision Zuggle
 
 ## Summary
 ---

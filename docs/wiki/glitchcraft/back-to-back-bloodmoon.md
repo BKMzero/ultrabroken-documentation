@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Back to Back Bloodmoon"
 uid: "DDB"
 label: "BTBB"
@@ -10,8 +10,7 @@ aliases: ["back-to-back bloodmoon", "btb bloodmoon"]
 tags: ["bloodmoon"]
 ---
 
-# Back to Back Bloodmoon `BTBB`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Back to Back Bloodmoon
 
 ## Summary
 ---

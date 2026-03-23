@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Like-Like Stick Smuggling"
 uid: "6KV"
 label: "LLSS"
@@ -10,8 +10,7 @@ aliases: ["likelike-stick-smuggling"]
 tags: ["zuggling", "item", "equipment", "culling", "fuse", "like-like"]
 ---
 
-# Like Like Stick Smuggling `LLSS`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Like Like Stick Smuggling
 
 ## Summary
 ---

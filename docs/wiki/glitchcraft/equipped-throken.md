@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Equipped Throken"
 uid: "6UC"
 label: "ETHK"
@@ -10,8 +10,7 @@ aliases: ["equipped-throken"]
 tags: ["weapon", "equipment", "shield", "zuggling"]
 ---
 
-# Equipped Throken `ETHK`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Equipped Throken
 
 ## Summary
 ---

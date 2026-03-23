@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Smuggle Stacking Zuggle"
 uid: "DN4"
 label: "SSZ"
@@ -10,8 +10,7 @@ aliases: ["zuggle stacking", "zuggle stack", "smuggle-stacking-zuggle"]
 tags: ["zuggling", "item", "equipment", "shield", "bow"]
 ---
 
-# Smuggle Stacking Zuggle `SSZ`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# Smuggle Stacking Zuggle
 
 ## Summary
 ---

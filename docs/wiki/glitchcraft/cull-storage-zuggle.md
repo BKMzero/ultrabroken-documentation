@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Cull Storage Zuggle"
 uid: "8LV"
 label: "CSZ"
@@ -10,8 +10,7 @@ aliases: ["cull-storage-zuggle"]
 tags: ["zuggling", "storage", "item", "equipment", "culling"]
 ---
 
-# Cull Storage Zuggle `CSZ`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Cull Storage Zuggle
 
 ## Summary
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Map Flickering"
 uid: "I91"
 label: "MF"
@@ -10,8 +10,7 @@ aliases: ["map-flickering"]
 tags: ["map"]
 ---
 
-# Map Flickering `MF`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0`
+# Map Flickering
 
 ## Summary
 ---

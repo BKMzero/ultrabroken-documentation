@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Anti-Gravity GAS"
 uid: "9R0"
 label: "AG GAS"
@@ -10,8 +10,7 @@ aliases: ["anti-gravity-gas"]
 tags: ["gas"]
 ---
 
-# Anti-Gravity GAS `AG GAS`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# Anti-Gravity GAS
 
 ## Summary
 ---

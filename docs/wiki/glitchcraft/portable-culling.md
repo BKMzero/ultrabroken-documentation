@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Portable Culling"
 uid: "LMB"
 label: "PC"
@@ -10,8 +10,7 @@ aliases: ["portable-culling", "portacull"]
 tags: ["zuggling", "desync", "item", "culling", "fuse"]
 ---
 
-# Portable Culling `PC`
-`1.2.0` `1.2.1`
+# Portable Culling
 
 ## Summary
 ---

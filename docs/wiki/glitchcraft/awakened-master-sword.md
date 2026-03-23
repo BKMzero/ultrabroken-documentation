@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Awakened Master Sword"
 uid: "0UY"
 label: "AMS"
@@ -10,8 +10,7 @@ aliases: ["awakened-master-sword"]
 tags: ["weapon", "warping"]
 ---
 
-# Awakened Master Sword `AMS`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Awakened Master Sword
 
 ## Summary
 ---

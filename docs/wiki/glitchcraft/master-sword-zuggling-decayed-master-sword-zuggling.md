@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Master Sword Zuggling / Decayed Master Sword Zuggling"
 uid: "5RG"
 label: "MSZ"
@@ -10,8 +10,7 @@ aliases: ["master-sword-zuggling"]
 tags: ["zuggling", "desync", "weapon"]
 ---
 
-# Master Sword Zuggling / Decayed Master Sword Zuggling `MSZ`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Master Sword Zuggling / Decayed Master Sword Zuggling
 
 ## Summary
 ---

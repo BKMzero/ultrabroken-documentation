@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Save Load Dupe"
 uid: "P2F"
 label: "SLD"
@@ -10,8 +10,7 @@ aliases: ["save-load-dupe", "save/load dupe", "save load duplication"]
 tags: ["duplication", "equipment", "save-load", "shield", "bow"]
 ---
 
-# Save Load Dupe `SLD`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Save Load Dupe
 
 ## Summary
 ---

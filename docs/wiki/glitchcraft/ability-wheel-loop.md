@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Ability Wheel Loop"
 uid: "V2E"
 label: "AWL"
@@ -10,8 +10,7 @@ aliases: ["ability-wheel-loop"]
 tags: ["menu", "ultrahand", "zonai"]
 ---
 
-# Ability Wheel Loop `AWL`
-`1.0.0`
+# Ability Wheel Loop
 
 ## Summary
 ---

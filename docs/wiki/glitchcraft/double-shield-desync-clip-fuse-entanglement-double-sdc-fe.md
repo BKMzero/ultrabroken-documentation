@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Double Shield Desync Clip Fuse Entanglement"
 uid: "NMY"
 label: "DSDCFE"
@@ -10,8 +10,7 @@ aliases: ["double-shield-desync-clip-fuse-entanglement"]
 tags: ["duplication", "clipping", "desync", "equipment", "entanglement", "culling", "fuse", "shield"]
 ---
 
-# Double Shield Desync Clip Fuse Entanglement `DSDCFE`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Double Shield Desync Clip Fuse Entanglement
 
 ## Summary
 ---

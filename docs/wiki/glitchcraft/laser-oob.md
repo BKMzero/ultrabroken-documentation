@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Laser-OOB"
 uid: "RHC"
 label: "LOOB"
@@ -10,8 +10,7 @@ aliases: ["laser oob", "oob laser"]
 tags: ["duplication", "oob"]
 ---
 
-# Laser-OOB `LOOB`
-`1.0.0` `1.1.0` `1.1.1`
+# Laser-OOB
 
 ## Summary
 ---

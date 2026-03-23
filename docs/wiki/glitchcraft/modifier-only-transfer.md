@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Modifier ONLY Transfer"
 uid: "DUS"
 label: "MOT"
@@ -10,8 +10,7 @@ aliases: ["modifier-only-transfer"]
 tags: ["weapon"]
 ---
 
-# Modifier ONLY Transfer `MOT`
-`1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Modifier ONLY Transfer
 
 ## Summary
 ---

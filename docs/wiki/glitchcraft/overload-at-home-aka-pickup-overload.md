@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Overload at Home"
 uid: "7S4"
 label: "OAH"
@@ -10,8 +10,7 @@ aliases: ["overload-at-home"]
 tags: ["zuggling", "culling", "overload"]
 ---
 
-# Overload at Home `OAH`
-`1.2.0` `1.2.1`
+# Overload at Home
 
 ## Summary
 ---

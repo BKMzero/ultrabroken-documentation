@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Like-Like Smuggle Desync"
 uid: "F51"
 label: "LLSD"
@@ -10,8 +10,7 @@ aliases: ["like-like-smuggle-desync"]
 tags: ["zuggling", "desync", "like-like"]
 ---
 
-# Like-Like Smuggle Desync `LLSD`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Like-Like Smuggle Desync
 
 ## Summary
 ---

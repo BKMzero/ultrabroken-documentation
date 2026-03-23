@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Surf storage"
 uid: "ARP"
 label: "SSTR"
@@ -10,8 +10,7 @@ aliases: ["surf-storage"]
 tags: ["storage"]
 ---
 
-# Surf storage `SSTR`
-`1.0.0`
+# Surf storage
 
 ## Summary
 ---

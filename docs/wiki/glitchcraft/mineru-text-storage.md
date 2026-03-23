@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Mineru Text Storage"
 uid: "O3G"
 label: "MTS"
@@ -10,8 +10,7 @@ aliases: ["mineru-text-storage"]
 tags: ["storage", "mineru"]
 ---
 
-# Mineru Text Storage `MTS`
-`1.0.0`
+# Mineru Text Storage
 
 ## Summary
 ---

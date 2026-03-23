@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Drop Delay Zuggle"
 uid: "BX1"
 label: "DDZ"
@@ -10,8 +10,7 @@ aliases: ["drop-delay-zuggle"]
 tags: ["zuggling", "item", "equipment"]
 ---
 
-# Drop Delay Zuggle `DDZ`
-`1.0.0` `1.1.0` `1.1.1` `1.1.2`
+# Drop Delay Zuggle
 
 ## Summary
 ---

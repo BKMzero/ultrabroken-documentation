@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Double Bypass Zuggle"
 uid: "QXN"
 label: "DBZ"
@@ -10,8 +10,7 @@ aliases: ["double-bypass-zuggle"]
 tags: ["zuggling", "item", "culling", "ultrahand"]
 ---
 
-# Double Bypass Zuggle `DBZ`
-`1.2.0` `1.2.1` `1.3.0/1.4.0` `1.4.1` `1.4.2` `1.4.3` `Switch 2`
+# Double Bypass Zuggle
 
 ## Summary
 ---
