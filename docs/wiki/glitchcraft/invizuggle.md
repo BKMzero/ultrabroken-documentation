@@ -70,21 +70,21 @@ Methods 1 and 2 are obsolete, see Dpadlock-less Invizuggle for better options on
     3. Map Zuggle it
     4. Warp away, if Link has the item fe'd to it equipped in the overworld, you invizuggled its basew (this check only works if you did the fe)
 
-=== "Method 4"
-    ---
-    versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
-    ---
-    _Discovered by mulberry_
+### Method 4
+---
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+---
+_Discovered by mulberry_
 
-    1. Drop smuggle the target item with either Shock Smuggle or Cull Smuggle (you can FE any items before to ZLOT them)
-    2. Trigger a like like to eat the drop smuggled equipment
-    3. Backflip out of its attack to let it eat the drop smuggled equipment without eating link
-    4. Drop the drop smuggled item
-    5. Go to a wall and equip something of the type you drop smuggled
-    6. Unpause
-    7. Pause and drop it
-    8. Unpause
-    9. Warp away
+1. Drop smuggle the target item with either Shock Smuggle or Cull Smuggle (you can FE any items before to ZLOT them)
+2. Trigger a like like to eat the drop smuggled equipment
+3. Backflip out of its attack to let it eat the drop smuggled equipment without eating link
+4. Drop the drop smuggled item
+5. Go to a wall and equip something of the type you drop smuggled
+6. Unpause
+7. Pause and drop it
+8. Unpause
+9. Warp away
 
 ## Notes
 ---
