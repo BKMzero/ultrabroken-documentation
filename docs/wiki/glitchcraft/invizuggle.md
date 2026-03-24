@@ -73,6 +73,7 @@ Methods 1 and 2 are obsolete, see Dpadlock-less Invizuggle for better options on
 ### Method 4
 ---
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+obsolete: true
 ---
 _Discovered by mulberry_
 
