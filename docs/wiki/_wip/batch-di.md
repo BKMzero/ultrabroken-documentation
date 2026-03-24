@@ -31,7 +31,7 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
 
     This method uses Overload Pseudo Fuse to DI targets without ever creating normal parents, removing the need to despawn them between targets. It is ideal for creating very large quantities of DI Ghosts.
     
-    ??? abstract "For `1.2.0+`"
+    ??? abstract "`1.2.0+`"
 
         Prepare:
 
@@ -55,7 +55,7 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
         4. Drop E, swap to another of that type, and unequip it. This will cull E, and thus D, and thus the target, DIing it
         5. If you fail-dropped E, proceed with the next target. If not, you'll need to pick it up
 
-    ??? abstract "For All Versions"
+    ??? abstract "`All Versions`"
 
         Prepare:
 
@@ -100,7 +100,7 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
 
     This method creates a chain of DI ghosts, allowing the normal-parent despawning to be saved until the end of the process (as each target retains a DI parent as long as desired). It is ideal for medium batches and minimal replication, but can _only_ be used for weapons and shields.
 
-    ??? abstract "For `1.2.0+`
+    ??? abstract "`1.2.0+`"
 
         Prepare:
 
@@ -131,7 +131,7 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
             9. Repeat from step 3 with D as the next target
             10. After the process has been repeated to satisfaction, despawn all the normal parents of the chain by distance or chasm (which also performs a FarDelete)
 
-    ??? abstract "For All Versions"
+    ??? abstract "`All Versions`"
     
         Prepare:
 
@@ -176,7 +176,7 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
 
 === "Method 3: "Purgatory + Turbo Replication"
     ---
-    versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
     ---
 
@@ -268,6 +268,7 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
 ---
 
 - Due to the difference in resulting structure, these methods are usually _not_ interchangable
+- 
 
 ### Additions
 Additions
