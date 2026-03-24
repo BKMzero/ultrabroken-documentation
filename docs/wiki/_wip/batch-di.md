@@ -3,7 +3,7 @@ title: "Batch DI"
 draft: true
 label: "BDI"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
-credits: ["mulberry", "Squidwest"]
+credits: ["Aergyl", mulberry", "Squidwest"]
 date: "2025-01-17"
 description: "A collection of methods to produce large numbers of DI Ghost items quickly."
 aliases: []
@@ -92,8 +92,7 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
 
     ??? example "Diagram"
 
-        ```
-        mermaid
+        ```mermaid
         graph TD
             A[A] -->|FE| B[C]
             C[B] -->|DI| D[D]
@@ -186,8 +185,7 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
 
     ??? example "Diagram"
 
-        ```
-        mermaid
+        ```mermaid
         graph TD
             A[DI Ancestor] -->|DI| B[DI Child]
             C[Normal Parent] -->|DI| B
@@ -201,7 +199,7 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
 
     _Method developed by Squidwest(?) - Jan 23, 2026(?)_
 
-=== "Method 3: "Purgatory + Turbo Replication"
+=== "Method 3: Purgatory + Turbo Replication"
     ---
     versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -289,8 +287,7 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
 
     ??? example "Diagram"
 
-        ```
-        mermaid
+        ```mermaid
         Graph TD
             A[A] -->|DI->CF| B[B]
             A -->|DI->FE| C[Octo Balloon]
@@ -309,7 +306,6 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
 ---
 
 - Due to the difference in resulting structure, these methods are usually _not_ interchangable
-- 
 
 ### Additions
 Additions
