@@ -245,7 +245,7 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
         ??? example "Diagram"
 
             ```mermaid
-            Graph TD
+            graph TD
                 A[A] -->|DI| B[B]
                 A -->|DI| C[Octo Balloon]
                 B -->|DI| D[Target 1]
@@ -280,7 +280,7 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
         ??? example "Diagram"
 
             ```mermaid
-            Graph TD
+            graph TD
                 A[A] -->|DI| B[B]
                 A -->|DI| C[Octo Balloon]
                 B -->|DI| D[Target 1]
@@ -311,8 +311,10 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
 
             If the DI is failed, continue as though it succeeded.
 
+        ??? example "Diagram"
+
             ```mermaid
-            Graph TD
+            graph TD
                 A[A] -->|DI| B[B]
                 A -->|DI| C[Octo Balloon]
                 B -->|DI| D[Target 1]
