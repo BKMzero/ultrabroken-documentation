@@ -4,21 +4,22 @@ draft: true
 label: "BDI"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["mulberry", "Squidwest"]
-date: "2023-05-12"
+date: "2025-01-17"
 description: "A collection of methods to produce large numbers of DI Ghost items quickly."
-aliases: ["Batch-DI"]
+aliases: []
 tags: ["despawn-interrupt", "culling"]
 ---
 
-# Glitch Name
+# Batch DI
 
 ## Summary
 ---
 Some of the properties of DI Ghosts (typically equipment, sometimes otherwise) are best exploited with large numbers of them. This page provides various convenient ways to produce large numbers of them.
 
-_Credits - Aergyl, mulberry, Squidwest - Jan 17, 2026_
+_Credits - See individual methods_
 
 ## Instructions
+---
 
 Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all applicable methods will be given with both an all-versions variant and a variant specific to 1.2.0 and up.
 
