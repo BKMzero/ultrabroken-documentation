@@ -71,7 +71,7 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
         2. Leave A Zuggle Dropped after completing step 1
         3. Smuggle B and equip normal item of B's type (E)
         4. Stand on the phasing platform
-        5  Right after Link unculls, fuse an item of C's type to E; it will DI
+        5  Right after Link unculls, fuse an item (D) of C's type to E; it will DI
         6. Smuggle D, equip E, and overload pickup C
         7. glue C to something to elevate it and ensure it cannot accidentally be targeted by Fuse
 
@@ -89,6 +89,18 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
     !!! danger "Self-Fusing"
 
         When an overload-pickup has a connection back to link, it is possible to target it to be fused to itself. Under most circumstances, this will immediately **crash the game** if attempted.
+
+    ??? example "Diagram"
+
+        ```
+        mermaid
+        graph TD
+            A[A] -->|FE| B[C]
+            C[B] -->|DI| D[D]
+            E[E] -->|DI| D
+            D -->|FE| F[Target]
+            C -->|CF| F
+        ```
 
     _Method developed by mulberry - Jan 17, 2026_
 
@@ -171,6 +183,21 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
         If this method is performed with shields, simply zuggle a handful at once and use a rocket shield to fully detangle them all, repeating for all of them.
         
         If weapons were used, zuggle every other in the chain (or less frequently if desired), use fuse-over detangle to leave only a cf remnant, then **destroy** the detangled weapons to break the chain apart. (a proper weapon detanglement is not viable for this use-case)
+
+    ??? example "Diagram"
+
+        ```
+        mermaid
+        graph TD
+            A[DI Ancestor] -->|DI| B[DI Child]
+            C[Normal Parent] -->|DI| B
+            B -->|DI| D[DI Grandchild]
+            E[Normal Parent] -->|DI| D
+            D -->|DI| F[DI Descendant]
+            G[Normal Parent] -->|DI| F
+            F -->|...| H{Further Generations}
+            I[Normal Parent] -->|...| H
+        ```
 
     _Method developed by Squidwest(?) - Jan 23, 2026(?)_
 
@@ -259,6 +286,20 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
             If the detanglement is failed, disregard the still-attached target.
 
             If the DI is failed, continue as though it succeeded.
+
+    ??? example "Diagram"
+
+        ```
+        mermaid
+        Graph TD
+            A[A] -->|DI->CF| B[B]
+            A -->|DI->FE| C[Octo Balloon]
+            B -->|DI| D[Target 1]
+            E[Normal Parent 1] -->|DI| D
+            F[Dupe of A] -->|Detangles| D
+            E -->|Becomes| G[Target 2]
+            F -->|Becomes| H[Normal Parent 2]
+        ```
 
     _Turbo Replication developed by Aergyl - Jan 31, 2026_
     
