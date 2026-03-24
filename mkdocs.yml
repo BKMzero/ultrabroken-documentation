@@ -259,15 +259,15 @@ markdown_extensions:
 extra:
   homepage: /ultrabroken-documentation/wiki/
   social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/nan-gogh/ultrabroken-documentation
-      name: Check out Ultrabroken Documentation — source repository
-    - icon: fontawesome/brands/github
-      link: https://github.com/nan-gogh/ultrabroken-media
-      name: Check out Ultrabroken Media — video & asset tools
     - icon: fontawesome/brands/twitter
       link: https://x.com/_nan_gogh
-      name: Follow NaN Gogh on X
+      name: Follow NaN Gogh on Twitter
+    - icon: fontawesome/brands/github
+      link: https://github.com/nan-gogh/ultrabroken-documentation
+      name: Check out the Ultrabroken Documentation repo
+    - icon: fontawesome/brands/github
+      link: https://github.com/nan-gogh/ultrabroken-media
+      name: Check out the Ultrabroken Media repo
     - icon: fontawesome/brands/discord
       link: https://discord.gg/xM8NnTetb2
       name: Join the Totk Speedrunning Discord server
