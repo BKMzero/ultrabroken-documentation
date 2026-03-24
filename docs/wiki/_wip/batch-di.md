@@ -3,7 +3,7 @@ title: "Batch DI"
 draft: true
 label: "BDI"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
-credits: ["Aergyl", mulberry", "Squidwest"]
+credits: ["Aergyl", "mulberry", "Squidwest"]
 date: "2025-01-17"
 description: "A collection of methods to produce large numbers of DI Ghost items quickly."
 aliases: []
@@ -98,7 +98,7 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
             C[B] -->|DI| D[D]
             E[E] -->|DI| D
             D -->|FE| F[Target]
-            C -->|CF| F
+            B -->|CF| F
         ```
 
     _Method developed by mulberry - Jan 17, 2026_
@@ -242,6 +242,19 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
 
             If the DI is failed, continue as though it succeeded.
 
+        ??? example "Diagram"
+
+            ```mermaid
+            Graph TD
+                A[A] -->|DI| B[B]
+                A -->|DI| C[Octo Balloon]
+                B -->|DI| D[Target 1]
+                E[Normal Parent 1] -->|DI| D
+                F[Dupe of A] -->|Detangles| D
+                E -->|Becomes| G[Target 2]
+                F -->|Becomes| H[Normal Parent 2]
+            ```
+
     ??? abstract "For other equipment"
 
         1. If a DI ghost of the target is already prepared, place it next to A
@@ -264,6 +277,19 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
 
             If the DI is failed, continue as though it succeeded.
 
+        ??? example "Diagram"
+
+            ```mermaid
+            Graph TD
+                A[A] -->|DI| B[B]
+                A -->|DI| C[Octo Balloon]
+                B -->|DI| D[Target 1]
+                E[Normal Parent 1] -->|DI| D
+                F[Dupe of A] -->|Detangles| D
+                E -->|Becomes| G[Discarded]
+                F -->|Becomes| H[Normal Parent 2]
+            ```
+
     ??? abstract "For non-equipment"
 
         1. Zuggle Drop A to attach B
@@ -285,18 +311,16 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
 
             If the DI is failed, continue as though it succeeded.
 
-    ??? example "Diagram"
-
-        ```mermaid
-        Graph TD
-            A[A] -->|DI->CF| B[B]
-            A -->|DI->FE| C[Octo Balloon]
-            B -->|DI| D[Target 1]
-            E[Normal Parent 1] -->|DI| D
-            F[Dupe of A] -->|Detangles| D
-            E -->|Becomes| G[Target 2]
-            F -->|Becomes| H[Normal Parent 2]
-        ```
+            ```mermaid
+            Graph TD
+                A[A] -->|DI| B[B]
+                A -->|DI| C[Octo Balloon]
+                B -->|DI| D[Target 1]
+                E[Normal Parent 1] -->|DI| D
+                F[Dupe of A] -->|Detangles| D
+                E -->|Becomes| G[Discarded]
+                F -->|Becomes| H[Normal Parent 2]
+            ```
 
     _Turbo Replication developed by Aergyl - Jan 31, 2026_
     
