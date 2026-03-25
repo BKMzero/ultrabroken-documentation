@@ -18,7 +18,7 @@ By creating 600-700 Cold Fuse connections, the game will be overloaded and unabl
 
 _Discovered by mulberry, Aergyl; Optimizations by Jordan, MandelbrotChaylay, mulberry, Squidwest_
 
-Todo:
+Page Todos:
 
 - Find a good, stable minigame or two to recommend (minecart land pre-cart entry seems good, provisionally)
 - Recheck duplication method(s)
@@ -28,6 +28,7 @@ Todo:
 - write everything after the methods :/
 - Run the pre-`1.2.0` aerophasing setup by someone who actually plays an old patch
 - Make/update all the pages necessary to make all the steps you abbreviated as pretend page links actually viable
+- Figure out why version-tagging the methods erases the entire instructions section 😭
 
 ## Forewarnings and Tips
 ---
@@ -38,7 +39,7 @@ Todo:
 !!! info "Buckle up!"
     Due to the massive number of connections required, every method is relatively complex. Before you begin, be sure to read the steps carefully, and be sure you understand the glitches that go into your chosen method.
 
-!!! info "Local or persistent?"
+!!! info "Method Types"
     There are three types of SFO method:
 
     - Local methods are usually simpler and easier, but cannot be used for some cases (eg Zelda's Torch) because they will be destroyed on warp (including Panic Blood Moons), load, or excessive distance.
@@ -76,11 +77,11 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
         6. A1 Overload FE normal Shield A4
         7. Equip A2, [DI Smuggle] A3, and [Overload Pickup] A4
         8. A2-A4 [Overload Batch DI] 19 Weapons C1-C19
-        9. *Fail-Drop* A4
+        9. **Fail-Drop** A4
         10. A3 & A4 make DI Weapon C20
-        11. Drop A4
+        11. **Drop** A4
         12. Re-smuggle A3, equip a random shield, and fuse something disposable to it. This will leave A4 as the sole FE parent of C20
-        13. [Throw purgatory] all C
+        12. Throw purgatory all C: smuggle _one_ C, equip and throw any random weapon, and unequip that weapon, then repeat
         14. Recall-Lock A4, discarding A2 and A3 through the load
 
         Part 2: Performing and undoing SFO
@@ -105,14 +106,24 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
 
             ```mermaid
             graph TD
-                A[B1] -->|FE| B[B2]
-                C[A2] -->|DI| D[A3]
-                E[A1] -->|DI| D
-                E --> |FE| F[A4]
-                D --> |Batch DI| G["C1-20"]
-                F --> |Batch DI| G
-                G --> |Batch DI| H["D1-30"]
-                B --> |Batch DI| H
+
+                B1[B1]
+                B2[B2]
+                A1[A1]
+                A2[A2]
+                A3[A3]
+                A4[A4]
+                PARENTS["Purgatory Parents<br/>(C1-C20)"]
+                CHILDREN["DI Children<br/>(D1-D30"]
+
+                B1 -->|FE| B2
+                A2 -->|DI| A3
+                A1 -->|DI| A3
+                A1 -->|FE| A4
+                A3 -->|Batch DI| PARENTS
+                A4 -->|Batch DI| PARENTS
+                PARENTS -->|Batch DI| CHILDREN
+                B2 -->|Batch DI| CHILDREN
             ```
 
     ??? abstract "For Zelda's Torch"
@@ -137,11 +148,11 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
         5. A1 Overload FE normal Shield A4
         6. Equip A2, [DI Smuggle] A3, and [Overload Pickup] A4
         7. A2-A4 [Overload Batch DI] 19 Weapons C1-C19
-        8. *Fail-Drop* A4
+        8. **Fail-Drop** A4
         9. A3 & A4 make DI Weapon C20
-        10. Drop A4
+        10. **Drop** A4
         11. Re-smuggle A3, equip a random shield, and fuse something disposable to it. This will leave A4 as the sole FE parent of C20
-        12. [Throw purgatory] all C
+        12. Throw purgatory all C: smuggle _one_ C, equip and throw any random weapon, and unequip that weapon, then repeat
         13. Recall-Lock A4, discarding A2 and A3 through the load
 
         Part 2: Performing and undoing SFO
@@ -195,11 +206,11 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
         5. A1 Overload FE normal Shield A4
         6. Equip A2, [DI Smuggle] A3, and [Overload Pickup] A4
         7. A2-A4 [Overload Batch DI] 19 Weapons C1-C19
-        8. *Fail-Drop* A4
+        8. **Fail-Drop** A4
         9. A3 & A4 make DI Weapon C20
-        10. Drop A4
+        10. **Drop** A4
         11. Re-smuggle A3, equip a random shield, and fuse something disposable to it. This will leave A4 as the sole FE parent of C20
-        12. [Throw purgatory] all C
+        12. Throw purgatory all C: smuggle _one_ C, equip and throw any random weapon, and unequip that weapon, then repeat
         13. Recall-Lock A4, discarding A2 and A3 through the load
 
         Part 2: Performing and undoing SFO
@@ -241,7 +252,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
 
     Prepare:
 
-    - The "Multitool Loadout" (should I make a page for this, then? I don't want to uncritically write all the steps for it when I've never made it)
+    - The "Multitool Loadout" (see discord link below (for now))
     - Up to 21 materials
     - A DI Weapon to dupe with
 
@@ -263,6 +274,17 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
         4. Ready throw again. Each cycle will increase the quantity of your target by 1
         5. Destroy SFO as above before ending the minigame/exiting the shrine
         6. Save the game/get an autosave
+
+        ??? example "Diagram"
+
+            ```mermaid
+            graph TD
+                MULTITOOL["Multitool's 31<br/>Purgatory Weapons"]
+                PARENTS["Normal Parents<br/>(A1-A21)"]
+                CHILDREN["DI Children"<br/>(B1-B21)"]
+
+                MULTITOOL -->|Fuse (becomes cf)| CHILDREN
+                PARENTS -->|Fuse (stays attached)| CHILDREN
         
     ??? abstract "For Mineru's Arm (Local SFO variant)"
 
@@ -291,6 +313,17 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
         13. Destroy the fuse on Mineru's Arm, this will prevent it from crashing the game when used as a faildrop wall while docked
         14. Save the game/Get an autosave
 
+        ??? example "Diagram"
+
+            ```mermaid
+            graph TD
+                MULTITOOL["Multitool's<br/>Purgatory Weapons"]
+                PARENTS["Normal Parents<br/>(A1-A21)"]
+                CHILDREN["DI Children"<br/>(B1-B21)"]
+
+                MULTITOOL -->|Fuse (becomes cf)| CHILDREN
+                PARENTS -->|Fuse (stays attached)| CHILDREN
+        
     ??? failure "No, it really can't"
         This method relies on a specialized piece of equipment that takes time to create and has many uses. While it is technically possible to make the SFO permanent by permaculling all A[n], it completely nullifies the speed and portability of this method. If a pcull-based permanent method is desired, Method 4 will almost unquestionably be easier, faster, and simpler.
 
@@ -405,7 +438,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
                 D -->|Take in| E
             ```
 
-    _Method by Aergyl and mulberry_
+    _Method by Aergyl and mulberry_ (needs double-checked; this was a little before my time)
 
 === "Method 4: Overload Cold Fuse + Permacull"
 
@@ -467,6 +500,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
                 A -->|Permacull| E{Persists}
                 C -->|Permacull| E
                 D -->|Permacull| E
+                B -->|Indirect Permacull| E
             ```
     
     ??? abstract "For Mineru's Arm (persistent SFO variant)"
@@ -527,6 +561,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
                 A -->|Permacull| E{Permanent}
                 C -->|Permacull| E
                 D -->|Permacull| E
+                B -->|Indirect Permacull| E
             ```
 
 ## Notes
