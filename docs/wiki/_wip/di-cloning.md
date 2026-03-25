@@ -2,10 +2,10 @@
 title: "DI Cloning"
 draft: true
 label: "DIC"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "Switch 2"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Aergyl", "mulberry", "Squidwest"]
 date: "2026-01-16"
-description: "Eaten DI passes a despawn attempt down to newly-fused main children, which can itself be interrupted to cause the "Ghost DI" state."
+description: "Eaten DI passes a despawn attempt down to newly-fused main children, which can itself be interrupted to cause the Ghost DI state."
 aliases: ["Ghost DI", "Ghost-DI"]
 tags: ["item", "despawn", "fuse", "culling"]
 ---
