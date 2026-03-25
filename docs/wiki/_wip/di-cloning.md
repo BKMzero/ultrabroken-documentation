@@ -1,12 +1,12 @@
 ﻿---
-title: "Glitch Name"
+title: "DI Cloning"
 draft: true
 label: "DIC"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "Switch 2"]
-credits: ["mulberry"]
+credits: ["Aergyl", "mulberry", "Squidwest"]
 date: "2026-01-16"
 description: "Eaten DI passes a despawn attempt down to newly-fused main children, which can itself be interrupted to cause the "Ghost DI" state."
-aliases: ["Ghost DI"]
+aliases: ["Ghost DI", "Ghost-DI"]
 tags: ["item", "despawn", "fuse", "culling"]
 ---
 
@@ -15,8 +15,9 @@ tags: ["item", "despawn", "fuse", "culling"]
 ## Summary
 ---
 
+Eaten DI equipment passes an Eaten death down to newly-fused children (_if_ the main parent is DI), which can itself be interrupted. This causes the "Ghost DI" state, which has additional properties over the standard Eaten DI state.
 
-_Mulberry - Jan 16, 2026_
+_Discovered by mulberry; Properties, methods, and optimizations found by Aergyl, mulberry, Squidwest - Jan 16, 2026_
 
 ## Instructions
 ---
@@ -87,10 +88,17 @@ _Mulberry - Jan 16, 2026_
 
     ooohg i need a break
 
+## Properties
 
-### Ohter Setup / Variation
-1. Step one
-2. Step two
+- Retains all(?) properties of non-ghost DI
+- Has no collision, gravity, or ability to move on its own once detached from its "model-bind" parent
+- So long as it does not have non-persistent parents, it is "Auto-slotted" and will travel through warps and loads when dropped in the world
+- Passes this persistence down to FE children
+- Can be made persistently invisible with certain processes and passes this invisibility down to anything that attempts to fuse to it
+
+!!! warning "Take care!"
+
+    Warping causes a "sleep" on equipped items, which will undo this state! You can zuggle it to take it with you safely.
 
 ## Notes
 ---
