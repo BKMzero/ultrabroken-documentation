@@ -16,7 +16,7 @@ tags: ["fuse", "bow"]
 ---
 Fusing during the unsheathe animation of a bow causes the fuse to appear for a few frames
 
-_mulberry - November 30th, 2024_
+_mulberry - 30 November 30 2024_
 
 ## Instructions
 ---
