@@ -18,19 +18,16 @@ By creating 600-700 Cold Fuse connections, the game will be overloaded and unabl
 
 _Discovered by mulberry, Aergyl; Optimizations by Jordan, MandelbrotChaylay, mulberry, Squidwest_
 
-Have decided on tabs with dropdowns, and with the common elements of each method duplicated into said dropdowns. Will still consider alternatives, especially for mulberry's method due to the intended portability and modularity setting it apart from the others
-
 Todo:
 
 - Find a good, stable minigame or two to recommend (minecart land pre-cart entry seems good, provisionally)
 - Recheck duplication method(s)
-- Do mulberry's method to more accurately write it up
 - Actually obtain Zelda's Torch at some point to provide better directions and warn of the pitfalls
-- probably seek help on crediting and resources at some point
+- Seek help on crediting and resources at some point
 - Get some illustrative images, screenshots, and videos going
 - write everything after the methods :/
-- Run the pre-`1.2.0` aerophasing setup by someone who actually plays an old patch (uh, after you write it)
-- Make pages for Overload FE, Overload Batch DI, and just manipulating DI equipped states in general, to make all the steps you abbreviated as pretend page links actually viable
+- Run the pre-`1.2.0` aerophasing setup by someone who actually plays an old patch
+- Make/update all the pages necessary to make all the steps you abbreviated as pretend page links actually viable
 
 ## Forewarnings and Tips
 ---
@@ -277,7 +274,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
         
     ??? abstract "For Mineru's Arm (Local SFO variant)"
 
-        Part 1: Setting up and destroying SFO
+        Part 1: Setting up SFO
 
         1. Defeat Army and enter the tunnel before Ganondorf
         2. Dupe a weapon (A1) and equip it
@@ -420,7 +417,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
                 D -->|Take in| E
             ```
 
-    _Method by Aergyl and mulberry_ (needs double-checked, this was _slightly_ before my time)
+    _Method by Aergyl and mulberry_
 
 === "Method 4: Overload Cold Fuse + Permacull"
     ---
@@ -486,7 +483,6 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
                 A -->|Permacull| E{Persists}
                 C -->|Permacull| E
                 D -->|Permacull| E
-                B -->|Permacull Indirectly| E
             ```
     
     ??? abstract "For Mineru's Arm (persistent SFO variant)"
@@ -494,7 +490,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
         Prepare:
 
         - 13 Zuggle overload (or 10 on 1.0.0) (need to be taught how to perform overload on early patches, since afaik iz isn't an option, or at least not a good one)
-        - Intangible Aerophasing
+        - Intangible Aerophasing (guide assumes this is set up at Akkala Citadel Ruins)
         - A bow
         - 2+ unfused weapons
         - 2+ unfused shields
@@ -547,21 +543,10 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
                 A -->|Permacull| E{Permanent}
                 C -->|Permacull| E
                 D -->|Permacull| E
-                B -->|Permacull Indirectly| E
             ```
 
 ## Notes
 ---
-
-Have half a mind that these should go on two seperate dedicated pages...
-
-??? note "On Mineru's Arm"
-
-    (properties of MinArm to be advised of)
-
-??? note "On Zelda's Torch"
-
-    (properties of ZTorch to be advised of)
 
 ### Extensions
 
