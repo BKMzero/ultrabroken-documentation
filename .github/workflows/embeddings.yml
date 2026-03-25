@@ -75,7 +75,7 @@ jobs:
           echo "Social card cache cleared — all cards will be regenerated"
 
       - name: Generate UIDs for new glitchcraft pages
-        run: python docs/worker/build_bm25_index.py --uid-only
+        run: python docs/worker/generate_uids.py
 
       - name: Build MkDocs site
         run: mkdocs build
