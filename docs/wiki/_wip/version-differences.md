@@ -16,15 +16,15 @@ This section lists all versions of the game, as well as some of the most importa
 
 The earliest-released version of the game. For the general public, this is only available if you buy the Switch 1 edition on a game card (code `HAC-P-AXN7A`) and never install any updates. It is not possible to play this version on a Switch 2.
 
-1.0 is by far the most broken version of the game, with a lot of glitches easily to perform, with minimal progression requirements. It's also the version with the fastest available speedrun times, especially in shorter categories. It does, however, come with some important differences unique to this version:
+1.0 is by far the most broken version of the game, with a lot of glitches easily to perform before you've even left GSI. It's also the version with the fastest available speedrun times, especially in shorter categories. It does, however, come with some important differences unique to this version:
 
-- Overload is acheived in fewer zuggles (the minimum is 9 instead of 13).<!-- TODO: verify this lower number --> Additionally, any use of Earthwake or Sidon's water bubble will permanently attach them to Link until you close the game.
-- Hyrule Castle is full of culling areas.
-- Swap–drop (equipping in the pause screen, then dropping it before unpausing) works differently. <!-- TODO: how? -->
+- Zuggle Overload is acheived in fewer zuggles (the canonical minimum is 9 instead of 13).<!-- TODO: verify this lower number --> Additionally, any use of Earthwake or Sidon's water bubble will permanently attach them to Link until you close the game.
+- Hyrule Castle is full of culling areas that are all gone in every other version.
+- Swap–drop (equipping something in the pause screen, then dropping that item before unpausing) works differently. <!-- TODO: how? -->
 
 ## 1.1.0
 
-This is the day one patch, which updates a lot of game fundamentals. Some glitches are patched, although the majority of glitch fundamentals are the same.
+This is the day one patch, which updates a lot of game fundamentals. Some glitches are patched, although the majority of them are still there, and work the same way.
 
 ## 1.1.1
 
@@ -34,21 +34,21 @@ This version fixes a softlock that can theoretically happen in the main GSI ques
 
 This is the killjoy version that patches a whole raft of glitches. Some of the most important changes are:
 
-- Introduces **dpad lock**, making map zuggling and Drop SLD impossible. You can still use the ability wheel to bypass this, so [Drop Delay Zuggle](search:Drop Delay Zuggle) still works. Throw SLD and L-cancel Fuse Entanglement also still work.
+- Introduces **d-pad lock**, making map zuggling and Drop SLD impossible. You can still use the ability wheel to bypass this, so [Drop Delay Zuggle](search:Drop Delay Zuggle) still works. Throw SLD and L-cancel Fuse Entanglement also still work.
 - Midair Sort Duping, Autobuild Cancel, and FABS are all patched.
 
 ## 1.2.0
 
 This version made a fundamental change to how equipment behaves mid-drop, setting the stage for [portable culling](search:Portable Culling), which will be a vital mechanic for glitchcraft in all future versions.
 
-- The ability wheel no longer bypasses dpad lock, preventing L-cancel Fuse Entanglement and Drop Delay Zuggling.
+- The ability wheel no longer bypasses d-pad lock, preventing L-cancel Fuse Entanglement and Drop Delay Zuggling.
 - Items in the drop queue now cull while being processed, allowing for Portable Culling.
 - Any warm-dropped equipment now forcibly unculls itself and its children.
 - Notably, fail drops _don't_ do this, allowing for [Quick Smuggling](search:Quick Smuggling).
 
 ## 1.2.1
 
-This was the latest version released in 2023, and remained the latest version until the launch of the Switch 2.
+This was the last version released in 2023, and remained the latest version until the launch of the Switch 2.
 
 - Quick Smuggling is patched (fail drops also force-uncull).
 
@@ -62,7 +62,7 @@ This is the minimum version you're allowed to run on a Switch 2 console. It's no
 
 ## 1.4.0
 
-- Released alongside the Switch 2 public launch. No known differences from 1.3.0.
+- Released alongside the Switch 2 public launch. No known differences from 1.3.0 on S2; on S1, game performance is improved, and lag-based glitches are much harder to perform.
 
 ## 1.4.1
 
@@ -82,7 +82,7 @@ The Switch 2 Edition of the game contains some notable differences for glitchcra
 
 - The higher frame rate makes timing-based glitches and paused buffers much harder to execute.
 - Mineru turns into an orb and culls faster, giving Mineru cull-based glitches a different timing overall.
-- All glitches that persist through file reloads also persist through File changes.
+- All glitches that persist through returning to the title screen also persist through switching between File 1 / File 2.
 
 Aside from improved performance, very little changes when running the Switch 1 edition of the game on Switch 2 hardware.
 
