@@ -150,6 +150,69 @@ tags: ["zuggling", "overload"]
 
 ```
 
+### Method Metadata
+
+On glitchcraft pages, each method (tab or single-method page) can declare its own version applicability and obsolescence status using a `---`-delimited block inside the page body. This is distinct from the page-level frontmatter — it describes a specific *method*, not the page as a whole.
+
+The hook automatically:
+
+- Appends a version range badge to the tab label (e.g. `` `1.2.0+` ``, `` `All versions` ``, `` `1.0.0-1.1.1` ``)
+- Inserts inline version badges into the method body
+- Injects a `!!! warning "Obsolete Method"` admonition when `obsolete: true`
+- Produces a hidden `<div class="ub-method-meta">` consumed by the version filter UI
+
+#### Fields
+
+| Field | Type | Description |
+|---|---|---|
+| `versions` | list of strings | Game versions this method works on. Use same slash notation as page frontmatter (e.g. `"1.3.0/1.4.0"`). |
+| `obsolete` | bool | `true` marks this method as obsolete. Renders a warning admonition and dims the tab label. |
+
+#### Syntax — Tabbed pages (multi-method)
+
+Place the block **inside the tab** at the same 4-space indentation as the tab content, immediately after the tab header:
+
+```markdown
+=== "Method 1"
+    ---
+    versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    obsolete: false
+    ---
+    1. Step one…
+```
+
+The tab label is rewritten automatically:
+
+```markdown
+=== "Method 1 `1.2.0+`"
+```
+
+#### Syntax — Single-method pages
+
+On pages with no tabs, place the block at the top of the `## Instructions` section (no indentation needed):
+
+```markdown
+## Instructions
+---
+versions: ["1.0.0", "1.1.0", "1.1.1"]
+obsolete: true
+---
+1. Step one…
+```
+
+#### Version range badge logic
+
+The badge shown in the tab label is computed from the `versions` list:
+
+| Condition | Badge shown |
+|---|---|
+| Single version | `` `1.0.0` `` |
+| Spans from the first to the current game version | `` `All versions` `` |
+| Last version is the current game version | `` `1.2.0+` `` (open-ended) |
+| Otherwise | `` `1.0.0-1.1.1` `` (closed range) |
+
+Platform tags like `"Switch 2"` are excluded from range computation and listed separately.
+
 ## Site-Specific Features
 ---
 
