@@ -94,7 +94,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
         
         1. [DI Zuggle Drop] B1, equip A4, and Overload Pickup B2
         2. B1, B2, & A4 [Overload Batch DI] 30 Shields D1-D30
-        3. There will be a substantial lag on the second fuse of each shield after D1, so using the D-pad to drop-swap is advised
+        3. There will be a substantial lag on the second fuse of each shield after D1, so using the D-pad to drop-swap (if on `1.2.0+`) is advised
         4. Super Fuse Overload should occur on the 30th shield. If confirmation is needed, drop the fused equipment item. If the fuse is deleted, SFO is active
         5. To undo SFO: pick up each D[n], unequip it, and drop it. Each removed shield will remove 20 dependencies from the global limit
 
@@ -155,7 +155,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
         
         1. [DI Zuggle Drop] B1, equip A4, and Overload Pickup B2
         2. B1, B2, & A4 [Overload Batch DI] 30 Shields D1-D30
-        3. There will be a substantial lag on the second fuse of each shield after D1, so using the D-pad to drop-swap is advised
+        3. There will be a substantial lag on the second fuse of each shield after D1, so using the D-pad to drop-swap (if on `1.2.0+`) is advised
         4. Super Fuse Overload should occur on the 30th shield. If confirmation is needed, drop the fused equipment item. If the fuse is deleted, SFO is active
         5. To undo SFO: pick up each D[n], unequip it, and drop it. Each removed shield will remove 20 dependencies from the global limit
 
@@ -213,7 +213,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
         
         1. [DI Zuggle Drop] B1, equip A4, and Overload Pickup B2
         2. B1, B2, & A4 [Overload Batch DI] 30 Shields D1-D30
-        3. There will be a substantial lag on the second fuse of each shield after D1, so using the D-pad to drop-swap is advised
+        3. There will be a substantial lag on the second fuse of each shield after D1, so using the D-pad to drop-swap (if on `1.2.0+`) is advised
         4. Super Fuse Overload should occur on the 30th shield. If confirmation is needed, drop the fused equipment item. If the fuse is deleted, SFO is active
         5. To undo SFO: pick up each D[n], unequip it, and drop it. Each removed shield will remove 20 dependencies from the global limit
 
@@ -252,7 +252,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
 
     Prepare:
 
-    - The "Multitool Loadout" (should I... make a page for this, then? I don't want to uncritically write all the steps for it when I've never made it)
+    - The "Multitool Loadout" (should I make a page for this, then? I don't want to uncritically write all the steps for it when I've never made it)
     - Up to 21 materials
     - A DI Weapon to dupe with
 
@@ -422,7 +422,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
 
     _Method by Aergyl and mulberry_ (needs double-checked, this was _slightly_ before my time)
 
-=== "Method 4"
+=== "Method 4: Overload Cold Fuse + Permacull"
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -555,13 +555,13 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
 
 Have half a mind that these should go on two seperate dedicated pages...
 
-    ??? note "On Mineru's Arm"
+??? note "On Mineru's Arm"
 
-        (properties of MinArm to be advised of)
+    (properties of MinArm to be advised of)
 
-    ??? note "On Zelda's Torch"
+??? note "On Zelda's Torch"
 
-        (properties of ZTorch to be advised of)
+    (properties of ZTorch to be advised of)
 
 ### Extensions
 
