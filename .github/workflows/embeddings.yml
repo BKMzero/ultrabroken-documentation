@@ -74,6 +74,9 @@ jobs:
           rm -f .cache/hooks/social_cards/manifest.json
           echo "Social card cache cleared — all cards will be regenerated"
 
+      - name: Generate UIDs for new glitchcraft pages
+        run: python docs/worker/generate_uids.py
+
       - name: Build MkDocs site
         run: mkdocs build
 
@@ -106,16 +109,16 @@ jobs:
             exit 1
           fi
 
-      - name: Commit and push updated data files
+      - name: Commit and push updated files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet docs/assets/data/credits.json docs/assets/data/tags.json docs/assets/data/glossary.json docs/assets/data/graph.json; then
-            echo "No changes to data files"
+          git add docs/wiki/glitchcraft/*.md docs/assets/data/credits.json docs/assets/data/tags.json docs/assets/data/glossary.json docs/assets/data/graph.json || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
           else
-            echo "Found new contributors, tags, or glitches, committing..."
-            git add docs/assets/data/credits.json docs/assets/data/tags.json docs/assets/data/glossary.json docs/assets/data/graph.json || true
-            git commit -m "chore: auto-aggregate discovered contributors, tags, glitches, and graph" || echo "Nothing to commit"
+            echo "Found new UIDs, contributors, tags, or glitches, committing..."
+            git commit -m "chore: auto-generate UIDs and aggregate data" || echo "Nothing to commit"
             git push origin main || echo "Push failed"
           fi
 

@@ -35,64 +35,13 @@ import re
 import json
 import gzip
 
+from common import ROOT, extract_frontmatter
+
 
 CHUNK_SIZE_WORDS = 400
 CHUNK_OVERLAP_WORDS = 50
 
-
-def find_repo_root(start: Path = None) -> Path:
-    p = (start or Path(__file__)).resolve()
-    for parent in [p] + list(p.parents):
-        if (parent / 'mkdocs.yml').exists():
-            return parent
-    return Path(__file__).resolve().parents[2]
-
-
-ROOT = find_repo_root()
 DOCS = ROOT / 'docs'
-
-
-def _parse_yaml_value(val: str):
-    """Parse a simple YAML scalar or JSON-array value into a Python object."""
-    val = val.strip()
-    # YAML booleans
-    if val.lower() == 'true':
-        return True
-    if val.lower() == 'false':
-        return False
-    if val.startswith('['):
-        try:
-            return json.loads(val)
-        except Exception:
-            # Fallback: strip brackets and split on commas
-            inner = val[1:-1]
-            items = [s.strip().strip('"').strip("'") for s in inner.split(',') if s.strip()]
-            return items
-    # bare or quoted scalar
-    return val.strip('"').strip("'")
-
-
-def extract_frontmatter(md_path: Path) -> dict:
-    """Return a dict of all YAML frontmatter fields found in *md_path*.
-
-    Supports the glitchcraft frontmatter schema:
-      title, label, description, versions, credits, date, aliases, tags
-    """
-    try:
-        raw = md_path.read_text(encoding='utf-8-sig')
-    except Exception:
-        return {}
-    m = re.match(r'^---\s*\n([\s\S]*?)\n---', raw)
-    if not m:
-        return {}
-    fields: dict = {}
-    for line in m.group(1).splitlines():
-        km = re.match(r'^([a-zA-Z_]\w*):\s*(.*)', line)
-        if not km:
-            continue
-        key, raw_val = km.group(1), km.group(2)
-        fields[key] = _parse_yaml_value(raw_val)
-    return fields
 
 
 def _build_metadata_header(fm: dict) -> str:
@@ -345,7 +294,6 @@ def build_grimoire_data(output: str) -> tuple[list, Counter]:
     tags_set: set[str] = set()
     
     parsed_files = []
-    existing_uids = set()
 
     for p in sorted(glitchcraft_dir.glob('*.md')):
         if p.stem in _SKIP:
@@ -354,73 +302,10 @@ def build_grimoire_data(output: str) -> tuple[list, Counter]:
         title = fm.get('title', '')
         if not title:
             continue  # skip pages without a title (index/meta pages)
-            
-        uid = fm.get('uid')
-        if uid:
-            existing_uids.add(uid)
-            
         parsed_files.append((p, fm, title))
 
-    import time
-    import hashlib
-    import string
-    
     for p, fm, title in parsed_files:
         uid = fm.get('uid')
-        if not uid:
-            # Use nanoseconds for unique seeds
-            seed_str = str(time.time_ns())
-            hash_hex = hashlib.md5(seed_str.encode()).hexdigest()
-            charset = string.ascii_uppercase + string.digits
-            
-            # Convert pairs of hex chars (0-255) and mod into charset (0-35)
-            # This ensures good distribution across letters AND digits
-            uid = ''.join(charset[int(hash_hex[i:i+2], 16) % 36] for i in range(0, 6, 2))
-            
-            attempts = 0
-            while uid in existing_uids and attempts < 1000:
-                seed_str = f"{time.time_ns()}{attempts}"
-                hash_hex = hashlib.md5(seed_str.encode()).hexdigest()
-                uid = ''.join(charset[int(hash_hex[i:i+2], 16) % 36] for i in range(0, 6, 2))
-                attempts += 1
-                
-            existing_uids.add(uid)
-            
-            try:
-                content = p.read_text(encoding='utf-8-sig')
-                fm_match = re.search(r'^---\n(.*?)\n---\n', content, re.DOTALL)
-                if fm_match:
-                    frontmatter = fm_match.group(1)
-                    new_frontmatter = re.sub(
-                        r'(title:.*?\n)',
-                        f'\\1uid: "{uid}"\n',
-                        frontmatter,
-                        count=1
-                    )
-                    if new_frontmatter != frontmatter and 'uid:' not in frontmatter:
-                        new_content = content.replace(
-                            f'---\n{frontmatter}\n---',
-                            f'---\n{new_frontmatter}\n---'
-                        )
-                        
-                        # Also update the H1 title to include label and uid
-                        label = fm.get('label', '')
-                        if label:
-                            body_after_fm = new_content[fm_match.end():]
-                            h1_match = re.search(r'^#\s+(.+?)\s*\n', body_after_fm, re.MULTILINE)
-                            if h1_match:
-                                old_h1 = h1_match.group(0)
-                                title_text = h1_match.group(1)
-                                # Remove any existing backticks if present
-                                title_clean = re.sub(r'\s+`.*`', '', title_text)
-                                new_h1 = f"# {title_clean} `{label}` `{uid}`\n"
-                                new_content = new_content.replace(old_h1, new_h1, 1)
-                        
-                        p.write_text(new_content, encoding='utf-8-sig')
-                        print(f"Generated new UID {uid} for {p.name}")
-            except Exception as e:
-                print(f"Warning: failed to write UID {uid} to {p.name}: {e}")
-
         credits_list = [c.strip() for c in fm.get('credits', []) if c.strip()]
         for name in credits_list:
             all_credits[name] += 1
@@ -444,7 +329,6 @@ def build_grimoire_data(output: str) -> tuple[list, Counter]:
     out.write_text(json.dumps(entries, ensure_ascii=False), encoding='utf-8')
     print('WROTE', out)
     return entries, all_credits, tags_set
-
 
 
 _CONTRIBUTORS_JSON = ROOT / 'docs' / 'assets' / 'data' / 'credits.json'
@@ -889,6 +773,7 @@ def main():
         help='If given, also copy the updated graph.json to this path (e.g. site/assets/data/graph.json)',
     )
     args = p.parse_args()
+
     # allow overriding which docs subtree to index (default 'docs')
     global DOCS
     DOCS = ROOT / args.docs_dir

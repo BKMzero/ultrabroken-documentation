@@ -6,7 +6,7 @@ versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", 
 credits: ["NaN Gogh", "Mozz"]
 date: "2023-07-03"
 description: "Allows you to dupe items via hold storage."
-aliases: ["hold-storage-duplication"]
+aliases: ["hold-storage-duplication", "minus dupe"]
 tags: ["duplication", "storage", "item"]
 ---
 
