@@ -51,10 +51,6 @@ Todo:
 There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda's Torch, and duplicating anything you can throw. For the sake of providing clear instructions, a variant of each method is given for each valid use case.
 
 === "Method 1: Hand Purgatory + Overload Batch DI"
-    ---
-    versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
-    obsolete: false
-    ---
 
     This is a **Persistent** method that makes use of DI equipment to maximize adjustability, ease of use, and framerate. It can be used for anything, but is best-suited for Mineru's Arm and Zelda's Torch. This method is significantly more difficult on `1.1.2` and earlier, due to the absence of "Drop-Swap Culling".
 
@@ -240,10 +236,6 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
     _Method by MandelbrotChaylay and Squidwest_
 
 === "Method 2: Hand Purgatory + DI"
-    ---
-    versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
-    obsolete: false
-    ---
 
     This is a **Local** method that makes use of a specially-prepared DI equipment "multitool". to maximize portability and in-the-moment speed. It is ideal for duplication, and can be used for Mineru's Arm by an older route, but cannot be used for Zelda's Torch.
 
@@ -305,10 +297,6 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
     _Method by mulberry_
 
 === "Method 3: Overload Cold Fuse"
-    ---
-    versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
-    obsolete: false
-    ---
 
     This is a **Local** method with minimal additional glitches required. It is perfectly acceptable for duplicating throwables on all versions, and can obtain Mineru's Arm by an older route. It can also be made permanent; This is provided as Method 4 for clarity.
 
@@ -420,10 +408,6 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
     _Method by Aergyl and mulberry_
 
 === "Method 4: Overload Cold Fuse + Permacull"
-    ---
-    versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
-    obsolete: false
-    ---
 
     This is a **Permanent** method with minimal additional glitches required. It is acceptable for Zelda's Torch and Mineru's Arm. It _can_ be used for duplication, but is needlessly complex for this usage; Use Method 3 instead.
 
