@@ -26,7 +26,8 @@ _mulberry - 15 February 2024_
 
 ## Notes
 ---
-Ultra Save Load Object Transfer objects can be continuously transferred between files as long as the object is grabbed with ultrahand before loading a file
+- Ultra Save Load Object Transfer objects can be continuously transferred between files as long as the object is grabbed with ultrahand before loading a file.
+- If the object is cold fused to the purgatory equipment instead, this will also transfer the equipment, but the ultrahanded object will be deleted. This lets you UltraSLOT unfused purgatory equipment once.
 
 ## Resources
 ---
