@@ -44,6 +44,10 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
     9. The target weapon should regain interaction and remain floating
 
     #### Method 2: Pause-Cancel Mineru FE + Load Null Fuse { .collapse }
+    ---
+    versions: ["1.0.0"]
+    obsolete: false
+    ---
 
     1. Find a large weapon cairn, with 3 ghosts atop it. These are large enough for Mineru to spawn atop them.
     2. Zuggle any shield
@@ -166,7 +170,7 @@ versions: ["1.1.0", "1.1.1", "1.1.2"]
 obsolete: true
 ---
 
-Bla
+Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn.
 
 ## Notes
 ---
