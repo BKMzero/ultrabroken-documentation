@@ -130,7 +130,7 @@ There are many viable methods. Variants of three of the most popular are given i
 
 ## Resources and References
 ---
-??? Discord Resources
+??? quote "Discord Resources"
 
     - [Initial Discovery](https://discord.com/channels/1111875355758837830/1128775917376897145/1455340505096261796) (TotK Speedrunning Discord)
     - [Fire Temple Location](https://discord.com/channels/1086729144307564648/1110956205624532993/1457783101022539891) (Hyrule Engineering Club Discord)
