@@ -74,6 +74,7 @@ extra_javascript:
   - assets/scripts/graph-view.js
   - assets/scripts/cosmetic-urls.js
   - assets/scripts/collapsible-sections.js
+  - assets/scripts/toc-scrollspy.js
   - assets/scripts/nav-delegation.js
   - assets/scripts/mobile-toc.js
 
