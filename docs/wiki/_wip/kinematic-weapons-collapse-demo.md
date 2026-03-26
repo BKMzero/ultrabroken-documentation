@@ -80,6 +80,10 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
     5. Proceed with a given Pause-Cancel method; The ghost will not despawn even without performing Pause-Cancel
 
 === "Overload Pickup Methods"
+    ---
+    versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    obsolete: true
+    ---
 
     These Methods use Overload Pickup to move the target to a distance where the ghost can't detect it being tampered with.
 
@@ -155,6 +159,14 @@ Kinematic Weapons obey the "position lock" and "velocity reset" of recall, so th
 !!! warning "Take care!"
 
     Warping causes a "sleep" on equipped items, which will undo this state! You can zuggle it to take it with you safely.
+
+### Test section
+    ---
+    versions: ["1.1.0", "1.1.1", "1.1.2"]
+    obsolete: true
+    ---
+
+    Bla
 
 ## Notes
 ---
