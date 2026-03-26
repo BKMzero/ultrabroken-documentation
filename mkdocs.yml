@@ -72,6 +72,7 @@ extra_javascript:
   - assets/scripts/diagram-pan-zoom.js
   - assets/scripts/graph-view.js
   - assets/scripts/cosmetic-urls.js
+  - assets/scripts/collapsible-sections.js
   - assets/scripts/nav-delegation.js
   - assets/scripts/mobile-toc.js
 
