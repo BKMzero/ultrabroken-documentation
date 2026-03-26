@@ -243,7 +243,7 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
     11. When the game unpauses, the target weapon should warp to B and become uninteractible, without appearing fused in the inventory
     12. Exit the ghost's spawn range, then return to the target weapon; it should regain interaction and remain floating
 
-### Even Deeper Instructions
+#### Even Deeper Instructions
 
 All methods require a weapon currently held by a Depths Ghost, which will be referred to as the "target weapon" or "target".
 
