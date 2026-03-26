@@ -17,7 +17,7 @@ tags: ["item", "despawn", "fuse", "culling"]
 
 Eaten DI equipment passes an Eaten death down to newly-fused children (_if_ the main parent is DI), which can itself be interrupted. This causes the "Ghost DI" state, which has additional properties over the standard Eaten DI state.
 
-_Discovered by mulberry; Properties, methods, and optimizations found by Aergyl, mulberry, Squidwest - Jan 16, 2026_
+_Discovered by mulberry; methods, optimizations, and properties found by Aergyl, mulberry, Squidwest - Jan 16, 2026_
 
 ## Instructions
 ---
@@ -26,7 +26,7 @@ _Discovered by mulberry; Properties, methods, and optimizations found by Aergyl,
 
     These methods fully fuse the target to a normal parent and FE it to a DI parent; the former will need to be detangled/despawned to make the target persistent.
 
-    ??? "Method 1: Fuse + Drop-Swap"
+    ??? abstract "Method 1: Fuse + Drop-Swap"
 
         1. Smuggle or Zuggle a DI weapon or shield
         2. Equip a normal item of the same type
@@ -39,7 +39,7 @@ _Discovered by mulberry; Properties, methods, and optimizations found by Aergyl,
         9. Delete the normal parent by "FarDelete"; this can be done by sending it away with a rocket, dropping it down a chasm, or simply moving about 60m away
         10. Detangle the DI parent; The fastest way to do this is to just use it again (DI objects with DI parents are protected from "Fuse-over" deletion)
 
-    ??? "Method 2: Turbo Replication"
+    ??? abstract "Method 2: Turbo Replication"
 
         1. Prepare an Octo Balloon Shield
         2. Smuggle or Zuggle a DI Shield
@@ -50,7 +50,7 @@ _Discovered by mulberry; Properties, methods, and optimizations found by Aergyl,
         7. **Unpause** the game and press B within a couple frames of the game actually unpausing
         8. Done correctly, the target will detangle from both the DI parent and the normal parent, and its pickup prompt will be displaced from its visual model
 
-    ??? "Method 3: Mineru FE Target + Fuse"
+    ??? abstract "Method 3: Mineru FE Target + Fuse"
 
         1. Mineru FE the target; This will cause it to cull with Mineru
         2. Smuggle or Zuggle a DI weapon or shield
@@ -62,7 +62,7 @@ _Discovered by mulberry; Properties, methods, and optimizations found by Aergyl,
         9. Delete the normal parent by "FarDelete"; this can be done by sending it away with a rocket, dropping it down a chasm, or simply moving about 60m away
         10. Detangle the target from the DI parent; The fastest way to do this is to just use it again (DI objects with DI parents are protected from "Fuse-over" deletion)
 
-    ??? "Method 4: Mineru FE Parent + Fuse"
+    ??? abstract "Method 4: Mineru FE Parent + Fuse"
 
         1. Mineru FE a normal weapon or shield
         2. Smuggle a DI item of the same type
@@ -72,7 +72,7 @@ _Discovered by mulberry; Properties, methods, and optimizations found by Aergyl,
         6. Delete the normal parent by "FarDelete"; this can be done by sending it away with a rocket, dropping it down a chasm, or simply moving about 60m away
         7. Detangle the target from the DI parent; The fastest way to do this is to just use it again (DI objects with DI parents are protected from "fuse-over" deletion)
 
-    ??? "Method 5: Mineru DI + Fuse"
+    ??? abstract "Method 5: Mineru DI + Fuse"
 
         1. DI a weapon or shield (A) with Method 2 and _do not_ detangle it from Mineru
         2. Smuggle or Zuggle A and equip a normal item over it
@@ -86,7 +86,28 @@ _Discovered by mulberry; Properties, methods, and optimizations found by Aergyl,
 
     These methods FE the target to a DI parent and CF the target to a normal parent, resulting in PF; this removes the need to detangle it from the normal parent.
 
-    ooohg i need a break
+    ??? abstract "Method 6: Overload Pseudo Fuse"
+
+        (normal overload pfdi without any batching considerations)
+        (I don't actually know what's minimal, so I'm coming back to this one later)
+
+    ??? abstract "Method 7: Culling Area Pseudo Fuse"
+        ---
+        versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+        obsolete: false
+        ---
+
+        Prepare a DI weapon or shield, another item of that type, and a portacull of the opposite type
+
+        1. Use a small culling area to store fuse on the target with a normal parent
+        2. Move into and quickly back out of the culling margin to uncull the target for 1 frame
+        3. Drop the normal parent and move it out of update range (the far end of the platform at Akkala Citadel Ruins' small culling area is enough)
+        4. Pick up the DI item and move into the culling margin
+        5. A few frames after the target unculls, pause the game
+        6. Use the portacull to cull the DI parent and the target
+        7. The target, now DI'd, will be attached to the normal parent, but not fused
+
+    Well hopefully trying to metadata tag that dropdown up there doesn't break everything
 
 ## Properties
 
@@ -102,6 +123,16 @@ _Discovered by mulberry; Properties, methods, and optimizations found by Aergyl,
 
 ## Notes
 ---
+
+- Due to the requirement that the _Main_ parent of the target be DI, the despawn can be prevented by fusing it in a way that makes another item the main parent
+- In addition, it can be _delayed_ by providing the target with additional CF parent(s) before performing most methods; the despawn can be triggered **at will** by deleting these additional parents
+
+!!! failure "Pre-fused Ghosts"
+
+    If a non-ghost DI equipment is created with a fuse already attached, the fuse (if it survives at all) will _seem_ to be in the Ghost DI state, but is in fact missing any form of persistence (even warping with it zuggled will delete it).
+    
+    This is due to a property of the DI state: it stops updating various flags and variables, including whether it is a "resident" (aka persistent) actor. DI Ghosts which are attached to Link on creation (like fusing to a zuggled equipment) keep their resident state even when dropped, and DI Ghosts created while unattached (such as being fused to a detached piece of equipment) fail to gain the resident state even when attached.
+
 ### Remarks
 Remarks
 
