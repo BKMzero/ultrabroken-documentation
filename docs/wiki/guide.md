@@ -708,7 +708,7 @@ Zuggle
 OOB (Out of Bounds)
 :   Exploiting collision detection to move Link outside the intended playable area.
 
-### Tabbed (Tabbed Content)
+### Tabbed Sections
 
 Creates tabs for organizing related content groups.
 
@@ -733,6 +733,38 @@ Creates tabs for organizing related content groups.
 === "Method B"
 
     This is alternative approach B.
+
+#### Tab sizing
+
+Tab labels automatically scale their font size based on the heading they appear under. Tabs below an `h2` render at the default size; tabs below an `h3` render slightly smaller, and so on. This keeps tab labels visually proportional to their surrounding heading hierarchy. The sizing is injected automatically — no extra markup is needed.
+
+### Collapsible Sections
+
+Any heading can be turned into a clickable toggle that hides or reveals the content beneath it (everything until the next heading of equal or higher level). This uses the Attr List `{ .collapse }` class, which is processed client-side — no `<details>`/`<summary>` is involved.
+
+#### Syntax
+
+```markdown
+#### Section Title ?
+Content here…
+
+#### Starts Open !
+This section is expanded on load.
+```
+
+The `?` shorthand expands to `{ .collapse }` (collapsed by default) and `!` expands to `{ .collapse .open }` (expanded on load). The shorthand marker must be preceded by a space. You can also write the full attr_list form directly:
+
+```markdown
+#### Section Title { .collapse }
+#### Starts Open { .collapse .open }
+```
+
+#### Behaviour
+
+- Clicking the heading toggles the section. A chevron icon shows the current state.
+- Hash navigation (e.g. clicking a TOC link) automatically expands any collapsed section that contains the target.
+- Collapsible sections can be nested — deeper headings inside a collapsed section are hidden along with their content.
+- Works with [method metadata](#method-metadata) and version badges.
 
 ### Flowchart
 
