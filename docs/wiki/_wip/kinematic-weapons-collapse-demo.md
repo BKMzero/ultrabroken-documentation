@@ -28,6 +28,10 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
     These Methods pause the game while performing FE on the target, preventing the ghost from detecting it being tampered with.
 
     #### Method 1: Pause-Cancel Overload FE + Load Null Fuse { .collapse }
+    ---
+    versions: ["1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    obsolete: true
+    ---
 
     1. Zuggle any shield
     2. Overload Drop another shield and fuse it to a weapon
