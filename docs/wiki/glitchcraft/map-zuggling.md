@@ -6,7 +6,7 @@ versions: ["1.0.0", "1.1.0", "1.1.1"]
 credits: ["BigDUCCO"]
 date: "2023-05-23"
 description: "Allows you to zuggle much faster than older versions"
-aliases: ["map-zuggling"]
+aliases: ["map-zuggling", "map zuggle"]
 tags: ["zuggling", "map", "item", "equipment"]
 ---
 

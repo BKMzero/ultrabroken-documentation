@@ -5,12 +5,14 @@ tags: ["purgatory", "culling"]
 aliases: ["Culled Purgatory", "Cull purg", "dpurg"]
 ---
 
+# Purgatory
+
 Is it equipped or not? Depends who you ask.
 
 !!! danger "Warning"
     While purgatory is a useful equipment state to exploit, many ways to delete unculled purgatory equipment will **crash** the game.
 
-# Overview
+## Overview
 
 Normally, when you have something equipped, Link's actor and the equipment actor agree on what's going on:
 
@@ -46,7 +48,7 @@ Purgatory weapons and shields have some additional features when on one side of 
 - Having the FE parent equipped will keep the purgatory child equipped or positioned on Link as it was when it first entered purgatory. If you drop the parent, the child will drop from Link.
 - Warping with the FE parent equipped will undo the purgatory status of the FE child, which will drop at Link's last position before the warp.
 
-# Creating purgatory equipment
+## Creating purgatory equipment
 
 To send equipment to pugatory (to 'purgatorify' it), you have several options:
 
@@ -58,11 +60,11 @@ To send equipment to pugatory (to 'purgatorify' it), you have several options:
     - This equipment will lose collision, even if you use an FE parent to uncull it later.
     - Equipment in culled purgatory isn't deleted on reload. If the equipment has an FE child that you then uncull with some other method, that item will persist across reloads as a [PSLOT](search:PSLOT).
 
-# Culled purgatory
+## Culled purgatory
 
 If equipment is in purgatory and culled, it will not be deleted on reload. If you fuse entangle something to that equipment, with some other way to uncull the object afterwards, that object will also persist as a [PSLOT](label:PSLOT).
 
-# Crash risks
+## Crash risks
 
 The following ways of deleting purgatory equipment will **crash** the game:
 
