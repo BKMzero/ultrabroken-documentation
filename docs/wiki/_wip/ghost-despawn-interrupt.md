@@ -1,16 +1,16 @@
 ﻿---
-title: "DI Cloning"
+title: "Ghost Despawn Interrupt"
 draft: true
-label: "DIC"
+label: "GDI"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Aergyl", "mulberry", "Squidwest"]
 date: "2026-01-16"
 description: "Eaten DI passes a despawn attempt down to newly-fused main children, which can itself be interrupted to cause the Ghost DI state."
-aliases: ["Ghost DI", "Ghost-DI"]
+aliases: ["Ghost DI", "Ghost-DI", "Ghost Frox"]
 tags: ["item", "despawn", "fuse", "culling"]
 ---
 
-# DI Cloning
+# Ghost Despawn Interrupt
 
 ## Summary
 ---
@@ -27,6 +27,10 @@ _Discovered by mulberry; methods, optimizations, and properties found by Aergyl,
     These methods fully fuse the target to a normal parent and FE it to a DI parent; the former will need to be detangled/despawned to make the target persistent.
 
     ??? abstract "Method 1: Fuse + Drop-Swap"
+        ---
+        versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+        obsolete: false
+        ---
 
         1. Smuggle or Zuggle a DI weapon or shield
         2. Equip a normal item of the same type
@@ -40,6 +44,10 @@ _Discovered by mulberry; methods, optimizations, and properties found by Aergyl,
         10. Detangle the DI parent; The fastest way to do this is to just use it again (DI objects with DI parents are protected from "Fuse-over" deletion)
 
     ??? abstract "Method 2: Turbo Replication"
+        ---
+        versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+        obsolete: false
+        ---
 
         1. Prepare an Octo Balloon Shield
         2. Smuggle or Zuggle a DI Shield
@@ -51,6 +59,10 @@ _Discovered by mulberry; methods, optimizations, and properties found by Aergyl,
         8. Done correctly, the target will detangle from both the DI parent and the normal parent, and its pickup prompt will be displaced from its visual model
 
     ??? abstract "Method 3: Mineru FE Target + Fuse"
+        ---
+        versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+        obsolete: false
+        ---
 
         1. Mineru FE the target; This will cause it to cull with Mineru
         2. Smuggle or Zuggle a DI weapon or shield
@@ -63,6 +75,10 @@ _Discovered by mulberry; methods, optimizations, and properties found by Aergyl,
         10. Detangle the target from the DI parent; The fastest way to do this is to just use it again (DI objects with DI parents are protected from "Fuse-over" deletion)
 
     ??? abstract "Method 4: Mineru FE Parent + Fuse"
+        ---
+        versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+        obsolete: false
+        ---
 
         1. Mineru FE a normal weapon or shield
         2. Smuggle a DI item of the same type
@@ -73,6 +89,10 @@ _Discovered by mulberry; methods, optimizations, and properties found by Aergyl,
         7. Detangle the target from the DI parent; The fastest way to do this is to just use it again (DI objects with DI parents are protected from "fuse-over" deletion)
 
     ??? abstract "Method 5: Mineru DI + Fuse"
+        ---
+        versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+        obsolete: false
+        ---
 
         1. DI a weapon or shield (A) with Method 2 and _do not_ detangle it from Mineru
         2. Smuggle or Zuggle A and equip a normal item over it
@@ -87,6 +107,10 @@ _Discovered by mulberry; methods, optimizations, and properties found by Aergyl,
     These methods FE the target to a DI parent and CF the target to a normal parent, resulting in PF; this removes the need to detangle it from the normal parent.
 
     ??? abstract "Method 6: Overload Pseudo Fuse"
+        ---
+        versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+        obsolete: false
+        ---
 
         (normal overload pfdi without any batching considerations)
         (I don't actually know what's minimal, so I'm coming back to this one later)
