@@ -27,7 +27,7 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
 
     These Methods pause the game while performing FE on the target, preventing the ghost from detecting it being tampered with.
 
-    ### Method 1: Pause-Cancel Overload FE + Load Null Fuse { .collapse }
+    #### Method 1: Pause-Cancel Overload FE + Load Null Fuse { .collapse }
 
     1. Zuggle any shield
     2. Overload Drop another shield and fuse it to a weapon
@@ -39,7 +39,7 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
     8. Move away from the target weapon and use a Rocket Shield to detangle it from the zuggled shield
     9. The target weapon should regain interaction and remain floating
 
-    ### Method 2: Pause-Cancel Mineru FE + Load Null Fuse { .collapse }
+    #### Method 2: Pause-Cancel Mineru FE + Load Null Fuse { .collapse }
 
     1. Find a large weapon cairn, with 3 ghosts atop it. These are large enough for Mineru to spawn atop them.
     2. Zuggle any shield
@@ -53,7 +53,7 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
     10. Move away from the target weapon and use a Rocket Shield to detangle it from the zuggled shield
     11. The target weapon should regain interaction and remain floating
 
-    ### Method 3: Pause-Cancel Overload FE + Warp Fuse { .collapse }
+    #### Method 3: Pause-Cancel Overload FE + Warp Fuse { .collapse }
 
     1. Zuggle any non-DI shield
     2. [Overload Drop](zuggle-overload.md) another shield and fuse it to a weapon
@@ -65,7 +65,7 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
     8. Use Octo Detanglement on the _equipped_ shield. This will detangle from the _zuggled_ parent shield without having to time the cancel
     9. The target weapon should regain interaction and remain floating
 
-    ### Pause-Cancel??? { .collapse .open }
+    #### Pause-Cancel??? { .collapse .open }
 
     Instead of pausing during the FE, any method requiring Pause-Cancel can alternatively be performed with Overload Pickup:
 
@@ -79,7 +79,7 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
 
     These Methods use Overload Pickup to move the target to a distance where the ghost can't detect it being tampered with.
 
-    ### Method 4: Basic Loadless { .collapse }
+    #### Method 4: Basic Loadless { .collapse }
 
     1. [Overload Pickup](zuggle-overload.md) the target weapon
     2. Move out of the ghost's update range, but stay within its spawn range
@@ -93,7 +93,7 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
 
     This method relies on the ability to detach a fully-fused and ghosted weapon from its parent via Overload Pickup, allowing Octo Detanglement to be done out of update range.
 
-    ### Method 5: Minimalist Loadless { .collapse }
+    #### Method 5: Minimalist Loadless { .collapse }
 
     1. [Overload Pickup](zuggle-overload.md) the target weapon
     2. Move to the edge of the ghost's spawn range. Face away from the ghost to prevent it from updating
@@ -104,7 +104,7 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
 
     This method relies on the fact that an Overload Cold Fuse causes the target to be considered "Fused" for a single frame.
 
-    ### Method 6: Temporary Ghosting { .collapse }
+    #### Method 6: Temporary Ghosting { .collapse }
 
     1. [Overload Pickup](zuggle-overload.md) the target weapon
     2. Move out of the ghost's update range, but stay within its spawn range
