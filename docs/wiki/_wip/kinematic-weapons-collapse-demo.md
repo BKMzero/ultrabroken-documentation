@@ -161,12 +161,12 @@ Kinematic Weapons obey the "position lock" and "velocity reset" of recall, so th
     Warping causes a "sleep" on equipped items, which will undo this state! You can zuggle it to take it with you safely.
 
 ### Test section
-    ---
-    versions: ["1.1.0", "1.1.1", "1.1.2"]
-    obsolete: true
-    ---
+---
+versions: ["1.1.0", "1.1.1", "1.1.2"]
+obsolete: true
+---
 
-    Bla
+Bla
 
 ## Notes
 ---
