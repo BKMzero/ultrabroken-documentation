@@ -1,12 +1,12 @@
 ---
-title: "Batch DI"
+title: "Batch Despawn Interrupt"
 draft: true
 label: "BDI"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Aergyl", "mulberry", "Squidwest"]
 date: "2025-01-17"
-description: "A collection of methods to produce large numbers of DI Ghost items quickly."
-aliases: []
+description: "A collection of methods to produce large numbers of Ghost DI items quickly."
+aliases: ["Batch DI", "Batch-DI"]
 tags: ["despawn-interrupt", "culling"]
 ---
 
@@ -81,6 +81,12 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
         2. Just after Link unculls, fuse target to C (overload fe)
         3. Just after Link unculls, fuse target to C again. As it already has an FE parent (D), this time it will Pseudo-fuse to C and begin fading away
         4. Link will cull soon enough after to automatically DI the target (by culling E, which culls D)
+
+    ??? abstract "put torch culling method here once you do it"
+
+        you use like some weird delayed cull with pyroculling, which I've never done, and it causes a piece of equipment to cull (via its parent) every time you open recall, which VASTLY streamlines this process for all versions, but ESPECIALLY compared to using aerophasing on older patches...
+        
+        I wonder if I can adapt this for sfo and make some kind of lightning setup too...
 
     !!! danger "Fuse-Over(load)"
 
