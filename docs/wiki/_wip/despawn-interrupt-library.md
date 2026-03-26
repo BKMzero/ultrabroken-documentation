@@ -1,48 +1,26 @@
 ---
-title: "Glitch Name"
+title: "Despawn Interrupt Library"
 draft: true
-label: "LBL"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2"]
-credits: ["glitchHunterA", "glitchHunterB"]
-date: "2023-05-12"
-description: "Short summary"
-aliases: ["glitch", "exploit", "bug", "error"]
-tags: ["entanglement", "culling", "ultrabroken", "zuggling"]
 ---
 
-# Glitch Name
+# Despawn Interrupt Library
 
-## Summary
+This page contains Despawn Interrupt related glitches and techniques for quick reference.
+
+## Index
 ---
-Short overview
 
-_Credits - Day Month Year_
+### DI states
 
-## Instructions
----
-### Base Setup
-1. Step one
-2. Step two
+- [Void Dipping](../glitchcraft/void-dipping.md)
+- [Despawn Interrupt](../glitchcraft/void-dipping.md)
+- [Ghost Despawn Interrupt](../glitchcraft/ghost-despawn-interrupt.md)
+- [Batch Despawn Interrupt](../glitchcraft/batch-despawn-interrupt.md)
 
-### Ohter Setup / Variation
-1. Step one
-2. Step two
+### DI-accessed states
 
-## Notes
----
-### Remarks
-Remarks
-
-### Additions
-Additions
-
-### Extensions
-Extensions
-
-## Resources
----
-- [Link Title](Link URL)
-
-## Related
----
-- [Searchbar Query](search:Searchbar Query)
+- [Shadowless Invisibility] (gotta write this one)
+- [Shrunken Actors] (and this one)
+- [Tangible Moe Enlargement] (and this one)
+- [Tangible Moe Minification] (and this one...)
+- [Super Fuse Overload] (almost done with this one, trust)
