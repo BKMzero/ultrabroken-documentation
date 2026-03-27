@@ -7,7 +7,6 @@ title: "Entanglement Library"
 This page complies Fuse Entanglement related glitches for quick reference.
 
 ## Index
----
 - [Fuse Entanglement](../glitchcraft/fuse-entanglement.md)
 - [Entanglement Height Glitch](../glitchcraft/entanglement-height-glitch.md)
 - [Fuse Entanglement Desync](../glitchcraft/fuse-entanglement-desync.md)

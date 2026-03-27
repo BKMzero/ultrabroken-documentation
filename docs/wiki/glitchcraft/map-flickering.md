@@ -13,24 +13,19 @@ tags: ["map"]
 # Map Flickering
 
 ## Summary
----
 EPILEPSY WARNING!
 Causes intense screen flickering when you try to edit a pin, or hover over certain ones.
 
 _?_
 
 ## Instructions
----
 Place hundreds of pins on the map in close proximity, so they look like they're in the same place when you zoom out
 
 ## Notes
----
 Do not do this if you suffer from epilepsy, or are prone to seizures
 
 ## Resources
----
 - [YouTube](https://www.youtube.com/watch?v=RjSKbESuVHo)
 
 ## Related
----
 —

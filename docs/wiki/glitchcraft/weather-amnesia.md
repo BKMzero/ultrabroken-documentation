@@ -13,23 +13,18 @@ tags: ["environment"]
 # Weather Amnesia
 
 ## Summary
----
 Viewing a memory near a cave will overwrite its local weather with the overworld's weather.
 
 _pyuk - 25 June 2023_
 
 ## Instructions
----
 1. Position Link near a cave
 2. Watch a memory
 
 ## Notes
----
 Certain triggers, such as text boxes, will restore the caves' local weather.
 
 ## Resources
----
 
 ## Related
----
 - [Memory Buffering](search:Memory Buffering)

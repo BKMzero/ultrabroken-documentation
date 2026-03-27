@@ -12,7 +12,6 @@ tags: ["Equipment", "Fuse", "Overload", "Mineru"]
 # Super Fuse Overload
 
 ## Summary
----
 
 By creating 600-700 Cold Fuse connections, the game will be overloaded and unable to form any new dependencies. This causes every actor to act Zuggle Overloaded, and every equipment to act Fuse Overloaded.
 
@@ -31,7 +30,6 @@ Page Todos:
 - Figure out why version-tagging the methods erases the entire instructions section 😭
 
 ## Forewarnings and Tips
----
 
 !!! danger "Panic!"
     While SFO is active, Panic Blood Moons will constantly occur if they are able (ie on the main map and not in a minigame or cutscene). Additionally, some dependencies will **crash the game** if they fail to form!
@@ -47,7 +45,6 @@ Page Todos:
     - Permacull methods are local methods with all the components permanently culled. This balances usefulness and simplicity, at the cost of needing to close the game to be undone.
 
 ## Instructions
----
 
 There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda's Torch, and duplicating anything you can throw. For the sake of providing clear instructions, a variant of each method is given for each valid use case.
 
@@ -565,17 +562,14 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
             ```
 
 ## Notes
----
 
 ### Extensions
 
 do suppose SFOFE could be provided here, along with other more niche techniques
 
 ## Resources
----
 
 augh I have to add so many references augh augh augh
 
 ## Related
----
 - [Searchbar Query](search:Searchbar Query)

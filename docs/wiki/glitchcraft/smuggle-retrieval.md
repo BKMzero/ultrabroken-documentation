@@ -13,13 +13,11 @@ tags: ["zuggling", "item", "equipment", "culling"]
 # Smuggle Retrieval
 
 ## Summary
----
 Dropping an unloaded piece of equipment drops a smuggle instead (if Link has one). Fail dropping equips it back.
 
 _PetitFrapo - 18 December 2024_
 
 ## Instructions
----
 1. Get any kind of smuggle, unculled or culled (regular smuggle, smuggled drop smuggle, invismuggle, dynamic smuggle etc).
 2. Get an unloaded equipment of the same type as the smuggle either by destroying the FE parent of the equipment, or by overload dropping then picking up the overload drop.
 3. Drop the unloaded equipment to drop the smuggle, or fail drop to put it on Link's back.
@@ -27,13 +25,10 @@ _PetitFrapo - 18 December 2024_
 (1.2+ might need chests to drop the equipment)
 
 ## Notes
----
 —
 
 ## Resources
----
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1318712104361922664)
 
 ## Related
----
 - [Equipment Smuggle](search:Equipment Smuggle)

@@ -13,13 +13,11 @@ tags: ["equipment", "shield", "zuggling"]
 # Swap Resync
 
 ## Summary
----
 Swapping any piece of equipment/armor attempts to sync any swaps that may have failed to register. The main use of this is to properly register swaps while Link is culled, allowing for various easier setups.
 
 _MandelbrotChaylay - 10 August 2025_
 
 ## Extensions
----
 A few uses of swap resync:
 
 Portacull Zuggle Drop (MandelbrotChaylay):
@@ -35,9 +33,7 @@ Loading after dropping will SLD the portacull.
 Swap Resync Zuggle: see next row
 
 ## Resources
----
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1404329328220704779)
 
 ## Related
----
 —

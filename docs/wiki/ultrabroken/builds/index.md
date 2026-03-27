@@ -5,7 +5,6 @@ title: "Ultrabroken Builds and UltraFuses"
 # Builds & UltraFuses
 
 ## Coming Soon
----
 
 This section will document the most creative and powerful UltraFuse builds discovered by the community.
 

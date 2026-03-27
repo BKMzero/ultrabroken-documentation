@@ -13,13 +13,11 @@ tags: ["duplication", "weapon"]
 # Master Sword Liberation
 
 ## Summary
----
 Allows you to dupe the master sword/decayed master sword
 
 _ock, mulberry - Nov 11, 2023; Nov 27, 2023; Dec 2, 2023_
 
 ## Instructions
----
 
 All methods work on all versions, but method 2 is preferred on 1.0.0-1.1.2.
 === "Method 1 (Ock)"
@@ -57,16 +55,13 @@ All methods work on all versions, but method 2 is preferred on 1.0.0-1.1.2.
     6. When the bombs go off, the breezer cutscene will trigger and drop the Master Sword (this will also duplicate it)
 
 ## Notes
----
 This can be combined with decayed zuggle to transfer it through files.
 
 ## Resources
----
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1173082845854584872)
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1191987058412101725)
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1191987058412101725)
 - [DIscord](https://discord.com/channels/1086729144307564648/1105598687167664239/1178791475216134194)
 
 ## Related
----
 —

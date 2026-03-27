@@ -13,23 +13,18 @@ tags: ["camera"]
 # Sage Madness
 
 ## Summary
----
 The camera follows a sage falling down a chasm.
 
 _Aci - 18 July 2023_
 
 ## Instructions
----
 Activate the text box you get after obtaining a sage while the sage falls down a chasm
 
 ## Notes
----
 —
 
 ## Resources
----
 —
 
 ## Related
----
 —

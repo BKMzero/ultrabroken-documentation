@@ -7,12 +7,10 @@ title: "Wacko Boingo aka Ultrabroken Flight"
 *Discovered by Duncan*
 
 ## Description
----
 
 One of the most widely recognized Ultrabroken Effects grants the ability to perform outrageously swift flight maneuvers, putting significant strain on the game's loading processes. Commonly referred to as "Ultrabroken Flight," this effect has gained substantial popularity.
 
 ## Exemplary Setup
----
 
 ### Requirements
 
@@ -35,7 +33,6 @@ One of the most widely recognized Ultrabroken Effects grants the ability to perf
 11. Apply directional pull to navigate
 
 ## Termination
----
 
 - Unglue the regular object
 - Exceed the Distance Unload Radius of the Ultrabroken Object

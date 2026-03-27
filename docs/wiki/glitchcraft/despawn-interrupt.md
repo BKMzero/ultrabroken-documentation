@@ -13,13 +13,11 @@ tags: ["item", "zuggling", "fuse", "despawn"]
 # Despawn Interrupt
 
 ## Summary
----
 A similar glitch to void dipping that has additional properties and is done with a molduga or frox.
 
 _Discovered by mulberry; optimizations by mulberry, Squidwest - 16 January 2026_
 
 ## Instructions
----
 ### Method 1 (1.2+, setupless frox setup)
 1. Approach a frox and wait until it is about to do a swallow attack.
 This is done most easily if you have a travel medallion directly next to the frox
@@ -67,18 +65,15 @@ The distance method should be done before detangling from the DI parent
 5. Same rules for detanglement apply
 
 ## Notes
----
 - Also known as "Eaten DI". Often referred to as "Frox Dipping" or as "Duga Dipping".
 - ALthough void dipping is also technically a form of despawn iterrupt, DI and despawn interrupt refers to the eaten variation by convention.
 
 ## Resources
----
 - [Spreadsheet link](https://docs.google.com/spreadsheets/d/1xNB1gOLZRSF9yp1mHUsS9ymogRJa1Wz8rTliTXezeRM/edit?pli=1&hl=de&gid=0#gid=0&range=294:294)
 - [Original discovery](https://discordapp.com/channels/1086729144307564648/1110956205624532993/1461889160062173416)
 - [Molduga optimization](https://discordapp.com/channels/1111875355758837830/1128775917376897145/1466939998023450796)
 - [Link's Luxury Loadout](https://www.youtube.com/watch?v=kQuj0LBQdrM)
 
 ## Related
----
 - [Fuse Entanglement](search:Fuse Entanglement)
 - [Detanglement](search:Detanglement)

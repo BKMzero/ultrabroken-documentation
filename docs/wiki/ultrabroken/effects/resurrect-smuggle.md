@@ -7,12 +7,10 @@ title: "Ultrabroken Resurrect Smuggle"
 *Discovered by cr-2-4 aka colombiancris*
 
 ## Description
----
 
 Fancy text coming soon
 
 ## Exemplary Setup
----
 
 ### Requirements
 

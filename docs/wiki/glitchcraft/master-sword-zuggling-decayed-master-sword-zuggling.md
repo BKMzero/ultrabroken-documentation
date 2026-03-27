@@ -13,13 +13,11 @@ tags: ["zuggling", "desync", "weapon"]
 # Master Sword Zuggling / Decayed Master Sword Zuggling
 
 ## Summary
----
 Allows you to zuggle the master sword or decayed master sword by desyncing it.
 
 _Discovered by Zas; Optimization by mulberry  - 6 November 2023_
 
 ## Instructions
----
 === "Method 1"
     Originally discovered method, method 2 is much easier.
     
@@ -46,15 +44,12 @@ _Discovered by Zas; Optimization by mulberry  - 6 November 2023_
     10. Map zuggle the newly equipped weapon.
 
 ## Notes
----
 This can be combined with mastersword liberation to drop the dms/ms.
 
 ## Resources
----
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1171061365667020821)
 - [Altenative method (mulberry)](https://discord.com/channels/1086729144307564648/1105598687167664239/1178791475216134194)
 
 ## Related
----
 - [Mineru Culling](search:Mineru Culling)
 - [Zuggling](search:Zuggling)

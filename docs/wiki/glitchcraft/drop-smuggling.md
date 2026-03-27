@@ -13,24 +13,20 @@ tags: ["zuggling", "item", "equipment"]
 # Drop Smuggling
 
 ## Summary
----
 Trick the game into thinking a weapon is both dropped and equiped at the same time, leading to strange behaviors.
 
 _LegendofLinkk - 31 May 2023_
 
 ## Instructions
----
 1. Find a shock source and hold a weapon (works with bows and shields too) in Links hand.
 2. Direct Link to the shock source or vise versa and in the moments before getting shocked, pause the game.
 3. Drop your equipped weapon and equip a new weapon.
 4. Unpause the game.
 
 ## Notes
----
 The weapons hitbox remains constantly active, while being maintained at Links feet. This allows for the overlapping of the weapons hitbox with an objects, and propels the object in strange ways.
 
 ## Resources
----
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1113354666961535007)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1113456847668645968)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1113469513011310716)
@@ -38,5 +34,4 @@ The weapons hitbox remains constantly active, while being maintained at Links fe
 - [YouTube](https://www.youtube.com/watch?v=LWPbxaZcpCo)
 
 ## Related
----
 —

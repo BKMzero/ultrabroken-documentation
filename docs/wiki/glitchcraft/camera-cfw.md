@@ -13,13 +13,11 @@ tags: ["camera"]
 # Camera CFW
 
 ## Summary
----
 Glitches out the camera rune and can remove the waymarkers and the camera UI.
 
 _NaN Gogh - 11 July 2023_
 
 ## Instructions
----
 ### Base Setup
 1. Open camera rune
 2. Take a photograph
@@ -28,7 +26,6 @@ _NaN Gogh - 11 July 2023_
 5. Press L and R3 at about the same time
 
 ## Notes
----
 Depending on how long you waited in step 4, you can get different modes.
 
 ### Mode 1
@@ -44,9 +41,7 @@ Depending on how long you waited in step 4, you can get different modes.
 - No camera ui
 
 ## Resources
----
 - [Twitter](https://vxtwitter.com/_nan_gogh/status/1678749376833781763?s=46)
 
 ## Related
----
 —

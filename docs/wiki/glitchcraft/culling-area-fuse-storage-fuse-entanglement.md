@@ -13,13 +13,11 @@ tags: ["storage", "entanglement", "culling", "fuse"]
 # Culling Area Fuse Storage Fuse Entanglement
 
 ## Summary
----
 A method for FSFE using Area Culling.
 
 _mulberry, Yee, Zas - 25 February 2024_
 
 ## Instructions
----
 1. Position the target object at the edge of a culling area with a small margin (like the tarry town culling area)
 2 Activate the fuse rune while outside of the culling area, culling the target.
 3. Approach culling area and immediatly turn around when entering it. 
@@ -39,16 +37,13 @@ Alternatively:
 8. Swap equipment.
 
 ## Notes
----
 Chain FSFE (mulberry)
 https://discord.com/channels/1086729144307564648/1113557914444111873/1217688933807296593
 
 ## Resources
----
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1211151054633172993)
 - [YouTube](https://www.youtube.com/watch?v=Y8sOuZdQecU)
 
 ## Related
----
 - [Object Culling](search:Object Culling)
 - [Fuse Storage](search:Fuse Storage)

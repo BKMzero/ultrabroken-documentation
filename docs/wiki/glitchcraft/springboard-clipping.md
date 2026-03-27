@@ -13,24 +13,19 @@ tags: ["clipping", "spring"]
 # Springboard Clipping
 
 ## Summary
----
 Allows link to clip through the floor while springboarding under a low ceiling.
 
 _ab2x3z - 27 May 2023_
 
 ## Instructions
----
 —
 
 ## Notes
----
 —
 
 ## Resources
----
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1112036443544621106)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1112039527872217138)
 
 ## Related
----
 - [Springboarding](search:Springboarding)

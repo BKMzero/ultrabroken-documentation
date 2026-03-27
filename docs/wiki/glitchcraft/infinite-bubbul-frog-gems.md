@@ -13,13 +13,11 @@ tags: ["Unknown"]
 # Infinite Bubbul Frog Gems
 
 ## Summary
----
 Allows you to get infinite bubbul gems
 
 _21 May 2023_
 
 ## Instructions
----
 Only works in some caves!
 
 1. Shoot the bubbul frog
@@ -29,16 +27,13 @@ Only works in some caves!
 5. Repeat
 
 ## Notes
----
 The glitch may be not exclusive to bubbulfrogs (just a theory)
 Needs to be tested more, and see if it can be consistently replicated.
 
 21 May 2023(?)
 
 ## Resources
----
 - [YouTube](https://www.youtube.com/watch?v=c9TDP4qdAUY)
 
 ## Related
----
 —

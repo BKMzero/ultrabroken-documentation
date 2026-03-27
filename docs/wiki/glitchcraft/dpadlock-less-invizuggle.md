@@ -13,13 +13,11 @@ tags: ["zuggling", "culling", "item", "equipment"]
 # Dpadlock-less Invizuggle
 
 ## Summary
----
 The first frame of a cull does not dpadlock, so it can be used for invizuggle
 
 _Discovered by mulberry, optimized by Blackmars, mulberry, NghtmaR3 (order is alphabetically) - 17 July 2024_
 
 ## Instructions
----
 The easiest way:
 
 1. Prepare a portable cull item of the opposite equippment type that you intend to invizuggle
@@ -47,14 +45,11 @@ If you want to zlot an item with invizuggle, you can do the following:
 8. drop the child to uncull it
 
 ## Notes
----
 —
 
 ## Resources
----
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1262927638683582505)
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1263286685198712883)
 
 ## Related
----
 —

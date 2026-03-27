@@ -13,7 +13,6 @@ tags: ["culling", "fuse", "arrow"]
 # Arrow Unloading
 
 ## Summary
----
 Unloads a fired arrow while retaining its fused attachment, leading to strange interactions.
 
 _Mozz, pyuk, Zas - 18 June 2023_
@@ -31,16 +30,13 @@ _Mozz, pyuk, Zas - 18 June 2023_
     2. Pick up the bow from the ground as late as possible when the Like-like goes to eat it and Link.
 
 ## Notes
----
 Can be used to create batteryless Zonai devices, clip objects through walls, as well as other strange quirks.
 
 Arrows fired from a multi-shot bow are warped to 0,0,0.
 
 ## Resources
----
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1118827552497217576)
 - [YouTube](https://www.youtube.com/watch?v=MDNuNpKpi9U)
 
 ## Related
----
 —

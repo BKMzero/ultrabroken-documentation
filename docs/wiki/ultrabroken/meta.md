@@ -5,7 +5,6 @@ title: "Ultrabroken Meta"
 # Meta & Advanced Tips
 
 ## Glued Ultrabroken vs Glue-Free Ultrabroken
----
 
 These two setup types have different capabilities and constraints:
 
@@ -20,7 +19,6 @@ These two setup types have different capabilities and constraints:
 - **Sometimes needs Antimass** - Multiple objects may require Antimass for effects to work
 
 ## Important Strategies
----
 
 ### Arrangement (Poltergeist Prevention)
 
@@ -34,7 +32,6 @@ When planning UltraFuses:
 - **Durability-friendly** - Consider equipment that benefits from Consistency effects
 
 ## Critical Warning: Saving
----
 
 ### DO NOT HARD SAVE AFTER ULTRABROKEN!
 
@@ -45,7 +42,6 @@ There are means to transfer objects back in time:
 Always use these methods to preserve your Ultrabroken equipment before closing the game.
 
 ## Terminology Quick Reference
----
 
 - **Spooky Interaction** - Any interaction involving Ghost Glue or Phantom Glue
 - **Ghost Glue** - Attraction-based connections without Ultrahand Glue

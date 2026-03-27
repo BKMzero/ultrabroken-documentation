@@ -13,7 +13,6 @@ tags: ["clipping", "oob", "zuggling", "overload"]
 # Zuggle Overload Out Of Bounds
 
 ## Summary
----
 Allows you to clip OOB using zuggle overload
 
 _AngryEgg (1.0 - 1.1.2)  - 18 May 2023_
@@ -32,16 +31,13 @@ _AngryEgg (1.0 - 1.1.2)  - 18 May 2023_
     4. You now clip into the floor!
 
 ## Notes
----
 —
 
 ## Resources
----
 - [ZOOB demonstration](https://discord.com/channels/1086729144307564648/1105598687167664239/1108780208137437314)
 - [Discovery for 1.2.0+](https://discordapp.com/channels/1086729144307564648/1113557914444111873/1394979337253687377)
 - [Discovery of arrow SDC](https://discordapp.com/channels/1086729144307564648/1105598687167664239/1399016292882714747)
 - [YouTube](https://www.youtube.com/watch?v=w1fI3QYrerQ)
 
 ## Related
----
 - [Zuggle Overload](search:Zuggle Overload)

@@ -13,7 +13,6 @@ tags: ["weapon"]
 # AntiGrav Weapons
 
 ## Summary
----
 Puts weapons in an "Anti Gravity" state.
 
 _1.0.0-1.1.2 Setup Zas, 1.2 Setup Blize - 28 May 2023_
@@ -32,15 +31,12 @@ _1.0.0-1.1.2 Setup Zas, 1.2 Setup Blize - 28 May 2023_
     6. Resume the game
 
 ## Notes
----
 Performing anti-grav with a weapon ARAZ connection (zonai device fused to weapon and FE'd to a different weapon) causes GAS
 It will obtain the property of anti-gravity unless you un-equip it or throw it. It also retains it's current momentum when dropped.
 
 ## Resources
----
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1112349555606966292)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1112355745321713754)
 
 ## Related
----
 —

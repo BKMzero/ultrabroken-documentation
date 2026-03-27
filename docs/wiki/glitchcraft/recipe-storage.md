@@ -13,7 +13,6 @@ tags: ["storage", "menu"]
 # Recipe Storage
 
 ## Summary
----
 Delaying the recipe menu by a few frames allow for some holding shenanigans
 
 _ock, mulberry - September 14th, 2024; November 10th, 2024_
@@ -48,16 +47,13 @@ _ock, mulberry - September 14th, 2024; November 10th, 2024_
 3. Holding anything will pull out the hold stored objects (the recipe ingredients)
 
 ## Notes
----
 —
 
 ## Resources
----
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1284563089873965121)
 - [Discord](https://discord.com/channels/1086729144307564648/1110956205624532993/1305180152325738589)
 - [Discord](https://discord.com/channels/1086729144307564648/1110956205624532993/1305204895602704534)
 - [Discord](https://discord.com/channels/1086729144307564648/1110956205624532993/1305205208665821186)
 
 ## Related
----
 —

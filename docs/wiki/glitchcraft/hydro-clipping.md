@@ -13,7 +13,6 @@ tags: ["clipping", "storage", "equipment", "shield"]
 # Hydro Clipping
 
 ## Summary
----
 Using  guardless active shield or throwless storage on a hydrant shield (FED to a weapon) can cause link and enemies to clip through the ground. It can also force panic blood moons
 
 _Simonfirefighter, Maxmasher (Flurry rush method), KnightPohtaytoe (Crouch method), pyuk (throw method) - 15 June 2023_
@@ -52,11 +51,9 @@ There are other ways of clipping with hydro:
 - Crouching (only works inside shrines)
 
 ## Notes
----
 1.2.1 requires a different method
 
 ## Resources
----
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1119154364251131924)
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1119350629584879796)
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1119350059633496107)
@@ -64,5 +61,4 @@ There are other ways of clipping with hydro:
 - [Twitter](https://fxtwitter.com/FBuffalo3/status/1681022210906152960)
 
 ## Related
----
 - [Fuse Entanglement](search:Fuse Entanglement)

@@ -7,7 +7,6 @@ title: "Ultrabroken Phantom Smuggle"
 *Discovered by NaN Gogh*
 
 ## Description
----
 
 Phantom Smuggling revolves around a fascinating Spooky Interaction known as Phantom Glue, which can be described as Ghost Glue on crack. This Ultrabroken Effect enables the creation of highly portable and fully functional Zonai Systems that are securely attached to equipped Ultrabroken Equipment.
 
@@ -23,7 +22,6 @@ The setup for Phantom Smuggle introduces the concept of **Glue-less Ultrabroken*
 Also known as "Phantom Glue Smuggling".
 
 ## Exemplary Setup
----
 
 ### Requirements
 
@@ -46,7 +44,6 @@ Also known as "Phantom Glue Smuggling".
 10. Pick up the Ultrabroken Shield
 
 ## Termination
----
 
 - Detach objects glued to the Ultrabroken Equipment to cancel Phantom Smuggle
 - Put Ultrabroken Equipment into the inventory unequipped, on a mount or give it to the Break Apart shop to restore it

@@ -13,7 +13,6 @@ tags: ["culling"]
 # Vortaculling
 
 ## Summary
----
 Placing an sdc stick in a culling area as well as blown upon by a vortex of wind allows for an FE-compatible cull which can be triggered, on-demand, by portaculling w/ the vortacull parent item. 
 
 Vortacull is essentially infinite cull storage that both releases & stores a physical cull upon each use. There is also an intangible variant of vortaculling but it has limited range so is less useful.
@@ -23,7 +22,6 @@ Also provides easy permaculling using the same mechanism but w/ slightly differe
 _ArmindoEmiya, ofstrings2 - 11 September 2024_
 
 ## Instructions
----
 
 ### Vortacull only (using ""local vortacull"", by ofstrings2):
 1. Place steering stick in culling area.
@@ -45,16 +43,13 @@ Same as above except just invizuggle an active fan-shield that is pointing towar
 
 
 ## Notes
----
 — Can be made persistent via Mineru Cull Storage / Dismissal Resync Zuggle.
 
 ## Resources
----
 - [Link to Source](https://discord.com/channels/1086729144307564648/1113557914444111873/1283609854182821930)
 - [Tutorial (PSLOT)](https://discord.com/channels/1086729144307564648/1113557914444111873/1369567604372668456)
 - [Easy–Timing, 2–Minute VC/AC Batch Slug PSLOT (ofstrings)](https://www.youtube.com/watch?v=mCzMBrs2Fm0)
 
 ## Related
----
 - [Aeroculling](search:Aeroculling)
 - [Portacull](search:Portacull)

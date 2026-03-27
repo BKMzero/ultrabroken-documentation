@@ -13,7 +13,6 @@ tags: ["zuggling", "equipment", "like-like"]
 # Like-Like Smuggling
 
 ## Summary
----
 Allows for Equipment Smuggling via slugging.
 
 _Mozz, mulberry - 15 June 2023_
@@ -30,15 +29,12 @@ _Mozz, mulberry - 15 June 2023_
     3. Drop the target item a few frames before Link gets eaten by the like like
 
 ## Notes
----
 Method 2 can also be executed with a chest if you open it right before Link gets eaten by the like like.
 
 ## Resources
----
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1118505594215743501)
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1118690695910273074)
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1250839219329302679)
 
 ## Related
----
 - [Slugging](search:Slugging)

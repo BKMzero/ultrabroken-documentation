@@ -7,7 +7,6 @@ title: "Smuggle & Zuggle Library"
 This page complies Smuggling and Zuggling related glitches for quick reference.
 
 ## Index
----
 - [Zuggle](../glitchcraft/zuggle.md)
 - [Equipment Collision Zuggle](../glitchcraft/equipment-collision-zuggle.md)
 - [Zuggle Overload](../glitchcraft/zuggle-overload.md)

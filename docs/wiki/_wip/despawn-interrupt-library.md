@@ -8,7 +8,6 @@ draft: true
 This page contains Despawn Interrupt related glitches and techniques for quick reference.
 
 ## Index
----
 
 ### DI states
 

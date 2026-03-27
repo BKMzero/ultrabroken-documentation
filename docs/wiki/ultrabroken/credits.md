@@ -7,7 +7,6 @@ title: "Ultrabroken Credits"
 Ultrabroken has been researched and documented by many dedicated researchers. Thank you to everyone for adding your effort to this legacy!
 
 ## Researchers & Contributors
----
 
 - Duncan
 - NaN Gogh
@@ -35,7 +34,6 @@ Ultrabroken has been researched and documented by many dedicated researchers. Th
 - Jordan
 
 ## Special Thanks
----
 
 Special recognition to:
 - **Duncan** - Initial discovery and naming

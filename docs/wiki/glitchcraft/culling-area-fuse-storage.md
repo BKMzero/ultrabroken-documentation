@@ -14,23 +14,18 @@ tags: ["storage", "culling", "fuse"]
 _Mozz, pyuk - 30 June 2023_
 
 ## Summary
----
 A method of Fuse Storage using Area Culling
 
 `?`
 
 ## Instructions
----
 —
 
 ## Notes
----
 —
 
 ## Resources
----
 
 ## Related
----
 - [Fuse Storage](search:Fuse Storage)
 - [Object Culling](search:Object Culling)

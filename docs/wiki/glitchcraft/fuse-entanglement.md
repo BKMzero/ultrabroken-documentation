@@ -13,19 +13,16 @@ tags: ["equipment", "entanglement", "fuse", "shield"]
 # Fuse Entanglement
 
 ## Summary
----
 Allows your shield to have an effect on an object as though it is fused to the shield, despite the object existing in the world and not being tethered to your shield.
 
 _Physioninja - 24 May 2023_
 
 ## Instructions
----
 1. Activate the fuse rune.
 2. Whilst looking at your target, hold L until the rune selection menu almost appears, then press ZL, and let go of both buttons.
 3. Instantly after this, open the shield swap menu (d-pad left), and equip a different shield, this will override its fuse. (You can also achieve FE by zuggling a shield, fusing to it and then dropping the zuggled shield and pick up the shield with no fused item)
 
 ## Notes
----
 Springboarding
 Entanglement Height Glitch
 Pelison Duping
@@ -53,7 +50,6 @@ Throw method
 Recall a thrown object (needs to by thrown by an enemy), then fuse it
 
 ## Resources
----
 - [YouTube](https://www.youtube.com/watch?v=NdNGn2JYLrI)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1111050337822978138)
 - [Twitter](https://vxtwitter.com/_nan_gogh/status/1668449729305296899?s=46(Antighost)
@@ -61,5 +57,4 @@ Recall a thrown object (needs to by thrown by an enemy), then fuse it
 - [Discord](https://discord.com/channels/1086729144307564648/1128894970653327401/1148262809277313035)
 
 ## Related
----
 —

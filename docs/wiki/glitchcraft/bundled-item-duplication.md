@@ -13,13 +13,11 @@ tags: ["duplication", "item", "culling"]
 # Bundled Item Duplication
 
 ## Summary
----
 Culling dropping an item in a specific way and unloading it causes it to get put into a state of constantly respawning when holding another item, allowing for massive duping.
 
 _Ock - 12 December 2023_
 
 ## Instructions
----
 1. Setup sdc culling or like like stick culling (some locations are more consistent than others(look-out landing like likes are terrible))
 2. Hold an item 1 frame before link culls
 If you are having trouble with this method, there is an altenative method that removes the timing, but it requires getting specific cull luck:
@@ -35,16 +33,13 @@ Watch a memory to uncull, hold L during the memory and don't release it, wait 1 
 11. Pickup the items and repeat steps 9-11
 
 ## Notes
----
 —
 
 ## Resources
----
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1184150352174514308)
 - [YouTube](https://www.youtube.com/watch?v=WNnnI13a954)
 
 ## Related
----
 - [Memory Buffering](search:Memory Buffering)
 - [Object Culling](search:Object Culling)
 - [Stick Desync Clip](search:Stick Desync Clip)

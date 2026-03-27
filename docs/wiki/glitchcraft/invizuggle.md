@@ -13,13 +13,11 @@ tags: ["zuggling", "item", "equipment", "culling"]
 # Invizuggle
 
 ## Summary
----
 Dropping equipment in a specific way during a cull causes an indestructable and invisible zuggle.
 
 _Discovered by ock, Yee; Extension by mulberry - 3 January 2024_
 
 ## Instructions
----
 There are multiple methods:
 Methods 1 and 2 are obsolete, see Dpadlock-less Invizuggle for better options on 1.2.0+.
 
@@ -88,15 +86,12 @@ Methods 1 and 2 are obsolete, see Dpadlock-less Invizuggle for better options on
     9. Warp away
 
 ## Notes
----
 ### Todo
 - [ ] Add Method 5
 
 ## Resources
----
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1192403098753310770)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1195821216326488264)
 
 ## Related
----
 —

@@ -13,7 +13,6 @@ tags: ["item", "fuse", "arrow"]
 # Stack Splitting
 
 ## Summary
----
 Using an arrow fuse returning, it's possible to get two slots for one item
 
 _s0ft, Telkic, mulberry - 31 December 2024_
@@ -41,13 +40,10 @@ _s0ft, Telkic, mulberry - 31 December 2024_
     3. Pick up what you put on the ground.
 
 ## Notes
----
 Can lead to Split Item Duplication, a material duplication glitch
 
 ## Resources
----
 - [Discord](https://discord.com/channels/1086729144307564648/1110956205624532993/1323483601756622899)
 
 ## Related
----
 —

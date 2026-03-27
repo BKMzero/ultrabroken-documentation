@@ -6,16 +6,13 @@ title: "Fuse Entanglement Overview"
 _Basic stub_
 
 ## Introduction
----
 Fuse Entanglement refers to situations where two or more objects become bound so that actions on one affect the other. These behaviors are often central to advanced glitch setups and can enable or disable specific effects depending on the entangled pair producing persistent or shared behavior between entities.
 
 ## Quick Navigation
----
 - **[Fuse Entanglement Query](search: Fuse Entanglement)** - Search for glitches and setups revolving around Fuse Entanglement
 - **[Fuse Entanglement Library](./fuse-entanglement-library.md)** - Listed Fuse Entanglement Glitches
 
 ## What to expect in each writeup
----
 - **Trigger:** how to reproduce (inputs, positions, equipment)
 - **Requirements:** game version, objects, NPCs, devices
 - **Behavior:** observable effects and common outcomes

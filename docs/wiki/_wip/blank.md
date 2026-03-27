@@ -13,13 +13,11 @@ tags: ["entanglement", "culling", "ultrabroken", "zuggling"]
 # Glitch Name
 
 ## Summary
----
 Short overview
 
 _Credits - Day Month Year_
 
 ## Instructions
----
 ### Base Setup
 1. Step one
 2. Step two
@@ -29,7 +27,6 @@ _Credits - Day Month Year_
 2. Step two
 
 ## Notes
----
 ### Remarks
 Remarks
 
@@ -40,9 +37,7 @@ Additions
 Extensions
 
 ## Resources
----
 - [Link Title](Link URL)
 
 ## Related
----
 - [Searchbar Query](search:Searchbar Query)

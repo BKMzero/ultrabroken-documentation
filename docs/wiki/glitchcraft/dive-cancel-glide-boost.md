@@ -13,13 +13,11 @@ tags: ["animation", "paraglide"]
 # Dive Cancel Glide Boost
 
 ## Summary
----
 Allows you to preserve the increased speed from diving with the Glide Suit into paragliding
 
 _kurocat471, Mety333 - 14 May 2023_
 
 ## Instructions
----
 1. Skydive with the Glide Suit and get up to speed
 2. Cancel the dive with B, then immediately pull out the paraglider
 3. You should now be paragliding at increased speeds
@@ -27,15 +25,12 @@ _kurocat471, Mety333 - 14 May 2023_
 Note: You will slowly slow back down to regular paragliding speed if you don't repeat the glitch
 
 ## Notes
----
 Doesn't stack well with Tulin's ability. Can be maintained with Infinite Height.
 
 14 May 2023; 09 June 2023
 
 ## Resources
----
 - [YouTube](https://www.youtube.com/watch?v=oIzJKQAWPdI)
 
 ## Related
----
 —

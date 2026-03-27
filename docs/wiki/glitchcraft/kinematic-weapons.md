@@ -13,13 +13,11 @@ tags: ["equipment"]
 # Kinematic Weapons
 
 ## Summary
----
 Allows weapons with the 'kinematic' motion type to be obtained, which don't react to outside forces (making them movable only by certain techniques).
 
 _mulberry, dt13269; Optimizations by mulberry, Squidwest - 25 February 2026_
 
 ## Instructions
----
 
 All methods require a weapon currently held by a Depths Ghost, which will be referred to as the "target weapon" or "target".
 
@@ -120,7 +118,6 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
         12. Exit the ghost's spawn range, then return to the target weapon; it should regain interaction and remain floating
 
 ## Properties
----
 
 - Cannot be glued "from" (holding it/something attached to it), only "to" (holding something unattached to it)
 - Uses an effective mass of 1,000,000 for certain purposes, such as calculating glue strength
@@ -153,12 +150,10 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
     Warping causes a "sleep" on equipped items, which will undo this state! You can zuggle it to take it with you safely.
 
 ## Notes
----
 
 Version `1.0.0` lacks a check for whether the weapon is fused, making it impossible to take the weapon in a way that preserves the motion type.
 
 ## Resources
----
 - [Original discovery](https://discordapp.com/channels/1086729144307564648/1110956205624532993/1476367185642520639)
 - [Original Load Null Fuse Method](https://discord.com/channels/1086729144307564648/1110956205624532993/1476693921533923390)
 - [Pause-Cancel Method](https://discord.com/channels/1086729144307564648/1113557914444111873/1481259601495195739)
@@ -169,6 +164,5 @@ Version `1.0.0` lacks a check for whether the weapon is fused, making it impossi
 - [Temporary Ghosting Method](https://discord.com/channels/1086729144307564648/1113557914444111873/1481367458517487877)
 
 ## Related
----
 - [Zuggle Overload](search:Zuggle Overload)
 - [Mineru FE](search:Mineru Fuse Entanglement)

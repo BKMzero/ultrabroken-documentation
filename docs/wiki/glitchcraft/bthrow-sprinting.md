@@ -13,21 +13,16 @@ tags: ["sprinting"]
 # BThrow Sprinting
 
 ## Summary
----
 _12 May 2023_
 
 ## Instructions
----
 Press B - ZR - R - B (or B - R - ZR - B) and repeat
 
 ## Notes
----
 —
 
 ## Resources
----
 - [YouTube](https://www.youtube.com/watch?v=Mb8rgAwELYY)
 
 ## Related
----
 - [Sprint Methods](search:Sprint Methods)

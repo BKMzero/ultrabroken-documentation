@@ -13,24 +13,19 @@ tags: ["duplication", "oob"]
 # Laser-OOB
 
 ## Summary
----
 The game puts a floor inside Link
 
 _Xeryph - 13 May 2023_
 
 ## Instructions
----
 Go into a laser, slowly glide down, when the floor flips back up you are out of bounds
 
 ## Notes
----
 You need a laser nearby.
 
 ## Resources
----
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1107045488454279188)
 - [YouTube](https://www.youtube.com/watch?v=oBYBi8dqflI)
 
 ## Related
----
 —

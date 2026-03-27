@@ -11,7 +11,6 @@ This page provides a comprehensive guide for editors contributing to the Ultrabr
     [Contributing](#contributing) · [Frontmatter Reference](#frontmatter-reference) · [Site-Specific Features](#site-specific-features) · [Markdown Reference](#markdown-reference) · [Quick Reference](#quick-reference) · [See Also](#see-also)
 
 ## Contributing
----
 
 This is a community project — everyone is welcome to contribute even without a GitHub account. Join the discussion and post your discoveries in our **[dedicated Encyclopedia thread](https://discord.com/channels/1086729144307564648/1471224902890684557)** on the **[TotK Speedrunning Discord](https://discord.gg/xM8NnTetb2)**.
 
@@ -114,7 +113,6 @@ Prefer **relative links** for cross-references to other markdown pages or images
 
 
 ## Frontmatter Reference
----
 
 Every wiki page begins with YAML frontmatter between `---` delimiter lines. Here are all available fields:
 
@@ -214,7 +212,6 @@ The badge shown in the tab label is computed from the `versions` list:
 Platform tags like `"Switch 2"` are excluded from range computation and listed separately.
 
 ## Site-Specific Features
----
 
 These are site-specific enhancements beyond standard Markdown.
 
@@ -345,7 +342,6 @@ The first mention of any glitch's name, label, or alias in paragraph text is aut
 To mention a glitch without triggering a link, wrap it in a code span (`` `ETS` ``) or an explicit link. To suppress a link entirely, check that the `label` or `aliases` values are not accidentally matching unrelated text.
 
 ## Markdown Reference
----
 
 ### Headings
 
@@ -1027,7 +1023,6 @@ graph TD
 - **Reset**: Return to default zoom and center
 
 ## Quick Reference
----
 
 | Extension | Purpose | Key Syntax |
 ||||
@@ -1045,7 +1040,6 @@ graph TD
 | **Mermaid** | Diagrams & flowcharts | \`\`\`mermaid graph TD \`\`\` |
 
 ## Extension Configuration
----
 
 All extensions are defined in `mkdocs.yml`:
 
@@ -1072,7 +1066,6 @@ markdown_extensions:
 ```
 
 ## See Also
----
 
 - [MkDocs Material Documentation](https://squidfunk.github.io/mkdocs-material/)
 - [Python-Markdown Extensions](https://python-markdown.github.io/extensions/)

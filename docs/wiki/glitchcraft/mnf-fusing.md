@@ -13,13 +13,11 @@ tags: ["fuse", "mnf"]
 # MNF Fusing
 
 ## Summary
----
 Allows you to fuse to the MNF
 
 _LegendofLinkk - 5 June 2023_
 
 ## Instructions
----
 1. Equip your unfused MNF and drop the desired fuse in front of Link
 2. Activate Fuse and open the inventory
 3. Drop the MNF and equip any other unfused weapon
@@ -27,13 +25,10 @@ _LegendofLinkk - 5 June 2023_
 5. If the equipped weapon has an invisble fuse, and the MNF is now named "" instead of "MsgNotFound" on the ground, pick up the MNF, if not, retry
 
 ## Notes
----
 —
 
 ## Resources
----
 - [YouTube](https://www.youtube.com/watch?v=n2nP6FNjEPI)
 
 ## Related
----
 —

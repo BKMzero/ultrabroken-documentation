@@ -12,13 +12,11 @@ tags: ["despawn interrupt","fuse","equipment"]
 # Glitch Name
 
 ## Summary
----
 Using despawn iterrupt, it is possible to create an infinite pocket rocket anywhere
 
 _mulberry - 22 January 2026_
 
 ## Instructions
----
 ### Base Setup
 1. Setup zuggle overload
 2. Make an EDI shield
@@ -28,7 +26,6 @@ _mulberry - 22 January 2026_
 6. The shield will now be an IPR shield as long as you bring A with you.
 
 ## Notes
----
 ### Remarks
 Remarks
 
@@ -50,12 +47,10 @@ Frox enemy IPR, a frox IPR setup with an enemy that gives a pocket rocket that h
 11. Send the weapon to culled purgatory or recall lock it to give the IPR infinite range
 
 ## Resources
----
 -
 - [Original Discovery](https://discordapp.com/channels/1086729144307564648/1113557914444111873/1464038378734485647)
 - [Frox enemy IPR discovery](https://discordapp.com/channels/1086729144307564648/1113557914444111873/1464469213837267006)
 
 ## Related
----
 - [Frox items](search:Despawn Iterrupt)
 - [Fuse entanglement](search:fuse entaglement)

@@ -13,13 +13,11 @@ tags: ["duplication", "menu", "buff", "zonai"]
 # Zonai Inventory Shift Dupe
 
 ## Summary
----
 Uses Memory Buffering and MTD to duplicate Zonai Devices
 
 _Ryan?, quantim - 10 July 2023_
 
 ## Instructions
----
 Requirements: Have 1 of a Zonai Device to throw Have 10 of another Zonai Device
 have at least 1 of the Zonai Device you want to dupe, make sure it is immediately after the Zonai Device you have 10 of (ie. to the right in pause menu)
 
@@ -33,13 +31,10 @@ Steps:
 6. Go back to Zonai Devices Tab (Press +) and exit the menu
 
 ## Notes
----
 —
 
 ## Resources
----
 - [Twitter](https://twitter.com/quantim/status/1678509305044115458?s=46)
 
 ## Related
----
 —

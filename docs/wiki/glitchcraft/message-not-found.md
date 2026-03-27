@@ -13,13 +13,11 @@ tags: ["mnf"]
 # Message Not Found
 
 ## Summary
----
 Allows you to obtain the prologue master sword (named MsgNotFound or MNF), whose durability cannot decrease.
 
 _LegendofLinkk (Zuggle Method), Abahbob (SLD Method) - 17 May 2023_
 
 ## Instructions
----
 There are 2 methods to obtain the MNF on 1.0-1.1.1: (Watch videos for more info) 
 === "SLD Method (recommended)"
     1. Go to the In-Isa shrine (Fuse shrine) 
@@ -41,11 +39,9 @@ There are 2 methods to obtain the MNF on 1.0-1.1.1: (Watch videos for more info)
     7. Load the save in which you want to have the MNF
 
 ## Notes
----
 This MNF can be powered up further! See WST or Unload WST for the method
 
 ## Resources
----
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1108369158237859902)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1108527513203912794)
 - [YouTube](https://www.youtube.com/watch?v=8mEBVQNCkns)
@@ -54,5 +50,4 @@ This MNF can be powered up further! See WST or Unload WST for the method
 - [Zocument](https://docs.google.com/document/d/1-BeufJtao2cG5ABG0ZDEUX1SbgQwc_89n7C0VZjPAdI/edit?usp=sharing)
 
 ## Related
----
 —

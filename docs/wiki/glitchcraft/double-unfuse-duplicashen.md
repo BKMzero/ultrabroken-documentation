@@ -13,13 +13,11 @@ tags: ["duplication", "item", "weapon", "fuse", "arrow"]
 # Double Unfuse Duplicashen
 
 ## Summary
----
 Allows you to duplicate any material that can be fused to an arrow, including Zonai Devices.
 
 _鯉神 (Li Shen) - 15 May 2023_
 
 ## Instructions
----
 
 !!! note "Consistently inconsistent"
     This glitch relies on the processing order of the bows involved. The order can be manipulated to an extent, but there is always a degree of randomness. All methods will be more reliable with fewer things loaded.
@@ -73,16 +71,13 @@ _鯉神 (Li Shen) - 15 May 2023_
         The more bows you Drop Zuggle, the higher the chance of success, including the chance of getting several dupes at once.
 
 ## Notes
----
 Generally not worthwhile over faster duping methods, except in special circumstances, or for select Zonai Devices which are hard/impossible to find in dispensers.
 
 ## Resources
----
 - [Bilibili](https://www.bilibili.com/video/BV19h4y147iR/)
 - [YouTube](https://www.youtube.com/watch?v=0sRvQzU2j5w)
 - [Discord](https://discord.com/channels/1086729144307564648/1110956205624532993/1479640116569047100)
 - [Discord](https://discord.com/channels/1086729144307564648/1110956205624532993/1479644906409689189)
 
 ## Related
----
 —

@@ -13,13 +13,11 @@ tags: ["duplication", "item", "culling", "zonai"]
 # Chasm Device Dupe
 
 ## Summary
----
 Unloads throwable items in a way that allows them to be duped by picking them up from Link's hand, most notably zonai capsules
 
 _Telkic, mulberry - 12 October 2025_
 
 ## Instructions
----
 1. Prepare portacull item
 2. Go into any chasm, make sure you are deep enough that portaculling triggers a chasm load
 3. Hold R, select the item you want to throw using d-pad up, and spam d-pad left/right to re-enter the quick menu without unpausing
@@ -27,14 +25,11 @@ _Telkic, mulberry - 12 October 2025_
 5. When the chasm load ends, immediately re-select the held item with d-pad up and pick it up
 
 ## Notes
----
 Can be performed without portacull by positioning Link underneath the chasm boundary (see example clip), or with ocklusion
 
 ## Resources
----
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1427101045816823809)
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1427320782274691073)
 
 ## Related
----
 - [Portable Culling](search:Portable Culling)

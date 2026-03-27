@@ -5,14 +5,12 @@ title: "Ultrabroken Exceptions"
 # Exceptions to Ultrabroken
 
 ## Objects That Refuse to Break
----
 
 There is one specific object that refuses to be Ultrabroken:
 
 - **The Stake** - Cannot be made Ultrabroken through the standard procedure
 
 ## Protection Methods
----
 
 It is possible to protect objects from being Ultrabroken by:
 

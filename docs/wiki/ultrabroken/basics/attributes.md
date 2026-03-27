@@ -5,7 +5,6 @@ title: "Ultrabroken Object Attributes"
 # Attributes of Ultrabroken Objects
 
 ## Instructions Identify Them
----
 
 Ultrabroken Objects can be easily identified through the use of the Ultrahand ability. Both visual and gameplay-related characteristics serve as indicators.
 

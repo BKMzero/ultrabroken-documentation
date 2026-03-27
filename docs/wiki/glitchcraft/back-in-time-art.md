@@ -13,13 +13,11 @@ tags: ["save-load"]
 # Back-in-Time Art
 
 ## Summary
----
 Transfers the picture in Link's House to a previous save. Is also capable of transferring compendium pictures.
 
 _R4000, Zas - 18 June 2023; 16 August 2023_
 
 ## Instructions
----
 Picture in Link's house (R4000):
 
 1. Change the painting in Link's house to a different painting
@@ -31,14 +29,11 @@ Compendium pictures (Zas):
 2. Load your destination file
 
 ## Notes
----
 —
 
 ## Resources
----
 - [YouTube](https://www.youtube.com/watch?v=DWA_cTNykyo)
 - [Twitter](https://vxtwitter.com/zasbotw/status/1692295854173167930)
 
 ## Related
----
 —

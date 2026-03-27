@@ -13,13 +13,11 @@ tags: ["zuggling", "equipment", "ultrahand", "shield"]
 # Ultrabroken Smuggling
 
 ## Summary
----
 Makes an FE'd object follow the shield.
 
 _The_Andromeda - 13 June 2023_
 
 ## Instructions
----
 1. FE an object to a shield
 2. Drop your FE shield and Ultrahand it to the object 
 3. Perform Ultrabroken with that object
@@ -32,16 +30,13 @@ _The_Andromeda - 13 June 2023_
 10. Pick up the shield again
 
 ## Notes
----
 —
 
 ## Resources
----
 - [Twitter](https://twitter.com/goghnan/status/1668671033874821139?s=46)
 - [Twitter](https://twitter.com/goghnan/status/1668693248913580049?s=46)
 - [Twitter](https://twitter.com/goghnan/status/1668671033874821139?s=46)
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1118059019974737922)
 
 ## Related
----
 - [Ultrabroken](search:Ultrabroken)

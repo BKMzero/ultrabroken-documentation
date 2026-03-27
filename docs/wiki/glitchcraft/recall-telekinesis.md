@@ -13,13 +13,11 @@ tags: ["recall", "ultrahand"]
 # Recall Telekinesis
 
 ## Summary
----
 Control recall locks or freecalls remotely by placing an object in any relative position you want them to go to.
 
 _suusi - 30 September 2025_
 
 ## Instructions
----
 ### Basic Setup:
 1. Freecall or recall lock any object.
 2. Position a reference object (e.g., a hoverstone).
@@ -35,14 +33,11 @@ Same as above but permacull the freecall/recall lock after gluing it by either i
 - Shrine (banc) storage
 
 ## Notes
----
 Warning: do not recall the glued-to object as that will break the glitch.
 
 ## Resources
----
 - [Example](https://www.youtube.com/watch?v=c2AYIj2G8mE)
 
 ## Related
----
 - [Recall Lock](search:Recall Lock)
 - [Freecall](search:Freecall)

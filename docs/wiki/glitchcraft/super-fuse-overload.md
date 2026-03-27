@@ -13,13 +13,11 @@ tags: ["weapon", "overload", "fuse", "mineru"]
 # Super Fuse Overload
 
 ## Summary
----
 Allows you to get Zelda's torch and Mineru's arm.
 
 _Discovered by mulberry, Aergyl; optimizations by Jordan, MandelbrotChaylay, mulberry - 6 December 2025_
 
 ## Instructions
----
 ### Prerequisites
 If you wish to steal mineru's arm, make an autosave in the tunnel to ganondorf, right next to the army trigger. If you wish to steal zelda's torch, make an autosave anywhere in the prologue. If you wish to use SFO to duplicate zonai devices, make a save directly next to a minigame NPC
 
@@ -82,7 +80,6 @@ If you wish to steal mineru's arm, make an autosave in the tunnel to ganondorf, 
 10. Save quickly
 
 ## Notes
----
 The main method of achieving SFO involves making ~20 Fuse Overload-ed PSLOTted pieces of equipment, which can be done using Despawn Interrupt (DI). It is recommended that you first learn how to maneuver useful glitches (Smuggle, Zuggle, FE, ...) on DI equipment.
 
 - SFO really likes to crash the game, so try to minimize the number of things you do in the overloaded state
@@ -91,12 +88,10 @@ The main method of achieving SFO involves making ~20 Fuse Overload-ed PSLOTted p
 - Mineru's arm always fail drops unless link is in the air, which is good for zuggling and other glitches
 
 ## Resources
----
 - [Spreadsheet link](https://docs.google.com/spreadsheets/d/1xNB1gOLZRSF9yp1mHUsS9ymogRJa1Wz8rTliTXezeRM/edit?pli=1&hl=de&gid=0#gid=0&range=293:293)
 - [SFO discovery](https://discordapp.com/channels/1086729144307564648/1110956205624532993/1446913364268683395)
 - [Tahata's outdated guide for mineru's arm](https://www.youtube.com/watch?v=R9azQV9lwJk)
 
 ## Related
----
 - [Dpadlock-Less Invizuggle](search:Dpadlock-Less Invizuggle)
 - [Despawn Interrupt](search:Despawn Interrupt)

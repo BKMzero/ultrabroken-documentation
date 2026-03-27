@@ -13,25 +13,20 @@ tags: ["culling"]
 # Pyroculling
 
 ## Summary
----
 The fire from a fire emitter prevents objects in a cull area from culling until the game is paused (also works with ice emitters)
 
 _Robuxy2nd - 17 November 2023_
 
 ## Instructions
----
 Place the object(s) in a culling area, then activate a fire emitter and place it so that the fire comes in contact with the object. After getting outside the culling area, the object(s) in the fire will only cull once a pause is triggered (menu, DPad, L Wheel, etc).
 
 ## Notes
----
 —
 
 ## Resources
----
 - [Discord](https://discord.com/channels/1111875355758837830/1128775917376897145/1175099874174320761)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1331804343250190368)
 - [Discord](https://discordapp.com/channels/1086729144307564648/1105598687167664239/1332778636750749837)
 
 ## Related
----
 - [Object Culling](search:Object Culling)

@@ -13,14 +13,12 @@ tags: ["item", "despawn", "fuse", "culling"]
 # Ghost Despawn Interrupt
 
 ## Summary
----
 
 Eaten DI equipment passes an Eaten death down to newly-fused children (_if_ the main parent is DI), which can itself be interrupted. This causes the "Ghost DI" state, which has additional properties over the standard Eaten DI state.
 
 _Discovered by mulberry; methods, optimizations, and properties found by Aergyl, mulberry, Squidwest - Jan 16, 2026_
 
 ## Instructions
----
 
 === "Full Fuse Methods"
 
@@ -146,7 +144,6 @@ _Discovered by mulberry; methods, optimizations, and properties found by Aergyl,
     Warping causes a "sleep" on equipped items, which will undo this state! You can zuggle it to take it with you safely.
 
 ## Notes
----
 
 - Due to the requirement that the _Main_ parent of the target be DI, the despawn can be prevented by fusing it in a way that makes another item the main parent
 - In addition, it can be _delayed_ by providing the target with additional CF parent(s) before performing most methods; the despawn can be triggered **at will** by deleting these additional parents
@@ -167,9 +164,7 @@ Additions
 Extensions
 
 ## Resources
----
 - [Link Title](Link URL)
 
 ## Related
----
 - [Searchbar Query](search:Searchbar Query)

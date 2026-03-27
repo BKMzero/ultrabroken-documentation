@@ -13,7 +13,6 @@ tags: ["zonai"]
 # Attached Rangeless Active Zonai
 
 ## Summary
----
 Is very similar to DRAZ but differs slightly.
 
 _Ryan?, NX - 16 June 2023; 15 July 2023_
@@ -44,15 +43,12 @@ _Ryan?, NX - 16 June 2023; 15 July 2023_
     4. Either be close towards the shield (So it doesn't despawn), or simply use Autobuild Slide Cancel to keep it near you
 
 ## Notes
----
 Can use certain Zonai devices that DRAZ cannot
 
 Can be kept permanently active via GAS and can be zuggled for transferring/other zuggle-related things
 
 ## Resources
----
 
 ## Related
----
 - [Fuse Entanglement](search:Fuse Entanglement)
 - [Zuggling](search:Zuggling)

@@ -13,22 +13,17 @@ tags: ["sprinting"]
 # Extended Throw Sprinting
 
 ## Summary
----
 _briochoc - 12 May 2023_
 
 ## Instructions
----
 Hold B, tap R, repeat
 
 ## Notes
----
 —
 
 ## Resources
----
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1106610982379323492)
 - [YouTube](https://www.youtube.com/watch?v=uM4o7rmSbwc)
 
 ## Related
----
 —

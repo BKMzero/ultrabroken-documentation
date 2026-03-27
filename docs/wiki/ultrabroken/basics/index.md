@@ -7,7 +7,6 @@ title: "Ultrabroken Core Mechanic"
 Welcome to the foundation of the Ultrabroken phenomenon. This section covers everything you need to understand the core mechanic before exploring its effects.
 
 ## Sections
----
 
 - **[Introduction](introduction.md)** - What is Ultrabroken?
 - **[Zorona & Kairo](introduction.md#zorona-and-kairo)** - Meet the Riverside Trolls

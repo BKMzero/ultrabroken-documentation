@@ -13,13 +13,11 @@ tags: ["item", "equipment", "ultrahand", "despawn"]
 # Void Dipping
 
 ## Summary
----
 An extremely powerful equipment state caused by interrupting the fadeout of an equipment item that has been destroyed by the void, then retrieving it.
 
 _Squidwest, mulberry, Aergyl - 29 December 2025_
 
 ## Methodology
----
 All methods follow the same general pattern:
 
 - Make a target equipment item enter a Voidout
@@ -109,7 +107,6 @@ There are many viable methods. Variants of three of the most popular are given i
     - Use Aeroculling to phase Link, then [Overload Drop](zuggle-overload.md) the target into a voidout
 
 ## Notes
----
 ### Void Dipped equipment properties
 - Uninteractable by runes, including fusing directly to it
 - Cannot lose durability, but can break if it is thrown at low durability and strikes terrain
@@ -122,14 +119,12 @@ There are many viable methods. Variants of three of the most popular are given i
     Warping causes a "sleep" on equipped items, which will undo this state! You can [zuggle](map-zuggling.md) it to take it with you safely.
 
 ## Related
----
 - [Portable Culling](search:Portable Culling)
 - [Fuse Entanglement](search:Fuse Entanglement)
 - [Zuggle Overload](search:Zuggle Overload)
 - [Aeroculling](search:Aeroculling)
 
 ## Resources and References
----
 ??? quote "Discord Resources"
 
     - [Initial Discovery](https://discord.com/channels/1111875355758837830/1128775917376897145/1455340505096261796) (TotK Speedrunning Discord)

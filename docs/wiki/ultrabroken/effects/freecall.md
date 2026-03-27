@@ -7,12 +7,10 @@ title: "Ultrabroken Freecall"
 *Discovered by suusi*
 
 ## Description
----
 
 Fancy text coming soon.
 
 ## Exemplary Setup
----
 
 ### Requirements
 

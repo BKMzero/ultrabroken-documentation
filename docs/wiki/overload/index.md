@@ -6,15 +6,12 @@ title: "Overload Overview"
 _Basic stub_
 
 ## Introduction
----
 Overload covers techniques that intentionally push UI, item, effect, or rendering subsystems beyond their normal limits — for example by stacking items, repeatedly zuggling, triggering menu/MNF overloads, or flooding effects (shock emitters, fences). Overload outcomes include visual/texture glitches, persistent glow or animation amplification, menu corruption, overloaded memory (lag/crashes), and interactions that enable other glitches (OOB, desync, duplication). These methods are powerful for exploration and glitch chaining.
 
 ## Quick Navigation
----
 - **[Overload Query](search: Overload)** - Search for glitches and setups revolving around Overload
 
 ## What to expect in each writeup
----
 - **Trigger:** how to reproduce (inputs, positions, equipment)
 - **Requirements:** game version, objects, NPCs, devices
 - **Behavior:** observable effects and common outcomes

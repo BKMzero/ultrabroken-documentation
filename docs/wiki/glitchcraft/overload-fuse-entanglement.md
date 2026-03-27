@@ -13,13 +13,11 @@ tags: ["zuggling", "entanglement", "culling", "overload", "fuse"]
 # Overload Fuse Entanglement
 
 ## Summary
----
 Allows for full fuse entanglement by combining portable culling with the mechanics of zuggle overload.
 
 _mulberry - 23 July 2024_
 
 ## Instructions
----
 1. Perform Zuggle Overload
 2. Overload cold fuse a steering stick to a weapon/shield, SDC with it, and fuse it to a different weapon/shield to setup portable culling
 3. Overload drop the item you want to FE to (cannot be the same type as portacull equipment), portacull SLD the target item without loading a save at the end
@@ -29,14 +27,11 @@ _mulberry - 23 July 2024_
 7. Unequip overload drop, pickup drop zuggled item, and drop it with Link's back to a wall
 
 ## Notes
----
 —
 
 ## Resources
----
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1265367839997693993)
 
 ## Related
----
 - [Zuggle Overload](search:Zuggle Overload)
 - [Portable Culling](search:Portable Culling)

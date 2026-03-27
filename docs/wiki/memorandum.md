@@ -5,7 +5,6 @@ title: Memorandum
 # Memorandum
 
 ## Archivists
----
 This archive would not exist without the dedicated work of community archivists who compile, verify, and format glitch reports into a cohesive knowledge base.
 
 - **NaN Gogh** — Curator of this documentation and primary author of the Ultrabroken section
@@ -16,7 +15,6 @@ This archive would not exist without the dedicated work of community archivists 
 - **Pearfalse** — Lead archivist
 
 ## Spreadsheet Managers
----
 The backbone of community glitch research: the curators who maintain and organize the canonical glitch spreadsheet, validate discoveries, manage attribution, and ensure data integrity.
 
 - **jem** - Creator of the canonical TotK Glitch Spreadsheet
@@ -45,7 +43,6 @@ The backbone of community glitch research: the curators who maintain and organiz
 - **BigDUCCO**
 
 ## Informants
----
 Special thanks to everyone helping with feedback, advice and informatiom.
 
 - **greninja**
@@ -54,7 +51,6 @@ Special thanks to everyone helping with feedback, advice and informatiom.
 - **Yoda39**
 
 ## Dataminers & Game researchers
----
 Where scratching the surface is not enough, they mine deeper to learn Hylias language and share the wisdom.
 
 - **Watertoon**
@@ -63,7 +59,6 @@ Where scratching the surface is not enough, they mine deeper to learn Hylias lan
 - **dt13269**
 
 ## Communities
----
 The glitch hunting, speedrunning, and research communities that made this documentation possible through collaborative investigation and discovery.
 
 - **[Zelda: Tears of the Kingdom Speedrunning](https://discord.gg/xM8NnTetb2)** — Primary spreadsheet curation and glitch hunting Discord community
@@ -72,7 +67,6 @@ The glitch hunting, speedrunning, and research communities that made this docume
 - **[TotK グリッチ鯖](https://discord.gg/SQXkjxRazk)** — Japanese TotK glitch research Discord community
 
 ## Glitch Hunters & Contributors
----
 <!-- LEADERBOARD_START -->
 <div id="leaderboard-root">
 <noscript><p>This section requires JavaScript to display.</p></noscript>

@@ -13,13 +13,11 @@ tags: ["duplication", "desync", "item", "entanglement", "fuse"]
 # Fuse Entanglement Desync
 
 ## Summary
----
 Allows you to transfer the fuse and durability from one weapon to another. You can also decide to dupe the weapon or the fused material.
 
 _Physioninja - 26 May 2023_
 
 ## Instructions
----
 Needed: Target item, donor item and extra shield (2 extras if weapon/bow).
 
 1. Drop donor and target items on ground
@@ -38,14 +36,11 @@ Needed: Target item, donor item and extra shield (2 extras if weapon/bow).
 Unfuse your shield at Tarrey Town to get a modifier-less copy of the target
 
 ## Notes
----
 Weapon State Transfer
 this does not wst on 1.0.0
 
 ## Resources
----
 - [YouTube](https://www.youtube.com/watch?v=E3nDTPL6IdU)
 
 ## Related
----
 - [Fuse Entanglement](search:Fuse Entanglement)

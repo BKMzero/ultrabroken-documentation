@@ -13,22 +13,17 @@ tags: ["sprinting"]
 # Throw Tap Sprinting
 
 ## Summary
----
 _Deystroyer, Tauktes - 14 May 2023_
 
 ## Instructions
----
 Tap B - R - B, repeat
 
 ## Notes
----
 Currently infinite
 
 ## Resources
----
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1107413221545087028)
 - [YouTube](https://www.youtube.com/watch?v=2HAEDydIqr8)
 
 ## Related
----
 - [Sprint Methods](search:Sprint Methods)

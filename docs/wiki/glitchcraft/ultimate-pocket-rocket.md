@@ -13,13 +13,11 @@ tags: ["launching", "warping", "ultrahand"]
 # Ultimate Pocket Rocket
 
 ## Summary
----
 A pocket rocket which does not break on warps or drain energy cells, and has unlimited usage and range
 
 _Aergyl, mulberry, Ikaboze, Jordan - 20 May 2025_
 
 ## Instructions
----
 1. Fuse entangle a weapon on one durability (with no remaining fuse durability), to a shield
 2. Pickup the weapon and map zuggle it near a moblin without putting Link's back to a wall so it falls on the ground
 3. Equip a different weapon and smuggle it, ensure no other weapons are equipped
@@ -37,16 +35,13 @@ _Aergyl, mulberry, Ikaboze, Jordan - 20 May 2025_
 15. Move away from the moblin until it unloads, then warp anywhere
 
 ## Notes
----
 —
 
 ## Resources
----
 - [Discord](https://discordapp.com/channels/1086729144307564648/1110956205624532993/1374486971551973386)
 - [YouTube](https://www.youtube.com/watch?v=PPyR-ipbhbE)
 
 ## Related
----
 - [Fuse Entanglement](search:Fuse Entanglement)
 - [Pocket Rocket](search:Pocket Rocket)
 - [Equipment Smuggle](search:Equipment Smuggle)

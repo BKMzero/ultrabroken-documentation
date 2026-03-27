@@ -13,7 +13,6 @@ tags: ["storage", "warping", "save-load", "bloodmoon"]
 # Banc Storage
 
 ## Summary
----
 Using memory interrupt, it's possible to store a banc change (shrine entry/exit, warp, panic blood moon, etc) to another save file.
 
 _Lightos, mulberry, Aergyl - October 1st, 2024_
@@ -49,15 +48,12 @@ _Lightos, mulberry, Aergyl - October 1st, 2024_
     18. You will end up on the title screen. Load whatever file you would like to store the shrine entry to.
 
 ## Notes
----
 —
 
 ## Resources
----
 - [Discord](https://discord.com/channels/1086729144307564648/1110956205624532993/1290703223467937898)
 - [Video guide to the 1.0 method](https://www.youtube.com/watch?v=RmjZKVGvstE)
 - [Demonstration of the 1.4.2 method](https://www.youtube.com/watch?v=EP8FkHYkqks)
 
 ## Related
----
 —

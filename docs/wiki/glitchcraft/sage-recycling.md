@@ -13,24 +13,19 @@ tags: ["duplication", "tulin"]
 # Sage Recycling
 
 ## Summary
----
 Resets the cooldown of tulin or sidon.
 
 _Knight7108 and Candlelor - 28 May 2023_
 
 ## Instructions
----
 1. Shield surf 
 2. Use the ability mid surf
 
 ## Notes
----
 SRC with tulin might be frame perfect
 
 ## Resources
----
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1128385969620533329)
 
 ## Related
----
 —

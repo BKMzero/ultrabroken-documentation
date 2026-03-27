@@ -13,13 +13,11 @@ tags: ["gas"]
 # Anti-Gravity GAS
 
 ## Summary
----
 Allows for weapon GAS by throwing the base of an ARAZ connection just as Link gets shocked
 
 _mulberry - 22 January 2025_
 
 ## Instructions
----
 1. Zuggle a weapon and equip a different weapon over it
 2. Fuse the target zonai device to the equipped weapon
 3. Drop the equipped weapon and pickup the previously zuggled weapon
@@ -28,15 +26,12 @@ _mulberry - 22 January 2025_
 6. Open the inventory and unequip the pause menu
 
 ## Notes
----
 —
 
 ## Resources
----
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1331788286011904123)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1331789466683052175)
 
 ## Related
----
 - [AntiGrav Weapons](search:AntiGrav Weapons)
 - [Zuggle](search:Zuggle)

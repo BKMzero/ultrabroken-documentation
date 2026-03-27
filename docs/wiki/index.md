@@ -5,7 +5,6 @@ title: Glitch Encyclopedia
 # The Legend of Zelda: Tears of the Kingdom — Glitch Encyclopedia
 
 ## Welcome
----
 This site is a community-driven encyclopedia of glitches, techniques, and investigations for The Legend of Zelda: Tears of the Kingdom — browse by section or search directly. If you have a specific question, you may ask The Librarian below but always take its words with [a grain of salt](about.md#ai-search).
 
 <div id="ai-search-root"></div>

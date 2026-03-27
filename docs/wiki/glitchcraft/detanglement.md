@@ -13,18 +13,15 @@ tags: ["launching", "equipment", "fuse", "shield"]
 # Detanglement
 
 ## Summary
----
 Using a rocket shield disconnects fuse-entangled objects from their source equipment without destroying the object.
 
 _Zas - 9 September 2023_
 
 ## Instructions
----
 1. Zuggle a shield that has something fuse entangled to it
 2. Use a rocket shield
 
 ## Notes
----
 Can be used to detangle wuggled equipment, turning it into a true zuggle.
 
 Fuse entangling a detangled object and dropping the shield will delete it.
@@ -32,11 +29,9 @@ Fuse entangling a detangled object and dropping the shield will delete it.
 Objects fuse entangled to Mineru can be detangled by fusing another object over the same slot as the target object.
 
 ## Resources
----
 - [Twitter](https://vxtwitter.com/zasbotw/status/1700578075816403202)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1150136975504982167)
 
 ## Related
----
 - [Zuggling](search:Zuggling)
 - [Fuse Entanglement](search:Fuse Entanglement)

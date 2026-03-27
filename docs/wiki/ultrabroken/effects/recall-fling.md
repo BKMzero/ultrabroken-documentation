@@ -7,12 +7,10 @@ title: "Ultrabroken Recall Fling"
 *Discovered by Lafoscony, optimized by NaN Gogh*
 
 ## Description
----
 
 The Recall Fling is yet another seemingly disadvantageous Ultrabroken Effect. It arises when an Ultrabroken Object that has another object attached to it is subjected to the Recall ability. However, there are several exceptions to this rule, with one of the most notable being the case of Steering Sticks when Link is standing on them.
 
 ## Exemplary Setup
----
 
 ### Requirements
 
@@ -35,7 +33,6 @@ The Recall Fling is yet another seemingly disadvantageous Ultrabroken Effect. It
 11. Use Recall on the Ultrabroken Zonai Cart
 
 ## Termination
----
 
 - Exceed the Distance Unload Radius of the Ultrabroken Object
 - Trigger a dialogue or cutscene that deletes objects while an Ultrabroken Object is nearby

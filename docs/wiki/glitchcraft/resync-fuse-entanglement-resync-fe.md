@@ -13,13 +13,11 @@ tags: ["item", "entanglement", "fuse"]
 # Resync Fuse Entanglement
 
 ## Summary
----
 "Fe'ing" with a drop swap drop and then pausing to mess with the fuse prevents a full fuse and causes FE
 
 _Zas - 18 December 2023_
 
 ## Instructions
----
 === "Method 1"
     1. Face links back against a wall and target the child with fuse
     2. Pause
@@ -52,13 +50,10 @@ _Zas - 18 December 2023_
     9. Unpause
 
 ## Notes
----
 —
 
 ## Resources
----
 - [Twitter](https://vxtwitter.com/zasbotw/status/1736818709677977998)
 
 ## Related
----
 —

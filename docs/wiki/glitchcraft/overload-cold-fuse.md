@@ -13,26 +13,21 @@ tags: ["item", "weapon", "overload", "fuse"]
 # Overload Cold Fuse
 
 ## Summary
----
 Fusing to an overload dropped item causes cold fuse
 
 _F. Buffalo - 23 July 2023_
 
 ## Instructions
----
 1. Zuggle Overload
 2. overload drop a weapon/shield
 3. fuse it to the opposite equippment type
 4. fuse the target object to the drop smuggled equippment type
 
 ## Notes
----
 —
 
 ## Resources
----
 - [Twitter](https://fxtwitter.com/FBuffalo3/status/1683255977758584832)
 
 ## Related
----
 - [Zuggle Overload](search:Zuggle Overload)

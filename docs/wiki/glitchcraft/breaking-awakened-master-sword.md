@@ -13,7 +13,6 @@ tags: ["weapon"]
 # Breaking Awakened Master Sword
 
 ## Summary
----
 By using certain setups, it is possible to ignore the no durability use.
 
 _Infrasolid - 26 November 2023_
@@ -34,13 +33,10 @@ _Infrasolid - 26 November 2023_
     4. Press Y
 
 ## Notes
----
 —
 
 ## Resources
----
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1178449991786827928)
 
 ## Related
----
 - [Awakened Master Sword](search:Awakened Master Sword)

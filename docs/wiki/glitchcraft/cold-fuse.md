@@ -13,19 +13,16 @@ tags: ["weapon", "equipment", "fuse", "shield"]
 # Cold Fuse
 
 ## Summary
----
 Interrupting a fuse causes null fe without destroying the connection to the weapon/shield.
 
 _pyuk, Ryan?, Zas - 23 July 2023_
 
 ## Instructions
----
 Overload Cold Fuse
 Shock Cold Fuse
 Cull Cold Fuse
 
 ## Notes
----
 Auto Fe:
 Fusing a cold fused object to its base causes fuse entanglement
 (aka closing the cold fe loop)
@@ -42,11 +39,9 @@ Combining pseudo fuse with purgatory items allows you to store multiple objects 
 Discord (mulberry)
 
 ## Resources
----
 - [Twitter](https://fxtwitter.com/FBuffalo3/status/1683255977758584832)
 
 ## Related
----
 - [Zuggle Overload](search:Zuggle OverloadD)
 - [Drop Smuggling](search:Drop Smuggling)
 - [Object Culling](search:Object Culling)

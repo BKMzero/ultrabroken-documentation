@@ -13,13 +13,11 @@ tags: ["despawn-interrupt", "culling"]
 # Batch DI
 
 ## Summary
----
 Some of the properties of DI Ghosts (typically equipment, sometimes otherwise) are best exploited with large numbers of them. This page provides various convenient ways to produce large numbers of them.
 
 _Credits - See individual methods_
 
 ## Instructions
----
 
 Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all applicable methods will be given with both an all-versions variant and a variant specific to 1.2.0 and up.
 
@@ -335,7 +333,6 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
     _Batch methods developed by Squidwest - Mar 05, 2026_
 
 ## Notes
----
 
 - Due to the difference in resulting structure, these methods are usually _not_ interchangable
 
@@ -346,9 +343,7 @@ Additions
 Extensions
 
 ## Resources
----
 - [Link Title](Link URL)
 
 ## Related
----
 - [Searchbar Query](search:Searchbar Query)

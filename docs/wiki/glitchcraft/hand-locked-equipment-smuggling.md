@@ -13,13 +13,11 @@ tags: ["zuggling", "equipment", "item", "shield"]
 # Hand Locked Equipment Smuggling
 
 ## Summary
----
 Allows you to smuggle equipment only when your hands are busy.
 
 _Aeolian - 11 July 2023_
 
 ## Instructions
----
 1. Stand next to a wall facing away from it
 2. Equip a bow/shield/weapon (this one wont get smuggled)
 3. Make sure the equipment is in your hands
@@ -28,13 +26,10 @@ _Aeolian - 11 July 2023_
 6. Hold any material
 
 ## Notes
----
 Hand locked smuggling can also be performed using runes, two handed weapon and hold throw
 
 ## Resources
----
 —
 
 ## Related
----
 —

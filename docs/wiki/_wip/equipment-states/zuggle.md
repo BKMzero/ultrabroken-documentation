@@ -5,7 +5,6 @@ title: "Zuggle"
 # Zuggle
 
 ## Description
----
 
 A zuggle is a smuggle which finished dropping. 
 

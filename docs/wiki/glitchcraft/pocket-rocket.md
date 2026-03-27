@@ -13,27 +13,22 @@ tags: ["launching", "equipment", "paraglide", "shield"]
 # Pocket Rocket
 
 ## Summary
----
 Allows for repeated boost from a midair rocket shield surf, making it a very good movement option.
 
 _Mozz, SmallAnt - 15 June 2023_
 
 ## Instructions
----
 1. Fuse entangle a rocket to your shield
 2. Fuse that rocket to your equipped weapon
 3. Do a forward shield jump and hold ZL and A
 4. Spam B (or time it precisely).
 
 ## Notes
----
 1.2.0+ requires a different method
 
 ## Resources
----
 - [YouTube](https://www.youtube.com/watch?v=10PdzT0eEl0)
 - [YouTube](https://www.youtube.com/watch?v=OmuWEI46dXo&t=163)
 
 ## Related
----
 - [Fuse Entanglement](search:Fuse Entanglement)

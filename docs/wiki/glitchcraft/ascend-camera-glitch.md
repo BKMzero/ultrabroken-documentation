@@ -13,25 +13,20 @@ tags: ["ascend", "camera"]
 # Ascend Camera Glitch
 
 ## Summary
----
 Keeps the camera far away from link after a file load for a short period of time.
 
 _?_
 
 ## Instructions
----
 1. Save 
 2. Go to a far away location (needs to be in view from the manual save)
 3. Activate ascend and load the file while the camera is going up.
 
 ## Notes
----
 —
 
 ## Resources
----
 —
 
 ## Related
----
 —

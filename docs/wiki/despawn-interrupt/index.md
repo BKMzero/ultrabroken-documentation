@@ -6,18 +6,15 @@ title: "Despawn Interrupt Overview"
 _Basic stub_
 
 ## Introduction
----
 Despawn Interrupt refers to interrupting the despawning of an actor. When a piece of equipment despawns, the game sets its state as "dead". By interrupting the process, we get to keep the usable weapon in this "dead" state, which is what is known as a DI'd piece of equipment. This state is really powerful, as it makes the equipment not be affected by D-Pad Lock, as well as giving it infinite durability. On top of that, DI can be propagated to other equipment anywhere easily.
 
 ## Quick Navigation
----
 - **[Despawn Interrupt Query](search:Despawn Interrupt)** - The main DI glitch with multiple setups
 - **[Fuse Entanglement Query](search:Fuse Entanglement)** - Often combined with DI for duplication
 - **[Detanglement Query](search:Detanglement)** - Remove items from DI parent bases
 - **[Culling Overview](../culling/index.md)** - Game culling mechanics that enable DI
 
 ## Despawn reasons
----
 When a piece of equipment dies, the game provides a reason for the despawning, so that it knows how to handle the despawn (e.g. a fade out for void, a simple actor deletion).
 For example, death reasons include:
 
@@ -36,7 +33,6 @@ This is just an example, other differences emerge depending on which despawn rea
 Note that to make writing setups quicker, FallIntoAbyss DI will be referred to as Void Dipping (VD) and Eaten DI simply as DI.
 
 ## What to expect in each writeup
----
 - **Trigger:** how to reproduce (inputs, positions, equipment)
 - **Requirements:** game version, objects, NPCs, devices
 - **Behavior:** observable effects and common outcomes

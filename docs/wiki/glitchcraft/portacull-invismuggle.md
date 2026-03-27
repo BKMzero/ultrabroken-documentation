@@ -13,13 +13,11 @@ tags: ["zuggling", "equipment", "culling"]
 # Portacull Invismuggle
 
 ## Summary
----
 Using portable culling equipment it's possible to get a culled smuggle (invismuggle).
 
 _mulberry - 29 February 2024_
 
 ## Instructions
----
 1. Prepare a SDC equipment of the opposite type of your target
 2. Drop your SDC equipment, and swap to another equipment
 3. Drop your target.
@@ -30,13 +28,10 @@ This glitch gives dpad lock after being performed!
 Performing Invismuggle while having a (drop) zuggle sends the equipment to culled purgatory, allowing for PSLOT.
 
 ## Notes
----
 —
 
 ## Resources
----
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1212758084980572270)
 
 ## Related
----
 - [Persistent Save Load Object Transfer](search:Persistent Save Load Object Transfer)

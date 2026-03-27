@@ -5,7 +5,6 @@ title: "Smuggle"
 # Smuggle
 
 ## Description
----
 
 An equipment smuggle is the state an equipment is put in when it is currently in the action of dropping, i.e. when it is in the drop queue. Smuggles naturally get created for 4 frames when any equipment is dropped from Link's hand. During those frames, the piece of equipment is outside of Link's inventory but is still visibly dropping, as the game is handling the drop.
 This state can be abused and kept for as long as desired using several methods in all versions. 

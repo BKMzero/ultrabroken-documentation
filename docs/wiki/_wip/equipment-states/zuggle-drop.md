@@ -9,7 +9,6 @@ aliases: ["zd", "local overload"]
 Undone zuggles don't immediately go back to normal.
 
 ## Description
----
 
 When equipment that was zuggled is released from its zuggle status, it loses most of those properties. It won't persist across loading screens, and won't interfere with fusing to equipment. However, it is still a dependency on Link.
 

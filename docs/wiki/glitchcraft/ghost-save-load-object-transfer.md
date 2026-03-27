@@ -13,7 +13,6 @@ tags: ["save-load", "fuse"]
 # Ghost Save Load Object Transfer
 
 ## Summary
----
 Allows objects to be transferred through saves by creating a fuse ghost and detangling it out of range. The object will continue to persist through saves until it is "de-ghosted".
 
 _Aergyl - 8 March 2024_
@@ -36,17 +35,14 @@ _Aergyl - 8 March 2024_
 A slight variation of this setup can be used to Ghost SLOT objects, check Resources for more info.
 
 ## Notes
----
 The fuse ghost will continue to persist through saves for as long as it remains a ghost. If the player moves close enough to the ghost, it will "de-ghost" and return to its normal state.
 By combining ghost SLOT with moobe and pseudo fuse, its possible to send fuse ghosts to specific locations where they can be later retrieved. Check Example(s) for a specific setup.
 
 ## Resources
----
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1215659672510668820)
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1265591202443427924)
 - [YouTube](https://www.youtube.com/watch?v=z1A6YvLNH6Y)
 
 ## Related
----
 - [Fuse Entanglement](search:Fuse Entanglement)
 - [Detanglement](search:Detanglement)
