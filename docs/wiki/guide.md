@@ -100,7 +100,6 @@ unlisted: true
 - **Use Def Lists** for glossaries and terminology sections.
 - **Tab related content** to keep pages more scannable.
 - **Nest extensions** appropriately (e.g., code blocks inside admonitions).
-- Place `---` after `##` headings for visual consistency.
 
 ### Relative Linking
 
