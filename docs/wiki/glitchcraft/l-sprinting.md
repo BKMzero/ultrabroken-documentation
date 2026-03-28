@@ -1,5 +1,6 @@
 ---
 title: "L Sprinting"
+obsolete: true
 uid: "CB1"
 label: "LSP"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
@@ -8,7 +9,6 @@ date: "2023-05-12"
 description: "This is an infinite stamina sprinting method. It is not the fastest one and the timing is very hard."
 aliases: ["l-sprinting"]
 tags: ["sprinting", "ultrahand"]
-obsolete: true
 ---
 
 # L Sprinting
