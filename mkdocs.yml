@@ -57,6 +57,7 @@ extra_javascript:
   - assets/scripts/storage-manager.js
   - assets/scripts/toolbar.js
   - assets/scripts/settings-modal.js
+  - assets/scripts/version-highlight.js
   - assets/scripts/tasklist-enhance.js  # Makes entire task-list item clickable
   - assets/scripts/back-to-top.js  # Custom back-to-top with icon, no text
   # - assets/scripts/background-rune.js  # Display animated background rune watermark
