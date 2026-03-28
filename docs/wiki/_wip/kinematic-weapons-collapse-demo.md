@@ -135,12 +135,20 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
 ### Known Ways to Move Kinematic Weapons ?
 
 #### Pickup-related Actions
-
+---
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+obsolete: true
+---
+    
 - Carrying it around; Drop Smuggle-like states retain collision and are notably more forceful than normal
 - Dropping it while moving, which directly adds Link's velocity
 - Throwing it, which directly adds throw velocity; Boomerangs will follow a return arc
 
 #### Recall-related Actions
+---
+versions: ["1.2.0", "1.2.1"]
+obsolete: true
+---
 
 Kinematic Weapons obey the "position lock" and "velocity reset" of recall, so the following will work to **move**, then **stop** it:
 
@@ -149,6 +157,10 @@ Kinematic Weapons obey the "position lock" and "velocity reset" of recall, so th
 - Recall-locking it and dropping it somewhere else
 
 #### Other Actions
+---
+versions: ["1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+obsolete: true
+---
 
 - Attaching an upside-down wing; Seems to directly add velocity to build instead of applying a force
 - The "gravitational" force of attaching with Ultrahand can affect the velocity
