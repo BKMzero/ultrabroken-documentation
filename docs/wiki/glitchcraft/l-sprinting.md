@@ -8,6 +8,7 @@ date: "2023-05-12"
 description: "This is an infinite stamina sprinting method. It is not the fastest one and the timing is very hard."
 aliases: ["l-sprinting"]
 tags: ["sprinting", "ultrahand"]
+obsolete: true
 ---
 
 # L Sprinting
