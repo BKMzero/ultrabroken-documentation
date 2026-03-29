@@ -54,6 +54,8 @@ def _load_versions():
     return all_versions, platforms, software[-1] if software else ""
 
 _ALL_VERSIONS, _PLATFORMS, _CURRENT_VERSION = _load_versions()
+_SOFTWARE_VERSIONS = [v for v in _ALL_VERSIONS if v not in _PLATFORMS]
+_SW_INDEX = {v: i for i, v in enumerate(_SOFTWARE_VERSIONS)}
 
 # ── Syntax ───────────────────────────────────────────────────────────────────
 # Optionally captures the tab header line (=== "Label") that immediately
@@ -96,26 +98,53 @@ def _make_range_label(versions: list[str]) -> str:
     Platform tags (e.g. "Switch 2") are excluded from range computation
     but still rendered as individual badges elsewhere.
 
+    When the version list has gaps relative to the catalogue, multiple
+    range badges are produced — one per contiguous run.
+
     Examples:
-        []                               -> ""
-        ["1.0.0"]                        -> "`1.0.0`"
-        ["1.0.0", "1.1.0", "1.1.1"]    -> "`1.0.0-1.1.1`"
-        ["1.2.0", ..., "1.4.3"]         -> "`1.2.0+`"  (open-ended)
-        ["1.0.0", ..., "1.4.3"]         -> "`All versions`"  (full catalogue)
-        ["1.0.0", ..., "Switch 2"]      -> "`All versions`"  (platforms filtered)
+        []                                       -> ""
+        ["1.0.0"]                                -> "`1.0.0`"
+        ["1.0.0", "1.1.0", "1.1.1"]            -> "`1.0.0-1.1.1`"
+        ["1.2.0", ..., "1.4.3"]                 -> "`1.2.0+`"  (open-ended)
+        ["1.0.0", ..., "1.4.3"]                 -> "`All versions`"  (full catalogue)
+        ["1.0.0", ..., "Switch 2"]              -> "`All versions`"  (platforms filtered)
+        ["1.0.0", "1.1.0", "1.2.0", "1.2.1"]  -> "`1.0.0-1.1.0` `1.2.0-1.2.1`"  (gap)
     """
     sw = [v for v in versions if v not in _PLATFORMS]
     if not sw:
         return ""
+    # Full coverage — every software version present.
+    if set(sw) >= set(_SOFTWARE_VERSIONS):
+        return "`All versions`"
     if len(sw) == 1:
         return f"`{sw[0]}`"
-    first = sw[0]
-    last = sw[-1]
-    if first == _ALL_VERSIONS[0] and last == _CURRENT_VERSION:
-        return "`All versions`"
-    if last == _CURRENT_VERSION:
-        return f"`{first}+`"
-    return f"`{first}-{last}`"
+
+    # Split into contiguous runs using catalogue order.
+    runs: list[list[str]] = []
+    current_run: list[str] = [sw[0]]
+    for i in range(1, len(sw)):
+        prev_idx = _SW_INDEX.get(sw[i - 1])
+        curr_idx = _SW_INDEX.get(sw[i])
+        if prev_idx is not None and curr_idx is not None and curr_idx == prev_idx + 1:
+            current_run.append(sw[i])
+        else:
+            runs.append(current_run)
+            current_run = [sw[i]]
+    runs.append(current_run)
+
+    # Format each run.
+    labels: list[str] = []
+    for run in runs:
+        if len(run) == 1:
+            labels.append(f"`{run[0]}`")
+        else:
+            first, last = run[0], run[-1]
+            if last == _CURRENT_VERSION:
+                labels.append(f"`{first}+`")
+            else:
+                labels.append(f"`{first}-{last}`")
+
+    return " ".join(labels)
 
 
 def _rewrite_tab_label(tab_line: str, versions: list[str]) -> str:
@@ -127,8 +156,8 @@ def _rewrite_tab_label(tab_line: str, versions: list[str]) -> str:
     prefix = m.group(1)   # e.g. '=== "'
     content = m.group(2)  # e.g. 'Method 1 `1.2.0+`' or 'Method 1'
     suffix = m.group(3)   # e.g. '"\n'
-    # Strip any trailing backtick badge injected by a previous build.
-    content = re.sub(r'\s*`[^`]+`\s*$', '', content)
+    # Strip any trailing backtick badges injected by a previous build.
+    content = re.sub(r'(\s*`[^`]+`)+\s*$', '', content)
     if range_label:
         return f"{prefix}{content} {range_label}{suffix}"
     return f"{prefix}{content}{suffix}"
@@ -211,8 +240,8 @@ def _patch_headings(markdown: str) -> str:
             core = heading
             attr_suffix = ''
 
-        # Strip any existing badge, then append the computed one.
-        core = re.sub(r"\s*`[^`]+`\s*$", "", core)
+        # Strip any existing badges, then append the computed one.
+        core = re.sub(r"(\s*`[^`]+`)+\s*$", "", core)
         if range_label:
             new_heading = f"{core} {range_label}{attr_suffix}"
         else:
