@@ -136,7 +136,7 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
 
 #### Pickup-related Actions
 ---
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+versions: ["1.0.0", "1.1.0", "1.1.1"]
 obsolete: true
 ---
     
