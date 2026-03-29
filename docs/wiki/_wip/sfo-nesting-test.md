@@ -282,6 +282,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
 
                 MULTITOOL -->|Fuse (becomes cf)| CHILDREN
                 PARENTS -->|Fuse (stays attached)| CHILDREN
+            ```
         
     ??? abstract "For Mineru's Arm (Local SFO variant)"
 
@@ -320,6 +321,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
 
                 MULTITOOL -->|Fuse (becomes cf)| CHILDREN
                 PARENTS -->|Fuse (stays attached)| CHILDREN
+            ```
         
     ??? failure "No, it really can't"
         This method relies on a specialized piece of equipment that takes time to create and has many uses. While it is technically possible to make the SFO permanent by permaculling all A[n], it completely nullifies the speed and portability of this method. If a pcull-based permanent method is desired, Method 4 will almost unquestionably be easier, faster, and simpler.
