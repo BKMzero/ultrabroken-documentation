@@ -27,7 +27,7 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
 
     These methods use Overload Pseudo Fuse to DI targets without ever creating normal parents, removing the need to despawn them between targets. It is ideal for creating very large quantities of DI Ghosts.
 
-    #### Method 1: <br/>Overload PF + Drop-Swap Culling { ? }
+    #### Method 1: <br/>Overload PF + Drop-Swap Culling ?
     ---
     versions: ["1.2.0","1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -57,7 +57,7 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
 
     _Method developed by mulberry - Jan 17, 2026_
 
-    #### Method 2: <br/>Overload PF + Aerophasing { ? }
+    #### Method 2: <br/>Overload PF + Aerophasing ?
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -88,8 +88,7 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
     3. Just after Link unculls, fuse target to C again. As it already has an FE parent (D), this time it will Pseudo-fuse to C and begin fading away
     4. Link will cull soon enough after to automatically DI the target (by culling E, which culls D)
 
-
-    #### Method 3: <br/>Overload PF + Torch Culling { ? }
+    #### Method 3: <br/>Overload PF + Torch Culling ?
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -97,7 +96,7 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
 
     (still haven't quite figured this out)
 
-    #### Method 4: <br/>Overload PF + Mineru Limbo { ? }
+    #### Method 4: <br/>Overload PF + Mineru Limbo ?
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -105,11 +104,32 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
 
     (I don't know how to do mineru stake limbo. people make it look so easy but she just does not like me)
 
+    #### Method notes
+
+    !!! danger "Fuse-Over(load)"
+
+        Detangling a DI Ghost from its parent by "fuse-over" leaves a Cold Fuse connection behind, and detaching a DI Ghost from its PF parent does the same. Due to this, D and E will each gain one _peristent_ dependency for each DI Ghost produced. After 30 uses, D and E will reach Fuse Overload. If a 31st use is attempted, you will create a "Reference FE" connection, which will **crash the game** if you drop D!
+
+    !!! danger "Self-Fusing"
+
+        When an overload-pickup has a connection back to link, it is possible to target it to be fused to itself. Under most circumstances, this will immediately **crash the game** if attempted.
+
+    ??? example "Diagram"
+
+        ```mermaid
+        graph TD
+            A[A] -->|FE| B[C]
+            C[B] -->|DI| D[D]
+            E[E] -->|DI| D
+            D -->|FE| F[Target]
+            B -->|CF| F
+        ```
+
 === "DI Chaining Methods"
 
     These methods create a chain of DI ghosts, allowing the normal-parent despawning to be saved until the end of the process (as each target retains a DI parent as long as desired). They are ideal for medium batches and minimal replication, but can _only_ be used for weapons and shields.
 
-    #### Method 5: <br/>Chaining + Drop-Swap Culling
+    #### Method 5: <br/>Chaining + Drop-Swap Culling ?
     ---
     versions: ["1.2.0","1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -146,7 +166,7 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
 
         _Method developed by Squidwest(?) - Jan 23, 2026(?)_
 
-    #### Method 6: <br/>Chaining + Aerophasing
+    #### Method 6: <br/>Chaining + Aerophasing ?
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -183,17 +203,43 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
         9. Repeat from step 3 with D as the next target
         10. After the process has been repeated to satisfaction, despawn all the normal parents of the chain by distance or chasm (which also performs a FarDelete)
 
-    #### Method 7: <br/>Chaining + Mineru FE
+    #### Method 7: <br/>Chaining + Mineru FE ?
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
     ---
 
+    (haven't even decided what this one should look like yet)
+
+    #### Method notes
+
+    !!! danger "Long Chains"
+
+        Extended dependency chains (FE and CF) can cause instability, such as freezing the game on some cutscenes and loads.
+        
+        If this method is performed with shields, simply zuggle a handful at once and use a rocket shield to fully detangle each zuggle, repeating for all of them.
+        
+        If weapons were used, zuggle every other in the chain (or less frequently if desired), use fuse-over detangle to leave only a cf remnant, then **destroy** the detangled weapons to break the chain apart. (a proper weapon detanglement is not viable for this use-case)
+
+    ??? example "Diagram"
+
+        ```mermaid
+        graph TD
+            A[DI Ancestor] -->|DI| B[DI Child]
+            C[Normal Parent] -->|DI| B
+            B -->|DI| D[DI Grandchild]
+            E[Normal Parent] -->|DI| D
+            D -->|DI| F[DI Descendant]
+            G[Normal Parent] -->|DI| F
+            F -->|...| H{Further Generations}
+            I[Normal Parent] -->|...| H
+        ```
+
 === "Turbo Cloning Methods"
 
     These methods use a purgatorized DI shield to repeatedly fuse, then Octo Detangle, each target in turn. It is optimal for batch production without Zuggle Overload, and ideal for both shield batches of any size, and for repeatedly creating small batches of any target type.
 
-    #### Method 8: <br/>Turbo Cloning + Drop-Swap Culling
+    #### Method 8: <br/>Turbo Cloning + Drop-Swap Culling ?
     ---
     versions: ["1.2.0","1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
