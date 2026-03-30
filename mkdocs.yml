@@ -69,6 +69,7 @@ extra_javascript:
   - assets/scripts/ai-worker-typewriter.js
   - assets/scripts/ai-worker-client.js
   - assets/scripts/grimoire-filter.js
+  - assets/scripts/version-chart.js
   - assets/scripts/leaderboard.js
   - assets/scripts/media-browser.js
   - assets/scripts/diagram-pan-zoom.js
