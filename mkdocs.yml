@@ -42,7 +42,6 @@ extra_css:
   - assets/stylesheets/grimoire.css
   - assets/stylesheets/media-browser.css
   - assets/stylesheets/version-chart.css
-  - assets/stylesheets/version-chart.css
 
 extra_javascript:
   - assets/scripts/mermaid-config.js
