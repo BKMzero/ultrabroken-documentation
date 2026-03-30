@@ -31,7 +31,7 @@ All methods follow the same general pattern:
 
     These methods FE the target to a DI parent and fully fuse the target to a normal parent; the latter will need to be detangled/despawned to make the target persistent.
 
-    #### Method 1: Fuse + Drop-Swap { .collapse }
+    #### Method 1: <br/>Fuse + Drop-Swap { .collapse }
     ---
     versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -50,7 +50,7 @@ All methods follow the same general pattern:
     9. Delete the normal parent by "FarDelete"; this can be done by sending it away with a rocket, dropping it down a chasm, or simply moving about 60m away
     10. Detangle the DI parent; The fastest way to do this is to just use it again (DI objects with DI parents are protected from "Fuse-over" deletion)
 
-    #### Method 2: Turbo Replication { .collapse }
+    #### Method 2: <br/>Turbo Replication { .collapse }
     ---
     versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -67,7 +67,7 @@ All methods follow the same general pattern:
     7. **Unpause** the game and press B within a couple frames of the game actually unpausing
     8. Done correctly, the target will detangle from both the DI parent and the normal parent, and its pickup prompt will be displaced from its visual model
 
-    #### Method 3: Mineru FE Target + Fuse { .collapse }
+    #### Method 3: <br/>Mineru FE Target + Fuse { .collapse }
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -85,7 +85,7 @@ All methods follow the same general pattern:
     9. Delete the normal parent by "FarDelete"; this can be done by sending it away with a rocket, dropping it down a chasm, or simply moving about 60m away
     10. Detangle the target from the DI parent; The fastest way to do this is to just use it again (DI objects with DI parents are protected from "Fuse-over" deletion)
 
-    #### Method 4: Mineru FE Parent + Fuse { .collapse }
+    #### Method 4: <br/>Mineru FE Parent + Fuse { .collapse }
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -101,7 +101,7 @@ All methods follow the same general pattern:
     6. Delete the normal parent by "FarDelete"; this can be done by sending it away with a rocket, dropping it down a chasm, or simply moving about 60m away
     7. Detangle the target from the DI parent; The fastest way to do this is to just use it again (DI objects with DI parents are protected from "fuse-over" deletion)
 
-    #### Method 5: Mineru DI + Fuse { .collapse }
+    #### Method 5: <br/>Mineru DI + Fuse { .collapse }
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -121,7 +121,7 @@ All methods follow the same general pattern:
 
     These methods FE the target to a DI parent and CF the target to a normal parent, resulting in PF; this removes the need to detangle it from the normal parent.
 
-    #### Method 6: Overload Pseudo Fuse { .collapse }
+    #### Method 6: <br/>Overload Pseudo Fuse { .collapse }
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -132,7 +132,7 @@ All methods follow the same general pattern:
     (normal overload pfdi without any batching considerations)
     (I don't actually know what's minimal, so I'm coming back to this one later)
 
-    #### Method 7<br/>Culling Area Distant Pseudo Fuse { .collapse }
+    #### Method 7: <br/>Culling Area Distant Pseudo Fuse { .collapse }
     ---
     versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -150,7 +150,7 @@ All methods follow the same general pattern:
     6. Use the portacull to cull the DI parent and the target
     7. The target, now DI'd, will be attached to the normal parent, but not fused
 
-    #### Method 8<br/>Culling Area Recull Pseudo Fuse { .collapse }
+    #### Method 8: <br/>Culling Area Recull Pseudo Fuse { .collapse }
     ---
     versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: true
@@ -162,7 +162,7 @@ All methods follow the same general pattern:
 
     1. Use a small culling area to store fuse on the target with a normal parent
     2. Move into and quickly back out of the culling margin to uncull the target for 1 frame
-    3. Drop the normal parent and move it out of update range (the far end of the platform at Akkala Citadel Ruins' small culling area is enough)
+    3. Drop the normal parent
     4. Pick up the DI item
     5. Move into and quickly back out of the culling margin again to uncull the target for 1 frame, again
     6. Shortly after the target unculls, pause the game (timing is frame perfect)
