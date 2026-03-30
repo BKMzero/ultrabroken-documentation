@@ -19,197 +19,185 @@ _Credits - See individual methods_
 
 ## Instructions
 
+Methods are partitioned based on their resulting structure.
+
 Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all applicable methods will be given with both an all-versions variant and a variant specific to 1.2.0 and up.
 
-=== "Method 1: Overload Batch DI"
+=== "Overload methods"
+
+    These methods use Overload Pseudo Fuse to DI targets without ever creating normal parents, removing the need to despawn them between targets. It is ideal for creating very large quantities of DI Ghosts.
+
+    #### Method 1: <br/>Overload PF + Drop-Swap Culling { ? }
     ---
-    versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    versions: ["1.2.0","1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
     ---
 
-    This method uses Overload Pseudo Fuse to DI targets without ever creating normal parents, removing the need to despawn them between targets. It is ideal for creating very large quantities of DI Ghosts.
-    
-    ??? abstract "`1.2.0+`"
+    Prepare:
 
-        Prepare:
+    13 Zuggle Overload
+    Two DI ghost equipment items, A and B
 
-        13 Zuggle Overload
-        Two DI ghost equipment items, A and B
+    Creating the setup:
 
-        Creating the setup:
+    1. Overload FE normal item (C) to A; must be opposite of B's type
+    2. Leave A Zuggle Dropped after completing step 1
+    3. B make DI ghost (D) of C's type; keep the normal parent (E)
+    4. Smuggle D, equip E, and overload pickup C
+    5. glue C to something to elevate it and ensure it cannot accidentally be targeted by Fuse
+    6. Optionally, position a wall behind Link's back which can force E to fail-drop
 
-        1. Overload FE normal item (C) to A; must be opposite of B's type
-        2. Leave A Zuggle Dropped after completing step 1
-        3. B make DI ghost (D) of C's type; keep the normal parent (E)
-        4. Smuggle D, equip E, and overload pickup C
-        5. glue C to something to elevate it and ensure it cannot accidentally be targeted by Fuse
-        6. Optionally, position a wall behind Link's back which can force E to fail-drop
+    Creating DI Ghosts
 
-        Creating DI Ghosts
-    
-        1. Fuse target to C (overload fe)
-        2. Fuse target to C again. As it already has an FE parent (D), this time it will Pseudo-fuse to C and begin fading away
-        3. Pause the game before the target fully fades out
-        4. Drop E, swap to another of that type, and unequip it. This will cull E, and thus D, and thus the target, DIing it
-        5. If you fail-dropped E, proceed with the next target. If not, you'll need to pick it up
-
-    ??? abstract "`All Versions`"
-
-        Prepare:
-
-        13 Zuggle Overload
-        Two DI ghost equipment items, A and B
-        Intangible Aerophasing
-
-        (the steps)
-
-        Creating the setup:
-
-        1. Overload FE normal item (C) to A; must be opposite of B's type
-        2. Leave A Zuggle Dropped after completing step 1
-        3. Smuggle B and equip normal item of B's type (E)
-        4. Stand on the phasing platform
-        5  Right after Link unculls, fuse an item (D) of C's type to E; it will DI
-        6. Smuggle D, equip E, and overload pickup C
-        7. glue C to something to elevate it and ensure it cannot accidentally be targeted by Fuse
-
-        Creating DI Ghosts
-
-        1. Stand on the phasing platform
-        2. Just after Link unculls, fuse target to C (overload fe)
-        3. Just after Link unculls, fuse target to C again. As it already has an FE parent (D), this time it will Pseudo-fuse to C and begin fading away
-        4. Link will cull soon enough after to automatically DI the target (by culling E, which culls D)
-
-    ??? abstract "put torch culling method here once you do it"
-
-        you use like some weird delayed cull with pyroculling, which I've never done, and it causes a piece of equipment to cull (via its parent) every time you open recall, which VASTLY streamlines this process for all versions, but ESPECIALLY compared to using aerophasing on older patches...
-        
-        I wonder if I can adapt this for sfo and make some kind of lightning setup too...
-
-    !!! danger "Fuse-Over(load)"
-
-        Detangling a DI Ghost from its parent by "fuse-over" leaves a Cold Fuse connection behind, and detaching a DI Ghost from its PF parent does the same. Due to this, D and E will each gain one _peristent_ dependency for each DI Ghost produced. After 30 uses, D and E will reach Fuse Overload. If a 31st use is attempted, you will create a "Reference FE" connection, which will **crash the game** if you drop D!
-
-    !!! danger "Self-Fusing"
-
-        When an overload-pickup has a connection back to link, it is possible to target it to be fused to itself. Under most circumstances, this will immediately **crash the game** if attempted.
-
-    ??? example "Diagram"
-
-        ```mermaid
-        graph TD
-            A[A] -->|FE| B[C]
-            C[B] -->|DI| D[D]
-            E[E] -->|DI| D
-            D -->|FE| F[Target]
-            B -->|CF| F
-        ```
+    1. Fuse target to C (overload fe)
+    2. Fuse target to C again. As it already has an FE parent (D), this time it will Pseudo-fuse to C and begin fading away
+    3. Pause the game before the target fully fades out
+    4. Drop E, swap to another of that type, and unequip it. This will cull E, and thus D, and thus the target, DIing it
+    5. If you fail-dropped E, proceed with the next target. If not, you'll need to pick it up
 
     _Method developed by mulberry - Jan 17, 2026_
 
-=== "Method 2: DI Chaining"
+    #### Method 2: <br/>Overload PF + Aerophasing { ? }
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
     ---
 
-    This method creates a chain of DI ghosts, allowing the normal-parent despawning to be saved until the end of the process (as each target retains a DI parent as long as desired). It is ideal for medium batches and minimal replication, but can _only_ be used for weapons and shields.
+    Prepare:
 
-    ??? abstract "`1.2.0+`"
+    13 Zuggle Overload
+    Two DI ghost equipment items, A and B
+    Intangible Aerophasing
 
-        Prepare:
+    (the steps)
 
-        A DI Ghost Weapon or Shield (A)
+    Creating the setup:
 
-        ??? abstract "Safe Method"
+    1. Overload FE normal item (C) to A; must be opposite of B's type
+    2. Leave A Zuggle Dropped after completing step 1
+    3. Smuggle B and equip normal item of B's type (E)
+    4. Stand on the phasing platform
+    5  Right after Link unculls, fuse an item (D) of C's type to E; it will DI
+    6. Smuggle D, equip E, and overload pickup C
+    7. glue C to something to elevate it and ensure it cannot accidentally be targeted by Fuse
 
-            1. Duplicate three normal copies of A by DI Duping (B, C, & D)
-            2. Smuggle A and equip B, then drop C on the ground
-            3. Start to fuse C to B, then pause the game a few frames later (after it starts to fade, but before it fades fully)
-            4. Drop B and swap to D
-            5. C will be attached to B on the ground. Dupe two replacement copies (E and F), then drop D
-            6. Optionally, pick up and drop A to remove its overload
-            7. Pick up C
-            8. Repeat from step 2, with C as the new smuggle, E as the new normal parent, and D as the new target
-            9. After the process has been repeated to satisfaction, despawn all the normal parents of the chain by distance or chasm (which also performa a FarDelete)
+    Creating DI Ghosts
 
-        ??? abstract "Fast Method"
+    1. Stand on the phasing platform
+    2. Just after Link unculls, fuse target to C (overload fe)
+    3. Just after Link unculls, fuse target to C again. As it already has an FE parent (D), this time it will Pseudo-fuse to C and begin fading away
+    4. Link will cull soon enough after to automatically DI the target (by culling E, which culls D)
 
-            1. Duplicate three normal copies of A by DI Duping (B, C, & D)
-            2. Equip A and drop C on the ground
-            3. Ready fuse targeting C and pause the game
-            4. Drop A and swap to B
-            5. Unpause and press fuse immediately
-            6. Either [pause immediately after pressing fuse, then pause buffer] or [pause a few frames after pressing fuse]
-            7. Drop B and swap to D
-            8. Dupe 2 copies of C, then drop D and pick up C
-            9. Repeat from step 3 with D as the next target
-            10. After the process has been repeated to satisfaction, despawn all the normal parents of the chain by distance or chasm (which also performs a FarDelete)
 
-    ??? abstract "`All Versions`"
-    
-        Prepare:
-
-        A DI Ghost Weapon or Shield (A)
-        Intangible Aerophasing
-
-        ??? abstract "Safe Method"
-
-            1. Duplicate three normal copies of A by DI Duping (B, C, & D)
-            2. Smuggle A and equip B, then drop C on the ground
-            3. Stand on the phasing platform
-            4. Right after Link unculls, fuse C to B. C will become a DI Ghost
-            5. Drop B and swap to D
-            6. C will be attached to B on the ground. Dupe two replacement copies (E and F), then drop D
-            7. Optionally, pick up and drop A to remove its overload
-            8. Pick up C
-            9. Repeat from step 2, with C as the new smuggle, E as the new normal parent, and D as the new target
-            10. After the process has been repeated to satisfaction, despawn all the normal parents of the chain by distance or chasm (which also performa a FarDelete)
-
-        ??? abstract "Fast Method"
-
-            1. Duplicate three normal copies of A by DI Duping (B, C, & D)
-            2. Equip A and drop C on the ground
-            3. Stand on the phasing platform
-            4. Ready fuse targeting C and pause the game
-            5. Drop A and swap to B
-            6. Unpause and press fuse immediately; C will become a DI Ghost
-            7. Drop B and swap to D
-            8. C will be attached to B on the ground. Dupe 2 copies of C, then drop D and pick up C
-            9. Repeat from step 3 with D as the next target
-            10. After the process has been repeated to satisfaction, despawn all the normal parents of the chain by distance or chasm (which also performs a FarDelete)
-
-    !!! danger "Long Chains"
-
-        Extended dependency chains (FE and CF) can cause instability, such as freezing the game on some cutscenes and loads.
-        
-        If this method is performed with shields, simply zuggle a handful at once and use a rocket shield to fully detangle them all, repeating for all of them.
-        
-        If weapons were used, zuggle every other in the chain (or less frequently if desired), use fuse-over detangle to leave only a cf remnant, then **destroy** the detangled weapons to break the chain apart. (a proper weapon detanglement is not viable for this use-case)
-
-    ??? example "Diagram"
-
-        ```mermaid
-        graph TD
-            A[DI Ancestor] -->|DI| B[DI Child]
-            C[Normal Parent] -->|DI| B
-            B -->|DI| D[DI Grandchild]
-            E[Normal Parent] -->|DI| D
-            D -->|DI| F[DI Descendant]
-            G[Normal Parent] -->|DI| F
-            F -->|...| H{Further Generations}
-            I[Normal Parent] -->|...| H
-        ```
-
-    _Method developed by Squidwest(?) - Jan 23, 2026(?)_
-
-=== "Method 3: Purgatory + Turbo Replication"
+    #### Method 3: <br/>Overload PF + Torch Culling { ? }
     ---
-    versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
     ---
 
-    This method uses a purgatorized DI shield to repeatedly fuse, then Octo Detangle, each target in turn. It is ideal for shield batches of any size, but can be adapted for small-med batches of other targets without too much trouble.
+    (still haven't quite figured this out)
+
+    #### Method 4: <br/>Overload PF + Mineru Limbo { ? }
+    ---
+    versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    obsolete: false
+    ---
+
+    (I don't know how to do mineru stake limbo. people make it look so easy but she just does not like me)
+
+=== "DI Chaining Methods"
+
+    These methods create a chain of DI ghosts, allowing the normal-parent despawning to be saved until the end of the process (as each target retains a DI parent as long as desired). They are ideal for medium batches and minimal replication, but can _only_ be used for weapons and shields.
+
+    #### Method 5: <br/>Chaining + Drop-Swap Culling
+    ---
+    versions: ["1.2.0","1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    obsolete: false
+    ---
+
+    Prepare:
+
+    A DI Ghost Weapon or Shield (A)
+
+    ??? abstract "Safe Variant"
+
+        1. Duplicate three normal copies of A by DI Duping (B, C, & D)
+        2. Smuggle A and equip B, then drop C on the ground
+        3. Start to fuse C to B, then pause the game a few frames later (after it starts to fade, but before it fades fully)
+        4. Drop B and swap to D
+        5. C will be attached to B on the ground. Dupe two replacement copies (E and F), then drop D
+        6. Optionally, pick up and drop A to remove its overload
+        7. Pick up C
+        8. Repeat from step 2, with C as the new smuggle, E as the new normal parent, and D as the new target
+        9. After the process has been repeated to satisfaction, despawn all the normal parents of the chain by distance or chasm (which also performa a FarDelete)
+
+    ??? abstract "Fast Variant"
+
+        1. Duplicate three normal copies of A by DI Duping (B, C, & D)
+        2. Equip A and drop C on the ground
+        3. Ready fuse targeting C and pause the game
+        4. Drop A and swap to B
+        5. Unpause and press fuse immediately
+        6. Either [pause immediately after pressing fuse, then pause buffer] or [pause a few frames after pressing fuse]
+        7. Drop B and swap to D
+        8. Dupe 2 copies of C, then drop D and pick up C
+        9. Repeat from step 3 with D as the next target
+        10. After the process has been repeated to satisfaction, despawn all the normal parents of the chain by distance or chasm (which also performs a FarDelete)
+
+        _Method developed by Squidwest(?) - Jan 23, 2026(?)_
+
+    #### Method 6: <br/>Chaining + Aerophasing
+    ---
+    versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    obsolete: false
+    ---
+
+    Prepare:
+
+    A DI Ghost Weapon or Shield (A)
+    Intangible Aerophasing
+
+    ??? abstract "Safe Method"
+
+        1. Duplicate three normal copies of A by DI Duping (B, C, & D)
+        2. Smuggle A and equip B, then drop C on the ground
+        3. Stand on the phasing platform
+        4. Right after Link unculls, fuse C to B. C will become a DI Ghost
+        5. Drop B and swap to D
+        6. C will be attached to B on the ground. Dupe two replacement copies (E and F), then drop D
+        7. Optionally, pick up and drop A to remove its overload
+        8. Pick up C
+        9. Repeat from step 2, with C as the new smuggle, E as the new normal parent, and D as the new target
+        10. After the process has been repeated to satisfaction, despawn all the normal parents of the chain by distance or chasm (which also performs a FarDelete)
+
+    ??? abstract "Fast Method"
+
+        1. Duplicate three normal copies of A by DI Duping (B, C, & D)
+        2. Equip A and drop C on the ground
+        3. Stand on the phasing platform
+        4. Ready fuse targeting C and pause the game
+        5. Drop A and swap to B
+        6. Unpause and press fuse immediately; C will become a DI Ghost
+        7. Drop B and swap to D
+        8. C will be attached to B on the ground. Dupe 2 copies of C, then drop D and pick up C
+        9. Repeat from step 3 with D as the next target
+        10. After the process has been repeated to satisfaction, despawn all the normal parents of the chain by distance or chasm (which also performs a FarDelete)
+
+    #### Method 7: <br/>Chaining + Mineru FE
+    ---
+    versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    obsolete: false
+    ---
+
+=== "Turbo Cloning Methods"
+
+    These methods use a purgatorized DI shield to repeatedly fuse, then Octo Detangle, each target in turn. It is optimal for batch production without Zuggle Overload, and ideal for both shield batches of any size, and for repeatedly creating small batches of any target type.
+
+    #### Method 8: <br/>Turbo Cloning + Drop-Swap Culling
+    ---
+    versions: ["1.2.0","1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    obsolete: false
+    ---
 
     Prepare:
 
@@ -334,7 +322,7 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
 
 ## Notes
 
-- Due to the difference in resulting structure, these methods are usually _not_ interchangable
+- Due to the difference in resulting structure, these methods are usually _not_ interchangable. They have been grouped by structure for this reason.
 
 ### Additions
 Additions
