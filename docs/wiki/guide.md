@@ -153,7 +153,7 @@ On glitchcraft pages, each method (tab or single-method page) can declare its ow
 
 The hook automatically:
 
-- Appends a version range badge to the tab label (e.g. `` `1.2.0+` ``, `` `All versions` ``, `` `1.0.0-1.1.1` ``)
+- Appends a version range badge to the tab label and to any collapsible heading (`{ .collapse }`) that wraps the method (e.g. `` `1.2.0+` ``, `` `All versions` ``, `` `1.0.0-1.1.1` ``)
 - Inserts inline version badges into the method body
 - Injects a `!!! warning "Obsolete Method"` admonition when `obsolete: true`
 - Produces a hidden `<div class="ub-method-meta">` consumed by the version filter UI
@@ -178,10 +178,16 @@ Place the block **inside the tab** at the same 4-space indentation as the tab co
     1. Step one…
 ```
 
-The tab label is rewritten automatically:
+The tab label (and any enclosing collapsible heading) is rewritten automatically:
 
 ```markdown
 === "Method 1 `1.2.0+`"
+```
+
+If the version list has a gap (non-contiguous), multiple badges are emitted:
+
+```markdown
+=== "Method 1 `1.0.0-1.1.1` `1.2.0+`"
 ```
 
 #### Syntax — Single-method pages
@@ -199,16 +205,17 @@ obsolete: true
 
 #### Version range badge logic
 
-The badge shown in the tab label is computed from the `versions` list:
+The badge shown in the tab label and collapsible heading is computed from the `versions` list:
 
 | Condition | Badge shown |
 |---|---|
 | Single version | `` `1.0.0` `` |
-| Spans from the first to the current game version | `` `All versions` `` |
-| Last version is the current game version | `` `1.2.0+` `` (open-ended) |
-| Otherwise | `` `1.0.0-1.1.1` `` (closed range) |
+| Covers every version in the catalogue | `` `All versions` `` |
+| Contiguous run ending at the current version | `` `1.2.0+` `` (open-ended) |
+| Contiguous run not reaching the current version | `` `1.0.0-1.1.1` `` (closed range) |
+| Non-contiguous (gap in the list) | `` `1.0.0-1.1.1` `` `` `1.2.0+` `` (one badge per run) |
 
-Platform tags like `"Switch 2"` are excluded from range computation and listed separately.
+Platform tags like `"Switch 2"` are excluded from range computation entirely — they are appended as separate badges after the version range badges.
 
 ## Site-Specific Features
 
