@@ -736,6 +736,42 @@ Creates tabs for organizing related content groups.
 
     This is alternative approach B.
 
+#### Tab headings
+
+By default, tab labels are not included in the table of contents. Appending `#` marks (2–6) after the closing quote promotes a tab label to a TOC-visible heading at the corresponding level — the same way `#` marks work in regular Markdown headings.
+
+##### Syntax
+
+```markdown
+=== "Pause-Cancel" ###
+
+    This tab appears as an h3 entry in the TOC.
+
+=== "Menu Overload" ####
+
+    This tab appears as an h4 entry in the TOC.
+
+=== "Basic Method"
+
+    No # marks — this tab does NOT appear in the TOC.
+```
+
+The `#` marks are stripped from the rendered tab label — only the text inside the quotes is displayed. A hidden companion heading is injected inside the tab so that the TOC, scroll spy, and deep linking all work automatically. The share icon is placed directly on the tab label instead of on the hidden heading.
+
+##### Choosing a level
+
+Pick the heading level that matches where the tab sits in the page hierarchy. If tabs live directly under an `## Instructions` heading, use `###` (h3) so they nest correctly in the TOC.
+
+| Marks | Heading level | Typical use |
+|---|---|---|
+| `##` | h2 | Tabs as top-level sections (rare) |
+| `###` | h3 | Tabs under an h2 section (most common) |
+| `####` | h4 | Tabs under an h3 section |
+| `#####` | h5 | Deeply nested tabs |
+| `######` | h6 | Maximum depth |
+
+A single `#` or no `#` at all leaves the tab as a plain label with no TOC entry — this is the default behaviour.
+
 #### Tab sizing
 
 Tab labels automatically scale their font size based on the heading they appear under. Tabs below an `h2` render at the default size; tabs below an `h3` render slightly smaller, and so on. This keeps tab labels visually proportional to their surrounding heading hierarchy. The sizing is injected automatically — no extra markup is needed.
