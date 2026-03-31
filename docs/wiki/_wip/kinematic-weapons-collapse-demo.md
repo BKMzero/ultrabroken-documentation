@@ -21,7 +21,7 @@ _mulberry, dt13269; Optimizations by mulberry, Squidwest - 25 February 2026_
 
 All methods require a weapon currently held by a Depths Ghost, which will be referred to as the "target weapon" or "target".
 
-=== "Pause-Cancel FE Methods"
+=== "Pause-Cancel FE Methods" { h3 }
 
     These Methods pause the game while performing FE on the target, preventing the ghost from detecting it being tampered with.
 
@@ -81,7 +81,7 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
     4. **Fail-drop** the target, then **drop** it once it returns to Link
     5. Proceed with a given Pause-Cancel method; The ghost will not despawn even without performing Pause-Cancel
 
-=== "Overload Pickup Methods"
+=== "Overload Pickup Methods" { h3 }
 
     These Methods use Overload Pickup to move the target to a distance where the ghost can't detect it being tampered with.
 
