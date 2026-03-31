@@ -36,8 +36,8 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
 
     Prepare:
 
-    13 Zuggle Overload
-    Two DI ghost equipment items, A and B
+    - 13 Zuggle Overload
+    - Two DI ghost equipment items, A and B
 
     Creating the setup:
 
@@ -66,11 +66,9 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
 
     Prepare:
 
-    13 Zuggle Overload
-    Two DI ghost equipment items, A and B
-    Intangible Aerophasing
-
-    (the steps)
+    - 13 Zuggle Overload
+    - Two DI ghost equipment items, A and B
+    - Intangible Aerophasing
 
     Creating the setup:
 
@@ -95,7 +93,24 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
     obsolete: false
     ---
 
-    (still haven't quite figured this out)
+    (still haven't quite figured this out, so steps are likely incorrect)
+
+    Prepare:
+
+    - 13 Zuggle Overload
+    - A DI Weapon or Shield (A)
+    - A torch
+    - A flame emitter
+
+    1. A and normal weapon B make DI Ghost Shield C, keep normal parent
+    2. Smuggle C
+    3. Glue B to the torch and place in a culling area
+    4. Activate the flame emitter and point it at the head of the torch from point-blank
+    5. Overload Drop a shield D and fuse it to a weapon E
+    6. Fuse target to shield twice and pause the game in any way shortly after the second fuse
+    7. After 30 uses, destroy C and D before continuing
+
+    sorry
 
     #### Method 4: <br/>Overload PF + Mineru Limbo ?
     ---
@@ -104,6 +119,21 @@ Due to the absence of "Drop-Swap Culling" on versions prior to `1.2.0`, all appl
     ---
 
     (I don't know how to do mineru stake limbo. people make it look so easy but she just does not like me)
+
+    Prepare:
+
+    - 13 Zuggle Overload
+    - A DI Weapon (all types can be inverted)
+    - A normal weapon (B)
+    - A Stake
+
+    1. Mineru FE B
+    2. A and B make DI Shield (C), keep B
+    3. Smuggle C
+    4. Overload drop Shield (D) and fuse to Weapon (E)
+    5. Stand on a stake at the right height so that Mineru goes into "Limbo" (invisible, but B and C are unculled)
+    6. Fuse target twice and jump shortly after the second fuse so that Mineru culls (and the target by extension)
+    7. After 30 uses, destroy C and D before continuing
 
     #### Method notes
 
