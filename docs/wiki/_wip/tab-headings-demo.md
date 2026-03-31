@@ -29,7 +29,7 @@ Tabs with `###` marks appear as h3 entries in the TOC and are sized accordingly.
 
 === "Plain Tab"
 
-    This tab has no `#` marks — it does **not** appear in the TOC and uses the default parent-based sizing.
+    This tab has no `#` marks — it does **not** appear in the TOC and renders at the default size.
 
 ## Deeper Heading Levels
 
@@ -55,7 +55,7 @@ Tabs with `####` marks appear as h4 entries and render at a smaller size.
 
 ## Nested Tabs
 
-Tabs can be nested by indenting the inner tab set by 4 additional spaces inside the outer tab's content.
+Tabs can be nested by indenting the inner tab set by 4 additional spaces inside the outer tab's content. Inner tabs with `#` marks get their own heading size; inner tabs without `#` marks render at the default size.
 
 === "Version 1.0" ###
 
@@ -79,7 +79,7 @@ Tabs can be nested by indenting the inner tab set by 4 additional spaces inside 
 
 === "Version 1.2" ###
 
-    Updated techniques after the first major patch.
+    These inner tabs have no `#` marks, so they render at the default size and don't appear in the TOC.
 
     === "Method A"
 
@@ -120,7 +120,7 @@ Tabs can be nested by indenting the inner tab set by 4 additional spaces inside 
     1. Use a tree launch to fly over the arena
     2. Land on the far side
 
-    #### Lynel Strategy ?
+    #### Lynel Strategy !
 
     1. Mount the Lynel immediately
     2. Use the infinite mount glitch
