@@ -774,7 +774,9 @@ A single `#` or no `#` at all leaves the tab as a plain label with no TOC entry 
 
 #### Tab sizing
 
-Tab labels automatically scale their font size based on the heading they appear under. Tabs below an `h2` render at the default size; tabs below an `h3` render slightly smaller, and so on. This keeps tab labels visually proportional to their surrounding heading hierarchy. The sizing is injected automatically — no extra markup is needed.
+When `#` marks are specified, the tab label font size is scaled to match the chosen heading level — so `###` tabs render at the same size as regular h3 headings, `####` at h4 size, and so on. This gives tab headings the full visual weight of their heading level.
+
+When no `#` marks are specified (plain tabs), the font size is determined automatically from the parent heading in the document. Tabs below an `h2` render at the default size; tabs below an `h3` render slightly smaller. This automatic sizing requires no extra markup.
 
 ### Collapsible Sections
 
