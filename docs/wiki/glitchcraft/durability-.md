@@ -10,7 +10,7 @@ aliases: []
 tags: ["item", "weapon", "bow"]
 ---
 
-# Durability- `DUR-`
+# Durability-
 
 ## Summary
 Dropping and picking up a bow with a durability modifier removes the extra durability.
