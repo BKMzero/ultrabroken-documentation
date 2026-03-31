@@ -736,11 +736,9 @@ Creates tabs for organizing related content groups.
 
     This is alternative approach B.
 
-#### Tab headings
+#### Tab Headings
 
-By default, tab labels are not included in the table of contents. Appending `#` marks (2–6) after the closing quote promotes a tab label to a TOC-visible heading at the corresponding level — the same way `#` marks work in regular Markdown headings.
-
-##### Syntax
+By default, tab labels are not included in the table of contents. Appending `#` marks (2–6) after the closing quote promotes a tab label to a TOC-visible heading at the corresponding level — the same way `#` marks work in regular Markdown headings:
 
 ```markdown
 === "Pause-Cancel" ###
@@ -758,8 +756,6 @@ By default, tab labels are not included in the table of contents. Appending `#` 
 
 The `#` marks are stripped from the rendered tab label — only the text inside the quotes is displayed. A hidden companion heading is injected inside the tab so that the TOC, scroll spy, and deep linking all work automatically. The share icon is placed directly on the tab label instead of on the hidden heading.
 
-##### Choosing a level
-
 Pick the heading level that matches where the tab sits in the page hierarchy. If tabs live directly under an `## Instructions` heading, use `###` (h3) so they nest correctly in the TOC.
 
 | Marks | Heading level | Typical use |
@@ -772,11 +768,7 @@ Pick the heading level that matches where the tab sits in the page hierarchy. If
 
 A single `#` or no `#` at all leaves the tab as a plain label with no TOC entry — this is the default behaviour.
 
-#### Tab sizing
-
-When `#` marks are specified, the tab label font size is scaled to match the chosen heading level — so `###` tabs render at the same size as regular h3 headings, `####` at h4 size, and so on. This gives tab headings the full visual weight of their heading level.
-
-When no `#` marks are specified (plain tabs), all tab labels render at the same default size regardless of where they appear in the document. To control sizing, add `#` marks.
+When `#` marks are specified, the tab label font size is also scaled to match the chosen heading level — so `###` tabs render at the same size as regular h3 headings, `####` at h4 size, and so on. When no `#` marks are specified (plain tabs), all tab labels render at the same default size regardless of where they appear in the document.
 
 ### Collapsible Sections
 
