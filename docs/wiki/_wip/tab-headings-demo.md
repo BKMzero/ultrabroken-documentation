@@ -61,7 +61,7 @@ Tabs can be nested by indenting the inner tab set by 4 additional spaces inside 
 
     Techniques available on the original release.
 
-    === "Method A"
+    === "Method A" ####
 
         The original discovery. Simple but slow.
 
@@ -69,7 +69,7 @@ Tabs can be nested by indenting the inner tab set by 4 additional spaces inside 
         2. Select the weapon
         3. Trigger the glitch
 
-    === "Method B"
+    === "Method B" ####
 
         An optimized variant found later.
 
