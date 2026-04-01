@@ -6,12 +6,12 @@ label: "BDI"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Aergyl", "mulberry", "Squidwest"]
 date: "2026-01-17"
-description: "A collection of methods to produce large numbers of Ghost DI items quickly."
+description: "A collection of methods to produce large numbers of DI Ghosts quickly."
 aliases: ["Batch DI", "Batch-DI"]
 tags: ["despawn-interrupt", "culling"]
 ---
 
-# Batch DI
+# Batch Despawn Interrupt
 
 ## Summary
 Some of the properties of DI Ghosts (typically equipment, sometimes otherwise) are best exploited with large numbers of them. This page provides various convenient ways to produce large numbers of them.
@@ -19,6 +19,8 @@ Some of the properties of DI Ghosts (typically equipment, sometimes otherwise) a
 !!! warning "Under Construction!"
 
     This page is still being written, and not meant to be publicly accessible. Our apologies for the mishap.
+
+    It may be used as-is, but some sections are incomplete, and others may contain incorrect information.
 
 _Credits - See individual methods_
 
@@ -173,13 +175,18 @@ Methods are partitioned based on their resulting structure.
     - A torch
     - A flame emitter
 
+    Creating the setup:
+
     1. A and normal weapon B make DI Ghost Shield C, keep normal parent
     2. Smuggle C
     3. Glue B to the torch and place in a culling area
     4. Activate the flame emitter and point it at the head of the torch from point-blank
     5. Overload Drop a shield D and fuse it to a weapon E
-    6. Fuse target to shield twice and pause the game in any way shortly after the second fuse
-    7. After 30 successful uses, destroy C and D, then remake them to continue
+
+    Creating DI Ghosts:
+    
+    1. Fuse target to shield twice and pause the game in any way shortly after the second fuse
+    2. After 30 successful uses, destroy C and D, then remake them to continue
 
     !!! danger "Fuse-Over(load)"
 
@@ -211,11 +218,16 @@ Methods are partitioned based on their resulting structure.
     - A normal weapon (B)
     - A Stake
 
+    Creating the setup:
+
     1. Mineru FE B
     2. Smuggle A, equip B, and target shield C with Fuse
     3. Induce Mineru to cull and fuse shortly before B culls; this will DI C
     3. Smuggle C
     4. Overload drop Shield (D) and fuse to Weapon (E)
+
+    Creating DI Ghosts:
+    
     5. Stand on a stake at the right height so that Mineru goes into "Limbo" (invisible, but B and C are unculled)
     6. Fuse target twice and jump shortly after the second fuse so that Mineru culls (and culls the target by extension)
     7. After 30 uses, destroy C and D before continuing
@@ -262,11 +274,13 @@ Methods are partitioned based on their resulting structure.
 
         Method 5 is tested and verified to be functional and optimal.
 
-    Prepare:
-
-    A DI Ghost Weapon or Shield (A)
-
     ??? abstract "Safe Variant"
+
+        Prepare:
+
+        A DI Ghost Weapon or Shield (A)
+
+        Steps:
 
         1. Duplicate three normal copies of A by DI Duping (B, C, & D)
         2. Smuggle A and equip B, then drop C on the ground
@@ -279,6 +293,12 @@ Methods are partitioned based on their resulting structure.
         9. After the process has been repeated to satisfaction, despawn all the normal parents of the chain by distance or chasm (which also performa a FarDelete)
 
     ??? abstract "Fast Variant"
+
+        Prepare:
+
+        A DI Ghost Weapon or Shield (A)
+
+        Steps:
 
         1. Duplicate three normal copies of A by DI Duping (B, C, & D)
         2. Equip A and drop C on the ground
@@ -325,12 +345,14 @@ Methods are partitioned based on their resulting structure.
 
         Method 6 is not yet tested for function and optimality.
 
-    Prepare:
-
-    A DI Ghost Weapon or Shield (A)
-    Intangible Aerophasing
-
     ??? abstract "Safe Variant"
+
+        Prepare:
+
+        - A DI Ghost Weapon or Shield (A)
+        - Intangible Aerophasing
+
+        Steps:
 
         1. Duplicate three normal copies of A by DI Duping (B, C, & D)
         2. Smuggle A and equip B, then drop C on the ground
@@ -344,6 +366,13 @@ Methods are partitioned based on their resulting structure.
         10. After the process has been repeated to satisfaction, despawn all the normal parents of the chain by distance or chasm (which also performs a FarDelete)
 
     ??? abstract "Fast Variant"
+
+        Prepare:
+
+        A DI Ghost Weapon or Shield (A)
+        Intangible Aerophasing
+
+        Steps:
 
         1. Duplicate three normal copies of A by DI Duping (B, C, & D)
         2. Equip A and drop C on the ground
@@ -386,6 +415,8 @@ Methods are partitioned based on their resulting structure.
     - A normal shield (B)
     - Mineru
     - A stake
+
+    Steps:
 
     1. Mineru FE B
     2. Smuggle A and equip B
@@ -447,21 +478,23 @@ Methods are partitioned based on their resulting structure.
 
         Method 8 is tested and verified to be functional and optimal.
 
-    Prepare:
+    The method differs depending on the target, and so it 
 
-    A DI Shield (A)
+    ??? abstract "For Shields"
 
-    First, creating the base setup:
+        Prepare:
+
+        - A DI Shield (A)
+
+        Creating the setup:
     
-    1. Dupe 3 copies of A
-    2. A make DI ghost B, dispose of the normal parent
-    3. A make DI Octo Balloon, use the normal parent to detangle it
-    4. Smuggle B and equip another shield over it
-    5. Get shocked with shield unsheathed; this will purgatorize B and cause it to only attach when it has a dependency chain back to Link via A
+        1. Dupe 3 copies of A
+        2. A make DI ghost B, dispose of the normal parent
+        3. A make DI Octo Balloon, use the normal parent to detangle it
+        4. Smuggle B and equip another shield over it
+        5. Get shocked with shield unsheathed; this will purgatorize B and cause it to only attach when it has a dependency chain back to Link via A
 
-    Then, production, seperated by target type:
-
-    ??? abstract "For shields"
+        Creating DI Ghost Shields:
 
         1. Zuggle Drop A to attach B
         2. Equip another shield and a random weapon, then unsheathe them
@@ -495,10 +528,25 @@ Methods are partitioned based on their resulting structure.
                 F -->|Becomes| H[Normal Parent 2]
             ```
 
-    ??? abstract "For other equipment"
+    ??? abstract "For Other Equipment Types"
+
+        Prepare:
+
+        - A DI Shield (A)
+        - At least one of the target type, or a DI Ghost of it
+
+        Creating the setup:
+    
+        1. Dupe 3 copies of A
+        2. A make DI ghost B, dispose of the normal parent
+        3. A make DI Octo Balloon, use the normal parent to detangle it
+        4. Smuggle B and equip another shield over it
+        5. Get shocked with shield unsheathed; this will purgatorize B and cause it to only attach when it has a dependency chain back to Link via A
+
+        Making DI Ghost Weapons/Bows:
 
         1. If a DI ghost of the target is already prepared, place it next to A
-        2. Leave only one empty space in the Shield pouch and the target type's pouch    
+        2. Leave only one empty space in the Shield pouch and the target type's pouch
         3. Zuggle Drop A to attach B
         4. Equip another shield and a random weapon, then unsheathe them
         5. Face A and pick up a dupe of it (and the target, if possible)
@@ -530,7 +578,22 @@ Methods are partitioned based on their resulting structure.
                 F -->|Becomes| H[Normal Parent 2]
             ```
 
-    ??? abstract "For non-equipment"
+    ??? abstract "For Non-Equipment"
+
+        Prepare:
+
+        - A DI Shield (A)
+        - One of the target for _each_ DI Ghost to be made
+
+        Creating the Setup:
+    
+        1. Dupe 3 copies of A
+        2. A make DI ghost B, dispose of the normal parent
+        3. A make DI Octo Balloon, use the normal parent to detangle it
+        4. Smuggle B and equip another shield over it
+        5. Get shocked with shield unsheathed; this will purgatorize B and cause it to only attach when it has a dependency chain back to Link via A
+
+        Making DI Ghosts:
 
         1. Zuggle Drop A to attach B
         2. Equip another shield and a random weapon, then unsheathe them
