@@ -1,9 +1,11 @@
 {% extends "base.html" %}
 
 {% block extrahead %}
-  <!-- Strip URL fragment early so JS (hash-navigation.js) controls
-       the scroll position instead of the browser's native anchor jump. -->
-  <script>(function(){if(location.hash){window.__ubSavedHash=location.hash;history.replaceState(null,'',location.pathname+location.search)}})()</script>
+  <!-- On fresh navigation with a #fragment, strip it early so
+       hash-navigation.js controls reveal + scroll instead of
+       the browser's native anchor jump.  On reload, leave the
+       URL alone so the browser's scroll restoration works. -->
+  <script>(function(){var n=performance.getEntriesByType&&performance.getEntriesByType('navigation')[0];var isReload=n?n.type==='reload':(performance.navigation&&performance.navigation.type===1);if(!isReload&&location.hash){window.__ubSavedHash=location.hash;history.replaceState(null,'',location.pathname+location.search)}})()</script>
   <!-- Preload critical Latin font files (same-origin, no DNS hops) -->
   <link rel="preload" href="{{ 'assets/fonts/texturina-latin.woff2' | url }}" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="{{ 'assets/fonts/new-rocker-400-latin.woff2' | url }}" as="font" type="font/woff2" crossorigin>
