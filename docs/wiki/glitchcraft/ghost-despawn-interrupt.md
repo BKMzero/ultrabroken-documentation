@@ -17,6 +17,12 @@ tags: ["item", "despawn", "fuse", "culling"]
 
 Eaten DI equipment passes an Eaten death down to newly-fused children (_if_ the main parent is DI), which can itself be interrupted. This causes the "Ghost DI" state, which has additional properties over the standard Eaten DI state.
 
+!!! warning "Under Construction!"
+
+    This page is still being written, and not meant to be publicly accessible. Our apologies for the mishap.
+
+    It may be used as-is, but some sections are incomplete, and others may contain incorrect information.
+
 _Discovered by mulberry; methods, optimizations, and properties found by Aergyl, mulberry, Squidwest - Jan 16, 2026_
 
 ## Instructions
@@ -32,7 +38,7 @@ All methods follow the same general pattern:
 
     These methods FE the target to a DI parent and fully fuse the target to a normal parent; the latter will need to be detangled/despawned to make the target persistent.
 
-    #### Method 1: <br/>Fuse + Drop-Swap { .collapse }
+    #### Method 1: <br/>Fuse + Drop-Swap ?
     ---
     versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -51,7 +57,7 @@ All methods follow the same general pattern:
     9. Delete the normal parent by "FarDelete"; this can be done by sending it away with a rocket, dropping it down a chasm, or simply moving about 60m away
     10. Detangle the DI parent; The fastest way to do this is to just use it again (DI objects with DI parents are protected from "Fuse-over" deletion)
 
-    #### Method 2: <br/>Turbo Replication { .collapse }
+    #### Method 2: <br/>Turbo Replication ?
     ---
     versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -68,13 +74,13 @@ All methods follow the same general pattern:
     7. **Unpause** the game and press B within a couple frames of the game actually unpausing
     8. Done correctly, the target will detangle from both the DI parent and the normal parent, and its pickup prompt will be displaced from its visual model
 
-    #### Method 3: <br/>Mineru FE Target + Fuse { .collapse }
+    #### Method 3: <br/>Mineru FE Target + Fuse ?
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
     ---
 
-    This method entangles the target to Mineru, allowing her to be used as the culling source to DI that target. The target will continue culling with Mineru afterwards.
+    This method entangles the target to Mineru, allowing her to be used as the culling source to DI that single target. The target will continue culling with Mineru afterwards.
 
     1. Mineru FE the target; This will cause it to cull with Mineru
     2. Smuggle or Zuggle a DI weapon or shield
@@ -86,7 +92,7 @@ All methods follow the same general pattern:
     9. Delete the normal parent by "FarDelete"; this can be done by sending it away with a rocket, dropping it down a chasm, or simply moving about 60m away
     10. Detangle the target from the DI parent; The fastest way to do this is to just use it again (DI objects with DI parents are protected from "Fuse-over" deletion)
 
-    #### Method 4: <br/>Mineru FE Parent + Fuse { .collapse }
+    #### Method 4: <br/>Mineru FE Parent + Fuse ?
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -102,7 +108,7 @@ All methods follow the same general pattern:
     6. Delete the normal parent by "FarDelete"; this can be done by sending it away with a rocket, dropping it down a chasm, or simply moving about 60m away
     7. Detangle the target from the DI parent; The fastest way to do this is to just use it again (DI objects with DI parents are protected from "fuse-over" deletion)
 
-    #### Method 5: <br/>Mineru DI + Fuse { .collapse }
+    #### Method 5: <br/>Mineru DI + Fuse ?
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -122,18 +128,22 @@ All methods follow the same general pattern:
 
     These methods FE the target to a DI parent and CF the target to a normal parent, resulting in PF; this removes the need to detangle it from the normal parent.
 
-    #### Method 6: <br/>Overload Pseudo Fuse { .collapse }
+    #### Method 6: <br/>Overload Pseudo Fuse ?
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
     ---
+
+    !!! warning "Construction Zone"
+
+        This method is not yet written.
 
     This method uses overload to Pseudo-Fuse the target, and then literally idk how it culls the target
 
     (normal overload pfdi without any batching considerations)
     (I don't actually know what's minimal, so I'm coming back to this one later)
 
-    #### Method 7: <br/>Culling Area Distant Pseudo Fuse { .collapse }
+    #### Method 7: <br/>Culling Area Distant Pseudo Fuse ?
     ---
     versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -151,13 +161,13 @@ All methods follow the same general pattern:
     6. Use the portacull to cull the DI parent and the target
     7. The target, now DI'd, will be attached to the normal parent, but not fused
 
-    #### Method 8: <br/>Culling Area Recull Pseudo Fuse { .collapse }
+    #### Method 8: <br/>Culling Area Recull Pseudo Fuse ?
     ---
     versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: true
     ---
 
-    This method uses a culling area to Pseudo-Fuse the target, and a portacull to perform the DI. It's more difficult than Method 7, for no benefit. Don't do it.
+    This method uses a culling area to Pseudo-Fuse the target, and a portacull to perform the DI. Included here mainly for posterity; Method 7 is a strict optimization.
 
     Prepare a DI weapon or shield, another item of that type, and a portacull of the opposite type
 
@@ -169,8 +179,6 @@ All methods follow the same general pattern:
     6. Shortly after the target unculls, pause the game (timing is frame perfect)
     6. Use the portacull to cull the DI parent and the target
     7. The target, now DI'd, will be attached to the normal parent, but not fused
-
-    Don't.
 
 ## Properties
 
@@ -193,7 +201,7 @@ All methods follow the same general pattern:
 
 !!! failure "Pre-fused Ghosts"
 
-    If a non-ghost DI equipment is created with a fuse already attached, the fuse (if it survives at all) will _seem_ to be in the Ghost DI state, but is in fact missing any form of persistence (even warping with it zuggled will delete it).
+    If a non-ghost DI equipment is created with a fuse already attached, the fuse (if it survives at all) will _seem_ to be in the Ghost DI state, but is in fact missing any form of intrinsic persistence. Sometimes, they will even be deleted when warping with the parent zuggled.
 
     This is due to a property of the DI state: it stops updating various flags and variables, including whether it is a "resident" (aka persistent) actor. DI Ghosts which are attached to Link on creation (like fusing to a zuggled equipment) keep their resident state even when dropped, and DI Ghosts created while unattached (such as being fused to a detached piece of equipment) fail to gain the resident state even when attached.
 
@@ -201,17 +209,11 @@ All methods follow the same general pattern:
 
     If a piece of equipment has 30 direct child dependencies, it will become "Fuse Overloaded". Further fuse attempts will fail, producing a "reference FE" connection, which will usually **crash the game** if the "failed parent" is dropped. Because "fusing over" a DI ghost leaves a CF connection to that parent, a DI parent can only be used 30 times unless full detanglement is used or some children are destroyed.
 
-### Remarks
-Remarks
-
-### Additions
-Additions
-
-### Extensions
-Extensions
-
 ## Resources
-- [Link Title](Link URL)
+
+!!! warning "Construction Zone"
+
+    References will be added later in the page-creation process. Thank you for your patience.
 
 ## Related
-- [Searchbar Query](search:Searchbar Query)
+- [Despawn Interrupt](search:Despawn Interrupt)
