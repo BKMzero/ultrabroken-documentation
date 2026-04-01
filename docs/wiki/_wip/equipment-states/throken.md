@@ -1,15 +1,8 @@
 ---
 title: "Throken"
+credits: ["Ikaboze"]
 ---
 
 # Throken
 
-## Description
-
-This is the best equipment state for sure!
-
-### Effects
-
-
-
-
+A lingering state on weapons that should have broken when thrown, but didn't.
