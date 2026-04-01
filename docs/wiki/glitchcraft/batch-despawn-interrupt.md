@@ -5,7 +5,7 @@ draft: true
 label: "BDI"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Aergyl", "mulberry", "Squidwest"]
-date: "2025-01-17"
+date: "2026-01-17"
 description: "A collection of methods to produce large numbers of Ghost DI items quickly."
 aliases: ["Batch DI", "Batch-DI"]
 tags: ["despawn-interrupt", "culling"]
@@ -15,6 +15,10 @@ tags: ["despawn-interrupt", "culling"]
 
 ## Summary
 Some of the properties of DI Ghosts (typically equipment, sometimes otherwise) are best exploited with large numbers of them. This page provides various convenient ways to produce large numbers of them.
+
+!!! warning "Under Construction!"
+
+    This page is still being written, and not meant to be publicly accessible. Our apologies for the mishap.
 
 _Credits - See individual methods_
 
@@ -31,6 +35,10 @@ Methods are partitioned based on their resulting structure.
     versions: ["1.2.0","1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
     ---
+
+    !!! success "Verified"
+
+        Method 1 is tested and verified to be functional and optimal.
 
     Prepare:
 
@@ -94,6 +102,10 @@ Methods are partitioned based on their resulting structure.
     obsolete: false
     ---
 
+    !!! warning "Construction Zone"
+
+        Method 2 is not yet tested for function and optimality.
+
     Prepare:
 
     - 13 Zuggle Overload
@@ -150,7 +162,9 @@ Methods are partitioned based on their resulting structure.
     obsolete: false
     ---
 
-    (still haven't quite figured this out, so steps are likely incorrect)
+    !!! warning "Construction Zone"
+
+        Method 3 is not yet tested for function and optimality.
 
     Prepare:
 
@@ -167,8 +181,6 @@ Methods are partitioned based on their resulting structure.
     6. Fuse target to shield twice and pause the game in any way shortly after the second fuse
     7. After 30 successful uses, destroy C and D, then remake them to continue
 
-    sorry i know this is wrong
-
     !!! danger "Fuse-Over(load)"
 
         Detangling a DI Ghost from its parent by "fuse-over" leaves a Cold Fuse connection behind, and detaching a DI Ghost from its PF parent does the same. Due to this, C and D will each gain one _peristent_ dependency for each DI Ghost produced. After 30 uses, C and D will reach Fuse Overload. If a 31st use is attempted, you will create a "Reference FE" connection, which will **crash the game** if you drop either!
@@ -179,7 +191,7 @@ Methods are partitioned based on their resulting structure.
 
     ??? example "Diagram"
 
-    Making a diagram of my incorrect steps would be a waste of time, so let's just wait until I find the time to do this one.
+        Making a diagram of an untested method would be a waste of time. Please wait until the method is tested and verified.
 
     #### Method 4: <br/>Overload PF + Mineru Limbo ?
     ---
@@ -187,12 +199,15 @@ Methods are partitioned based on their resulting structure.
     obsolete: false
     ---
 
-    (I don't know how to do mineru stake limbo. people make it look so easy but she just does not like me. Even still, the steps should be functional, though idk about _optimal_)
+    !!! warning "Construction Zone"
+
+        Method 4 _should_ be fully functional, but is not yet tested for optimality.
 
     Prepare:
 
     - 13 Zuggle Overload
     - A DI Weapon (A) (all types can be inverted)
+    - Mineru
     - A normal weapon (B)
     - A Stake
 
@@ -228,7 +243,7 @@ Methods are partitioned based on their resulting structure.
             MINERU -->|FE| B
             A -->|DI| C
             B -->|DI| C
-            E -->|FUSE| D
+            E -->|Fuse| D
             C -->|FE| TARGET
             D -->|CF| TARGET
         ```
@@ -242,6 +257,10 @@ Methods are partitioned based on their resulting structure.
     versions: ["1.2.0","1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
     ---
+
+    !!! success "Verified"
+
+        Method 5 is tested and verified to be functional and optimal.
 
     Prepare:
 
@@ -302,6 +321,10 @@ Methods are partitioned based on their resulting structure.
     obsolete: false
     ---
 
+    !!! warning "Construction Zone"
+
+        Method 6 is not yet tested for function and optimality.
+
     Prepare:
 
     A DI Ghost Weapon or Shield (A)
@@ -347,27 +370,34 @@ Methods are partitioned based on their resulting structure.
             I[Normal Parent] -->|...| H
         ```
 
-    This one probably sucks lol. I genuinely don't know how or why pre-current players do it
-
     #### Method 7: <br/>Chaining + Mineru FE ?
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
     ---
 
-    (haven't even decided what this one should look like yet)
-    (I guess you have to open with a type swap? I think that's possible at least)
+    !!! warning "Construction Zone"
 
-    di ghost weap A normal weap B
-    smuggle A, FE B to Mineru
-    Leave B equipped henceforth!
-    Use stake to limbo minnie
-    fuse _shield_ C to B and jump
-    Now you can use the limbo stake to DI shields in the chain, because C will keep culling with B the whole time
-    For, you know, whatever that's worth?
-    Wait, I'm dumb in the head
-    B is protected from drop limit because Mineru has it lol, the type swap isn't necessary
-    whatever the rest of the page is still more valuable and needs more attention
+        Method 7 is not yet tested for function and optimality.
+
+    Prepare:
+
+    - A DI Shield (A) (Method works the same with weapons)
+    - A normal shield (B)
+    - Mineru
+    - A stake
+
+    1. Mineru FE B
+    2. Smuggle A and equip B
+    3. Target shield C with Fuse
+    4. Induce Mineru to cull, and fuse C to B shortly before B culls via her
+    5. Drop B and swap to another shield (D)
+    6. Dupe 2 new shields off C by trying to pick it up (be careful B is not targeted)
+    7. Drop D, and optionally pick up and drop A to remove its dependency (which contributes to Zuggle Overload)
+    8. Pick up and smuggle C and equip duped shield E
+    9. Induce Mineru to cull, and fuse D to E shortly before C culls (via B, via her)
+    10. Repeat steps 5-9 with repeated new shields
+    11. Once process has been repeated to satisfaction, destroy all remaining normal parents in any order via distance or chasm
 
     !!! danger "Long Chains"
 
@@ -403,8 +433,6 @@ Methods are partitioned based on their resulting structure.
             H -->|DI| I
         ```
 
-    Not entirely convinced this one has a reference. Probably better than 6 but I've not gotten around to either yet
-
 === "Turbo Cloning Methods"
 
     These methods use a purgatorized DI shield to repeatedly fuse, then Octo Detangle, each target in turn. It is optimal for batch production without Zuggle Overload, and ideal for both shield batches of any size, and for repeatedly creating small batches of any target type.
@@ -414,6 +442,10 @@ Methods are partitioned based on their resulting structure.
     versions: ["1.2.0","1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
     ---
+
+    !!! success "Verified"
+
+        Method 8 is tested and verified to be functional and optimal.
 
     Prepare:
 
@@ -540,14 +572,11 @@ Methods are partitioned based on their resulting structure.
 
 - Due to the difference in resulting structure, these methods are usually _not_ interchangable. They have been grouped by structure for this reason.
 
-### Additions
-Additions
-
-### Extensions
-Extensions
-
 ## Resources
-- [Link Title](Link URL)
+
+!!! warning "Construction Zone"
+
+    References will be added later in the page-creation process. Thank you for your patience.
 
 ## Related
-- [Searchbar Query](search:Searchbar Query)
+- [Despawn Interrupt](search:Despawn Interrupt)
