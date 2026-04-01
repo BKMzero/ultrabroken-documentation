@@ -9,6 +9,8 @@ This site is a community-driven encyclopedia of glitches, techniques, and invest
 
 <div id="ai-search-root"></div>
 
+<div id="glitch-of-the-day"></div>
+
 ## Quick Navigation
 ----
 - **[About the Archives](about.md)** - All you need to know about The Archives and its Communities

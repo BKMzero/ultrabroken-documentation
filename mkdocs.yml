@@ -82,6 +82,7 @@ extra_javascript:
   - assets/scripts/toc-link-click.js      # smooth-scroll for all TOC link clicks (desktop + mobile)
   - assets/scripts/nav-delegation.js
   - assets/scripts/mobile-toc.js
+  - assets/scripts/glitch-of-the-day.js
 
 nav:
   - Home: wiki/index.md
