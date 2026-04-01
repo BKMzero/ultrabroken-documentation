@@ -56,7 +56,7 @@ To send equipment to pugatory (to 'purgatorify' it), you have several options:
     - Be ready for it to fly away from Link with great speed when you drop it!
 - Smuggle a weapon or shield, then equip and shock-drop another. (If you smuggled a weapon, you can also throw the second instead.) The smuggle will lose collision and be purgatorified.
     - The second piece of equipment will become drop-equipped, and thus also easy to purgatorify.
-- Drop some equipment while it's culled, and you have a zuggle of the same equipment kind. The dropped equipment will be sent to culled purgatory.<!-- TODO: confirm that Link doesn't have to be the cull source, even if that is the most convenient -->
+- Drop some equipment while it's culled, and you have a zuggle of the same equipment kind. The dropped equipment will be sent to culled purgatory.
     - This equipment will lose collision, even if you use an FE parent to uncull it later.
     - Equipment in culled purgatory isn't deleted on reload. If the equipment has an FE child that you then uncull with some other method, that item will persist across reloads as a [PSLOT](search:PSLOT).
 
