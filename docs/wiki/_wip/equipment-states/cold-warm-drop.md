@@ -19,10 +19,18 @@ This second effect allows for Mineru/Construct FE simply by pausing on such a fr
 
 When hovering over a warm drop with Ultrahand, Recall or Fuse, opening a menu (inventory, D-Pad, L Wheel, etc...) will interrupt the connection with Link for a frame (equipment will turn orange for UH, the visible bond will disappear for Fuse, etc...).
 
-### Changing drop temperature
+### Changing equipment drop temperature
 
-It is not possible to turn a cold drop into a warm drop.
-However the other way around is possible, simply have an enemy pick up the warm drop and have it drop it again. The enemy will drop it cold.
+=== Cold to Warm ####
+
+- Pick up the equipment with nothing in that slot equipped.
+- Drop, throw, or shock-drop the equipment to make it a warm drop.
+
+=== Warm to Cold ####
+
+- Convince an enemy to pick up the warm-dropped equipment.
+    - If the enemy is near other equipment, you may need to destroy, steal, or otherwise move that equipment to make them pick up your warm drop instead.
+- Kill or disarm the enemy to make them drop the equipment, which is now a cold drop.
 
 ### Effects
 

@@ -4,12 +4,4 @@ title: "Invizuggle"
 
 # Invizuggle
 
-## Description
-
-This is the best equipment state for sure!
-
-### Effects
-
-
-
-
+An invizuggle is a culled zuggle. See the [zuggle section](../../zuggling) for more.
