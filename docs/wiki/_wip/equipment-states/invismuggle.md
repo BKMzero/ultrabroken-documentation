@@ -4,12 +4,4 @@ title: "Invismuggle"
 
 # Invismuggle
 
-## Description
-
-This is the best equipment state for sure!
-
-### Effects
-
-
-
-
+An invismuggle is a culled smuggle. See [the page on smuggling](smuggle) for more.
