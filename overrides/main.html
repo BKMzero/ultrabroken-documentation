@@ -1,12 +1,10 @@
 {% extends "base.html" %}
 
 {% block extrahead %}
-  <!-- On fresh navigation, strip the URL fragment early so the
-       browser never does native scroll-to-anchor before JS can
-       activate tabs / collapsed sections.  On page reload, also
-       strip the hash (to prevent anchor-jump) but let the browser
-       restore the user's scroll position naturally via history. -->
-  <script>(function(){var n=performance.getEntriesByType&&performance.getEntriesByType('navigation')[0];var isReload=n?n.type==='reload':performance.navigation&&performance.navigation.type===1;if(isReload){if(location.hash){window.__ubReloadHash=location.hash;history.replaceState(null,'',location.pathname+location.search)}window.__ubIsReload=true;return}if(location.hash){window.__ubSavedHash=location.hash;history.replaceState(null,'',location.pathname+location.search)}})()</script>
+  <!-- Strip URL fragment early to prevent native scroll-to-anchor.
+       On reload, also save/restore scroll position manually since
+       replaceState may clear the browser's stored scroll state. -->
+  <script>(function(){var k='__ubScrollY',n=performance.getEntriesByType&&performance.getEntriesByType('navigation')[0],isReload=n?n.type==='reload':performance.navigation&&performance.navigation.type===1;if(isReload){window.__ubIsReload=true;try{var y=sessionStorage.getItem(k);if(y!==null)window.__ubReloadScrollY=parseFloat(y)}catch(e){}}if(location.hash){window[isReload?'__ubReloadHash':'__ubSavedHash']=location.hash;history.replaceState(null,'',location.pathname+location.search)}window.addEventListener('beforeunload',function(){try{sessionStorage.setItem(k,String(window.scrollY))}catch(e){}})})()</script>
   <!-- Preload critical Latin font files (same-origin, no DNS hops) -->
   <link rel="preload" href="{{ 'assets/fonts/texturina-latin.woff2' | url }}" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="{{ 'assets/fonts/new-rocker-400-latin.woff2' | url }}" as="font" type="font/woff2" crossorigin>
