@@ -9,7 +9,9 @@ This site is a community-driven encyclopedia of glitches, techniques, and invest
 
 <div id="ai-search-root"></div>
 
-<div id="glitch-of-the-day"></div>
+## Glitch Spotlight {: #glitch-of-the-day }
+
+<div id="gotd-content"></div>
 
 ## Quick Navigation
 
