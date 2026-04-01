@@ -16,12 +16,6 @@ tags: ["despawn-interrupt", "culling"]
 ## Summary
 Some of the properties of DI Ghosts (typically equipment, sometimes otherwise) are best exploited with large numbers of them. This page provides various convenient ways to produce large numbers of them.
 
-!!! warning "Under Construction!"
-
-    This page is still being written, and not meant to be publicly accessible. Our apologies for the mishap.
-
-    It may be used as-is, but some sections are incomplete, and others may contain incorrect information.
-
 _Credits - See individual methods_
 
 ## Instructions

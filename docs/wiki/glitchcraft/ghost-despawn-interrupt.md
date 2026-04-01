@@ -17,12 +17,6 @@ tags: ["item", "despawn", "fuse", "culling"]
 
 Eaten DI equipment passes an Eaten death down to newly-fused children (_if_ the main parent is DI), which can itself be interrupted. This causes the "Ghost DI" state, which has additional properties over the standard Eaten DI state.
 
-!!! warning "Under Construction!"
-
-    This page is still being written, and not meant to be publicly accessible. Our apologies for the mishap.
-
-    It may be used as-is, but some sections are incomplete, and others may contain incorrect information.
-
 _Discovered by mulberry; methods, optimizations, and properties found by Aergyl, mulberry, Squidwest - Jan 16, 2026_
 
 ## Instructions
