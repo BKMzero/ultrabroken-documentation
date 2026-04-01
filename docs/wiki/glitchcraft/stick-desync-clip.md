@@ -29,6 +29,7 @@ This also has a side effect of culling link if the sdc stick is in a culling are
 Remarks:
 
 - After an sdc, you will experience an ability menu lock, fix it by mounting anything
+- While in this ability menu lock, you will be immune to gloom
 - After an sdc, the stick will be locked, you can unlock it by warping if you prevent the stick from unloading, this can be done for short distances by equipping the base before warping
 - To activate sdc culling, put the sdc stick inside a culling area and drop the base to cull.
 - Watching memories allows link to uncull for roughly half a second.

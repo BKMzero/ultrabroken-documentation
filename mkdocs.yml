@@ -77,7 +77,9 @@ extra_javascript:
   - assets/scripts/graph-view.js
   - assets/scripts/cosmetic-urls.js
   - assets/scripts/collapsible-sections.js
+  - assets/scripts/hash-navigation.js     # revealTarget, scrollToTarget, openForHash (after collapsible-sections wraps DOM)
   - assets/scripts/toc-scrollspy.js
+  - assets/scripts/toc-link-click.js      # smooth-scroll for all TOC link clicks (desktop + mobile)
   - assets/scripts/nav-delegation.js
   - assets/scripts/mobile-toc.js
 
