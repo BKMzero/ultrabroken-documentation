@@ -46,6 +46,7 @@ Purgatory weapons and shields have some additional features when on one side of 
 ### As the FE child
 
 - Having the FE parent equipped will keep the purgatory child equipped or positioned on Link as it was when it first entered purgatory. If you drop the parent, the child will drop from Link.
+    - This doesn't happen if the FE child was purgatorified due to physically culling Link.
 - Warping with the FE parent equipped will undo the purgatory status of the FE child, which will drop at Link's last position before the warp.
 
 ## Creating purgatory equipment
@@ -58,7 +59,7 @@ To send equipment to pugatory (to 'purgatorify' it), you have several options:
     - The second piece of equipment will become drop-equipped, and thus also easy to purgatorify.
 - Drop some equipment while it's culled, and you have a zuggle of the same equipment kind. The dropped equipment will be sent to culled purgatory.
     - This equipment will lose collision, even if you use an FE parent to uncull it later.
-    - Equipment in culled purgatory isn't deleted on reload. If the equipment has an FE child that you then uncull with some other method, that item will persist across reloads as a [PSLOT](search:PSLOT).
+    - Equipment in culled purgatory isn't directly deleted on reload. If the equipment has an FE child that you then uncull with some other method, that item will persist across reloads as a [PSLOT](search:PSLOT).
 
 ## Culled purgatory
 
