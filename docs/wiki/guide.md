@@ -773,23 +773,25 @@ When `#` marks are specified, the tab label font size is also scaled to match th
 
 ### Collapsible Sections
 
-Any heading can be turned into a clickable toggle that hides or reveals the content beneath it (everything until the next heading of equal or higher level). This uses the Attr List `{ .collapse }` class, which is processed client-side — no `<details>`/`<summary>` is involved.
+Any heading can be turned into a clickable toggle that hides or reveals the content beneath it (everything until the next heading of equal or higher level). Use simple shorthand markers at the end of the heading — no need to learn the full Attr List syntax.
 
 #### Syntax
 
+Use `?` to collapse by default, or `!` to expand on load. The marker must be preceded by a space:
+
 ```markdown
 #### Section Title ?
-Content here…
+Content here is hidden by default.
 
-#### Starts Open !
-This section is expanded on load.
+#### Important Section !
+Content here is visible on page load.
 ```
 
-The `?` shorthand expands to `{ .collapse }` (collapsed by default) and `!` expands to `{ .collapse .open }` (expanded on load). The shorthand marker must be preceded by a space. You can also write the full attr_list form directly:
+Alternatively, you can write the full Attr List form if preferred:
 
 ```markdown
 #### Section Title { .collapse }
-#### Starts Open { .collapse .open }
+#### Important Section { .collapse .open }
 ```
 
 #### Behaviour
