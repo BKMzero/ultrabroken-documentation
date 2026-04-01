@@ -12,6 +12,7 @@ A previously equipped piece of equipment will be warm when dropped, and any othe
 ### Differences in behaviour
 
 There are a couple differences in behaviour:
+
 - Warm drops always cull a frame quicker than cold drops.
 - When attempting to fuse a warm drop to a construct/Mineru, if the game is paused on a specific frame, the pause menu pauses the equipment one frame earlier than the newly created fuse actor. The exact inner workings haven't been figured out.
 
@@ -21,12 +22,12 @@ When hovering over a warm drop with Ultrahand, Recall or Fuse, opening a menu (i
 
 ### Changing equipment drop temperature
 
-=== Cold to Warm ####
+=== "Cold to Warm" ####
 
 - Pick up the equipment with nothing in that slot equipped.
 - Drop, throw, or shock-drop the equipment to make it a warm drop.
 
-=== Warm to Cold ####
+=== "Warm to Cold" ####
 
 - Convince an enemy to pick up the warm-dropped equipment.
     - If the enemy is near other equipment, you may need to destroy, steal, or otherwise move that equipment to make them pick up your warm drop instead.

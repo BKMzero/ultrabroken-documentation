@@ -29,17 +29,32 @@ The lingering connection to Link makes zuggle dropped equipment behave slightly 
 
 You don't need to go through the whole zuggle state to make a zuggle drop. You can also make one by slightly modifying a zuggle method:
 
-=== Map (`1.0`–`1.1.1`, or any version with DI equipment) ###
-- Perform the inputs to Map Zuggling as described, but not with your back to a wall, so that both items can drop. The first item initially equipped will be a zuggle drop.
+=== "Map" ###
+  ---
+  versions: ["1.0", "1.1.0", "1.1.1"]
+  ---
 
-=== Drop Delay (`1.0`–`1.1.2`) ###
-- Perform the inputs of Drop Delay Zuggle as described, but not near a wall, so that everything has room to drop. The first item that was dropped while equipped will be a zuggle drop.
+  !!! info
+    This method works on any version with DI equipment.
 
-=== Portacull (`1.2.0`–`1.4.3`) ###
-- Drop swap your target item, then a portacull weapon/shield of the opposite kind.
-- Pause buffer.
-- Drop the swapped-to item of the original target kind.
-- Unpause, and the first dropped item will be a zuggle drop.
+  Perform the inputs to Map Zuggling as described, but not with your back to a wall, so that both items can drop. The first item initially equipped will be a zuggle drop.
+
+=== "Drop Delay" ###
+  ---
+  versions: ["1.0", "1.1.0", "1.1.1", "1.1.2"]
+  ---
+
+  Perform the inputs of Drop Delay Zuggle as described, but not near a wall, so that everything has room to drop. The first item that was dropped while equipped will be a zuggle drop.
+
+=== "Portacull" ###
+  ---
+  versions: ["1.2.0", "1.2.1", 1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+  ---
+
+  1. Drop swap your target item, then a portacull weapon/shield of the opposite kind.
+  1. Pause buffer.
+  1. Drop the swapped-to item of the original target kind.
+  1. Unpause, and the first dropped item will be a zuggle drop.
 
 ## Undoing
 

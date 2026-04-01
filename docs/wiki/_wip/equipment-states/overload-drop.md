@@ -16,6 +16,7 @@ The term 'overload equip' refers to the exact same equipment state, but is usual
 ## Reloading
 
 When you reload straight into a different file, while you have enough zuggles to be close to the overload threshold, Link's new equipment (and even parts of his body) can often overload drop. This happens because the game tries to add the new equipment from the loading file to Link before deleting the old equipment from the file you were just playing. To fix this:
+
 - Unequip and re-equip your active equipment.
 - Fail-drop the active equipment to reconnect it to Link.
 - For overloaded armour pieces, unequip and re-equip them.
