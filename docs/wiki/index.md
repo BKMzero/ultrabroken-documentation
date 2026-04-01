@@ -12,6 +12,7 @@ This site is a community-driven encyclopedia of glitches, techniques, and invest
 <div id="glitch-of-the-day"></div>
 
 ## Quick Navigation
+
 - **[About the Archives](about.md)** - All you need to know about The Archives and its Communities
 - **[Grimoire of Glitchcraft](glitchcraft/_glitchcraft-grimoire.md)** - A curated library of individual glitch reports and techniques
 - **[Ultrabroken section](ultrabroken/index.md)** - In-depth investigations and documentation centered around the Ultrabroken phenomenon
