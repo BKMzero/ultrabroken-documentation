@@ -81,8 +81,9 @@ unlisted: true
 
 | System | Unlisted? | vs Draft |
 |---|---|---|
-| Site search | Excluded | Same |
+| Site search | **Searchable** | Draft is excluded |
 | AI evidence | Excluded | Same |
+| Grimoire | Excluded | Same |
 | Web crawlers | **Crawlable** | Draft is noindex |
 | Draft banner | **None** | Draft shows banner |
 | Social cards / OG | **Generated** | Draft skips |
@@ -129,7 +130,7 @@ The display `title` is required. All other fields are optional but recommended.
 - `tags`: Categorization tags. Auto-indexed into [tags.json](../assets/data/tags.json) - used for filtering and search discovery
 - `aliases`: Alternative names for search discovery. Case-insensitive — used for autolinking (see [Glitch Autolinks](#glitch-autolinks))
 - `draft`: Set to `true` to mark a page as a draft — hides it from search, grimoire, and web crawlers while keeping it accessible via direct URL (see [Drafts & Previews](#drafts--previews))
-- `unlisted`: Set to `true` to permanently exclude a page from search and AI evidence without marking it as a draft — no banner, no noindex, social cards still generated. Use for reference pages or meta content that belongs in the wiki but shouldn't appear in discovery results.
+- `unlisted`: Set to `true` to exclude a page from AI evidence and the grimoire without marking it as a draft — no banner, no noindex, social cards still generated, and the page remains findable in site search. Use for reference pages or meta content that belongs in the wiki but shouldn't appear in AI or grimoire results.
 - `uid`: Auto-generated unique identifier. **Do not add manually.**
 
 #### Example
