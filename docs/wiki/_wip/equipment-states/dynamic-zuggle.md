@@ -1,15 +1,16 @@
 ---
 title: "Dynamic Zuggle"
+aliases: ["dzuggle"]
 ---
 
 # Dynamic Zuggle
 
-## Description
+A zuggle in the dynamic equip position.
 
-This is the best equipment state for sure!
+## Methods
 
-### Effects
+[Search for dynamic zuggle methods](search:Dynamic Zuggle)
 
+## Undoing
 
-
-
+Dynamic smuggles are released when some active equipment of the same type is thrown or shock-dropped. Warm-dropping active equipment won't affect dynamic zuggles.

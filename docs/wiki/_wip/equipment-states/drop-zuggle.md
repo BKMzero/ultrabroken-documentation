@@ -1,15 +1,18 @@
 ---
 title: "Drop Zuggle"
+aliases: ["dz"]
 ---
 
 # Drop Zuggle
 
-## Description
+A zuggle in the drop equip position.
 
-This is the best equipment state for sure!
+## Methods
 
-### Effects
+[Search for drop zuggle methods](search:Drop Zuggle)
 
+## Undoing
 
+To undo a drop zuggle, equip it and fail drop it.
 
-
+Unlike with other equip positions, dropping, throwing, or shock-dropping active equipment doesn't affect drop zuggles.
