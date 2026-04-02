@@ -3,9 +3,9 @@ title: "Dropping"
 draft: true
 ---
 
-The mechanics of how Tears of the Kingdom handles equipment dropping are surprisingly complex, and edge cases in these engine mechanics are what make smuggling and zuggling possible.
-
 # Overview
+
+The mechanics of how Tears of the Kingdom handles equipment dropping are surprisingly complex, and edge cases in these engine mechanics are what make smuggling and zuggling possible.
 
 TODO: drop queue (general equipment, incl. cold drops), Link's is-dropping slots
 

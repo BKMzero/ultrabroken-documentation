@@ -1,5 +1,6 @@
 ---
 title: "Smuggle"
+aliases: ["smuggling"]
 ---
 
 # Smuggle
@@ -9,17 +10,13 @@ title: "Smuggle"
 An equipment smuggle is the state an equipment is put in when it is currently in the action of dropping, i.e. when it is in the drop queue. Smuggles naturally get created for 4 frames when any equipment is dropped from Link's hand. During those frames, the piece of equipment is outside of Link's inventory but is still visibly dropping, as the game is handling the drop.
 This state can be abused and kept for as long as desired using several methods in all versions.
 
-The main reason to obtain longer-lasting smuggles is to trivially upgrade them to zuggles.
+The main reason to obtain longer-lasting smuggles is to trivially upgrade them into zuggles.
 
 ## Variants
 
 Smuggles can come in different variants, depending on their equip position, and if they're culled or not:
 
 <table>
-    <tr>
-        <th />
-        <th colspan="3">Position</th>
-    </tr>
     <tr>
         <th />
         <th>Static</th>
@@ -39,14 +36,17 @@ Smuggles can come in different variants, depending on their equip position, and 
         <td>Drop Invismuggle</td>
     </tr>
     <tr>
-        <td colspan="2" />
-        <td colspan="2"><small>This distinction is less important for culled smuggles and zuggles.</small></td>
+    <tr>
+        <th>Common abbreviation</th>
+        <td />
+        <td>dsmuggle</td>
+        <td>ds</td>
     </tr>
     <tr>
         <th>Unsmuggling it</th>
         <td>Equip something else of that type, and warm drop it</td>
         <td>Equip something else of that type, and throw or shock drop it</td>
-        <td>Equip the smuggle, fail drop it, then use any drop method</td>
+        <td>Equip the smuggle and fail drop it</td>
     </tr>
     <tr>
         <th>Upgrading it to a zuggle</th>
@@ -55,6 +55,8 @@ Smuggles can come in different variants, depending on their equip position, and 
         <td>Equip it, and <a href="../zuggle-drop/">zuggle drop</a> it</td>
     </tr>
 </table>
+
+The distinction between different equip positions is less important for culled smuggles and zuggles.
 
 ## Creating smuggles
 

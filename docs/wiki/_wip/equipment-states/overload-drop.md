@@ -1,6 +1,6 @@
 ---
 title: "Overload Drop"
-aliases: ["Overload Equip"]
+aliases: ["Overload Equip", "Overload Pickup"]
 ---
 
 # Overload Drop
@@ -11,7 +11,11 @@ When Link is supposed to have some new equipment attached to him, but he is [ove
 
 The 'drop' in 'overload drop' does _not_ refer to the usual act of dropping equipment. It instead refers to the fact that the equipment spawns at about the height of Link's feet, but as it fails to connect to Link, it drops to the ground (or often _through_ the ground).
 
-The term 'overload equip' refers to the exact same equipment state, but is usually used when the equipment already exists in the world, and is picked up while Link is overloaded.
+The term 'overload pickup' 'overload equip' refers to the exact same equipment state, but is usually used when the equipment already exists in the world, and is picked up while Link is overloaded.
+
+## Undoing
+
+If Link is no longer overloaded, fail dropping an overload equip will reattach it properly. Doing this to an overload equip that was fused to another item makes it an equipped ghost.
 
 ## Reloading
 
