@@ -92,7 +92,68 @@ Methods are partitioned based on their resulting structure.
 
     _Method developed by mulberry - Jan 17, 2026_
 
-    #### Method 2: <br/>Overload PF + Aerophasing ?
+    #### Method 2: <br/>Overload PF + Torch Culling ?
+    ---
+    versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    obsolete: false
+    ---
+
+    Prepare:
+
+    - 13 Zuggle Overload
+    - A DI Weapon or Shield (A)
+    - A torch
+    - A flame emitter
+
+    Creating the setup:
+
+    1. A and normal item B make DI Ghost Shield C, keep normal parent
+    2. Smuggle C
+    3. Cold Drop the torch and place it next to a wall in a culling area
+    4. Point the Flame Emitter at the head of the Torch from point-blank, ensuring the fire strikes a solid surface as close to the torch-head as possible.
+    5. Glue B to the Torch and activate the Flame Emitter.
+    6. To cull C, use the ability wheel to select and open Recall or the map, causing a 2-frame pause. The torch should begin culling after cancelling recall/closing the map
+    7. Overload Drop a shield (D) and fuse it to a weapon (E)
+
+    Creating DI Ghosts:
+
+    1. Fuse the target to the shield (Overload FE)
+    2. Use the ability wheel to open recall, then use it to open fuse and press fuse immediately
+    3. As long as fuse is pressed more than 2 frames before the torch fully culls, the cull will occur within the target's DI window
+    4. After 30 successful uses, destroy C and D before continuing
+
+    !!! danger "Fuse-Over(load)"
+
+        Detangling a DI Ghost from its parent by "fuse-over" leaves a Cold Fuse connection behind, and detaching a DI Ghost from its PF parent does the same. Due to this, C and D will each gain one _peristent_ dependency for each DI Ghost produced. After 30 uses, C and D will reach Fuse Overload. If a 31st use is attempted, you will create a "Reference FE" connection, which will **crash the game** if you drop either!
+
+    !!! danger "Self-Fusing"
+
+        When an overload-pickup (here, D) has a connection back to Link (here, via E), it is possible to target it to be fused to itself. Under most circumstances, this will immediately **crash the game** if attempted.
+
+    ??? example "Diagram"
+
+        ```mermaid
+        graph TD
+
+            LINK[Link]
+            A[DI Ghost (A)]
+            B[Normal Item (B)]
+            C[DI Ghost Shield (C)]
+            D[Normal Shield (D)]
+            E[Normal Weapon (E)]
+            F[Target]
+            
+            A -->|DI| C
+            B -->|DI| C
+            LINK -->|Smuggle| C
+            LINK -->|Equip| E
+            LINK -->|Overload<br/>Drop| D
+            E -->|Fuse| D
+            C -->|FE| F
+            D -->|CF| F
+        ```
+
+    #### Method 3: <br/>Overload PF + Aerophasing ?
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -100,7 +161,7 @@ Methods are partitioned based on their resulting structure.
 
     !!! warning "Construction Zone"
 
-        Method 2 is not yet tested for function and optimality.
+        Method 3 is not yet tested for function and optimality.
 
     Prepare:
 
@@ -151,48 +212,6 @@ Methods are partitioned based on their resulting structure.
             C -->|FE| TARGET
             D -->|CF| TARGET
         ```
-
-    #### Method 3: <br/>Overload PF + Torch Culling ?
-    ---
-    versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
-    obsolete: false
-    ---
-
-    !!! warning "Construction Zone"
-
-        Method 3 is not yet tested for function and optimality.
-
-    Prepare:
-
-    - 13 Zuggle Overload
-    - A DI Weapon or Shield (A)
-    - A torch
-    - A flame emitter
-
-    Creating the setup:
-
-    1. A and normal weapon B make DI Ghost Shield C, keep normal parent
-    2. Smuggle C
-    3. Glue B to the torch and place in a culling area
-    4. Activate the flame emitter and point it at the head of the torch from point-blank
-    5. Overload Drop a shield D and fuse it to a weapon E
-
-    Creating DI Ghosts:
-    
-    1. Fuse target to shield twice and pause the game in any way shortly after the second fuse
-    2. After 30 successful uses, destroy C and D, then remake them to continue
-
-    !!! danger "Fuse-Over(load)"
-
-        Detangling a DI Ghost from its parent by "fuse-over" leaves a Cold Fuse connection behind, and detaching a DI Ghost from its PF parent does the same. Due to this, C and D will each gain one _peristent_ dependency for each DI Ghost produced. After 30 uses, C and D will reach Fuse Overload. If a 31st use is attempted, you will create a "Reference FE" connection, which will **crash the game** if you drop either!
-
-    !!! danger "Self-Fusing"
-
-        When an overload-pickup (here, D) has a connection back to Link (here, via E), it is possible to target it to be fused to itself. Under most circumstances, this will immediately **crash the game** if attempted.
-
-    ??? example "Diagram"
-
-        Making a diagram of an untested method would be a waste of time. Please wait until the method is tested and verified.
 
     #### Method 4: <br/>Overload PF + Mineru Limbo ?
     ---
