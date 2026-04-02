@@ -5,7 +5,7 @@ aliases: ["dzuggle"]
 
 # Dynamic Zuggle
 
-A zuggle in the dynamic equip position.
+A zuggle in the dynamic [equip position](../equip-position/).
 
 ## Methods
 

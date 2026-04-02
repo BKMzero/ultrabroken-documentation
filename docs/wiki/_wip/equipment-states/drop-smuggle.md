@@ -5,7 +5,7 @@ aliases: ["ds"]
 
 # Drop Smuggle
 
-A smuggle in the drop equip position.
+A smuggle in the drop [equip position](../equip-position/).
 
 Note that [drop _equips_](../drop-equip/) are sometimes referred to as drop smuggles, despite not being true smuggles.
 

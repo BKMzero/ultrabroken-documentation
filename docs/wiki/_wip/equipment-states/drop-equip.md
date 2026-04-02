@@ -4,7 +4,7 @@ title: "Drop Equip"
 
 # Drop Equip
 
-A fully equipped item in the drop equip position.
+A fully equipped item in the drop [equip position](../equip-position/).
 
 ## Converting to a zuggle
 
