@@ -65,10 +65,10 @@ The distinction between different equip positions is less important for culled s
 
 Although a smuggle is technically created whenever you [warm drop](cold-warm-drop/) equipment, there are ways to create more persistent smuggles:
 
-### "Culling" ===
+=== "Culling" ###
     Cull the equipment (without culling Link) and drop it. The easiest way to do this is to Fuse Entangle it to some other equipment, which you leave in a culling area.
 
-### "Overload" ===
+=== "Overload" ###
     Overload pickup the equipment, then drop it.
 
 ## Comparison to zuggles
