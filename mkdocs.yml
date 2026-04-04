@@ -44,6 +44,7 @@ extra_css:
   - assets/stylesheets/version-chart.css
 
 extra_javascript:
+  - assets/scripts/ub-base.js
   - assets/scripts/mermaid-config.js
   - assets/vendor/marked.min.js
   - assets/vendor/purify.min.js
