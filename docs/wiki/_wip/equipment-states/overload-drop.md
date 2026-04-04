@@ -1,5 +1,6 @@
----
+﻿---
 title: "Overload Drop"
+uid: "2U2"
 aliases: ["Overload Equip", "Overload Pickup"]
 ---
 

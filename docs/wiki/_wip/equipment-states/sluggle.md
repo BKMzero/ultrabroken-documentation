@@ -1,5 +1,6 @@
----
+﻿---
 title: "Sluggle"
+uid: "M4H"
 aliases: ["Sluggling", "Slugging"]
 ---
 

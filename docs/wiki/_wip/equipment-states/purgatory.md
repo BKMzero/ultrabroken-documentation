@@ -1,5 +1,6 @@
----
+﻿---
 title: "Purgatory"
+uid: "TAO"
 label: "PURG"
 tags: ["purgatory", "culling"]
 aliases: ["Culled Purgatory", "Cull purg", "dpurg"]

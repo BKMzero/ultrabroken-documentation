@@ -1,5 +1,6 @@
----
+﻿---
 title: "Smuggle"
+uid: "TGY"
 aliases: ["smuggling"]
 ---
 

@@ -1,5 +1,6 @@
----
+﻿---
 title: "Dynamic Zuggle"
+uid: "3KD"
 aliases: ["dzuggle"]
 ---
 

@@ -1,5 +1,6 @@
----
+﻿---
 title: "Version Differences"
+uid: "1IR"
 label: "VER"
 credits: ["Suishi", "Emiya"]
 ---

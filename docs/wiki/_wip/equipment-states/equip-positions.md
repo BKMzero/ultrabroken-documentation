@@ -1,5 +1,6 @@
----
+﻿---
 title: "Equip Positions"
+uid: "S8I"
 aliases: ["equip position"]
 ---
 

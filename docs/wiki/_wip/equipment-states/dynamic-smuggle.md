@@ -1,5 +1,6 @@
----
+﻿---
 title: "Dynamic Smuggle"
+uid: "85I"
 aliases: ["dsmuggle"]
 ---
 
