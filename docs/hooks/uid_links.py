@@ -98,6 +98,16 @@ def on_files(files, config, **kwargs):
     return files
 
 
+def on_page_context(context, page, config, **kwargs):
+    """Inject the original filename stem as page.meta['page_slug'].
+
+    This is picked up by overrides/main.html to emit:
+      <meta name="page-slug" content="kinematic-weapons">
+    so cosmetic-urls.js can use the filename instead of the H1 title.
+    """
+    page.meta['page_slug'] = Path(page.file.src_path).stem
+
+
 def on_page_markdown(markdown, page, config, **kwargs):
     uid_map      = config.get('uid_map', {})
     filename_map = config.get('uid_filename_map', {})
