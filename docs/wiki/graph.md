@@ -1,7 +1,7 @@
 ﻿---
 title: "Graph View"
 uid: "PKB"
-unlisted: true
+meta: true
 ---
 
 # Graph View

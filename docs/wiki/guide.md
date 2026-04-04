@@ -1,7 +1,7 @@
 ﻿---
 title: "Editor Guide & Markdown Reference"
 uid: "X01"
-unlisted: true
+meta: true
 ---
 
 # Editor Guide & Markdown Reference
@@ -69,20 +69,20 @@ draft: true
 
 When ready to publish, simply remove the `draft: true` line and commit. The page immediately becomes discoverable.
 
-#### Using `unlisted: true` (permanent reference pages)
+#### Using `meta: true` (permanent reference pages)
 
-For pages that are fully published and intentionally permanent — but shouldn't surface in search or AI results (e.g. editor guides, about pages, meta content) — use `unlisted: true`:
+For pages that are fully published and intentionally permanent — but shouldn't surface in AI results or the grimoire (e.g. editor guides, about pages, meta content) — use `meta: true`:
 
 ```yaml
 
 title: "My Reference Page"
-unlisted: true
+meta: true
 
 ```
 
 #### Visibility summary
 
-| System | `_wip/` folder | `draft: true` | `unlisted: true` |
+| System | `_wip/` folder | `draft: true` | `meta: true` |
 |---|---|---|---|
 | Site search | Excluded | Excluded | **Searchable** |
 | Grimoire / AI evidence | Excluded | Excluded | Excluded |
@@ -153,7 +153,7 @@ The display `title` is required. All other fields are optional but recommended.
 - `tags`: Categorization tags. Auto-indexed into [tags.json](../assets/data/tags.json) - used for filtering and search discovery
 - `aliases`: Alternative names for search discovery. Case-insensitive — used for autolinking (see [Glitch Autolinks](#glitch-autolinks))
 - `draft`: Set to `true` to mark a page as a draft — hides it from search, grimoire, and web crawlers while keeping it accessible via direct URL (see [Drafts & Previews](#drafts--previews))
-- `unlisted`: Set to `true` to exclude a page from AI evidence and the grimoire without marking it as a draft — no banner, no noindex, social cards still generated, and the page remains findable in site search. Use for reference pages or meta content that belongs in the wiki but shouldn't appear in AI or grimoire results.
+- `meta`: Set to `true` to exclude a page from AI evidence and the grimoire without marking it as a draft — no banner, no noindex, social cards still generated, and the page remains findable in site search. Use for reference pages or meta content that belongs in the wiki but shouldn't appear in AI or grimoire results.
 - `uid`: Auto-generated unique identifier. **Do not add manually.**
 
 #### Example
