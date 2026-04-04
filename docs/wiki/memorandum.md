@@ -11,9 +11,9 @@ This archive would not exist without the dedicated work of community archivists 
 - **NaN Gogh** — Curator of this documentation and primary author of the Ultrabroken section
 
 - **Squidwest** - Lead archivist
+- **Pearfalse** — Lead archivist
 - **PetitFrapo** — Lead archivist
 - **MandelbrotChaylay** — Lead archivist
-- **Pearfalse** — Lead archivist
 
 ## Spreadsheet Managers
 The backbone of community glitch research: the curators who maintain and organize the canonical glitch spreadsheet, validate discoveries, manage attribution, and ensure data integrity.
@@ -51,13 +51,15 @@ Special thanks to everyone helping with feedback, advice and informatiom.
 - **Blize**
 - **Yoda39**
 
-## Dataminers & Game researchers
+## Dataminers & Toolcrafters
 Where scratching the surface is not enough, they mine deeper to learn Hylias language and share the wisdom.
 
 - **Watertoon**
 - **aquacluck**
 - **Echocolat**
 - **dt13269**
+- **MrCheeze**
+- **savage13**
 
 ## Communities
 The glitch hunting, speedrunning, and research communities that made this documentation possible through collaborative investigation and discovery.
