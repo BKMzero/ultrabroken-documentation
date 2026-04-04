@@ -1,6 +1,7 @@
 ﻿---
 title: Memorandum
 uid: "FHH"
+unlisted: true
 ---
 
 # Memorandum

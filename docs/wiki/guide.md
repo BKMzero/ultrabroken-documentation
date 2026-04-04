@@ -80,15 +80,17 @@ unlisted: true
 
 ```
 
-| System | Unlisted? | vs Draft |
-|---|---|---|
-| Site search | **Searchable** | Draft is excluded |
-| AI evidence | Excluded | Same |
-| Grimoire | Excluded | Same |
-| Web crawlers | **Crawlable** | Draft is noindex |
-| Draft banner | **None** | Draft shows banner |
-| Social cards / OG | **Generated** | Draft skips |
-| Direct URL access | Accessible | Same |
+#### Visibility summary
+
+| System | `_wip/` folder | `draft: true` | `unlisted: true` |
+|---|---|---|---|
+| Site search | Excluded | Excluded | **Searchable** |
+| Grimoire / AI evidence | Excluded | Excluded | Excluded |
+| Web crawlers | `noindex` | `noindex` | **Crawlable** |
+| Draft banner | Shown | Shown | **None** |
+| Social cards | Skipped | Skipped | **Generated** |
+| Direct URL access | Accessible | Accessible | Accessible |
+| Intended lifespan | Temporary | Temporary | Permanent |
 
 ### Style Best Practices
 
