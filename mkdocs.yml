@@ -93,7 +93,7 @@ nav:
      #- Zuggling: zuggling/index.md
      #- Glitchcraft: glitchcraft/index.md
   - About: wiki/about.md
-  - Glitchcraft: wiki/glitchcraft/_glitchcraft-grimoire.md
+  - Glitchcraft: wiki/glitchcraft-grimoire.md
   - Ultrabroken: 
     - Introduction: wiki/ultrabroken/index.md
     - Basics: 
