@@ -1,5 +1,6 @@
----
+﻿---
 title: "Grimoire of Glitchcraft"
+uid: "I76"
 ---
 
 # Grimoire of Glitchcraft
