@@ -64,8 +64,9 @@ The glitch hunting, speedrunning, and research communities that made this docume
 
 - **[Zelda: Tears of the Kingdom Speedrunning](https://discord.gg/xM8NnTetb2)** — Primary spreadsheet curation and glitch hunting Discord community
 - **[The Hyrule Engineering Club Discord Server](https://discord.gg/uZqvjnwqF3)** — Extensive vanilla and glitched constructions Discord community
-- **[The Hyrule Engineering Club Reddit](https://www.reddit.com/r/HyruleEngineering/)** — Engineering Reddit frontend for vanilla and glitched builds 
+- **[Zelda Data Collection and Research](https://discord.gg/vakfF9uY5c)** — Datamining and tooling Discord community researching the games code
 - **[TotK グリッチ鯖](https://discord.gg/SQXkjxRazk)** — Japanese TotK glitch research Discord community
+- **[The Hyrule Engineering Club Reddit](https://www.reddit.com/r/HyruleEngineering/)** — Engineering Reddit frontend for vanilla and glitched builds 
 
 ## Glitch Hunters & Contributors
 <!-- LEADERBOARD_START -->
