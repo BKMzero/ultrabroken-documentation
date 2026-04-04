@@ -56,6 +56,6 @@ Always use these methods to preserve your Ultrabroken equipment before closing t
 
 ---
 
-**Ready to build?** Check out the [Builds section](builds/index.md).
+**Ready to build?** Check out the [Builds section](uid:9A3).
 
 

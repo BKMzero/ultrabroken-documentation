@@ -64,7 +64,7 @@ The distinction between different equip positions is less important for culled s
 !!! warning "D-Pad Lock"
     If playing on version 1.1.2 or higher, consider [Despawn Interrupting](search: Despawn Interrupt) the equipment first, to avoid problems with D-Pad Lock.
 
-Although a smuggle is technically created whenever you [warm drop](cold-warm-drop/) equipment, there are ways to create more persistent smuggles:
+Although a smuggle is technically created whenever you [warm drop](uid:C6H) equipment, there are ways to create more persistent smuggles:
 
 === "Culling" ###
     Cull the equipment (without culling Link) and drop it. The easiest way to do this is to Fuse Entangle it to some other equipment, which you leave in a culling area.

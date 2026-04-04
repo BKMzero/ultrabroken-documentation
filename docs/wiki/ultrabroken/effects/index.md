@@ -15,37 +15,37 @@ While Ultrabroken may seem as simple as a single dialogue, it actually opens up 
 
 ### Core Effects
 
-- **[Wacko Boingo](wacko-boingo.md)** - Ultrabroken Flight
-- **[Lift Lock](lift-lock.md)** - When systems become impossible to lift
-- **[Recall Fling](recall-fling.md)** - Objects flung by Recall
-- **[Ghost Glue](ghost-glue.md)** - Invisible attraction connections
-- **[Remnant Glue](remnant-glue.md)** - Ghost Glue remnants
+- **[Wacko Boingo](uid:SLE)** - Ultrabroken Flight
+- **[Lift Lock](uid:XX9)** - When systems become impossible to lift
+- **[Recall Fling](uid:ODU)** - Objects flung by Recall
+- **[Ghost Glue](uid:3AA)** - Invisible attraction connections
+- **[Remnant Glue](uid:QJ9)** - Ghost Glue remnants
 
 ### Advanced Effects
 
-- **[Glue Lock](glue-lock.md)** - When Ultrahand Glue breaks
-- **[Mass Matching](mass-matching.md)** - Understanding object interactions
-- **[Ghost Smuggle](ghost-smuggle.md)** - Portable Ghost Glue systems
-- **[Phantom Smuggle](phantom-smuggle.md)** - Ultra-portable systems
-- **[Resurrect Smuggle](resurrect-smuggle.md)** - *In development*
-- **[Ouija Entanglement](ouija-entanglement.md)** - Velocity linking
+- **[Glue Lock](uid:XWT)** - When Ultrahand Glue breaks
+- **[Mass Matching](uid:YVQ)** - Understanding object interactions
+- **[Ghost Smuggle](uid:A1R)** - Portable Ghost Glue systems
+- **[Phantom Smuggle](uid:J30)** - Ultra-portable systems
+- **[Resurrect Smuggle](uid:N6C)** - *In development*
+- **[Ouija Entanglement](uid:TAV)** - Velocity linking
 
 ### Quantum Effects
 
-- **[Antimass](antimass.md)** - Weightless objects
-- **[Freecall](freecall.md)** - *In development*
-- **[Quantum State Freeze](quantum-state-freeze.md)** - Frozen states
+- **[Antimass](uid:2EW)** - Weightless objects
+- **[Freecall](uid:KNS)** - *In development*
+- **[Quantum State Freeze](uid:PO5)** - Frozen states
 
 ### Specialized Effects
 
-- **[Fuse Stacking](fuse-stacking.md)** - Equipment combinations
-- **[Transmigration](transmigration.md)** - Item soul removal
-- **[Autobuild Standalones](autobuild-standalones.md)** - Detachable systems
-- **[Zonai Device Hacks](../devices/index.md)** - Individual device effects
-- **[Slidy Cart](slidy-cart.md)** - Semi-Ultrabroken friction override
+- **[Fuse Stacking](uid:QGY)** - Equipment combinations
+- **[Transmigration](uid:3WJ)** - Item soul removal
+- **[Autobuild Standalones](uid:G15)** - Detachable systems
+- **[Zonai Device Hacks](uid:N62)** - Individual device effects
+- **[Slidy Cart](uid:11U)** - Semi-Ultrabroken friction override
 
 ---
 
-**Start with:** [Wacko Boingo](wacko-boingo.md) - the most popular effect!
+**Start with:** [Wacko Boingo](uid:SLE) - the most popular effect!
 
 

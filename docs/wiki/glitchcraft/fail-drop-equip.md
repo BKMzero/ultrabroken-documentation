@@ -51,4 +51,4 @@ For the overload method:
 - [Discord: video of 1.0 method](https://discord.com/channels/1086729144307564648/1105598687167664239/1251550527175786716)
 
 ## Related
-[Equipment States: Fail Drop Equip](../_wip/equipment-states/fail-drop-equip)
+[Equipment States: Fail Drop Equip](uid:F4E)

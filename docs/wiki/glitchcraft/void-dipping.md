@@ -1,4 +1,4 @@
----
+﻿---
 title: "Void Dipping"
 uid: "JDP"
 label: "VD"
@@ -71,7 +71,7 @@ There are many viable methods. Variants of three of the most popular are given i
     Specifc wall geometry, equipment collision, or a modified setup is required to fail-drop the target without fail-dropping the portacull, but skips the retrieval step. Requires a different culling method entirely on `1.1.2` or earlier (most feasibly aerophasing).
 
     1. Prepare a Portacull equipment of a different type than the target
-    2. [Overload Drop](zuggle-overload.md) or Overload Pickup the target
+    2. [Overload Drop](uid:8QH) or Overload Pickup the target
     3. Ultrahand it into the Voidout
     4. Switch directly to Recall without closing UH
     5. **Pause** the game, fail-drop the target if possible, then watch a memory
@@ -81,14 +81,14 @@ There are many viable methods. Variants of three of the most popular are given i
     9. If target was not fail-dropped, retrieve it
 
     !!! tip "Ready for an upgrade?"
-        You can use the [Mineru's Arm](super-fuse-overload.md) equipment as a portable fail-drop wall!
+        You can use the [Mineru's Arm](uid:TX4) equipment as a portable fail-drop wall!
 
 === "Mineru FE Limbo Method"
     _Discovered by Kleric, Squidwest_
 
     Lomei Ledge version - requires significant modification in other locations, due to the delicate nature of Mineru Limbo and the lack of a vertical Voidout elsewhere.
 
-    1. [Mineru FE](mineru-fuse-entanglement.md) the target
+    1. [Mineru FE](uid:IG2) the target
     2. Face west and inch backwards against the wall until you reach X=-1117. Dropping the target here will put it directly in the void
     3. Momentarily scope in on Mineru to put her in "Limbo": The target should appear on your back, while Mineru remains absent. If she reappears, scope in where she reappears until she stops or goes away on her own (turning back around after if needed)
     4. Drop the target and **activate** Ultrahand immediately after to cull the target
@@ -100,11 +100,11 @@ There are many viable methods. Variants of three of the most popular are given i
 
 === "Other Methods"
 
-    - [Mineru FE](mineru-fuse-entanglement.md) the target and have her orb return immediately after the target starts fading
+    - [Mineru FE](uid:IG2) the target and have her orb return immediately after the target starts fading
     - Pick up the target as soon as it starts fading and immediately cull Link or an FE parent
     - Throw a boomerang into a large Voidout and cull it right after it enters, then simply catch it to retrieve
     - Use Culling Area Phase Culling (easiest at the Fire Temple) to cull an FE parent of the target
-    - Use Aeroculling to phase Link, then [Overload Drop](zuggle-overload.md) the target into a voidout
+    - Use Aeroculling to phase Link, then [Overload Drop](uid:8QH) the target into a voidout
 
 ## Notes
 ### Void Dipped equipment properties
@@ -116,7 +116,7 @@ There are many viable methods. Variants of three of the most popular are given i
 - Does not induce smuggle locking (d-pad lock) when smuggled on `1.1.2+`
 
 !!! warning "Take care!"
-    Warping causes a "sleep" on equipped items, which will undo this state! You can [zuggle](map-zuggling.md) it to take it with you safely.
+    Warping causes a "sleep" on equipped items, which will undo this state! You can [zuggle](uid:D55) it to take it with you safely.
 
 ## Related
 - [Portable Culling](search:Portable Culling)

@@ -88,6 +88,6 @@ Congratulations on reaching the deepest depths of the Ultrabroken rabbit hole! B
 
 ---
 
-**Related:** [Quantum State Freeze](../effects/quantum-state-freeze.md) for understanding these effects.
+**Related:** [Quantum State Freeze](uid:PO5) for understanding these effects.
 
 

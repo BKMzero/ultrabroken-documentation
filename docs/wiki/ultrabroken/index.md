@@ -9,12 +9,12 @@ uid: "EOQ"
 Enter **Ultrabroken**, the superglitch of The Legend of Zelda: Tears of the Kingdom. This is a revered gem among all glitches—a true holy grail and a developer oversight!
 
 ## Quick Navigation
-- **[Ultrabroken Basics](basics/index.md)** - Learn what Ultrabroken is and how to trigger it
-- **[Effects](effects/index.md)** - Explore all known Ultrabroken effects
-- **[Zonai Device Hacks](devices/index.md)** - Individual device breakdowns
-- **[Builds & UltraFuses](builds/index.md)** - Creative constructions and combinations
-- **[Meta & Tips](meta.md)** - Advanced strategies and guidance
-- **[Credits](credits.md)** - Thanks to all contributors
+- **[Ultrabroken Basics](uid:VUX)** - Learn what Ultrabroken is and how to trigger it
+- **[Effects](uid:R9F)** - Explore all known Ultrabroken effects
+- **[Zonai Device Hacks](uid:N62)** - Individual device breakdowns
+- **[Builds & UltraFuses](uid:9A3)** - Creative constructions and combinations
+- **[Meta & Tips](uid:EKI)** - Advanced strategies and guidance
+- **[Credits](uid:E7F)** - Thanks to all contributors
 
 ## What is Ultrabroken?
 

@@ -22,6 +22,6 @@ This allows you to selectively preserve certain items while breaking others in t
 
 ---
 
-**Next:** Understand how to [Identify Ultrabroken Objects](attributes.md) and their unique properties.
+**Next:** Understand how to [Identify Ultrabroken Objects](uid:FO6) and their unique properties.
 
 

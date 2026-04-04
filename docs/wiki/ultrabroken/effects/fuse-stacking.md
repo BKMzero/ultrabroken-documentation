@@ -67,6 +67,6 @@ Fancy text coming soon.
 
 ---
 
-**Related:** [Transmigration](transmigration.md) for equipment interaction.
+**Related:** [Transmigration](uid:3WJ) for equipment interaction.
 
 

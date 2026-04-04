@@ -11,7 +11,7 @@ Smuggling and Zuggling are object-transfer and placement glitches. They let play
 
 ## Quick Navigation
 - **[Smuggling and Zuggling Query](search: Smuggling Smuggle Zuggling Zuggle)** - Search for glitches and setups revolving around Smuggling and Zuggling
-- **[Smuggling and Zuggling Library](./zuggle-library.md)** - Listed Smuggling and Zuggling Glitches
+- **[Smuggling and Zuggling Library](uid:RNX)** - Listed Smuggling and Zuggling Glitches
 
 ## What to expect in each writeup
 - **Trigger:** how to reproduce (inputs, positions, equipment)

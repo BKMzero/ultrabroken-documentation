@@ -5,4 +5,4 @@ uid: "M0U"
 
 # Invizuggle
 
-An invizuggle is a culled zuggle. See the [zuggle section](../../zuggling) for more.
+An invizuggle is a culled zuggle. See the [zuggle section](uid:ESW) for more.

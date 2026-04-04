@@ -103,6 +103,6 @@ Numerous Ultrabroken Zonai Devices exhibiting this effect remain locked in the a
 
 ---
 
-**Related:** See [Zonai Device Hacks](../devices/index.md) for per-device breakdowns of these effects.
+**Related:** See [Zonai Device Hacks](uid:N62) for per-device breakdowns of these effects.
 
 

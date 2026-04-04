@@ -1,4 +1,4 @@
----
+﻿---
 title: "Kinematic Weapons"
 uid: "OO2"
 label: "KW"
@@ -41,9 +41,9 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
 
         1. Find a large weapon cairn, with 3 ghosts atop it. These are large enough for Mineru to spawn atop them.
         2. Zuggle any shield
-        3. [Mineru FE](mineru-fuse-entanglement.md) another shield
+        3. [Mineru FE](uid:IG2) another shield
         4. Highlight the target weapon with Fuse
-        5. Make Mineru cull, and perform "Animated" [Mineru Cold Fuse](mineru-fuse-entanglement.md) on the target weapon (the frame which causes the visual and sound effects to play)
+        5. Make Mineru cull, and perform "Animated" [Mineru Cold Fuse](uid:IG2) on the target weapon (the frame which causes the visual and sound effects to play)
         6. On the frame you press ZL, **pause** the game. This can be done by opening a menu, or by performing this method on an unobtained weapon (??? prompt)
         7. When the game unpauses, the target should FE to the zuggled shield, but remain floating and interactible
         8. Highlight the target weapon with Fuse again
@@ -54,7 +54,7 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
     ??? abstract "Method 3: Pause-Cancel Overload FE + Warp Fuse"
 
         1. Zuggle any non-DI shield
-        2. [Overload Drop](zuggle-overload.md) another shield and fuse it to a weapon
+        2. [Overload Drop](uid:8QH) another shield and fuse it to a weapon
         3. Highlight the target weapon with Fuse
         4. Press ZL and **pause** the game on the same frame. This can be done by buffering the ability wheel, or by opening a menu
         5. When the game unpauses, the target should FE to the zuggled shield, but remain floating and interactible
@@ -67,7 +67,7 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
 
         Instead of pausing during the FE, any method requiring Pause-Cancel can alternatively be performed with Overload Pickup:
 
-        1. [Overload Pickup](zuggle-overload.md) the target weapon
+        1. [Overload Pickup](uid:8QH) the target weapon
         2. Move out of the ghost's update range, but stay within its spawn range
         3. This distance varies between ghosts, but can be made more lenient by facing the camera away from it
         4. **Fail-drop** the target, then **drop** it once it returns to Link
@@ -79,7 +79,7 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
 
     ??? abstract "Method 4: Basic Loadless"
 
-        1. [Overload Pickup](zuggle-overload.md) the target weapon
+        1. [Overload Pickup](uid:8QH) the target weapon
         2. Move out of the ghost's update range, but stay within its spawn range
         3. This distance varies between ghosts, but can be made more lenient by facing the camera away from it
         4. **Fail-drop** the target, then **drop** it once it returns to Link. It should remain floating and interactible
@@ -93,10 +93,10 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
 
     ??? abstract "Method 5: Minimalist Loadless"
 
-        1. [Overload Pickup](zuggle-overload.md) the target weapon
+        1. [Overload Pickup](uid:8QH) the target weapon
         2. Move to the edge of the ghost's spawn range. Face away from the ghost to prevent it from updating
         3. Fail-drop the target, then drop it once it returns. It should remain floating and interactible
-        4. [Overload Drop](zuggle-overload.md) a shield and fuse it to a weapon
+        4. [Overload Drop](uid:8QH) a shield and fuse it to a weapon
         5. Overload Cold Fuse the target to the shield on the frame Link exits the ghost's spawn range
         6. The target weapon should remain floating and interactible
 
@@ -104,11 +104,11 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
 
     ??? abstract "Method 6: Temporary Ghosting"
 
-        1. [Overload Pickup](zuggle-overload.md) the target weapon
+        1. [Overload Pickup](uid:8QH) the target weapon
         2. Move out of the ghost's update range, but stay within its spawn range
         3. This distance varies between ghosts, but can be made more lenient by facing the camera away from it
         4. Fail-drop the target, then drop it once it returns. It should remain floating and interactible
-        5. [Overload Drop](zuggle-overload.md) a shield (A) and fuse it to a weapon
+        5. [Overload Drop](uid:8QH) a shield (A) and fuse it to a weapon
         6. Overload Cold Fuse a shield (B) to A
         7. **Fail-drop** A, then and *drop* it once it returns to Link
         8. Overload Pickup B, then move it out of Link's update range (max Ultrahand distance is far enough)

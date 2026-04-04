@@ -51,6 +51,6 @@ Various methods involving Antimass and the Quantum State Freeze Effect Consisten
 
 ---
 
-**Related:** [Fuse Stacking](fuse-stacking.md) for advanced equipment techniques.
+**Related:** [Fuse Stacking](uid:QGY) for advanced equipment techniques.
 
 

@@ -44,6 +44,6 @@ The Recall Fling is yet another seemingly disadvantageous Ultrabroken Effect. It
 
 ---
 
-**Up Next:** [Ghost Glue](ghost-glue.md) - a powerful effect!
+**Up Next:** [Ghost Glue](uid:3AA) - a powerful effect!
 
 

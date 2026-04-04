@@ -12,10 +12,10 @@ This page contains Despawn Interrupt related glitches and techniques for quick r
 
 ### DI states
 
-- [Void Dipping](../glitchcraft/void-dipping.md)
-- [Despawn Interrupt](../glitchcraft/void-dipping.md)
-- [Ghost Despawn Interrupt](../glitchcraft/ghost-despawn-interrupt.md)
-- [Batch Despawn Interrupt](../glitchcraft/batch-despawn-interrupt.md)
+- [Void Dipping](uid:JDP)
+- [Despawn Interrupt](uid:JDP)
+- [Ghost Despawn Interrupt](uid:BEW)
+- [Batch Despawn Interrupt](uid:PG3)
 
 ### DI-accessed states
 
