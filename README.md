@@ -6,11 +6,11 @@ Community-driven encyclopedia documenting glitches, techniques, and investigatio
 
 This is a community project — everyone is welcome to contribute even without a GitHub account. 
 
-Read more on our **[About](https://nan-gogh.github.io/ultrabroken-documentation/wiki/about/)** page.
+Read more on our **[About](https://nan-gogh.github.io/ultrabroken-documentation/wiki/WBE/?about)** page.
 
 ### For Editors
 
-**👉 All editing guidelines, markdown reference, and contribution workflows are documented in the [Editor Guide & Markdown Reference](https://nan-gogh.github.io/ultrabroken-documentation/wiki/guide/) on the live site.**
+**👉 All editing guidelines, markdown reference, and contribution workflows are documented in the [Editor Guide & Markdown Reference](https://nan-gogh.github.io/ultrabroken-documentation/wiki/X01/?guide) on the live site.**
 
 The guide covers:
 - Contribution workflow and best practices
