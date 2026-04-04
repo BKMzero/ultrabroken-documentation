@@ -1,6 +1,5 @@
-﻿---
+---
 title: "Cold/Warm Drop"
-uid: "A1A"
 ---
 
 # Cold/Warm Drop

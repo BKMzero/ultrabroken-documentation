@@ -1,6 +1,5 @@
-﻿---
+---
 title: "Ultrabroken Phantom Smuggle"
-uid: "PFD"
 ---
 
 # Phantom Smuggle

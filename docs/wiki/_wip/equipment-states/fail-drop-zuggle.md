@@ -1,6 +1,5 @@
-﻿---
+---
 title: "Fail Drop Zuggle"
-uid: "99J"
 ---
 
 # Fail Drop Zuggle

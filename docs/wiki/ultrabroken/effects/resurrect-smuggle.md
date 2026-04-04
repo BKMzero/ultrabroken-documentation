@@ -1,6 +1,5 @@
-﻿---
+---
 title: "Ultrabroken Resurrect Smuggle"
-uid: "9XB"
 ---
 
 # Resurrect Smuggle

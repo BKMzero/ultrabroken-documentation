@@ -1,6 +1,5 @@
-﻿---
+---
 title: "Ultrabroken Datamine"
-uid: "Z2Y"
 ---
 
 # Datamine: The Root Cause

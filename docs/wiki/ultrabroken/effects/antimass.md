@@ -1,6 +1,5 @@
-﻿---
+---
 title: "Ultrabroken Antimass"
-uid: "BU4"
 ---
 
 # Antimass

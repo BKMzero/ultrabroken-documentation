@@ -1,6 +1,5 @@
-﻿---
+---
 title: "Invizuggle"
-uid: "LA7"
 ---
 
 # Invizuggle

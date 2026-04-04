@@ -1,6 +1,5 @@
-﻿---
+---
 title: "Ultrabroken Ouija Entanglement"
-uid: "8G7"
 ---
 
 # Ouija Entanglement

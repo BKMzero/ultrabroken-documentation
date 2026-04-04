@@ -1,6 +1,5 @@
-﻿---
+---
 title: "Ultrabroken Meta"
-uid: "VNL"
 ---
 
 # Meta & Advanced Tips

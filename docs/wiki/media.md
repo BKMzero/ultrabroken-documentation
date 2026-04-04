@@ -1,6 +1,5 @@
-﻿---
+---
 title: Media
-uid: "BAQ"
 ---
 
 <div class="ub-media-header" style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px">

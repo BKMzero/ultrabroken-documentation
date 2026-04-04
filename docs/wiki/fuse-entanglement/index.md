@@ -1,6 +1,5 @@
-﻿---
+---
 title: "Fuse Entanglement Overview"
-uid: "KWG"
 ---
 
 # Fuse Entanglement Overview

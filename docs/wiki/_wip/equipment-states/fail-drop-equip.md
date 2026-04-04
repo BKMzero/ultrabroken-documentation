@@ -1,6 +1,5 @@
-﻿---
+---
 title: "Fail Drop Equip"
-uid: "00V"
 ---
 
 # Fail Drop Equip

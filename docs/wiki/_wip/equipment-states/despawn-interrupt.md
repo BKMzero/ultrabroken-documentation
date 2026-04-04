@@ -1,6 +1,5 @@
-﻿---
+---
 title: "Despawn Interrupt"
-uid: "RMK"
 ---
 
 # Despawn Interrupt

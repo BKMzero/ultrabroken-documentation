@@ -1,6 +1,5 @@
-﻿---
+---
 title: "Smuggling and Zuggling Overview"
-uid: "RCS"
 ---
 
 # Smuggling and Zuggling Overview

@@ -1,6 +1,5 @@
-﻿---
+---
 title: "Zuggle"
-uid: "92X"
 ---
 
 # Zuggle

@@ -1,6 +1,5 @@
-﻿---
+---
 title: "Ultrabroken Credits"
-uid: "EJM"
 ---
 
 # Credits

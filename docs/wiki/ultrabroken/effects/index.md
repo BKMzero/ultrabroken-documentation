@@ -1,6 +1,5 @@
-﻿---
+---
 title: "Ultrabroken Effects Overview"
-uid: "ACG"
 ---
 
 # Ultrabroken Effects

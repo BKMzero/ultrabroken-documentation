@@ -1,6 +1,5 @@
-﻿---
+---
 title: "Ultrabroken Quantum State Freeze"
-uid: "Z6F"
 ---
 
 # Quantum State Freeze

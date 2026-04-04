@@ -1,6 +1,5 @@
-﻿---
+---
 title: "Drop Equip"
-uid: "CVM"
 ---
 
 # Drop Equip

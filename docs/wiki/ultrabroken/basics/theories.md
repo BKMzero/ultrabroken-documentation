@@ -1,6 +1,5 @@
-﻿---
+---
 title: "Ultrabroken Theories and Speculation"
-uid: "D0Y"
 ---
 
 # Theories and Speculation

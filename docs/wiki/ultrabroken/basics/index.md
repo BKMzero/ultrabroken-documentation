@@ -1,6 +1,5 @@
-﻿---
+---
 title: "Ultrabroken Core Mechanic"
-uid: "M0J"
 ---
 
 # Ultrabroken: The Core Mechanic

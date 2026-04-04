@@ -1,6 +1,5 @@
-﻿---
+---
 title: Memorandum
-uid: "3KV"
 ---
 
 # Memorandum

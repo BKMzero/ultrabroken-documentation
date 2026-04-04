@@ -1,6 +1,5 @@
-﻿---
+---
 title: "Invismuggle"
-uid: "XHI"
 ---
 
 # Invismuggle

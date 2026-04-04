@@ -1,6 +1,5 @@
 ﻿---
 title: "Smuggle & Zuggle Library"
-uid: "ADH"
 ---
 
 # Smuggle & Zuggle Library

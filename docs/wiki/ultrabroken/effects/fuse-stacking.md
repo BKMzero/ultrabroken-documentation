@@ -1,6 +1,5 @@
-﻿---
+---
 title: "Ultrabroken Fuse Stacking"
-uid: "09E"
 ---
 
 # Fuse Stacking
