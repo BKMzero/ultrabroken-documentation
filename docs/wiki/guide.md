@@ -103,14 +103,45 @@ unlisted: true
 - **Tab related content** to keep pages more scannable.
 - **Nest extensions** appropriately (e.g., code blocks inside admonitions).
 
-### Relative Linking
+### Cross-Page Linking with `uid:`
 
-Prefer **relative links** for cross-references to other markdown pages or images inside the wiki. MkDocs verifies these during the build process to prevent broken links and it ensures links still work correctly across forks. A relative link resolves the path based on the current markdown file's location inside the folder structure. Use `../` to climb one directory higher up.
+Use `uid:` links for all cross-references between wiki pages. Every page is automatically assigned a permanent 3-character identifier (its **UID**) by CI — these never change, even when files are moved or renamed.
 
-- To link a file in the **same folder**: `[Link Text](other-file.md)`
-- To link a file in a **subdirectory**: `[Link Text](subfolder/other-file.md)`
-- To link a file in a **parent folder**: `[Link Text](../other-file.md)`
-- To link a file in **another section of the wiki**: `[Link Text](../../other-folder/other-file.md)`
+#### Syntax
+
+```markdown
+[Link Text](uid:XYZ)
+[Link Text](uid:XYZ#section-anchor)
+```
+
+You can also reference a page by its **filename stem** (without `.md`). CI will automatically resolve it to the permanent UID before the site builds:
+
+```markdown
+[Link Text](uid:my-glitch-page)
+[Link Text](uid:my-glitch-page#instructions)
+```
+
+After CI runs, the source file is updated in-place:
+
+```markdown
+[Link Text](uid:A1R)
+[Link Text](uid:A1R#instructions)
+```
+
+#### Example
+
+```markdown
+[About the Archives](uid:WBE)
+[AI Search section](uid:WBE#ai-search)
+[Zuggle Overload](uid:zuggle-overload)
+```
+
+#### Why not relative links?
+
+Relative links like `[text](../other-folder/file.md)` break whenever files move between folders. UID links are location-independent — the page's output URL is derived from its UID, not its file path, so links survive any reorganization.
+
+!!! tip "UIDs are automatic"
+    The `uid:` field in frontmatter is assigned by CI. Never add or change it manually.
 
 
 ## Frontmatter Reference
