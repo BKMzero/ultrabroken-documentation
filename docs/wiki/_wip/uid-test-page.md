@@ -1,5 +1,6 @@
----
+﻿---
 title: "UID Linking Test Page"
+uid: "FPV"
 label: "UTP"
 versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0"]
 credits: ["mulberry"]
@@ -21,8 +22,8 @@ These links use `uid:` syntax and should resolve correctly:
 
 - Page by UID: [About the Archives](uid:WBE)
 - Page by UID with fragment: [AI Search section](uid:WBE#ai-search)
-- Page by filename stem: [Kinematic Weapons](uid:kinematic-weapons)
-- Page by filename stem with fragment: [Kinematic Weapons Properties](uid:kinematic-weapons#properties)
+- Page by filename stem: [Kinematic Weapons](uid:OO2)
+- Page by filename stem with fragment: [Kinematic Weapons Properties](uid:OO2#properties)
 - Homepage: [Home](uid:RIX)
 
 ## Instructions
