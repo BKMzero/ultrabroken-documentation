@@ -1,5 +1,6 @@
----
+﻿---
 title: "Ultrabroken Glue Lock"
+uid: "B4L"
 ---
 
 # Glue Lock

@@ -1,5 +1,6 @@
----
+﻿---
 title: Glitch Encyclopedia
+uid: "L11"
 ---
 
 # The Legend of Zelda: Tears of the Kingdom — Glitch Encyclopedia

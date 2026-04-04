@@ -1,5 +1,6 @@
----
+﻿---
 title: "Ultrabroken Object Attributes"
+uid: "I2H"
 ---
 
 # Attributes of Ultrabroken Objects

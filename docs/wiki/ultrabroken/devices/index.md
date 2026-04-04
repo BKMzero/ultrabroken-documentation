@@ -1,5 +1,6 @@
----
+﻿---
 title: "Ultrabroken Zonai Device Hacks"
+uid: "4HN"
 ---
 
 # Zonai Device Hacks

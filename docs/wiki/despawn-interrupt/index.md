@@ -1,5 +1,6 @@
----
+﻿---
 title: "Despawn Interrupt Overview"
+uid: "7YD"
 ---
 
 # Despawn Interrupt Overview

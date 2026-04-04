@@ -1,5 +1,6 @@
----
+﻿---
 title: "Ultrabroken Ghost Glue"
+uid: "9W1"
 ---
 
 # Ghost Glue

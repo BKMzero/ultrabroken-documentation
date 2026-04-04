@@ -1,5 +1,6 @@
----
+﻿---
 title: "Graph View"
+uid: "XNM"
 ---
 
 # Graph View

@@ -1,5 +1,6 @@
----
+﻿---
 title: "Ultrabroken Ghost Smuggle"
+uid: "4RF"
 ---
 
 # Ghost Smuggle
