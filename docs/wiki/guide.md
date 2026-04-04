@@ -133,7 +133,7 @@ After CI runs, the source file is updated in-place:
 ```markdown
 [About the Archives](uid:WBE)
 [AI Search section](uid:WBE#ai-search)
-[Zuggle Overload](uid:zuggle-overload)
+[Zuggle Overload](uid:8QH)
 ```
 
 #### Why not relative links?
