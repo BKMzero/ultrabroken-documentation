@@ -1,9 +1,10 @@
 ﻿---
 title: "Fail Drop Equip"
 uid: "D2J"
+label: "FDE"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 description: "Attaches equipment to Link's back/hand with the pickup prompt still accessible."
-aliases: ["fde", "fds", "fdz", "fail drop smuggle", "fail drop zuggle"]
+aliases: ["fds", "fdz", "fail drop smuggle", "fail drop zuggle"]
 tags: ["overload"]
 ---
 
