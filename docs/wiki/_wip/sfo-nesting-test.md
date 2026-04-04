@@ -20,7 +20,7 @@ _Discovered by mulberry, Aergyl; Optimizations by Jordan, MandelbrotChaylay, mul
 
 Page Todos:
 
-- Find a good, stable minigame or two to recommend (minecart land pre-cart entry seems good, provisionally)
+- Find a good, stable minigame or two to recommend (minecart land pre-cart entry seems good, provisionally, but I'm worried about all the gorons in the area (which iirc will crash if they load during sfo))
 - Re-recheck duplication method(s)
 - Actually obtain Zelda's Torch at some point to provide better directions and warn of the pitfalls
 - Seek help on crediting and resources at some point
@@ -28,6 +28,7 @@ Page Todos:
 - write everything after the methods :/
 - Run the pre-`1.2.0` aerophasing setup by someone who actually plays an old patch
 - Update/Publish the permalinked pages to ensure nobody drop zuggles to do overload FE in 2026
+- (Do we need to make a page for VD/DI state manipulation? Interacting with them in general is different enough that a wiki-user only familiar with standard equipment state manipulation will make a lot of things unnecessarily difficult...)
 
 ## Forewarnings and Tips
 
@@ -168,10 +169,10 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
 
         Part 3: Obtaining Zelda's Torch
 
-        1. Load your prologue save. Zelda will drop her torch, so pick it up
+        1. Load the prologue autosave. Zelda will drop her torch, so pick it up
         2. If she does not, try loading again; It may take a few tries for her torch to be one of the dependencies that fails
-        3. Get another prologue autosave with the torch in your inventory, then either load back to Rasitakiwak to clear your SFO, or simply close the game
-        4. Follow your preferred method to obtain MNF, but zuggle Zelda's Torch instead
+        3. Get another prologue autosave with the torch in the inventory, then either load back to Rasitakiwak to clear SFO, or simply close the game
+        4. Follow your preferred method to obtain MNF, but zuggle/SLD Zelda's Torch instead
         5. Save the game or get an autosave
 
         ??? example "Method Structure Diagram"
@@ -231,7 +232,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
             1. Ready a throw of the duplication target. It should fall to the ground
             2. Collect it
             3. Press cancel (B/X). This will "put away" the target Link "still had held", returning it to the pouch
-            4. Ready throw again. Each cycle will increase the quantity of your target by 1
+            4. Ready throw again. Each cycle will increase the quantity of the target by 1
             5. Destroy all D[n] to end SFO before ending the minigame/exiting the shrine
             6. Save the game/get an autosave
 
@@ -296,7 +297,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
             1. Ready a throw of the duplication target. It should fall to the ground
             2. Collect it
             3. Press cancel (B/X). This will "put away" the target Link "still had held", returning it to the pouch
-            4. Ready throw again. Each cycle will increase the quantity of your target by 1
+            4. Ready throw again. Each cycle will increase the quantity of the target by 1
             5. Inventory pickup all A[n] to end SFO before ending the minigame/exiting the shrine
             6. Save the game/get an autosave
 
@@ -319,8 +320,8 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
             ```mermaid
             graph TD
                 MULTITOOL["Multitool's 31<br/>Purgatory Weapons"]
-                PARENTS["Normal Parents<br/>(A1-A21)"]
-                CHILDREN["DI Children"<br/>(B1-B21)"]
+                PARENTS["Normal Parents<br/>A1-A21"]
+                CHILDREN["DI Children"<br/>B1-B21"]
 
                 MULTITOOL -->|DI| CHILDREN
                 PARENTS -->|DI| CHILDREN
@@ -354,7 +355,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
         7. If on `1.1.2` or earlier, Map Zuggle Mineru's Arm
         8. If on `1.2.0` or later, use the portacull to SRZ Mineru's Arm
         9. Load a save. If you undid SFO, there will be no crash risk
-        10. Go somewhere you can see a long way down and prepare recall
+        10. Go somewhere you can see a long way down and prepare recall (atop a Hover Stone raised with a Rocket is excellent)
         11. Drop an equipped weapon and immediately recall the item fused to Mineru's Arm (which still has no collision)
         12. Equip a weapon and pick up Mineru's Arm (it still cannot be collected with an empty hand)
         13. Destroy the fuse on Mineru's Arm, this will prevent it from crashing the game when used as a faildrop wall while docked
@@ -368,8 +369,8 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
                 PARENTS["Normal Parents<br/>A1-A21"]
                 CHILDREN["DI Children"<br/>B1-B21"]
 
-                MULTITOOL -->|"Fuse<br/>(becomes cf)"| CHILDREN
-                PARENTS -->|"Fuse<br/>(stays attached)"| CHILDREN
+                MULTITOOL -->|"Fuse<br/>becomes cf"| CHILDREN
+                PARENTS -->|"Fuse<br/>stays attached"| CHILDREN
             ```
         
     ??? failure "No, it really can't"
@@ -400,15 +401,15 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
         Part 1: Performing SFO
 
         1. If duplicating Zonai Devices, enter a minigame with no timer. If duplicating materials, enter a minigame or a shrine
-        2. [Overload Drop](UID:8QH) a shield and pick it up to duplicate shields until you have 19 dropped and 3+ spare
+        2. [Overload Drop](UID:8QH) a shield and pick it up to duplicate shields until there are 19 dropped and 3+ spare in the inventory
         3. _Overload Drop_ a weapon (A) and fuse it to a shield (B)
         4. [Overload Cold Fuse](UID:O64) 21 shields (C1-C21) to A (the 19 dropped & 2 from inventory)
         5. **Fail-drop** A and **drop** B
-        6. _Overload Pickup_ C1 and cf 30 materials (D1-D30) to it
+        6. _Overload Pickup_ C1 and CF 30 materials (D1-D30) to it
         7. **Fail-drop** C1 and **drop** it aside
         8. Repeat 7 for C2-C19 with the **same** D1-D30
         9. For C20 and C21, check periodically in the menu to see if Menu Link starts overload dropping things. Once he does, _proceed to step 11_
-        10. _Overload Cold Fuse_ an unrelated material to C(n). If it works, **collect it** and cf the next D, then repeat. If it fails, _proceed to step 12_
+        10. _Overload Cold Fuse_ an unrelated material to C(n). If it works, **collect it** and CF the next D, then repeat. If it fails, _proceed to step 12_
         11. **Fail-drop** C(n) and **drop** it. You may have to **unequip your bow** for it to return. **Be sure it does so before dropping it**
 
         Part 2: Duplicating with SFO
@@ -418,7 +419,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
             1. Ready a throw of the duplication target. It should fall to the ground
             2. Collect it
             3. Press cancel (B/X). This will "put away" the target Link "still had held", returning it to the pouch
-            4. Ready throw again. Each cycle will increase the quantity of your target by 1
+            4. Ready throw again. Each cycle will increase the quantity of the target by 1
             5. Collect the cold-fused materials to end SFO before ending the minigame/exiting the shrine
             6. Save the game/get an autosave
 
@@ -463,16 +464,16 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
         Part 1: Performing SFO
 
         1. Defeat Army and enter the tunnel before Ganondorf
-        2. Drop the portacull aside. Be sure not to go too far from any of your working objects
-        3. [Overload Drop](UID:8QH) a shield and pick it up to duplicate shields until you have 19 dropped and 3+ spare
+        2. Drop the portacull aside. Be sure not to go too far from any of the working objects (about halfway down the tunnel is fine)
+        3. [Overload Drop](UID:8QH) a shield and pick it up to duplicate shields until there are 19 dropped and 3+ spare in the inventory
         4. _Overload Drop_ a weapon (A) and fuse it to a shield (B)
         5. [Overload Cold Fuse](UID:O64) 21 shields (C1-C21) to A (the 19 dropped & 2 from inventory)
         6. **Fail-drop** A and **drop** B
-        7. _Overload Pickup_ C1 and cf 30 materials (D1-D30) to it
+        7. _Overload Pickup_ C1 and CF 30 materials (D1-D30) to it
         8. **Fail-drop** C1 and **drop** it aside
         9. Repeat 7 for C2-C19 with the **same** D1-D30
         10. For C20 and C21, check periodically in the menu to see if Menu Link starts overload dropping things. Once he does, _proceed to step 11_
-        11. _Overload Cold Fuse_ an unrelated material to C(n). If it works, **collect it** and cf the next D, then repeat. If it fails, _proceed to step 12_
+        11. _Overload Cold Fuse_ an unrelated material to C(n). If it works, **collect it** and CF the next D, then repeat. If it fails, _proceed to step 12_
         12. **Fail-drop** C(n) and **drop it**. You may have to **unequip your bow** for it to return. **Be sure it does so before dropping it.**
         13. **Drop** A, not too close to where the barrier will spawn (it cannot be moved after dropping it!)
         14. Move B, all of C, and all of D into the bucket build
@@ -489,7 +490,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
         22. If on `1.1.2` or earlier, Map Zuggle Mineru's Arm
         23. If on `1.2.0` or later, use the portacull to SRZ Mineru's Arm
         24. Load a save. If you undid SFO, there will be no crash risk
-        25. Go somewhere you can see a long way down and prepare recall
+        25. Go somewhere you can see a long way down and prepare recall (atop a Hover Stone raised with a Rocket is excellent)
         26. **Drop** an equipped weapon and immediately **recall** the item fused to Mineru's Arm (which still has no collision)
         27. **Equip** a weapon and **pick up** Mineru's Arm (it still cannot be collected with an empty hand)
         28. **Destroy** the fuse on Mineru's Arm, this will prevent it from **crashing the game** when used as a faildrop wall while docked
@@ -535,7 +536,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
 
         1. Use the Aerophasing setup to ensure it has a cull stored; this will allow the culling area to remain loaded through _a_ banc change
         2. Walk up to the nearby shrine ('Domizuin') and enter it. **Do not warp there.**
-        3. [Overload Drop](UID:8QH) a shield and pick it up to duplicate shields until you have 19 dropped and 3+ spare
+        3. [Overload Drop](UID:8QH) a shield and pick it up to duplicate shields until there are 19 dropped and 3+ spare in the inventory
         4. `Overload Drop` a weapon (A) and fuse it to a shield (B)
         5. [Overload Cold Fuse](UID:O64) 21 shields (C1-C21) to A (the 19 dropped & 2 from inventory)
         6. **Fail-drop** A and **drop** B
@@ -544,8 +545,8 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
         9. **Fail-drop** C1 and **drop** it aside
         10. Repeat 7-9 for C2-C19 with the **same** D1-D30
         11. For C20 and C21, check periodically in the menu to see if Menu Link starts overload dropping things. Once he does, _proceed to step 11_
-        12. `Overload Cold Fuse` an unrelated material to C(n). If it works, **Collect it** and cf the next D, then repeat. If it fails, _proceed to step 12_
-        13. **Fail-drop** C(n) and **drop** it. You may have to **unequip your bow** for it to return. **Be sure it does so before you drop it.**
+        12. `Overload Cold Fuse` an unrelated material to C(n). If it works, **Collect it** and CF the next D, then repeat. If it fails, _proceed to step 12_
+        13. **Fail-drop** C(n) and **drop** it. You may have to **unequip your bow** for it to return. **Be sure it does so before dropping it.**
         14. **Drop** A
 
         Part 2: Permaculling the setup
@@ -595,7 +596,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
         1. Ensure Mineru is summoned. This will save some headache later
         2. Use the Aerophasing setup to ensure it has a cull stored; this will allow the culling area to remain loaded through _a_ banc change
         3. Walk up to the nearby shrine ('Domizuin') and enter it. **Do not warp there.**
-        4. [Overload Drop](UID:8QH) a shield and pick it up to duplicate shields until you have 19 dropped and 3+ spare
+        4. [Overload Drop](UID:8QH) a shield and pick it up to duplicate shields until there are 19 dropped and 3+ spare in the inventory
         5. `Overload Drop1 a weapon (A) and fuse it to a shield (B)
         6. [Overload Cold Fuse](UID:O64) 21 shields (C1-C21) to A (the 19 dropped & 2 from inventory)
         7. **Fail-drop** A and **drop** B
@@ -605,7 +606,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
         11. Repeat 8-10 for C2-C19 with the same D1-D30
         12. For C20 and C21, check periodically in the menu to see if Menu Link starts overload dropping things. Once he does, proceed to step 12
         13. cf an unrelated material to C(n). If it works, pick it back up and cf the next D, then repeat. If it fails, proceed to step 13
-        14. Fail-drop C(n) and drop it. You may have to unequip your bow for it to return. **Be sure it does so before you drop it.**
+        14. Fail-drop C(n) and drop it. You may have to unequip your bow for it to return. **Be sure it does so before dropping it.**
         15. Drop A
 
         Part 2: Permaculling the setup
@@ -639,6 +640,15 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
                 D -->|Permacull| E
                 B -->|Indirect Permacull| E
             ```
+
+## Properties
+
+- The global dependency heap is full, so no new dependencies can be registered
+- Every newly-loaded NPC and enemy will overload drop everything they're carrying
+- Many such overload drops will crash the game (presumably due to missing code for interacting with the world as a dropped item?)
+- Every newly-loaded fused equipment item will lose its fuse (It will detangle for one frame and then be deleted)
+- Every attempt at fusing something will cause Fuse Overload Fuse Storage
+- 
 
 ## Notes
 
