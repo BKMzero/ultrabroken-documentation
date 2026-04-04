@@ -74,8 +74,11 @@ jobs:
           rm -f .cache/hooks/social_cards/manifest.json
           echo "Social card cache cleared — all cards will be regenerated"
 
-      - name: Generate UIDs for new glitchcraft pages
+      - name: Generate UIDs for new wiki pages
         run: python docs/worker/generate_uids.py
+
+      - name: "Resolve filename-based uid: links to permanent UIDs"
+        run: python docs/worker/resolve_uid_links.py
 
       - name: Build MkDocs site
         run: mkdocs build
@@ -113,7 +116,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/wiki/glitchcraft/*.md docs/assets/data/credits.json docs/assets/data/tags.json docs/assets/data/glossary.json docs/assets/data/graph.json || true
+          git add $(find docs/wiki -name '*.md') docs/assets/data/credits.json docs/assets/data/tags.json docs/assets/data/glossary.json docs/assets/data/graph.json || true
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
