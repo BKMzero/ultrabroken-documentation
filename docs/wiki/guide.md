@@ -128,20 +128,9 @@ After CI runs, the source file is updated in-place:
 [Link Text](uid:A1R#instructions)
 ```
 
-#### Example
-
-```markdown
-[About the Archives](uid:WBE)
-[AI Search section](uid:WBE#ai-search)
-[Zuggle Overload](uid:zuggle-overload)
-```
-
 #### Why not relative links?
 
 Relative links like `[text](../other-folder/file.md)` break whenever files move between folders. UID links are location-independent — the page's output URL is derived from its UID, not its file path, so links survive any reorganization.
-
-!!! tip "UIDs are automatic"
-    The `uid:` field in frontmatter is assigned by CI. Never add or change it manually.
 
 
 ## Frontmatter Reference
