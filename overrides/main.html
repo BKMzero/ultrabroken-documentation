@@ -1,6 +1,8 @@
 {% extends "base.html" %}
 
 {% block extrahead %}
+  <!-- Site-root base path — available to all scripts, no relative ../  guessing -->
+  <script>window.__ub_base="{{ config.site_url | d('/', true) }}";</script>
   <!-- On fresh navigation with a #fragment, strip it early so
        hash-navigation.js controls reveal + scroll instead of
        the browser's native anchor jump.  Disable scrollRestoration
