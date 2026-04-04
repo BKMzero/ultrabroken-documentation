@@ -1,5 +1,6 @@
----
+﻿---
 title: "Fail Drop Equip"
+uid: "F4E"
 ---
 
 # Fail Drop Equip

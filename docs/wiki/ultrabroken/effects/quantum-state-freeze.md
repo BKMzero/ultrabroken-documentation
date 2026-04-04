@@ -1,5 +1,6 @@
----
+﻿---
 title: "Ultrabroken Quantum State Freeze"
+uid: "PO5"
 ---
 
 # Quantum State Freeze

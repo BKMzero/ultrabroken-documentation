@@ -1,5 +1,6 @@
----
+﻿---
 title: "Ultrabroken Core Mechanic"
+uid: "VUX"
 ---
 
 # Ultrabroken: The Core Mechanic

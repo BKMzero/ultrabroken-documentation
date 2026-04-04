@@ -1,5 +1,6 @@
----
+﻿---
 title: "Version Compatibility Chart"
+uid: "SWA"
 ---
 
 # Version Compatibility Chart

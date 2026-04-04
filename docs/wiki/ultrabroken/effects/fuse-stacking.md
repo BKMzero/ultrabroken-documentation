@@ -1,5 +1,6 @@
----
+﻿---
 title: "Ultrabroken Fuse Stacking"
+uid: "QGY"
 ---
 
 # Fuse Stacking

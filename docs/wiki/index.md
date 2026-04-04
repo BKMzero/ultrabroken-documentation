@@ -1,5 +1,6 @@
----
+﻿---
 title: Glitch Encyclopedia
+uid: "RIX"
 ---
 
 # The Legend of Zelda: Tears of the Kingdom — Glitch Encyclopedia

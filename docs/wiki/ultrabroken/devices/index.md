@@ -1,5 +1,6 @@
----
+﻿---
 title: "Ultrabroken Zonai Device Hacks"
+uid: "N62"
 ---
 
 # Zonai Device Hacks

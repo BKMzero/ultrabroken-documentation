@@ -1,5 +1,6 @@
----
+﻿---
 title: "Ultrabroken Ghost Smuggle"
+uid: "A1R"
 ---
 
 # Ghost Smuggle

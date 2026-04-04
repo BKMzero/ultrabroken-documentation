@@ -1,5 +1,6 @@
----
+﻿---
 title: "Equipped Ghost"
+uid: "30A"
 ---
 
 # Equipped Ghost

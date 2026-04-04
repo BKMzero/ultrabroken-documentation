@@ -1,5 +1,6 @@
----
+﻿---
 title: "Drop Equip"
+uid: "HY9"
 ---
 
 # Drop Equip

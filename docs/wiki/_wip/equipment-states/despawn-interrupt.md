@@ -1,5 +1,6 @@
----
+﻿---
 title: "Despawn Interrupt"
+uid: "IF1"
 ---
 
 # Despawn Interrupt

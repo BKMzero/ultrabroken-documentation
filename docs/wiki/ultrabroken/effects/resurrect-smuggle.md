@@ -1,5 +1,6 @@
----
+﻿---
 title: "Ultrabroken Resurrect Smuggle"
+uid: "N6C"
 ---
 
 # Resurrect Smuggle

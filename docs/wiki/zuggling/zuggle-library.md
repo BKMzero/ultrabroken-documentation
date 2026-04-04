@@ -1,5 +1,6 @@
 ﻿---
 title: "Smuggle & Zuggle Library"
+uid: "RNX"
 ---
 
 # Smuggle & Zuggle Library

@@ -1,5 +1,6 @@
----
+﻿---
 title: "Ultrabroken Object Attributes"
+uid: "FO6"
 ---
 
 # Attributes of Ultrabroken Objects
