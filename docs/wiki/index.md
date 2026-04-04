@@ -17,7 +17,7 @@ This site is a community-driven encyclopedia of glitches, techniques, and invest
 ## Quick Navigation
 
 - **[About the Archives](uid:WBE)** - All you need to know about The Archives and its Communities
-- **[Grimoire of Glitchcraft](glitchcraft/_glitchcraft-grimoire.md)** - A curated library of individual glitch reports and techniques
+- **[Grimoire of Glitchcraft](uid:_glitchcraft-grimoire)** - A curated library of individual glitch reports and techniques
 - **[Ultrabroken section](uid:EOQ)** - In-depth investigations and documentation centered around the Ultrabroken phenomenon
 - **[Fuse Entanglement section](uid:QMZ)** - Compilation of glitches revolving around Fuse Entanglement
 - **[Zuggling section](uid:ESW)** - Collection of Zuggling related glitches and setups

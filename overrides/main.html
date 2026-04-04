@@ -1,7 +1,6 @@
 {% extends "base.html" %}
 
 {% block extrahead %}
-  <meta name="page-slug" content="{{ page.meta.page_slug | default('') }}">
   <!-- On fresh navigation with a #fragment, strip it early so
        hash-navigation.js controls reveal + scroll instead of
        the browser's native anchor jump.  Disable scrollRestoration

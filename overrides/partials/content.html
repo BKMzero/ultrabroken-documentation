@@ -6,7 +6,7 @@
 -#}
 {% include "partials/tags.html" %}
 
-<div class="ub-page-actions">
+<div class="ub-page-actions" data-slug="{{ page.meta.page_slug | default('') }}">
   {% include "partials/actions.html" %}
   {% if page.meta and page.meta.uid %}
     <code class="ub-page-uid">{{ page.meta.uid }}</code>
