@@ -28,7 +28,6 @@ Page Todos:
 - write everything after the methods :/
 - Run the pre-`1.2.0` aerophasing setup by someone who actually plays an old patch
 - Update/Publish the permalinked pages to ensure nobody drop zuggles to do overload FE in 2026
-- Figure out if version-tagging the methods still erases the entire instructions section 😭
 
 ## Forewarnings and Tips
 
@@ -49,7 +48,7 @@ Page Todos:
 
 There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda's Torch, and duplicating anything you can throw. For the sake of providing clear instructions, a variant of each method is given for each valid use case.
 
-=== "Method 1: Hand Purgatory + Overload Batch DI"
+=== "Method 1: Hand Purgatory + Overload Batch DI" ###
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -228,25 +227,26 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
         Part 3: Duplicating with SFO
 
         ??? abstract "Throw Hold Duplication (devices or materials)"
-        
-        1. Ready a throw of the duplication target. It should fall to the ground
-        2. Collect it
-        3. Press cancel (B/X). This will "put away" the target Link "still had held", returning it to the pouch
-        4. Ready throw again. Each cycle will increase the quantity of your target by 1
-        5. Destroy all D[n] to end SFO before ending the minigame/exiting the shrine
-        6. Save the game/get an autosave
+
+            1. Ready a throw of the duplication target. It should fall to the ground
+            2. Collect it
+            3. Press cancel (B/X). This will "put away" the target Link "still had held", returning it to the pouch
+            4. Ready throw again. Each cycle will increase the quantity of your target by 1
+            5. Destroy all D[n] to end SFO before ending the minigame/exiting the shrine
+            6. Save the game/get an autosave
 
         ??? abstract "SFO BID (materials only)"
 
-        1. **Pause**, hold 1 random material and **unpause**. It will fall from Link's hands
-        2. Press A to drop the material
-        3. Hold 1 of the same material(?) and 4 of the duplication target. These will not appear in the world
-        4. Ready throw with the same material(???). This will make the duplication targets appear on the ground as well
-        5. Throw will need to stay readied from here out. It can be cancelled with B if necessary, so long as it is re-readied before continuing
-        6. Pick up the 5 materials on the ground
-        7. **Pause**, un-hold the 4 duplication targets, and re-hold 4 duplication targets (they can be different)
-        8. **Unpause** and pick up the 4 materials on the ground
-        9. Repeat steps 7 and 8 to satisfaction
+            1. **Pause**, hold 1 random material and **unpause**. It will fall from Link's hands
+            2. Press A to drop the material
+            3. Hold 1 of the same material(?) and 4 of the duplication target. These will not appear in the world
+            4. Ready throw with the same material(???). This will make the duplication targets appear on the ground as well
+            5. Throw will need to stay readied from here out. It can be cancelled with B if necessary, so long as it is re-readied before continuing
+            6. Pick up the 5 materials on the ground
+            7. **Pause**, un-hold the 4 duplication targets, and re-hold 4 duplication targets (they can be different)
+            8. **Unpause** and pick up the 4 materials on the ground
+            9. Repeat steps 7 and 8 to satisfaction
+            10. Destroy all D[n] to end SFO before ending the minigame/exiting the shrine
 
         ??? example "Method Structure Diagram"
 
@@ -264,7 +264,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
 
     _Method by MandelbrotChaylay and Squidwest_
 
-=== "Method 2: Hand Purgatory + DI"
+=== "Method 2: Hand Purgatory + DI" ###
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -293,26 +293,26 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
 
         ??? abstract "Throw Hold Duplication (devices or materials)"
         
-        1. Ready a throw of the duplication target. It should fall to the ground
-        2. Collect it
-        3. Press cancel (B/X). This will "put away" the target Link "still had held", returning it to the pouch
-        4. Ready throw again. Each cycle will increase the quantity of your target by 1
-        5. End SFO before ending the minigame/exiting the shrine
-        6. Save the game/get an autosave
+            1. Ready a throw of the duplication target. It should fall to the ground
+            2. Collect it
+            3. Press cancel (B/X). This will "put away" the target Link "still had held", returning it to the pouch
+            4. Ready throw again. Each cycle will increase the quantity of your target by 1
+            5. Inventory pickup all A[n] to end SFO before ending the minigame/exiting the shrine
+            6. Save the game/get an autosave
 
         ??? abstract "SFO BID (materials only)"
 
-        1. **Pause**, hold 1 random material and **unpause**. It will fall from Link's hands
-        2. Press A to drop the material
-        3. Hold 1 of the same material(?) and 4 of the duplication target. These will not appear in the world
-        4. Ready throw with the same material(???). This will make the duplication targets appear on the ground as well
-        5. Throw will need to stay readied from here out. It can be cancelled with B if necessary, so long as it is re-readied before continuing
-        6. Pick up the 5 materials on the ground
-        7. **Pause**, un-hold the 4 duplication targets, and re-hold 4 duplication targets (they can be different)
-        8. **Unpause** and pick up the 4 materials on the ground
-        9. Repeat steps 7 and 8 to satisfaction
-        10. End SFO before ending the minigame/exiting the shrine
-        11. Save the game/get an autosave
+            1. **Pause**, hold 1 random material and **unpause**. It will fall from Link's hands
+            2. Press A to drop the material
+            3. Hold 1 of the same material(?) and 4 of the duplication target. These will not appear in the world
+            4. Ready throw with the same material(???). This will make the duplication targets appear on the ground as well
+            5. Throw will need to stay readied from here out. It can be cancelled with B if necessary, so long as it is re-readied before continuing
+            6. Pick up the 5 materials on the ground
+            7. **Pause**, un-hold the 4 duplication targets, and re-hold 4 duplication targets (they can be different)
+            8. **Unpause** and pick up the 4 materials on the ground
+            9. Repeat steps 7 and 8 to satisfaction
+            10. Inventory pickup all A[n] to end SFO before ending the minigame/exiting the shrine
+            11. Save the game/get an autosave
 
         ??? example "Method Structure Diagram"
 
@@ -322,8 +322,8 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
                 PARENTS["Normal Parents<br/>(A1-A21)"]
                 CHILDREN["DI Children"<br/>(B1-B21)"]
 
-                MULTITOOL -->|"Fuse<br/>(becomes cf)"| CHILDREN
-                PARENTS -->|"Fuse<br/>(stays attached)"| CHILDREN
+                MULTITOOL -->|DI| CHILDREN
+                PARENTS -->|DI| CHILDREN
             ```
         
     ??? abstract "For Mineru's Arm (Local SFO variant)"
@@ -365,11 +365,11 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
             ```mermaid
             graph TD
                 MULTITOOL["Multitool's<br/>Purgatory Weapons"]
-                PARENTS["Normal Parents<br/>(A1-A21)"]
-                CHILDREN["DI Children"<br/>(B1-B21)"]
+                PARENTS["Normal Parents<br/>A1-A21"]
+                CHILDREN["DI Children"<br/>B1-B21"]
 
-                MULTITOOL -->|"Fuse (becomes cf)"| CHILDREN
-                PARENTS -->|"Fuse (stays attached)"| CHILDREN
+                MULTITOOL -->|"Fuse<br/>(becomes cf)"| CHILDREN
+                PARENTS -->|"Fuse<br/>(stays attached)"| CHILDREN
             ```
         
     ??? failure "No, it really can't"
@@ -377,7 +377,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
 
     _Method by mulberry_
 
-=== "Method 3: Overload Cold Fuse"
+=== "Method 3: Overload Cold Fuse" ###
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -415,26 +415,26 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
 
         ??? abstract "Throw Hold Duplication (devices or materials)"
         
-        1. Ready a throw of the duplication target. It should fall to the ground
-        2. Collect it
-        3. Press cancel (B/X). This will "put away" the target Link "still had held", returning it to the pouch
-        4. Ready throw again. Each cycle will increase the quantity of your target by 1
-        5. Collect the cold-fused materials to end SFO before ending the minigame/exiting the shrine
-        6. Save the game/get an autosave
+            1. Ready a throw of the duplication target. It should fall to the ground
+            2. Collect it
+            3. Press cancel (B/X). This will "put away" the target Link "still had held", returning it to the pouch
+            4. Ready throw again. Each cycle will increase the quantity of your target by 1
+            5. Collect the cold-fused materials to end SFO before ending the minigame/exiting the shrine
+            6. Save the game/get an autosave
 
         ??? abstract "SFO BID (materials only)"
 
-        1. **Pause**, hold 1 random material and **unpause**. It will fall from Link's hands
-        2. Press A to drop the material
-        3. Hold 1 of the same material(?) and 4 of the duplication target. These will not appear in the world
-        4. Ready throw with the same material(???). This will make the duplication targets appear on the ground as well
-        5. Throw will need to stay readied from here out. It can be cancelled with B if necessary, so long as it is re-readied before continuing
-        6. Collect the 5 materials on the ground
-        7. **Pause**, un-hold the 4 duplication targets, and re-hold 4 duplication targets (they can be different)
-        8. **Unpause** and collect the 4 materials on the ground
-        9. Repeat steps 7 and 8 to satisfaction
-        10. Collect the cold-fused materials to end SFO before ending the minigame/exiting the shrine
-        11. Save the game/get an autosave
+            1. **Pause**, hold 1 random material and **unpause**. It will fall from Link's hands
+            2. Press A to drop the material
+            3. Hold 1 of the same material(?) and 4 of the duplication target. These will not appear in the world
+            4. Ready throw with the same material(???). This will make the duplication targets appear on the ground as well
+            5. Throw will need to stay readied from here out. It can be cancelled with B if necessary, so long as it is re-readied before continuing
+            6. Collect the 5 materials on the ground
+            7. **Pause**, un-hold the 4 duplication targets, and re-hold 4 duplication targets (they can be different)
+            8. **Unpause** and collect the 4 materials on the ground
+            9. Repeat steps 7 and 8 to satisfaction
+            10. Collect the cold-fused materials to end SFO before ending the minigame/exiting the shrine
+            11. Save the game/get an autosave
 
         ??? example "Method Structure Diagram"
 
@@ -509,7 +509,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
 
     _Method by Aergyl and mulberry_ (needs double-checked; this was a little before my time)
 
-=== "Method 4: Overload Cold Fuse + Permacull"
+=== "Method 4: Overload Cold Fuse + Permacull" ###
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -536,15 +536,15 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
         1. Use the Aerophasing setup to ensure it has a cull stored; this will allow the culling area to remain loaded through _a_ banc change
         2. Walk up to the nearby shrine ('Domizuin') and enter it. **Do not warp there.**
         3. [Overload Drop](UID:8QH) a shield and pick it up to duplicate shields until you have 19 dropped and 3+ spare
-        4. _Overload Drop_ a weapon (A) and fuse it to a shield (B)
+        4. `Overload Drop` a weapon (A) and fuse it to a shield (B)
         5. [Overload Cold Fuse](UID:O64) 21 shields (C1-C21) to A (the 19 dropped & 2 from inventory)
         6. **Fail-drop** A and **drop** B
-        7. **Overload Pickup** C1
-        8. Duplicate 30 shields (D1-D30) off the DI shield, dropping each on the ground and _Overload Cold Fusing_ them to C1 as you go
+        7. `Overload Pickup` C1
+        8. Duplicate 30 shields (D1-D30) off the DI shield, dropping each on the ground and `Overload Cold Fusing` them to C1 as you go
         9. **Fail-drop** C1 and **drop** it aside
         10. Repeat 7-9 for C2-C19 with the **same** D1-D30
         11. For C20 and C21, check periodically in the menu to see if Menu Link starts overload dropping things. Once he does, _proceed to step 11_
-        12. _Overload Cold Fuse_ an unrelated material to C(n). If it works, **Collect it** and cf the next D, then repeat. If it fails, _proceed to step 12_
+        12. `Overload Cold Fuse` an unrelated material to C(n). If it works, **Collect it** and cf the next D, then repeat. If it fails, _proceed to step 12_
         13. **Fail-drop** C(n) and **drop** it. You may have to **unequip your bow** for it to return. **Be sure it does so before you drop it.**
         14. **Drop** A
 
@@ -596,11 +596,11 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
         2. Use the Aerophasing setup to ensure it has a cull stored; this will allow the culling area to remain loaded through _a_ banc change
         3. Walk up to the nearby shrine ('Domizuin') and enter it. **Do not warp there.**
         4. [Overload Drop](UID:8QH) a shield and pick it up to duplicate shields until you have 19 dropped and 3+ spare
-        5. _Overload Drop_ a weapon (A) and fuse it to a shield (B)
+        5. `Overload Drop1 a weapon (A) and fuse it to a shield (B)
         6. [Overload Cold Fuse](UID:O64) 21 shields (C1-C21) to A (the 19 dropped & 2 from inventory)
         7. **Fail-drop** A and **drop** B
-        8. _Overload Pickup_ C1
-        9. Duplicate 30 shields (D1-D30) off the DI shield, dropping each on the ground and _Overload Cold Fusing_ them to C1 as you go
+        8. `Overload Pickup` C1
+        9. Duplicate 30 shields (D1-D30) off the DI shield, dropping each on the ground and `Overload Cold Fusing` them to C1 as you go
         10. **Fail-drop** C1 and **drop** it aside
         11. Repeat 8-10 for C2-C19 with the same D1-D30
         12. For C20 and C21, check periodically in the menu to see if Menu Link starts overload dropping things. Once he does, proceed to step 12
