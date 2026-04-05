@@ -16,7 +16,7 @@ tags: ["Equipment", "Fuse", "Overload", "Mineru"]
 
 By creating 600-700 Cold Fuse connections, the game will be overloaded and unable to form any new dependencies. This causes every actor to act Zuggle Overloaded, and every equipment to act Fuse Overloaded.
 
-_Discovered by mulberry, Aergyl; Optimizations by Jordan, MandelbrotChaylay, mulberry, Squidwest_
+_Discovered by Aergyl, mulberry; Optimizations by Jordan, MandelbrotChaylay, mulberry, Squidwest_
 
 Page Todos:
 
@@ -25,10 +25,11 @@ Page Todos:
 - Actually obtain Zelda's Torch at some point to provide better directions and warn of the pitfalls
 - Seek help on crediting and resources at some point
 - Get some illustrative images, screenshots, and videos going
-- write everything after the methods :/
+- write everything else after the methods :/
 - Run the pre-`1.2.0` aerophasing setup by someone who actually plays an old patch
 - Update/Publish the permalinked pages to ensure nobody drop zuggles to do overload FE in 2026
 - (Do we need to make a page for VD/DI state manipulation? Interacting with them in general is different enough that a wiki-user only familiar with standard equipment state manipulation will make a lot of things unnecessarily difficult...)
+- I think updating each linked page to include best-practices for DI equipment (and/or entirely unique methods DI enables) is best...
 
 ## Forewarnings and Tips
 
@@ -49,7 +50,7 @@ Page Todos:
 
 There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda's Torch, and duplicating anything you can throw. For the sake of providing clear instructions, a variant of each method is given for each valid use case.
 
-=== "Method 1: Hand Purgatory + Overload Batch DI" ###
+=== "Method 1: Attached Purgatory + Overload Batch DI" ###
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -62,7 +63,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
 
         Prepare:
         
-        - 13 Zuggle Overload
+        - 13 Zuggle Overload (9 on `1.0.0`)
         - If on `1.1.2` or earlier, Intangible Aerophasing
         - A bow to manage overload with
         - A DI Ghost Weapon, dubbed "A1"
@@ -78,7 +79,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
         4. [Recall Lock](uid:EY8) B2
         5. A1 and normal weapon A2 [Clone](uid:BEW) DI Shield A3
         6. A1 `Overload FE` normal Shield A4
-        7. Equip A2, Smuggle A3, and [Overload Pickup](uid:8QH) A4
+        7. Equip A2, [Smuggle](uid:TGY) A3, and [Overload Pickup](uid:8QH) A4
         8. A2-A4 [Overload Batch DI](uid:PG3) 19 Weapons C1-C19
         9. **Fail-Drop** A4
         10. A3 & A4 `Clone` DI Weapon C20
@@ -89,8 +90,8 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
 
         Part 2: Performing and undoing SFO
         
-        1. Zuggle Drop B1, equip A4, and `Overload Pickup` B2
-        2. B1, B2, & A4 ``Overload Batch DI` 30 Shields D1-D30
+        1. [Zuggle Drop](uid:L84) B1, equip A4, and `Overload Pickup` B2
+        2. B1, B2, & A4 `Overload Batch DI` 30 Shields D1-D30
         3. There will be a substantial lag on the second fuse of each shield after DI, so using the D-pad to **drop-swap** (if on `1.2.0+`) is advised
         4. `**Super Fuse Overload**` should occur on the 30th shield. If confirmation is needed, **drop** the fused equipment item. If the fuse is deleted, SFO is active
         5. To undo SFO: **pick up** each D[n], **unequip** it, and **drop** it. Each removed shield will remove 20 dependencies from the global limit
@@ -98,7 +99,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
         Part 3: Obtaining Mineru's Arm
 
         1. Equip a weapon and ensure there is space in your weapon pouch
-        2. Warp to Mogisari Shrine at the Lomei Sky Labyrinth. Other low-grav zones may work but are untested
+        2. Warp to Mogisari Shrine at the Lomei Sky Labyrinth. Other low gravity zones may work, but are untested for stability during SFO
         3. As soon as you gain control, walk in a small clockwise circle while spamming A (see video below)
         4. Execution permitting, you will pick up a new 2-handed weapon, dealing 38 damage, which has no icon, description, model, or collision, and is called MsgNotFound
         5. If unsuccessful, warp to the shrine again to make another attempt. Otherwise, subsequent Panic Blood Moons will occur too frequently to reach the arm in time
@@ -134,7 +135,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
 
         Prepare:
         
-        - 13 Zuggle Overload
+        - 13 Zuggle Overload (9 on `1.0.0`)
         - If on `1.1.2` or earlier, Intangible Aerophasing
         - A bow to manage overload with
         - A DI Ghost Weapon, dubbed "A1"
@@ -150,7 +151,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
         3. [Recall Lock](uid:EY8) B2
         4. A1 and normal weapon A2 [Clone](uid:BEW) DI Shield A3
         5. A1 `Overload FE` normal Shield A4
-        6. Equip A2, Smuggle A3, and [Overload Pickup](uid:8QH) A4
+        6. Equip A2, [Smuggle](uid:TGY) A3, and [Overload Pickup](uid:8QH) A4
         7. A2-A4 [Overload Batch DI](uid:PG3) 19 Weapons C1-C19
         8. **Fail-Drop** A4
         9. A3 & A4 `Clone` DI Weapon C20
@@ -161,7 +162,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
 
         Part 2: Performing and undoing SFO
         
-        1. Zuggle Drop B1, equip A4, and `Overload Pickup` B2
+        1. [Zuggle Drop](uid:L84) B1, equip A4, and `Overload Pickup` B2
         2. B1, B2, & A4 `Overload Batch DI` 30 Shields D1-D30
         3. There will be a substantial lag on the second fuse of each shield after D1, so using the D-pad to **drop-swap** (if on `1.2.0+`) is advised
         4. `**Super Fuse Overload**` should occur on the 30th shield. If confirmation is needed, **drop** the fused equipment item. If the fuse is deleted, SFO is active
@@ -192,7 +193,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
     ??? abstract "For duplication"
 
         Prepare:
-        - 13 Zuggle Overload
+        - 13 Zuggle Overload (9 on `1.0.0`)
         - If on `1.1.2` or earlier, Intangible Aerophasing
         - A bow to manage overload with
         - A DI Ghost Weapon, dubbed "A1"
@@ -208,7 +209,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
         3. [Recall Lock](uid:EY8) B2
         4. A1 and normal weapon A2 [Clone](uid:BEW) DI Shield A3
         5. A1 `Overload FE` normal Shield A4
-        6. Equip A2, Smuggle A3, and [Overload Pickup](uid:8QH) A4
+        6. Equip A2, [Smuggle](uid:TGY) A3, and [Overload Pickup](uid:8QH) A4
         7. A2-A4 [Overload Batch DI](uid:PG3) 19 Weapons C1-C19
         8. **Fail-Drop** A4
         9. A3 & A4 `Clone` DI Weapon C20
@@ -219,7 +220,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
 
         Part 2: Performing and undoing SFO
         
-        1. Zuggle Drop B1, equip A4, and `Overload Pickup` B2
+        1. [Zuggle Drop](uid:L84) B1, equip A4, and `Overload Pickup` B2
         2. B1, B2, & A4 `Overload Batch DI` 30 Shields D1-D30
         3. There will be a substantial lag on the second fuse of each shield after D1, so using the D-pad to **drop-swap** (if on `1.2.0+`) is advised
         4. `**Super Fuse Overload**` should occur on the 30th shield. If confirmation is needed, **drop** the fused equipment item. If the fuse is deleted, SFO is active
@@ -265,7 +266,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
 
     _SFO Method by MandelbrotChaylay and Squidwest_
 
-=== "Method 2: Hand Purgatory + DI" ###
+=== "Method 2: Attached Purgatory + DI" ###
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -286,33 +287,33 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
 
         1. Enter a minigame with no timer. If only materials (and not Zonai Devices) are to be duped, a shrine will also work
         2. Dupe a weapon (A1) and equip it
-        3. A1 [Clone](uid:BEW) DI Material/equipment (B1); Do not detangle
-        4. Repeat until attempting to fuse B[n] fails (20-21 repetitions are expected); Menu Link should be overloaded at this point
+        3. A1 [Clone](uid:BEW) DI Material/equipment (B1). **Do not detangle or delete A1.**
+        4. **Repeat** until attempting to fuse B[n] to A[n] fails (20-21 repetitions are expected); Menu Link should be overloaded at this point
         5. To destroy SFO, simply inventory pickup each A[n], or exit shrine if in one. Distance despawn _will not fully work_ due to the properties of DI
 
         Part 2: Duplicating with SFO
 
         ??? abstract "Throw Hold Duplication (devices or materials)"
         
-            1. Ready a throw of the duplication target. It should fall to the ground
-            2. Collect it
-            3. Press cancel (B/X). This will "put away" the target Link "still had held", returning it to the pouch
-            4. Ready throw again. Each cycle will increase the quantity of the target by 1
-            5. Inventory pickup all A[n] to end SFO before ending the minigame/exiting the shrine
+            1. Ready a **throw** of the duplication target. It should fall to the ground
+            2. **Collect** it
+            3. Press **cancel** (B/X). This will "put away" the target Link "still had held", returning it to the pouch
+            4. Ready **throw** again. Each cycle will increase the quantity of the target by 1
+            5. **Inventory pickup** all A[n] to end SFO before ending the minigame (shrine exit will end SFO automatically)
             6. Save the game/get an autosave
 
         ??? abstract "SFO BID (materials only)"
 
-            1. **Pause**, hold 1 random material and **unpause**. It will fall from Link's hands
-            2. Press A to drop the material
+            1. **Pause**, hold 1 random material and **unpause**. It will fall from Link's cupped hands
+            2. Press A to drop the material. Link will still do the dropping animation
             3. Hold 1 of the same material(?) and 4 of the duplication target. These will not appear in the world
-            4. Ready throw with the same material(???). This will make the duplication targets appear on the ground as well
+            4. Ready **throw** with the same material(???). This will make the duplication targets appear on the ground as well
             5. Throw will need to stay readied from here out. It can be cancelled with B if necessary, so long as it is re-readied before continuing
-            6. Pick up the 5 materials on the ground
+            6. **Collect** the 5 materials on the ground
             7. **Pause**, un-hold the 4 duplication targets, and re-hold 4 duplication targets (they can be different)
-            8. **Unpause** and pick up the 4 materials on the ground
+            8. **Unpause** and **collect** the 4 materials on the ground
             9. Repeat steps 7 and 8 to satisfaction
-            10. Inventory pickup all A[n] to end SFO before ending the minigame/exiting the shrine
+            10. **Inventory pickup** all A[n] to end SFO before ending the minigame (shrine exit will end SFO automatically)
             11. Save the game/get an autosave
 
         ??? example "Method Structure Diagram"
@@ -324,7 +325,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
                 CHILDREN["DI Children<br/>(B1-B21)"]
 
                 MULTITOOL -->|"Fuse<br/>(becomes CF)"| CHILDREN
-                PARENTS -->|"Fuse<br/>(stays attached)| CHILDREN
+                PARENTS -->|"Fuse<br/>(stays attached)"| CHILDREN
             ```
         
     ??? abstract "For Mineru's Arm (Local SFO variant)"
@@ -340,17 +341,17 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
 
         1. Defeat Army and enter the tunnel before Ganondorf
         2. Dupe a weapon (A1) and equip it
-        3. A1 [Clone](uid:BEW) DI Material (B1); Do not detangle
-        4. Repeat until attempting to fuse B[n] fails (20-21 repetitions are expected); Menu Link should be overloaded at this point
+        3. A1 [Clone](uid:BEW) DI Material (B1); **Do not detangle or delete A1.**
+        4. **Repeat** until attempting to fuse B[n] to A[n] fails (20-21 repetitions are expected); Menu Link should be overloaded at this point
         5. Glue all A[n] together and ultrahand them into Ganon's Room, holding them far aside to keep them out of the way
 
         Part 2: Obtaining Mineru's Arm
 
-        1. Progress the fight to Phase 2 (2nd form), and drop a fused equipment. The fuse should delete. If not, drop more one at a time until it does
+        1. Progress the fight to Phase 2 (2nd form), and **drop** a fused equipment. The fuse should delete. If not, **drop** more one at a time until it does
         2. Progress to Phase 3 (sages blown away), and find Mineru
-        3. Pick up her arm, which is invisible, collisionless, and repeatedly drops from either visible arm. It cannot be collected with an empty hand. Take several to be safe
-        4. Inventory pickup all A[n] to undo SFO and UNDOCK THE CONSOLE
-        5. Fuse something to Mineru's Arm. _If the console is docked, this will crash the game_
+        3. **Pick up** her arm, which is invisible, collisionless, and repeatedly drops from either visible arm. It cannot be collected with an empty hand. Take several to be safe
+        4. **Inventory pickup** all A[n] to undo SFO and UNDOCK THE CONSOLE
+        5. **Fuse** something to Mineru's Arm. _If the console is docked, this will crash the game_
         6. Zuggle Mineru's Arm. It will always fail-drop while on the ground, so either version can be done without a wall
         7. If on `1.1.2` or earlier, Map Zuggle Mineru's Arm
         8. If on `1.2.0` or later, use the portacull to SRZ Mineru's Arm
@@ -373,7 +374,6 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
                 PARENTS -->|"Fuse<br/>(stays attached)"| CHILDREN
             ```
 
-        
     ??? failure "No, it really can't"
         This method relies on a specialized piece of equipment that takes time to create and has many uses. While it is technically possible to make the SFO permanent by permaculling all A[n], it completely nullifies the speed and portability of this method. If a pcull-based permanent method is desired, Method 4 will almost unquestionably be easier, faster, and simpler.
 
@@ -391,7 +391,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
 
         Prepare:
         
-        - 13 zuggle overload (or 9 on 1.0.0)
+        - 13 zuggle overload (9 on `1.0.0`)
         - A bow
         - A weapon
         - 2+ unfused shields
@@ -453,7 +453,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
 
         Prepare:
         
-        - 13 zuggle overload (or 9 on 1.0.0)
+        - 13 zuggle overload (9 on `1.0.0`)
         - A bow
         - A weapon
         - 2+ unfused shields
@@ -482,11 +482,11 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
 
         Part 2: Obtaining Mineru's Arm
 
-        16. Progress the fight to Phase 2 (2nd form), and **drop** a fused equipment. The fuse should delete. If not, drop more one at a time until it does
+        16. Progress the fight to Phase 2 (2nd form), and **drop** a fused equipment. The fuse should delete. If not, **drop** more one at a time until it does
         17. Progress to Phase 3 (sages blown away), and find Mineru
-        18. Pick up her arm, which is invisible, collisionless, and repeatedly drops from either visible arm. It cannot be collected with an empty hand. Take several to be safe
-        19. Collect the materials in the bucket to undo SFO and UNDOCK THE CONSOLE
-        20. Fuse something to Mineru's Arm. _If the console is docked, this will crash the game_
+        18. **Pick up** her arm, which is invisible, collisionless, and repeatedly drops from either visible arm. It cannot be collected with an empty hand. Take several to be safe
+        19. **Collect** the materials in the bucket to undo SFO and UNDOCK THE CONSOLE
+        20. **Fuse** something to Mineru's Arm. _If the console is docked, this will crash the game_
         21. Zuggle Mineru's Arm. It will always fail-drop while on the ground, so either version can be done without a wall
         22. If on `1.1.2` or earlier, Map Zuggle Mineru's Arm
         23. If on `1.2.0` or later, use the portacull to SRZ Mineru's Arm
@@ -525,7 +525,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
 
         Prepare:
 
-        - 13 Zuggle overload (or 9 on 1.0.0)
+        - 13 Zuggle overload (9 on `1.0.0`)
         - Intangible Aerophasing (guide assumes this is set up at Akkala Citadel Ruins)
         - A bow
         - 2+ unfused weapons
@@ -554,7 +554,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
 
         Part 2: Permaculling the setup
 
-        1. Smuggle E. If E was not prepared, Zuggle any other unrelated shield by your preferred method
+        1. [Smuggle](uid:TGY) E. If E was not prepared, Zuggle any other unrelated shield by your preferred method
         2. Equip one of B, C, or D and step onto the phasing platform
         3. **Pause** the game while Link is **culled**. This will cause Link to consistently be **unculled** when the game is unpaused
         4. **Unpause** the game and immediately **open** the Shield Quick Menu (D-pad Left). If Link is **unculled** behind the menu, **drop** the equipped shield. If not, repeat step 3.
@@ -585,7 +585,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
 
         Prepare:
 
-        - 13 Zuggle overload (or 9 on 1.0.0)
+        - 13 Zuggle overload (9 on `1.0.0`)
         - Intangible Aerophasing (guide assumes this is set up at Akkala Citadel Ruins)
         - A bow
         - 2+ unfused weapons
@@ -614,7 +614,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
 
         Part 2: Permaculling the setup
 
-        1. Smuggle E. If E was not prepared, Zuggle any other unrelated shield by your preferred method
+        1. [Smuggle](uid:TGY) E. If E was not prepared, Zuggle any other unrelated shield by your preferred method
         2. Equip one of B, C, or D and step onto the phasing platform
         3. **Pause** the game while Link is **culled**. This will cause Link to consistently be **unculled** when the game is unpaused
         4. **Unpause** the game and immediately **open** the Shield Quick Menu (D-pad Left). If Link is **unculled** behind the menu, **drop** the equipped shield. If not, repeat step 3.
@@ -623,7 +623,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
         Part 3: Obtaining Mineru's Arm
 
         1. Equip a weapon and ensure there is space in your weapon pouch
-        2. Warp to Mogisari Shrine at the Lomei Sky Labyrinth. Other low-grav zones may work, but are untested for stability under SFO
+        2. Warp to Mogisari Shrine at the Lomei Sky Labyrinth. Other low-gravity zones may work, but are untested for stability under SFO
         3. As soon as you gain control, walk in a small clockwise circle while mashing A (see video below)
         4. Execution permitting, you will pick up a new 2-handed weapon, dealing 38 damage, which has no icon, description, model, or collision, and is called MsgNotFound
         5. If unsuccessful, warp to the shrine again to make another attempt. Otherwise, subsequent Panic Blood Moons will occur too frequently to reach the arm in time
@@ -632,17 +632,32 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
         8. Hard save the game if desired, then close it to clear SFO
 
         ??? example "Method Structure Diagram"
-        
+
             ```mermaid
             graph TD
-                A[Shield B] -->|Fuse| B[Weapon A]
-                B -->|cf| C[Shields C1-C21]
-                C -->|cf| D[Shields D1-D30]
-                A -->|Permacull| E{Permanent}
-                C -->|Permacull| E
-                D -->|Permacull| E
-                B -->|Indirect Permacull| E
+
+                LINK[Link]
+                AER[Aerophasing]
+                LOCATION[Shrine]
+                A[Weapon A]
+                B[Shield B]
+                C["Shields<br/>C1-C21"]
+                D["Shields<br/>D1-D30"]
+                STATE[Permanent]
+
+                LINK -->|Store cull| AER
+                LINK -->|"Enter without<br/>warping"| LOCATION
+                LINK -->|Equip| B
+                LINK -->|Overload Drop| A
+                B -->|Fuse| A
+                A -->|CF| C
+                C -->|CF| D
+                B -->|Permaculled| STATE
+                C -->|Permaculled| STATE
+                D -->|Permaculled| STATE
+                A -->|"Indirectly<br/>permaculled"| STATE
             ```
+
 
 ## Properties
 
