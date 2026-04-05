@@ -1,0 +1,49 @@
+---
+title: "Equipment states"
+---
+
+# Equipment States
+
+Equipment in Tears of the Kingdom can be in a _lot_ more states than was intended.
+
+This section describes [Equip Positions](uid:S8I), the difference between [cold and warm drops](uid:C6H), and covers the following states:
+
+- [Despawn Interrupt](uid:IF1)
+- [Drop Equip](uid:HY9)
+- [Drop Smuggle](uid:089)
+- [Drop Zuggle](uid:0YL)
+- [Dynamic Smuggle](uid:85I)
+- [Dynamic Zuggle](uid:3KD)
+- [Equipped Ghost](uid:30A)
+- [Fail Drop Equip](uid:F4E)
+- [Fail Drop Zuggle](uid:PM4)
+- [Invismuggle](uid:445)
+- [Invizuggle](uid:M0U)
+- [Overload Drop](uid:2U2)
+- [Purgatory](uid:TAO)
+- [Sluggle](uid:M4H)
+- [Smuggle](uid:TGY)
+- [Throken](uid:58H)
+- [Zuggle Drop](uid:L84)
+- [Zuggle](uid:A1E)
+
+## Transformation
+
+There are many ways of transforming some equipment from one state to another, based on what you do when it's equipped, or with something else of the same type already equipped:
+
+|Existing state|Action|New state|Notes|
+|-|:-|-|:-|
+|\[Static\] Smuggle|Warm drop another|Both equipment drop|Neither is a smuggle|
+|\[Static\] Zuggle|Warm drop another|Both equipment drop|Neither is a smuggle or a zuggle|
+|\[Static\] Smuggle|Fail drop another|Smuggle becomes a zuggle| |
+|\[Static\] Zuggle|Fail drop another|Nothing| |
+|Dynamic Smuggle|Warm drop / fail drop another|Item becomes a Dynamic Zuggle| |
+|Dynamic Zuggle|Warm drop / fail drop another|Nothing| |
+|Dynamic Smuggle/Zuggle|Throw / Shock drop another|All dynamic smuggles/zuggles released| |
+|Drop Equip / Equipped Drop Smuggle|Warm drop|Equipment is sent to purgatory| |
+|Drop Equip / Equipped Drop Smuggle|Fail drop|Equipment is reverted to normal| |
+|Drop Equip / Equipped Drop Smuggle|Zuggle|Equipment is Drop Zuggled|This doesn't require a fail drop, so Zuggle Drop inputs also work|
+|Drop Smuggle|Warm drop|Smuggle becomes a Drop Zuggle| |
+|Static Smuggle / Drop Smuggle|Throw / Shock drop another|Smuggle is sent to purgatory, new equip is a weak Drop Equip|The purgatory equipment will have no collision and cannot be retrieved without an existing FE parent|
+|Equipped Smuggle (any position)|Change equipment|No change|Smuggle is unequipped but otherwise preserved|
+
