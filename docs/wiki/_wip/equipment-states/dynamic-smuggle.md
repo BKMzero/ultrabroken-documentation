@@ -6,7 +6,7 @@ aliases: ["dsmuggle"]
 
 # Dynamic Smuggle
 
-A smuggle in the dynamic [equip position](../equip-position/).
+A smuggle in the dynamic [equip position](uid:S8I).
 
 ## Methods
 

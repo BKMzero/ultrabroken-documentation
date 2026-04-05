@@ -5,7 +5,7 @@ uid: "HY9"
 
 # Drop Equip
 
-A fully equipped item in the drop [equip position](../equip-position/).
+A fully equipped item in the drop [equip position](uid:S8I).
 
 ## Converting to a zuggle
 

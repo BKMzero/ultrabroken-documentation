@@ -12,7 +12,7 @@ Any action that repositions the FDE equipment on Link will cancel this state, re
 ## Terminology
 
 - Earlier glitch resources may call this a fail drop _smuggle_, although this isn't an actual smuggle in [the sense we understand it now](../smuggle).
-- A [Fail Drop Zuggle](../fail-drop-zuggle) is just a zuggled version of this.
+- A [Fail Drop Zuggle](uid:PM4) is just a zuggled version of this.
 
 ## Methods
 

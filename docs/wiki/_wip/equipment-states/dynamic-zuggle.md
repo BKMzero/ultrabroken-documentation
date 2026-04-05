@@ -6,7 +6,7 @@ aliases: ["dzuggle"]
 
 # Dynamic Zuggle
 
-A zuggle in the dynamic [equip position](../equip-position/).
+A zuggle in the dynamic [equip position](uid:S8I).
 
 ## Methods
 

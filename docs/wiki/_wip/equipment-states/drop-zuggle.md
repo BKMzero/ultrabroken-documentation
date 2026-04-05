@@ -6,7 +6,7 @@ aliases: ["dz"]
 
 # Drop Zuggle
 
-A zuggle in the drop [equip position](../equip-position/).
+A zuggle in the drop [equip position](uid:S8I).
 
 ## Methods
 

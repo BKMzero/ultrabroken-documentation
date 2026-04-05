@@ -5,7 +5,7 @@ uid: "PM4"
 
 # Fail Drop Zuggle
 
-This is just a zuggled [Fail Drop Equip](../fail-drop-equip).
+This is just a zuggled [Fail Drop Equip](uid:F4E).
 
 ## Effects
 
