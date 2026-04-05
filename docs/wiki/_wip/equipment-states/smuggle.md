@@ -82,3 +82,4 @@ Smuggles and zuggles are very similar in behaviour and nature. From the equipmen
     - On version 1.1.2 specifically, you can bypass d-pad lock by opening the ability wheel, then going straight to the quick menu before the game unpauses.
     - Smuggling Despawn Interrupted equipment doesn't cause d-pad lock on any version.
 - **Fuse Entanglement** - Anything fused, fuse entangled, or animated cold fused to intended equipment will also fuse entangle to any unculled smuggle.
+- **Link equip state desync** - Most methods of smuggling equipment don't make Link realise he can directly equip new pickups. If you need to equip something after smuggling without it going straight into the inventory, you'll need to equip and unequip something else first.

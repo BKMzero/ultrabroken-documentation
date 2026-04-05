@@ -9,7 +9,7 @@ A fully equipped item in the drop [equip position](uid:S8I).
 
 ## Converting to a zuggle
 
-Drop equips can be converted to [drop zuggles](search:Drop Zuggle) quite easily. Most methods are variants on what it takes to make a zuggle drop.
+Drop equips can be converted to [drop zuggles](search:Drop Zuggle) quite easily. Most methods are variants on what it takes to make a [zuggle drop](uid:L84).
 
 ## Sending to purgatory
 
