@@ -13,9 +13,9 @@ Link can have equipment attached to him in one of a number of configurations:
 A static equip position is properly connected to Link's back, or to his hand, but remains where it is until fully dropped. This is the most common position for zuggles and smuggles, so it gets to be the implicit default. Any zuggle or smuggle method that doesn't explicitly mention one of the other positions will be referring to this one.
 
 Static equips, although not very useful, are possible with any of these methods:
+
 - Warp with a strong [drop equip](uid:HY9)
 - Pick up a [fail drop zuggle](uid:PM4)
-
 
 ## **Dynamic**
 
@@ -31,10 +31,7 @@ Equips, smuggles and zuggles can all be in the drop position.
 
 ## **Ground**
 
-This term is sometimes used for overload dropped equipment, as it has no connection to Link, but does to the inventory.
+This term is sometimes used for overload dropped equipment, as it has no connection to Link, but does to the inventory. Its meanings are less consistent:
 
-If you drop a ground equip:
-- It converts into a ground smuggle. As is the case with smuggles, this risks an opening for D-Pad Lock. Performing [zuggle dropping](search:Zuggle Drop) inputs will skip the ground smuggle state, although the equipment won't actually be a zuggle drop. Instead, it _almost_ becomes just a normal warm drop.
-	- On version 1.1.1 and earlier, you can just warm drop into the ground smuggle state, then equip and warm drop something else of that type to unsmuggle it.
-- If you pick up a ground smuggle, it becomes an equipped [drop smuggle](uid:089). Warping with this equipped will delete the item from the overworld, allowing for [unload WST](search:Unload Weapon State Transfer).
-- If you pick a former ground smuggle, it becomes a strong [drop equip](uid:HY9). Warping with this equipped will turn it into a static equip.
+- A **Ground Drop Equip** is a normal cold drop, except that when picked up and equipped, it will equip in the drop position. In this case, the meaning of 'Ground X' is "this is just some equipment on the ground, but when you pick it up, it'll become X".
+- A **Ground Drop Smuggle** is the same thing, except that it's also the active smuggle.
