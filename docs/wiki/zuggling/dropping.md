@@ -16,7 +16,7 @@ When you drop something Link has equipped, the game broadcasts a 'start dropping
 
 If a second item of the same type is supposed to go into that slot, Link overwrites the old reference with a new one. The former smuggle then does one of two things:
 
-- If it still responds to the original 'start dropping' message, it drops as normal. But because it's not the current smuggle anymore, Link fails to detach it from himself. This turns it into a [Zuggle Drop](zuggle-drop/).
+- If it still responds to the original 'start dropping' message, it drops as normal. But because it's not the current smuggle anymore, Link fails to detach it from himself. If the item wasn't originally overload equipped, this also turns it into a [Zuggle Drop](uid:L84).
 - If it doesn't respond to the original 'start dropping' message, it stays attached to Link and becomes a zuggle. This usually happens with:
   - Invismuggles. As culled smuggles, they don't change their own state, but Link no longer considering them an active smuggle means they get promoted to invizuggles.
   - Dynamic smuggles. They don't consider themselves to be dropping, so they ignore the 'start dropping' message. They just get passively promoted to dynamic zuggles.
