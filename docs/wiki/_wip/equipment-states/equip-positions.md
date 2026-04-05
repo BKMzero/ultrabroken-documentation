@@ -31,7 +31,7 @@ Equips, smuggles and zuggles can all be in the drop position.
 
 ## **Ground**
 
-This term is sometimes used for overload dropped equipment, as it has no connection to Link, but does to the inventory. Its meanings are less consistent:
+This term is sometimes used for states attainable from overload dropped equipment, as it has no typical connection to Link. Its meanings are less consistent:
 
-- A **Ground Drop Equip** is a normal cold drop, except that when picked up and equipped, it will equip in the drop position. In this case, the meaning of 'Ground X' is "this is just some equipment on the ground, but when you pick it up, it'll become X".
-- A **Ground Drop Smuggle** is the same thing, except that it's also the active smuggle.
+- A **Ground Drop Equip** is a normal piece of dropped equipment, except that when picked up and equipped, it will equip in the drop position. In this case, the meaning of 'Ground X' is "this is just some equipment on the ground, but when you pick it up, it'll become X".
+- A **Ground Drop Smuggle** is the same thing, except that it's also the active smuggle. In this case, the meaning of 'Ground' is "being an active smuggle is the only connection this item has to Link".
