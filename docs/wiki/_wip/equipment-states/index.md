@@ -1,5 +1,6 @@
----
+﻿---
 title: "Equipment states"
+uid: "SKY"
 ---
 
 # Equipment States
