@@ -27,11 +27,11 @@ Autobuild Duplication again (no link).
 ## Escape Prefix
 
 !Anti-Gravity Glitch is prefixed with `!` — it should render as plain
-"Anti-Gravity Glitch" with no link and no `!` marker visible. Because
+`Anti-Gravity Glitch` with no link and with no `!` marker visible. Because
 the escaped mention consumed the only occurrence so far, the next
 Anti-Gravity Glitch in this section should still get autolinked.
 
-Conversely, !AGG suppresses the label, and AGG after it should link.
+Conversely, !AGG suppresses the label, and AGG after it should not be linked even without `!` marker.
 
 ## Existing Link Awareness
 
