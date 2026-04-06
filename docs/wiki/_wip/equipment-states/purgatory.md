@@ -17,7 +17,7 @@ Is it equipped or not? Depends who you ask.
 
 Normally, when you have something equipped, Link's actor and the equipment actor agree on what's going on:
 
-- Link has the equipment connected to him (as [a dependency](TODO_dropping), among other ways);
+- Link has the equipment connected to him (as [a dependency](uid:NYI), among other ways);
 - The equipment considers Link to be its user.
 
 With purgatory equipment, only the latter is true. It considers itself to be equipped on Link, but Link disagrees.
