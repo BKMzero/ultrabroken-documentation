@@ -393,7 +393,7 @@ The markdown above renders as:
 
 > Anti-Gravity Glitch appears again but is not autolink - section budget spent.
 
-The first mention has no `!` visible (it was stripped) and no link. The second mention becomes a hyperlink.
+The first mention has no `!` visible (it was stripped) and no link. The manual link of the glitch becomes a hyperlink. The third one is skipped since its parent sections autolinking budget was spent on the manual link.
 
 ## Markdown Reference
 
