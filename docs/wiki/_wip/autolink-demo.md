@@ -70,3 +70,11 @@ new section (h3 boundary), so it gets its own autolink.
 
 Arrow Prompt Storage also appears here — autolinked independently.
 Arrow Prompt Storage again — no second link.
+
+#### Deep Nested Collapsible { .collapse .open }
+
+Autobuild Duplication appears here — own h4 section, gets autolinked.
+Autobuild Duplication mentioned again — same section, no second link.
+
+Arrow Unloading also shows up (first mention in this section, autolinked).
+Arrow Unloading repeated — no second link in this section.
