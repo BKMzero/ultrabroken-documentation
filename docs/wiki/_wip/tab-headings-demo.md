@@ -181,33 +181,50 @@ Arrow Smuggling again — no second link.
 
     Arrow Smuggling also gets linked independently per tab.
 
-### Collapsibles as Sections
+### Admonition Collapsibles (NOT section boundaries)
 
-Anti-Gravity Glitch appears above the collapsible — autolinked here.
+Anti-Gravity Glitch appears here — autolinked (first in section).
 
-??? example "Collapsible Test"
+??? example "Collapsible Admonition Test"
 
-    Anti-Gravity Glitch inside a collapsible block. This is an
-    independent section, so it should get its own autolink.
+    Anti-Gravity Glitch inside a collapsible admonition. Because
+    admonitions are inline supplementary content (not section
+    boundaries), this shares the same section budget as above.
+    This mention should NOT be linked — the section already has one.
 
-    Anti-Gravity Glitch again inside the same collapsible — no link.
+Anti-Gravity Glitch after the collapsible — still the same section,
+still no second link.
 
-After the collapsible, we are back in the parent section.
-Anti-Gravity Glitch here should NOT be linked (already linked before
-the collapsible in this same section fragment).
+??? tip "Another Admonition"
 
-### Nested: Collapsible Inside Tab
+    Arrow Smuggling inside an admonition — first mention of this
+    glitch in the section, so it should get autolinked.
+
+    Arrow Smuggling again — same section, no second link.
+
+### Collapsible Headings (section boundaries) { .collapse .open }
+
+Anti-Gravity Glitch in a collapsible heading section — autolinked.
+Anti-Gravity Glitch again — same section, no second link.
+
+#### Nested Collapsible Heading { .collapse .open }
+
+Anti-Gravity Glitch under a nested collapsible heading — this is a
+new section (h4 boundary), so it gets its own autolink.
+
+Arrow Prompt Storage also appears here — autolinked independently.
+Arrow Prompt Storage again — no second link.
+
+### Admonition Inside Tab
 
 === "Outer Tab" ###
 
     Arrow Prompt Storage in the tab body — autolinked.
 
-    ??? tip "Nested Collapsible"
+    ??? tip "Tip Inside Tab"
 
-        Arrow Prompt Storage inside the collapsible — separate section,
-        gets its own link.
+        Arrow Prompt Storage inside an admonition within a tab.
+        Same tab section — should NOT be linked again.
 
-        Arrow Prompt Storage again — no second link.
-
-    Arrow Prompt Storage after the collapsible — same tab section as
-    above, already linked, so no second link.
+    Arrow Prompt Storage after the admonition — still same tab
+    section, still no second link.
