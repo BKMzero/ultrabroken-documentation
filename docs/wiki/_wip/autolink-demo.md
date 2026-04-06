@@ -58,12 +58,12 @@ Arrow Smuggling again — no second link.
 
     Arrow Smuggling also gets linked independently per tab.
 
-## Collapsible Headings (section boundaries) { .collapse .open }
+## Collapsible Headings (section boundaries) ?
 
 Anti-Gravity Glitch in a collapsible heading section — autolinked.
 Anti-Gravity Glitch again — same section, no second link.
 
-### Nested Collapsible Heading { .collapse .open }
+### Nested Collapsible Heading ?
 
 Anti-Gravity Glitch under a nested collapsible heading — this is a
 new section (h3 boundary), so it gets its own autolink.
@@ -71,7 +71,7 @@ new section (h3 boundary), so it gets its own autolink.
 Arrow Prompt Storage also appears here — autolinked independently.
 Arrow Prompt Storage again — no second link.
 
-#### Deep Nested Collapsible { .collapse .open }
+#### Deep Nested Collapsible !
 
 Autobuild Duplication appears here — own h4 section, gets autolinked.
 Autobuild Duplication mentioned again — same section, no second link.
