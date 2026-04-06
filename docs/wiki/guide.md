@@ -362,42 +362,34 @@ Contributor names are also **automatically hyperlinked in body text** anywhere t
 
 The first mention of any glitch's name, label, or alias in paragraph text is automatically hyperlinked to that glitch's page. This is powered by a glossary built from all published frontmatter.
 
-#### Rules
+#### Behaviour
 
 - Only the **first** occurrence of each glitch **per section** is linked — subsequent mentions in the same section stay as plain text.
 - **Section boundaries** are `<h2>`–`<h6>` headings and tab panels (`<div class="tabbed-block">`). Each heading or tab resets the per-glitch budget.
 - A page is never auto-linked to itself — self-mentions stay as plain text.
 - Text inside code spans, code blocks, headings, and existing links is never touched.
 - **Existing link awareness**: If you manually link to a glitch (e.g. `[Anti-Gravity Glitch](uid:PEY)`), the autolinker skips all subsequent mentions of that glitch within the same section — the UID is already covered.
-- Names and aliases match **case-insensitively**. Labels (abbreviations) are **case-sensitive** to avoid false positives on common words.
+- Names and aliases match **case-insensitively**. Labels (abbreviations) match **exactly as written** in frontmatter to avoid false positives on common words.
 
-#### Escape Prefix
+#### Syntax
 
-Prefix a glitch mention with `!` to suppress autolinking for that specific occurrence. The `!` marker is stripped from the rendered output — only the glitch name appears.
-
-```markdown
-!Anti-Gravity Glitch will NOT be autolinked here.
-```
-
-Renders as:
-
-> Anti-Gravity Glitch will NOT be autolinked here.
-
-Because the escaped mention doesn't consume the section budget, the next unescaped mention of the same glitch can still be autolinked:
+Prefix a glitch mention with `!` to suppress autolinking for that specific occurrence. The `!` marker is stripped from the rendered output — only the glitch name appears. Because the escaped mention doesn't consume the section budget, the next unescaped mention of the same glitch can still be autolinked.
 
 ```markdown
-!Anti-Gravity Glitch is mentioned first (no link).
+!Anti-Gravity Glitch is escaped (no link).
 Anti-Gravity Glitch appears again — this one gets the autolink.
 ```
 
-#### Alternative Suppression
+Alternatively, wrap the text in a code span (`` `ETS` ``) or an empty link (`[Anti-Gravity Glitch]()`) to suppress autolinking.
 
-To suppress autolinking without using the escape prefix, wrap the text in a code span or an explicit link:
+#### Example
 
-- Code span: `` `ETS` `` — renders as monospace, no link
-- Empty link: `[Anti-Gravity Glitch]()` — renders as plain text
+The markdown above renders as:
 
-If a `label` or `aliases` value is accidentally matching unrelated words, update the frontmatter to remove the false-positive trigger.
+> !Anti-Gravity Glitch is escaped (no link).
+> [Anti-Gravity Glitch](uid:PEY) appears again — this one gets the autolink.
+
+The first mention has no `!` visible (it was stripped) and no link. The second mention becomes a hyperlink.
 
 ## Markdown Reference
 
