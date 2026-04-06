@@ -31,7 +31,7 @@ Autobuild Duplication again (no link).
 the escaped mention consumed the only occurrence so far, the next
 Anti-Gravity Glitch in this section should still get autolinked.
 
-Conversely, !AGG suppresses the label, and AGG after it should not be linked even without `!` marker.
+Conversely, `!` suppresses the !AGG label, and AGG after it should not be linked either even without `!` marker because of the spent contingent.
 
 ## Existing Link Awareness
 
