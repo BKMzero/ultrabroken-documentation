@@ -364,12 +364,40 @@ The first mention of any glitch's name, label, or alias in paragraph text is aut
 
 #### Rules
 
-- Only the **first** occurrence of each glitch name per page is linked.
+- Only the **first** occurrence of each glitch **per section** is linked — subsequent mentions in the same section stay as plain text.
+- **Section boundaries** are `<h2>`–`<h6>` headings and tab panels (`<div class="tabbed-block">`). Each heading or tab resets the per-glitch budget.
 - A page is never auto-linked to itself — self-mentions stay as plain text.
 - Text inside code spans, code blocks, headings, and existing links is never touched.
+- **Existing link awareness**: If you manually link to a glitch (e.g. `[Anti-Gravity Glitch](uid:PEY)`), the autolinker skips all subsequent mentions of that glitch within the same section — the UID is already covered.
 - Names and aliases match **case-insensitively**. Labels (abbreviations) are **case-sensitive** to avoid false positives on common words.
 
-To mention a glitch without triggering a link, wrap it in a code span (`` `ETS` ``) or an explicit link. To suppress a link entirely, check that the `label` or `aliases` values are not accidentally matching unrelated text.
+#### Escape Prefix
+
+Prefix a glitch mention with `!` to suppress autolinking for that specific occurrence. The `!` marker is stripped from the rendered output — only the glitch name appears.
+
+```markdown
+!Anti-Gravity Glitch will NOT be autolinked here.
+```
+
+Renders as:
+
+> Anti-Gravity Glitch will NOT be autolinked here.
+
+Because the escaped mention doesn't consume the section budget, the next unescaped mention of the same glitch can still be autolinked:
+
+```markdown
+!Anti-Gravity Glitch is mentioned first (no link).
+Anti-Gravity Glitch appears again — this one gets the autolink.
+```
+
+#### Alternative Suppression
+
+To suppress autolinking without using the escape prefix, wrap the text in a code span or an explicit link:
+
+- Code span: `` `ETS` `` — renders as monospace, no link
+- Empty link: `[Anti-Gravity Glitch]()` — renders as plain text
+
+If a `label` or `aliases` value is accidentally matching unrelated words, update the frontmatter to remove the false-positive trigger.
 
 ## Markdown Reference
 
