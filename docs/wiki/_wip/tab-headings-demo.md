@@ -181,27 +181,6 @@ Arrow Smuggling again — no second link.
 
     Arrow Smuggling also gets linked independently per tab.
 
-### Admonition Collapsibles (NOT section boundaries)
-
-Anti-Gravity Glitch appears here — autolinked (first in section).
-
-??? example "Collapsible Admonition Test"
-
-    Anti-Gravity Glitch inside a collapsible admonition. Because
-    admonitions are inline supplementary content (not section
-    boundaries), this shares the same section budget as above.
-    This mention should NOT be linked — the section already has one.
-
-Anti-Gravity Glitch after the collapsible — still the same section,
-still no second link.
-
-??? tip "Another Admonition"
-
-    Arrow Smuggling inside an admonition — first mention of this
-    glitch in the section, so it should get autolinked.
-
-    Arrow Smuggling again — same section, no second link.
-
 ### Collapsible Headings (section boundaries) { .collapse .open }
 
 Anti-Gravity Glitch in a collapsible heading section — autolinked.
@@ -214,17 +193,3 @@ new section (h4 boundary), so it gets its own autolink.
 
 Arrow Prompt Storage also appears here — autolinked independently.
 Arrow Prompt Storage again — no second link.
-
-### Admonition Inside Tab
-
-=== "Outer Tab" ###
-
-    Arrow Prompt Storage in the tab body — autolinked.
-
-    ??? tip "Tip Inside Tab"
-
-        Arrow Prompt Storage inside an admonition within a tab.
-        Same tab section — should NOT be linked again.
-
-    Arrow Prompt Storage after the admonition — still same tab
-    section, still no second link.
