@@ -378,7 +378,7 @@ Prefix a glitch mention with `!` to suppress autolinking for that specific occur
 ```markdown
 !Anti-Gravity Glitch is escaped (no link).
 [Anti-Gravity Glitch](uid:PEY) is linked manually — this one gets the autolink.
-Anti-Gravity Glitch appears again — no autolink.
+Anti-Gravity Glitch appears again but is not autolink - section budget spent.
 ```
 
 Alternatively, wrap the text in a code span (`` `ETS` ``) or an empty link (`[Anti-Gravity Glitch]()`) to suppress autolinking.
@@ -388,8 +388,10 @@ Alternatively, wrap the text in a code span (`` `ETS` ``) or an empty link (`[An
 The markdown above renders as:
 
 > !Anti-Gravity Glitch is escaped (no link).
+
 > [Anti-Gravity Glitch](uid:PEY) is linked manually — this one gets the autolink.
-> Anti-Gravity Glitch appears again — no autolink.
+
+> Anti-Gravity Glitch appears again but is not autolink - section budget spent.
 
 The first mention has no `!` visible (it was stripped) and no link. The second mention becomes a hyperlink.
 
