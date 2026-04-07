@@ -7,16 +7,16 @@ uid: "F4E"
 
 Fail dropping equipment in a specific way can cause it to reattach to Link, but with the pickup prompt directly accessible.
 
-Any action that repositions the FDE equipment on Link will cancel this state, reverting the it to normal. Fail drop zuggles are unaffected.
+Any action that repositions the equipment on Link will cancel this state, reverting it to normal. Fail drop zuggles are unaffected.
 
 ## Terminology
 
-- Earlier glitch resources may call this a fail drop _smuggle_, although this isn't an actual smuggle in [the sense we understand it now](../smuggle).
+- Earlier glitch resources may call this a fail drop _smuggle_, although this isn't an actual smuggle in [the sense we understand it now](uid:TGY).
 - A [Fail Drop Zuggle](uid:PM4) is just a zuggled version of this.
 
 ## Methods
 
-[Fail Drop Equip methods](search:Fail Drop Equip)
+[Fail Drop Equip methods](uid:D2J)
 
 ## Effects
 
