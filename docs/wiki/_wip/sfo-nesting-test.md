@@ -78,22 +78,22 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
         3. B1 [Overload FE](uid:0XV) Weapon B2
         4. [Recall Lock](uid:EY8) B2
         5. A1 and normal weapon A2 [Clone](uid:BEW) DI Shield A3
-        6. A1 `Overload FE` normal Shield A4
+        6. A1 **Overload FE** normal Shield A4
         7. Equip A2, [Smuggle](uid:TGY) A3, and [Overload Pickup](uid:8QH) A4
         8. A2-A4 [Overload Batch DI](uid:PG3) 19 Weapons C1-C19
         9. **Fail-Drop** A4
-        10. A3 & A4 `Clone` DI Weapon C20
+        10. A3 & A4 **Clone** DI Weapon C20
         11. **Drop** A4
         12. Re-smuggle A3, equip a random shield, and **Fuse** something disposable to it. This will leave A4 as the sole FE parent of C20
         13. Throw purgatory all C: smuggle any _one_ C[n], equip and throw any random weapon, and unequip that weapon, then repeat
-        14. `Recall Lock` A4, discarding A2 and A3 through the load
+        14. **Recall Lock** A4, discarding A2 and A3 through the load
 
         Part 2: Performing and undoing SFO
         
-        1. [Zuggle Drop](uid:L84) B1, equip A4, and `Overload Pickup` B2
-        2. B1, B2, & A4 `Overload Batch DI` 30 Shields D1-D30
+        1. [Zuggle Drop](uid:L84) B1, equip A4, and **Overload Pickup** B2
+        2. B1, B2, & A4 **Overload Batch DI** 30 Shields D1-D30
         3. There will be a substantial lag on the second fuse of each shield after DI, so using the D-pad to **drop-swap** (if on `1.2.0+`) is advised
-        4. `**Super Fuse Overload**` should occur on the 30th shield. If confirmation is needed, **drop** the fused equipment item. If the fuse is deleted, SFO is active
+        4. _Super Fuse Overload_ should occur on the 30th shield. If confirmation is needed, **drop** the fused equipment item. If the fuse is deleted, SFO is active
         5. To undo SFO: **pick up** each D[n], **unequip** it, and **drop** it. Each removed shield will remove 20 dependencies from the global limit
 
         Part 3: Obtaining Mineru's Arm
@@ -150,22 +150,22 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
         2. B1 [Overload FE](uid:0XV) Weapon B2
         3. [Recall Lock](uid:EY8) B2
         4. A1 and normal weapon A2 [Clone](uid:BEW) DI Shield A3
-        5. A1 `Overload FE` normal Shield A4
+        5. A1 **Overload FE** normal Shield A4
         6. Equip A2, [Smuggle](uid:TGY) A3, and [Overload Pickup](uid:8QH) A4
         7. A2-A4 [Overload Batch DI](uid:PG3) 19 Weapons C1-C19
         8. **Fail-Drop** A4
-        9. A3 & A4 `Clone` DI Weapon C20
+        9. A3 & A4 **Clone** DI Weapon C20
         10. **Drop** A4
         11. Re-smuggle A3, equip a random shield, and **Fuse** something disposable to it. This will leave A4 as the sole FE parent of C20
         12. Throw purgatory all C: smuggle any one_ C[n], equip and throw any random weapon, and unequip that weapon, then repeat
-        13. `Recall Lock` A4, discarding A2 and A3 through the load
+        13. **Recall Lock** A4, discarding A2 and A3 through the load
 
         Part 2: Performing and undoing SFO
         
-        1. [Zuggle Drop](uid:L84) B1, equip A4, and `Overload Pickup` B2
-        2. B1, B2, & A4 `Overload Batch DI` 30 Shields D1-D30
+        1. [Zuggle Drop](uid:L84) B1, equip A4, and **Overload Pickup** B2
+        2. B1, B2, & A4 **Overload Batch DI** 30 Shields D1-D30
         3. There will be a substantial lag on the second fuse of each shield after D1, so using the D-pad to **drop-swap** (if on `1.2.0+`) is advised
-        4. `**Super Fuse Overload**` should occur on the 30th shield. If confirmation is needed, **drop** the fused equipment item. If the fuse is deleted, SFO is active
+        4. _Super Fuse Overload_ should occur on the 30th shield. If confirmation is needed, **drop** the fused equipment item. If the fuse is deleted, SFO is active
         5. To undo SFO: **pick up** each D[n], **unequip** it, and **drop** it. Each removed shield will remove 20 dependencies from the global limit
 
         Part 3: Obtaining Zelda's Torch
@@ -208,22 +208,22 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
         2. B1 [Overload FE](uid:0XV) Weapon B2
         3. [Recall Lock](uid:EY8) B2
         4. A1 and normal weapon A2 [Clone](uid:BEW) DI Shield A3
-        5. A1 `Overload FE` normal Shield A4
+        5. A1 **Overload FE** normal Shield A4
         6. Equip A2, [Smuggle](uid:TGY) A3, and [Overload Pickup](uid:8QH) A4
         7. A2-A4 [Overload Batch DI](uid:PG3) 19 Weapons C1-C19
         8. **Fail-Drop** A4
-        9. A3 & A4 `Clone` DI Weapon C20
+        9. A3 & A4 **Clone** DI Weapon C20
         10. **Drop** A4
         11. Re-smuggle A3, equip a random shield, and **Fuse** something disposable to it. This will leave A4 as the sole FE parent of C20
         12. Throw purgatory all C: smuggle any _one_ C, equip and throw any random weapon, and unequip that weapon, then repeat
-        13. `Recall Lock` A4, discarding A2 and A3 through the load
+        13. **Recall Lock** A4, discarding A2 and A3 through the load
 
         Part 2: Performing and undoing SFO
         
-        1. [Zuggle Drop](uid:L84) B1, equip A4, and `Overload Pickup` B2
-        2. B1, B2, & A4 `Overload Batch DI` 30 Shields D1-D30
+        1. [Zuggle Drop](uid:L84) B1, equip A4, and **Overload Pickup** B2
+        2. B1, B2, & A4 **Overload Batch DI** 30 Shields D1-D30
         3. There will be a substantial lag on the second fuse of each shield after D1, so using the D-pad to **drop-swap** (if on `1.2.0+`) is advised
-        4. `**Super Fuse Overload**` should occur on the 30th shield. If confirmation is needed, **drop** the fused equipment item. If the fuse is deleted, SFO is active
+        4. _Super Fuse Overload_ should occur on the 30th shield. If confirmation is needed, **drop** the fused equipment item. If the fuse is deleted, SFO is active
         5. To undo SFO: **pick up** each D[n], **unequip** it, and **drop** it. Each removed shield will remove 20 dependencies from the global limit
 
         Part 3: Duplicating with SFO
@@ -403,14 +403,14 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
 
         1. If duplicating Zonai Devices, enter a minigame with no timer. If duplicating materials, enter a minigame or a shrine
         2. [Overload Drop](uid:8QH) a shield and pick it up to duplicate shields until there are 19 dropped and 3+ spare in the inventory
-        3. `Overload Drop` a weapon (A) and **Fuse** it to a shield (B)
+        3. **Overload Drop** a weapon (A) and **Fuse** it to a shield (B)
         4. [Overload Cold Fuse](uid:O64) 21 shields (C1-C21) to A (the 19 dropped & 2 from inventory)
         5. **Fail-drop** A and **drop** B
-        6. [Overload Pickup](uid:8QH) C1 and `Overload Cold Fuse` 30 materials (D1-D30) to it
+        6. [Overload Pickup](uid:8QH) C1 and **Overload Cold Fuse** 30 materials (D1-D30) to it
         7. **Fail-drop** C1 and **drop** it aside
         8. Repeat 7 for C2-C19 with the **same** D1-D30
         9. For C20 and C21, check periodically in the menu to see if Menu Link starts overload dropping things. Once he does, _proceed to step 11_
-        10. `Overload Cold Fuse` an unrelated material to C[n]. If it works, **collect it** and `Overload Cold Fuse` the next D[n], then repeat. If it fails, _proceed to step 12_
+        10. **Overload Cold Fuse** an unrelated material to C[n]. If it works, **collect it** and **Overload Cold Fuse** the next D[n], then repeat. If it fails, _proceed to step 12_
         11. **Fail-drop** C(n) and **drop** it. You may have to **unequip your bow** for it to return. **Be sure it does so before dropping it.**
 
         Part 2: Duplicating with SFO
@@ -467,14 +467,14 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
         1. Defeat Army and enter the tunnel before Ganondorf
         2. Drop the portacull aside. Be sure not to go too far from any of the working objects (about halfway down the tunnel is fine)
         3. [Overload Drop](uid:8QH) a shield and pick it up to duplicate shields until there are 19 dropped and 3+ spare in the inventory
-        4. `Overload Drop` a weapon (A) and **Fuse** it to a shield (B)
+        4. **Overload Drop** a weapon (A) and **Fuse** it to a shield (B)
         5. [Overload Cold Fuse](uid:O64) 21 shields (C1-C21) to A (the 19 dropped & 2 from inventory)
         6. **Fail-drop** A and **drop** B
-        7. [Overload Pickup](uid:8QH) C1 and `Overload Cold Fuse` 30 materials (D1-D30) to it
+        7. [Overload Pickup](uid:8QH) C1 and **Overload Cold Fuse** 30 materials (D1-D30) to it
         8. **Fail-drop** C1 and **drop** it aside
         9. Repeat 7 for C2-C19 with the **same** D1-D30
         10. For C20 and C21, check periodically in the menu to see if Menu Link starts overload dropping things. Once he does, _proceed to step 11_
-        11. `Overload Cold Fuse` an unrelated material to C[n]. If it works, **collect it** and `Overload Cold Fuse` the next D[n], then repeat. If it fails, _proceed to step 12_
+        11. **Overload Cold Fuse** an unrelated material to C[n]. If it works, **collect it** and **Overload Cold Fuse** the next D[n], then repeat. If it fails, _proceed to step 12_
         12. **Fail-drop** C(n) and **drop** it. You may have to **unequip your bow** for it to return. **Be sure it does so before dropping it.**
         13. **Drop** A, not too close to where the barrier will spawn (it cannot be moved after dropping it!)
         14. Move B, all of C, and all of D into the bucket build
@@ -540,15 +540,15 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
         1. Use the Aerophasing setup to ensure it has a cull stored; this will allow the culling area to remain loaded through a banc change
         2. Walk up to the nearby shrine ("Domizuin") and enter it. **Do not warp there.**
         3. [Overload Drop](uid:8QH) a shield and pick it up to duplicate shields until there are 19 dropped and 3+ spare in the inventory
-        4. `Overload Drop` a weapon (A) and fuse it to a shield (B)
+        4. **Overload Drop** a weapon (A) and fuse it to a shield (B)
         5. [Overload Cold Fuse](uid:O64) 21 shields (C1-C21) to A (the 19 dropped & 2 from inventory)
         6. **Fail-drop** A and **drop** B
         7. [Overload Pickup](uid:8QH) C1
-        8. Duplicate 30 shields (D1-D30) off the DI shield, dropping each on the ground and `Overload Cold Fusing` them to C1 as you go
+        8. Duplicate 30 shields (D1-D30) off the DI shield, dropping each on the ground and **Overload Cold Fusing** them to C1 as you go
         9. **Fail-drop** C1 and **drop** it aside
         10. Repeat 7-9 for C2-C19 with the **same** D1-D30
         11. For C20 and C21, check periodically in the menu to see if Menu Link starts overload dropping things. Once he does, _proceed to step 11_
-        12. `Overload Cold Fuse` an unrelated material to C[n]. If it works, **Collect it** and `Overload Cold Fuse` the next D[n], then repeat. If it fails, _proceed to step 12_
+        12. **Overload Cold Fuse** an unrelated material to C[n]. If it works, **Collect it** and **Overload Cold Fuse** the next D[n], then repeat. If it fails, _proceed to step 12_
         13. **Fail-drop** C(n) and **drop** it. You may have to **unequip your bow** for it to return. **Be sure it does so before dropping it.**
         14. **Drop** A
 
@@ -600,15 +600,15 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
         2. Use the Aerophasing setup to ensure it has a cull stored; this will allow the culling area to remain loaded through _a_ banc change
         3. Walk up to the nearby shrine ("Domizuin") and enter it. **Do not warp there.**
         4. [Overload Drop](uid:8QH) a shield and pick it up to duplicate shields until there are 19 dropped and 3+ spare in the inventory
-        5. `Overload Drop` a weapon (A) and fuse it to a shield (B)
+        5. **Overload Drop** a weapon (A) and fuse it to a shield (B)
         6. [Overload Cold Fuse](uid:O64) 21 shields (C1-C21) to A (the 19 dropped & 2 from inventory)
         7. **Fail-drop** A and **drop** B
         8. [Overload Pickup](uid:8QH) C1
-        9. Duplicate 30 shields (D1-D30) off the DI shield, dropping each on the ground and `Overload Cold Fusing` them to C1 as you go
+        9. Duplicate 30 shields (D1-D30) off the DI shield, dropping each on the ground and **Overload Cold Fusing** them to C1 as you go
         10. **Fail-drop** C1 and **drop** it aside
         11. Repeat 8-10 for C2-C19 with the same D1-D30
         12. For C20 and C21, check periodically in the menu to see if Menu Link starts overload dropping things. Once he does, proceed to step 12
-        13. `Overload Cold Fuse` an unrelated material to C[n]. If it works, pick it back up and `Overload Cold Fuse` the next D[n], then repeat. If it fails, proceed to step 13
+        13. **Overload Cold Fuse** an unrelated material to C[n]. If it works, pick it back up and **Overload Cold Fuse** the next D[n], then repeat. If it fails, proceed to step 13
         14. **Fail-drop** C(n) and **drop** it. You may have to unequip your bow for it to return. **Be sure it does so before dropping it.**
         15. **Drop** A
 
@@ -637,25 +637,29 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
             graph TD
 
                 LINK[Link]
-                AER[Aerophasing]
+                AERO[Aerophasing]
                 LOCATION[Shrine]
                 A[Weapon A]
                 B[Shield B]
                 C["Shields<br/>C1-C21"]
                 D["Shields<br/>D1-D30"]
+                PERMACULL[Permacull]
                 STATE[Permanent]
 
-                LINK -->|Store cull| AER
+                LINK -->|Store cull| AERO
                 LINK -->|"Enter without<br/>warping"| LOCATION
+                AERO -->|"Still works<br/>inside"| LOCATION
                 LINK -->|Equip| B
                 LINK -->|Overload Drop| A
                 B -->|Fuse| A
                 A -->|CF| C
                 C -->|CF| D
-                B -->|Permaculled| STATE
-                C -->|Permaculled| STATE
-                D -->|Permaculled| STATE
-                A -->|"Indirectly<br/>permaculled"| STATE
+                AERO -->|Allows| PERMACULL
+                B -->|Directly| PERMACULL
+                C -->|Directly| PERMACULL
+                D -->|Directly| PERMACULL
+                A -->|Indirectly| PERMACULL
+                PERMACULL -->|Makes| STATE
             ```
 
 
