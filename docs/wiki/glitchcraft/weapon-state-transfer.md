@@ -21,7 +21,7 @@ _BigDUCCO, kurocat471, ElDuende, Mentor_Kurt - 19 May 2023_
 
 ## Instructions
 
-### "Method 1 (Fail Drop, `1.0.0`–`1.1.1`)"
+=== "Method 1 (Fail Drop, `1.0.0`–`1.1.1`)"
     Required:
 
     - 2 long sticks (can be found on an enemy southeast of Fuse shrine)
@@ -58,8 +58,7 @@ _BigDUCCO, kurocat471, ElDuende, Mentor_Kurt - 19 May 2023_
     - Similarily, the shield fuse is not always necessary, as some shields are naturally bigger than others
     - Depending on the bow you use (ex. Phrenic Bow), you'll still be able to perform WST, but the Old Wooden Bow has very good consistency.
 
-### "Method 2 (Mineru, all versions)"
-
+=== "Method 2 (Mineru, all versions)"
     The target item must be unfused first.
 
     1. Prepare the donor item in the inventory or on the ground
@@ -68,24 +67,21 @@ _BigDUCCO, kurocat471, ElDuende, Mentor_Kurt - 19 May 2023_
     1. Drop and pick up the donor item
     1. Unequip and re-equip the target to resync your equipment
 
-### "Method 3 (Like Like, all versions)"
-
+=== "Method 3 (Like Like, all versions)"
     1. Prepare the donor item in the inventory
     1. Sluggle the target item
     1. Warp somewhere
     1. Drop and pick up the donor item
     1. Unequip and re-equip the target to resync your equipment
 
-### "Method 4 (Overload, all versions)"
-
+=== "Method 4 (Overload, all versions)"
     1. Prepare the donor item in the inventory
     1. Overload drop the target item
     1. Warp somewhere
     1. Drop and pick up the donor item
     1. Unequip and re-equip the target to resync your equipment
 
-### "Method 5 (Fuse Entanglement, all versions)"
-
+=== "Method 5 (Fuse Entanglement, all versions)"
     1. Prepare the donor item in the inventory, or dropped nearby
     1. Fuse entangle the target item to a shield (if a weapon or bow) or weapon (if a shield or bow)
     1. Have both items equipped
@@ -105,6 +101,3 @@ _BigDUCCO, kurocat471, ElDuende, Mentor_Kurt - 19 May 2023_
 - [YouTube](https://www.youtube.com/watch?v=NRZpPp1vVsQ)
 - [YouTube](https://www.youtube.com/watch?v=Kzf_uJBvRjI)
 - [YouTube](https://www.youtube.com/watch?v=1gWV6p814F8)
-
-## Related
-—
