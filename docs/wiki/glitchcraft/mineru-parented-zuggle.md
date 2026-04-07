@@ -26,4 +26,4 @@ If you want to fuse entangle something to the item, you can Null FE to it.
 
 ## Related
 
-- Mineru FE
+- [Mineru FE](uid:IG2)
