@@ -22,7 +22,7 @@ _Credits - See individual methods_
 
 Methods are partitioned based on their resulting structure.
 
-=== "Overload methods"
+=== "Overload methods" ###
 
     These methods use Overload Pseudo Fuse to DI targets without ever creating normal parents, removing the need to despawn them between targets. They are ideal for creating very large quantities of DI Ghosts, and are sometimes useful for the resulting structure (a DI parent and a normal parent, each sharing many cold-fused DI children).
 
@@ -39,11 +39,11 @@ Methods are partitioned based on their resulting structure.
     Prepare:
 
     - 13 Zuggle Overload
-    - A DI Shield (A), ideally a DI Ghost (all types can be mirrored)
+    - A DI Shield (A), ideally a [DI Ghost](uid:BEW) (all types can be mirrored)
 
     Creating the setup:
 
-    1. Smuggle A and equip Normal Shield B
+    1. [Smuggle](uid:TGY) A and equip Normal Shield B
     2. Fuse Weapon C to B and **pause** a few frames after (for instance, by buffering the ability wheel at the same time as pressing Fuse, then selecting Map)
     3. Drop B, swap to another shield, and unequip that shield, then **Unpause**
     4. Smuggle A again
@@ -112,7 +112,7 @@ Methods are partitioned based on their resulting structure.
     3. Cold Drop the torch and place it next to a wall in a culling area
     4. Point the Flame Emitter at the head of the Torch from point-blank, ensuring the fire strikes a solid surface as close to the torch-head as possible.
     5. Glue B to the Torch and activate the Flame Emitter.
-    6. To cull C, use the ability wheel to select and open Recall or the map, causing a 2-frame pause. The torch should begin culling after cancelling recall/closing the map
+    6. To cull C, use the ability wheel to select and open Recall, causing a 2-frame pause. The torch should begin culling after cancelling recall
     7. Overload Drop a shield (D) and fuse it to a weapon (E)
 
     Creating DI Ghosts:
@@ -153,7 +153,9 @@ Methods are partitioned based on their resulting structure.
             D -->|CF| F
         ```
 
-    #### Method 3: <br/>Overload PF + Aerophasing ?
+    _Method developed by mulberry - Feb 18, 2026_
+
+    #### Method 3: <br/>Overload PF + Mineru Limbo ?
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -161,67 +163,7 @@ Methods are partitioned based on their resulting structure.
 
     !!! warning "Construction Zone"
 
-        Method 3 is not yet tested for function and optimality.
-
-    Prepare:
-
-    - 13 Zuggle Overload
-    - A DI Shield (A), ideally a DI Ghost (all types can be mirrored)
-    - Intangible Aerophasing
-
-    Creating the setup:
-
-    1. Smuggle A and equip Normal Shield B, then stand on the phasing platform
-    2. Just after Link unculls, fuse a weapon C to B; Link will cull and C will DI
-    3. Drop B and leave it aside, but pick up and re-smuggle A
-    4. Overload FE weapon D to A
-    5. Swap shield, then drop it to leave A Zuggle Dropped
-    6. Smuggle C, equip B, and Overload Pickup D
-    7. Glue D to something to elevate it and ensure it cannot accidentally be targeted by Fuse
-
-    Creating DI Ghosts
-
-    1. Stand on the phasing platform
-    2. Just after Link unculls, fuse target to D (overload fe)
-    3. Just after Link unculls, fuse target to D again. As it already has an FE parent (C), this time it will Pseudo-fuse to D and begin fading away
-    4. Link will cull soon enough after to automatically DI the target (by culling B, which culls C)
-    5. After 30 successful uses, destroy C and D, then remake them to continue
-
-    !!! danger "Fuse-Over(load)"
-
-        Detangling a DI Ghost from its parent by "fuse-over" leaves a Cold Fuse connection behind, and detaching a DI Ghost from its PF parent does the same. Due to this, C and D will each gain one _peristent_ dependency for each DI Ghost produced. After 30 uses, C and D will reach Fuse Overload. If a 31st use is attempted, you will create a "Reference FE" connection, which will **crash the game** if you drop either!
-
-    !!! danger "Self-Fusing"
-
-        When an overload-pickup (here, C) has a connection back to Link (here, via A), it is possible to target it to be fused to itself. Under most circumstances, this will immediately **crash the game** if attempted.
-
-    ??? example "Diagram"
-
-        ```mermaid
-        graph TD
-
-            A[DI Shield A]
-            B[Normal Shield B]
-            C[DI Weapon C]
-            D[Normal Weapon D]
-            TARGET[Target]
-
-            A -->|DI| C
-            B -->|DI| C
-            A -->|FE| D
-            C -->|FE| TARGET
-            D -->|CF| TARGET
-        ```
-
-    #### Method 4: <br/>Overload PF + Mineru Limbo ?
-    ---
-    versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
-    obsolete: false
-    ---
-
-    !!! warning "Construction Zone"
-
-        Method 4 _should_ be fully functional, but is not yet tested for optimality.
+        Method 3 _should_ be fully functional, but is not yet tested for optimality and step correctness.
 
     Prepare:
 
@@ -273,7 +215,71 @@ Methods are partitioned based on their resulting structure.
             D -->|CF| TARGET
         ```
 
-=== "DI Chaining Methods"
+    _Method developed by mulberry - Mar 06, 2026_ 
+
+    #### Method 4: <br/>Overload PF + Aerophasing ?
+    ---
+    versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    obsolete: false
+    ---
+
+    !!! warning "Construction Zone"
+
+        Method 4 is not yet tested for function and optimality.
+
+    Prepare:
+
+    - 13 Zuggle Overload
+    - A DI Shield (A), ideally a DI Ghost (all types can be mirrored)
+    - Intangible Aerophasing
+
+    Creating the setup:
+
+    1. Smuggle A and equip Normal Shield B, then stand on the phasing platform
+    2. Just after Link unculls, fuse a weapon C to B; Link will cull and C will DI
+    3. Drop B and leave it aside, but pick up and re-smuggle A
+    4. Overload FE weapon D to A
+    5. Swap shield, then drop it to leave A Zuggle Dropped
+    6. Smuggle C, equip B, and Overload Pickup D
+    7. Glue D to something to elevate it and ensure it cannot accidentally be targeted by Fuse
+
+    Creating DI Ghosts
+
+    1. Stand on the phasing platform
+    2. Just after Link unculls, fuse target to D (overload fe)
+    3. Just after Link unculls, fuse target to D again. As it already has an FE parent (C), this time it will Pseudo-fuse to D and begin fading away
+    4. Link will cull soon enough after to automatically DI the target (by culling B, which culls C)
+    5. After 30 successful uses, destroy C and D, then remake them to continue
+
+    !!! danger "Fuse-Over(load)"
+
+        Detangling a DI Ghost from its parent by "fuse-over" leaves a Cold Fuse connection behind, and detaching a DI Ghost from its PF parent does the same. Due to this, C and D will each gain one _peristent_ dependency for each DI Ghost produced. After 30 uses, C and D will reach Fuse Overload. If a 31st use is attempted, you will create a "Reference FE" connection, which will **crash the game** if you drop either!
+
+    !!! danger "Self-Fusing"
+
+        When an overload-pickup (here, C) has a connection back to Link (here, via A), it is possible to target it to be fused to itself. Under most circumstances, this will immediately **crash the game** if attempted.
+
+    ??? example "Diagram"
+
+        ```mermaid
+        graph TD
+
+            A[DI Shield A]
+            B[Normal Shield B]
+            C[DI Weapon C]
+            D[Normal Weapon D]
+            TARGET[Target]
+
+            A -->|DI| C
+            B -->|DI| C
+            A -->|FE| D
+            C -->|FE| TARGET
+            D -->|CF| TARGET
+        ```
+
+    _Method "developed" by Squidwest - not yet performed, so undated_
+
+=== "DI Chaining Methods" ###
 
     These methods create a chain of DI ghosts, allowing the normal-parent despawning to be saved until the end of the process (as each target retains a DI parent as long as desired). They are ideal for medium batches and minimal replication, but can _only_ be used for weapons and shields.
 
@@ -297,7 +303,7 @@ Methods are partitioned based on their resulting structure.
 
         1. Duplicate three normal copies of A by DI Duping (B, C, & D)
         2. Smuggle A and equip B, then drop C on the ground
-        3. Start to fuse C to B, then pause the game a few frames later (after it starts to fade, but before it fades fully)
+        3. Start to fuse C to B, then pause the game a few frames later (For example, by buffering the ability wheel at the same time as pressing fuse, then selecting Map)
         4. Drop B and swap to D
         5. C will be attached to B on the ground. Dupe two replacement copies (E and F), then drop D
         6. Optionally, pick up and drop A to remove its overload
@@ -348,7 +354,7 @@ Methods are partitioned based on their resulting structure.
 
     _Method developed by Squidwest(?) - Jan 23, 2026(?)_
 
-    #### Method 6: <br/>Chaining + Aerophasing ?
+    #### Method 6: <br/>Chaining + Torch Culling ?
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -357,6 +363,46 @@ Methods are partitioned based on their resulting structure.
     !!! warning "Construction Zone"
 
         Method 6 is not yet tested for function and optimality.
+
+    Prepare:
+
+    - A DI Weapon or Shield (A) with a normal parent (B)
+    - A torch
+    - A culling area
+    - A flame emitter
+
+    Making the setup:
+
+    1. Duplicate 3 normal copies of A, named B, C, and D
+    2. Cold Drop the torch and place it next to a wall in a culling area
+    3. Point the Flame Emitter at the head of the Torch from point-blank, ensuring the fire strikes a solid surface as close to the torch-head as possible.
+    4. Glue B to the Torch and activate the Flame Emitter.
+    5. To cull A, use the ability wheel to select and open Recall, causing a 2-frame pause. The torch should begin culling after cancelling recall
+
+    Making DI Ghosts:
+
+    1. Smuggle A, equip B, and drop C on the ground
+    2. Hold L to open the ability wheel, select Recall, and release L
+    3. With the Recall view open, Hold L to open the ability wheel, and select Fuse
+    4. Release L and **Fuse** C to B shortly after fuse opens
+    5. Drop B and swap to D
+    6. C will be attached to B on the ground. Dupe two replacement copies (E and F), then drop D
+    7. Optionally, pick up and drop A to remove its overload
+    8. Pick up C
+    9. Repeat from step 2, with C as the new smuggle, E as the new normal parent, and D as the new target
+    10. After the process has been repeated to satisfaction, despawn all the normal parents of the chain by distance or chasm (which also performa a FarDelete)
+
+    _method "developed" by Squidwest - not yet performed, so undated_
+
+    #### Method 7: <br/>Chaining + Aerophasing ?
+    ---
+    versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    obsolete: false
+    ---
+
+    !!! warning "Construction Zone"
+
+        Method 7 is not yet tested for function and optimality.
 
     ??? abstract "Safe Variant"
 
@@ -412,7 +458,9 @@ Methods are partitioned based on their resulting structure.
             I[Normal Parent] -->|...| H
         ```
 
-    #### Method 7: <br/>Chaining + Mineru FE ?
+    _Method "developed" by Squidwest - not yet performed, so undated_
+
+    #### Method 8: <br/>Chaining + Mineru FE ?
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -420,7 +468,7 @@ Methods are partitioned based on their resulting structure.
 
     !!! warning "Construction Zone"
 
-        Method 7 is not yet tested for function and optimality.
+        Method 8 is not yet tested for function and optimality.
 
     Prepare:
 
@@ -477,11 +525,13 @@ Methods are partitioned based on their resulting structure.
             H -->|DI| I
         ```
 
-=== "Turbo Cloning Methods"
+    _Method "developed" by Squidwest - not yet developed, so undated_
+
+=== "Turbo Cloning Methods" ###
 
     These methods use a purgatorized DI shield to repeatedly fuse, then Octo Detangle, each target in turn. It is optimal for batch production without Zuggle Overload, and ideal for both shield batches of any size, and for repeatedly creating small batches of any target type.
 
-    #### Method 8: <br/>Turbo Cloning + Drop-Swap Culling ?
+    #### Method 9: <br/>Turbo Cloning + Drop-Swap Culling ?
     ---
     versions: ["1.2.0","1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -489,7 +539,7 @@ Methods are partitioned based on their resulting structure.
 
     !!! success "Verified"
 
-        Method 8 is tested and verified to be functional and optimal.
+        Method 9 is tested and verified to be functional and optimal.
 
     The method differs depending on the target, and so it 
 
@@ -646,13 +696,27 @@ Methods are partitioned based on their resulting structure.
 
 ## Notes
 
-- Due to the difference in resulting structure, these methods are usually _not_ interchangable. They have been grouped by structure for this reason.
+- Due to the difference in resulting structure, these methods are usually _not_ interchangeable when called for by another tutorial. They have been grouped by structure for this reason.
 
-## Resources
+## References and Resources
+
+??? quote "Discord References"
+
+    - [Overload + DS Culling](https://discord.com/channels/1086729144307564648/1110956205624532993/1462096452540043304)
+    - [Overload + Torch Culling](https://discord.com/channels/1086729144307564648/1110956205624532993/1473846010207015167)
+    - [Overload + Limbo](https://discord.com/channels/1086729144307564648/1110956205624532993/1479539674912526587)
+    - Overload + Aerophasing is my own dodgy and untested invention
+    - [Chaining + DS Culling](https://discord.com/channels/1086729144307564648/1113557914444111873/1468025665763938420)
+    - So is Chaining + Aerophasing
+    - And Chaining + Mineru Culling
+    - yes and chaining + torch culling. I will simply have to make posts to reference for these...
+    - [Batch Turbo Cloning for shields](https://discord.com/channels/1086729144307564648/1110956205624532993/1479327965807644777)
+    - [Batch Turbo Cloning for weapons/bows]()
+    - [Batch Turbo Cloning for objects/materials()
 
 !!! warning "Construction Zone"
 
-    References will be added later in the page-creation process. Thank you for your patience.
+    Missing references will be added after a referent is created. Thank you for your patience.
 
 ## Related
 - [Despawn Interrupt](search:Despawn Interrupt)
