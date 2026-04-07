@@ -6,11 +6,13 @@ versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", 
 credits: ["LegendofLinkk", "Abahbob"]
 date: "2023-05-17"
 description: "Allows you to obtain the prologue master sword (named MsgNotFound or MNF), whose durability cannot decrease"
-aliases: ["message not found", "message not found error", "message-not-found"]
+aliases: ["message not found", "message not found error", "message-not-found", "mnf"]
 tags: ["mnf"]
 ---
 
 # Message Not Found
+
+_Every unnamed inventory item shows up as MsgNotFound. This article refers to the pre-Upheaval Master Sword that Link carries in the prologue._
 
 ## Summary
 Allows you to obtain the prologue master sword (named MsgNotFound or MNF), whose durability cannot decrease.
@@ -18,28 +20,32 @@ Allows you to obtain the prologue master sword (named MsgNotFound or MNF), whose
 _LegendofLinkk (Zuggle Method), Abahbob (SLD Method) - 17 May 2023_
 
 ## Instructions
-There are 2 methods to obtain the MNF on 1.0-1.1.1: (Watch videos for more info) 
+There are 2 methods to obtain the MNF on 1.0-1.1.1: (Watch videos for more info)
 === "SLD Method (recommended)"
-    1. Go to the In-Isa shrine (Fuse shrine) 
+    1. Go to the In-Isa shrine (Fuse shrine)
     2. Bring one of the boulders over to the entrance with the fire fruit trees and jump on it (see video for precise location)
     3. Do all the steps for SLD without the final load
-    4. Load a save of the prologe 
+    4. Load a save of the prologue
     5. Pick up the weapon you dropped into this save (see video for precise location)
     6. Do all the steps for SLD without the final load, dropping the MNF before your other weapon
-    7. Load a save in the In-Isa shrine 
+    7. Load a save in the In-Isa shrine
     8. Go back to the place in step 2 and pick up the MNF
 
 === "Zuggle Overload Method"
     1. Zuggle overload
-    2. Start new game 
-    3. Load autosave during prolouge 
+    2. Start new game
+    3. Load autosave during prolouge
     4. Pick up and drop the MNF
-    5. Pick up all weapons (until inventory is full) 
+    5. Pick up all weapons (until inventory is full)
     6. Zuggle MNF
     7. Load the save in which you want to have the MNF
 
 ## Notes
-This MNF can be powered up further! See WST or Unload WST for the method
+
+- This MNF can be powered up further with WST:
+    - Transferring a strong fusion increases its attack power for obvious reasons.
+    - WST can add Attack Up onto the MNF.
+    - Corrupting its durability down to 1 will make every hit crit, doubling the damage and staggering most enemies.
 
 ## Resources
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1108369158237859902)
