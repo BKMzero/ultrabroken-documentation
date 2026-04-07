@@ -54,7 +54,7 @@ _BigDUCCO, kurocat471, ElDuende, Mentor_Kurt - 19 May 2023_
     #### Notes on this method
 
     - The weapons, shields and bows aren't the only ones that work, it all depends on their hitboxes
-    = You might find equal success using other thin bows, thin spears with other targets
+    - You might find equal success using other thin bows, thin spears with other targets
     - Similarily, the shield fuse is not always necessary, as some shields are naturally bigger than others
     - Depending on the bow you use (ex. Phrenic Bow), you'll still be able to perform WST, but the Old Wooden Bow has very good consistency.
 
