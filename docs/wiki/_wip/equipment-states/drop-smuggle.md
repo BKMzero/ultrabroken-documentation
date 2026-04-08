@@ -6,9 +6,9 @@ aliases: ["ds"]
 
 # Drop Smuggle
 
-A smuggle in the drop [equip position](uid:S8I).
+A [smuggle](uid:TGY) in the drop [equip position](uid:S8I).
 
-Note that [drop _equips_](../drop-equip/) are sometimes referred to as drop smuggles, despite not being true smuggles.
+Note that [drop _equips_](uid:HY9) are sometimes referred to as drop smuggles, despite not being true smuggles.
 
 ## Methods
 

@@ -16,7 +16,7 @@ The term 'overload pickup' (sometimes 'overload equip') refers to the exact same
 
 ## Undoing
 
-If Link is no longer overloaded, fail dropping an overload equip will reattach it properly. Doing this to an overload equip that was fused to another item makes it an equipped ghost.
+If Link is no longer overloaded, fail dropping an overload equip will reattach it properly. Doing this to an overload equip that was fused to another item makes it an [equipped ghost](uid:30A).
 
 ## Reloading
 
