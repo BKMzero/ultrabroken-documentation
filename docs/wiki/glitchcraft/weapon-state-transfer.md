@@ -77,8 +77,10 @@ _BigDUCCO, kurocat471, ElDuende, Mentor_Kurt - 19 May 2023_
 === "Method 4 (Overload, all versions)"
     1. Prepare the donor item in the inventory
     1. Overload drop the target item
-    1. Warp somewhere
-    1. Drop and pick up the donor item
+    1. Drop the donor item
+    1. Pick up the target item to delete it from Link's hands
+        - Drop the new inventory copy if that tab is now full
+    1. Pick up the donor item to apply WST
     1. Unequip and re-equip the target to resync your equipment
 
 === "Method 5 (Fuse Entanglement, all versions)"
