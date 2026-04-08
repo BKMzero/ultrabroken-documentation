@@ -32,7 +32,8 @@ Purgatory equipment acts like it's properly equipped in some regards:
 But it has the following differences:
 
 - It can't be picked up. If you try to pick it up with nothing of that kind equipped, nothing happens. If you try to pick it up when it would go straight into the inventory, the game will **crash**.
-- You can't fuse it to Mineru. If you try, the existing fuse on that attachment point is deleted and nothing else happens.
+- You can't fuse it to anything. If you try, Fuse is just automatically cancelled.
+    - If you try fusing purgatory equipment to Mineru, the existing fuse on that attachment point is deleted and Fuse is cancelled. Nothing else happens.
 - It ignores cull instructions from culling areas.
 
 ## Fuse Entanglement
@@ -41,7 +42,7 @@ Purgatory weapons and shields have some additional features when on one side of 
 
 ### As the FE parent
 
-- Ultrahanding the FE child will temporarily reconnect the purgatory equipment to Link, and keep it at the same position it was at when first sent to purgatory. It re-releases when you let go of Ultrahand.<!-- I have a clip of doing this with a drop-purg shield and steering stick FE; should add it here. PF-->
+- Ultrahanding the FE child will temporarily reconnect the purgatory equipment to Link, and keep it at the same relative position it was at when first sent to purgatory. It re-releases when you let go of Ultrahand.<!-- I have a clip of doing this with a drop-purg shield and steering stick FE; should add it here. PF-->
 - Ultrahanding the FE child while loading a different file will [UltraSLOT](search:UltraSLOT) the equipment.
 
 ### As the FE child
@@ -68,14 +69,18 @@ If equipment is in purgatory and culled, it will not be deleted on reload. If yo
 
 ## Crash risks
 
-The following ways of deleting purgatory equipment will **crash** the game:
+The following ways of deleting unculled purgatory equipment will **crash** the game:
 
-- Picking it up and sending it straight to the inventory.
-- Burning it.
-<!--TODO: there's more for sure -->
+!!!danger (Incomplete) list of purgatory equipment crash methods
+    - Picking it up and sending it straight to the inventory
+    - Burning it
 
 But the following are always safe to do:
 
 - Reloading/warping, and letting purgatory equipment be deleted in the loading screen.
 - Pausing and unequipping its FE parent.
 - Any normally crash-prone method while the equipment's FE/CF child has a proper two-way connection to Link. This can include ultrahanding it, or having it equipped. (Zuggling it won't work here.)
+
+## Other effects
+
+- Enemies will never pick up purgatory equipment.

@@ -38,6 +38,7 @@ There are many ways of transforming some equipment from one state to another, ba
 |\[Static\] [Zuggle](uid:A1E)|Warm drop another|Both equipment drop|All static Smuggles and Zuggles will fully drop|
 |\[Static\] Smuggle|Fail drop another|Smuggle becomes a zuggle| |
 |\[Static\] Zuggle|Fail drop another|No change| |
+|\[Static\] Smuggle|Throw / Shock drop another|Equipment is sent to purgatory|Thrown / Shock dropped equipment becomes a weak Drop Equip; purgatory equipment has no collision|
 |Dynamic Smuggle|Warm drop / fail drop another|Item becomes a Dynamic Zuggle| |
 |Dynamic Zuggle|Warm drop / fail drop another|No change| |
 |Dynamic Smuggle/Zuggle|Throw / Shock drop another|All Dynamic Smuggles / Zuggles released| |
