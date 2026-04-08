@@ -78,3 +78,32 @@ Autobuild Duplication mentioned again — same section, no second link.
 
 Arrow Unloading also shows up (first mention in this section, autolinked).
 Arrow Unloading repeated — no second link in this section.
+
+## Multi-Word Aliases
+
+This section tests that multi-word aliases link correctly, prioritizing
+the longer match over shorter overlapping patterns.
+
+**Mineru FE** should link to Mineru Fuse Entanglement (not just "FE" to
+the general Fuse Entanglement page). Mineru FE again should not link.
+
+**anti gravity** (lowercase alias) should link to Anti-Gravity Glitch.
+The alias anti gravity again should not link in this section.
+
+**crouch sprint** should link to Crouch Sprinting. Another mention of
+crouch sprint stays plain text.
+
+**Batch DI** should link to Batch Despawn Interrupt (mixed case alias).
+Writing Batch DI again should not produce a second link.
+
+**dive cancel** should link to Dive Cancel Glide Boost. And dive cancel
+again is plain text due to section throttling.
+
+## Single-Word Aliases Still Work
+
+FE (the label) should still independently link to Fuse Entanglement when
+there's no "Mineru FE" competing for the match.
+
+DI should link to Despawn Interrupt.
+
+AGG should link to Anti-Gravity Glitch.
