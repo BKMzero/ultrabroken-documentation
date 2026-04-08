@@ -85,8 +85,7 @@ This section tests that multi-word aliases link correctly and that
 position-based matching links the **earliest** occurrence in the text.
 
 **Mineru FE** (the alias) should link here — the first occurrence in the
-sentence. The full name Mineru Fuse Entanglement appears later but should
-NOT be linked because the budget is already spent on the earlier alias.
+sentence.
 
 **anti gravity** (lowercase alias) should link to Anti-Gravity Glitch.
 The alias anti gravity again should not link in this section.
