@@ -65,7 +65,7 @@ Methods are partitioned based on their resulting structure.
     3. **Pause** the game before the target fully fades out (buffering wheel and selecting Map will work here too)
     4. **Drop** B, **equip** another shield, and **unequip** it. This will cull B, and thus C, and thus the target, DI-ing it
     5. If you fail-dropped B, proceed with the next target. If not, pick it up before proceeding
-    6. After 30 successful uses, **destroy** C and D, then remake them to continue
+    6. To continue beyond 30 successful uses, first **destroy** and **remake** C and D
 
     !!! danger "Fuse-Over(load)"
 
@@ -106,26 +106,26 @@ Methods are partitioned based on their resulting structure.
     Prepare:
 
     - 13 Zuggle Overload
-    - A DI Weapon or Shield (A)
+    - A DI Weapon or Shield `A`
     - A torch
     - A flame emitter
 
     Creating the setup:
 
-    1. A and normal item B make DI Ghost Shield C, keep normal parent
-    2. Smuggle C
-    3. Cold Drop the torch and place it next to a wall in a culling area
+    1. A and normal item `B` [Clone](uid:BEW) DI Ghost Shield `C`, keep normal parent
+    2. [Smuggle](uid:TGY) C
+    3. [Cold Drop](uid:C6H) the torch and place it next to a wall in a culling area
     4. Point the Flame Emitter at the head of the Torch from point-blank, ensuring the fire strikes a solid surface as close to the torch-head as possible.
-    5. Glue B to the Torch and activate the Flame Emitter.
+    5. Glue B to the Torch and **activate** the Flame Emitter.
     6. To cull C, use the ability wheel to select and open Recall, causing a 2-frame pause. The torch should begin culling after cancelling recall
-    7. Overload Drop a shield (D) and fuse it to a weapon (E)
+    7. [Overload Drop](uid:8QH) a shield `D` and **Fuse** it to a weapon `E`
 
     Creating DI Ghosts:
 
-    1. Fuse the target to the shield (Overload FE)
-    2. Use the ability wheel to open recall, then use it to open fuse and press fuse immediately
-    3. As long as fuse is pressed more than 2 frames before the torch fully culls, the cull will occur within the target's DI window
-    4. After 30 successful uses, destroy C and D before continuing
+    1. **Fuse** the target to D ([Overload FE](uid:0XV) to C)
+    2. Use the ability wheel to open recall, then use it to open fuse and _immediately_ fuse the target to D again
+    3. As long as fuse is pressed more than 2 frames before the torch fully culls, the cull _will_ occur within the target's DI window
+    4. To continue beyond 30 successful uses, first **destroy** and **remake** C and D
 
     !!! danger "Fuse-Over(load)"
 
@@ -150,14 +150,10 @@ Methods are partitioned based on their resulting structure.
             E[Normal Weapon (E)]
             F[Target]
             
-            subgraph CULL [Culling Area]
-            B <-->|Glue| TORCH
-            end
-
-            FLAME -->|Point at| TORCH
             A -->|DI| C
             B -->|DI| C
-
+            B -->|Glue| TORCH
+            FLAME -->|Point at| TORCH
             LINK -->|Smuggle| C
             LINK -->|Equip| E
             LINK -->|"Overload<br/>Drop"| D
@@ -174,7 +170,7 @@ Methods are partitioned based on their resulting structure.
     obsolete: false
     ---
 
-    This method uses Mineru as a culling source, placing her in limbo to maximize control over her culling. It is the fastest overload method, but can only be done when & where Mineru can be summoned.
+    This method uses Mineru as a culling source, placing her in limbo to maximize control over her culling. It is the fastest overload method, but can only be done when & where Mineru's Sage Avatar can be summoned.
 
     !!! warning "Construction Zone"
 
@@ -183,24 +179,25 @@ Methods are partitioned based on their resulting structure.
     Prepare:
 
     - 13 Zuggle Overload
-    - A DI Weapon (A) (all types can be inverted)
+    - A DI Weapon `A` (all types can be inverted)
     - Mineru
-    - A normal weapon (B)
+    - A normal weapon `B`
     - A Stake
 
     Creating the setup:
 
     1. Mineru FE B
-    2. Smuggle A, equip B, and target shield C with Fuse
-    3. Induce Mineru to cull and fuse shortly before B culls; this will DI C
-    3. Smuggle C
-    4. Overload drop Shield (D) and fuse to Weapon (E)
+    2. [Smuggle](uid:TGY) A, equip B, and target Shield `C` with Fuse
+    3. Induce Mineru to **cull** and fuse shortly before B culls; this will DI C
+    4. Place B aside and _smuggle_ C
+    5. [Overload Drop](uid:8QH) Shield `D` and fuse to Weapon `E`
 
     Creating DI Ghosts:
     
-    5. Stand on a stake at the right height so that Mineru goes into "Limbo" (invisible, but B and C are unculled)
-    6. Fuse target twice and jump shortly after the second fuse so that Mineru culls (and culls the target by extension)
-    7. After 30 uses, destroy C and D before continuing
+    1. Stand on a stake at the right height so that Mineru goes into "Limbo" when you cull her (Mineru invisible, but B and C unculled)
+    2. **Fuse** target to D ([Overload FE](uid:0XV) to C)
+    3. **Fuse** target to D again, and jump immediately after so that Mineru culls (and culls the target by extension)
+    7. To continue beyond 30 successful uses, first **destroy** and **remake** C and D (start from setup step 2)
 
     !!! danger "Fuse-Over(load)"
 
@@ -410,7 +407,8 @@ Methods are partitioned based on their resulting structure.
     7. Optionally, pick up and drop A to remove its overload
     8. Pick up C
     9. Repeat from step 2, with C as the new smuggle, E as the new normal parent, and D as the new target
-    10. After the process has been repeated to satisfaction, despawn all the normal parents of the chain by distance or chasm (which also performa a FarDelete)
+    10. After around 10 uses, B and/or the Torch will be despawned by drop limit. This can be prevented by picking up and dropping each (be sure the Torch is still cold-dropped)
+    11. After the process has been repeated to satisfaction, despawn all the normal parents of the chain by distance or chasm (which also performa a FarDelete)
 
     _method "developed" by Squidwest - not yet performed, so undated_
 
