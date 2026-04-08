@@ -67,10 +67,13 @@ The distinction between different equip positions is less important for culled s
 Although a smuggle is technically created whenever you [warm drop](uid:C6H) equipment, there are ways to create more persistent smuggles:
 
 === "Culling" ###
-    Cull the equipment (without culling Link) and drop it. The easiest way to do this is to Fuse Entangle it to some other equipment, which you leave in a culling area.
+    Cull the equipment (without culling Link) and drop it. The easiest way to do this is to Fuse Entangle it to some other equipment, which you leave in a culling area, or by FE-ing the equipment [to Mineru](uid:IG2).
 
 === "Overload" ###
-    Overload pickup the equipment, then drop it.
+    Overload pickup the equipment, then drop it. This will be a Ground Drop Smuggle.
+
+=== "Despawn Interrupt" ###
+    DI equipment loves to smuggle when it should just drop normally. Drop DI equipment, then equip and unequip something else of the same type.
 
 ## Comparison to zuggles
 

@@ -21,3 +21,4 @@ Any action that repositions the equipment on Link will cancel this state, revert
 ## Effects
 
 - The pickup prompt for the equipment is acessible from most angles, and will respond to a lot of in-game A presses.
+- Warping with a fail drop equip will remove the pickup prompt and re-equip the item _statically_ to Link's back.

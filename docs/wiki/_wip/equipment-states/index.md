@@ -46,10 +46,12 @@ There are many ways of transforming some equipment from one state to another, ba
 |Drop Equip / Equipped Drop Smuggle|Fail drop|Equipment is reverted to normal| |
 |Drop Equip / Equipped Drop Smuggle|Zuggle|Equipment is Drop Zuggled|This doesn't require a fail drop, so Zuggle Drop inputs also work|
 |Drop Smuggle|Warm drop another|Smuggle becomes a Drop Zuggle| |
+|Strong Drop Equip|Warp|Equips statically on Link's back||
 |Static Smuggle / Drop Smuggle|Throw / Shock drop another|Smuggle is sent to purgatory, new equip is a weak Drop Equip|The purgatory equipment will have no collision and cannot be retrieved without an existing FE parent|
 |Equipped Smuggle (any position)|Change equipment|No change|Smuggle is unequipped but otherwise preserved|
 |Equipped Drop Smuggle|Warp|Equipment object is deleted|This is a way to perform [Unload WST](search:Weapon State Transfer)|
 |Overload Equip|Warm drop|Ground Drop Smuggle|Risk of D-Pad Lock without portacull or DI|
 |Ground Drop Smuggle|Equip it|Equipped Drop Smuggle||
 |Ground Drop Smuggle|Warm drop another|Ground Drop Equip||
+|Ground Drop Equip|Equip it|Strong Drop Equip||
 |Invismuggle|Warm drop / Fail drop another|Invizuggle||
