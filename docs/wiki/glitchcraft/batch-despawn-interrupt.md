@@ -154,7 +154,7 @@ Methods are partitioned based on their resulting structure.
             B <-->|Glue| TORCH
             end
 
-            FLAME --> |Point at| TORCH
+            FLAME -->|Point at| TORCH
             A -->|DI| C
             B -->|DI| C
 
