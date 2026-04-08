@@ -78,8 +78,10 @@ Smuggles and zuggles are very similar in behaviour and nature. From the equipmen
 
 ## Effects
 
-- **D-Pad Lock** - An active smuggle causes the D-Pad to lock on 1.1.2+, meaning that it is not possible to use the D-Pad or drop/swap/unequip equipment of the smuggle's type.
-    - On version 1.1.2 specifically, you can bypass d-pad lock by opening the ability wheel, then going straight to the quick menu before the game unpauses.
-    - Smuggling Despawn Interrupted equipment doesn't cause d-pad lock on any version.
+- **Culling** on version `1.2.0` and up - On newer versions of the game, a smuggle is culled if something else of that type is equipped, and unculled when the smuggle fully drops. This is what makes portable culling work (and why it takes a drop–swap, not just a drop).
+    - Fail drops didn't forcibly uncull until version `1.2.1`, so version `1.2.0` specifically can quick smuggle with no effort.
+- **D-Pad Lock** - An active smuggle causes the D-Pad to lock on `1.1.2` and up, meaning that it is not possible to use the D-Pad or drop/swap/unequip equipment of the smuggle's type.
+    - On version `1.1.2` specifically, you can bypass d-pad lock by opening the ability wheel, then going straight to the quick menu before the game unpauses.
+    - Smuggling [Despawn Interrupted](uid:JEV) equipment doesn't cause d-pad lock on any version.
 - **Fuse Entanglement** - Anything fused, fuse entangled, or animated cold fused to intended equipment will also fuse entangle to any unculled smuggle.
 - **Link equip state desync** - Most methods of smuggling equipment don't make Link realise he can directly equip new pickups. If you need to equip something after smuggling without it going straight into the inventory, you'll need to equip and unequip something else first.
