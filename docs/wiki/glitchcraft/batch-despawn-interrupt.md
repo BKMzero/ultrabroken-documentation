@@ -24,13 +24,16 @@ Methods are partitioned based on their resulting structure.
 
 === "Overload methods" ###
 
-    These methods use Overload Pseudo Fuse to DI targets without ever creating normal parents, removing the need to despawn them between targets. They are ideal for creating very large quantities of DI Ghosts, and are sometimes useful for the resulting structure (a DI parent and a normal parent, each sharing many cold-fused DI children).
+    - These methods use Overload Pseudo Fuse to DI targets without ever creating normal parents, removing the need to despawn them between targets.
+    - They are ideal for creating very large quantities of DI Ghosts, and are sometimes useful for the resulting structure (a DI parent and a normal parent, each sharing many cold-fused DI children).
 
     #### Method 1: <br/>Overload PF + Drop-Swap Culling ?
     ---
     versions: ["1.2.0","1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
     ---
+
+    This is the most basic overload method, requiring only the absolute minimum prerequisites. As such, it can be done nearly anywhere at nearly any time.
 
     !!! success "Verified"
 
@@ -39,30 +42,30 @@ Methods are partitioned based on their resulting structure.
     Prepare:
 
     - 13 Zuggle Overload
-    - A DI Shield (A), ideally a [DI Ghost](uid:BEW) (all types can be mirrored)
+    - A DI Shield `A`, ideally a [DI Ghost](uid:BEW) (all types can be mirrored)
 
     Creating the setup:
 
-    1. [Smuggle](uid:TGY) A and equip Normal Shield B
-    2. Fuse Weapon C to B and **pause** a few frames after (for instance, by buffering the ability wheel at the same time as pressing Fuse, then selecting Map)
-    3. Drop B, swap to another shield, and unequip that shield, then **Unpause**
-    4. Smuggle A again
-    5. Overload drop a shield and fuse it to a weapon
-    6. Fuse Weapon D to said shield, FEing it to A
-    7. Swap shield, then drop it to leave A zuggle dropped
-    8. Unequip weapon
-    10. Pick up and smuggle C, pick up B, and Overload Pickup D
+    1. [Smuggle](uid:TGY) A and equip Normal Shield `B`
+    2. **Fuse** Weapon `C` to B and **pause** a few frames after (for instance, by buffering the ability wheel at the same time as pressing Fuse, then selecting Map)
+    3. **Drop** B, **swap** to another shield, and **unequip** that shield, then **Unpause**
+    4. _Smuggle_ A again
+    5. [Overload drop](uid:8QH) a shield and **Fuse** it to a weapon
+    6. **Fuse** Weapon `D` to said shield, FEing it to A
+    7. **Swap** shield, then **drop** it to leave A [Zuggle Dropped](uid:L84)
+    8. **Unequip** weapon
+    10. _Smuggle_ C, pick up B, and [Overload Pickup](uid:8QH) D
     11. Glue C to something to elevate it and ensure it cannot accidentally be targeted by Fuse
-    12. Optionally, position a wall behind Link's back which can force B to fail-drop
+    12. Optionally, position a wall behind Link's back which can force B to **fail-drop**
 
     Creating DI Ghosts:
 
-    1. Fuse target to D (overload FE)
-    2. Fuse target to D again. As it already has an FE parent (C), this time it will Pseudo-fuse to D and begin fading away
-    3. Pause the game before the target fully fades out (buffering wheel and selecting Map will work here too)
-    4. Drop B, equip another shield, and unequip it. This will cull B, and thus C, and thus the target, DI-ing it
+    1. **Fuse** target to D ([overload FE](uid:0XV) to C)
+    2. **Fuse** target to D again. As it already has an FE parent (C), this time it will Pseudo-fuse to D and begin fading away
+    3. **Pause** the game before the target fully fades out (buffering wheel and selecting Map will work here too)
+    4. **Drop** B, **equip** another shield, and **unequip** it. This will cull B, and thus C, and thus the target, DI-ing it
     5. If you fail-dropped B, proceed with the next target. If not, pick it up before proceeding
-    6. After 30 successful uses, destroy C and D, then remake them to continue
+    6. After 30 successful uses, **destroy** C and D, then remake them to continue
 
     !!! danger "Fuse-Over(load)"
 
@@ -72,7 +75,7 @@ Methods are partitioned based on their resulting structure.
 
         When an overload-pickup (here, C) has a connection back to Link (here, via A), it is possible to target it to be fused to itself. Under most circumstances, this will immediately **crash the game** if attempted.
 
-    ??? example "Diagram"
+    ??? example "Method Structure Diagram"
 
         ```mermaid
         graph TD
@@ -97,6 +100,8 @@ Methods are partitioned based on their resulting structure.
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
     ---
+
+    This method builds on Method 1 with a new culling method, increasing the speed and reducing the setup time and complexity. However, it can only be performed at a culling area.
 
     Prepare:
 
@@ -130,12 +135,14 @@ Methods are partitioned based on their resulting structure.
 
         When an overload-pickup (here, D) has a connection back to Link (here, via E), it is possible to target it to be fused to itself. Under most circumstances, this will immediately **crash the game** if attempted.
 
-    ??? example "Diagram"
+    ??? example "Method Structure Diagram"
 
         ```mermaid
         graph TD
 
             LINK[Link]
+            TORCH[Torch]
+            FLAME[Flame Emitter]
             A[DI Ghost (A)]
             B[Normal Item (B)]
             C[DI Ghost Shield (C)]
@@ -143,11 +150,17 @@ Methods are partitioned based on their resulting structure.
             E[Normal Weapon (E)]
             F[Target]
             
+            subgraph CULL [Culling Area]
+            B <-->|Glue| TORCH
+            end
+
+            FLAME --> |Point at| TORCH
             A -->|DI| C
             B -->|DI| C
+
             LINK -->|Smuggle| C
             LINK -->|Equip| E
-            LINK -->|Overload<br/>Drop| D
+            LINK -->|"Overload<br/>Drop"| D
             E -->|Fuse| D
             C -->|FE| F
             D -->|CF| F
@@ -160,6 +173,8 @@ Methods are partitioned based on their resulting structure.
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
     ---
+
+    This method uses Mineru as a culling source, placing her in limbo to maximize control over her culling. It is the fastest overload method, but can only be done when & where Mineru can be summoned.
 
     !!! warning "Construction Zone"
 
@@ -195,7 +210,7 @@ Methods are partitioned based on their resulting structure.
 
         When an overload-pickup (here, D) has a connection back to Link (here, E), it is possible to target it to be fused to itself. Under most circumstances, this will immediately **crash the game** if attempted.
 
-    ??? example "Diagram"
+    ??? example "Method Structure Diagram"
 
         ```mermaid
         graph TD
@@ -223,9 +238,11 @@ Methods are partitioned based on their resulting structure.
     obsolete: false
     ---
 
+    Method 4 uses Aerophasing as a culling source, allowing for a use-anywhere method on all patches. I've never tried it and it probably sucks to use. But maybe it's peam???
+
     !!! warning "Construction Zone"
 
-        Method 4 is not yet tested for function and optimality.
+        Method 4 is not yet tested for function and optimality. I promise I'll get to it.
 
     Prepare:
 
@@ -259,7 +276,7 @@ Methods are partitioned based on their resulting structure.
 
         When an overload-pickup (here, C) has a connection back to Link (here, via A), it is possible to target it to be fused to itself. Under most circumstances, this will immediately **crash the game** if attempted.
 
-    ??? example "Diagram"
+    ??? example "Method Structure Diagram"
 
         ```mermaid
         graph TD
@@ -281,13 +298,16 @@ Methods are partitioned based on their resulting structure.
 
 === "DI Chaining Methods" ###
 
-    These methods create a chain of DI ghosts, allowing the normal-parent despawning to be saved until the end of the process (as each target retains a DI parent as long as desired). They are ideal for medium batches and minimal replication, but can _only_ be used for weapons and shields.
+    - These methods create a chain of DI ghosts, allowing the normal-parent despawning to be saved until the end of the process (as each target retains a DI parent as long as desired).
+    - They are ideal for medium batches and minimalist replication, but can _only_ be used for weapons and shields.
 
     #### Method 5: <br/>Chaining + Drop-Swap Culling ?
     ---
     versions: ["1.2.0","1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
     ---
+
+    Method 5 is the most basic chaining method, and the most minimal batch method in general. Unlike with overload methods, the remaining methods in this section are generally downgrades, only serving to make the method possible on `1.1.2` and earlier.
 
     !!! success "Verified"
 
