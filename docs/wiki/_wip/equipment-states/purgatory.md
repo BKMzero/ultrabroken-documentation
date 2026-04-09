@@ -79,7 +79,7 @@ But the following are always safe to do:
 
 - Reloading/warping, and letting purgatory equipment be deleted in the loading screen.
 - Pausing and unequipping its FE parent.
-- Any normally crash-prone method while the equipment's FE/CF child has a proper two-way connection to Link. This can include ultrahanding it, or having it equipped. (Zuggling it won't work here.)
+- Any normally crash-prone method while the equipment's non-purgatory FE/CF counterpart has a proper two-way connection to Link. This can include ultrahanding it, or having it equipped. (Zuggling it isn't strong enough a connection.)
 
 ## Other effects
 
