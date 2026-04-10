@@ -37,7 +37,7 @@ _Overload method: BigDUCCO, Vee.Might.Exist, Syb (date unknown)_
     !!! warning
         Collision methods on versions after 1.0 are finicky. To get better results, you need to be **exactly** perpendicular to the wall.
 
-    ### Requirements
+    #### Requirements
 
     - 2 long sticks (can be found on an enemy southeast of Fuse shrine)
     - A target item (weapon/bow/shield)
@@ -47,7 +47,7 @@ _Overload method: BigDUCCO, Vee.Might.Exist, Syb (date unknown)_
     - A donor item of the same category as the target item with the fuse, durability and modifier you want.
     - Any shield (if not using shields)
 
-    ### Setup
+    #### Setup
 
     0. SAVE FIRST, this glitch might delete the target item if done improperly.
     1. Drop the donor item nearby
@@ -67,7 +67,7 @@ _Overload method: BigDUCCO, Vee.Might.Exist, Syb (date unknown)_
 
     If done correctly, the target item should have everything the donor item has.
 
-    ### Notes on this method
+    #### Notes on this method
 
     - The weapons, shields and bows aren't the only ones that work, it all depends on their hitboxes
     - You might find equal success using other thin bows, thin spears with other targets
@@ -78,10 +78,10 @@ _Overload method: BigDUCCO, Vee.Might.Exist, Syb (date unknown)_
     !!! info
         This method also gives you a pre-WST copy of the target item, thanks to Equipment Mitosis.
 
-    ### Requirements
+    #### Requirements
     - You must be able to reach the zuggle overload threshold
 
-    ### Setup
+    #### Setup
 
     1. Prepare the donor item in the inventory
     1. Overload drop the target item
@@ -92,8 +92,10 @@ _Overload method: BigDUCCO, Vee.Might.Exist, Syb (date unknown)_
     1. Unequip and re-equip the target to resync your equipment
 
 === "Method 3 (Fuse Entanglement, all versions)" ###
-    ### Requirements
+    #### Requirements
     - The target item must be unfused
+
+    #### Setup
 
     1. Prepare the donor item in the inventory, or dropped nearby
     1. Fuse entangle the target item to a shield (if a weapon or bow) or weapon (if a shield or bow)
@@ -105,8 +107,10 @@ _Overload method: BigDUCCO, Vee.Might.Exist, Syb (date unknown)_
 
 
 === "Method 4 (Mineru, all versions)" ###
-    ### Requirements
+    #### Requirements
     - The target item must be unfused
+
+    #### Setup
 
     1. Prepare the donor item in the inventory, or dropped nearby
     1. Mineru FE the target item and equip it
@@ -115,9 +119,11 @@ _Overload method: BigDUCCO, Vee.Might.Exist, Syb (date unknown)_
     1. Unequip and re-equip the target to resync your equipment
 
 === "Method 5 (Like Like, all versions)" ###
-    ### Requirements
+    #### Requirements
     - Proximity to a Like Like
     - Ability to warp
+
+    #### Setup
 
     1. Prepare the donor item in the inventory
     1. Sluggle the target item
