@@ -71,7 +71,8 @@ If equipment is in purgatory and culled, it will not be deleted on reload. If yo
 
 The following ways of deleting unculled purgatory equipment will **crash** the game:
 
-!!! danger This list of purgatory equipment crash methods is incomplete — there are more than are listed here!
+!!! danger
+    This list of purgatory equipment crash methods is incomplete — there are more than are listed here!
 
 - Picking it up and sending it straight to the inventory
 - Burning it
