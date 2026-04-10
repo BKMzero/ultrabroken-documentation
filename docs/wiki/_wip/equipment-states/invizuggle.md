@@ -14,3 +14,4 @@ An invizuggle is a culled zuggle. See the [zuggle section](uid:ESW) for more.
 - Any method to uncull the invizuggle (e.g. Mineru Parented Zuggle) will revert it to a completely standard zuggle.
 - Invizuggles are usually static, but can also be in the dynamic or drop positions. However, different positions provide no benefits with culled zuggles.
 - If the invizuggle has an _unculled_ item [fuse entangled](search:Fuse Entanglement) to it, that item is known as an **invizlot**.
+- Invizuggles are a convenient way to reach zuggle overload.
