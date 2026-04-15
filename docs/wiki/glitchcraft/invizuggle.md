@@ -12,6 +12,8 @@ tags: ["zuggling", "item", "equipment", "culling"]
 
 # Invizuggle
 
+A culled zuggle.
+
 ## Summary
 Dropping equipment in a specific way during a cull causes an indestructable and invisible zuggle.
 
@@ -29,12 +31,12 @@ Methods 1 and 2 are obsolete, see Dpadlock-less Invizuggle for better options on
     Method 1 is trickier, but keeps FE items.
 
     1. Like like stick cull
-    2. Once in an area you can cull, FE a sword 
+    2. Once in an area you can cull, FE a sword
     3. Once the FE is done, pick up items and get on a steering stick to uncull
     4. Stand in front of the steering stick and watch a memory
     5. Right as you are about to cull drop the FE base in the quick menu and swap to another equipment
     6. Watch a memory and uncull, the dpad is locked now and the FE item should be invisible and an equipment should be missing from inventory
-    7. Fill up inventory and find a chest with the same item you cull dropped 
+    7. Fill up inventory and find a chest with the same item you cull dropped
     8. Open chest and fail a drop with the cull dropped item , this unlocks the dpad
     9. Fail a drop with the equipped and zuggled item against the wall and it should re appear
 
@@ -44,7 +46,7 @@ Methods 1 and 2 are obsolete, see Dpadlock-less Invizuggle for better options on
     obsolete: false
     ---
     Method 2 is easier, but deletes FE items.
-    
+
     1. Like like stick cull
     2. be in front of a steering stick with the items you want to zuggle equiped before the cull
     3. full cull link
@@ -62,7 +64,7 @@ Methods 1 and 2 are obsolete, see Dpadlock-less Invizuggle for better options on
     obsolete: false
     ---
     _Discovered by mulberry_
-    
+
     1. FE something to the item you wish to invizuggle (optional, but makes it more convenient)
     2. Drop the item and pick it up right when a like like eats it
     3. Map Zuggle it
@@ -88,10 +90,15 @@ Methods 1 and 2 are obsolete, see Dpadlock-less Invizuggle for better options on
 ## Notes
 ### Todo
 - [ ] Add Method 5
+- [ ] Add separate steps for invizlot
+- [ ] Determine which methods to prioritise (LLSC methods are likely obsolete)
+- [ ] Revise Drop `X` terminology for pre-1.2 methods
+- [ ] Integrate portacull methods
+- [ ] Add Auto FE methods
 
 ## Resources
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1192403098753310770)
 - [Discord](https://discord.com/channels/1086729144307564648/1105598687167664239/1195821216326488264)
 
 ## Related
-—
+- [Equipment state](uid:M0U)
