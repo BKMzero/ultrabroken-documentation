@@ -1,6 +1,7 @@
 ﻿---
 title: "Smuggling and Zuggling Overview"
 uid: "ESW"
+draft: true
 ---
 
 # Smuggling and Zuggling Overview
@@ -12,6 +13,7 @@ Smuggling and Zuggling are object-transfer and placement glitches. They let play
 ## Quick Navigation
 - **[Smuggling and Zuggling Query](search: Smuggling Smuggle Zuggling Zuggle)** - Search for glitches and setups revolving around Smuggling and Zuggling
 - **[Smuggling and Zuggling Library](uid:RNX)** - Listed Smuggling and Zuggling Glitches
+- **[Dropping](uid:NYI)** - The equipment dropping mechanics that we exploit
 
 ## What to expect in each writeup
 - **Trigger:** how to reproduce (inputs, positions, equipment)

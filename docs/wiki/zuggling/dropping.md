@@ -14,16 +14,17 @@ The global equipment drop queue is one of the two key pieces.
 
 The pause screen inventory has the ability to drop multiple pieces of equipment while the game is paused. It inherits this from Breath of the Wild, but changes how the equipment actually drops:
 
+- Equipment actors are only \[potentially\] spawned when you unpause, which is when the game starts processing the drop queue.
 - Only one item is processed per frame, and nothing is processed on the first unpaused frame.
 - The game attempts to drop multiple items in separate positions behind Link, instead of all in a vertical stack.
 - The game scans for space behind Link to drop the item in question. If it finds enough space to drop the item, it spawns an actor for the item.
-- If it _doesn't_ find space behind Link to drop the item, it **fail drops** it, displaying the message "You can't take that out here." in an on-screen banner. The game then abandons trying to drop anything else, flushing the drop queue out in its entirety.
-- A large enough height gap behind Link (e.g. off the edge of a wall) also triggers a fail drop. If you can't find an appropriate wall for manipulating this, a strong _absence_ of wall is just as good. The minimum height difference required for this is less than you might think.
+- If it _doesn't_ find space behind Link to drop the item, it **fail drops** it, displaying the message "You can't take that out here." in an on-screen banner. The game then abandons trying to drop anything else, flushing the drop queue out in its entirety by fail dropping all unconsidered items. Their inventory slots are re-created.
+- A large enough height gap behind Link (e.g. off the edge of a wall) also triggers a fail drop. If you can't find an appropriate wall for getting a fail drop when you need one, a strong _absence_ of wall is just as good. The minimum height difference required for this is less than you might think.
 
-That's how it works for items that are unequipped. Although dropping equipped items works broadly the same way from the drop queue's perspective, the actors for the equipment and for Link play a more active role.
+That's how it works for items that are unequipped. Although dropping equipped items works broadly the same way from the drop queue's perspective, the actors (in-world 3D objects) for the equipment and for Link play a more active role.
 
-!!! note How equipped is 'equipped'?
-    If you equip something new in the pause screen, and then immediately drop it, are you dropping something equipped? Version 1.0 says yes, which is why that version has some exclusive swap–drop tech in its setups. Every other version waits until the game unpauses before actually creating an equipment actor on Link, so swap–dropping on other versions works much more like a regular cold drop. There are additional complications if Link is culled on the first unpaused frame.
+!!! note "How equipped is 'equipped'?"
+    If you equip something new in the pause screen, and then immediately drop it, are you dropping something equipped? Version `1.0` of the game says yes, which is why that version has some exclusive swap–drop tech in its setups. Every other version waits until the game unpauses before actually creating an equipment actor on Link, so swap–dropping on other versions works much more like a regular cold drop (plus unequip)
 
 ## Dropping equipped items
 
@@ -41,3 +42,15 @@ This all works fine, as long as Link never needs to replace one active smuggle w
 ## Buffer drops
 
 Some glitch setups (e.g. Swap Resync Zuggle, or setup adaptations for the Switch 2 Edition) make use of _buffer drops_; extra equipment inserted into the drop queue to delay further drops for a comparable number of frames. Whether these are expected to fully drop, or can fail drop, will vary depending on the setup.
+
+## Culling
+
+From version `1.2.0`, smuggles cull if you equip something else of that type, and uncull when dropped.
+    - They only uncull when fail dropped from version `1.2.1`, so a drop–swap–unequip–fail on version `1.2.0` gets you [quick smuggle](search:Quick Smuggle).
+
+There are some additional complications if Link is culled on the first unpaused frame after new drops are queued (whether he was previously culled or not):
+
+- The game can't apply D-pad Lock if you gain an active smuggle (as long as Link remains culled).
+- Equips are not fully processed when Link is culled, so your inventory can desync from Link's actor model. This does have its uses, as long as you're expecting it.
+
+
