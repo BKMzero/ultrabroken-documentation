@@ -34,8 +34,8 @@ There are many ways of transforming some equipment from one state to another, ba
 
 |Existing state|Action|New state|Notes|
 |-|:-|-|:-|
-|\[Static\] [Smuggle](uid:TGY)|Warm drop another|Both equipment drop|All static Smuggles and Zuggles will fully drop|
-|\[Static\] [Zuggle](uid:A1E)|Warm drop another|Both equipment drop|All static Smuggles and Zuggles will fully drop|
+|\[Static\] [Smuggle](uid:TGY)|Warm drop another|Both equipment drop|All static Smuggles and Zuggles will fully drop, becoming [zuggle drops](uis:L84)|
+|\[Static\] [Zuggle](uid:A1E)|Warm drop another|Both equipment drop|All static Smuggles and Zuggles will fully drop, becoming [zuggle drops](uis:L84)|
 |\[Static\] Smuggle|Fail drop another|Smuggle becomes a zuggle| |
 |\[Static\] Zuggle|Fail drop another|No change| |
 |\[Static\] Smuggle|Throw / Shock drop another|Equipment is sent to purgatory|Thrown / Shock dropped equipment becomes a weak Drop Equip; purgatory equipment has no collision|
