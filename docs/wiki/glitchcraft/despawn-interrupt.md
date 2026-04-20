@@ -89,7 +89,7 @@ Due to their differing attack patterns, the detailed instructions below will be 
     7. **Pause** the game, then **drop** A, **swap** to another of that type, and **unequip it**.
     8. **Unpause** the game and **Pick up** A. It will be drop equipped.
     9. **Pause** the game and swap to another of A's type, then unpause the game. It will now be drop smuggled, and can be used to create DI Ghosts as-is.
-    10. If desired, A can be taken through warps and loads by fail-dropping an equipped item of A's type, converting the drop smuggle into a drop zuggle.
+    10. If desired, A can be taken through warps and loads by dropping or fail-dropping an equipped item of A's type, converting the drop smuggle into a drop zuggle.
 
     _Discovered by mulberry and suusi - Feb 02nd, 2026_
 
@@ -342,7 +342,7 @@ Due to their differing attack patterns, the detailed instructions below will be 
 
     _Discovered by mulberry - Jan 17th, 2026_
 
-    #### Method 13: Wall-less Mineru Limbo (Duga) ?
+    #### Method 13: Wall-less Mineru Limbo (Duga Dip) ?
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -371,7 +371,7 @@ Due to their differing attack patterns, the detailed instructions below will be 
 
     _Discovered by Kleric - Feb 4th, 2026_
 
-    #### Method 14: Wall-only Mineru Limbo (Duga Dip)
+    #### Method 14: Wall-only Mineru Limbo (Duga Dip) ?
 
     placeholder for the ruins rubble spot one
 
@@ -423,7 +423,7 @@ Due to their differing attack patterns, the detailed instructions below will be 
 - [Spreadsheet link](https://docs.google.com/spreadsheets/d/1xNB1gOLZRSF9yp1mHUsS9ymogRJa1Wz8rTliTXezeRM/edit?pli=1&hl=de&gid=0#gid=0&range=294:294)
 - [Link's Luxury Loadout](https://www.youtube.com/watch?v=kQuj0LBQdrM)
 
-??? quote "Discord Resources
+??? quote "Discord Resources"
 
     Frox Items:
 
