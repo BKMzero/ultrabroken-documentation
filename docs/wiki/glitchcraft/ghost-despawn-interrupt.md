@@ -7,7 +7,7 @@ versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", 
 credits: ["Aergyl", "mulberry", "Squidwest"]
 date: "2026-01-16"
 description: "Eaten DI passes a despawn attempt down to newly-fused children, which can itself be interrupted to cause the Ghost DI state."
-aliases: ["Ghost DI", "Ghost-DI", "Ghost Frox"]
+aliases: ["Ghost DI", "Ghost-DI", "Ghost Frox" "DI Ghost" "Frox Ghost"]
 tags: ["item", "despawn", "fuse", "culling"]
 ---
 
