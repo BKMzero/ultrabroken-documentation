@@ -25,7 +25,7 @@ The general form of every method is as follows:
 - After the target begins to fade from existence, but before it fully despawns, cull it
 - Usually, some final step is required to obtain a normally-equipped and independent DI item
 
-Due to their differing attack patterns, the detailed instructions below will be partitioned by their choice of monster. Furthermore, due to the massive number of workable methods, only 4 of the most practical will be provided for each monster.
+Due to their differing attack patterns, the detailed instructions below will be partitioned by their choice of monster. Furthermore, due to the large number of workable methods, only 4 of the most practical will be provided for each monster. The remainder are collected in the "Other Methods" tab.
 
 === "Frox Methods" ###
 
@@ -252,58 +252,119 @@ Due to their differing attack patterns, the detailed instructions below will be 
 
 === "Other Methods" ###
 
+    These methods are fully functional, but usually seen as less practical due to tighter timing windows, lower consistency, or both.
+
     These methods are typically not used, but are functional, and to be quite honest I'm tired and don't want to figure out whether they need to be removed, and I'll get at it tomorrow.
 
     Yeah they came with the page sorry. I'm working on it please be patient
 
-    ### Method 1 (1.2+, setupless frox setup) ?
-    
-    1. Approach a frox and wait until it is about to do a swallow attack.
-    This is done most easily if you have a travel medallion directly next to the frox
-    2. Put your target item between you and the frox and target it with fuse
-    3. Right before the frox swallows the target, fuse it to a piece of equipment, preferably a shield
-    4. **Quickly pause the game**
-    5. *Drop the equipment you fused to, equip another item of the same type, then unequip*
-    6. **Unpause the game**
-    7. Pick up the dropped equipment and run away from the frox
-    8. If done correctly, the fused item will now be in a despawn interrupted state and ghosted
-    9. If you wish, detangle the fused item from its base. 
+    ### Method 9: Direct Fusion ?
+    ---
+    versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    obsolete: false
+    ---
 
-    This is easiest if the item you fused to was a shield
+    - This method fuses the target to a shield _after_ the despawn begins, and then uses Drop-Swap Culling to interrupt the despawn.
+    - It thus requires no advance setup whatsoever. However, it is precise in positioning and requires a frame-perfect Fuse input.
+    - The target will be created in the "Non-resident" Ghost DI state (no collision or gravity, but does not auto-PSLOT like a "proper" DI Ghost).
 
-    ### Method 2 (1.2+, easier molduga setup) ?
-    
-    1. FE your target to a shield
-    2. Drop your item near a molduga so that the molduga notices it
-    3. Right after the molduga begins to jump, drop the fuse entangled shield, equip another shield, and unequip it
-    4. Pick it up and retrive the target
-    5. If you wish, detangle it from the base shield
+    Prepare:
 
-    ### Method 3 (1.0-1.1.2, older versions molduga setup) >
+    - A Shield (A weapon may be used but can't easily be detangled from)
+    - The target
+    - A Frox (A Molduga will also work, but its lunge attack makes the positioning prohibitively precise)
+
+    Steps:
+
+    1. Approach a Frox and wait until it is about to do a vaccuum attack. This is nearly always the first attack it does, and is also the only attack it will do when Link is slightly outside its territory
+    2. Put your target item between you and the Frox and **highlight** it with Fuse
+    3. On the first frame of the target despawning due to being eaten, **fuse** it to the shield and **pause** the game _immediately_
+    4. If the pause was especially fast, D-Pad Lock will be active. Either perform a pause-buffer (must be nearly optimal), or watch memories until D-Pad Lock ends
+    5. **Drop** the shield, **swap** to another shield, and **unequip** that shield
+    6. **Unpause** the game and pick up the shield. If the target was successfully DI'd, it will have a separate pickup prompt from its parent.
+    7. Go away from the Frox so that it stops attacking
+    8. Use Octo Detanglement to detangle the target from the shield, allowing it to be properly zuggled and taken elsewhere.
+
+    ### Method 10: Pickup + Portacull ?
+    ---
+    versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    obsolete: false
+    ---
+
+    - This method has Link pick up the target _after_ the despawn begins, allowing it to cull with him via a Portacull.
+    - It does not require any other setup besides the Portacull. However, it is precise in positioning and requires a frame-perfect pickup input.
+    - Unlike Method 9, the target will be created in the ordinary DI state.
+
+    Prepare:
+
+    - A portacull of the opposite type as the target
+    - The target
+    - A Frox (A Molduga will also work, but its lunge attack makes the positioning prohibitively precise)
+
     
+    1. Approach a Frox and wait until it is about to do a vaccuum attack. This is nearly always the first attack it does, and is also the only attack it will do when Link is slightly outside its territory
+    2. Put your target item between you and the Frox and have its pickup prompt ready
+    3. On the first frame of the target despawning due to being eaten, **pick up** the target and **pause** the game _immediately_
+    4. If the pause was on the same frame as the pickup or the frame after, it will be too soon to DI. Either perform a pause-buffer (must be nearly optimal), or watch 2 memories to advance to the correct timing.
+    5. **Drop** the portacull and **swap** to another of its type, then **Unpause** the game.
+    6. Go away from the Frox so that it stops attacking, and test for DI. If the target was successfully DI'd, it will no longer be interactible with runes.
+
+    ### Method 11: Minimalist Mineru Limbo (Duga) ?
+    ---
+    versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    obsolete: false
+    ---
+
+    - This method does not make use of a wall to force Mineru into the Limbo state, allowing it to be performed anywhere in Molduga territory at a minimum cost.
+    - However, the chain of states Mineru goes through notably reduces the consistency.
+
+    Prepare:
+
+    - Mineru
+    - The target
+    - A steering stick
+    - A Molduga (a Frox's attacks are not readily compatible with this method)
+
+    Steps:
+
+    1. Mineru FE the target
+    2. Enter a Molduga's territory and deploy a steering stick. Flatter terrain is usually more consistent.
+    3. **Mount** the steering stick to center Link, then **dismount** and **drop** the target
+    4. **Whistle** the Molduga over if it hasn't yet noticed Link, then **remount** the steering stick to cull Mineru
+    5. If all goes well, when the Molduga eats Link, the target will be DI'd automatically over the next 2 steps:
+    6. As soon as Link dismounts the steering stick, Mineru will enter Limbo and uncull the target.
+    7. Then, as Link travels away from the ground, Mineru will exit Limbo into the culled state, culling the target during the DI window.
+    8. The most likely failure state is for Mineru to not exit Limbo soon enough, causing the target to fully despawn and be destroyed.
+
+    ### Method 12: Mineru FE Only ?
+    ---
+    versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    obsolete: false
+    ---
+
+    - This method uses Mineru FE to cause the target to cull with Mineru, then uses the standard "orb return" culling method to cull her.
+    - The Limbo state can be touchy, so this method is theoretically more consistent.
+    - However, the cull must be timed manually.
+
+    Prepare:
+
+    - Mineru
+    - The target
+    - A Frox or Molduga (the latter is likely easier)
+
+    Steps:
+
     1. FE your target to Mineru
-    2. Place the target near a molduga so the molduga notices it
-    3. Climb so that mineru culls right after the molduga jumps out of the sand
-    4. Retrive you target and if you wish, detangle it from mineru
+    2. Place the target so that the Frox or Molduga will eat it
+    3. Shortly before the monster's attack begins, start to climb a wall so that Mineru begins to cull
+    4. If timed correctly, Mineru (and thus the target) will cull just after the target gets eaten
+    5. Retrieve the target and, if desired, detangle it from Mineru by fusing something else to that slot
 
-    ### Setup for DI ghosts
-    DI can propagate to other pieces of equipment, by making a DI ghost. Here are methods to do so:
+## Properties
 
-    #### Method 1 (1.2+)
-    1. Smuggle the DI equipment (Drop it, equip another item of the same type, and then unequip that item)
-    2. Equip an item of the same type
-    3. Fuse the thing you want to put in the DI state to the thing you just equipped
-    4. Quickly after fusing, a couple frames after the FE frame, drop the fuse base, equip another item of the same type, and unequip it
-    5. If you wish to detangle from the normal parent, you may distance despawn it or use octo detanglement.
-    The distance method should be done before detangling from the DI parent
-    6. If you want to detantangle from the DI parent, you may simply smuggle it, equip an item of the same type, and then fuse to that item
-
-    #### Method 2 (1.0-1.1.2)
-    1. Smuggle the DI equipment using the same drop swap unequip method
-    2. FE an item of the same type to mineru and pick it up
-    3. Fuse the thing you want to DI right before mineru culls
-    4. Drop the item that you fuse entangled to mineru
-    5. Same rules for detanglement apply
+- Has every special property of Void Dipped equipment
+- Due to the lower death reason number, it is immune to being destroyed by inventory pickup. Therefore, it can be used to duplicate that equipment en masse simply by picking it up with something else equipped
+- Propagates the Eaten death reason to anything fused to it (slightly conditional). This can in turn be interrupted to create a DI Ghost (see linked page for methods)
 
 ## Notes
 - Also known as "Eaten DI". Often referred to as "Frox Dipping" or as "Duga Dipping".
