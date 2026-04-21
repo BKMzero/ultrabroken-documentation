@@ -715,6 +715,7 @@ Methods are partitioned based on their resulting structure.
 ## Notes
 
 - Due to the difference in resulting structure, these methods are usually _not_ interchangeable when called for by another tutorial. They have been grouped by structure for this reason.
+- Additional line added to allow changes to be committed
 
 ## References and Resources
 
