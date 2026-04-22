@@ -1,5 +1,6 @@
----
+﻿---
 title: "Replacement Actors"
+uid: "G46"
 draft: true
 description: "Some fusible objects replace themselves with another object when fused, which can cause the game to crash if Fuse Entanglement is attempted."
 aliases: ["Replacements"]
