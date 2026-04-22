@@ -64,7 +64,7 @@ To send equipment to pugatory (to 'purgatorify' it), you have several options:
     - The second piece of equipment will be moved to the drop equip position, and thus also easy to purgatorify. It's a [weak drop equip](uid:HY9) though, and will move back if you change Link's animation state enough.
 - Drop some equipment while it's culled, and you have a zuggle of the same equipment kind. The dropped equipment will be sent to culled purgatory.
     - This equipment will permanently lose collision.
-    - If the purgatory equipment has an FE parent, and you purgatorified it with an intangible cull, you can equip (or zuggle drop) the parent to bring the child back into its last equip state.
+    - If the purgatory equipment has an FE parent, and you purgatorified it with an intangible cull, you can equip (or zuggle drop) the parent to bring the child back into its last equip state. If it was in Link's hand and you equip something else of that type, you can use it in combat.
 
 ## Culled purgatory
 
