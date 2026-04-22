@@ -38,19 +38,18 @@ There are many ways of transforming some equipment from one state to another, ba
 |\[Static\] [Zuggle](uid:A1E)|Warm drop another|Both equipment drop|All static Smuggles and Zuggles will fully drop, becoming [zuggle drops](uis:L84)|
 |\[Static\] Smuggle|Fail drop another|Smuggle becomes a zuggle| |
 |\[Static\] Zuggle|Fail drop another|No change| |
-|\[Static\] Smuggle|Throw / Shock drop another|Equipment is sent to purgatory|Thrown / Shock dropped equipment becomes a weak Drop Equip; purgatory equipment has no collision|
 |Dynamic Smuggle|Warm drop / fail drop another|Item becomes a Dynamic Zuggle| |
 |Dynamic Zuggle|Warm drop / fail drop another|No change| |
 |Dynamic Smuggle/Zuggle|Throw / Shock drop another|All Dynamic Smuggles / Zuggles released| |
 |Drop Equip / Equipped Drop Smuggle|Warm drop|Equipment is sent to purgatory| |
 |Drop Equip / Equipped Drop Smuggle|Fail drop|Equipment is reverted to normal| |
 |Drop Equip / Equipped Drop Smuggle|Zuggle|Equipment is Drop Zuggled|This doesn't require a fail drop, so Zuggle Drop inputs also work|
-|Drop Smuggle|Warm drop another|Smuggle becomes a Drop Zuggle| |
-|Strong Drop Equip|Warp|Equips statically on Link's back||
+|Drop Smuggle|Warm drop / fail drop another|Smuggle becomes a Drop Zuggle||
+|Strong Drop Equip|Warp|Equips [statically](uid:S8I) on Link's back||
 |Static Smuggle / Drop Smuggle|Throw / Shock drop another|Smuggle is sent to purgatory, new equip is a weak Drop Equip|The purgatory equipment will have no collision and cannot be retrieved without an existing FE parent|
 |Ground Drop Smuggle|Throw / Shock drop another|New equip is a weak Drop Equip|The Ground Drop Smuggle is _not_ sent to purgatory|
 |Equipped Smuggle (any position)|Change equipment|No change|Smuggle is unequipped but otherwise preserved|
-|Equipped Drop Smuggle|Warp|Equipment object is deleted|This is a way to perform [Unload WST](search:Weapon State Transfer)|
+|Equipped Drop Smuggle|Warp|Equipment object is deleted|This is a roundabout way to perform [WST](search:Weapon State Transfer)|
 |Overload Equip|Warm drop|Ground Drop Smuggle|Risk of D-Pad Lock without portacull or DI|
 |Ground Drop Smuggle|Equip it|Equipped Drop Smuggle||
 |Ground Drop Smuggle|Warm drop another|Ground Drop Equip||

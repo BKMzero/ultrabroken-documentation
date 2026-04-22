@@ -11,7 +11,7 @@ Undone zuggles don't immediately go back to normal.
 
 ## Description
 
-When equipment that was zuggled is released from its zuggle status, it loses most of those properties. It won't persist across loading screens, and won't interfere with fusing to equipment. However, it is still a dependency on Link.
+When equipment that was zuggled is released from its zuggle status, it loses most of those properties. It won't persist across loading screens, and won't interfere with fusing to equipment. However, it is still connected to Link.
 
 Zuggle Drop is not to be confused with [Drop Zuggle](search:Drop Zuggle).
 
@@ -32,7 +32,7 @@ You don't need to go through the whole zuggle state to make a zuggle drop. You c
 
 === "Map" ###
     ---
-    versions: ["1.0", "1.1.0", "1.1.1"]
+    versions: ["1.0.0", "1.1.0", "1.1.1"]
     ---
 
     !!!info
@@ -42,7 +42,7 @@ You don't need to go through the whole zuggle state to make a zuggle drop. You c
 
 === "Drop Delay" ###
     ---
-    versions: ["1.0", "1.1.0", "1.1.1", "1.1.2"]
+    versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
     ---
 
     Perform the inputs of Drop Delay Zuggle as described, but not near a wall, so that everything has room to drop. The first item that was dropped while equipped will be a zuggle drop.
@@ -60,7 +60,3 @@ You don't need to go through the whole zuggle state to make a zuggle drop. You c
 ## Undoing
 
 You can undo zuggle drop status by picking the equipment up and dropping it again, or grabbing it with Ultrahand.
-
----
-
-

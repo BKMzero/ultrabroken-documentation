@@ -17,7 +17,7 @@ Drop equips can be converted to [drop zuggles](search:Drop Zuggle) quite easily.
 
 ## Sending to purgatory
 
-If you warm-drop a drop equip, the equipment will be sent to purgatory. Unlike most purgatory methods, this will keep the equipment's collision with terrain.
+If you warm-drop a drop equip, the equipment will be sent to [purgatory](uid:TAO). Unlike most purgatory methods, this will keep the equipment's collision with terrain.
 
 ## Undoing
 

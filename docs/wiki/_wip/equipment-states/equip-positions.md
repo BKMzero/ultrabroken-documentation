@@ -8,6 +8,10 @@ aliases: ["equip position"]
 
 Link can have equipment attached to him in one of a number of configurations:
 
+## **Dynamic**
+
+A dynamic equip position is properly connected to Link's back, or to his hand, and properly switches between them depending on his animation state. All normal equipment is attached in this position (it's technically a dynamic equip, according to a strict reading of the terminology). It is possible to get dynamic smuggles and zuggles, but is usually more difficult than static or drop position.
+
 ## **Static**
 
 A static equip position is properly connected to Link's back, or to his hand, but remains where it is until fully dropped. This is the most common position for zuggles and smuggles, so it gets to be the implicit default. Any zuggle or smuggle method that doesn't explicitly mention one of the other positions will be referring to this one.
@@ -16,10 +20,6 @@ Static equips, although not very useful, are possible with any of these methods:
 
 - Warp with a strong [drop equip](uid:HY9)
 - Pick up a [fail drop zuggle](uid:PM4)
-
-## **Dynamic**
-
-A dynamic equip position is properly connected to Link's back, or to his hand, and properly switches between them depending on his animation state. All normal equipment is attached in this position (it's technically a dynamic equip). It is possible to get dynamic smuggles and zuggles, but is usually more difficult than static or drop position.
 
 ## **Drop**
 

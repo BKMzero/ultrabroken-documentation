@@ -7,7 +7,7 @@ uid: "F4E"
 
 Fail dropping equipment in a specific way can cause it to reattach to Link, but with the pickup prompt directly accessible.
 
-Any action that repositions the equipment on Link will cancel this state, reverting it to normal. Fail drop zuggles are unaffected.
+Any action that repositions the equipment on Link will cancel this state, reverting it to normal.
 
 ## Terminology
 
