@@ -6,7 +6,7 @@ aliases: ["Overload Equip", "Overload Pickup"]
 
 # Overload Drop
 
-When Link is supposed to have some new equipment attached to him, but he is [overloaded](search:Zuggle Overload), so it doesn't form any connection to his actor model. It still connects to the game's inventory system properly.
+When Link is supposed to have some new equipment attached to him, but he is [overloaded](search:Zuggle Overload), newly spawned actors for equipment don't form any connection to Link's actor model. They still connects to the game's inventory system properly.
 
 ## Terminology
 
