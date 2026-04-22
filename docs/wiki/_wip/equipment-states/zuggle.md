@@ -22,7 +22,7 @@ From the equipment's perspective, a zuggle is the same as a smuggle of the same 
 	- None of this happens with [culled zuggles](uid:M0U).
 
 	!!! danger Replacement actors
-		Fusing or fuse entangling replacement actor items while you have active \[unculled\] zuggles will cause the game to **crash**.
+		Fusing or fuse entangling [replacement actor](uid:G46) items while you have active \[unculled\] zuggles will cause the game to **crash**.
 - Link can only tolerate so many zuggles before zuggle overload happens. This state is very useful, if you want it, but is better obtained with [invizuggles](uid:M0U).
 
 ## Undoing
