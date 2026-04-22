@@ -33,11 +33,8 @@ Methods are partitioned based on their resulting structure.
     obsolete: false
     ---
 
-    This is the most basic overload method, requiring only the absolute minimum prerequisites. As such, it can be done nearly anywhere at nearly any time.
-
-    !!! success "Verified"
-
-        Method 1 is tested and verified to be functional and optimal.
+    - This is the most basic overload method, requiring only the absolute minimum prerequisites.
+    - As such, it can be done nearly anywhere at nearly any time.
 
     Prepare:
 
@@ -101,7 +98,9 @@ Methods are partitioned based on their resulting structure.
     obsolete: false
     ---
 
-    This method builds on Method 1 with a new culling method, increasing the speed and reducing the setup time and complexity. However, it can only be performed at a culling area.
+    - This method builds on Method 1 with a new culling method, increasing the speed and reducing the setup time and complexity.
+    - However, it can only be performed at a culling area.
+
 
     Prepare:
 
@@ -170,19 +169,16 @@ Methods are partitioned based on their resulting structure.
     obsolete: false
     ---
 
-    This method uses Mineru as a culling source, placing her in limbo to maximize control over her culling. It is the fastest overload method, but can only be done when & where Mineru's Sage Avatar can be summoned.
-
-    !!! warning "Construction Zone"
-
-        Method 3 _should_ be fully functional, but is not yet tested for optimality and step correctness.
+    - This method uses Mineru as a culling source, placing her in limbo to maximize control over her culling.
+    - It is the fastest overload method, but can only be done when & where Mineru's Sage Avatar can be summoned.
 
     Prepare:
 
     - 13 Zuggle Overload
     - A DI Weapon `A` (all types can be inverted)
     - Mineru
-    - A normal weapon `B`
-    - A Stake
+    - A normal shield `B`
+    - A Stake (or other setup to place Mineru into limbo)
 
     Creating the setup:
 
@@ -197,7 +193,7 @@ Methods are partitioned based on their resulting structure.
     1. Stand on a stake at the right height so that Mineru goes into "Limbo" when you cull her (Mineru invisible, but B and C unculled)
     2. **Fuse** target to D ([Overload FE](uid:0XV) to C)
     3. **Fuse** target to D again, and jump immediately after so that Mineru culls (and culls the target by extension)
-    7. To continue beyond 30 successful uses, first **destroy** and **remake** C and D (start from setup step 2)
+    4. To continue beyond 30 successful uses, first **destroy** and **remake** C and D (start from setup step 2)
 
     !!! danger "Fuse-Over(load)"
 
@@ -235,11 +231,8 @@ Methods are partitioned based on their resulting structure.
     obsolete: false
     ---
 
-    Method 4 uses Aerophasing as a culling source, allowing for a use-anywhere method on all patches. I've never tried it and it probably sucks to use. But maybe it's peam???
-
-    !!! warning "Construction Zone"
-
-        Method 4 is not yet tested for function and optimality. I promise I'll get to it.
+    - Method 4 uses Aerophasing as a culling source, allowing for a use-anywhere method on all patches.
+    - However: It's not very good
 
     Prepare:
 
@@ -291,7 +284,7 @@ Methods are partitioned based on their resulting structure.
             D -->|CF| TARGET
         ```
 
-    _Method "developed" by Squidwest - not yet performed, so undated_
+    _"Method" developed by Squidwest - no date or reference because it's not good enough_
 
 === "DI Chaining Methods" ###
 
@@ -304,11 +297,8 @@ Methods are partitioned based on their resulting structure.
     obsolete: false
     ---
 
-    Method 5 is the most basic chaining method, and the most minimal batch method in general. Unlike with overload methods, the remaining methods in this section are generally downgrades, only serving to make the method possible on `1.1.2` and earlier.
-
-    !!! success "Verified"
-
-        Method 5 is tested and verified to be functional and optimal.
+    - Method 5 is the most basic chaining method, and the most minimal batch method in general.
+    - Unlike with overload methods, the remaining methods in this section are generally downgrades, only serving to make the method possible on `1.1.2` and earlier.
 
     ??? abstract "Safe Variant"
 
@@ -371,122 +361,11 @@ Methods are partitioned based on their resulting structure.
 
     _Method developed by Squidwest(?) - Jan 23, 2026(?)_
 
-    #### Method 6: <br/>Chaining + Torch Culling ?
+    #### Method 6: <br/>Chaining + Mineru FE ?
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
     ---
-
-    !!! warning "Construction Zone"
-
-        Method 6 is not yet tested for function and optimality.
-
-    Prepare:
-
-    - A DI Weapon or Shield (A) with a normal parent (B)
-    - A torch
-    - A culling area
-    - A flame emitter
-
-    Making the setup:
-
-    1. Duplicate 3 normal copies of A, named B, C, and D
-    2. Cold Drop the torch and place it next to a wall in a culling area
-    3. Point the Flame Emitter at the head of the Torch from point-blank, ensuring the fire strikes a solid surface as close to the torch-head as possible.
-    4. Glue B to the Torch and activate the Flame Emitter.
-    5. To cull A, use the ability wheel to select and open Recall, causing a 2-frame pause. The torch should begin culling after cancelling recall
-
-    Making DI Ghosts:
-
-    1. Smuggle A, equip B, and drop C on the ground
-    2. Hold L to open the ability wheel, select Recall, and release L
-    3. With the Recall view open, Hold L to open the ability wheel, and select Fuse
-    4. Release L and **Fuse** C to B shortly after fuse opens
-    5. Drop B and swap to D
-    6. C will be attached to B on the ground. Dupe two replacement copies (E and F), then drop D
-    7. Optionally, pick up and drop A to remove its overload
-    8. Pick up C
-    9. Repeat from step 2, with C as the new smuggle, E as the new normal parent, and D as the new target
-    10. After around 10 uses, B and/or the Torch will be despawned by drop limit. This can be prevented by picking up and dropping each (be sure the Torch is still cold-dropped)
-    11. After the process has been repeated to satisfaction, despawn all the normal parents of the chain by distance or chasm (which also performa a FarDelete)
-
-    _method "developed" by Squidwest - not yet performed, so undated_
-
-    #### Method 7: <br/>Chaining + Aerophasing ?
-    ---
-    versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
-    obsolete: false
-    ---
-
-    !!! warning "Construction Zone"
-
-        Method 7 is not yet tested for function and optimality.
-
-    ??? abstract "Safe Variant"
-
-        Prepare:
-
-        - A DI Ghost Weapon or Shield (A)
-        - Intangible Aerophasing
-
-        Steps:
-
-        1. Duplicate three normal copies of A by DI Duping (B, C, & D)
-        2. Smuggle A and equip B, then drop C on the ground
-        3. Stand on the phasing platform
-        4. Right after Link unculls, fuse C to B. C will become a DI Ghost
-        5. Drop B and swap to D
-        6. C will be attached to B on the ground. Dupe two replacement copies (E and F), then drop D
-        7. Optionally, pick up and drop A to remove its overload
-        8. Pick up C
-        9. Repeat from step 2, with C as the new smuggle, E as the new normal parent, and D as the new target
-        10. After the process has been repeated to satisfaction, despawn all the normal parents of the chain by distance or chasm (which also performs a FarDelete)
-
-    ??? abstract "Fast Variant"
-
-        Prepare:
-
-        A DI Ghost Weapon or Shield (A)
-        Intangible Aerophasing
-
-        Steps:
-
-        1. Duplicate three normal copies of A by DI Duping (B, C, & D)
-        2. Equip A and drop C on the ground
-        3. Stand on the phasing platform
-        4. Ready fuse targeting C and pause the game
-        5. Drop A and swap to B
-        6. Unpause and press fuse immediately; C will become a DI Ghost
-        7. Drop B and swap to D
-        8. C will be attached to B on the ground. Dupe 2 copies of C, then drop D and pick up C
-        9. Repeat from step 3 with D as the next target
-        10. After the process has been repeated to satisfaction, despawn all the normal parents of the chain by distance or chasm (which also performs a FarDelete)
-
-    ??? example "Diagram"
-
-        ```mermaid
-        graph TD
-            A[DI Ancestor] -->|DI| B[DI Child]
-            C[Normal Parent] -->|DI| B
-            B -->|DI| D[DI Grandchild]
-            E[Normal Parent] -->|DI| D
-            D -->|DI| F[DI Descendant]
-            G[Normal Parent] -->|DI| F
-            F -->|...| H{Further Generations}
-            I[Normal Parent] -->|...| H
-        ```
-
-    _Method "developed" by Squidwest - not yet performed, so undated_
-
-    #### Method 8: <br/>Chaining + Mineru FE ?
-    ---
-    versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
-    obsolete: false
-    ---
-
-    !!! warning "Construction Zone"
-
-        Method 8 is not yet tested for function and optimality.
 
     Prepare:
 
@@ -508,6 +387,7 @@ Methods are partitioned based on their resulting structure.
     9. Induce Mineru to cull, and fuse D to E shortly before C culls (via B, via her)
     10. Repeat steps 5-9 with repeated new shields
     11. Once process has been repeated to satisfaction, destroy all remaining normal parents in any order via distance or chasm
+    12. Finally, detangle B from Mineru before warping or dismissing her, to prevent her from destroying all your hard work
 
     !!! danger "Long Chains"
 
@@ -543,58 +423,177 @@ Methods are partitioned based on their resulting structure.
             H -->|DI| I
         ```
 
-    _Method "developed" by Squidwest - not yet developed, so undated_
+    _Method developed by ??? - I don't know when it was done first_
+
+    #### Method 7: <br/>Chaining + Torch Culling ?
+    ---
+    versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    obsolete: false
+    ---
+
+    - This method uses Pyroculling to cull the DI ancestor of the chain on command, thus culling the entire chain and allowing the DI chaining to continue. Chain.
+    - I don't like it very much and I invented it. It's slow, inconsistent, and prone to self-destruction.
+    - But if you're on an old patch for some poorly-thought out reason (or speedrunning, which might be the same thing?), I guess it's better than not having DI at all.
+    - Just use the mineru one or one of the overload ones and leave the good methods to the people's patch.
+
+    !!! warning "Mediocre"
+
+        Method 7 is not especially great.
+
+    Prepare:
+
+    - A DI Weapon or Shield (A) with a normal parent (B)
+    - A torch
+    - A culling area
+    - A flame emitter
+
+    Making the setup:
+
+    1. Duplicate 3 normal copies of A, named B, C, and D
+    2. Cold Drop the torch and place it next to a wall in a culling area
+    3. Point the Flame Emitter at the head of the Torch from point-blank, ensuring the fire strikes a solid surface as close to the torch-head as possible.
+    4. Glue B to the Torch and activate the Flame Emitter.
+    5. To cull A, use the ability wheel to select and open Recall, causing a 2-frame pause. The torch should begin culling after cancelling recall
+
+    Making DI Ghosts:
+
+    1. Smuggle A, equip B, and drop C on the ground
+    2. Hold L to open the ability wheel, select Recall, and release L
+    3. With the Recall view open, Hold L to open the ability wheel, and select Fuse
+    4. Release L and **Fuse** C to B shortly after fuse opens
+    5. Drop B and swap to D
+    6. C will be attached to B on the ground. Dupe two replacement copies (E and F), then drop D
+    7. Optionally, pick up and drop A to remove its overload
+    8. Pick up C
+    9. Repeat from step 2, with C as the new smuggle, E as the new normal parent, and D as the new target
+    10. After around 10 uses, B and/or the Torch will be despawned by drop limit. This can be prevented by picking up and dropping each before this happens (be sure the Torch is still cold-dropped)
+    11. After the process has been repeated to satisfaction, despawn all the normal parents of the chain by distance or chasm (which also performa a FarDelete)
+
+    _method "developed" by Squidwest - not worth posting about_
+
+    #### Method 8: <br/>Chaining + Aerophasing ?
+    ---
+    versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    obsolete: false
+    ---
+
+    - This method uses Intangible Aerophasing to cull Link, and thus the intended normal parent of each DI item in the chain, allowing for a portable chaining method on all versions.
+    - Astonishingly, it's actually decent.
+
+    !!! success "Decent"
+
+        Method 8 is decent.
+
+    ??? abstract "Safe Variant"
+
+        Prepare:
+
+        - A DI Ghost Weapon or Shield (A)
+        - Intangible Aerophasing
+
+        Steps:
+
+        1. Duplicate three normal copies of A by DI Duping (B, C, & D)
+        2. **Smuggle** A and **equip** B, then **drop** C on the ground
+        3. Stand on the phasing platform
+        4. Highlight C with Fuse, then **pause** the game while Link is **culled**
+        4. **Unpause** and immediately fuse C to B. C will become a DI Ghost
+        5. **Drop** B and **swap** to D
+        6. C will be attached to B on the ground. **Dupe** two replacement copies (E and F), then **drop** D
+        7. Optionally, **pick up** and **drop** A to remove its overload
+        8. **Pick up** C
+        9. **Repeat** from step 2, with C as the new smuggle, E as the new normal parent, and D as the new target
+        10. After the process has been repeated to satisfaction, despawn all the normal parents of the chain by distance or chasm (which also performs a FarDelete)
+
+    ??? abstract "Fast Variant"
+
+        Prepare:
+
+        A DI Ghost Weapon or Shield (A)
+        Intangible Aerophasing
+
+        Steps:
+
+        1. Duplicate three normal copies of A by DI Duping (B, C, & D)
+        2. **Equip** A and **drop** C on the ground
+        3. Stand on the phasing platform
+        4. Highlight C with Fuse, then **pause** the game while Link is **culled**
+        5. **Drop** A and **swap** to B
+        6. Unpause and immediately fuse C to B; C will become a DI Ghost
+        7. **Drop** B and **swap** to D
+        8. C will be attached to B on the ground. **Dupe** 2 copies of C, then **drop** D and **pick up** C
+        9. **Repeat** from step 3 with D as the next target
+        10. After the process has been repeated to satisfaction, despawn all the normal parents of the chain by distance or chasm (which also performs a FarDelete)
+
+    ??? example "Diagram"
+
+        ```mermaid
+        graph TD
+            A[DI Ancestor] -->|DI| B[DI Child]
+            C[Normal Parent] -->|DI| B
+            B -->|DI| D[DI Grandchild]
+            E[Normal Parent] -->|DI| D
+            D -->|DI| F[DI Descendant]
+            G[Normal Parent] -->|DI| F
+            F -->|...| H{Further Generations}
+            I[Normal Parent] -->|...| H
+        ```
+
+    _Method developed by ??? - I don't know who did it first or when so I'm not prepared to claim authorship_
 
 === "Turbo Cloning Methods" ###
 
-    These methods use a purgatorized DI shield to repeatedly fuse, then Octo Detangle, each target in turn. It is optimal for batch production without Zuggle Overload, and ideal for both shield batches of any size, and for repeatedly creating small batches of any target type.
+    - These methods use a purgatorized DI shield to repeatedly fuse, then Octo Detangle, each target in turn.
+    - The setup will persist in place indefinitely until the game is closed.
+    - They are optimal for batch production without Zuggle Overload.
+    - They are also ideal for both shield batches of any size, and for repeatedly creating small batches of any target type.
+    - The only difference between the methods lies in the conisderations made for the target type.
 
-    #### Method 9: <br/>Turbo Cloning + Drop-Swap Culling ?
+    #### Method 9: <br/>For Shields ?
     ---
     versions: ["1.2.0","1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
     ---
 
-    !!! success "Verified"
+    Prepare:
 
-        Method 9 is tested and verified to be functional and optimal.
+    - A DI Shield `A`
+    - An Octo Balloon
+    - A Shock Fruit
 
-    The method differs depending on the target, and so it 
-
-    ??? abstract "For Shields"
-
-        Prepare:
-
-        - A DI Shield (A)
-
-        Creating the setup:
+    Creating the setup:
     
-        1. Dupe 3 copies of A
-        2. A make DI ghost B, dispose of the normal parent
-        3. A make DI Octo Balloon, use the normal parent to detangle it
-        4. Smuggle B and equip another shield over it
-        5. Get shocked with shield unsheathed; this will purgatorize B and cause it to only attach when it has a dependency chain back to Link via A
+    1. Dupe 3 copies of A
+    2. Use A to [Clone](uid:BEW) DI shield B, then dispose of the normal parent
+    3. Use A and normal parent C to DI an Octo Balloon
+    4. [Smuggle](uid:TGY) B and equip C
+    5. Get shocked with shield unsheathed; this will purgatorize B and cause it to only attach when it has a dependency chain back to Link via A
+    6. Use C so that the Octo Ballon detangles from it; C can then be disposed of or reused in the DI process
 
-        Creating DI Ghost Shields:
+    ??? abstract "Creating DI Ghost Shields (Steady Variant)"
+
+        - This variant is slower, but follows a steady rhythm that makes it easier.
+
+        Steps:
 
         1. Zuggle Drop A to attach B
-        2. Equip another shield and a random weapon, then unsheathe them
-        3. Face A and pick up a dupe of it, then turn 90 degrees (to face the target, if it already exists)
-        4. Drop a target shield on the ground (if it doesn't yet exist) and highlight it with fuse
-        5. Start holding ZL and pause the game a few frames later; one way to do this is to also start holding L at the same time, and select the Map Rune
-        6. Drop the equipped shield and swap to the Octo Balloon shield
-        7. Unpause the game and mash cancel (B/X)
-        8. Execution permitting, the new DI Ghost Shield will be detangled from both parents and have its pickup prompt displaced, the former normal parent will be left on the ground, and another shield will be already equipped for use
-        9. Repeat from Step 3 until satisfied
-        10. Pick up and drop A to detach B
+        2. Equip another shield and a random 1-handed weapon, then unsheathe them
+        3. Face A and pick up a dupe of it, then drop a target shield on the ground (if not already present) and turn to face the target
+        4. Every other repetition, instead turn to the target first, then dupe (as the target will be past A)
+        5. Highlight the target with fuse
+        6. Start holding ZL and pause the game a few frames later; one way to do this is to also start holding L at the same time, and select the Map Rune
+        7. Drop the equipped shield and swap to the dupe of A
+        8. Unpause the game and mash cancel (B/X) to Octo Detangle the target from both parents (if successful, it will be stuck in midair with a displaced pickup prompt)
+        9. Repeat from step 3/4, depending on cycle parity, until satisfied
+        10. Pick up and drop A to detach B; the setup will remain ready until needed again
 
-        Done correctly, each new target will drop on the opposite side of Link as the previous one, and none will block A from being duped from. The only necessary movement will be turning to face A to grab a dupe, then turning to face the target before fusing it.
+        Done correctly, each new target will drop on the opposite side of Link as the previous one, and none will block A from being duped from. The only necessary movement will be a single 180 degree turn per DI.
 
         !!! tip "Mistake recovery"
 
-            If the detanglement is failed, disregard the still-attached target. Recover by additionally duping a new target from one of the prior targets and dropping it.
+            If a detanglement is failed, disregard the still-attached target. Recover by additionally duping a new target from one of the prior targets and dropping it.
 
-            If the DI is failed, continue as though it succeeded.
+            If a DI is failed, continue as though it was never attempted.
 
         ??? example "Diagram"
 
@@ -609,91 +608,191 @@ Methods are partitioned based on their resulting structure.
                 F -->|Becomes| H[Normal Parent 2]
             ```
 
-    ??? abstract "For Other Equipment Types"
+    ??? abstract "Creating DI Ghost Shields (Fast Variant)"
 
-        Prepare:
+        - This variant is faster, but doesn't follow a steady rhythm, and is liable to fail on anything but perfectly level ground.
+        - This is because buildup of spent Octo Balloon shields can cause new parents to fail-drop instead of fully dropping, but only on an upslope
 
-        - A DI Shield (A)
-        - At least one of the target type, or a DI Ghost of it
+        Steps:
 
-        Creating the setup:
+        1. Zuggle Drop A to attach B
+        2. Equip another shield and a random 1-handed weapon, then unsheathe them
+        3. Drop many targets (up to 21) in a pile on one side of A
+        4. Fill the shield inventory with dupes of A
+        5. Highlight any target in the pile with fuse
+        6. Start holding ZL and pause the game a few frames later; one way to do this is to also start holding L at the same time, and select the Map Rune
+        7. Drop the equipped shield and swap to the dupe of A
+        8. Unpause the game and mash cancel (B/X) to Octo Detangle the target from both parents (if successful, it will be stuck in midair with a displaced pickup prompt)
+        9. Repeat from step 5 until either the dupes of A run out, or the target pile runs out
+        10. Either dupe more copies of A, or turn to face the pile of detangled parents, respectively
+        11. Continue until satisfied
+        12. Pick up and drop A to detach B; the setup will remain ready until needed again
+
+        !!! tip "Mistake recovery"
+
+            If a detanglement is failed, disregard the still-attached target. The large number of potential targets prevents this from disrupting continuation.
+
+            If a DI is failed, continue as though it was never attempted.
+
+    ??? example "Diagram"
+
+        ```mermaid
+        graph TD
+            A[A] -->|DI| B[B]
+            A -->|DI| C[Octo Balloon]
+            B -->|DI| D[Target 1]
+            E[Normal Parent 1] -->|DI| D
+            F[Dupe of A] -->|Detangles| D
+            E -->|Becomes| G[Target 2]
+            F -->|Becomes| H[Normal Parent 2]
+        ```
+
+    #### "Method 10: <br/>For Weapons/Bows" ?
+    ---
+    versions: ["1.2.0","1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    obsolete: false
+    ---
+
+    Prepare:
+
+    - A DI Shield `A`
+    - At least one of the target type, ideally a DI Ghost
+    - An Octo Balloon
+    - A Shock Fruit
+
+    Creating the setup:
     
-        1. Dupe 3 copies of A
-        2. A make DI ghost B, dispose of the normal parent
-        3. A make DI Octo Balloon, use the normal parent to detangle it
-        4. Smuggle B and equip another shield over it
-        5. Get shocked with shield unsheathed; this will purgatorize B and cause it to only attach when it has a dependency chain back to Link via A
+    1. Dupe 3 copies of A
+    2. Use A to [Clone](uid:BEW) DI shield B, then dispose of the normal parent
+    3. Use A and normal parent C to DI an Octo Balloon
+    4. [Smuggle](uid:TGY) B and equip C
+    5. Get shocked with shield unsheathed; this will purgatorize B and cause it to only attach when it has a dependency chain back to Link via A
+    6. Use C so that the Octo Ballon detangles from it; C can then be disposed of or reused in the DI process
 
-        Making DI Ghost Weapons/Bows:
+    ??? abstract "Making DI Ghost Weapons/Bows (Steady Variant)"
+
+        - This variant is slower, but follows a steady rhythm that makes it easier.
+
+        Steps:
 
         1. If a DI ghost of the target is already prepared, place it next to A
         2. Leave only one empty space in the Shield pouch and the target type's pouch
         3. Zuggle Drop A to attach B
         4. Equip another shield and a random weapon, then unsheathe them
         5. Face A and pick up a dupe of it (and the target, if possible)
-        6. Drop the target (dupe) and turn 90 degrees, then highlight it with fuse
+        6. Drop the (dupe of the) target and turn around, then highlight it with fuse
         7. Start holding ZL and pause the game a few frames later; one way to do this is to also start holding L at the same time, and select the Map Rune
         8. Drop the equipped shield and swap to the Octo Balloon Shield
-        9. Unpause the game and mash cancel (B/X)
-        10. Execution permitting, the new DI Ghost equipment will be detangled from both parents and have its pickup prompt displaced. The spent Octo Balloon Shields will build up on one side of Link, leaving the duping and fusing targets easily accessible
-        11. If a DI Ghost of the target was not yet prepared, there is now one to be used
+        9. Unpause the game and mash cancel (B/X) to Octo Detangle the target from both parents (if successful, it will be stuck in midair with a displaced pickup prompt)
+        11. If a DI Ghost of the target was not yet prepared, there is now one to be used for duping
+        10. The DI'd targets will build up on the opposite side of Link as A, while the spent dupes of A will build up behind it, neither obstructing duplication
         12. Repeat from step 5 until satisfied
         13. Pick up and drop A to detach B
 
         !!! tip "Mistake recovery"
 
-            If the detanglement is failed, disregard the still-attached target and continue as normal. It can technically be detangled later, but the timing is stricter and it's slower than just running the process again.
+            If a detanglement is failed, disregard the still-attached target and continue as normal. It can technically be detangled later, but the timing is stricter and it's slower than just running the process again.
 
-            If the DI is failed, continue as though it succeeded.
+            If a DI is failed, continue as though it was never attempted.
 
-        ??? example "Diagram"
+    ??? abstract "Creating DI Ghost Weapons/Bows (Fast Variant)"
 
-            ```mermaid
-            graph TD
-                A[A] -->|DI| B[B]
-                A -->|DI| C[Octo Balloon]
-                B -->|DI| D[Target 1]
-                E[Normal Parent 1] -->|DI| D
-                F[Dupe of A] -->|Detangles| D
-                E -->|Becomes| G[Discarded]
-                F -->|Becomes| H[Normal Parent 2]
-            ```
+        - This variant is faster, but doesn't follow a steady rhythm, and is liable to fail on anything but perfectly level ground.
+        - This is because buildup of spent Octo Balloon shields can cause new parents to fail-drop instead of fully dropping, but only on an upslope
 
-    ??? abstract "For Non-Equipment"
-
-        Prepare:
-
-        - A DI Shield (A)
-        - One of the target for _each_ DI Ghost to be made
-
-        Creating the Setup:
-    
-        1. Dupe 3 copies of A
-        2. A make DI ghost B, dispose of the normal parent
-        3. A make DI Octo Balloon, use the normal parent to detangle it
-        4. Smuggle B and equip another shield over it
-        5. Get shocked with shield unsheathed; this will purgatorize B and cause it to only attach when it has a dependency chain back to Link via A
-
-        Making DI Ghosts:
+        Steps:
 
         1. Zuggle Drop A to attach B
-        2. Equip another shield and a random weapon, then unsheathe them
-        3. Face A and pick up a dupe of it, then turn 90 degrees
-        4. Drop/Deploy a target material/device and highlight it with fuse
-        5. Start holding ZL and pause the game a few frames later; one way to do this is to also start holding L at the same time, and select the Map Rune
-        6. Drop the equipped shield and swap to the Octo Balloon Shield
-        7. Unpause the game and mash cancel (B/X)
-        8. Execution permitting, the new DI object will be detangled from both parents. The spent Octo Balloon Shields will build up on one side of Link, leaving A and the fuse targets easily accessible
-        9. Repeat from Step 3 until satisfied
-        10. Pick up and drop A to detach B
-
-        DI Ghost objects cannot be interacted with, so this variant is perhaps of intellectual interest only.
+        2. Equip another shield and a random 1-handed weapon, then unsheathe them
+        3. Drop many targets (up to 21) in a pile on one side of A
+        4. Stand on the other side of A and Fill the shield inventory with dupes of A
+        5. Highlight any target in the pile with fuse
+        6. Start holding ZL and pause the game a few frames later; one way to do this is to also start holding L at the same time, and select the Map Rune
+        7. Drop the equipped shield and swap to the dupe of A
+        8. Unpause the game and mash cancel (B/X) to Octo Detangle the target from both parents (if successful, it will be stuck in midair with a displaced pickup prompt)
+        9. Repeat from step 5 until either the dupes of A run out, or the target pile runs out
+        10. Dupe more of whatever was depleted before continuing.
+        11. Continue until satisfied
+        12. Pick up and drop A to detach B; the setup will remain ready until needed again
 
         !!! tip "Mistake recovery"
 
-            If the detanglement is failed, disregard the still-attached target.
+            If a detanglement is failed, disregard the still-attached target and continue as normal. It can technically be detangled later, but the timing is stricter and it's slower than just running the process again.
 
-            If the DI is failed, continue as though it succeeded.
+            If a DI is failed, continue as though it was never attempted.
+
+    ??? example "Diagram"
+
+        ```mermaid
+        graph TD
+            A[A] -->|DI| B[B]
+            A -->|DI| C[Octo Balloon]
+            B -->|DI| D[Target 1]
+            E[Normal Parent 1] -->|DI| D
+            F[Dupe of A] -->|Detangles| D
+            E -->|Becomes| G[Discarded]
+            F -->|Becomes| H[Normal Parent 2]
+        ```
+
+    #### "Method 11: <br/>For Non-equipment"
+
+    Prepare:
+
+    - A DI Shield `A`
+    - An Octo Balloon
+    - A Shock Fruit
+    - One of the target for _each_ DI Ghost to be made
+
+    Creating the setup:
+    
+    1. Dupe 3 copies of A
+    2. Use A to [Clone](uid:BEW) DI shield B, then dispose of the normal parent
+    3. Use A and normal parent C to DI an Octo Balloon
+    4. [Smuggle](uid:TGY) B and equip C
+    5. Get shocked with shield unsheathed; this will purgatorize B and cause it to only attach when it has a dependency chain back to Link via A
+    6. Use C so that the Octo Ballon detangles from it; C can then be disposed of or reused in the DI process
+
+    ??? abstract "Creating DI Objects (Steady Variant)"
+
+        - This variant is slower, but follows a steady rhythm that makes it easier.
+
+        Steps:
+
+        1. Zuggle Drop A to attach B
+        2. Equip another shield and a random weapon, then unsheathe them
+        3. Face A and pick up a dupe of it
+        4. Drop/Deploy a target material/device and highlight it with fuse
+        5. Start holding ZL and pause the game a few frames later; one way to do this is to also start holding L at the same time, and select the Map Rune
+        6. Drop the equipped shield and swap to the Octo Balloon Shield
+        7. Unpause the game and mash cancel (B/X) to Octo Detangle the target from both parents (if successful, it will be floating in the air, not attached to the normal parent)
+        8. Repeat from Step 3 until satisfied
+        9. Pick up and drop A to detach B
+
+        !!! tip "Mistake recovery"
+
+        !!! tip "Mistake recovery"
+
+            If a detanglement is failed, disregard the still-attached target and continue as normal. It can technically be detangled later, but the timing is stricter and it's slower than just running the process again.
+
+            If a DI is failed, continue as though it was never attempted.
+
+    ??? abstract "Creating DI Objects (Fast Variant)"
+
+        1. Zuggle Drop A to attach B
+        2. Equip another shield and a random weapon, then unsheathe them
+        3. Face A and fill the inventory with dupes of it
+        4. Drop/Deploy many target materials/devices and highlight one with fuse
+        5. Start holding ZL and pause the game a few frames later; one way to do this is to also start holding L at the same time, and select the Map Rune
+        6. Drop the equipped shield and swap to the Octo Balloon Shield
+        7. Unpause the game and mash cancel (B/X) to Octo Detangle the target from both parents (if successful, it will be floating in the air, not attached to the normal parent)
+        8. Repeat from Step 3 until satisfied
+        9. Pick up and drop A to detach B
+
+        !!! tip "Mistake recovery"
+
+            If a detanglement is failed, disregard the still-attached target and continue as normal. It can technically be detangled later, but the timing is stricter and it's slower than just running the process again.
+
+            If a DI is failed, continue as though it was never attempted.
 
         ??? example "Diagram"
 
@@ -709,7 +808,7 @@ Methods are partitioned based on their resulting structure.
             ```
 
     _Turbo Replication developed by Aergyl - Jan 31, 2026_
-    
+
     _Batch methods developed by Squidwest - Mar 05, 2026_
 
 ## Notes
@@ -724,18 +823,15 @@ Methods are partitioned based on their resulting structure.
     - [Overload + DS Culling](https://discord.com/channels/1086729144307564648/1110956205624532993/1462096452540043304)
     - [Overload + Torch Culling](https://discord.com/channels/1086729144307564648/1110956205624532993/1473846010207015167)
     - [Overload + Limbo](https://discord.com/channels/1086729144307564648/1110956205624532993/1479539674912526587)
-    - Overload + Aerophasing is my own dodgy and untested invention
+    - Overload + Aerophasing is barely worth citing
     - [Chaining + DS Culling](https://discord.com/channels/1086729144307564648/1113557914444111873/1468025665763938420)
+    - Chaining + Mineru culling is pretty okay I might make a referent for it if one doesn't already exist
     - So is Chaining + Aerophasing
-    - And Chaining + Mineru Culling
-    - yes and chaining + torch culling. I will simply have to make posts to reference for these...
+    - Chaining + Torch Culling is bad and naughty and should be set adrift
     - [Batch Turbo Cloning for shields](https://discord.com/channels/1086729144307564648/1110956205624532993/1479327965807644777)
     - [Batch Turbo Cloning for weapons/bows]()
-    - [Batch Turbo Cloning for objects/materials()
-
-!!! warning "Construction Zone"
-
-    Missing references will be added after a referent is created. Thank you for your patience.
+    - [Batch Turbo Cloning for objects/materials]()
+    - [Fast Batch Turbo Cloning Methods]()
 
 ## Related
 - [Despawn Interrupt](search:Despawn Interrupt)
