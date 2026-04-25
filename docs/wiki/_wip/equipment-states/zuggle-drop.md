@@ -22,7 +22,7 @@ The lingering connection to Link makes zuggle dropped equipment behave slightly 
 - It still contributes to [Zuggle Overload](search:Zuggle Overload), like zuggles and invizuggles do, but with some benefits:
     - Unlike zuggles, zuggle drops don't become FE parents of anything newly fused to a weapon or shield.
     - Unlike invizuggles, individually detaching zuggle drops from Link is easy, and doesn't require a game close.
-            - This trick is sometimes called _local overload_.
+        - This trick is sometimes called _local overload_.
 - Zuggle dropped equipment will continue to have its physics updated during some cutscenes and dialog text.
 - Ascending while a zuggle drop is being recalled will immediately cancel the recall. This is a way to test if some dropped equipment is a zuggle drop or not.
 
