@@ -101,7 +101,6 @@ Methods are partitioned based on their resulting structure.
     - This method builds on Method 1 with a new culling method, increasing the speed and reducing the setup time and complexity.
     - However, it can only be performed at a culling area.
 
-
     Prepare:
 
     - 13 Zuggle Overload
@@ -142,17 +141,17 @@ Methods are partitioned based on their resulting structure.
             LINK[Link]
             TORCH[Torch]
             FLAME[Flame Emitter]
-            A[DI Ghost (A)]
-            B[Normal Item (B)]
-            C[DI Ghost Shield (C)]
-            D[Normal Shield (D)]
-            E[Normal Weapon (E)]
+            A["DI Ghost (A)"]
+            B["Normal Item (B)"]
+            C["DI Ghost Shield (C)"]
+            D["Normal Shield (D)"]
+            E["Normal Weapon (E)"]
             F[Target]
             
             A -->|DI| C
             B -->|DI| C
             B -->|Glue| TORCH
-            FLAME -->|Point at| TORCH
+            FLAME -->|"Point at"| TORCH
             LINK -->|Smuggle| C
             LINK -->|Equip| E
             LINK -->|"Overload<br/>Drop"| D
@@ -169,8 +168,8 @@ Methods are partitioned based on their resulting structure.
     obsolete: false
     ---
 
-    - This method uses Mineru as a culling source, placing her in limbo to maximize control over her culling.
-    - It is the fastest overload method, but can only be done when & where Mineru's Sage Avatar can be summoned.
+    - This method uses Mineru as a culling source, placing her in Limbo to maximize control over her culling.
+    - It is the fastest overload method, but can only be done when & where Mineru's Sage Avatar can be summoned and put into Limbo.
 
     Prepare:
 
@@ -184,7 +183,7 @@ Methods are partitioned based on their resulting structure.
 
     1. Mineru FE B
     2. [Smuggle](uid:TGY) A, equip B, and target Shield `C` with Fuse
-    3. Induce Mineru to **cull** and fuse shortly before B culls; this will DI C
+    3. Induce Mineru to **cull** and fuse C to B shortly before B culls; this will DI C
     4. Place B aside and _smuggle_ C
     5. [Overload Drop](uid:8QH) Shield `D` and fuse to Weapon `E`
 
@@ -233,30 +232,34 @@ Methods are partitioned based on their resulting structure.
 
     - Method 4 uses Aerophasing as a culling source, allowing for a use-anywhere method on all patches.
     - However: It's not very good
+    - (I should figure out the ghosted torch culling method and add it instead, huh...)
+    - (Ugh I could recommend it for sfo too)
 
     Prepare:
 
     - 13 Zuggle Overload
-    - A DI Shield (A), ideally a DI Ghost (all types can be mirrored)
+    - A DI Shield `A`, ideally a DI Ghost (all types can be mirrored)
     - Intangible Aerophasing
 
     Creating the setup:
 
-    1. Smuggle A and equip Normal Shield B, then stand on the phasing platform
-    2. Just after Link unculls, fuse a weapon C to B; Link will cull and C will DI
-    3. Drop B and leave it aside, but pick up and re-smuggle A
-    4. Overload FE weapon D to A
-    5. Swap shield, then drop it to leave A Zuggle Dropped
-    6. Smuggle C, equip B, and Overload Pickup D
-    7. Glue D to something to elevate it and ensure it cannot accidentally be targeted by Fuse
+    1. [Smuggle](uid:TGY) A and equip Normal Shield `B`, then stand on the phasing platform
+    2. Optionally, **Pause** the game while Link is culled. This causes him to always be unculled right after unpausing, making fuse timing easier throughout the method
+    2. Just after Link uncullls, **fuse** a weapon `C` to B; Link will cull soon enough to Ghost DI C
+    3. Drop B and leave it aside, but **pick up** and re-**smuggle** A
+    4. [Overload FE](uid:0XV) weapon `D` to A
+    5. Swap shield, then drop it to leave A [Zuggle Dropped](uid:L84)
+    6. **Smuggle** C, **equip** B, and [Overload Pickup](uid:8QH) D
+    7. **Glue** D to something to elevate it and ensure it cannot accidentally be targeted by Fuse. Face the blade _away_ from the other object to keep fuse targets from colliding with it.
 
     Creating DI Ghosts
 
     1. Stand on the phasing platform
-    2. Just after Link unculls, fuse target to D (overload fe)
-    3. Just after Link unculls, fuse target to D again. As it already has an FE parent (C), this time it will Pseudo-fuse to D and begin fading away
+    2. Just after Link unculls, **fuse** target to D (overload fe)
+    3. Just after Link unculls, **fuse** target to D again. As it already has an FE parent (C), this time it will Pseudo-Fuse to D and begin fading away
     4. Link will cull soon enough after to automatically DI the target (by culling B, which culls C)
-    5. After 30 successful uses, destroy C and D, then remake them to continue
+    5. Repeat from step 2 with the next target. The previous targets can stay attached to D without issue 
+    5. To continue beyond 30 successful uses, first **destroy** and **remake** C and D
 
     !!! danger "Fuse-Over(load)"
 
@@ -284,7 +287,7 @@ Methods are partitioned based on their resulting structure.
             D -->|CF| TARGET
         ```
 
-    _"Method" developed by Squidwest - no date or reference because it's not good enough_
+    _"Method" developed by Squidwest - no date or reference because it's not good enough lol_
 
 === "DI Chaining Methods" ###
 
@@ -345,18 +348,28 @@ Methods are partitioned based on their resulting structure.
         
         If weapons were used, zuggle every other in the chain (or less frequently if desired), use fuse-over detangle to leave only a cf remnant, then **destroy** the detangled weapons to break the chain apart. (a proper weapon detanglement is not viable for this use-case)
 
-    ??? example "Diagram"
+    ??? example "Method Structure Diagram"
 
         ```mermaid
         graph TD
-            A[DI Ancestor] -->|DI| B[DI Child]
-            C[Normal Parent] -->|DI| B
-            B -->|DI| D[DI Grandchild]
-            E[Normal Parent] -->|DI| D
-            D -->|DI| F[DI Descendant]
-            G[Normal Parent] -->|DI| F
-            F -->|...| H{Further Generations}
-            I[Normal Parent] -->|...| H
+            A[DI Ancestor]
+            B[Normal Ancestor]
+            C[DI Parent]
+            D[Normal Parent]
+            E[DI Child]
+            F[Normal Parent]
+            G[DI Grandchild]
+            H[Normal Parent]
+            I{Further Generations}
+
+            A -->|DI| C
+            B -->|DI| C
+            C -->|DI| E
+            D -->|DI| E
+            E -->|DI| G
+            F -->|DI| G
+            G -->|DI| I
+            H -->|DI| I
         ```
 
     _Method developed by Squidwest(?) - Jan 23, 2026(?)_
@@ -397,7 +410,7 @@ Methods are partitioned based on their resulting structure.
         
         If weapons were used, zuggle every other in the chain (or less frequently if desired), use fuse-over detangle to leave only a cf remnant, then **destroy** the detangled weapons to break the chain apart. (a proper weapon detanglement is not viable for this use-case)
 
-    ??? example "Diagram"
+    ??? example "Method Structure Diagram"
 
         ```mermaid
         graph TD
@@ -525,29 +538,63 @@ Methods are partitioned based on their resulting structure.
         9. **Repeat** from step 3 with D as the next target
         10. After the process has been repeated to satisfaction, despawn all the normal parents of the chain by distance or chasm (which also performs a FarDelete)
 
-    ??? example "Diagram"
+    ??? example "Method Structure Diagram"
 
         ```mermaid
         graph TD
-            A[DI Ancestor] -->|DI| B[DI Child]
-            C[Normal Parent] -->|DI| B
-            B -->|DI| D[DI Grandchild]
-            E[Normal Parent] -->|DI| D
-            D -->|DI| F[DI Descendant]
-            G[Normal Parent] -->|DI| F
-            F -->|...| H{Further Generations}
-            I[Normal Parent] -->|...| H
+            A[DI Ancestor]
+            B[Normal Ancestor]
+            C[DI Parent]
+            D[Normal Parent]
+            E[DI Child]
+            F[Normal Parent]
+            G[DI Grandchild]
+            H[Normal Parent]
+            I{Further Generations}
+
+            A -->|DI| C
+            B -->|DI| C
+            C -->|DI| E
+            D -->|DI| E
+            E -->|DI| G
+            F -->|DI| G
+            G -->|DI| I
+            H -->|DI| I
         ```
 
     _Method developed by ??? - I don't know who did it first or when so I'm not prepared to claim authorship_
 
 === "Turbo Cloning Methods" ###
 
-    - These methods use a purgatorized DI shield to repeatedly fuse, then Octo Detangle, each target in turn.
+    - These methods use a purgatorized DI shield to repeatedly [Turbo Clone] each target in turn, without inadvertently dropping the DI shield.
     - The setup will persist in place indefinitely until the game is closed.
     - They are optimal for batch production without Zuggle Overload.
     - They are also ideal for both shield batches of any size, and for repeatedly creating small batches of any target type.
     - The only difference between the methods lies in the conisderations made for the target type.
+
+    #### The Setup ?
+    ---
+    versions: ["1.2.0","1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    obsolete: false
+    ---
+
+    - This is the base part of the setup, which only needs to be created once, and can be used for all the below methods.
+    - Thus, the below methods will assume this portion was already performed, and will use the established names for the components.
+
+    Prepare:
+
+    - A DI Shield `A`
+    - An Octo Balloon
+    - A Shock Fruit (or other shock source)
+    
+    Steps:
+
+    1. **Dupe** 3 copies of A
+    2. Use A to [Ghost DI](uid:BEW#method-1-fuse-drop-swap-120) DI shield `B`, then dispose of the normal parent
+    3. Use A and normal parent `C` to Ghost DI an Octo Balloon
+    4. [Smuggle](uid:TGY) B and **equip** C
+    5. Get shocked with shield unsheathed; this will purgatorize B and cause it to only attach when it has a dependency chain back to Link via A
+    6. Use C so that the Octo Ballon detangles from it; C can then be disposed of or reused in the DI process
 
     #### Method 9: <br/>For Shields ?
     ---
@@ -555,20 +602,11 @@ Methods are partitioned based on their resulting structure.
     obsolete: false
     ---
 
+    - This method is the simplest and fastest of the Turbo Cloning methods, making it ideal for quickly producing DI Ghosts to, for example, PSLOT objects.
+
     Prepare:
-
-    - A DI Shield `A`
-    - An Octo Balloon
-    - A Shock Fruit
-
-    Creating the setup:
     
-    1. Dupe 3 copies of A
-    2. Use A to [Clone](uid:BEW) DI shield B, then dispose of the normal parent
-    3. Use A and normal parent C to DI an Octo Balloon
-    4. [Smuggle](uid:TGY) B and equip C
-    5. Get shocked with shield unsheathed; this will purgatorize B and cause it to only attach when it has a dependency chain back to Link via A
-    6. Use C so that the Octo Ballon detangles from it; C can then be disposed of or reused in the DI process
+    - The base setup
 
     ??? abstract "Creating DI Ghost Shields (Steady Variant)"
 
@@ -591,11 +629,10 @@ Methods are partitioned based on their resulting structure.
 
         !!! tip "Mistake recovery"
 
-            If a detanglement is failed, disregard the still-attached target. Recover by additionally duping a new target from one of the prior targets and dropping it.
+            - If a detanglement is failed, disregard the still-attached target and continue as normal. Don't detangle it later, as it will remain persistently Cold Fused to A (which can eventually make it unusable). A new target will need to be duped from one of the prior targets.
+            - If a DI is failed, continue as though it was never attempted.
 
-            If a DI is failed, continue as though it was never attempted.
-
-        ??? example "Diagram"
+        ??? example "Method Structure Diagram"
 
             ```mermaid
             graph TD
@@ -630,22 +667,21 @@ Methods are partitioned based on their resulting structure.
 
         !!! tip "Mistake recovery"
 
-            If a detanglement is failed, disregard the still-attached target. The large number of potential targets prevents this from disrupting continuation.
+            - If a detanglement is failed, disregard the still-attached target and continue as normal. Don't detangle it later, as it will remain persistently Cold Fused to A (which can eventually make it unusable). The large pool of potential targets generally prevents this from affecting the process.
+            - If a DI is failed, continue as though it was never attempted.
 
-            If a DI is failed, continue as though it was never attempted.
+        ??? example "Method Structure Diagram"
 
-    ??? example "Diagram"
-
-        ```mermaid
-        graph TD
-            A[A] -->|DI| B[B]
-            A -->|DI| C[Octo Balloon]
-            B -->|DI| D[Target 1]
-            E[Normal Parent 1] -->|DI| D
-            F[Dupe of A] -->|Detangles| D
-            E -->|Becomes| G[Target 2]
-            F -->|Becomes| H[Normal Parent 2]
-        ```
+            ```mermaid
+            graph TD
+                A[A] -->|DI| B[B]
+                A -->|DI| C[Octo Balloon]
+                B -->|DI| D[Target From Pool 1]
+                E[Normal Parent 1] -->|DI| D
+                F[Dupe of A] -->|Detangles| D
+                E -->|Enters| G[Target Pool 2]
+                F -->|Becomes| H[Normal Parent 2]
+            ```
 
     #### "Method 10: <br/>For Weapons/Bows" ?
     ---
@@ -655,21 +691,10 @@ Methods are partitioned based on their resulting structure.
 
     Prepare:
 
-    - A DI Shield `A`
+    - The base setup
     - At least one of the target type, ideally a DI Ghost
-    - An Octo Balloon
-    - A Shock Fruit
 
-    Creating the setup:
-    
-    1. Dupe 3 copies of A
-    2. Use A to [Clone](uid:BEW) DI shield B, then dispose of the normal parent
-    3. Use A and normal parent C to DI an Octo Balloon
-    4. [Smuggle](uid:TGY) B and equip C
-    5. Get shocked with shield unsheathed; this will purgatorize B and cause it to only attach when it has a dependency chain back to Link via A
-    6. Use C so that the Octo Ballon detangles from it; C can then be disposed of or reused in the DI process
-
-    ??? abstract "Making DI Ghost Weapons/Bows (Steady Variant)"
+    ??? abstract "Creating DI Ghost Weapons/Bows (Steady Variant)"
 
         - This variant is slower, but follows a steady rhythm that makes it easier.
 
@@ -691,9 +716,22 @@ Methods are partitioned based on their resulting structure.
 
         !!! tip "Mistake recovery"
 
-            If a detanglement is failed, disregard the still-attached target and continue as normal. It can technically be detangled later, but the timing is stricter and it's slower than just running the process again.
-
+            If a detanglement is failed, disregard the still-attached target and continue as normal. Don't detangle it later, as it will remain persistently Cold Fused to A (which can eventually make it unusable).
+            
             If a DI is failed, continue as though it was never attempted.
+
+        ??? example "Method Structure Diagram"
+    
+            ```mermaid
+            graph TD
+                A[A] -->|DI| B[B]
+                A -->|DI| C[Octo Balloon]
+                B -->|DI| D[Target 1]
+                E[Normal Parent 1] -->|DI| D
+                F[Dupe of A] -->|Detangles| D
+                E -->|Becomes| G[Discarded]
+                F -->|Becomes| H[Normal Parent 2]
+            ```
 
     ??? abstract "Creating DI Ghost Weapons/Bows (Fast Variant)"
 
@@ -717,40 +755,36 @@ Methods are partitioned based on their resulting structure.
 
         !!! tip "Mistake recovery"
 
-            If a detanglement is failed, disregard the still-attached target and continue as normal. It can technically be detangled later, but the timing is stricter and it's slower than just running the process again.
+            If a detanglement is failed, disregard the still-attached target and continue as normal. Don't detangle it later, as it will remain persistently Cold Fused to A (which can eventually make it unusable).
 
             If a DI is failed, continue as though it was never attempted.
-
-    ??? example "Diagram"
-
-        ```mermaid
-        graph TD
-            A[A] -->|DI| B[B]
-            A -->|DI| C[Octo Balloon]
-            B -->|DI| D[Target 1]
-            E[Normal Parent 1] -->|DI| D
-            F[Dupe of A] -->|Detangles| D
-            E -->|Becomes| G[Discarded]
-            F -->|Becomes| H[Normal Parent 2]
-        ```
+    
+        ??? example "Method Structure Diagram"
+    
+            ```mermaid
+            graph TD
+                A[A] -->|DI| B[B]
+                A -->|DI| C[Octo Balloon]
+                B -->|DI| D[Target From Pool]
+                E[Normal Parent 1] -->|DI| D
+                F[Dupe of A] -->|Detangles| D
+                E -->|Becomes| G[Discarded]
+                F -->|Becomes| H[Normal Parent 2]
+            ```
 
     #### "Method 11: <br/>For Non-equipment"
+    ---
+    versions: ["1.2.0","1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    obsolete: false
+    ---
+
+    - Unlike equipment, DI Ghost objects (even materials from the pouch) cannot be used as a cloning source, or interacted with in general, so they are typically less useful to DI.
+    - This method is provided mostly for posterity, but there are occasional uses for DI Ghost objects, so who knows what may come.
 
     Prepare:
 
-    - A DI Shield `A`
-    - An Octo Balloon
-    - A Shock Fruit
+    - The base setup (with named components)
     - One of the target for _each_ DI Ghost to be made
-
-    Creating the setup:
-    
-    1. Dupe 3 copies of A
-    2. Use A to [Clone](uid:BEW) DI shield B, then dispose of the normal parent
-    3. Use A and normal parent C to DI an Octo Balloon
-    4. [Smuggle](uid:TGY) B and equip C
-    5. Get shocked with shield unsheathed; this will purgatorize B and cause it to only attach when it has a dependency chain back to Link via A
-    6. Use C so that the Octo Ballon detangles from it; C can then be disposed of or reused in the DI process
 
     ??? abstract "Creating DI Objects (Steady Variant)"
 
@@ -770,12 +804,22 @@ Methods are partitioned based on their resulting structure.
 
         !!! tip "Mistake recovery"
 
-        !!! tip "Mistake recovery"
-
-            If a detanglement is failed, disregard the still-attached target and continue as normal. It can technically be detangled later, but the timing is stricter and it's slower than just running the process again.
+            If a detanglement is failed, disregard the still-attached target and continue as normal. Don't detangle it later, as it will remain persistently Cold Fused to A (which can eventually make it unusable).
 
             If a DI is failed, continue as though it was never attempted.
 
+        ??? example "Method Structure Diagram"
+
+            ```mermaid
+            graph TD
+                A[A] -->|DI| B[B]
+                A -->|DI| C[Octo Balloon]
+                B -->|DI| D[Target 1]
+                E[Normal Parent 1] -->|DI| D
+                F[Dupe of A] -->|Detangles| D
+                E -->|Becomes| G[Discarded]
+                F -->|Becomes| H[Normal Parent 2]
+            ```
     ??? abstract "Creating DI Objects (Fast Variant)"
 
         1. Zuggle Drop A to attach B
@@ -790,31 +834,30 @@ Methods are partitioned based on their resulting structure.
 
         !!! tip "Mistake recovery"
 
-            If a detanglement is failed, disregard the still-attached target and continue as normal. It can technically be detangled later, but the timing is stricter and it's slower than just running the process again.
+            If a detanglement is failed, disregard the still-attached target and continue as normal. Don't detangle it later, as it will remain persistently Cold Fused to A (which can eventually make it unusable).
 
             If a DI is failed, continue as though it was never attempted.
 
-        ??? example "Diagram"
+        ??? example "Method Structure Diagram"
 
             ```mermaid
             graph TD
                 A[A] -->|DI| B[B]
                 A -->|DI| C[Octo Balloon]
-                B -->|DI| D[Target 1]
+                B -->|DI| D[Target From Pool]
                 E[Normal Parent 1] -->|DI| D
                 F[Dupe of A] -->|Detangles| D
                 E -->|Becomes| G[Discarded]
                 F -->|Becomes| H[Normal Parent 2]
             ```
 
-    _Turbo Replication developed by Aergyl - Jan 31, 2026_
+    _Turbo Replication discovered by Aergyl - Jan 31, 2026_
 
     _Batch methods developed by Squidwest - Mar 05, 2026_
 
 ## Notes
 
 - Due to the difference in resulting structure, these methods are usually _not_ interchangeable when called for by another tutorial. They have been grouped by structure for this reason.
-- Additional line added to allow changes to be committed
 
 ## References and Resources
 
