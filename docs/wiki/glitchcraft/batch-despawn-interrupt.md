@@ -670,13 +670,22 @@ Methods are partitioned based on their resulting structure.
 
             ```mermaid
             graph TD
-                A[A] -->|DI| B[B]
-                A -->|DI| C[Octo Balloon]
-                B -->|DI| D[Target 1]
-                E[Normal Parent 1] -->|DI| D
-                F[Dupe of A] -->|Detangles| D
-                E -->|Becomes| G[Target 2]
-                F -->|Becomes| H[Normal Parent 2]
+                A["DI Ghost (A)"]
+                B["Purgatorized<br/>DI Ghost (B)"]
+                OCTO["DI Ghost<br/> Octo Balloon"]
+                C[Target 1]
+                D[Normal Parent 1]
+                E[Dupe of A]
+                F[Target 2]
+                G[Normal Parent 2]
+
+                A -->|DI| B
+                A -->|DI| OCTO
+                B -->|DI| C
+                D -->|DI| C
+                E -->|Detangles| D
+                D -->|Becomes| F
+                E -->|Becomes| G
             ```
 
     ??? abstract "Creating DI Ghost Shields (Fast Variant)"
@@ -708,14 +717,24 @@ Methods are partitioned based on their resulting structure.
 
             ```mermaid
             graph TD
-                A[A] -->|DI| B[B]
-                A -->|DI| C[Octo Balloon]
-                B -->|DI| D[Target From Pool 1]
-                E[Normal Parent 1] -->|DI| D
-                F[Dupe of A] -->|Detangles| D
-                E -->|Enters| G[Target Pool 2]
-                F -->|Becomes| H[Normal Parent 2]
+                A["DI Ghost (A)"]
+                B["Purgatorized<br/>DI Ghost (B)"]
+                OCTO["DI Ghost<br/> Octo Balloon"]
+                C[Target From Pool 1]
+                D[Normal Parent 1]
+                E[Dupe of A]
+                F[Target Pool 2]
+                G[Normal Parent 2]
+
+                A -->|DI| B
+                A -->|DI| OCTO
+                B -->|DI| C
+                D -->|DI| C
+                E -->|Detangles| D
+                D -->|Enters| F
+                E -->|Becomes| G
             ```
+
 
     #### Method 10: <br/>For Weapons/Bows ?
     ---
@@ -762,13 +781,22 @@ Methods are partitioned based on their resulting structure.
     
             ```mermaid
             graph TD
-                A[A] -->|DI| B[B]
-                A -->|DI| C[Octo Balloon]
-                B -->|DI| D[Target 1]
-                E[Normal Parent 1] -->|DI| D
-                F[Dupe of A] -->|Detangles| D
-                E -->|Becomes| G[Discarded]
-                F -->|Becomes| H[Normal Parent 2]
+                A["DI Ghost (A)"]
+                B["Purgatorized<br/>DI Ghost (B)"]
+                OCTO["DI Ghost<br/> Octo Balloon"]
+                C[Target 1]
+                D[Normal Parent 1]
+                E[Dupe of A]
+                F[Discarded]
+                G[Normal Parent 2]
+
+                A -->|DI| B
+                A -->|DI| OCTO
+                B -->|DI| C
+                D -->|DI| C
+                E -->|Detangles| D
+                D -->|Becomes| F
+                E -->|Becomes| G
             ```
 
     ??? abstract "Creating DI Ghost Weapons/Bows (Fast Variant)"
@@ -801,13 +829,22 @@ Methods are partitioned based on their resulting structure.
     
             ```mermaid
             graph TD
-                A[A] -->|DI| B[B]
-                A -->|DI| C[Octo Balloon]
-                B -->|DI| D[Target From Pool]
-                E[Normal Parent 1] -->|DI| D
-                F[Dupe of A] -->|Detangles| D
-                E -->|Becomes| G[Discarded]
-                F -->|Becomes| H[Normal Parent 2]
+                A["DI Ghost (A)"]
+                B["Purgatorized<br/>DI Ghost (B)"]
+                OCTO["DI Ghost<br/> Octo Balloon"]
+                C[Target From Pool]
+                D[Normal Parent 1]
+                E[Dupe of A]
+                F[Discarded]
+                G[Normal Parent 2]
+
+                A -->|DI| B
+                A -->|DI| OCTO
+                B -->|DI| C
+                D -->|DI| C
+                E -->|Detangles| D
+                D -->|Becomes| F
+                E -->|Becomes| G
             ```
 
     #### Method 11: <br/>For Non-equipment ?
@@ -851,14 +888,24 @@ Methods are partitioned based on their resulting structure.
 
             ```mermaid
             graph TD
-                A[A] -->|DI| B[B]
-                A -->|DI| C[Octo Balloon]
-                B -->|DI| D[Target 1]
-                E[Normal Parent 1] -->|DI| D
-                F[Dupe of A] -->|Detangles| D
-                E -->|Becomes| G[Discarded]
-                F -->|Becomes| H[Normal Parent 2]
+                A["DI Ghost (A)"]
+                B["Purgatorized<br/>DI Ghost (B)"]
+                OCTO["DI Ghost<br/> Octo Balloon"]
+                C[Target 1]
+                D[Normal Parent 1]
+                E[Dupe of A]
+                F[Discarded]
+                G[Normal Parent 2]
+
+                A -->|DI| B
+                A -->|DI| OCTO
+                B -->|DI| C
+                D -->|DI| C
+                E -->|Detangles| D
+                D -->|Becomes| F
+                E -->|Becomes| G
             ```
+
     ??? abstract "Creating DI Objects (Fast Variant)"
 
         1. [Zuggle Drop](uid:L84) `A` to attach `B`
@@ -885,30 +932,18 @@ Methods are partitioned based on their resulting structure.
                 B["Purgatorized<br/>DI Ghost (B)"]
                 OCTO["DI Ghost<br/> Octo Balloon"]
                 C[Target From Pool]
-                D[Normal Parent]
+                D[Normal Parent 1]
                 E[Dupe of A]
                 F[Discarded]
+                G[Normal Parent 2]
 
                 A -->|DI| B
                 A -->|DI| OCTO
                 B -->|DI| C
-                D -->|DI| D
+                D -->|DI| C
                 E -->|Detangles| D
                 D -->|Becomes| F
-                E -->|Becomes| D
-            ```
-
-        ??? example "Method Structure Diagram"
-
-            ```mermaid
-            graph TD
-                A[A] -->|DI| B[B]
-                A -->|DI| C[Octo Balloon]
-                B -->|DI| D[Target From Pool]
-                E[Normal Parent 1] -->|DI| D
-                F[Dupe of A] -->|Detangles| D
-                E -->|Becomes| G[Discarded]
-                F -->|Becomes| H[Normal Parent 2]
+                E -->|Becomes| G
             ```
 
     _Turbo Replication discovered by Aergyl - Jan 31, 2026_
