@@ -8,14 +8,16 @@ aliases: ["smuggling"]
 
 ## Description
 
-An equipment smuggle is the state an equipment is put in when it is currently in the action of dropping, i.e. when it is in the drop queue. Smuggles naturally get created for 4 frames when any equipment is dropped from Link's hand. During those frames, the piece of equipment is outside of Link's inventory but is still visibly dropping, as the game is handling the drop.
-This state can be abused and kept for as long as desired using several methods in all versions.
+An equipment smuggle is the relation Link has to a piece of equipment when itg is in the act of being dropped. Smuggles naturally get created for 4 frames when any equipment is dropped from Link's hand. During those frames, the piece of equipment is outside of Link's inventory but is still visibly dropping, ready for the game to handle the drop.
+This state is supposed to be short-lived, but can be kept for longer than intended using several methods in all versions.
 
-The main reason to obtain longer-lasting smuggles is to trivially upgrade them into zuggles.
+Smuggling is not so much an equipment state (although the equipment getting ready to drop _is_), but more of how Link relates to the equipment.
+
+The main reason to obtain longer-lasting smuggles is to trivially upgrade them into [zuggles](uid:A1E), but they're also useful for fuse entanglement.
 
 ## Variants
 
-Smuggles can come in different variants, depending on their equip position, and if they're culled or not:
+Smuggles can come in different variants, depending on their [equip position](uid:S8I), and if they're culled or not:
 
 <table>
     <tr>
@@ -52,8 +54,7 @@ Smuggles can come in different variants, depending on their equip position, and 
     <tr>
         <th>Upgrading it to a zuggle</th>
         <td>Equip something else of that type, and fail drop it</td>
-        <td>Equip something else of that type, and warm drop or fail drop it</td>
-        <td>Equip it, and <a href="../zuggle-drop/">zuggle drop</a> it</td>
+        <td colspan="2">Equip something else of that type, and warm drop or fail drop it</td>
     </tr>
 </table>
 
@@ -67,10 +68,13 @@ The distinction between different equip positions is less important for culled s
 Although a smuggle is technically created whenever you [warm drop](uid:C6H) equipment, there are ways to create more persistent smuggles:
 
 === "Culling" ###
-    Cull the equipment (without culling Link) and drop it. The easiest way to do this is to Fuse Entangle it to some other equipment, which you leave in a culling area.
+    Cull the equipment (without culling Link) and drop it. The easiest way to do this is to Fuse Entangle it to some other equipment, which you leave in a culling area, or by FE-ing the equipment [to Mineru](uid:IG2).
 
 === "Overload" ###
-    Overload pickup the equipment, then drop it.
+    Overload pickup the equipment, then drop it. This will be a Ground Drop Smuggle.
+
+=== "Despawn Interrupt" ###
+    DI equipment loves to smuggle when it should just drop normally. Drop DI equipment, then equip and unequip something else of the same type.
 
 ## Comparison to zuggles
 
@@ -78,8 +82,16 @@ Smuggles and zuggles are very similar in behaviour and nature. From the equipmen
 
 ## Effects
 
-- **D-Pad Lock** - An active smuggle causes the D-Pad to lock on 1.1.2+, meaning that it is not possible to use the D-Pad or drop/swap/unequip equipment of the smuggle's type.
-    - On version 1.1.2 specifically, you can bypass d-pad lock by opening the ability wheel, then going straight to the quick menu before the game unpauses.
-    - Smuggling Despawn Interrupted equipment doesn't cause d-pad lock on any version.
+- **Culling** on version `1.2.0` and up - On newer versions of the game, a smuggle is culled if something else of that type is equipped, and unculled when the smuggle fully drops. This is what makes portable culling work (and why it takes a drop–swap, not just a drop).
+    - Fail drops didn't forcibly uncull until version `1.2.1`, so version `1.2.0` specifically can quick smuggle with no effort.
+- **D-Pad Lock** - An active smuggle causes the D-Pad to lock on version `1.1.2` and up, meaning that it is not possible to use the D-Pad or drop/swap/unequip equipment of the smuggle's type.
+    - On version `1.1.2` specifically, you can bypass d-pad lock by opening the ability wheel, then going straight to the quick menu before the game unpauses.
+    - Smuggling [Despawn Interrupted](uid:JEV) equipment doesn't cause d-pad lock on any version.
+    - D-Pad Lock doesn't happen while Link is culled.
 - **Fuse Entanglement** - Anything fused, fuse entangled, or animated cold fused to intended equipment will also fuse entangle to any unculled smuggle.
 - **Link equip state desync** - Most methods of smuggling equipment don't make Link realise he can directly equip new pickups. If you need to equip something after smuggling without it going straight into the inventory, you'll need to equip and unequip something else first.
+
+## See also
+
+- [Dropping mechanics](uid:NYI)
+

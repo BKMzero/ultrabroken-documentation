@@ -643,6 +643,12 @@
       "label": "GASW"
     },
     {
+      "id": "wiki/BEW/",
+      "uid": "BEW",
+      "name": "Ghost Despawn Interrupt",
+      "label": "GDI"
+    },
+    {
       "id": "wiki/WLM/",
       "uid": "WLM",
       "name": "Ghost Save Load Object Transfer",
@@ -1645,12 +1651,6 @@
       "label": "UD"
     },
     {
-      "id": "wiki/YNP/",
-      "uid": "YNP",
-      "name": "Unload WST",
-      "label": "UWST"
-    },
-    {
       "id": "wiki/36U/",
       "uid": "36U",
       "name": "Unsheathed Mastersword",
@@ -1966,6 +1966,14 @@
     },
     {
       "source": "wiki/0XV/",
+      "target": "wiki/A0R/"
+    },
+    {
+      "source": "wiki/0XV/",
+      "target": "wiki/JDP/"
+    },
+    {
+      "source": "wiki/0XV/",
       "target": "wiki/K4F/"
     },
     {
@@ -1982,11 +1990,19 @@
     },
     {
       "source": "wiki/0XV/",
+      "target": "wiki/MG1/"
+    },
+    {
+      "source": "wiki/0XV/",
       "target": "wiki/O64/"
     },
     {
       "source": "wiki/0XV/",
       "target": "wiki/P2F/"
+    },
+    {
+      "source": "wiki/0XV/",
+      "target": "wiki/XTY/"
     },
     {
       "source": "wiki/11M/",
@@ -2254,6 +2270,10 @@
     },
     {
       "source": "wiki/7DA/",
+      "target": "wiki/LMB/"
+    },
+    {
+      "source": "wiki/7DA/",
       "target": "wiki/MCM/"
     },
     {
@@ -2311,6 +2331,10 @@
     {
       "source": "wiki/7KZ/",
       "target": "wiki/EKY/"
+    },
+    {
+      "source": "wiki/7KZ/",
+      "target": "wiki/GDL/"
     },
     {
       "source": "wiki/7KZ/",
@@ -2621,6 +2645,46 @@
       "target": "wiki/K4F/"
     },
     {
+      "source": "wiki/BEW/",
+      "target": "wiki/76A/"
+    },
+    {
+      "source": "wiki/BEW/",
+      "target": "wiki/7KZ/"
+    },
+    {
+      "source": "wiki/BEW/",
+      "target": "wiki/8QH/"
+    },
+    {
+      "source": "wiki/BEW/",
+      "target": "wiki/B3B/"
+    },
+    {
+      "source": "wiki/BEW/",
+      "target": "wiki/GDL/"
+    },
+    {
+      "source": "wiki/BEW/",
+      "target": "wiki/IG2/"
+    },
+    {
+      "source": "wiki/BEW/",
+      "target": "wiki/K4F/"
+    },
+    {
+      "source": "wiki/BEW/",
+      "target": "wiki/LMB/"
+    },
+    {
+      "source": "wiki/BEW/",
+      "target": "wiki/MCM/"
+    },
+    {
+      "source": "wiki/BEW/",
+      "target": "wiki/MG1/"
+    },
+    {
       "source": "wiki/BK4/",
       "target": "wiki/00I/"
     },
@@ -2869,10 +2933,6 @@
       "target": "wiki/JMU/"
     },
     {
-      "source": "wiki/DUS/",
-      "target": "wiki/YNP/"
-    },
-    {
       "source": "wiki/E0G/",
       "target": "wiki/KFV/"
     },
@@ -3073,10 +3133,6 @@
       "target": "wiki/MCM/"
     },
     {
-      "source": "wiki/GTJ/",
-      "target": "wiki/YNP/"
-    },
-    {
       "source": "wiki/H2E/",
       "target": "wiki/056/"
     },
@@ -3270,11 +3326,23 @@
     },
     {
       "source": "wiki/JMU/",
+      "target": "wiki/8QH/"
+    },
+    {
+      "source": "wiki/JMU/",
       "target": "wiki/IG2/"
     },
     {
       "source": "wiki/JMU/",
       "target": "wiki/K4F/"
+    },
+    {
+      "source": "wiki/JMU/",
+      "target": "wiki/MCM/"
+    },
+    {
+      "source": "wiki/JMU/",
+      "target": "wiki/NZB/"
     },
     {
       "source": "wiki/JNU/",
@@ -3594,11 +3662,31 @@
     },
     {
       "source": "wiki/MG1/",
+      "target": "wiki/8QH/"
+    },
+    {
+      "source": "wiki/MG1/",
+      "target": "wiki/9HN/"
+    },
+    {
+      "source": "wiki/MG1/",
       "target": "wiki/B3B/"
     },
     {
       "source": "wiki/MG1/",
+      "target": "wiki/BEW/"
+    },
+    {
+      "source": "wiki/MG1/",
+      "target": "wiki/BOF/"
+    },
+    {
+      "source": "wiki/MG1/",
       "target": "wiki/GDL/"
+    },
+    {
+      "source": "wiki/MG1/",
+      "target": "wiki/IG2/"
     },
     {
       "source": "wiki/MG1/",
@@ -3607,6 +3695,18 @@
     {
       "source": "wiki/MG1/",
       "target": "wiki/K4F/"
+    },
+    {
+      "source": "wiki/MG1/",
+      "target": "wiki/LMB/"
+    },
+    {
+      "source": "wiki/MG1/",
+      "target": "wiki/MCM/"
+    },
+    {
+      "source": "wiki/MG1/",
+      "target": "wiki/NU6/"
     },
     {
       "source": "wiki/MLG/",
@@ -4259,18 +4359,6 @@
     {
       "source": "wiki/YM9/",
       "target": "wiki/ZJ2/"
-    },
-    {
-      "source": "wiki/YNP/",
-      "target": "wiki/7DA/"
-    },
-    {
-      "source": "wiki/YNP/",
-      "target": "wiki/JMU/"
-    },
-    {
-      "source": "wiki/YNP/",
-      "target": "wiki/MCM/"
     },
     {
       "source": "wiki/YTR/",

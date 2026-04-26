@@ -1085,6 +1085,20 @@
     "filename": "gas-warping.md"
   },
   {
+    "name": "Ghost Despawn Interrupt",
+    "uid": "BEW",
+    "label": "GDI",
+    "aliases": [
+      "Ghost DI",
+      "Ghost-DI",
+      "Ghost Frox",
+      "DI Ghost",
+      "Frox Ghost"
+    ],
+    "path": "wiki/BEW/",
+    "filename": "ghost-despawn-interrupt.md"
+  },
+  {
     "name": "Ghost Save Load Object Transfer",
     "uid": "WLM",
     "label": "GSLOT",
@@ -2185,7 +2199,8 @@
     "uid": "2D4",
     "label": "QS",
     "aliases": [
-      "quick-smuggling"
+      "quick-smuggling",
+      "quick smuggle"
     ],
     "path": "wiki/2D4/",
     "filename": "quick-smuggling.md"
@@ -2794,16 +2809,6 @@
     "filename": "unload-duping.md"
   },
   {
-    "name": "Unload WST",
-    "uid": "YNP",
-    "label": "UWST",
-    "aliases": [
-      "unload-wst"
-    ],
-    "path": "wiki/YNP/",
-    "filename": "unload-wst.md"
-  },
-  {
     "name": "Unsheathed Mastersword",
     "uid": "36U",
     "label": "UMS",
@@ -2954,7 +2959,9 @@
     "label": "WST",
     "aliases": [
       "weapon transfer",
-      "weapon-state-transfer"
+      "weapon-state-transfer",
+      "Unload WST",
+      "unload-wst"
     ],
     "path": "wiki/JMU/",
     "filename": "weapon-state-transfer.md"

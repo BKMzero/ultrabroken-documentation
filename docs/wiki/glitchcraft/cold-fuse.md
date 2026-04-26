@@ -35,7 +35,7 @@ Pseudo Fuse:
 Cold fusing a fuse entangled object causes it to be visually fused in the overworld, but not in the menu
 
 Shield packing:
-Combining pseudo fuse with purgatory items allows you to store multiple objects in a single weapon or shield and spawn them into the overworld by using detenglement.
+Combining pseudo fuse with purgatory items allows you to store multiple objects in a single weapon or shield and spawn them into the overworld by using detanglement.
 Discord (mulberry)
 
 ## Resources

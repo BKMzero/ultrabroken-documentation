@@ -6,7 +6,7 @@ versions: ["1.2.0"]
 credits: ["Suishi"]
 date: "2023-07-10"
 description: "Allows for easy and quick smuggling of any equipment, including arrow smuggle."
-aliases: ["quick-smuggling"]
+aliases: ["quick-smuggling", "quick smuggle"]
 tags: ["zuggling", "equipment", "arrow"]
 ---
 

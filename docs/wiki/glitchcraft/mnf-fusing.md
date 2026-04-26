@@ -36,7 +36,7 @@ _LegendofLinkk - 5 June 2023_
 
 ### "Method 3 (Transitive Zuggle FE, all versions)"
 	!!!danger Replacement Actors
-		This method doesn't work with any item that replaces its actor when fused (any item that has a single use when fused is a replacement actor, but there are others). Attempting it anyway will crash the game!
+		This method doesn't work with [any item that replaces its actor](uid:G46) when fused. Attempting it anyway will crash the game!
 
 	1. Zuggle the MNF
 	1. Equip any other unfused weapon
@@ -51,7 +51,7 @@ _LegendofLinkk - 5 June 2023_
 	draft: true
 	---
 	!!!danger Replacement Actors
-		This method doesn't work with any item that replaces its actor when fused (any item that has a single use when fused is a replacement actor, but there are others). Attempting it anyway will crash the game!
+		This method doesn't work with [any item that replaces its actor](uid:G46) when fused. Attempting it anyway will crash the game!
 
 	This method will consume a weapon (although zuggle overload makes it easy to dupe it first).
 
