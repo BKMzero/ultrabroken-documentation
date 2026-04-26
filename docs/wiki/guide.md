@@ -188,6 +188,7 @@ The hook automatically:
 |---|---|---|
 | `versions` | list of strings | Game versions this method works on. Use same slash notation as page frontmatter (e.g. `"1.3.0/1.4.0"`). |
 | `obsolete` | bool | `true` marks this method as obsolete. Renders a warning admonition and dims the tab label. |
+| `notoc` | bool | `true` removes this heading — and all headings nested inside it — from the sidebar TOC and scroll spy. |
 
 #### Syntax — Tabbed pages (multi-method)
 
@@ -240,6 +241,49 @@ The badge shown in the tab label and collapsible heading is computed from the `v
 | Non-contiguous (gap in the list) | `` `1.0.0-1.1.1` `` `` `1.2.0+` `` (one badge per run) |
 
 Platform tags like `"Switch 2"` are excluded from range computation entirely — they are appended as separate badges after the version range badges.
+
+#### Hiding sections from the TOC with `notoc`
+
+Sometimes a section exists for content organisation but adds noise to the sidebar — for example, a long appendix, internal notes, or a resource dump. Adding `notoc: true` to a metadata block removes that heading from the sidebar TOC and from the scroll spy (so the URL hash never updates to it).
+
+The scope is **level-based**: when a heading is marked `notoc`, every heading of strictly greater level that follows it is also suppressed, until a heading of equal or higher level resets the scope. You only need to mark the root — children are excluded automatically.
+
+```markdown
+## Properties
+---
+notoc: true
+---
+
+This section and everything nested inside it will not appear in the TOC.
+
+### Sub-property A
+
+Also hidden — level 3 is inside the level-2 notoc scope.
+
+### Sub-property B
+
+Also hidden.
+
+## Next Section
+
+Visible again — the notoc scope ended at this level-2 boundary.
+```
+
+The same field works on collapsible headings and tab headings:
+
+```markdown
+## Appendix ?
+---
+notoc: true
+---
+```
+
+```markdown
+=== "Internal Notes" ###
+    ---
+    notoc: true
+    ---
+```
 
 ## Site-Specific Features
 

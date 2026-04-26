@@ -186,10 +186,4 @@ the notoc scope ends here.  This heading should appear in the TOC.
 
 ## Summary
 
-| Section type | Marker | Expected TOC behaviour |
-|---|---|---|
-| Regular heading | `notoc: true` | Excluded, children auto-excluded |
-| Regular child | _(none, parent notoc)_ | Auto-excluded |
-| Collapsible heading | `notoc: true` | Excluded, children auto-excluded |
-| Tab heading | `notoc: true` | Excluded, children auto-excluded |
-| Sibling after notoc | _(none)_ | Visible — scope reset at same level |
+See the [Editor Guide](uid:X01#hiding-sections-from-the-toc-with-notoc) for full documentation and syntax reference.
