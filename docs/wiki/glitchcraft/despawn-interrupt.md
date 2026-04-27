@@ -284,6 +284,7 @@ Due to their differing attack patterns, the detailed instructions below will be 
     #### Method 9: Direct Fusion (Frox DI) ?
     ---
     versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    notoc: true
     obsolete: false
     ---
 
@@ -313,6 +314,7 @@ Due to their differing attack patterns, the detailed instructions below will be 
     #### Method 10: Pickup + Portacull (Frox DI) ?
     ---
     versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    notoc: true
     obsolete: false
     ---
 
@@ -340,6 +342,7 @@ Due to their differing attack patterns, the detailed instructions below will be 
     #### Method 11: Stake Culling (Either) ?
     ---
     versions: ["1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    notoc: true
     obsolete: false
     ---
 
@@ -373,6 +376,7 @@ Due to their differing attack patterns, the detailed instructions below will be 
     #### Method 12: Mineru FE + Portacull (Frox DI) ?
     ---
     versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    notoc: true
     obsolete: false
     ---
 
@@ -405,6 +409,7 @@ Due to their differing attack patterns, the detailed instructions below will be 
     #### Method 13: Wall-less Mineru Limbo (Duga Dip) ?
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    notoc: true
     obsolete: false
     ---
 
@@ -434,7 +439,12 @@ Due to their differing attack patterns, the detailed instructions below will be 
     _Discovered by Kleric - Feb 4th, 2026_
 
     #### Method 14: Wall-only Mineru Limbo (Duga Dip) ?
-
+    ---
+    versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    notoc: true
+    obsolete: false
+    ---
+    
     - Unlike Method 5 or Method 13, this method uses certain specific and rare arrangements of terrain to force Mineru into the Limbo state, allowing DI to be performed consistently at no additional cost.
     - However, due to the whims of the Sage of Spirit, these special locations can sometimes fail to force the Limbo state, requiring the attempt be aborted if the Molduga was already alerted.
     - After DI, the target retains an FE connection to Mineru, allowing her to be used as the culling source for [Ghost DI](uid:BEW) (most useful on `1.1.2` and below, and for Batch DI on all versions).
@@ -466,6 +476,11 @@ Due to their differing attack patterns, the detailed instructions below will be 
     _Discovered by Squidwest - Mar 13th, 2026_
 
     #### Method 15: Mineru FE + Portacull (Duga Dip) ?
+    ---
+    versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    notoc: true
+    obsolete: false
+    ---
 
     - This method is a variant of Method 12, using a Molduga instead.
     - It also makes use of an active Homing Cart, which will only damage the Molduga once the lunge actually begins, adding an additional timing cue.
@@ -496,6 +511,7 @@ Due to their differing attack patterns, the detailed instructions below will be 
     #### Method 16: Mineru FE Only (Either) ?
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    notoc: true
     obsolete: false
     ---
 
@@ -511,7 +527,7 @@ Due to their differing attack patterns, the detailed instructions below will be 
 
     Steps:
 
-    1. FE your target to Mineru
+    1. Mineru FE the target
     2. Place the target so that the Frox or Molduga will eat it
     3. Shortly before the monster's attack begins, start to **climb** a wall so that Mineru begins to cull
     4. If timed correctly, Mineru (and thus the target) will cull just after the target gets eaten
