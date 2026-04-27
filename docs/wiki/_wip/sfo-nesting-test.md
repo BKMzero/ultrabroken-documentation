@@ -264,120 +264,156 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
                 B --> |Batch DI| H
             ```
 
-    _SFO Method by MandelbrotChaylay and Squidwest_
+    _SFO Method developed by MandelbrotChaylay and Squidwest_
 
 === "Method 2: Attached Purgatory + DI" ###
     ---
-    versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
     ---
 
-    - This is a **Local** method that makes use of a specially-prepared DI equipment "multitool". to maximize portability and in-the-moment speed. It is ideal for duplication, and can be used for Mineru's Arm by an older route, but cannot be used for Zelda's Torch.
+    - This is a **Local** method that makes use of a specially-prepared equipment item to maximize portability and in-the-moment speed. It is ideal for duplication, and can be used for Mineru's Arm by an older route, but cannot be used for Zelda's Torch.
     - While it is technically possible on `1.1.2` and earlier, the absence of "Drop-Swap Culling" makes it significantly more difficult. Methods 3 and 4 will be faster and easier on those versions (for local and persistent needs, respectively).
 
-    ??? abstract "For Duplication"
+    #### The equipment ?
 
-        Prepare:
+    - In summary, make a DI Ghost shield with 30-32 DI Ghost weapons Cold Fused to it, then purgatorize all the weapons so that they can all be "equipped" at once by zuggle dropping the shield.
+    - The steps given will use [this method](uid:BEW#method-2-overload-pf-torch-culling-all-versions) of Batch DI to create the first 30 weapons, which is usually plenty.
+    - Afterwards, it will use [this method](uid:BEW#ghost-despawn-interrupt#method-1-fuse-drop-swap-120) of Ghost DI to create the final 2 weapons, which are helpful for reaching sfo but not mandatory.
+    - Apparently by "will use" I don't mean "later in the page" I mean "when I write it"
+    - Sorry about this one I mistook the basics of this method and had to completely rewrite it
 
-        - The "Multitool Loadout" (see discord link below (for now))
-        - Up to 21 materials
-        - A DI Weapon to dupe with
+    Prepare:
 
-        Part 1: Setting up and destroying SFO
+    - 13 Zuggle Overload (9 on 1.0.0)
+    - A DI Shield `A`
+    - A Torch
+    - A Flame Emitter
 
-        1. Enter a minigame with no timer. If only materials (and not Zonai Devices) are to be duped, a shrine will also work
-        2. Dupe a weapon (A1) and equip it
-        3. A1 [Clone](uid:BEW) DI Material/equipment (B1). **Do not detangle or delete A1.**
-        4. **Repeat** until attempting to fuse B[n] to A[n] fails (20-21 repetitions are expected); Menu Link should be overloaded at this point
-        5. To destroy SFO, simply inventory pickup each A[n], or exit shrine if in one. Distance despawn _will not fully work_ due to the properties of DI
+    Steps:
 
-        Part 2: Duplicating with SFO
+    1. Follow the torch culling thing verbatim until 30 DI weapons have been created with `C` as DI Parent
+    2. Safely delete both of C's parents
+    3. Use C to make 2 more DI weapons and delete the normal parents
+    4. Smuggle a DI weapon, then equip a random weapon and throw it, then unequip random
+    5. Repeat for all weapons
+    6. I think my head's not in this right now sorry
+    7. I'll fix it and add a pre-1.2.0 method when my brain is workin right (and restore the all versions badge)
 
-        ??? abstract "Throw Hold Duplication (devices or materials)"
-        
-            1. Ready a **throw** of the duplication target. It should fall to the ground
-            2. **Collect** it
-            3. Press **cancel** (B/X). This will "put away" the target Link "still had held", returning it to the pouch
-            4. Ready **throw** again. Each cycle will increase the quantity of the target by 1
-            5. **Inventory pickup** all A[n] to end SFO before ending the minigame (shrine exit will end SFO automatically)
-            6. Save the game/get an autosave
+    #### For Duplication ?
 
-        ??? abstract "SFO BID (materials only)"
+    Prepare:
 
-            1. **Pause**, hold 1 random material and **unpause**. It will fall from Link's cupped hands
-            2. Press A to drop the material. Link will still do the dropping animation
-            3. Hold 1 of the same material(?) and 4 of the duplication target. These will not appear in the world
-            4. Ready **throw** with the same material(???). This will make the duplication targets appear on the ground as well
-            5. Throw will need to stay readied from here out. It can be cancelled with B if necessary, so long as it is re-readied before continuing
-            6. **Collect** the 5 materials on the ground
-            7. **Pause**, un-hold the 4 duplication targets, and re-hold 4 duplication targets (they can be different)
-            8. **Unpause** and **collect** the 4 materials on the ground
-            9. Repeat steps 7 and 8 to satisfaction
-            10. **Inventory pickup** all A[n] to end SFO before ending the minigame (shrine exit will end SFO automatically)
-            11. Save the game/get an autosave
+    - The special equipment
+    - Up to 21 materials (optional)
+    - A DI Weapon to dupe with (optional, you _are_ expected to have overload at this point and that dupes just fine)
 
-        ??? example "Method Structure Diagram"
+    Part 1: Setting up and destroying SFO
 
-            ```mermaid
-            graph TD
-                MULTITOOL["Multitool's 31<br/>Purgatory Weapons"]
-                PARENTS["Normal Parents<br/>(A1-A21)"]
-                CHILDREN["DI Children<br/>(B1-B21)"]
+    1. Enter a minigame with no timer. If only materials (and not Zonai Devices) are to be duped, a shrine will also work
+    2. Zuggle Drop C to attach the 32 weapons to Link
+    3. Dupe a weapon `A1` and equip it
+    4. A1 [Ghost DI](uid:BEW) Material/equipment `B1`. **Do not detangle or delete A1.**
+    5. **Repeat** until attempting to fuse B[n] to A[n] fails (18-21 repetitions are expected depending on environment); Menu Link should be overloaded at this point
+    6. To destroy SFO, simply inventory pickup each A[n], or exit shrine if in one. Distance despawn _will not fully work_ due to the properties of DI
+    7. If safety is preferred, use equipment for all B[n] instead of materials. This way, if A[n] is destroyed by drop limit/distance, B[n] can still be manually destroyed to clear the dependencies.
 
-                MULTITOOL -->|"Fuse<br/>(becomes CF)"| CHILDREN
-                PARENTS -->|"Fuse<br/>(stays attached)"| CHILDREN
-            ```
-        
-    ??? abstract "For Mineru's Arm (Local SFO variant)"
+    Part 2: Duplicating with SFO
 
-        Prepare:
+    ??? abstract "Throw Hold Duplication (devices or materials)"
 
-        - The "Multitool Loadout" (see discord link below (for now))
-        - Up to 21 materials
-        - A DI Weapon to dupe with
-        - A Portacull Shield or the means to make one portably
+        1. Ready a **throw** of the duplication target. It should fall to the ground
+        2. **Collect** it
+        3. Press **cancel** (B/X). This will "put away" the target Link "still had held", returning it to the pouch
+        4. Ready **throw** again. Each cycle will increase the quantity of the target by 1
+        5. **Inventory pickup** all A[n] to end SFO before ending the minigame (shrine exit will end SFO automatically)
+        6. Save the game/get an autosave
 
-        Part 1: Setting up SFO
+    ??? abstract "SFO BID (materials only)"
 
-        1. Defeat Army and enter the tunnel before Ganondorf
-        2. Dupe a weapon (A1) and equip it
-        3. A1 [Clone](uid:BEW) DI Material (B1); **Do not detangle or delete A1.**
-        4. **Repeat** until attempting to fuse B[n] to A[n] fails (20-21 repetitions are expected); Menu Link should be overloaded at this point
-        5. Glue all A[n] together and ultrahand them into Ganon's Room, holding them far aside to keep them out of the way
+        1. **Pause**, hold 1 random material and **unpause**. It will fall from Link's cupped hands
+        2. Press A to drop the material. Link will still do the dropping animation
+        3. Hold 1 of the same material(?) and 4 of the duplication target. These will not appear in the world
+        4. Ready **throw** with the same material(???). This will make the duplication targets appear on the ground as well
+        5. Throw will need to stay readied from here out. It can be cancelled with B if necessary, so long as it is re-readied before continuing
+        6. **Collect** the 5 materials on the ground
+        7. **Pause**, un-hold the 4 duplication targets, and re-hold 4 duplication targets (they can be different)
+        8. **Unpause** and **collect** the 4 materials on the ground
+        9. Repeat steps 7 and 8 to satisfaction
+        10. **Inventory pickup** all A[n] to end SFO before ending the minigame (shrine exit will end SFO automatically)
+        11. Save the game/get an autosave
 
-        Part 2: Obtaining Mineru's Arm
+    - Throw hold is slower but does devices
+    - SFO BID is faster but doesn't
+    - It's a little faster than normal BID iirc? I'll get back to you on that
 
-        1. Progress the fight to Phase 2 (2nd form), and **drop** a fused equipment. The fuse should delete. If not, **drop** more one at a time until it does
-        2. Progress to Phase 3 (sages blown away), and find Mineru
-        3. **Pick up** her arm, which is invisible, collisionless, and repeatedly drops from either visible arm. It cannot be collected with an empty hand. Take several to be safe
-        4. **Inventory pickup** all A[n] to undo SFO and UNDOCK THE CONSOLE
-        5. **Fuse** something to Mineru's Arm. _If the console is docked, this will crash the game_
-        6. Zuggle Mineru's Arm. It will always fail-drop while on the ground, so either version can be done without a wall
-        7. If on `1.1.2` or earlier, Map Zuggle Mineru's Arm
-        8. If on `1.2.0` or later, use the portacull to SRZ Mineru's Arm
-        9. Load a save. If you undid SFO, there will be no crash risk
-        10. Go somewhere you can see a long way down and prepare recall (atop a Hover Stone raised with a Rocket is excellent)
-        11. Drop an equipped weapon and immediately recall the item fused to Mineru's Arm (which still has no collision)
-        12. Equip a weapon and pick up Mineru's Arm (it still cannot be collected with an empty hand)
-        13. Destroy the fuse on Mineru's Arm, this will prevent it from crashing the game when used as a faildrop wall while docked
-        14. Save the game/Get an autosave
+    ??? example "Method Structure Diagram"
 
-        ??? example "Method Structure Diagram"
+        ```mermaid
+        graph TD
+            SPECIAL["Special Equipment's 32<br/>Purgatory Weapons"]
+            PARENTS["Normal Parents<br/>(A1-A21)"]
+            CHILDREN["DI Children<br/>(B1-B21)"]
 
-            ```mermaid
-            graph TD
-                MULTITOOL["Multitool's 31<br/>Purgatory Weapons"]
-                PARENTS["Normal Parents<br/>(A1-A21)"]
-                CHILDREN["DI Children<br/>(B1-B21)"]
+            SPECIAL -->|"Fuse<br/>(becomes CF)"| CHILDREN
+            PARENTS -->|"Fuse<br/>(stays attached)"| CHILDREN
+        ```
 
-                MULTITOOL -->|"Fuse<br/>(becomes CF)"| CHILDREN
-                PARENTS -->|"Fuse<br/>(stays attached)"| CHILDREN
-            ```
+    #### For Mineru's Arm (Local SFO variant) ?
+
+    Prepare:
+
+    - The special equipment
+    - Up to 21 materials
+    - A DI Weapon to dupe with
+    - A Portacull Shield or the means to make one portably
+
+    Part 1: Setting up SFO
+
+    1. Defeat Army and enter the tunnel before Ganondorf
+    2. Zuggle C to attach the 32 weapons to Link
+    3. Dupe a weapon `A1` and equip it
+    4. A1 [Ghost DI](uid:BEW) DI Material or equipment `B1`; **Do not detangle or delete A1.**
+    5. **Repeat** until attempting to fuse B[n] to A[n] fails (18-21 repetitions are expected); Menu Link should be overloaded at this point
+    6. Glue all A[n] together and ultrahand them into Ganon's Room, holding them far aside to keep them out of the way
+
+    Part 2: Obtaining Mineru's Arm
+
+    1. Progress the fight to Phase 2 (2nd form), and **drop** a fused equipment. The fuse should delete. If not, **drop** more one at a time until it does
+    2. Progress to Phase 3 (sages blown away), and find Mineru
+    3. **Pick up** her arm, which is invisible, collisionless, and repeatedly drops from either visible arm. It cannot be collected with an empty hand when undiscovered. Take several to be safe
+    4. **Inventory pickup** all A[n] to undo SFO and UNDOCK THE CONSOLE
+    5. **Fuse** something to Mineru's Arm. _If the console is docked, this will crash the game_
+    6. Zuggle Mineru's Arm. It will always fail-drop while on the ground, so either version can be done without a wall
+    7. If on `1.1.2` or earlier, Map Zuggle Mineru's Arm
+    8. If on `1.2.0` or later, use the portacull to SRZ Mineru's Arm
+    9. Load a save. If you undid SFO, there will be no crash risk
+    10. Go somewhere you can see a long way down and prepare recall (atop a Hover Stone raised with a Rocket is excellent)
+    11. Drop an equipped weapon and immediately recall the item fused to Mineru's Arm (which still has no collision)
+    12. Equip a weapon and pick up Mineru's Arm (it reverts to undiscovered, so it still cannot be collected with an empty hand)
+    13. Destroy the fuse on Mineru's Arm, this will prevent it from crashing the game when used as a faildrop wall while docked
+    14. Save the game/Get an autosave
+
+    ??? example "Method Structure Diagram"
+
+        ```mermaid
+        graph TD
+            SPECIAL["Special Equipment's 32<br/>Purgatory Weapons"]
+            PARENTS["Normal Parents<br/>(A1-A21)"]
+            CHILDREN["DI Children<br/>(B1-B21)"]
+
+            SPECIAL -->|"Fuse<br/>(becomes CF)"| CHILDREN
+            PARENTS -->|"Fuse<br/>(stays attached)"| CHILDREN
+        ```
+
+    #### Nope
 
     ??? failure "No, it really can't"
-        This method relies on a specialized piece of equipment that takes time to create and has many uses. While it is technically possible to make the SFO permanent by permaculling all A[n], it completely nullifies the speed and portability of this method. If a pcull-based permanent method is desired, Method 4 will almost unquestionably be easier, faster, and simpler.
+    
+    - While it is technically possible to make the SFO permanent by permaculling all A[n], it completely nullifies the speed and portability of this method.
+    - If a pcull-based permanent method is desired, Method 4 will almost unquestionably be easier, faster, and simpler.
 
-    _Method by mulberry_
+    _SFO Method developed by mulberry_
 
 === "Method 3: Overload Cold Fuse" ###
     ---
@@ -662,16 +698,20 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
                 PERMACULL -->|Makes| STATE
             ```
 
-
 ## Properties
 
 - The global dependency heap is full, so no new dependencies can be registered
 - Every newly-loaded NPC and enemy will overload drop everything they're carrying
 - Many such overload drops will crash the game (presumably due to missing code for interacting with the world as a dropped item?)
 - Every newly-loaded fused equipment item will lose its fuse (It will detangle for one frame and then be deleted)
-- Every attempt at fusing something will cause [Fuse Overload Fuse Storage](uid:HQF)
+- This does not de-fuse the item in the inventory
 
-## Notes
+## Tips and Additional Uses
+
+- Link's equipment can be used for fine-grained control over the final few dependency slots. With a bow, fused shield, fused weapon (and its sheath), and fully synced armor, up to 9 dependencies are fully controllable.
+- SFO bypasses normal SDC protection on `1.2.0` and up, allowing any mountable object to be SDC'd simply by mounting
+- Depths Ghosts will despawn without having ever taken ownership of their weapons, allowing for Kinematic Weapons to be obtained without fusing them
+- Every attempt at fusing something will cause Fuse Overload Fuse Storage, allowing for [Fuse Overload Fuse Entanglement](uid:G8Q) without performing actual Fuse Overload
 
 ### Credits
 
@@ -684,9 +724,10 @@ I might end up distributing this into the right places but idk. Maybe both, for 
 - SFO BID found by mulberry
 - Mineru's Arm (peristent route) found by Squidwest
 - SFOFE by mulberry(?)
+- SFO KW found by Squidwest
 
 - Hand Purg + Batch DI SFO by MandelbrotChaylay, Squidwest
-- Multitool & Multitool SFO by mulberry
+- Hand Purg + non-batch DI SFO by mulberry
 - Overload Cold Fuse SFO by (probably also Aergyl and mulberry, this was the og method)
 - (Method 4 is really only an extension of Method 3, so I don't think it even _has_ seperate credits?)
 
@@ -702,11 +743,11 @@ Behold all my empty reference links (I don't want to do this right now but I do 
 - [SFO Throw Duplication]()
 - [Original Hand Purg + BDI Method]()
 - [Optimized Hand Purg + BDI Method]()
-- [Multitool]()
-- [Multitool SFO]()
+- [Hand Purg + DI Method]()
 - [SFOFE]()
 - [Easier Mineru's Arm Route]()
 - [SFO BID]()
+- [SFO KW]()
 
 ## Related
 - [Searchbar Query](search:Searchbar Query)
