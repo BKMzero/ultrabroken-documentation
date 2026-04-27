@@ -23,13 +23,10 @@ Page Todos:
 - Find a good, stable minigame or two to recommend (minecart land pre-cart entry seems good, provisionally, but I'm worried about all the gorons in the area (which iirc will crash if they load during sfo))
 - Re-recheck duplication method(s)
 - Actually obtain Zelda's Torch at some point to provide better directions and warn of the pitfalls
-- Seek help on crediting and resources at some point
 - Get some illustrative images, screenshots, and videos going
-- write everything else after the methods :/
 - Run the pre-`1.2.0` aerophasing setup by someone who actually plays an old patch
-- Update/Publish the permalinked pages to ensure nobody drop zuggles to do overload FE in 2026
-- (Do we need to make a page for VD/DI state manipulation? Interacting with them in general is different enough that a wiki-user only familiar with standard equipment state manipulation will make a lot of things unnecessarily difficult...)
-- I think updating each linked page to include best-practices for DI equipment (and/or entirely unique methods DI enables) is best...
+- Update/Publish the permalinked pages to include missing modern methods & tech
+- Additionally, update the permalinked pages to include DI tech wherever needed/practical
 
 ## Forewarnings and Tips
 
@@ -407,11 +404,14 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
         ```
 
     #### Nope
+    ---
+    notoc: true
+    ---
 
     ??? failure "No, it really can't"
     
-    - While it is technically possible to make the SFO permanent by permaculling all A[n], it completely nullifies the speed and portability of this method.
-    - If a pcull-based permanent method is desired, Method 4 will almost unquestionably be easier, faster, and simpler.
+        - While it is technically possible to make the SFO permanent by permaculling all A[n], it completely nullifies the speed and portability of this method.
+        - If a pcull-based permanent method is desired, Method 4 will almost unquestionably be easier, faster, and simpler.
 
     _SFO Method developed by mulberry_
 
@@ -421,7 +421,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
     obsolete: false
     ---
 
-    - This is a **Local** method with minimal additional glitches required. It is perfectly acceptable for duplicating throwables on all versions, and can obtain Mineru's Arm by an older route. It can also be made permanent via permacull; This is provided as Method 4 for clarity.
+    - This is a **Local** method with minimal additional glitches required. It is perfectly acceptable for duplicating throwables and holdables on all versions, and can obtain Mineru's Arm by an older route. It can also be made permanent via permacull; This is provided as Method 4 for clarity.
 
     ??? abstract "For Duplication"
 
@@ -706,48 +706,51 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
 - Every newly-loaded fused equipment item will lose its fuse (It will detangle for one frame and then be deleted)
 - This does not de-fuse the item in the inventory
 
-## Tips and Additional Uses
+### Tips and Additional Uses
 
 - Link's equipment can be used for fine-grained control over the final few dependency slots. With a bow, fused shield, fused weapon (and its sheath), and fully synced armor, up to 9 dependencies are fully controllable.
 - SFO bypasses normal SDC protection on `1.2.0` and up, allowing any mountable object to be SDC'd simply by mounting
 - Depths Ghosts will despawn without having ever taken ownership of their weapons, allowing for Kinematic Weapons to be obtained without fusing them
 - Every attempt at fusing something will cause Fuse Overload Fuse Storage, allowing for [Fuse Overload Fuse Entanglement](uid:G8Q) without performing actual Fuse Overload
 
+## Notes
+
 ### Credits
 
 I might end up distributing this into the right places but idk. Maybe both, for maximum referencing speed?
 
-- SFO discovered by Aergyl, mulberry(?)
-- Mineru's Arm (local route) found by (???)
-- Zelda's Torch found by (???)
-- SFO Throw Duplication found by (???)
-- SFO BID found by mulberry
-- Mineru's Arm (peristent route) found by Squidwest
-- SFOFE by mulberry(?)
-- SFO KW found by Squidwest
+- SFO discovered by Aergyl, mulberry - Dec 05th, 2025
+- Mineru's Arm ganon route found by mulberry - Dec 07th, 2025
+- Zelda's Torch obtained by mulberry - Dec 07th, 2025
+- SFO Throw Duplication found by mulberry - Dec 06th, 2025
+- SFO BID found by mulberry - Mar 27th, 2026
+- Mineru's Arm mainfield route found by Squidwest - Mar 18th, 2026
+- SFOFE by mulberry(?) - Feb 24th, 2026(?)
+- SFO KW found by Squidwest - Apr 24th, 2026
 
-- Hand Purg + Batch DI SFO by MandelbrotChaylay, Squidwest
-- Hand Purg + non-batch DI SFO by mulberry
-- Overload Cold Fuse SFO by (probably also Aergyl and mulberry, this was the og method)
+- Hand Purg + Batch DI SFO by MandelbrotChaylay - ??? 2026
+- Rediscovered and optimized by Squidwest - Feb 24th, 2026
+- Hand Purg + non-batch DI SFO by mulberry - Feb 24th, 2026
+- Overload Cold Fuse SFO by Aergyl, mulberry - Dec 05th, 2026
 - (Method 4 is really only an extension of Method 3, so I don't think it even _has_ seperate credits?)
 
 (it needs to be cleaned up and dated before anything else)
 
-## Resources
+### Resources
 
-Behold all my empty reference links (I don't want to do this right now but I do want to figure out what I even need to go track down)
+??? quote "Discord Resources"
 
-- [Original Discovery]()
-- [Original Mineru's Arm Get]()
-- [Original Zelda's Torch Get]()
-- [SFO Throw Duplication]()
-- [Original Hand Purg + BDI Method]()
-- [Optimized Hand Purg + BDI Method]()
-- [Hand Purg + DI Method]()
-- [SFOFE]()
-- [Easier Mineru's Arm Route]()
-- [SFO BID]()
-- [SFO KW]()
+    - [Original Discovery](https://discord.com/channels/1086729144307564648/1110956205624532993/1446913364268683395)
+    - [Original Zelda's Torch Get](https://discord.com/channels/1086729144307564648/1110956205624532993/1447220634987003984)
+    - [Original Mineru's Arm Get](https://discord.com/channels/1086729144307564648/1110956205624532993/1447304812197838930)
+    - [SFO Throw Duplication](https://discord.com/channels/1086729144307564648/1110956205624532993/1446921416875446423)
+    - Could not find a source for "Original Hand Purg + BDI Method"
+    - [Optimized Hand Purg + BDI Method](https://discord.com/channels/1111875355758837830/1128775917376897145/1475776267910516747)
+    - [Hand Purg + DI Method](https://discord.com/channels/1111875355758837830/1128775917376897145/1475872486359830538)
+    - [SFOFE](https://discord.com/channels/1111875355758837830/1128775917376897145/1475878511720923380)
+    - [Easier Mineru's Arm Route](https://discord.com/channels/1086729144307564648/1113557914444111873/1484238374909902868)
+    - [SFO BID](https://discord.com/channels/1086729144307564648/1113557914444111873/1487214470131486862)
+    - [SFO KW](https://discord.com/channels/1086729144307564648/1105598687167664239/1497841862579327147)
 
 ## Related
 - [Searchbar Query](search:Searchbar Query)
