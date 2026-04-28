@@ -20,7 +20,7 @@ _Discovered by mulberry; Optimizations by Aergyl, Jordan, MandelbrotChaylay, mul
 
 Page Todos:
 
-- Find a good, stable minigame or two to recommend (minecart land pre-cart entry seems good, provisionally, but I'm worried about all the gorons in the area (which iirc will crash if they load during sfo))
+- Find better minigames to recommend
 - Re-recheck duplication method(s)
 - Actually obtain Zelda's Torch at some point to provide better directions and warn of the pitfalls
 - Get some illustrative images, screenshots, and videos going
@@ -53,10 +53,17 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
     obsolete: false
     ---
 
+    #### Basic info ?
+    ---
+    notoc: true
+    ---
+
     - This is a **Persistent** method that makes use of DI equipment to maximize adjustability, ease of use, and framerate. 
     - It can be used for anything, but is best-suited for Mineru's Arm and Zelda's Torch.
     - While it is technically possible on `1.1.2` and earlier, the absence of "Drop-Swap Culling" makes it significantly more difficult.
     - Methods 3 and 4 will be faster and easier on those versions (for local and persistent needs, respectively).
+
+    _Method developed by MandelbrotChaylay, Squidwest; Optimized by MandelbrotChaylay, mulberry, Squidwest_
 
     #### For Mineru's Arm (Persistent SFO variant) ?
 
@@ -64,7 +71,6 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
     ---
     notoc: true
     ---
-
 
     - 13 Zuggle Overload (9 on `1.0.0`)
     - If on `1.1.2` or earlier, Intangible Aerophasing
@@ -96,6 +102,9 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
     15. **Recall Lock** A4, discarding A2 and A3 through the save load
 
     ##### Part 2: Performing and undoing SFO
+    ---
+    notoc: true
+    ---
 
     1. [Zuggle Drop](uid:L84) B1, equip A4, and **Overload Pickup** B2
     2. B1, B2, & A4 **Overload Batch DI** 30 shields `D1-D30`
@@ -147,7 +156,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
         ```
 
     #### For Zelda's Torch ?
-
+    
     ##### Prepare:
     ---
     notoc: true
@@ -224,7 +233,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
             B --> |Batch DI| H
         ```
 
-    #### For duplication
+    #### For duplication ?
 
     ##### Prepare:
     ---
@@ -244,32 +253,32 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
     ---
     notoc: true
     ---
-
-    1. B1 [Overload FE](uid:0XV#method-3-vddi-smugglezuggle) weapon `B2`
-    2. [Recall Lock](uid:EY8) B2
-    3. A1 and normal weapon `A2` [Ghost DI](uid:BEW#method-1-fuse-drop-swap-120) shield `A3`
-    4. A1 **Overload FE** normal shield `A4`
-    5. Equip A2, [Smuggle](uid:TGY) A3, and [Overload Pickup](uid:8QH) A4
-    6. A2-A4 [Overload Batch DI](uid:PG3#method-1-overload-pf-drop-swap-culling-120) 19 weapons `C1-C19`
-    7. **Fail-Drop** A4
-    8. A3 & A4 **Ghost DI** weapon `C20`
-    9. **Drop** A4
-    10. Re-smuggle A3, equip a random shield, and **Fuse** something disposable to it. This will leave A4 as the sole FE parent of C20
-    11. Throw purgatory all C: smuggle any one_ C[n], equip and throw any random weapon, and unequip that weapon, then repeat
-    12. **Recall Lock** A4, discarding A2 and A3 through the load
+    
+    1. Enter a minigame with no timer, such as House Building or the Desert Race's prep phase. If only materials (and not Zonai Devices) are to be duped, a shrine will also work
+    2. (You don't have to actually enter the minigame until part 2)
+    3. B1 [Overload FE](uid:0XV#method-3-vddi-smugglezuggle) weapon `B2`
+    4. [Recall Lock](uid:EY8) B2
+    5. A1 and normal weapon `A2` [Ghost DI](uid:BEW#method-1-fuse-drop-swap-120) shield `A3`
+    6. A1 **Overload FE** normal shield `A4`
+    7. Equip A2, [Smuggle](uid:TGY) A3, and [Overload Pickup](uid:8QH) A4
+    8. A2-A4 [Overload Batch DI](uid:PG3#method-1-overload-pf-drop-swap-culling-120) 19 weapons `C1-C19`
+    9. **Fail-Drop** A4
+    10. A3 & A4 **Ghost DI** weapon `C20`
+    11. **Drop** A4
+    12. Re-smuggle A3, equip a random shield, and **Fuse** something disposable to it. This will leave A4 as the sole FE parent of C20
+    13. Throw purgatory all C: smuggle any one_ C[n], equip and throw any random weapon, and unequip that weapon, then repeat
+    14. **Recall Lock** A4, discarding A2 and A3 through the load
 
     ##### Part 2: Performing and undoing SFO
     ---
     notoc: true
     ---
 
-    1. If duplicating Zonai Devices, enter a minigame with no timer, such as house building or the desert race prep phase. If duplicating other materials, enter a minigame _or_ a shrine
-    2. (Bear in mind that some npcs can _crash the game_ if they overload drop their equipment)
-    3. [Zuggle Drop](uid:L84) B1, equip A4, and **Overload Pickup** B2
-    4. B1, B2, & A4 **Overload Batch DI** 30 Shields `D1-D30`
-    5. There will be a substantial lag on the second fuse of each shield after D1, so using the D-pad to **drop-swap** is advised
-    6. _Super Fuse Overload_ should occur on the 30th shield. If confirmation is needed, **drop** the fused equipment item. If the fuse is deleted, SFO is active
-    7. To undo SFO: **pick up** each D[n], **unequip** it, and **drop** it. Each deleted shield will remove 20 dependencies from the global limit
+    1. [Zuggle Drop](uid:L84) B1, equip A4, and **Overload Pickup** B2
+    2. B1, B2, & A4 **Overload Batch DI** 30 Shields `D1-D30`
+    3. There will be a substantial lag on the second fuse of each shield after D1, so using the D-pad to **drop-swap** is advised
+    4. _Super Fuse Overload_ should occur on the 30th shield. If confirmation is needed, **drop** the fused equipment item. If the fuse is deleted, SFO is active
+    5. To undo SFO: **pick up** each D[n], **unequip** it, and **drop** it. Each deleted shield will remove 20 dependencies from the global limit
 
     ##### Part 3: Duplicating with SFO
     ---
@@ -322,12 +331,15 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
             B --> |Batch DI| H
         ```
 
-    _Method developed by MandelbrotChaylay, Squidwest; Optimized by MandelbrotChaylay, mulberry, Squidwest_
-
 === "Method 2: Attached Purgatory + DI" ###
     ---
     versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
+    ---
+
+    #### Basic info ?
+    ---
+    notoc: true
     ---
 
     - This is a **Local** method that makes use of a specially-prepared equipment item to maximize portability and in-the-moment speed.
@@ -335,11 +347,12 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
     - While it is technically possible on `1.1.2` and earlier, the absence of "Drop-Swap Culling" makes it significantly more difficult.
     - Methods 3 and 4 will be faster and easier on those versions (for local and persistent needs, respectively).
 
+    _Method developed by mulberry_
+
     #### The equipment ?
 
     - In summary, make a DI Ghost shield with 30-32 DI Ghost weapons Cold Fused to it, then purgatorize all the weapons so that they can all be "equipped" at once by zuggle dropping the shield.
-    - The steps given will use [this method](uid:BEW#method-2-overload-pf-torch-culling-all-versions) of Batch DI to create the first 30 weapons, which is usually plenty.
-    - Afterwards, it will use [this method](uid:BEW#ghost-despawn-interrupt#method-1-fuse-drop-swap-120) of Ghost DI to create the final 2 weapons, which are helpful for reaching sfo but not mandatory.
+    - This needn't be done using the given steps. However, they are optimized for speed and practicality.
 
     ##### Prepare:
     ---
@@ -356,7 +369,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
     notoc: true
     ---
 
-    1. Follow [This Batch DI method](uid:PG3#method-2-overload-pf-torch-culling-all-versions) to create a DI Ghost shield `C` with 30 DI Ghost weapon children (`F1` through `F30`)
+    1. Follow [this Batch DI method](uid:PG3#method-2-overload-pf-torch-culling-all-versions) to create a DI Ghost shield `C` with 30 DI Ghost weapon children (`F1` through `F30`)
     2. Swap shields to delete CF parent `D` (it is not desired), then drop the equipped shield to drop C
     3. Distance despawn B, then [Smuggle](uid:TGY) A and use a rocket shield. This will remove C's two parent dependencies, making room for 2 more children
     4. C and random shield [Ghost DI](uid:BEW#method-1-fuse-drop-swap-120) weapon `F31`
@@ -376,17 +389,17 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
 
     - The special equipment
     - A DI Weapon to dupe with (optional, you _are_ expected to have overload at this point and that dupes just fine)
-    - Up to 21 materials (optional, equipment can be used instead)
+    - Up to 21 materials
 
     ##### Part 1: Setting up and destroying SFO
     ---
     notoc: true
     ---
 
-    1. Enter a minigame with no timer. If only materials (and not Zonai Devices) are to be duped, a shrine will also work
+    1. Enter a minigame with no timer, such as House Building or the Desert Race's prep phase. If only materials (and not Zonai Devices) are to be duped, a shrine will also work
     2. Zuggle Drop C to attach the 32 weapons to Link
     3. Dupe a weapon `G1` and equip it
-    4. G1 [Ghost DI](uid:BEW) Material/equipment `H1`. **Do not detangle or delete G1.**
+    4. G1 [Ghost DI](uid:BEW) material/equipment `H1`. **Do not detangle or delete G1.**
     5. **Repeat** until attempting to fuse H[n] to G[n] fails (18-21 repetitions are expected depending on environment); Menu Link should be overloaded at this point
     6. To destroy SFO, simply inventory pickup each G[n], or exit shrine if in one. Distance despawn _will not fully work_ due to the properties of DI
     7. If safety is preferred, use equipment for all H[n] instead of materials. This way, if G[n] is destroyed by drop limit/distance, H[n] can still be manually destroyed to clear the dependencies.
@@ -452,7 +465,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
 
     - The special equipment
     - A DI Weapon to dupe with (optional, you _are_ expected to have overload at this point and that dupes just fine)
-    - Up to 21 materials (optional, equipment can be used instead)
+    - Up to 21 materials
     - A Portacull Shield or the means to make one portably
 
     ##### Part 1: Setting up SFO
@@ -463,9 +476,9 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
     1. Defeat Army and enter the tunnel before Ganondorf
     2. Zuggle C to attach the 32 weapons to Link
     3. Dupe a weapon `G1` and equip it
-    4. G1 [Ghost DI](uid:BEW) DI Material or equipment `H1`; **Do not detangle or delete G1.**
+    4. G1 [Ghost DI](uid:BEW) DI material/equipment `H1`; **Do not detangle or delete G1.**
     5. **Repeat** until attempting to fuse H[n] to G[n] fails (18-21 repetitions are expected); Menu Link should be overloaded at this point
-    6. Glue all G[n] together and ultrahand them into Ganon's Room, holding them far aside to keep them out of the way
+    6. Glue all G[n] together and Ultrahand them into Ganon's Room, holding them far aside to keep them out of the way
 
     ##### Part 2: Obtaining Mineru's Arm
     ---
@@ -509,13 +522,9 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
     notoc: true
     ---
 
-        - It is possible to exploit the mechanics of DI to make SFO persistent.
-        - This will be provided as a seperate method at a later date (The minimum form and what it's good for need to be determined first).
-        - If a persistent method is desired, Methods 1 or 4 will probably be easier (for `1.2.0+` and `1.0.0-1.1.2` respectively).
-
-    #### credit
-
-    _Method developed by mulberry_
+    - It is possible to exploit the mechanics of DI to make SFO persistent.
+    - This will be provided as a seperate method at a later date (The minimum form and what it's good for need to be determined first).
+    - If a persistent method is desired, Methods 1 or 4 will almost certainly be easier (for `1.2.0+` and `1.0.0-1.1.2` respectively).
 
 === "Method 3: Overload Cold Fuse" ###
     ---
@@ -523,11 +532,18 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
     obsolete: false
     ---
 
+    #### Basic info ?
+    ---
+    notoc: true
+    ---
+
     - This is a **Local** method with minimal additional glitches required. 
     - It is perfectly acceptable for duplicating throwables and holdables on all versions, and can obtain Mineru's Arm by an older route.
     - It can also be made permanent via permacull; This is provided as Method 4 for clarity.
+    
+    _Method by mulberry(?); Optimized by Aergyl, mulberry(?)_
 
-    #### For Duplication
+    #### For Duplication ?
 
     ##### Prepare:
     ---
@@ -547,7 +563,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
     notoc: true
     ---
 
-    1. If duplicating Zonai Devices, enter a minigame with no timer. If duplicating materials, enter a minigame or a shrine
+    1. Enter a minigame with no timer, such as House Building or the Desert Race's prep phase. If only materials (and not Zonai Devices) are to be duped, a shrine will also work
     2. [Overload Drop](uid:8QH) a shield and pick it up to duplicate shields until there are 19 dropped and 3+ spare in the inventory
     3. **Overload Drop** a weapon `A` and **Fuse** it to a shield `B`
     4. [Overload Cold Fuse](uid:O64) 21 shields `C1-C21` to A (the 19 dropped & 2 from inventory)
@@ -608,7 +624,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
             D -->|cf| E[Materials D1-D30]
         ```
 
-    #### For mineru's Arm (Local SFO variant)
+    #### For mineru's Arm (Local SFO variant) ?
 
     ##### Prepare:
     ---
@@ -630,7 +646,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
     ---
 
     1. Defeat Army and enter the tunnel before Ganondorf
-    2. Drop the portacull aside. Be sure not to go too far from any of the working objects (about halfway down the tunnel is fine)
+    2. Drop the portacull aside. Be sure not to go too far from any of the working objects (about halfway down the tunnel is safe)
     3. [Overload Drop](uid:8QH) a shield and pick it up to duplicate shields until there are 19 dropped and 3+ spare in the inventory
     4. **Overload Drop** a weapon `A` and **Fuse** it to a shield `B`
     5. [Overload Cold Fuse](uid:O64) 21 shields `C1-C21` to A (the 19 dropped & 2 from inventory)
@@ -642,7 +658,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
     11. **Overload Cold Fuse** an unrelated material to C[n]. If it works, **collect it** and **Overload Cold Fuse** the next D[n], then repeat. If it fails, _proceed to step 12_
     12. **Fail-drop** C(n) and **drop** it. You may have to **unequip your bow** for it to return. **Be sure it returns before dropping it.**
     13. **Drop** A, not too close to where the barrier will spawn (it cannot be moved after dropping it!)
-    14. Move B, all of C, and all of D into the bucket build
+    14. Move B, all of C, and all of D into the bucket build using Ultrahand
     15. Carry the bucket into Ganondorf's room, holding it high and far aside to keep it out of the way of the fight
 
     ##### Part 2: Obtaining Mineru's Arm
@@ -682,19 +698,22 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
             D -->|Take in| E
         ```
 
-    _Method by mulberry(?); Optimized by Aergyl, mulberry(?)_
-
 === "Method 4: Overload Cold Fuse + Permacull" ###
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
     ---
 
+    #### Basic info ?
+    ---
+    notoc: true
+    ---
+
     - This is a **Permacull** method with minimal additional glitches required. It is acceptable for Zelda's Torch and Mineru's Arm.
     - It _can_ be used for duplication, but is needlessly complex and hazardous for this usage; Use Method 3 instead.
     - The steps given are specialized for `1.1.2` and below. They will work on `1.2.0+`, but are inefficient.
 
-    #### For Zelda's Torch
+    #### For Zelda's Torch ?
 
     ##### Prepare:
     ---
@@ -731,7 +750,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
     13. **Fail-drop** C(n) and **drop** it. You may have to **unequip your bow** for it to return. **Be sure it returns before dropping it.**
     14. **Drop** A
 
-    ##### Part 2: Permaculling the Shields
+    ##### Part 2: Permaculling the shields
     ---
     notoc: true
     ---
@@ -754,6 +773,9 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
     5. Save the game or get an autosave
 
     ##### Resources ?
+    ---
+    notoc: true
+    ---
 
     ??? example "Method Structure Diagram"
 
@@ -768,7 +790,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
             B -->|Indirect Permacull| E
         ```
 
-    #### For Mineru's Arm (persistent SFO variant)
+    #### For Mineru's Arm (persistent SFO variant) ?
 
     ##### Prepare:
     ---
@@ -805,7 +827,7 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
     14. **Fail-drop** C(n) and **drop** it. You may have to unequip your bow for it to return. **Be sure it returns before dropping it.**
     15. **Drop** A
 
-    ##### Part 2: Permaculling the setup
+    ##### Part 2: Permaculling the shields
     ---
     notoc: true
     ---
@@ -831,6 +853,9 @@ There are three main use cases for SFO: obtaining Mineru's Arm, obtaining Zelda'
     7. Hard save the game if desired, then close it to clear SFO
 
     ##### Resources ?
+    ---
+    notoc: true
+    ---
 
     ??? example "Method Structure Diagram"
 
@@ -899,8 +924,6 @@ I might end up distributing this into the right places but idk. Maybe both, for 
 - Overload Cold Fuse SFO by Aergyl, mulberry - Dec 05th, 2026
 - (Method 4 is really only an extension of Method 3, so I don't think it even _has_ seperate credits? I ought to try this "reading" thing sometime idk)
 
-(it needs to be cleaned up and dated before anything else)
-
 ### Resources
 
 ??? quote "Discord Resources"
@@ -917,5 +940,7 @@ I might end up distributing this into the right places but idk. Maybe both, for 
     - [SFO BID](https://discord.com/channels/1086729144307564648/1113557914444111873/1487214470131486862)
     - [SFO KW](https://discord.com/channels/1086729144307564648/1105598687167664239/1497841862579327147)
 
-## Related
-- [Searchbar Query](search:Searchbar Query)
+### Related
+- [Zuggle Overload](search:Zuggle Overload)
+- [Despawn Interrupt](search:Despawn Interrupt)
+- [Fuse Entanglement](search:Fuse Entanglement)
