@@ -83,7 +83,7 @@ union of both.
     obsolete: false
     ---
 
-    `#### Multi-method section` above should show `All versions` (union of C1 + C2).
+    `#### Multi-method section` above should show `1.0.0-1.1.0` `1.2.0+` (union of C1 + C2 — note `1.1.1`/`1.1.2` are absent from both, so not a full `All versions`).
 
 === "Tab D" ###
 
