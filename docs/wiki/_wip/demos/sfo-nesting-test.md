@@ -14,40 +14,41 @@ tags: ["Equipment", "Fuse", "Overload", "Mineru"]
 
 ## Summary
 
-By creating 600-700 Cold Fuse connections, the game will be overloaded and unable to form any new dependencies. This causes every actor to act Zuggle Overloaded, and every equipment to act Fuse Overloaded.
+By creating 600-700 dependencies via Fuse, the game will be overloaded and unable to form any new dependencies. This causes every actor to act [Zuggle Overloaded](uid:8QH), and every equipment to act [Fuse Overloaded](uid:76A).
 
 _Discovered by mulberry; Optimizations by Aergyl, Jordan, MandelbrotChaylay, mulberry, Squidwest_
 
-Page Todos:
+## Information
 
-- Find better minigames to recommend
-- Re-recheck duplication method(s)
-- Actually obtain Zelda's Torch at some point to provide better directions and warn of the pitfalls
-- Get some illustrative images, screenshots, and videos going
-- Run the pre-`1.2.0` aerophasing setup by someone who actually plays an old patch
-- Update/Publish the permalinked pages to include missing modern methods & tech
-- Additionally, update the permalinked pages to include DI tech wherever needed/practical
+Every time the game needs to relate one actor to another, it creates a "dependency". This includes things like equipment<->user, fuse<->equipment, mountable<->rider, liftable<->lifter, and so on.
 
-## Forewarnings and Tips
+Any given actor stores every dependency it's involved in within its own array, with a maximum of 33 entries per actor (29 on `1.0.0`). If a dependency tries to be created, but one of the actors involved has a full array, the dependency will simply not be created. What we call the result depends on the actor in question. For Link, it's Zuggle Overload. For a Fuse parent, it's Fuse Overload. For a Fuse child, it's Object Overload.
 
-!!! danger "Panic!"
-    While SFO is active, Panic Blood Moons will constantly occur if they are able (ie on the main map and not in a minigame or cutscene). Additionally, some dependencies will **crash the game** if they fail to form!
+However, the game also stores any extant dependencies in a _global_ array with a maximum of 750 entries. If this array is filled, dependencies will _always_ fail to be created, even if there is room in the involved actors' own arrays.
 
-!!! info "Buckle up!"
-    Due to the massive number of connections required, every method is relatively complex. Before you begin, be sure to read the steps carefully, and be sure you understand the glitches that go into your chosen method.
+The global array is typically nearly empty, so a very large number of connections need to be made to fill it. In practice, only one kind of dependency is suitable: Cold Fuse, which can be used to create arbitrary networks of dependencies between fusible objects. On top of this, only two methods of creating CF connections are up to the task: [Overload Cold Fuse](uid:O64) and [Despawn Interrupt](uid:MG1) (the latter of which typically requires the former as a supplement).
 
-!!! info "Method Types"
-    There are three types of SFO method:
+Like many arrays, if the global dependency array becomes nearly full, the game will attempt to free up space by performing a Panic Blood Moon. Many game states prevent these from occuring, so SFO will usually (but not always) be performed in one of these states.
 
-    - Local methods are usually simpler and easier, but cannot be used for some cases (eg Zelda's Torch) because they will be destroyed on warp (including Panic Blood Moons), load, or excessive distance.
-    - Persistent methods are usually more complex, but can be used for all cases due to being protected from unintentional destruction (but still able to be destroyed on purpose).
-    - Permacull methods are local methods with all the components permanently culled. This balances usefulness and simplicity, at the cost of needing to close the game to be undone.
+!!! danger "Crash risk"
+    Finally, some dependencies will **crash the game** if they fail to form. Suspected examples include:
+
+    - Gorons and their "Goron Knuckle" weapon
+    - Monster-Control Crew leaders and their battle standard
 
 ## Instructions
 
-The precise instructions for SFO sometimes change depending on the intended usage. To account for this, several variants of each method are provided: One basic variant, plus one for each valid use case.
+- Expected execution time (from a clean launch of the game) is typically 20-40 minutes, depending on method and skill level. Before proceeding with a method, please read the instructions carefully, and be sure you understand the component glitches and techniques.
+- The precise instructions for SFO sometimes change depending on the intended usage. To account for this, several variants of each method are provided: One basic variant, plus one for each valid use case (excluding niche uses).
 
-=== "Method 1:<br/>Attached Purgatory + Overload Batch DI" ###
+!!! info "Method Types"
+    This page categorizes SFO methods into three types:
+
+    - "Local" methods are usually simpler and easier, but cannot be used for some cases (eg Zelda's Torch) because they will be destroyed on warp (including Panic Blood Moons), load, or excessive distance.
+    - "Persistent" methods are usually more complex, but can be used for all cases due to being protected from unintentional destruction (but are still able to be destroyed on purpose).
+    - "Permanent" methods are local methods with all the components permanently culled. This balances usefulness and simplicity, at the cost of needing to close the game to be undone.
+
+=== "Method 1 (Persistent):<br/>Purgatory + Overload Batch DI" ###
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -58,7 +59,7 @@ The precise instructions for SFO sometimes change depending on the intended usag
     notoc: true
     ---
 
-    - This is a **Persistent** method that makes use of DI equipment to maximize adjustability, ease of use, and framerate. 
+    - This is a [Persistent](#Instructions) method that makes use of DI equipment to maximize adjustability, ease of use, and framerate. 
     - It can be used for anything, but is best-suited for Mineru's Arm and Zelda's Torch.
     - While it is technically possible on `1.1.2` and earlier, the absence of "Drop-Swap Culling" makes it significantly more difficult.
     - Methods 3 and 4 will be faster and easier on those versions (for local and persistent needs, respectively).
@@ -375,7 +376,7 @@ The precise instructions for SFO sometimes change depending on the intended usag
     - Speed seems slightly different than normal BID but I'm not sure which way
     - Both dupes found by mulberry
 
-=== "Method 2: Attached Purgatory + DI" ###
+=== "Method 2 (Local):<br/>Purgatory + DI" ###
     ---
     versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -386,7 +387,7 @@ The precise instructions for SFO sometimes change depending on the intended usag
     notoc: true
     ---
 
-    - This is a **Local** method that makes use of a specially-prepared equipment item to maximize portability and in-the-moment speed.
+    - This is a [Local](#Instructions) method that makes use of a specially-prepared equipment item to maximize portability and in-the-moment speed.
     - It is ideal for duplication, and can be used for Mineru's Arm by an older route, but cannot be used for Zelda's Torch (...yet).
     - While it is technically possible on `1.1.2` and earlier, the absence of "Drop-Swap Culling" makes it significantly more difficult.
     - Methods 3 and 4 will be faster and easier on those versions (for local and persistent needs, respectively).
@@ -615,7 +616,7 @@ The precise instructions for SFO sometimes change depending on the intended usag
     - This will be provided as a seperate method at a later date (The minimum form and what it's good for need to be determined first).
     - If a persistent method is desired, Methods 1 or 4 will almost certainly be easier (for `1.2.0+` and `1.0.0-1.1.2` respectively).
 
-=== "Method 3: Overload Cold Fuse" ###
+=== "Method 3 (Local):<br/>Overload Cold Fuse" ###
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -626,7 +627,7 @@ The precise instructions for SFO sometimes change depending on the intended usag
     notoc: true
     ---
 
-    - This is a **Local** method with minimal additional glitches required. 
+    - This is a [Local](#Instructions) method with minimal additional glitches required. 
     - It is perfectly acceptable for duplicating throwables and holdables on all versions, and can obtain Mineru's Arm by an older route.
     - It can also be made permanent via permacull; This is provided as Method 4 for clarity.
     
@@ -834,7 +835,7 @@ The precise instructions for SFO sometimes change depending on the intended usag
             D -->|Take in| E
         ```
 
-=== "Method 4: Overload Cold Fuse + Permacull" ###
+=== "Method 4 (Permanent):<br/>Overload Cold Fuse + Permacull" ###
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     obsolete: false
@@ -845,7 +846,7 @@ The precise instructions for SFO sometimes change depending on the intended usag
     notoc: true
     ---
 
-    - This is a **Permacull** method with minimal additional glitches required. It is acceptable for Zelda's Torch and Mineru's Arm.
+    - This is a [Permanent](#Instructions) method with minimal additional glitches required. It is acceptable for Zelda's Torch and Mineru's Arm.
     - It _can_ be used for duplication, but is needlessly complex and hazardous for this usage; Use Method 3 instead.
     - The steps given are specialized for `1.1.2` and below. They will work on `1.2.0+`, but are inefficient.
 
@@ -1124,6 +1125,16 @@ I might end up distributing this into the right places but idk. Maybe both, for 
 - Hand Purg + non-batch DI SFO by mulberry - Feb 24th, 2026
 - Overload Cold Fuse SFO by Aergyl, mulberry - Dec 05th, 2026
 - (Method 4 is really only an extension of Method 3, so I don't think it even _has_ seperate credits? I ought to try this "reading" thing sometime idk)
+
+### Page Todos: ?
+
+- Find better minigames to recommend
+- Re-recheck duplication method(s)
+- Actually obtain Zelda's Torch at some point to provide better directions and warn of the pitfalls
+- Get some illustrative images, screenshots, and videos going
+- Run the pre-`1.2.0` aerophasing setup by someone who actually plays an old patch
+- Update/Publish the permalinked pages to include missing modern methods & tech
+- Additionally, update the permalinked pages to include DI tech wherever needed/practical
 
 ### Resources
 
