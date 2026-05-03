@@ -35,6 +35,9 @@ _Credits - See individual methods_
     ---
 
     ##### Info ?
+    ---
+    notoc: true
+    ---
 
     - This is the most basic overload method, requiring only the absolute minimum prerequisites.
     - As such, it can be done nearly anywhere at nearly any time.
@@ -42,11 +45,17 @@ _Credits - See individual methods_
     _Method developed by mulberry - Jan 17, 2026_
 
     ##### Prepare:
+    ---
+    notoc: true
+    ---
 
     - 13 Zuggle Overload
     - A DI Shield `A`, ideally a [DI Ghost](uid:BEW) (all types can be mirrored)
 
     ##### Creating the setup
+    ---
+    notoc: true
+    ---
 
     1. [Smuggle](uid:TGY) A and equip Normal Shield `B`
     2. **Fuse** Weapon `C` to B and **pause** a few frames after (for instance, by buffering the ability wheel at the same time as pressing Fuse, then selecting Map)
@@ -61,6 +70,9 @@ _Credits - See individual methods_
     12. Optionally, position a wall behind Link's back which can force B to **fail-drop**
 
     ##### Creating DI Ghosts
+    ---
+    notoc: true
+    ---
 
     1. **Fuse** target to D ([overload FE](uid:0XV) to C)
     2. **Fuse** target to D again. As it already has an FE parent (C), this time it will Pseudo-fuse to D and begin fading away
@@ -78,6 +90,9 @@ _Credits - See individual methods_
         When an overload-pickup (here, D) has a connection back to Link (here, via A), it is possible to target it to be fused to itself. Under most circumstances, this will immediately **crash the game** if attempted.
 
     ##### Resources ?
+    ---
+    notoc: true
+    ---
 
     ??? example "Method Structure Diagram"
 
@@ -104,6 +119,9 @@ _Credits - See individual methods_
     ---
 
     ##### Info ?
+    ---
+    notoc: true
+    ---
 
     - This method builds on Method 1 with a new culling method, increasing the speed and reducing the setup time and complexity.
     - However, it can only be performed at a culling area.
@@ -111,6 +129,9 @@ _Credits - See individual methods_
     _Method developed by mulberry - Feb 18, 2026_
 
     ##### Prepare:
+    ---
+    notoc: true
+    ---
 
     - 13 Zuggle Overload
     - A DI Weapon or Shield `A`
@@ -118,6 +139,9 @@ _Credits - See individual methods_
     - A flame emitter
 
     ##### Creating the setup
+    ---
+    notoc: true
+    ---
 
     1. A and normal item `B` [Ghost DI](uid:BEW) Shield `C`, keep normal parent
     2. [Smuggle](uid:TGY) C
@@ -128,6 +152,9 @@ _Credits - See individual methods_
     7. [Overload Drop](uid:8QH) a shield `D` and **Fuse** it to a weapon `E`
 
     ##### Creating DI Ghosts
+    ---
+    notoc: true
+    ---
 
     1. **Fuse** the target to D ([Overload FE](uid:0XV) to C)
     2. Use the ability wheel to open recall, then use it to open fuse and _immediately_ fuse the target to D again
@@ -143,6 +170,9 @@ _Credits - See individual methods_
         When an overload-pickup (here, D) has a connection back to Link (here, via E), it is possible to target it to be fused to itself. Under most circumstances, this will immediately **crash the game** if attempted.
 
     ##### Resources ?
+    ---
+    notoc: true
+    ---
 
     ??? example "Method Structure Diagram"
 
@@ -178,6 +208,9 @@ _Credits - See individual methods_
     ---
 
     ##### Info ?
+    ---
+    notoc: true
+    ---
 
     - This method uses Mineru as a culling source, placing her in Limbo to maximize control over her culling.
     - It is the fastest overload method, but can only be done when & where Mineru's Sage Avatar can be summoned and put into Limbo.
@@ -185,6 +218,9 @@ _Credits - See individual methods_
     _Method developed by mulberry - Mar 06, 2026_ 
 
     ##### Prepare:
+    ---
+    notoc: true
+    ---
 
     - 13 Zuggle Overload
     - A DI Weapon `A` (all types can be inverted)
@@ -193,6 +229,9 @@ _Credits - See individual methods_
     - A Stake (or other setup to place Mineru into limbo)
 
     ##### Creating the setup
+    ---
+    notoc: true
+    ---
 
     1. Mineru FE B
     2. [Smuggle](uid:TGY) A, equip B, and target Shield `C` with Fuse
@@ -201,7 +240,10 @@ _Credits - See individual methods_
     5. [Overload Drop](uid:8QH) Shield `D` and fuse to Weapon `E`
 
     ##### Creating DI Ghosts
-    
+    ---
+    notoc: true
+    ---
+
     1. Stand on a stake at the right height so that Mineru goes into "Limbo" when you cull her (Mineru invisible, but B and C unculled)
     2. **Fuse** target to D ([Overload FE](uid:0XV) to C)
     3. **Fuse** target to D again, and jump immediately after so that Mineru culls (and culls the target by extension)
@@ -216,6 +258,9 @@ _Credits - See individual methods_
         When an overload-pickup (here, D) has a connection back to Link (here, E), it is possible to target it to be fused to itself. Under most circumstances, this will immediately **crash the game** if attempted.
 
     ##### Resources ?
+    ---
+    notoc: true
+    ---
 
     ??? example "Method Structure Diagram"
 
@@ -244,6 +289,9 @@ _Credits - See individual methods_
     ---
 
     ##### Info ?
+    ---
+    notoc: true
+    ---
 
     - Method 4 uses Aerophasing as a culling source, allowing for a use-anywhere method on all patches.
     - However: It's not very good
@@ -253,12 +301,18 @@ _Credits - See individual methods_
     _"Method" developed by Squidwest - no date or reference because it's not good enough lol_
 
     ##### Prepare:
+    ---
+    notoc: true
+    ---
 
     - 13 Zuggle Overload
     - A DI Shield `A`, ideally a DI Ghost (all types can be mirrored)
     - Intangible Aerophasing
 
     ##### Creating the setup
+    ---
+    notoc: true
+    ---
 
     1. [Smuggle](uid:TGY) A and equip Normal Shield `B`, then stand on the phasing platform
     2. Optionally, **Pause** the game while Link is culled. This causes him to always be unculled right after unpausing, making fuse timing easier throughout the method
@@ -270,6 +324,9 @@ _Credits - See individual methods_
     7. **Glue** D to something to elevate it and ensure it cannot accidentally be targeted by Fuse. Face the blade _away_ from the other object to keep fuse targets from colliding with it.
 
     ##### Creating DI Ghosts
+    ---
+    notoc: true
+    ---
 
     1. Stand on the phasing platform
     2. Just after Link unculls, **fuse** target to D (overload fe)
@@ -287,6 +344,9 @@ _Credits - See individual methods_
         When an overload-pickup (here, D) has a connection back to Link (here, via A), it is possible to target it to be fused to itself. Under most circumstances, this will immediately **crash the game** if attempted.
 
     ##### Resources ?
+    ---
+    notoc: true
+    ---
 
     ??? example "Method Structure Diagram"
 
@@ -320,6 +380,9 @@ _Credits - See individual methods_
     ---
 
     ##### Info ?
+    ---
+    notoc: true
+    ---
 
     - Method 5 is the most basic chaining method, and the most minimal batch method in general.
     - Unlike with overload methods, the remaining methods in this section are generally downgrades, only serving to make the method possible on `1.1.2` and earlier.
@@ -337,6 +400,9 @@ _Credits - See individual methods_
     _Method developed by Squidwest(?) - Jan 23, 2026(?)_
 
     ##### Safe Variant ?
+    ---
+    notoc: true
+    ---
 
     ###### Prepare:
 
@@ -355,6 +421,9 @@ _Credits - See individual methods_
     9. After the process has been repeated to satisfaction, **despawn** all the normal parents of the chain by distance or chasm (which also performa a FarDelete)
 
     ##### Fast Variant ?
+    ---
+    notoc: true
+    ---
 
     ###### Prepare:
 
@@ -374,6 +443,9 @@ _Credits - See individual methods_
     10. After the process has been repeated to satisfaction, **despawn** all the normal parents of the chain by distance, drop limit, or chasm (which all performs a FarDelete)
 
     ##### Resources ?
+    ---
+    notoc: true
+    ---
 
     ??? example "Method Structure Diagram"
 
@@ -406,6 +478,9 @@ _Credits - See individual methods_
     ---
 
     ##### Info ?
+    ---
+    notoc: true
+    ---
 
     - This method uses Mineru FE to make the normal ancestor of the chain cull with her, allowing it to be used on any patch and anywhere Mineru's sage avatar can be summoned.
     - It does not feature Safe/Fast variants due to the difficulty of timing a drop-swap with Mineru's culling.
@@ -421,6 +496,9 @@ _Credits - See individual methods_
     _Method developed by ??? - I don't know when it was done first_
 
     ##### Prepare:
+    ---
+    notoc: true
+    ---
 
     - A DI Shield `A` (Method works the same with weapons)
     - A normal shield `B`
@@ -428,6 +506,9 @@ _Credits - See individual methods_
     - A stake
 
     ##### Steps:
+    ---
+    notoc: true
+    ---
 
     1. Mineru FE B
     2. [Smuggle](uid:TGY) A and equip B
@@ -443,6 +524,9 @@ _Credits - See individual methods_
     12. Finally, **detangle** B from Mineru before warping or dismissing her, to prevent her from destroying all your hard work
 
     ##### Resources ?
+    ---
+    notoc: true
+    ---
 
     ??? example "Method Structure Diagram"
 
@@ -477,6 +561,9 @@ _Credits - See individual methods_
     ---
 
     ##### Info ?
+    ---
+    notoc: true
+    ---
 
     - This method uses Pyroculling to cull the DI ancestor of the chain on command, thus culling the entire chain and allowing the DI chaining to continue. Chain.
     - I don't like it very much and I invented it. It's slow, inconsistent, and prone to self-destruction.
@@ -498,6 +585,9 @@ _Credits - See individual methods_
     _method "developed" by Squidwest - not worth posting about, even with the drop limit protection_
 
     ##### Prepare:
+    ---
+    notoc: true
+    ---
 
     - A DI Weapon or Shield `A`
     - A torch `B`
@@ -505,6 +595,9 @@ _Credits - See individual methods_
     - A flame emitter
 
     ##### Making the setup
+    ---
+    notoc: true
+    ---
 
     1. Duplicate 2 normal copies of A (`C` and `D`)
     2. [Cold Drop](uid:C6H) B and drop C
@@ -516,6 +609,9 @@ _Credits - See individual methods_
     9. To cull D, use the ability wheel to select and open Recall, causing a 2-frame pause. The torch should begin culling after cancelling recall, allowing C to cull with it
 
     ##### Making DI Ghosts
+    ---
+    notoc: true
+    ---
 
     1. [Smuggle](uid:TGY) D, **equip** Normal Shield `E`, and **drop** target Shield `F` on the ground
     2. Hold L to open the ability wheel, select Recall, and release L
@@ -529,6 +625,9 @@ _Credits - See individual methods_
     10. After the process has been repeated to satisfaction, despawn all the normal parents of the chain by distance, drop limit (except C), or chasm (which all perform a FarDelete)
 
     ##### Resources ?
+    ---
+    notoc: true
+    ---
 
     ??? example "Method Structure Diagram"
 
@@ -566,6 +665,9 @@ _Credits - See individual methods_
     ---
 
     ##### Info ?
+    ---
+    notoc: true
+    ---
 
     - This method uses Intangible Aerophasing to cull Link, and thus the intended normal parent of each DI item in the chain, allowing for a portable chaining method on all versions.
     - Astonishingly, it's actually decent.
@@ -588,6 +690,9 @@ _Credits - See individual methods_
     _Method developed by ??? - I don't know who did it first or when so I'm not prepared to claim authorship_
 
     ##### Safe Variant ?
+    ---
+    notoc: true
+    ---
 
     ###### Prepare:
 
@@ -609,6 +714,9 @@ _Credits - See individual methods_
     10. After the process has been repeated to satisfaction, despawn all the normal parents of the chain by distance, drop limit, or chasm (which all perform a FarDelete)
 
     ##### Fast Variant ?
+    ---
+    notoc: true
+    ---
 
     ###### Prepare:
 
@@ -629,6 +737,9 @@ _Credits - See individual methods_
     10. After the process has been repeated to satisfaction, despawn all the normal parents of the chain by distance or chasm (which also performs a FarDelete)
 
     ##### Resources ?
+    ---
+    notoc: true
+    ---
 
     ??? example "Method Structure Diagram"
 
@@ -676,12 +787,18 @@ _Credits - See individual methods_
     - Thus, the below methods will assume this portion was already performed, and will use the established names for the components.
 
     ##### Prepare:
+    ---
+    notoc: true
+    ---
 
     - A DI Shield `A`
     - An Octo Balloon
     - A Shock Fruit (or other shock source)
     
     ##### Steps:
+    ---
+    notoc: true
+    ---
 
     1. **Dupe** 3 copies of A
     2. Use A to [Ghost DI](uid:BEW#method-1-fuse-drop-swap-120) DI shield `B`, then dispose of the normal parent
@@ -697,6 +814,9 @@ _Credits - See individual methods_
     ---
 
     ##### Info ?
+    ---
+    notoc: true
+    ---
 
     - This method is the simplest and fastest of the Turbo Cloning methods, making it ideal for quickly producing DI Ghosts to, for example, PSLOT objects.
     - The "Steady" variant follows a short loop of inputs that makes it easier, but is much slower.
@@ -704,10 +824,16 @@ _Credits - See individual methods_
     - The difference lies in the fact that duping A prevents Fuse from highlighting the current target for roughly a full second.
 
     ##### Prepare:
-    
+        ---
+    notoc: true
+    ---
+
     - The base setup
 
     ##### Creating DI Ghost Shields (Steady Variant) ?
+    ---
+    notoc: true
+    ---
 
     1. [Zuggle Drop](uid:L84) `A` to attach `B`
     2. **Equip** another shield and a random 1-handed weapon, then **unsheathe** them
@@ -752,6 +878,9 @@ _Credits - See individual methods_
         ```
 
     ##### Creating DI Ghost Shields (Fast Variant) ?
+    ---
+    notoc: true
+    ---
 
     1. [Zuggle Drop](uid:L84) A to attach B
     2. **Equip** another shield and a random 1-handed weapon, then **unsheathe** them
@@ -802,6 +931,9 @@ _Credits - See individual methods_
     ---
 
     ##### Info ?
+    ---
+    notoc: true
+    ---
 
     - Due to the fact that the parents are still shields, this method produces a duplicate of A as a byproduct each time it is used.
     - Careful movement and a flat space (and perhaps a Stake to stand on) will prevent this from becoming a problem.
@@ -810,11 +942,17 @@ _Credits - See individual methods_
     - The difference lies in the fact that duping A prevents Fuse from highlighting the current target for roughly a full second.
 
     ##### Prepare:
+    ---
+    notoc: true
+    ---
 
     - The base setup
     - At least one of the target type, ideally a DI Ghost
 
     ##### Creating DI Ghost Weapons/Bows (Steady Variant)
+    ---
+    notoc: true
+    ---
 
     1. If a DI ghost of the target is already prepared, place it next to `A`
     2. Leave only one empty space in the Shield pouch and the target type's pouch. This will allow both A and the target to be consistently duplicated (versus duping 2 of one and none of the other)
@@ -861,6 +999,9 @@ _Credits - See individual methods_
         ```
 
     ##### Creating DI Ghost Weapons/Bows (Fast Variant)
+    ---
+    notoc: true
+    ---
 
     1. [Zuggle Drop](uid:L84) `A` to attach `B`
     2. **Equip** another shield and a random 1-handed weapon, then **unsheathe** them.
@@ -912,6 +1053,9 @@ _Credits - See individual methods_
     ---
 
     ##### Info ?
+    ---
+    notoc: true
+    ---
 
     - Unlike equipment, DI Ghost objects (even materials from the pouch) cannot be used as a cloning source, or interacted with in general, so they are typically less useful to DI.
     - This method is provided mostly for posterity, but there are occasional uses for DI Ghost objects, so who knows what may come.
@@ -920,11 +1064,17 @@ _Credits - See individual methods_
     - The difference lies in the fact that duping A prevents Fuse from highlighting the current target for roughly a full second.
 
     ##### Prepare:
+    ---
+    notoc: true
+    ---
 
     - The base setup (with named components)
     - One of the target for _each_ DI Ghost to be made
 
     ##### Creating DI Objects (Steady Variant)
+    ---
+    notoc: true
+    ---
 
     1. [Zuggle Drop](uid:L84) `A` to attach `B`
     2. **Equip** another shield and a random weapon, then **unsheathe** them
@@ -967,6 +1117,9 @@ _Credits - See individual methods_
         ```
 
     ##### Creating DI Objects (Fast Variant)
+    ---
+    notoc: true
+    ---
 
     1. [Zuggle Drop](uid:L84) `A` to attach `B`
     2. **Equip** another shield and a random weapon, then **unsheathe** them
