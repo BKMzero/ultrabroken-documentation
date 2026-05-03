@@ -27,7 +27,7 @@ All methods follow the same general pattern:
 3. Cull the target to interrupt the resulting fadeout despawn, locking in the state
 4. (usually) Detangle the target from its parent(s) to make it independent
 
-=== "Full Fuse Methods"
+=== "Full Fuse Methods" ###
 
     These methods FE the target to a DI parent and fully fuse the target to a normal parent; the latter will need to be detangled/despawned to make the target persistent.
 
@@ -121,7 +121,7 @@ All methods follow the same general pattern:
     6. Delete the normal parent by "FarDelete"; this can be done by sending it away with a rocket, dropping it down a chasm, or simply moving about 60m away
     7. Detangle the target from the DI parent; the fastest way to do this is to just use it again (DI objects with DI parents are protected from "fuse-over" deletion)
 
-=== "Pseudo Fuse Methods"
+=== "Pseudo Fuse Methods" ###
 
     These methods FE the target to a DI parent and CF the target to a normal parent, resulting in PF; this removes the need to detangle it from the normal parent.
 
