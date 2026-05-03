@@ -392,9 +392,9 @@ _Credits - See individual methods_
     !!! danger "Long Chains"
 
         Extended dependency chains (FE and CF) can cause instability, such as freezing the game on some cutscenes and loads.
-        
+
         If this method is performed with shields, simply zuggle a handful at once and use a rocket shield to fully detangle each zuggle, repeating for all the DI shields used.
-        
+
         If weapons were used, zuggle every other in the chain (or less frequently if desired), use fuse-over detangle to leave only a cf remnant, then **destroy** the detangled weapons to break the chain apart. (a proper weapon detanglement is not viable for this use-case)
 
     _Method developed by Squidwest(?) - Jan 23, 2026(?)_
@@ -633,7 +633,7 @@ _Credits - See individual methods_
 
         ```mermaid
         graph TD
-        
+
             FLAME["Flame Emitter"]
             A["DI Ancestor (A)"]
             B["Torch (B)"]
@@ -675,7 +675,7 @@ _Credits - See individual methods_
     !!! success "Decent"
 
         Method 8 is decent.
-        
+
     - The "Safe Variant" smuggles each DI ghost before using it, requiring few (or no) timed inputs, but is slower.
     - The "Fast Variant" drop-swaps each DI ghost before using it, requiring additional timed inputs, but is faster.
 
@@ -794,7 +794,7 @@ _Credits - See individual methods_
     - A DI Shield `A`
     - An Octo Balloon
     - A Shock Fruit (or other shock source)
-    
+
     ##### Steps:
     ---
     notoc: true
@@ -824,7 +824,7 @@ _Credits - See individual methods_
     - The difference lies in the fact that duping A prevents Fuse from highlighting the current target for roughly a full second.
 
     ##### Prepare:
-        ---
+    ---
     notoc: true
     ---
 
