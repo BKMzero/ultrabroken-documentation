@@ -14,7 +14,7 @@ tags: ["despawn-interrupt", "culling"]
 # Batch Despawn Interrupt
 
 ## Summary
-Some of the properties of DI Ghosts (typically equipment, sometimes otherwise) are best exploited with large numbers of them. This page provides various convenient ways to produce large numbers of them.
+Some of the properties of [DI Ghosts](uid:BEW) (typically equipment, sometimes otherwise) are best exploited with large numbers of them. This page provides various convenient ways to produce large numbers of them.
 
 _Credits - See individual methods_
 
@@ -34,7 +34,7 @@ _Credits - See individual methods_
     obsolete: false
     ---
 
-    ##### Info ?
+    ##### Info
     ---
     notoc: true
     ---
@@ -44,7 +44,7 @@ _Credits - See individual methods_
 
     _Method developed by mulberry - Jan 17, 2026_
 
-    ##### Prepare:
+    ##### Requirements
     ---
     notoc: true
     ---
@@ -118,7 +118,7 @@ _Credits - See individual methods_
     obsolete: false
     ---
 
-    ##### Info ?
+    ##### Info
     ---
     notoc: true
     ---
@@ -128,7 +128,7 @@ _Credits - See individual methods_
 
     _Method developed by mulberry - Feb 18, 2026_
 
-    ##### Prepare:
+    ##### Requirements
     ---
     notoc: true
     ---
@@ -207,7 +207,7 @@ _Credits - See individual methods_
     obsolete: false
     ---
 
-    ##### Info ?
+    ##### Info
     ---
     notoc: true
     ---
@@ -217,7 +217,7 @@ _Credits - See individual methods_
 
     _Method developed by mulberry - Mar 06, 2026_ 
 
-    ##### Prepare:
+    ##### Requirements
     ---
     notoc: true
     ---
@@ -288,19 +288,17 @@ _Credits - See individual methods_
     obsolete: false
     ---
 
-    ##### Info ?
+    ##### Info
     ---
     notoc: true
     ---
 
     - Method 4 uses Aerophasing as a culling source, allowing for a use-anywhere method on all patches.
-    - However: It's not very good
-    - (I should figure out the ghosted torch Link culling method and add it instead, huh...)
-    - (Ugh I could recommend it for sfo too)
+    - Unlike Methods 2 and 3, this method is a strict downgrade from Method 1 on patches that can perform the latter.
 
-    _"Method" developed by Squidwest - no date or reference because it's not good enough lol_
+    _Don't know who did this first but I doubt they want to be credited_
 
-    ##### Prepare:
+    ##### Requirements
     ---
     notoc: true
     ---
@@ -366,12 +364,23 @@ _Credits - See individual methods_
             D -->|CF| TARGET
         ```
 
-    _"Method" developed by Squidwest - no date or reference because it's not good enough lol_
-
 === "DI Chaining Methods" ###
+
+    #### Info ?
 
     - These methods create a chain of DI ghosts, allowing the normal-parent despawning to be saved until the end of the process (as each target retains a DI parent as long as desired).
     - They are ideal for medium batches and minimalist replication, but can _only_ be used for weapons and shields.
+    - Unlike with overload methods, Methods 6-8 are _all_ strict downgrades from Method 5 on patches that can perform the latter.
+    - Some methods can make use of a time-saving trick: drop-swapping each DI parent immediately before fusing allows the fuse to apply to it during that temporary smuggle just as if it was permanently smuggled.
+    - On methods where this can be consistently performed, it is provided as a "Fast" variant after the normal "Safe" variant.
+
+    !!! danger "Long Chains"
+
+        - Extended dependency chains (FE and CF(?)) can cause instability, such as freezing the game on some cutscenes and loads. 
+        - To avoid this risk, it is necessary to **detangle** the DI parents used in any of these methods.
+        - Detanglement should not be performed until _after_ the normal parents have been destroyed.
+        - For shields, simply zuggle a handful of DI parents at once and use a rocket shield to fully detangle each zuggle, repeating for all the DI parents.
+        - For weapons, zuggle every second DI parent in the chain (or every third etc if desired), use fuse-over detangle to leave only a cf remnant, then **destroy** the detangled weapons to break the chain apart. (full weapon detanglement is not possible here)
 
     #### Method 5: <br/>Chaining + Drop-Swap Culling ?
     ---
@@ -379,36 +388,23 @@ _Credits - See individual methods_
     obsolete: false
     ---
 
-    ##### Info ?
+    ##### Info
     ---
     notoc: true
     ---
 
     - Method 5 is the most basic chaining method, and the most minimal batch method in general.
-    - Unlike with overload methods, the remaining methods in this section are generally downgrades, only serving to make the method possible on `1.1.2` and earlier.
-    - The "Safe Variant" smuggles each DI ghost before using it, requiring few (or no) timed inputs, but is slower.
-    - The "Fast Variant" drop-swaps each DI ghost before using it, requiring additional timed inputs, but is faster.
-
-    !!! danger "Long Chains"
-
-        Extended dependency chains (FE and CF) can cause instability, such as freezing the game on some cutscenes and loads.
-
-        If this method is performed with shields, simply zuggle a handful at once and use a rocket shield to fully detangle each zuggle, repeating for all the DI shields used.
-
-        If weapons were used, zuggle every other in the chain (or less frequently if desired), use fuse-over detangle to leave only a cf remnant, then **destroy** the detangled weapons to break the chain apart. (a proper weapon detanglement is not viable for this use-case)
 
     _Method developed by Squidwest(?) - Jan 23, 2026(?)_
+
+    ##### Requirements
+
+    - A DI Ghost weapon or shield `A`
 
     ##### Safe Variant ?
     ---
     notoc: true
     ---
-
-    ###### Prepare:
-
-    A DI Ghost Weapon or Shield `A`
-
-    ###### Steps:
 
     1. Duplicate three normal copies of A by DI Duping (`B`, `C`, & `D`)
     2. [Smuggle](uid:TGY) A and **equip** B, then **drop** C on the ground
@@ -424,12 +420,6 @@ _Credits - See individual methods_
     ---
     notoc: true
     ---
-
-    ###### Prepare:
-
-    A DI Ghost Weapon or Shield (A)
-
-    ###### Steps:
 
     1. Duplicate three normal copies of A by DI Duping (`B`, `C`, & `D`)
     2. **Equip** A and **drop** C on the ground
@@ -477,7 +467,7 @@ _Credits - See individual methods_
     obsolete: false
     ---
 
-    ##### Info ?
+    ##### Info
     ---
     notoc: true
     ---
@@ -485,27 +475,18 @@ _Credits - See individual methods_
     - This method uses Mineru FE to make the normal ancestor of the chain cull with her, allowing it to be used on any patch and anywhere Mineru's sage avatar can be summoned.
     - It does not feature Safe/Fast variants due to the difficulty of timing a drop-swap with Mineru's culling.
 
-    !!! danger "Long Chains"
-
-        Extended dependency chains (FE and CF) can cause instability, such as freezing the game on some cutscenes and loads.
-
-        If this method is performed with shields, simply zuggle a handful at once and use a rocket shield to fully detangle each zuggle, repeating for all the DI shields.
-
-        If weapons were used, zuggle every other in the chain (or less frequently if desired), use fuse-over detangle to leave only a cf remnant, then **destroy** the detangled weapons to break the chain apart. (a proper weapon detanglement is not viable for this use-case)
-
     _Method developed by ??? - I don't know when it was done first_
 
-    ##### Prepare:
+    ##### Requirements
     ---
     notoc: true
     ---
 
-    - A DI Shield `A` (Method works the same with weapons)
+    - A DI Ghost Shield `A` (Method works the same with weapons)
     - A normal shield `B`
     - Mineru
-    - A stake
 
-    ##### Steps:
+    ##### Steps
     ---
     notoc: true
     ---
@@ -557,34 +538,22 @@ _Credits - See individual methods_
     #### Method 7: <br/>Chaining + Torch Culling ?
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
-    obsolete: false
+    obsolete: true
     ---
 
-    ##### Info ?
+    ##### Info
     ---
     notoc: true
     ---
 
     - This method uses Pyroculling to cull the DI ancestor of the chain on command, thus culling the entire chain and allowing the DI chaining to continue. Chain.
-    - I don't like it very much and I invented it. It's slow, inconsistent, and prone to self-destruction.
-    - But if you're on an old patch for some poorly-thought out reason (or speedrunning, which might be the same thing (affectionate)), I guess it's better than not having DI at all.
-    - Just use the mineru one or one of the overload ones and leave the good methods to the people's patch.
+    - I don't like it very much and I invented it. It's complicated and slow, the timing is tight, and it's prone to self-destruction.
+    - It's possibly the most accessible chaining method for old patches though, at least for now.
+    - It does not permit a Fast variant due to the strictness of the timing window. (though it is _probably_ possible?)
 
-    !!! warning "Mediocre"
+    _Method developed by Squidwest - And I am so sorry I did_
 
-        Method 7 is not especially great.
-
-    !!! danger "Long Chains"
-
-        Extended dependency chains (FE and CF) can cause instability, such as freezing the game on some cutscenes and loads.
-
-        If this method is performed with shields, simply zuggle a handful at once and use a rocket shield to fully detangle each zuggle, repeating for all the DI shields.
-
-        If weapons were used, zuggle every other in the chain (or less frequently if desired), use fuse-over detangle to leave only a cf remnant, then **destroy** the detangled weapons to break the chain apart. (a proper weapon detanglement is not viable for this use-case)
-
-    _method "developed" by Squidwest - not worth posting about, even with the drop limit protection_
-
-    ##### Prepare:
+    ##### Requirements
     ---
     notoc: true
     ---
@@ -664,7 +633,7 @@ _Credits - See individual methods_
     obsolete: false
     ---
 
-    ##### Info ?
+    ##### Info
     ---
     notoc: true
     ---
@@ -676,30 +645,17 @@ _Credits - See individual methods_
 
         Method 8 is decent.
 
-    - The "Safe Variant" smuggles each DI ghost before using it, requiring few (or no) timed inputs, but is slower.
-    - The "Fast Variant" drop-swaps each DI ghost before using it, requiring additional timed inputs, but is faster.
-
-    !!! danger "Long Chains"
-
-        Extended dependency chains (FE and CF) can cause instability, such as freezing the game on some cutscenes and loads.
-
-        If this method is performed with shields, simply zuggle a handful at once and use a rocket shield to fully detangle each zuggle, repeating for all the DI shields.
-
-        If weapons were used, zuggle every other in the chain (or less frequently if desired), use fuse-over detangle to leave only a cf remnant, then **destroy** the detangled weapons to break the chain apart. (a proper weapon detanglement is not viable for this use-case)
-
     _Method developed by ??? - I don't know who did it first or when so I'm not prepared to claim authorship_
+
+    ##### Requirements
+
+    - A DI Ghost Weapon or Shield `A`
+    - Intangible Aerophasing
 
     ##### Safe Variant ?
     ---
     notoc: true
     ---
-
-    ###### Prepare:
-
-    - A DI Ghost Weapon or Shield `A`
-    - Intangible Aerophasing
-
-    ###### Steps: ?
 
     1. Duplicate three normal copies of A by DI Duping (`B`, `C`, & `D`)
     2. **Smuggle** A and **equip** B, then **drop** C on the ground
@@ -717,13 +673,6 @@ _Credits - See individual methods_
     ---
     notoc: true
     ---
-
-    ###### Prepare:
-
-    A DI Ghost Weapon or Shield (A)
-    Intangible Aerophasing
-
-    ###### Steps:
 
     1. Duplicate three normal copies of A by DI Duping (`B`, `C`, & `D`)
     2. **Equip** A and **drop** C on the ground
@@ -767,11 +716,21 @@ _Credits - See individual methods_
 
 === "Turbo Cloning Methods" ###
 
+    #### Info ?
+
+    ##### General info
+
     - These methods use a purgatorized DI shield to repeatedly [Turbo Clone](uid:BEW#method-2-turbo-replication-120) each target in turn, without inadvertently dropping the DI shield.
     - The setup will persist in place indefinitely until the game is closed.
     - They are optimal for batch production without Zuggle Overload.
     - They are also ideal for both shield batches of any size, and for repeatedly creating small batches of any target type.
-    - The only difference between the methods lies in the conisderations made for the target type.
+
+    ##### Page-specific info
+    
+    - The steps differ slightly depending on target type, so what is really one method is divided into 3 for clarity reasons.
+    - Each method has a "steady" variant and a "fast" variant, which aim to maximize ease/speed respectively.
+    - The Steady variant clones each Octo-Balloon Shield just before use, which inadvertently locks out Fuse targeting for about a second, but simplifies the steps.
+    - The Fast variant clones an inventory-full of Octo-Balloon Shields at a time, which minimizes targeting lockout, but complicates the steps.
 
     _Turbo Replication discovered by Aergyl - Jan 31, 2026_
 
@@ -786,7 +745,7 @@ _Credits - See individual methods_
     - This is the base part of the setup, which only needs to be created once, and can be used for all the below methods.
     - Thus, the below methods will assume this portion was already performed, and will use the established names for the components.
 
-    ##### Prepare:
+    ##### Requirements
     ---
     notoc: true
     ---
@@ -813,24 +772,10 @@ _Credits - See individual methods_
     obsolete: false
     ---
 
-    ##### Info ?
-    ---
-    notoc: true
-    ---
-
     - This method is the simplest and fastest of the Turbo Cloning methods, making it ideal for quickly producing DI Ghosts to, for example, PSLOT objects.
-    - The "Steady" variant follows a short loop of inputs that makes it easier, but is much slower.
-    - The "Fast" variant follows a more complex sequence that makes it harder, but is much faster.
-    - The difference lies in the fact that duping A prevents Fuse from highlighting the current target for roughly a full second.
+    - Nothing extra is required besides the base setup.
 
-    ##### Prepare:
-    ---
-    notoc: true
-    ---
-
-    - The base setup
-
-    ##### Creating DI Ghost Shields (Steady Variant) ?
+    ##### Shields - Steady Variant ?
     ---
     notoc: true
     ---
@@ -877,7 +822,7 @@ _Credits - See individual methods_
             E -->|Becomes| G
         ```
 
-    ##### Creating DI Ghost Shields (Fast Variant) ?
+    ##### Shields - Fast Variant ?
     ---
     notoc: true
     ---
@@ -930,26 +875,11 @@ _Credits - See individual methods_
     obsolete: false
     ---
 
-    ##### Info ?
-    ---
-    notoc: true
-    ---
-
-    - Due to the fact that the parents are still shields, this method produces a duplicate of A as a byproduct each time it is used.
+    - Due to the fact that the parents are still shields, this method produces a (fuseless) duplicate of A as a byproduct each time it is used.
     - Careful movement and a flat space (and perhaps a Stake to stand on) will prevent this from becoming a problem.
-    - The "Steady" variant follows a short loop of inputs that makes it easier, but is much slower.
-    - The "Fast" variant follows a more complex sequence that makes it harder, but is much faster.
-    - The difference lies in the fact that duping A prevents Fuse from highlighting the current target for roughly a full second.
+    - Besides the base setup, at least one of the target will be needed. A DI Ghost of it is preferred, but will be created if not yet prepared.
 
-    ##### Prepare:
-    ---
-    notoc: true
-    ---
-
-    - The base setup
-    - At least one of the target type, ideally a DI Ghost
-
-    ##### Creating DI Ghost Weapons/Bows (Steady Variant)
+    ##### Weapons/Bows - Steady Variant ?
     ---
     notoc: true
     ---
@@ -998,7 +928,7 @@ _Credits - See individual methods_
             E -->|Becomes| G
         ```
 
-    ##### Creating DI Ghost Weapons/Bows (Fast Variant)
+    ##### Weapons/Bows - Fast Variant ?
     ---
     notoc: true
     ---
@@ -1052,26 +982,11 @@ _Credits - See individual methods_
     obsolete: false
     ---
 
-    ##### Info ?
-    ---
-    notoc: true
-    ---
-
     - Unlike equipment, DI Ghost objects (even materials from the pouch) cannot be used as a cloning source, or interacted with in general, so they are typically less useful to DI.
     - This method is provided mostly for posterity, but there are occasional uses for DI Ghost objects, so who knows what may come.
-    - The "Steady" variant follows a short loop of inputs that makes it easier, but is much slower.
-    - The "Fast" variant follows a more complex sequence that makes it harder, but is much faster.
-    - The difference lies in the fact that duping A prevents Fuse from highlighting the current target for roughly a full second.
+    - Besides the base setup, one of the target object will be required for _each_ DI Ghost to be made.
 
-    ##### Prepare:
-    ---
-    notoc: true
-    ---
-
-    - The base setup (with named components)
-    - One of the target for _each_ DI Ghost to be made
-
-    ##### Creating DI Objects (Steady Variant)
+    ##### Objects - Steady Variant ?
     ---
     notoc: true
     ---
@@ -1116,7 +1031,7 @@ _Credits - See individual methods_
             E -->|Becomes| G
         ```
 
-    ##### Creating DI Objects (Fast Variant)
+    ##### Objects - Fast Variant ?
     ---
     notoc: true
     ---
@@ -1182,3 +1097,5 @@ _Credits - See individual methods_
 
 ## Related
 - [Despawn Interrupt](search:Despawn Interrupt)
+- [Zuggle Overload](search:Zuggle Overload)
+- [Fuse Entanglement](search:Fuse Entanglement)
