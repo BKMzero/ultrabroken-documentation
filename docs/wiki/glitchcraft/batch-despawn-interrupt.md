@@ -60,36 +60,36 @@ _Credits - See individual methods_
     ---
 
     - 13 Zuggle Overload
-    - A DI shield `A`, ideally a [DI Ghost](uid:BEW) (all types can be mirrored)
+    - A DI shield `#!python A`, ideally a [DI Ghost](uid:BEW) (all types can be mirrored)
 
     ##### Creating the setup
     ---
     notoc: true
     ---
 
-    1. [Smuggle](uid:TGY) `A` and equip normal shield `B`
-    2. **Fuse** weapon `C` to `B` and **pause** a few frames after (for instance, by buffering the ability wheel at the same time as pressing Fuse, then selecting Map)
-    3. **Drop** `B`, **swap** to another shield, and **unequip** that shield, then **unpause**
-    4. _Smuggle_ `A` again
+    1. [Smuggle](uid:TGY) `#!python A` and equip normal shield `#!python B`
+    2. **Fuse** weapon `#!python C` to `#!python B` and **pause** a few frames after (for instance, by buffering the ability wheel at the same time as pressing Fuse, then selecting Map)
+    3. **Drop** `#!python B`, **swap** to another shield, and **unequip** that shield, then **unpause**
+    4. _Smuggle_ `#!python A` again
     5. [Overload drop](uid:8QH) a shield and **Fuse** it to a weapon
-    6. **Fuse** weapon `D` to said shield, FE-ing it to `A`
-    7. **Swap** shield, then [Warm Drop](uid:C6H) it to leave `A` [Zuggle Dropped](uid:L84)
+    6. **Fuse** weapon `#!python D` to said shield, FE-ing it to `#!python A`
+    7. **Swap** shield, then [Warm Drop](uid:C6H) it to leave `#!python A` [Zuggle Dropped](uid:L84)
     8. **Unequip** weapon
-    9. _Smuggle_ `C`, pick up `B`, and [Overload Pickup](uid:8QH) `D`
-    10. Glue `D` to something to elevate it and ensure it cannot accidentally be targeted by Fuse. Face the blade _away_ from the other object to keep fuse targets from colliding with it
-    11. Optionally, position a wall behind Link's back which can force `B` to **fail-drop**
+    9. _Smuggle_ `#!python C`, pick up `#!python B`, and [Overload Pickup](uid:8QH) `#!python D`
+    10. Glue `#!python D` to something to elevate it and ensure it cannot accidentally be targeted by Fuse. Face the blade _away_ from the other object to keep fuse targets from colliding with it
+    11. Optionally, position a wall behind Link's back which can force `#!python B` to **fail-drop**
 
     ##### Creating DI Ghosts
     ---
     notoc: true
     ---
 
-    1. **Fuse** target to `D` ([Overload FE](uid:0XV) to `C`)
-    2. **Fuse** target to `D` again. As it already has an FE parent (`C`), this time it will Pseudo-Fuse to `D` and begin fading away
+    1. **Fuse** target to `#!python D` ([Overload FE](uid:0XV) to `#!python C`)
+    2. **Fuse** target to `#!python D` again. As it already has an FE parent (`#!python C`), this time it will Pseudo-Fuse to `#!python D` and begin fading away
     3. **Pause** the game before the target fully fades out (buffering wheel and selecting Map will work here too)
-    4. **Drop** `B`, **equip** another shield, and **unequip** it. This will cull `B`, and thus `C`, and thus the target, Ghost DI-ing it
-    5. If you fail-dropped `B`, proceed with the next target. If not, pick it up before proceeding
-    6. To continue beyond 30 successful uses, first **destroy** and **remake** `C` and `D`
+    4. **Drop** `#!python B`, **equip** another shield, and **unequip** it. This will cull `#!python B`, and thus `#!python C`, and thus the target, Ghost DI-ing it
+    5. If you fail-dropped `#!python B`, proceed with the next target. If not, pick it up before proceeding
+    6. To continue beyond 30 successful uses, first **destroy** and **remake** `#!python C` and `#!python D`
 
     ##### Resources ?
     ---
@@ -136,7 +136,7 @@ _Credits - See individual methods_
     ---
 
     - 13 Zuggle Overload
-    - A DI weapon or shield `A`
+    - A DI weapon or shield `#!python A`
     - A torch
     - A flame emitter
 
@@ -145,23 +145,23 @@ _Credits - See individual methods_
     notoc: true
     ---
 
-    1. A and normal item `B` [Ghost DI](uid:BEW) Shield `C`, keep normal parent
-    2. [Smuggle](uid:TGY) C
+    1. A and normal item `#!python B` [Ghost DI](uid:BEW) Shield `#!python C`, keep normal parent
+    2. [Smuggle](uid:TGY) `C`
     3. [Cold Drop](uid:C6H) the torch and place it next to a wall in a culling area
     4. Point the Flame Emitter at the head of the torch from point-blank, ensuring the fire strikes a solid surface as close to the torch-head as possible.
-    5. Glue B to the torch and **activate** the Flame Emitter.
-    6. To cull C, use the ability wheel to select and open Recall, causing a 2-frame pause. The torch should begin culling after cancelling recall
-    7. [Overload Drop](uid:8QH) a shield `D` and **Fuse** it to a weapon `E`
+    5. Glue `B` to the torch and **activate** the Flame Emitter.
+    6. To cull `C`, use the ability wheel to select and open Recall, causing a 2-frame pause. The torch should begin culling after cancelling Recall
+    7. [Overload Drop](uid:8QH) a shield `#!python D` and **Fuse** it to a weapon `#!python E`
 
     ##### Creating DI Ghosts
     ---
     notoc: true
     ---
 
-    1. **Fuse** the target to D ([Overload FE](uid:0XV) to C)
-    2. Use the ability wheel to open recall, then use it to open fuse and _immediately_ fuse the target to D again
+    1. **Fuse** the target to `D` ([Overload FE](uid:0XV) to `C`)
+    2. Use the ability wheel to open recall, then use it to open fuse and _immediately_ fuse the target to `D` again
     3. As long as fuse is pressed more than 2 frames before the torch fully culls, the cull _will_ occur within the target's Ghost DI timing window
-    4. To continue beyond 30 successful uses, first **destroy** and **remake** C and D
+    4. To continue beyond 30 successful uses, first **destroy** and **remake** `C` and `D`
 
     ##### Resources ?
     ---
@@ -227,10 +227,10 @@ _Credits - See individual methods_
     notoc: true
     ---
 
-    1. Mineru FE B
-    2. [Smuggle](uid:TGY) A, equip B, and target shield `C` with Fuse
-    3. Induce Mineru to **cull** and fuse C to B shortly before B culls; this will DI C
-    4. Place B aside and _smuggle_ C
+    1. Mineru FE `B`
+    2. [Smuggle](uid:TGY) `A`, equip `B`, and target shield `C` with Fuse
+    3. Induce Mineru to **cull** and fuse `C` to `B` shortly before `B` culls; this will DI `C`
+    4. Place `B` aside and _smuggle_ `C`
     5. [Overload Drop](uid:8QH) shield `D` and fuse to weapon `E`
 
     ##### Creating DI Ghosts
@@ -238,10 +238,10 @@ _Credits - See individual methods_
     notoc: true
     ---
 
-    1. Stand on a stake at the right height so that Mineru goes into "Limbo" when you cull her (Mineru invisible, but B and C unculled)
-    2. **Fuse** target to D ([Overload FE](uid:0XV) to C)
-    3. **Fuse** target to D again, and jump _immediately_ after so that Mineru culls (and culls the target by extension)
-    4. To continue beyond 30 successful uses, first **destroy** and **remake** C and D (start from setup step 2)
+    1. Stand on a stake at the right height so that Mineru goes into "Limbo" when you cull her (Mineru invisible, but `B` and `C` unculled)
+    2. **Fuse** target to `D` ([Overload FE](uid:0XV) to `C`)
+    3. **Fuse** target to `D` again, and jump _immediately_ after so that Mineru culls (and culls the target by extension)
+    4. To continue beyond 30 successful uses, first **destroy** and **remake** `C` and `D` (start from setup step 2)
 
     ##### Resources ?
     ---
