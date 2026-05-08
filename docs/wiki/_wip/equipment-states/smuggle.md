@@ -74,7 +74,7 @@ Although a smuggle is technically created whenever you [warm drop](uid:C6H) equi
     Overload pickup the equipment, then drop it. This will be a Ground Drop Smuggle.
 
 === "Despawn Interrupt" ###
-    DI equipment loves to smuggle when it should just drop normally. Drop DI equipment, then equip and unequip something else of the same type.
+    DI equipment never unsmuggles itself when fail dropped, doesn't cull when replaced with another equip, and doesn't cause D-Pad Lock. Equip some DI equipment and drop–swap it against a wall. (The equip is due to the animation state desync mentioned below).
 
 ## Comparison to zuggles
 
