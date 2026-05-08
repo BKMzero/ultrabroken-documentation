@@ -23,11 +23,13 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
 
 === "Pause-Cancel FE Methods" ###
 
-    These Methods pause the game while performing FE on the target, preventing the ghost from detecting it being tampered with.
+    These Methods pause the game while performing FE on the target, preventing the depths ghost from detecting it being tampered with.
 
     #### Method 1: Pause-Cancel Overload FE + Load Null Fuse ?
 
-    This method uses Overload FE to extract the weapon, allowing for quick extraction without "expending" a given depths ghost.
+    - This method uses Overload FE to extract the weapon, allowing for quick extraction without "expending" a given depths ghost.
+
+    Steps:
 
     1. Zuggle any shield
     2. [Overload Drop](uid:8QH) another shield and fuse it to a weapon
@@ -43,9 +45,11 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
 
     #### Method 2: Pause-Cancel Mineru FE + Load Null Fuse ?
 
-    This method uses Mineru Cold Fuse to extract the weapon, allowing for extraction without Zuggle Overload.
+    - This method uses Mineru Cold Fuse to extract the weapon, uniquely allowing for extraction without Zuggle Overload.
 
-    1. Find a large weapon cairn, with 3 ghosts atop it. These are large enough for Mineru to spawn atop them.
+    Steps:
+
+    1. Find a large weapon cairn, with 3 depths ghosts atop it. These are large enough for Mineru to spawn atop them.
     2. Zuggle any shield
     3. Mineru FE another shield
     4. Highlight the target weapon with Fuse
@@ -61,7 +65,9 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
 
     #### Method 3: Pause-Cancel Overload FE + Warp Fuse ?
 
-    This method uses a warp to pause the game after the second fuse, allowing for quick remote extraction.
+    - This method uses a warp to pause the game after the second fuse, allowing for quick remote extraction.
+
+    Steps:
 
     1. Zuggle any non-DI shield
     2. [Overload Drop](uid:8QH) another shield and fuse it to a weapon
@@ -77,28 +83,32 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
 
     #### Pause-Cancel??? ?
 
-    Instead of pausing during the FE, any method requiring Pause-Cancel can alternatively be performed with Overload Pickup:
+    - Instead of pausing during the FE, any method requiring Pause-Cancel can alternatively be performed with Overload Pickup:
+
+    Replacement Steps:
 
     1. [Overload Pickup](uid:8QH) the target weapon
-    2. Move out of the ghost's update range, but stay within its spawn range
-    3. This distance varies between ghosts, but can be made more lenient by facing the camera away from it
+    2. Move out of the depths ghost's update range, but stay within its spawn range
+    3. This distance varies between depths ghosts, but can be made more lenient by facing the camera away from it
     4. **Fail-drop** the target, then **drop** it once it returns to Link
-    5. Proceed with a given Pause-Cancel method; The ghost will not despawn even without performing Pause-Cancel
+    5. Proceed with a given Pause-Cancel method; The depths ghost will not despawn even without performing Pause-Cancel
 
 === "Overload Pickup Methods" ###
 
-    These Methods use Overload Pickup to move the target to a distance where the ghost can't detect it being tampered with.
+    These Methods use Overload Pickup to move the target to a distance where the depths ghost can't detect it being tampered with.
 
     #### Method 4: Basic Loadless ?
 
-    This method relies on the ability to detach a fully-fused and ghosted weapon from its parent via Overload Pickup, allowing Octo Detanglement to be done out of update range.
+    - This method relies on the ability to detach a fully-fused and ghosted weapon from its parent via Overload Pickup, allowing Octo Detanglement to be done out of update range (as is necessary to preserve the detanglement target).
+
+    Steps:
 
     1. [Overload Pickup](uid:8QH) the target weapon
-    2. Move out of the ghost's update range, but stay within its spawn range
-    3. This distance varies between ghosts, but can be made more lenient by facing the camera away from it
+    2. Move out of the depths ghost's update range, but stay within its spawn range
+    3. This distance varies between depths ghosts, but can be made more lenient by facing the camera away from it
     4. **Fail-drop** the target, then **drop** it once it returns to Link. It should remain floating and interactible
     5. Overload Pickup the target again and fuse it to a shield
-    6. Move out of the spawn range of the ghost
+    6. Move out of the spawn range of the depths ghost
     7. **Fail-drop** the target, then **drop** it once it moves from the shield to Link's back
     8. Move out of update range of the target and use Octo Detanglement on the parent shield
     9. The target weapon should regain interaction and remain floating
@@ -107,24 +117,28 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
 
     #### Method 5: Minimalist Loadless ?
 
-    This method relies on the fact that an Overload Cold Fuse causes the target to be considered "Fused" for a single frame.
+    - This method relies on the fact that an Overload Cold Fuse causes the target to be considered "Fused" for a single frame.
+
+    Steps:
 
     1. [Overload Pickup](uid:8QH) the target weapon
-    2. Move to the edge of the ghost's spawn range. Face away from the ghost to prevent it from updating
+    2. Move to the edge of the depths ghost's spawn range. Face away from the depths ghost to prevent it from updating
     3. Fail-drop the target, then drop it once it returns. It should remain floating and interactible
     4. [Overload Drop](uid:8QH) a shield and fuse it to a weapon
-    5. Overload Cold Fuse the target to the shield on the frame Link exits the ghost's spawn range
+    5. Overload Cold Fuse the target to the shield on the frame Link exits the depths ghost's spawn range
     6. The target weapon should remain floating and interactible
 
     _Method discovered by mulberry - Mar 11th, 2026_
 
     #### Method 6: Temporary Ghosting ?
 
-    This method relies on the fact that an Overload Cold Fuse to an out-of-range parent can be made to not update (and thus de-ghost) until approached.
+    - This method relies on the fact that an Overload Cold Fuse to an out-of-range parent can be made to not update (and thus de-ghost) until approached.
+
+    Steps:
 
     1. [Overload Pickup](uid:8QH) the target weapon
-    2. Move out of the ghost's update range, but stay within its spawn range
-    3. This distance varies between ghosts, but can be made more lenient by facing the camera away from it
+    2. Move out of the depths ghost's update range, but stay within its spawn range
+    3. This distance varies between depths ghosts, but can be made more lenient by facing the camera away from it
     4. Fail-drop the target, then drop it once it returns. It should remain floating and interactible
     5. [Overload Drop](uid:8QH) a shield (A) and fuse it to a weapon
     6. Overload Cold Fuse a shield (B) to A
@@ -133,7 +147,7 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
     9. Highlight the target weapon with Fuse
     10. Press ZL and **pause** the game on the same frame. This can be done by buffering the ability wheel, or by opening any menu
     11. When the game unpauses, the target weapon should warp to B and become uninteractible, without appearing fused in the inventory
-    12. Exit the ghost's spawn range, then return to the target weapon; it should regain interaction and remain floating
+    12. Exit the depths ghost's spawn range, then return to the target weapon; it should regain interaction and remain floating
 
     _Method discovered by mulberry - Mar 11th, 2026_
 
@@ -143,18 +157,20 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
 
     #### Method 7: Super Fuse Overload ?
 
-    - This method uses Super Fuse Overload to exhuast the game's Global Dependency Array and prevent the ghost from ever "equipping" the weapon.
+    - This method uses Super Fuse Overload to exhuast the game's Global Dependency Array and prevent the depths ghost from ever "equipping" the weapon.
     - It is extremely suboptimal for all patches `1.1.0` and up, but is the only known way to obtain a Kinematic Weapon on `1.0.0` (or, _would_ be if someone would confirm it works on that patch pretty please).
+
+    Steps:
 
     1. Perform Minigame Escape so that panic blood moons cannot occur.
     2. Find the edge of a depths ghosts' spawn area and stand near to but outside of it.
     3. Perform Super Fuse Overload via a local method.
-    4. With every dependency slot filled, enter the ghost's spawn area. The ghost will despawn without affecting its weapon.
+    4. With every dependency slot filled, enter the depths ghost's spawn area. The depths ghost will despawn without affecting its weapon.
     5. Remove some of the dependencies created with SFO so that the weapon can be picked up.
     6. Zuggle the weapon and load a save.
     7. Stand still [Warm Drop](uid:C6H) a weapon to drop the KW for retrieval without giving it velocity.
 
-    Theorized mechanism: The ghost, having overload-dropped the weapon, will immediately consider it to be "taken", and thus will follow the usual order of events: It will change the weapon's motion type from "Kinematic" to "Dynamic", then despawn itself without despawning the weapon. However, because the Ghost->Weapon dependency is missing, the attempt to change the weapon's motion type will **fail**.
+    Theorized mechanism: The depths ghost, having overload-dropped the weapon, will immediately consider it to be "taken", and thus will follow the usual order of events: It will change the weapon's motion type from "Kinematic" to "Dynamic", then despawn itself without despawning the weapon. However, because the Depths Ghost->Weapon dependency is missing, the attempt to change the weapon's motion type will **fail**.
 
     _Method discovered by Squidwest - Apr 24th, 2026_
 
