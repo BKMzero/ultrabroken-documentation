@@ -19,13 +19,32 @@ The earliest-released version of the game. For the general public, this is only 
 
 1.0 is by far the most broken version of the game, with a lot of glitches easily to perform before you've even left GSI. It's also the version with the fastest available speedrun times, especially in shorter categories. It does, however, come with some important differences unique to this version:
 
-- Zuggle Overload is acheived in fewer zuggles (the canonical minimum is 9 instead of 13).<!-- TODO: verify this lower number --> Additionally, any use of Earthwake or Sidon's water bubble will permanently attach them to Link until you close the game.
+- Zuggle Overload is achieved in fewer zuggles (the canonical minimum is 9 instead of 13).<!-- TODO: verify this lower number --> Additionally, any use of Earthwake or Sidon's water bubble will permanently attach them to Link until you close the game.
 - Hyrule Castle is full of culling areas that are all gone in every other version.
-- Swap–drop (equipping something in the pause screen, then dropping that item before unpausing) works differently. <!-- TODO: how? -->
+- Swap–drop (equipping something in the pause screen, then dropping that item before unpausing) works differently, as 1.0 will spawn an actor for that equipment without you needing to unpause first.
+- Back-jumping off a wall allows Link to regain collision during mount lock.
+- There are currently no known ways to obtain kinematic weapons.
 
 ## 1.1.0
 
 This is the day one patch, which updates a lot of game fundamentals. Some glitches are patched, although the majority of them are still there, and work the same way.
+
+Glitches removed in this version:
+
+- Swap–drop tech
+- Memory Interrupt (original portable setup)
+- Zonai Storage
+- Infinite Horse Stamina
+
+These important glitches remain:
+
+- L-Cancel Fuse Entanglement
+- Map Zuggle
+- Stick Desync Clip
+- Food Ability Buff Storage (FABS)
+- Midair Sort Duplication
+- Autobuild Cancel
+- Memory Interrupt (Koltin method)
 
 ## 1.1.1
 
@@ -36,14 +55,16 @@ This version fixes a softlock that can theoretically happen in the main GSI ques
 This is the killjoy version that patches a whole raft of glitches. Some of the most important changes are:
 
 - Introduces **d-pad lock**, making map zuggling and Drop SLD impossible. You can still use the ability wheel to bypass this, so [Drop Delay Zuggle](search:Drop Delay Zuggle) still works. Throw SLD and L-cancel Fuse Entanglement also still work.
+	- Despawn Interrupted equipment is exempt from these restrictions.
 - Midair Sort Duping, Autobuild Cancel, and FABS are all patched.
 
 ## 1.2.0
 
 This version made a fundamental change to how equipment behaves mid-drop, setting the stage for [portable culling](search:Portable Culling), which will be a vital mechanic for glitchcraft in all future versions.
 
-- The ability wheel no longer bypasses d-pad lock, preventing L-cancel Fuse Entanglement and Drop Delay Zuggling.
-- Items in the drop queue now cull while being processed, allowing for Portable Culling.
+- L-Cancel Fuse Entanglement is patched.
+- The ability wheel no longer bypasses d-pad lock, preventing Drop Delay Zuggling.
+- Equipped smuggles now cull if something else if equipped, allowing for Portable Culling.
 - Any warm-dropped equipment now forcibly unculls itself and its children.
 - Notably, fail drops _don't_ do this, allowing for [Quick Smuggling](search:Quick Smuggling).
 
@@ -81,7 +102,7 @@ This is the minimum version you're allowed to run on a Switch 2 console. It's no
 
 The Switch 2 Edition of the game contains some notable differences for glitchcraft:
 
-- The higher frame rate makes timing-based glitches and paused buffers much harder to execute.
+- The higher frame rate makes timing-based glitches and pause buffers much harder to execute.
 - Mineru turns into an orb and culls faster, giving Mineru cull-based glitches a different timing overall.
 - All glitches that persist through returning to the title screen also persist through switching between File 1 / File 2.
 
