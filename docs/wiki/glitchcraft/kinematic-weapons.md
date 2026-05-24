@@ -168,7 +168,7 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
     4. With every dependency slot filled, enter the depths ghost's spawn area. The depths ghost will despawn without affecting its weapon.
     5. Remove some of the dependencies created with SFO so that the weapon can be picked up.
     6. Zuggle the weapon and load a save.
-    7. Stand still [Warm Drop](uid:C6H) a weapon to drop the KW for retrieval without giving it velocity.
+    7. Stand still and [Warm Drop](uid:C6H) a weapon to drop the KW for retrieval without giving it velocity.
 
     Theorized mechanism: The depths ghost, having overload-dropped the weapon, will immediately consider it to be "taken", and thus will follow the usual order of events: It will change the weapon's motion type from "Kinematic" to "Dynamic", then despawn itself without despawning the weapon. However, because the Depths Ghost->Weapon dependency is missing, the attempt to change the weapon's motion type will **fail**.
 
@@ -191,33 +191,21 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
 notoc: true
 ---
 
-Kinematic Weapons can still be picked up and moved around, and will also accept velocity from some related actions:
+Kinematic Weapons can still be picked up, and will also accept velocity from some related actions:
 
 - Carrying it around; Drop Smuggle-like states retain collision and are notably more forceful than normal
 - Dropping it while moving, which directly adds Link's velocity
 - Throwing it, which directly adds throw velocity; Boomerangs will follow a return arc
 
-#### Recall-related Actions ?
+#### Ability-related Actions ?
 ---
 notoc: true
----
 
-Kinematic Weapons obey the "position lock" and "velocity reset" of recall, so the following will work to **move**, then **stop** it:
-
-- Recalling an attached object; This may sometimes break the glue
-- Recalling the Kinematic Weapon along a return path
-- Recall-locking it and dropping it somewhere else
-
-#### Other Actions ?
----
-notoc: true
----
-
-Other ways of changing the position/velocity of the Kinematic Weapon, bypassing the act of applying a force entirely:
-
-- Attaching an upside-down wing; Seems to directly add velocity to build instead of applying a force
-- The "gravitational" force of attaching with Ultrahand can affect the velocity
-- Fusing the Kinematic Weapon to another item causes it to follow; Ordinary fuse will not allow retrieval, but Pseudo-Fuse will
+- Autobuild can select, snap, and move Kinematic Weapons freely, making it one of the best ways to position one
+- Recall (and Recall Lock) can both **move** and **stop** a Kinematic Weapon in all the expected ways
+- Ultrahand can slightly reduce the velocity of a Kinematic Weapon by attaching something; this can stop the KW completely if it is already slow enough
+- Additionally, attaching an upside-down Wing can cause the Kinematic Weapon to anomalously surge upwards
+- Fusing the Kinematic Weapon to another item causes it to follow; ordinary Fuse will not allow retrieval, but Pseudo Fuse will
 
 ### Other Notes
 
