@@ -200,6 +200,7 @@ Kinematic Weapons can still be picked up, and will also accept velocity from som
 #### Ability-related Actions ?
 ---
 notoc: true
+---
 
 - Autobuild can select, snap, and move Kinematic Weapons freely, making it one of the best ways to position one
 - Recall (and Recall Lock) can both **move** and **stop** a Kinematic Weapon in all the expected ways
