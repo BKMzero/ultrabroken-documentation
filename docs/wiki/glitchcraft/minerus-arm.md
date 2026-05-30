@@ -32,7 +32,7 @@ _Discovered by mulberry; Mainfield route by Squidwest_
     ---
     
     - Mineru
-    - All the requirements for [Method 2]() or [Method 3]() of Super Fuse Overload
+    - All the requirements for [Method 2](https://nan-gogh.github.io/ultrabroken-documentation/wiki/BW8/?sfo-nesting-test#method-2-localpurgatory-di) or [Method 3](https://nan-gogh.github.io/ultrabroken-documentation/wiki/BW8/?sfo-nesting-test#method-3-localoverload-cold-fuse) of Super Fuse Overload
     - A few fused equipment items
     - A bucket-shaped Autobuild schematic, ideally with a Hover Stone and several Big Batteries (useful for Method 2 and required for Method 3)
     - If on `1.2.0+`, a Portacull Shield or the resources to make one portably via Zuggle Overload
@@ -81,39 +81,59 @@ _Discovered by mulberry; Mainfield route by Squidwest_
     notoc: true
     ---
     
-    ##### On `1.0.0-1.1.1` ?
+    ##### Map Zuggle ?
+    ---
+    versions: ["1.0.0", "1.1.0", "1.1.1"]
+    ---
 
-    1. Map Zuggle Mineru's Arm. It automatically fail-drops while standing on the ground, so a wall is unneccesary:
-    2. Hold L to open the ability wheel and select the Map rune
-    3. As soon as the wheel closes, use D-Pad Right to open the Weapon Quick Menu (spamming usually works)
-    4. Drop Mineru's Arm and reopen the Weapon QM immediately, then equip a droppable weapon (ie not the Master Sword)
-    5. Let the Map open, and press + to enter the inventory
-    6. Drop the swapped-to weapon and unpause
-    7. Mineru's Arm will fail-drop both itself and the swapped-to weapon, causing Zuggle automatically
+    Preferred Zuggle method for all working patches.
+
+    1. Hold L to open the ability wheel and select the Map rune
+    2. As soon as the wheel closes, use D-Pad Right to open the Weapon Quick Menu (spamming usually works)
+    3. Drop Mineru's Arm and reopen the Weapon QM immediately, then equip a droppable weapon (ie not the Master Sword)
+    4. Let the Map open, and press + to enter the inventory
+    5. Drop the swapped-to weapon and unpause
+    6. Mineru's Arm will cause both itself and the swapped-to weapon to fail-drop, so a wall is not needed to Zuggle it
     
-    ##### On `1.1.2` ?
+    ##### Cull Storage Zuggle ?
+    ---
+    versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    ---
 
-    1. Drop Delay Zuggle Mineru's Arm. It automatically fail-drops while standing on the ground, so a wall is unneccesary:
-    2. **Pause** the game and **drop** 15-20 buffer equipment items (the more the merrier)
-    3. **Drop** Mineru's Arm, then **Equip** a different weapon
-    4. **Unpause** the game and immediately hold L to open the ability wheel
-    5. Select any rune and release L, then use D-Pad Right to open the Weapon Quick Menu as soon as the ability wheel closes (spamming usually works)
-    6. **Drop** the swapped-to weapon.
-    7. Mineru's Arm will make both weapons fail-drop, causing Zuggle automatically
+    Though possible on all versions, this Zuggle method is only preferred on `1.1.2`, the awkward middle child that has no other options.
 
-    ##### On `1.2.0+` ?
+    1. I do not know how to set up cull storage within the bounds of the Ganon Room.
+    2. Probably aerophasing works
 
-    1. Swap Resync Zuggle Mineru's Arm. It automatically fail-drops while standing on the ground, so a wall is unneccesary:
-    2. If a Portacull Shield is not already prepared, create one
-    3. **Pause** the game
-    4. **Drop** a buffer equipment item
-    5. **Drop** the Portacull Shield and **swap** to another shield
-    6. **Drop** 2 more buffer items (not the swapped-to shield)
-    7. **Drop** Mineru's Arm and **swap** to another item of that type
-    8. **Pause Buffer** (unpause and pause again 3 frames later; any faster will eat the input)
-    9. **Swap**, **equip**, or **unequip** any armor or bow
-    10. **Drop** the swapped-to weapon and **unpause**
-    11. Mineru's Arm will make both weapons fail-drop, causing Zuggle automatically
+    But the gist:
+
+    1. **Pause**
+    2. Drop a buffer drop, then an SDC shield with a cull stored
+    3. Hold `L`, then **unpause**, so that the ability wheel opens as soon as possible
+    4. Select the Map Rune
+    5. As soon as the wheel closes, use D-Pad Right to open the Weapon Quick Menu (spamming usually works)
+    6. Drop Mineru's Arm and reopen the Weapon QM immediately, then equip a droppable weapon (ie not the Master Sword)
+    7. Let the Map open, and press + to enter the inventory
+    8. Drop the swapped-to weapon and unpause
+    9. Mineru's Arm will cause both itself and the swapped-to weapon to fail-drop, so a wall is not needed to Zuggle it
+
+    ##### Swap Resync Zuggle ?
+    ---
+    versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    ---
+
+    Preferred Zuggle Method for all working patches. Steps given include additional buffer drops to widen the timing window.
+
+    1. If a Portacull Shield is not already prepared, create one
+    2. **Pause** the game
+    3. **Drop** a buffer equipment item
+    4. **Drop** the Portacull Shield and **swap** to another shield
+    5. **Drop** 2 more buffer items (not the swapped-to shield)
+    6. **Drop** Mineru's Arm and **swap** to another droppable weapon (ie not the master Sword)
+    7. **Pause Buffer** (unpause and pause again 3 frames later; any faster will eat the input)
+    8. **Swap**, **equip**, or **unequip** any armor or bow
+    9. **Drop** the swapped-to weapon and **unpause**
+    10. Mineru's Arm will cause both itself and the swapped-to weapon to fail-drop, so a wall is not needed to Zuggle it
 
     #### Retrieving Mineru's Arm
     ---
@@ -136,14 +156,13 @@ _Discovered by mulberry; Mainfield route by Squidwest_
     ---
 
     - Mineru
-    - All the requirements for [Method 1]() or [Method 4]() of Super Fuse Overload
+    - All the requirements for [Method 1](https://nan-gogh.github.io/ultrabroken-documentation/wiki/BW8/?sfo-nesting-test#method-1-persistentpurgatory-overload-batch-di) or [Method 4](https://nan-gogh.github.io/ultrabroken-documentation/wiki/BW8/?sfo-nesting-test#method-4-permanentoverload-cold-fuse-permacull) of Super Fuse Overload
     - The warp-point for Mogisari Shrine at the Lomei Sky Labyrinth. Other low-gravity zones may work, but are untested for stability during SFO.
 
     #### Preparing SFO
     ---
     notoc: true
     ---
-
 
     ##### Via SFO Method 1 ?
 
@@ -163,21 +182,24 @@ _Discovered by mulberry; Mainfield route by Squidwest_
     5. (this can be proven by attempting to nock an arrow; it should remain where the quiver was when ZR was pressed)
 
     #### Collecting Mineru's Arm
+    ---
+    notoc: true
+    ---
 
     1. Equip a weapon and ensure there is space in your weapon pouch
     2. Warp to Mogisari Shrine
-    3. As soon as you gain control, walk in a small clockwise circle while spamming A (see video below (uh, when I add it))
-    4. Execution permitting, you will pick up a new 2-handed weapon, dealing 38 damage, which has no icon, description, model, or collision, and is called MsgNotFound
-    5. If unsuccessful, stand nearish to the shrine entrance and spam A between Panic Blood Moons (see other video I also haven't added)
-    6. If Mineru was not summoned, simply summon her after the warp (and optionally warp again to get a go at the primary strat)
-    7. About 3 seconds after control is gained, a panic blood moon will occur, which will _usually_ give an autosave
+    3. As soon as you gain control, walk in a small clockwise circle while spamming A (see "Mainfield Mineru's Arm Route" resource below)
+    4. Execution permitting, you will pick up a new 2-handed weapon, dealing 38 damage (as listed in the menu), which has no icon, description, model, or collision, and is called MsgNotFound
+    5. If unsuccessful, stand about halfway between the shrine's warp point and its left/east "Dragon pillar", and spam A between Panic Blood Moons (see "Mainfield Route Backup Strat" resource below)
+    6. If Mineru was not summoned in advance, simply summon her after the warp (and optionally warp again to get a go at the primary strat)
+    7. About 3 seconds after control is gained, a panic blood moon will occur, which will _usually_ give an autosave. Further PBMs will occur much sooner than the first, and are unlikely to provide an autosave
     8. Make a hard save if desired, then close the game to clear SFO if desired
 
 ## Notes
 
 ### Properties
 
-#### As a weapon
+#### As a weapon:
 ---
 notoc: true
 ---
@@ -201,7 +223,7 @@ notoc: true
 notoc: true
 ---
 
-- While standing on the ground (or in very limited airborne circumstances), Mineru's Arm will always fail-drop
+- While standing on the ground, or in certain (very limited) airborne circumstances, Mineru's Arm will always fail-drop
 - This also causes anything later than it in the drop queue to fail-drop as well
 - Thus, Mineru's Arm can be used as a portable wall whenever _nearly any_ glitch requires a fail-drop to occur at some moment
 
@@ -216,8 +238,18 @@ notoc: true
 
     - [Original Mineru's Arm Get](https://discord.com/channels/1086729144307564648/1110956205624532993/1447304812197838930)
     - [Mainfield Mineru's Arm Route](https://discord.com/channels/1086729144307564648/1113557914444111873/1484238374909902868)
+    - [Mainfield Route Backup Method](https://discord.com/channels/1086729144307564648/1110956205624532993/1510038404178383040)
 
 ### Related
 - [Zuggle Overload](search:Zuggle Overload)
 - [Despawn Interrupt](search:Despawn Interrupt)
 - [Fuse Entanglement](search:Fuse Entanglement)
+
+### page todos ?
+---
+notoc: true
+---
+
+- embed important clips instead of just linking to them
+- do CSZ to figure out how best to do it in ganons loser cave
+- format mainfield route section better, it's messy
