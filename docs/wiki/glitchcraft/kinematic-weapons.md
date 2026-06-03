@@ -2,7 +2,7 @@
 title: "Kinematic Weapons"
 uid: "OO2"
 label: "KW"
-versions: ["1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["mulberry", "dt13269", "Squidwest"]
 date: "2026-02-25"
 description: "Allows weapons with the 'kinematic' motion type to be obtained, which don't react to outside forces (making them movable only by certain techniques)."
@@ -22,6 +22,9 @@ _Discovered by dt13269, mulberry; Optimizations by mulberry, Squidwest - 25 Febr
 All methods require a weapon currently held by a Depths Ghost, which will be referred to as the "target weapon" or "target".
 
 === "Pause-Cancel FE Methods" ###
+    ---
+    versions: ["1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    ---
 
     These Methods pause the game while performing FE on the target, preventing the depths ghost from detecting it being tampered with.
 
@@ -94,7 +97,10 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
     5. Proceed with a given Pause-Cancel method; The depths ghost will not despawn even without performing Pause-Cancel
 
 === "Overload Pickup Methods" ###
-
+    ---
+    ["1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    ---
+    
     These Methods use Overload Pickup to move the target to a distance where the depths ghost can't detect it being tampered with.
 
     #### Method 4: Basic Loadless ?
@@ -152,13 +158,43 @@ All methods require a weapon currently held by a Depths Ghost, which will be ref
     _Method discovered by mulberry - Mar 11th, 2026_
 
 === "Other Methods" ###
+    ---
+    ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    ---
 
-    These methods share nothing in common with the other methods on this page. And, maybe someday there will be more than one here?
+    These methods share nothing in common with the other methods on this page. They are usually inefficent, except on `1.0.0`, where they are the only working methods.
 
-    #### Method 7: Super Fuse Overload ?
+    #### Method 7: Reverse Overload FE ?
+
+    - This method uses Overload FE to Fuse Entangle an undiscovered item to the Kinematic Weapon without discovering that item.
+    - This reverts the KW to an undiscovered item, allowing the New Item Prompt to be used to protect it from deletion.
+
+    Steps:
+
+    1. Prepare an undiscovered item.
+    2. [Overload Pickup](uid:8QH) the target weapon
+    3. Move out of the depths ghost's update range, but stay within its spawn range
+    4. This distance varies between depths ghosts, but can be made more lenient by facing the camera away from it
+    5. Fail-drop the target, then Zuggle it once it returns
+    6. Overload Drop a weapon and fuse it to a shield
+    7. Fuse the undiscovered item to weapon, causing Overload FE to the target weapon
+    8. Swap weapon to reattach, then drop equipped weapon (and thus the Kinematic weapon) at the edge of the Depths Ghost's spawn range
+    9. Use Ultrahand on the Kinematic Weapon to undo the resulting Zuggle Drop
+    10. Walk out of the Depths Ghost's spawn range and pick up the Kinematic Weapon during the Depths Ghost's despawn animation
+    11. Performed correctly, the New Item Prompt will protect the Kinematic Weapon from being destroyed by the Depths Ghost
+    
+    #### Method 8: Lift Storage Warp ?
+
+    - This method uses Lift Storage Warp to teleport Link out of the Depths Ghosts' spawn area during the New Item Prompt. Said prompt protects the Kinematic Weapon from despawning.
+    - It only works on an undiscovered Kinematic Weapon.
+
+    1. The steps get added _after_ sleep and testing occur
+    2. In that order
+
+    #### Method 9: Super Fuse Overload ?
 
     - This method uses Super Fuse Overload to exhuast the game's Global Dependency Array and prevent the depths ghost from ever "equipping" the weapon.
-    - It is extremely suboptimal for all patches `1.1.0` and up, but is the only known way to obtain a Kinematic Weapon on `1.0.0` (or, _would_ be if someone would confirm it works on that patch pretty please).
+    - It is extremely suboptimal for all patches `1.1.0` and up, but is the only known way to obtain a Kinematic Weapon on `1.0.0` without access to an undiscovered item.
 
     Steps:
 
