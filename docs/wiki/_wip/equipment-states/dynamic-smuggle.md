@@ -18,4 +18,4 @@ Equip and then warm-drop (or fail drop) any other equipment of the same type. Th
 
 ## Undoing
 
-Dynamic smuggles are released when some active equipment of the same type is thrown or shock-dropped. Warm-dropping active equipment will upgrade a dynamic smuggle into a dynamic zuggle.
+Dynamic smuggles are released when some active equipment of the same type is thrown or shock-dropped.
