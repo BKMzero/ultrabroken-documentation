@@ -54,3 +54,7 @@ There are many ways of transforming some equipment from one state to another, ba
 |Ground Drop Smuggle|Warm drop another|Ground Drop Equip||
 |Ground Drop Equip|Equip it|Strong Drop Equip||
 |Invismuggle|Warm drop / Fail drop another|Invizuggle||
+
+## Related
+
+- [Dropping mechanics](uid:NYI)

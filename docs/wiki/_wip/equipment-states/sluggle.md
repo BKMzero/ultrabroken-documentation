@@ -13,3 +13,4 @@ When Like Likes eat equipment, they don't fully delete it (for the most part), t
 ## See Also
 
 - **[Sluggle](uid:0QL)**
+- The similarly named **[Recall Sluggle](uid:WXE)**, which doesn't use Like Likes at all

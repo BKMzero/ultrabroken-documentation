@@ -15,7 +15,8 @@ Note that [drop _equips_](uid:HY9) are sometimes referred to as Drop Smuggles, d
 Drop Smuggles, unlike their static/dynamic counterparts, can be equipped.
 
 - Equipping a Drop Smuggle does nothing to affect its smuggle status; it's just also equipped.
-- If you unequip a Drop Smuggle, it will unequip without being deleted, preserving its smuggle status.
+- If you swap from a Drop Smuggle to something else, it will unequip without being deleted, preserving its smuggle status.
+	- Unequipping will just delete the Drop Smuggle.
 
 ## Methods
 
