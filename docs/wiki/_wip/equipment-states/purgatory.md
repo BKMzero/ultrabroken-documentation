@@ -38,21 +38,21 @@ But it has the following differences:
     - If you try fusing purgatory equipment to Mineru, the existing fuse on that attachment point is deleted and Fuse is cancelled. Nothing else happens.
 - It never culls from being left in a culling area, or because Link culls.
 
-## Fuse Entanglement
+## Partial Fusion
 
-Purgatory equipment has some additional features when on one side of a fuse entanglement:
+Purgatory equipment has some additional features when on one side of a fuse entanglement or cold fuse:
 
-### As the FE parent
+### Purgatorified Parent
 
-- Ultrahanding the FE child will temporarily reconnect the purgatory equipment to Link, and keep it at the same relative position it was at when first sent to purgatory. It re-releases when you let go of Ultrahand.<!-- I have a clip of doing this with a drop-purg shield and steering stick FE; should add it here. PF-->
-- Ultrahanding the FE child while loading a different file will [UltraSLOT](search:UltraSLOT) the equipment.
-    - UltraSLOT also works with cold fuse connections, although the child will typically be deleted during the first load.
+- Ultrahanding the child will temporarily reconnect the purgatory equipment to Link, and keep it at the same relative position it was at when first sent to purgatory. It re-releases when you let go of Ultrahand.<!-- I have a clip of doing this with a drop-purg shield and steering stick FE; should add it here. PF-->
+- Ultrahanding the child while loading a different file will [UltraSLOT](search:UltraSLOT) the equipment.
+    - If the partial fuse connection between the two is just a cold fuse connection, the child will still be deleted on reload without some other connection to keep it around.
 
-### As the FE child
+### Purgatorified Child
 
-- Having the FE parent equipped will keep the purgatory child equipped or positioned on Link as it was when it first entered purgatory. If you drop the parent, the child will drop from Link.
-    - This doesn't happen if the FE child was purgatorified due to physically culling Link.
-- Warping with the FE parent equipped will undo the purgatory status of the FE child, which will drop at Link's last position before the warp.
+- Having the parent equipped will keep the purgatory child equipped or positioned on Link as it was when it first entered purgatory. If you drop the parent, the child will drop from Link.
+    - This doesn't happen if the child was purgatorified through a physical cull; such equipment will stay culled.
+- Warping with the parent equipped will undo the purgatory status of the child, which will drop at Link's last position before the warp.
 
 ## Creating purgatory equipment
 
@@ -65,6 +65,7 @@ To send equipment to pugatory (to 'purgatorify' it), you have several options:
 - Drop some equipment while it's culled, and you have a zuggle of the same equipment kind. The dropped equipment will be sent to culled purgatory.
     - This equipment will permanently lose collision.
     - If the purgatory equipment has an FE parent, and you purgatorified it with an intangible cull, you can equip (or zuggle drop) the parent to bring the child back into its last equip state. If it was in Link's hand and you equip something else of that type, you can use it in combat.
+    - **Do not** do this after purgatorifying a shield while Link is guarding with it! Unculling this shield will **crash** the game.
 
 ## Culled purgatory
 
