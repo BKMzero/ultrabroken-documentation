@@ -63,18 +63,18 @@ To send equipment to pugatory (to 'purgatorify' it), you have several options:
 - Smuggle a weapon or shield, then equip and shock-drop another. (If you smuggled a weapon, you can also throw the second instead.) The smuggle will lose collision and be purgatorified.
     - The second piece of equipment will be moved to the drop equip position, and thus also easy to purgatorify. It's a [weak drop equip](uid:HY9) though, and will move back if you change Link's animation state enough.
 - Drop some equipment while it's culled, and you have a zuggle of the same equipment kind. The dropped equipment will be sent to culled purgatory.
-    - This equipment will permanently lose collision.
-    - If the purgatory equipment has an FE parent, and you purgatorified it with an intangible cull, you can equip (or zuggle drop) the parent to bring the child back into its last equip state. If it was in Link's hand and you equip something else of that type, you can use it in combat.
+    - This equipment will permanently lose collision with the world.
+    - If the purgatory equipment has a fuse entangled parent, and you purgatorified it with an intangible cull, you can cull and uncull the parent to uncull the child. If you then equip (or zuggle drop) any fuse entangle or cold fuse parent, you can bring the child back into its last equip state. If it was in Link's hand and you equip something else of that type, you can use it in combat.
     - **Do not** do this after purgatorifying a shield while Link is guarding with it! Unculling this shield will **crash** the game.
 
 ## Culled purgatory
 
-If equipment is in purgatory and culled, it will not be deleted on reload. If you fuse entangle something to that equipment, with some other way to uncull the object afterwards, that object will also persist as a [PSLOT](search:PSLOT).
+If equipment is in purgatory and culled, it will not be deleted on reload. If you fuse entangle something to that equipment, with some other way to uncull the fuse entangled object afterwards, that object will also persist as a [PSLOT](search:PSLOT).
 
 Culled purgatory and PSLOT are similar to invizuggle and invizlot respectively, but with some differences:
 
-- Culled purgatory equipment does not contribute to [zuggle overload](uid:8QH), which can be convenient if you're already close to the threshold and don't want to push it further.
-- PSLOTs cannot text dive unless you [zuggle drop](uid:L84) them first.
+- Culled purgatory equipment does not contribute to [zuggle overload](uid:8QH), which can be convenient if you're already close to the threshold and don't want to push it further. Link will completely overload before you reach even 20 invizuggles, but the game will handle hundreds of permaculls before [running into problems](uid:TX4).
+- PSLOTs don't automatically text dive, as while the culled purgatory parent is enough to keep the item around, it doesn't count as a dependency to Link. If the item is equipment, or has an intermediate equipment parent, you can zuggle or zuggle drop that to make the item text dive.
 
 ## Crash risks
 
@@ -92,7 +92,7 @@ But the following are always safe to do:
 - Pausing and unequipping its FE parent.
 - Distance despawning it (going too far away) or its FE parent.
 - Re-equipping / zuggle dropping its FE parent, and breaking it due to durability loss.
-- Any normally crash-prone method while the equipment's non-purgatory FE/CF counterpart has a proper two-way connection to Link. This can include ultrahanding it, or having it equipped. (Zuggling it isn't strong enough a connection.)
+- Any normally crash-prone method while the equipment's non-purgatory FE/CF counterpart has a proper two-way connection to Link. This can include ultrahanding it, or having it equipped. (Zuggling it isn't strong enough a connection for this purpose.)
 
 ## Other effects
 
