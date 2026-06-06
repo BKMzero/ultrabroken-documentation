@@ -8,7 +8,14 @@ aliases: ["ds"]
 
 A [smuggle](uid:TGY) in the drop [equip position](uid:S8I).
 
-Note that [drop _equips_](uid:HY9) are sometimes referred to as drop smuggles, despite not being true smuggles.
+Note that [drop _equips_](uid:HY9) are sometimes referred to as Drop Smuggles, despite not being true smuggles.
+
+## Effects
+
+Drop Smuggles, unlike their static/dynamic counterparts, can be equipped.
+
+- Equipping a Drop Smuggle does nothing to affect its smuggle status; it's just also equipped.
+- If you unequip a Drop Smuggle, it will unequip without being deleted, preserving its smuggle status.
 
 ## Methods
 
