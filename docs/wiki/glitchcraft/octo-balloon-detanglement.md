@@ -6,7 +6,7 @@ versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", 
 credits: ["mulberry"]
 date: "2025-11-16"
 description: "Allows for easy detanglement of any shield using octoballoons"
-aliases: ["Octo Detanglement", "octo-balloon-detanglement"]
+aliases: ["Octo Detanglement", "Octo Detangling", "octo-balloon-detanglement"]
 tags: ["equipment", "shield", "zuggling"]
 ---
 
@@ -23,7 +23,13 @@ _mulberry - 16 November 2025_
 3. While continuing to hold ZL, unpause and press B in quick succession
 
 ## Notes
-—
+
+Detangling with octo balloons has some advantages over detangling with rockets:
+
+- No need to zuggle the parent.
+- No need to worry about _deletion flag_, provided that:
+	- You are playing on version `1.2.0` or higher
+	- The shield is not Despawn Interrupted
 
 ## Resources
 - [Discord](https://discord.com/channels/1086729144307564648/1113557914444111873/1439763376753344604)
