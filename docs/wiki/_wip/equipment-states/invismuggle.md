@@ -20,7 +20,7 @@ To upgrade an invismuggle to an invizuggle, you just need to **fail drop** some 
 - Have something else of that type equipped (you need to set this up before invismuggling)
 - Fill up the invismuggle type's equipment tab
 - Obtain a chest containing new equipment of that type
-- Move the chest do you can open it while Link's back is to a wall
+- Move the chest so you can open it while Link's back is to a wall
 - Open the chest and try to drop your active equipment of that type, which will fail drop
 
 Fully dropping some other equipment will not turn the invismuggle into an invizuggle, but will instead send it to culled purgatory. 

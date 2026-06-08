@@ -93,7 +93,7 @@ _Overload method: BigDUCCO, Vee.Might.Exist, Syb (date unknown)_
 
 === "Method 3 (Fuse Entanglement, all versions)" ###
     #### Requirements
-    - The target item must be unfused
+    - The target item must have no fusion on it
 
     #### Setup
 
@@ -108,7 +108,7 @@ _Overload method: BigDUCCO, Vee.Might.Exist, Syb (date unknown)_
 
 === "Method 4 (Mineru, all versions)" ###
     #### Requirements
-    - The target item must be unfused
+    - The target item must have no fusion on it
 
     #### Setup
 

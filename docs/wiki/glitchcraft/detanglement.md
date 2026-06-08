@@ -23,7 +23,7 @@ _Zas - 9 September 2023_
 
 ## Notes
 - Fuse entangling / fusing a previously detangled object and dropping (or fail dropping) the new parent will usually delete the fused object. This happens because detangling sets a _deletion flag_ on the object.
-    - To prevent this, detangle the object while standing far enough away from it (i.e. be out of its _activation range_. The distance required varies between objects, but 20 units is usually more than enough.
+    - To prevent this, detangle the object while standing far enough away from it (i.e. be out of its _activation range_). The distance required varies between objects, but 20 units is usually more than enough.
     - If playing on version `1.2.0` or higher, and not detangling from a Despawn Interrupted shield, Octo Detangling never sets the deletion flag due to the drop–swap cull.
     - Recall Locked objects have infinite activation range.
 - Can be used to detangle wuggled equipment, turning it into a true zuggle.
