@@ -85,7 +85,7 @@ Smuggles and zuggles are very similar in behaviour and nature. From the equipmen
 - **Culling** on version `1.2.0` and up - On newer versions of the game, a smuggle is culled if something else of that type is equipped, and unculled when the smuggle fully drops. This is what makes portable culling work (and why it takes a drop–swap, not just a drop).
     - Fail drops didn't forcibly uncull until version `1.2.1`, so version `1.2.0` specifically can quick smuggle with no effort.
 - **D-Pad Lock** - An active smuggle causes the D-Pad to lock on version `1.1.2` and up, meaning that it is not possible to use the D-Pad or drop/swap/unequip equipment of the smuggle's type.
-    - On version `1.1.2` specifically, you can bypass d-pad lock by opening the ability wheel, then going straight to the quick menu before the game unpauses.
+    - On version `1.1.2` specifically, you can bypass d-pad lock for shields and bows by opening the ability wheel, then going straight to the quick menu before the game unpauses.
     - Smuggling [Despawn Interrupted](uid:JEV) equipment doesn't cause d-pad lock on any version.
     - D-Pad Lock doesn't happen while Link is culled.
 - **Fuse Entanglement** - Anything fused, fuse entangled, or animated cold fused to intended equipment will also fuse entangle to any unculled smuggle.

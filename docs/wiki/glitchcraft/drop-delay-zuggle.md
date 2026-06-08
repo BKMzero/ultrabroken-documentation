@@ -26,7 +26,10 @@ _LegendofLinkk - 6 June 2023_
 6. When the map is open, hold down and unpause
 
 ## Notes
-You dont need a wall, if you load a file after going into the map.
+
+- This glitch doesn't work with weapons on version `1.1.2`. If you need to zuggle a weapon on `1.1.2`, use Cull Storage Zuggle instead.
+- Instead of using a wall, you can also drop the new equipment you swapped to in step 3 and load a file without unpausing.
+
 
 ## Resources
 - [Twitter](https://twitter.com/iLegendofLinkk/status/1669042156324139008?t=t_Gk24Nr3ezqvCx5djFffA&s=19)

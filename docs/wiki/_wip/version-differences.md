@@ -54,7 +54,7 @@ This version fixes a softlock that can theoretically happen in the main GSI ques
 
 This is the killjoy version that patches a whole raft of glitches. Some of the most important changes are:
 
-- Introduces **d-pad lock**, making map zuggling and Drop SLD impossible. You can still use the ability wheel to bypass this, so [Drop Delay Zuggle](search:Drop Delay Zuggle) still works. Throw SLD and L-cancel Fuse Entanglement also still work.
+- Introduces **d-pad lock**, making map zuggling and Drop SLD impossible. You can still use the ability wheel to bypass this for shields and bows, so [Drop Delay Zuggle](search:Drop Delay Zuggle) still works. Throw SLD and L-cancel Fuse Entanglement also still work.
 	- Despawn Interrupted equipment is exempt from these restrictions.
 - Midair Sort Duping, Autobuild Cancel, and FABS are all patched.
 
