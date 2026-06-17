@@ -25,6 +25,7 @@ The lingering connection to Link makes zuggle dropped equipment behave slightly 
         - This trick is sometimes called _local overload_.
 - Zuggle dropped equipment will continue to have its physics updated during some cutscenes and dialog text.
 - Ascending while a zuggle drop is being recalled will immediately cancel the recall. This is a way to test if some dropped equipment is a zuggle drop or not.
+
     !!! warning
         This test isn't perfect though. All zuggle drops will do this, but so will anything with a zuggled FE parent, even transitively. If you have any recall locked ZLOTs (including invizlots), _all_ equipment will do this!
 
