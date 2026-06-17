@@ -21,5 +21,5 @@ If you warm-drop a drop equip, the equipment will be sent to [purgatory](uid:TAO
 
 ## Undoing
 
-To undo a drop equip, fail drop it.
+To undo a drop equip, fail drop it. You can also pick it up if you have an empty equipment slot, which will act exactly like an unequip.
 

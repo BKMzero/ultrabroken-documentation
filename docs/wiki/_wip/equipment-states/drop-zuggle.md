@@ -8,6 +8,8 @@ aliases: ["dz"]
 
 A zuggle in the drop [equip position](uid:S8I).
 
+Not to be confused with [Zuggle Drop](uid:L84).
+
 ## Methods
 
 [Search for drop zuggle methods](search:Drop Zuggle)
