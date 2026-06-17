@@ -50,8 +50,9 @@ Purgatory equipment has some additional features when on one side of a fuse enta
 
 ### Purgatorified Child
 
-- Having the parent equipped will keep the purgatory child equipped or positioned on Link as it was when it first entered purgatory. If you drop the parent, the child will drop from Link.
+- Having the parent equipped will keep the purgatory child equipped or positioned on Link as it was when it first entered purgatory. If that position was in one of Link's hands, this is known as _equipped purgatory_; you can use that equipment for combat, where it will function just like a zuggle. If you drop the parent, the child will drop from Link.
     - This doesn't happen if the child was purgatorified through a physical cull; such equipment will stay culled.
+    - Instead of equipping the parent, you can also Zuggle Drop it. To release the child, equip and drop the parent, or move it with Ultrahand.
 - Warping with the parent equipped will undo the purgatory status of the child, which will drop at Link's last position before the warp.
 
 ## Creating purgatory equipment
@@ -62,7 +63,7 @@ To send equipment to pugatory (to 'purgatorify' it), you have several options:
     - Be ready for it to fly away from Link with great speed when you drop it!
 - Smuggle a weapon or shield, then equip and shock-drop another. (If you smuggled a weapon, you can also throw the second instead.) The smuggle will lose collision and be purgatorified.
     - The second piece of equipment will be moved to the drop equip position, and thus also easy to purgatorify. It's a [weak drop equip](uid:HY9) though, and will move back if you change Link's animation state enough.
-- Drop some equipment while it's culled, and you have a zuggle of the same equipment kind. The dropped equipment will be sent to culled purgatory.
+- Drop some equipment while it's culled, and you have a \[static, unculled\] smuggle or zuggle of the same equipment kind. The dropped equipment will be sent to culled purgatory.
     - This equipment will permanently lose collision with the world.
     - If the purgatory equipment has a fuse entangled parent, and you purgatorified it with an intangible cull, you can cull and uncull the parent to uncull the child. If you then equip (or zuggle drop) any fuse entangle or cold fuse parent, you can bring the child back into its last equip state. If it was in Link's hand and you equip something else of that type, you can use it in combat.
     - **Do not** do this after purgatorifying a shield while Link is guarding with it! Unculling this shield will **crash** the game.
@@ -83,16 +84,28 @@ The following ways of deleting unculled purgatory equipment will **crash** the g
 !!! danger
     This list of purgatory equipment crash methods is incomplete — there are more than are listed here!
 
-- Picking it up and sending it straight to the inventory
+These will **always** crash the game without exception:
+
+- Unculling a shield that was purgatorified while culled, and while Link was guarding with it
+    - 'Guarding' means 'Link holds it out in front of him'. You can still purgatorify shields in Link's left hand if he has it down by his side.
+
+These will **typically** crash the game:
+
+- Picking it up with something else equipped
 - Burning it
+
+You can avoid these typical purgatory crashes with some preparation:
+
+- On purgatory equipment that has a partial fusion parent (cold fuse or fuse entangle), if the parent is either equipped, or being moved with Ultrahand. (Having it zuggled does _not_ work for this.) The equipment will be deleted as normal.
+- If the equipment was also Despawn Interrupted with a death reason of a high enough priority (_Eaten_ meets that requirement for all crash methods listed above). The equipment won't be deleted.
 
 But the following are always safe to do:
 
 - Reloading/warping, and letting purgatory equipment be deleted in the loading screen.
 - Pausing and unequipping its FE parent.
 - Distance despawning it (going too far away) or its FE parent.
-- Re-equipping / zuggle dropping its FE parent, and breaking it due to durability loss.
-- Any normally crash-prone method while the equipment's non-purgatory FE/CF counterpart has a proper two-way connection to Link. This can include ultrahanding it, or having it equipped. (Zuggling it isn't strong enough a connection for this purpose.)
+- Despawning it or its FE parent by exceeding the dropped equipment limit of 20.
+- Re-equipping / zuggle dropping its parent, and then breaking it due to durability loss.
 
 ## Other effects
 
