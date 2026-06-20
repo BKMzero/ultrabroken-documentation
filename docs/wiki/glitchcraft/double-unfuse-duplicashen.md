@@ -2,7 +2,7 @@
 title: "Double Unfuse Duplicashen"
 uid: "BSN"
 label: "DUD"
-versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3"]
+versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["鯉神 (Li Shen)", "ArmindoEmiya", "Squidwest", "dt13269", "Jordan", "mulberry"]
 date: "2023-05-15"
 description: "Allows you to duplicate any material that can be fused to an arrow, including Zonai Devices."
@@ -39,7 +39,7 @@ _Abilities, requirements, optimizations, and new methods by dt13269, Jordan, mul
     8. **Repeat** from step 1
 
     !!! note
-        Versions `1.2.0` and newer must use Void Dipping or DI on the first bow to be allowed to drop the second at the right time.
+        Due to the addition of "D-Pad Lock", versions `1.1.2` and newer must use Void Dipping or DI on the first bow to be allowed to drop the second at the right time.
 
     _Discovered by 鯉神 (Li Shen)_
 
