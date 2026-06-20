@@ -13,7 +13,7 @@ tags: ["zuggling", "map", "item", "equipment"]
 # Map Zuggling
 
 ## Summary
-Allows you to zuggle much faster than older versions
+Allows you to zuggle much faster on older versions
 
 _BigDUCCO - 23 May 2023_
 
