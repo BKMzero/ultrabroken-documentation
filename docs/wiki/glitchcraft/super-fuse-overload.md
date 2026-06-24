@@ -27,7 +27,7 @@ If you wish to steal mineru's arm, make an autosave in the tunnel to ganondorf, 
 3. Make a DI weapon
 4. Use the DI weapon to make a new di weapon ghost and detangle it from both of its parents. Call it A
 5. Zuggle A and load the Rasitakiwak shrine save
-6. Setup two FE chains: DI weapon -> normal weapon -> DI shield and DI shield -> Normal shield using these steps:
+6. Setup two FE chains: DI weapon A -> normal weapon B -> DI shield C and DI shield D -> Normal shield E using these steps:
 7. Use A to make a frox shield
 8. Use that shield to make D and detangle both parents, then delete those parents
 9. Overload fe a new shield to D (this is the E shield)
