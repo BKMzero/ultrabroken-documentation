@@ -14,6 +14,10 @@ tags: ["item", "zuggling", "fuse", "despawn"]
 
 ## Summary
 
+A similar glitch to Void Dipping that has additional properties and is done with a Frox, Molduga, or Like Like.
+
+### Explanation
+
 When something is eaten by a Like Like (objects only), or a Frox/Molduga (objects or equipment), it is given the "Eaten" death reason, which promptly calls "RequestFadeOutDelete" as part of the death procedure.
 
 If this fadeout is interrupted by culling the object (which pauses all active alpha fades), the death procedure is halted indefinitely, allowing the numerous properties of the Eaten state to be accessed.
@@ -38,7 +42,7 @@ Due to their differing attack patterns, the detailed instructions below will be 
 
 === "Frox Methods" ###
 
-    - Froxen are more abundant across Hyrule, but it can be harder to time DI with their attacks.
+    - Froxen are abundant across Hyrule's Depths, but it can be hard to time DI with their attacks.
 
     #### Method 1: Overload + Portacull Mitosis ?
     ---
@@ -98,7 +102,7 @@ Due to their differing attack patterns, the detailed instructions below will be 
     9. **Pause** the game and swap to another of the target's type, then unpause the game. It will now be drop smuggled, and can be used to create **DI Ghosts** as-is.
     10. If desired, the target can be taken through warps and loads by dropping or fail-dropping a warm-equipped item of the target's type, converting the drop smuggle into a drop zuggle.
 
-    _Discovered by mulberry and suusi - Feb 02nd, 2026_
+    _Discovered by mulberry, Suusi - Jan 19th, 2026_
 
     #### Method 3: Fuse Entanglement ?
     ---
@@ -128,7 +132,9 @@ Due to their differing attack patterns, the detailed instructions below will be 
     8. Find and **pick up** A. If neccessary, drop B and carry it away with Ultrahand.
     9. If desired, use Octo Detanglement to detangle A from B, allowing it to be properly zuggled and taken elsewhere.
 
-    _Discovered by mulberry, Squidwest - Jan 16th, 2026_
+    _Discovered by mulberry - Jan 16th, 2026_
+
+    _Optimizations by mulberry, Squidwest - Jan 17th, 2026_
 
     #### Method 4: Mineru Limbo ?
     ---
@@ -597,13 +603,37 @@ Due to their differing attack patterns, the detailed instructions below will be 
 
 ## Properties
 
-- Has every special property of Void Dipped equipment
+### All Objects
+
+Shared with Void Dipping:
+
+- Uninteractible by runes (including, for equipment, fusing directly to it)
+- Durability/Duration calculations are skipped
+- No longer react to the elements, nor break on physical impact (for those which retain collision when unfused)
+- Some Zonai Devices become non-functional
+
+Unique to DI:
+
+- idk
+
+### Equipment
+
+Shared with Void Dipping:
+
+- Some single-use fuses become infinite (eg Ancient Blades)
+- Does not directly cull from Drop-Swap Culling
+- Faildrop causes Equipped Smuggle
+- Faildrop-Swap, Drop-Swap-Unequip, and Drop-Swap-Drop cause unequipped smuggle
+- Does not induce D-Pad Lock when smuggled on `1.1.2+` (except if there is no dependency to Link)
+
+Unique to DI:
+
 - Due to the lower death reason number, it is immune to being destroyed by inventory pickup. Therefore, it can be used to duplicate that equipment en masse simply by picking it up with something else equipped
 - Propagates the Eaten death reason to anything fused to it (slightly conditional). This can in turn be interrupted to create a [DI Ghost](uid:BEW) (see linked page for details and methods)
 
 ## Notes
-- Sometimes known as "Eaten DI". "Frox Dipping" is a discouraged moniker.
-- Although void dipping is also technically a form of Despawn Interrupt, DI and Despawn Interrupt refers to the eaten variation by convention.
+- Sometimes known as "Eaten DI". "Frox Dipping" and "Frox Licking" are disused and discouraged monikers.
+- Although void dipping is also technically a form of Despawn Interrupt, DI and Despawn Interrupt refers _only_ to the eaten variation by convention.
 
 ## Resources
 - [Spreadsheet link](https://docs.google.com/spreadsheets/d/1xNB1gOLZRSF9yp1mHUsS9ymogRJa1Wz8rTliTXezeRM/edit?pli=1&hl=de&gid=0#gid=0&range=294:294)
@@ -623,6 +653,7 @@ Due to their differing attack patterns, the detailed instructions below will be 
 
     - [Original Discovery](https://discord.com/channels/1086729144307564648/1110956205624532993/1461889160062173416)
     - [Portacull Mitosis Method Discovery](https://discord.com/channels/1086729144307564648/1113557914444111873/1462825674074095829)
+    - [Original Overload Drop Zuggle Method](https://discord.com/channels/1086729144307564648/1113557914444111873/1462832934179442861)
     - [Overhead Portacull Method with Overload Drop Zuggle and Cloning](https://discord.com/channels/1086729144307564648/1113557914444111873/1462832934179442861)
     - [Overload Drop Zuggle Method](https://discord.com/channels/1086729144307564648/1113557914444111873/1468028451851337862)
     - [FE Method](https://discord.com/channels/1086729144307564648/1110956205624532993/1461982572509659211)
