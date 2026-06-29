@@ -4,8 +4,8 @@ uid: "MG1"
 label: "DI"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Aergyl", "Jordan", "Kleric", "mulberry", "ofstrings2", "Squidwest", "suusi"]
-date: "2026-01-16"
-description: "A similar glitch to void dipping that has additional properties and is done with a molduga or frox."
+date: "2024-06-16"
+description: "A similar glitch to Void Dipping that has additional properties and is done with a Frox, Molduga, or Like Like."
 aliases: ["despawn-interrupt", "eaten di", "frox dipping", "frox dip", "duga dipping", "duga dip"]
 tags: ["item", "zuggling", "fuse", "despawn"]
 ---
@@ -13,21 +13,26 @@ tags: ["item", "zuggling", "fuse", "despawn"]
 # Despawn Interrupt
 
 ## Summary
-A similar glitch to void dipping that has additional properties and is done with a molduga or frox.
 
-_Frox DI discovered by mulberry - 16 January 2026_
+When something is eaten by a Like Like (objects only), or a Frox/Molduga (objects or equipment), it is given the "Eaten" death reason, which promptly calls "RequestFadeOutDelete" as part of the death procedure.
 
-_Duga Dipping discovered by Squidwest - Jan 30th, 2026_
+If this fadeout is interrupted by culling the object (which pauses all active alpha fades), the death procedure is halted indefinitely, allowing the numerous properties of the Eaten state to be accessed.
 
-_Credits and dates for individual methods below each method_
+_Like Like DI discovered by mulberry - June 16th, 2024_
+
+_Frox DI discovered by mulberry - January 16th, 2026_
+
+_Duga Dipping discovered by Squidwest - January 30th, 2026_
+
+_Additional credits below each method_
 
 ## Instructions
 
 The general form of every method is as follows:
 
-- Allow a Frox or Molduga to eat the target (almost always equipment)
+- Allow a hungry monster to eat an eligible target
 - After the target begins to fade from existence, but before it fully despawns, cull it
-- Usually, some final step is required to obtain a normally-equipped and independent DI item
+- If the target is equipment, some final step is usually required to obtain a normally-equipped and independent DI item
 
 Due to their differing attack patterns, the detailed instructions below will be partitioned by their choice of monster. Furthermore, due to the large number of workable methods, only 4 of the most practical will be provided for each monster. The remainder are collected in the "Other Methods" tab.
 
@@ -41,7 +46,7 @@ Due to their differing attack patterns, the detailed instructions below will be 
     obsolete: false
     ---
 
-    - This method uses a Portacull to both cull the target and to safely swap off it without destroying it.
+    - This method uses a Portacull to both cull an equipment target and to safely swap off it without destroying it.
     - The steps given use the Frox's overhead attack for convenience, but it will work with any attack that has it open its mouth.
 
     Prepare:
@@ -55,13 +60,13 @@ Due to their differing attack patterns, the detailed instructions below will be 
 
     1. Fall towards the Frox from above, and paraglide at the right height so that it opens its mouth but does not leap.
     2. **Overload Drop** the target so that it will fall in the Frox's mouth.
-    3. As soon as the target visibly begins to despawn (which will happen at a consistent distance away from the Frox's mouth), **pause** the game.
+    3. As soon as the target visibly begins to despawn, **pause** the game. The fadeout is too short to pause on reaction, but it can be caught with pause buffering, and always happens at the same distance from the Frox's mouth.
     4. **Drop** the Portacull, **swap** to another item of that type, and **swap** to another item of the target's type.
     5. **Unpause** the game. If desired, the portacull can be saved by immediately entering bullet time, **unequipping** what was swapped to, and **picking up** the portacull.
     6. Assuming the timing window was hit correctly, the target will be DI'd and left on the ground somewhere nearish to the Frox. An ordinary duplicate of the target will also be left in the inventory due to the mitosis.
-    7. Due to the darkness of the depths, it can be very beneficial to **fuse** something _luminous_ to the target first. The fused item won't always survive the DI process, but when it does it makes tracking the target down much easier.
+    7. Due to the darkness of the depths, it can be very beneficial to **fuse** something luminous to the target first. The fused item won't always survive the DI process, but when it does it makes tracking the target down much easier.
 
-    _Discovered by Jordan - Jan 19th, 2026_
+    _Discovered by Jordan, mulberry - Jan 19th, 2026_
 
     #### Method 2: Overload + Portacull + Overload Drop Zuggle ?
     ---
@@ -120,10 +125,10 @@ Due to their differing attack patterns, the detailed instructions below will be 
     5. **Drop** B, **swap** to another shield, and **unequip** that shield.
     6. **Unpause** the game and immediately **pick up** B before it gets eaten and destroys A with it
     7. Assuming the timing window was hit correctly, A will be DI'd and left on the ground somewhere nearish to the Frox.
-    8. Find and **pick up** A, or else carry it away with Ultrahand if it is the same type as B.
+    8. Find and **pick up** A. If neccessary, drop B and carry it away with Ultrahand.
     9. If desired, use Octo Detanglement to detangle A from B, allowing it to be properly zuggled and taken elsewhere.
 
-    _Discovered by Squidwest - Jan 17th, 2026_
+    _Discovered by mulberry, Squidwest - Jan 16th, 2026_
 
     #### Method 4: Mineru Limbo ?
     ---
@@ -188,11 +193,11 @@ Due to their differing attack patterns, the detailed instructions below will be 
     5. If the target appears on Link's back, but Mineru does not appear, she is in Limbo; Proceed to Step 6. If not, repeat step 4.
     6. **Drop** the target and whistle the Molduga over if it hasn't already noticed Link.
     7. Allow the Molduga to perform its lunge attack, eating Link, the Steering Stick, the Springs (if present), and the target all in one.
-    8. Check if the target was DI'd. Due to the whims of the Sage of Spirit, the target will very occasionally be unchanged or completely destroyed (usually the former). If needed, try again from step 2 or 1 respectively.
+    8. Check if the target was DI'd. Due to the whims of the Sage of Spirit, the target will rarely be unchanged or completely destroyed (usually the former). If needed, try again from step 2 or 1 respectively.
     9. If desired, detangle the target from Mineru by fusing something else to the target's slot.
 
     _Spring Stack Wall Method discovered by mulberry - Mar 13th, 2026_
-    _Siwakama Wall Method discovered by Squidwest - I don't remember when and I don't think I posted about it? I'll find whatever is the closest thing to a date/source later_
+    _Siwakama Wall Method discovered by Squidwest - Late Mar 2026_
 
     #### Method 6: FE ?
     ---
@@ -276,12 +281,65 @@ Due to their differing attack patterns, the detailed instructions below will be 
 
     _Discovered by Jordan - Feb 02nd, 2026_
 
+=== "Like Like Methods" ###
+
+    - Like Likes are the most abundant hungry monster, and can even cull the target automatically, but are unable to DI equipment.
+    - In turn, this entirely prevents access to portable DI, Gen 2 DI, and DI equipment by these methods.
+    - Due to these limitations, Like Like DI has mostly been explored for the creation of an Infinite Pocket Rocket.
+
+    #### Method 9: Parent Feeding ?
+    ---
+    versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    ---
+    
+    - This method feeds the FE parent of the target to the Like Like at the same time as the target itself, automatically culling it within the DI window.
+    - Optionally, Fuse Storage may be performed simultaneously, allowing for a Fuse or Pseudo Fuse parent to be created at the same time as the DI is performed.
+
+    Steps for DI:
+
+    1. Fuse Entangle the target to a weapon or shield
+    2. Glue the target and a bomb flower (or other explosive) to the parent, and place them near the edge of the Like Like's attack range (at this distance to ensure everything gets eaten at the same time)
+    3. If performing Fuse Storage, shake the target free to allow it to be fused
+    4. When the Like Like eats the trio of objects, DI will occur automatically, and the parent+target will be unculled when the Bomb Flower detonates
+
+    Getting Fuse Storage & converting to PF:
+    
+    1. 1-2 frames before the Like Like eats the three objects, input a Fuse (ZL/Y) on the target
+    2. Due to the target culling with its existing parent, Fuse will be stored
+    3. To convert the stored fuse to PF, target any Replacement Actor (such as a Bomb Flower) with Fuse (do not actually initiate fusion)
+    4. When the bomb detonates and unculls the target, either Fuse or Pseudo Fuse will be performed on the parent used to perform Fuse Storage
+
+    #### Method 10: Drop-Swap Culling ?
+    ---
+    versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    ---
+
+    - This method uses "Drop-Swap Culling" to cull the target.
+    - Compared to Method 9, it requires manual timing, but is both faster and cheaper.
+    - A fuse can still be stored, but getting both DI and Fuse/PF is frame-perfect.
+
+    Steps for DI:
+
+    1. Fuse Entangle the target to a weapon or shield
+    2. Place the target near the edge of the Like Like's attack range
+    3. 2-7 frames after the target is eaten and begins to despawn, **pause** the game
+    4. **Drop** the parent and **swap** to another item of its type (you may **unequip** or **drop** the swapped-to item if desired)
+    5. When the game is unpaused, the target will be DI'd
+
+    Getting Fuse Storage & converting to PF:
+
+    1. On the first frame after the target is eaten (the last frame before Fuse is disabled), input a Fuse (ZL/Y) on the target
+    2. Due to the target beginning to fade out the next frame, fuse will be stored
+    3. Before the target fully fades out, but after D-Pad Lock ends, **pause** the game
+    4. For full fuse, simply **Drop-Swap** the existing parent as above, leaving the fuse-stored parent equipped
+    5. For Pseudo Fuse, **Drop** the fuse-stored parent, _then_ **Drop-Swap** the existing parent
+
 === "Other Methods" ###
 
     - These methods are fully functional, but usually seen as less practical due to tighter timing windows, lower consistency, or both.
     - Some of them offer unique benefits, such as extreme minimalism or speed, while others are included only for archival purposes.
     
-    #### Method 9: Direct Fusion (Frox DI) ?
+    #### Method 11: Direct Fusion ?
     ---
     versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     notoc: true
@@ -290,28 +348,40 @@ Due to their differing attack patterns, the detailed instructions below will be 
 
     - This method fuses the target to a shield _after_ the despawn begins, and then uses Drop-Swap Culling to interrupt the despawn.
     - It thus requires no advance setup whatsoever. However, it is precise in positioning and requires a frame-perfect Fuse input.
-    - The target will be created in the "Non-resident" [Ghost DI](uid:BEW) state (no collision or gravity, but does not auto-PSLOT like a "proper" DI Ghost).
+    - The target will be created in the "Gen 1" [Ghost DI](uid:BEW) state (no collision or gravity, but does not auto-PSLOT like a "Gen 2" DI Ghost).
 
     Prepare:
 
     - A Shield (A weapon may be used but can't easily be detangled from)
     - The target
-    - A Frox (A Molduga will also work, but its lunge attack makes the positioning prohibitively precise)
+    - A Frox or Molduga
 
-    Steps:
+    === "Steps (Frox)" #####
 
-    1. Approach a Frox and wait until it is about to do a vaccuum attack. This is nearly always the first attack it does, and is also the only attack it will do when Link is slightly outside its territory
-    2. Put your target item between you and the Frox and **highlight** it with Fuse
-    3. On the first frame of the target despawning due to being eaten, **fuse** it to the shield and **pause** the game _immediately_
-    4. If the pause was especially fast, D-Pad Lock will be active. If it is, either perform a pause-buffer (must be nearly optimal), or watch memories until D-Pad Lock ends
-    5. **Drop** the shield, **swap** to another shield, and **unequip** that shield
-    6. **Unpause** the game and pick up the shield. If the target was successfully DI'd, it will have a separate pickup prompt from its parent
-    7. Go away from the Frox so that it stops attacking
-    8. Use Octo Detanglement to detangle the target from the shield, allowing it to be properly zuggled and taken elsewhere
+        1. Approach a Frox and wait until it is about to do a vaccuum attack. This is nearly always the first attack it does, and is also the only attack it will do when Link is slightly outside its territory
+        2. Put your target item between you and the Frox and **highlight** it with Fuse
+        3. On the first frame of the target despawning due to being eaten, **fuse** it to the shield and **pause** the game _immediately_
+        4. If the pause was especially fast, D-Pad Lock will be active. If it is, either perform a pause-buffer (must be nearly optimal), or watch memories until D-Pad Lock ends
+        5. **Drop** the shield, **swap** to another shield, and **unequip** that shield
+        6. **Unpause** the game and pick up the shield. If it was successfully DI'd, it will not be interactible with runes
+        7. Leave the area to avoid further Frox attacks
+        8. **Detangle** the target from its parent. This will both restore the pickup prompt and prevent the parent shield from reparing/destroying the target
+
+    === "Steps (Molduga)" #####
+
+        1. Gently place the target upon the sand, as far from Link as possible while still being in Fuse range
+        2. Cause a noise on the opposite side of the target from Link, as far as possible while still leaving the target in the zone-to-be-attacked
+        3. These steps serve to allow the target to be eaten at the very edge of the Molduga's bite, keeping Link out of the line of fire (you will not be able to cull the target if you are hit)
+        4. On the first frame after the target is eaten (the last frame before Fuse is disabled), Fuse the target to the shield
+        5. 1-6 frames after fusing, **pause** the game
+        6. **Drop** the shield, **swap** to another shield, and **unequip** that shield
+        7. **Unpause** the game and pick up the shield. If it was successfully DI'd, it will not be interactible with runes
+        8. Leave the area or find high ground to avoid further Molduga attacks
+        9. **Detangle** the target from its parent. This will both restore the pickup prompt and prevent the parent shield from reparing/destroying the target
 
     _Discovered by mulberry - Jan 17th, 2026_
 
-    #### Method 10: Pickup + Portacull (Frox DI) ?
+    #### Method 12: Pickup + Portacull ?
     ---
     versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     notoc: true
@@ -320,26 +390,38 @@ Due to their differing attack patterns, the detailed instructions below will be 
 
     - This method has Link pick up the target _after_ the despawn begins, allowing it to cull with him via a Portacull.
     - It does not require any other setup besides the Portacull. However, it is precise in positioning and requires a frame-perfect pickup input.
-    - Unlike Method 9, the target will be created in the ordinary DI state, retaining its gravity and collision.
+    - Unlike Method 11, the target will be created in the ordinary DI state, retaining its gravity and collision.
 
     Prepare:
 
     - A portacull of the opposite type as the target
     - The target
-    - A Frox (A Molduga will also work, but its lunge attack makes the positioning prohibitively precise)
+    - A Frox or Molduga
 
-    Steps:
-    
-    1. Approach a Frox and wait until it is about to do a vaccuum attack. This is nearly always the first attack it does, and is also the only attack it will do when Link is slightly outside its territory
-    2. Put your target item between you and the Frox and have its pickup prompt ready
-    3. On the first frame of the target despawning due to being eaten, **pick up** the target and **pause** the game _immediately_
-    4. If the pause was on the same frame as the pickup or the frame after, it will be too soon to DI. Either perform a pause-buffer (must be nearly optimal), or watch 2 memories to advance to the correct timing
-    5. **Drop** the portacull and **swap** to another of its type, then **Unpause** the game.
-    6. Go away from the Frox so that it stops attacking, and test for DI. If the target was successfully DI'd, it will no longer be interactible with runes
+    === "Steps (Frox)" #####
+
+        1. Approach a Frox and wait until it is about to do a vaccuum attack. This is nearly always the first attack it does, and is also the only attack it will do when Link is slightly outside its territory
+        2. Put your target item between you and the Frox and have its pickup prompt ready
+        3. On the first frame of the target despawning due to being eaten, **pick up** the target and **pause** the game _immediately_
+        4. If the pause was on the same frame as the pickup or the frame after, it will be too soon to DI. Either perform a pause-buffer (must be nearly optimal), or watch 2 memories to advance to the correct timing
+        5. **Drop** the portacull and **swap** to another of its type, then **unpause** the game
+        6. Go away from the Frox so that it stops attacking, and test for DI. If the target was successfully DI'd, it will no longer be interactible with runes
+
+    === "Steps (Molduga)" #####
+
+        1. Gently place the target upon the sand, as far from Link as possible while still being in pickup range
+        2. Cause a noise on the opposite side of the target from Link, as far as possible while still leaving the target in the zone-to-be-attacked
+        3. These steps serve to allow the target to be eaten at the very edge of the Molduga's bite, keeping Link out of the line of fire (you will not be able to cull the target if you are hit)
+        4. On the first frame after the target is eaten (the last frame before pickup is disabled), **pick up** the target
+        5. 1-6 frames after pickup, **pause** the game
+        6. **Drop** the portacull and **swap** to another of its type, then **unpause** the game
+        7. Any time after Link unculls, **unequip** the portacull's type so that it may be taken with
+        8. Leave the area or find high ground to avoid further Molduga attacks
+        9. Test for DI: if the target was successfully DI'd, it will no longer be interactible with runes
 
     _Discovered by mulberry - Jan 18th, 2026_
 
-    #### Method 11: Stake Culling (Either) ?
+    #### Method 13: Stake Culling ?
     ---
     versions: ["1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     notoc: true
@@ -348,12 +430,11 @@ Due to their differing attack patterns, the detailed instructions below will be 
 
     - This method uses culling area phase culling to rapidly and automatically cull and uncull the target, ensuring it will always successfully DI.
     - Unlike most other DI methods, this one requires very specific circumstances (A culling area close to a Frox or Molduga).
-    - These steps are somewhat of a placeholder; They're largely correct but are missing some key pieces of information I need to go track down.
-    - I also don't remember which versions work with stake phasing, but I remember it _does_ work differently on `1.0.0` so I'm hedging my bets and discounting that one
-
+    - My sincere apologies for allowing such unprofessional placeholder steps to actually be published... they simply slipped through the cracks.
+    - This section will, however, remain placeholder'd for the time being while I track down the steps and give it a try.
+    
     Prepare:
 
-    - I don't remember where the good locations are or how stake phasing works 👍
     - The target
     - A shield
     - A dragon part
@@ -365,15 +446,14 @@ Due to their differing attack patterns, the detailed instructions below will be 
     1. FE the target to the shield
     2. **Glue** the stake, shield, and dragon part together in the culling area (possibly in some specific order)
     3. Take the target to the Frox or Molduga
-    4. I don't remember how to make it phase
-    5. Give the phasing target to The Maw
-    6. Once you complete the warthog run, you have beaten Halo: CE
-    7. Also giving the phasing target to the enemy will basically always DI it (except that suusi found it tended to fail on S2E?)
-    8. To allow the target to be safely zuggled and taken elsewhere, use Octo Detanglement to detangle the target from the parent shield.
+    4. I don't remember how to make it phase :(
+    5. Feed the target to the hungry monster while it is phasing
+    6. Due to the constant culling and unculling, the target will basically always DI (excepting possibly on S2E?)
+    7. To allow the target to be safely zuggled and taken elsewhere, use Octo Detanglement to detangle the target from the parent shield.
 
     _Discovered by mulberry - Jan 18th, 2026_
 
-    #### Method 12: Mineru FE + Portacull (Frox DI) ?
+    #### Method 14: Mineru FE + Portacull ?
     ---
     versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     notoc: true
@@ -382,7 +462,6 @@ Due to their differing attack patterns, the detailed instructions below will be 
 
     - This method uses Mineru FE to cause the target to cull when Mineru does, then uses a Portacull to manually cull her as soon as the target begins despawning.
     - It is consistent up to the user's ability to time a pause within the 6-frame DI window.
-    - The steps given use the Frox's vaccuum attack for timing convenience, but it will work with any attack where the Frox opens its mouth.
     - After DI, the target retains an FE connection to Mineru, allowing her to be used as the culling source for [Ghost DI](uid:BEW) (most useful on `1.1.2` and below, and for Batch DI on all versions).
 
     Prepare:
@@ -390,123 +469,104 @@ Due to their differing attack patterns, the detailed instructions below will be 
     - Mineru
     - The target
     - A portacull of a type other than the target's
-    - A Frox
+    - A Frox or Molduga
+    - Optionally, a Homing Cart, if using a Molduga
 
-    Steps:
+    === "Steps (Frox)" #####
 
-    1. Mineru FE the target
-    2. Approach a Frox and wait until it is about to do a vaccuum attack. This is nearly always the first attack it does, and is also the only attack it will do when Link is slightly outside its territory
-    3. **Drop** the target somewhere the Frox will suck it in, then **mount** Mineru and stand somewhere safe
-    4. As soon as the target visibly begins to despawn, **pause** the game. The fadeout is too short to pause on reaction, but it can be caught with pause buffering, and always happens at the same distance from the Frox's mouth.
-    5. **Drop** the Portacull, then **swap** to another item of that type.
-    6. **Unpause** the game. If desired, the portacull can usually be saved relatively easily.
-    7. Assuming the timing window was hit correctly, the target will be DI'd and left on the ground somewhere nearish to the Frox.
-    8. **Collect** the target and go away from the Frox so that it stops attacking.
-    9. If desired, **detangle** the target from Mineru by **fusing** something else to the target's slot.
+        1. Mineru FE the target
+        2. Approach a Frox and wait until it is about to do a vaccuum attack. This is nearly always the first attack it does, and is also the only attack it will do when Link is slightly outside its territory
+        3. **Drop** the target somewhere the Frox will suck it in, then **mount** Mineru and stand somewhere safe
+        4. As soon as the target visibly begins to despawn, **pause** the game or **open** the D-Pad Menu. The fadeout is too short to pause on reaction, but it can be caught with pause/D-Pad buffering, and always happens at the same distance from the Frox's mouth.
+        5. **Drop** the Portacull, then **swap** to another item of that type.
+        6. **Unpause** the game. If desired, the portacull can usually be saved relatively easily.
+        7. Assuming the timing window was hit correctly, the target will be DI'd and left on the ground somewhere nearish to the Frox.
+        8. **Collect** the target and go away from the Frox so that it stops attacking.
+        9. If desired, **detangle** the target from Mineru by **fusing** something else to the target's slot.
 
-    _Discovered by mulberry - Jan 17th, 2026_
+        _Discovered by mulberry - Jan 17th, 2026_
 
-    #### Method 13: Wall-less Mineru Limbo (Duga Dip) ?
+    === "Steps (Molduga)" #####
+
+        1. Mineru FE the target
+        2. Optionally, glue the target to a Homing Cart
+        3. **Drop** the target somewhere the Molduga notices it (activating the cart if present)
+        4. **Mount** Mineru somewhere safe, while remaining withing the Homing Cart's 50m activation radius (if applicable)
+        5. Shortly after its detection symbol becomes a yellow !, the Molduga will lunge and eat the target. Use pause buffering or D-Pad buffering to **pause** 2-7 frames after the target is eaten
+        6. If the Homing Cart was used, it offers additional timing cues: The Molduga will be damaged, and the glue between the target and the Homing Cart will break only when the timing window has actually begun.
+        7. Once paused during this window, **drop** the portacull and **swap** to another item of that type
+        8. **Unpause** the game. If successfully DI'd, the target will still exist after the Molduga has passed, and it will no longer be interactible with runes.
+        9. **Collect** the target and return to safety
+        10. If desired, **detangle** the target from Mineru by fusing something else to the target's slot
+
+        _Homing Cart trick discovered by ofstrings2 - Jan 31st, 2026_
+
+    #### Method 15: Alternate Mineru Limbo Methods (Molduga) ?
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     notoc: true
     obsolete: false
     ---
 
-    - Unlike Method 5, this method does not make use of a wall to force Mineru into the Limbo state, allowing it to be performed anywhere in Molduga territory at a minimum cost.
-    - However, the chain of states Mineru goes through notably reduces the consistency.
+    - Unlike Method 5, these variants forego the use of either the wall or the steering stick, offering greater flexibility or reduced cost respectively.
     - After DI, the target retains an FE connection to Mineru, allowing her to be used as the culling source for [Ghost DI](uid:BEW) (most useful on `1.1.2` and below, and for Batch DI on all versions).
 
 
-    Prepare:
+    === "Steering Stick Only" #####
 
-    - Mineru
-    - The target
-    - A steering stick
-    - A Molduga (a Frox's attacks are not readily compatible with this method)
-
-    Steps:
-
-    1. Mineru FE the target
-    2. Enter a Molduga's territory and deploy a steering stick. Flatter terrain is usually more consistent.
-    3. **Mount** the steering stick to center Link, then **dismount** and **drop** the target
-    4. **Whistle** the Molduga over if it hasn't yet noticed Link, then **remount** the steering stick to cull Mineru
-    5. If all goes well, when the Molduga eats Link, the target will be DI'd automatically over the next 2 steps:
-    6. As soon as Link dismounts the steering stick, Mineru will enter Limbo and uncull the target.
-    7. Then, as Link travels away from the ground, Mineru will exit Limbo into the culled state, culling the target during the DI window.
-    8. The most likely failure state is for Mineru to not exit Limbo soon enough, causing the target to fully despawn and be destroyed.
-
-    _Discovered by Kleric - Feb 4th, 2026_
-
-    #### Method 14: Wall-only Mineru Limbo (Duga Dip) ?
-    ---
-    versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
-    notoc: true
-    obsolete: false
-    ---
+        - Without the need of a wall, this variant can be performed anywhere in Molduga territory at a minimum cost.
+        - However, the chain of states Mineru goes through notably reduces the consistency, particularly on Switch 1 Edition.
     
-    - Unlike Method 5 or Method 13, this method uses certain specific and rare arrangements of terrain to force Mineru into the Limbo state, allowing DI to be performed consistently at no additional cost.
-    - However, due to the whims of the Sage of Spirit, these special locations can sometimes fail to force the Limbo state, requiring the attempt be aborted if the Molduga was already alerted.
-    - After DI, the target retains an FE connection to Mineru, allowing her to be used as the culling source for [Ghost DI](uid:BEW) (most useful on `1.1.2` and below, and for Batch DI on all versions).
+        Prepare:
+    
+        - Mineru
+        - The target
+        - A steering stick
+        - A Molduga (a Frox's attacks are not readily compatible with this method)
+    
+        Steps:
+    
+        1. Mineru FE the target
+        2. Enter a Molduga's territory and deploy a steering stick. Flatter terrain is usually more consistent.
+        3. **Mount** the steering stick to center Link, then **dismount** and **drop** the target
+        4. **Whistle** the Molduga over if it hasn't yet noticed Link, then **remount** the steering stick to cull Mineru
+        5. If all goes well, when the Molduga eats Link, the target will be DI'd automatically over the next 2 steps:
+        6. As soon as Link dismounts the steering stick, Mineru will enter Limbo and uncull the target.
+        7. Then, as Link travels away from the ground, Mineru will exit Limbo into the culled state, culling the target during the DI window.
+        8. The most likely failure state is for Mineru to not exit Limbo soon enough, causing the target to fully despawn and be destroyed.
+    
+        _Discovered by Kleric - Feb 4th, 2026_
 
-    Prepare:
+    === "Wall Only" #####
 
-    - Mineru
-    - The target
-    - One of a few locations that can force Limbo within Molduga Territory
-    - The Molduga that goes in said territory
+        - Using only terrain to force Mineru into the Limbo state makes this method completely waste-free, while still being almost completely reliable.
+        - However, the specific terrain required is both very rare, and can occasionally fail to work. In the latter case, the attempt will need to be aborted (lest the target be destroyed).
 
-    Steps:
+        Prepare:
+    
+        - Mineru
+        - The target
+        - One of a few locations that can force Limbo within Molduga Territory
+        - The Molduga that goes in said territory
+    
+        Steps:
+    
+        1. Mineru FE the target
+        2. Stand at one of the known special locations within Molduga territory (pictures and map links provided below)
+        3. **Climb** the wall or otherwise compel Mineru to cull
+        4. Stop compelling Mineru to cull, allowing her to enter the Limbo state (the target should be unculled, but Mineru should not reappear from her orb)
+        5. **Drop** the target and allow the Molduga to eat both Link and the target
+        6. Check if the target was DI'd. Due to Mineru's catlike uncooperativity, the target will occasionally be unchanged or completely destroyed (usually the former). If needed, try again from step 2 or 1 respectively.
+        9. If desired, **detangle** the target from Mineru by **fusing** something else to the target's slot.
 
-    1. Mineru FE the target
-    2. Stand at one of the known special locations within Molduga territory (pictures and map links provided below)
-    3. **Climb** the wall or otherwise compel Mineru to cull
-    4. Stop compelling Mineru to cull, allowing her to enter the Limbo state (the target should be unculled, but Mineru should not reappear from her orb)
-    5. **Drop** the target and allow the Molduga to eat both Link and the target
-    6. Check if the target was DI'd. Due to Mineru's catlike uncooperativity, the target will occasionally be unchanged or completely destroyed (usually the former). If needed, try again from step 2 or 1 respectively.
-    9. If desired, **detangle** the target from Mineru by **fusing** something else to the target's slot.
+        ??? example "Location 1: Toruma Dunes Ruins Rubble"
 
-    ??? example "Location 1: Toruma Dunes Ruins Rubble"
+            - edited screenshot placeholder
+            - object map embed placeholder
 
-        - edited screenshot placeholder
-        - object map embed placeholder
+            - I don't think there's a Location 2 yet lemme cook sometime
 
-    - I don't think there's a Location 2 yet lemme cook sometime
-
-    _Discovered by Squidwest - Mar 13th, 2026_
-
-    #### Method 15: Mineru FE + Portacull (Duga Dip) ?
-    ---
-    versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
-    notoc: true
-    obsolete: false
-    ---
-
-    - This method is a variant of Method 12, using a Molduga instead.
-    - It also makes use of an active Homing Cart, which will only damage the Molduga once the lunge actually begins, adding an additional timing cue.
-    - After DI, the target retains an FE connection to Mineru, allowing her to be used as the culling source for [Ghost DI](uid:BEW) (most useful on `1.1.2` and below, and for Batch DI on all versions).
-
-    Prepare:
-
-    - Mineru
-    - The target
-    - A portacull of a type other than the target's
-    - A Homing Cart
-    - A Frox
-
-    Steps:
-
-    1. Mineru FE the target
-    2. Use Autobuild to attach the target to the Homing Cart, and drop it somewhere the Molduga will notice.
-    3. **Activate** the Homing Cart immedately, then mount Mineru and stand somewhere safe (within the Homing Cart's 50m activation radius).
-    4. Shortly after its detection symbol becomes a yellow !, it will lunge and eat the Homing Cart and the target alike. Use pause buffering to **pause** any time between **frame 2** and **frame 7** (inclusive) of this lunge.
-    5. If the Molduga has been damaged by the Homing Cart, and the glue between the target and the Homing Cart has broken, the pause is at least _not too early_.
-    6. **Drop** the Portacull, then **swap** to another item of that type.
-    7. **Unpause** the game. If the pause occured during the DI window, the target will still exist after the Molduga has passed, and it will no longer be interactible with runes.
-    8. Collect the target and get away from the Molduga so that it stops attacking.
-    9. If desired, detangle the target from Mineru by fusing something else to the target's slot.
-
-    _Homing Cart trick discovered by ofstrings2 - Jan 31st, 2026_
+        _Discovered by Squidwest - Mar 13th, 2026_
 
     #### Method 16: Mineru FE Only (Either) ?
     ---
@@ -542,7 +602,7 @@ Due to their differing attack patterns, the detailed instructions below will be 
 - Propagates the Eaten death reason to anything fused to it (slightly conditional). This can in turn be interrupted to create a [DI Ghost](uid:BEW) (see linked page for details and methods)
 
 ## Notes
-- Also known as "Eaten DI". Often referred to as "Frox Dipping" or as "Duga Dipping".
+- Sometimes known as "Eaten DI". "Frox Dipping" is a discouraged moniker.
 - Although void dipping is also technically a form of Despawn Interrupt, DI and Despawn Interrupt refers to the eaten variation by convention.
 
 ## Resources
@@ -551,7 +611,15 @@ Due to their differing attack patterns, the detailed instructions below will be 
 
 ??? quote "Discord Resources"
 
-    Frox Items:
+    Like Like DI:
+
+    - [Original Discovery](https://discord.com/channels/1086729144307564648/1105598687167664239/1251952401150377994)
+    - [First Working DI IPR](https://discord.com/channels/1086729144307564648/1110956205624532993/1381773566529507459)
+    - [DI IPR with Like Like Portacull FE](https://discord.com/channels/1086729144307564648/1113557914444111873/1406426209319125064)
+    - [Minimalist DI IPR](https://discord.com/channels/1086729144307564648/1109838351596527726/1474924475098337320)
+    - [Minimalist DI IPR Late-Fuse Recovery](https://discord.com/channels/1086729144307564648/1109838351596527726/1474961843263901797)
+
+    Frox DI:
 
     - [Original Discovery](https://discord.com/channels/1086729144307564648/1110956205624532993/1461889160062173416)
     - [Portacull Mitosis Method Discovery](https://discord.com/channels/1086729144307564648/1113557914444111873/1462825674074095829)
@@ -567,7 +635,7 @@ Due to their differing attack patterns, the detailed instructions below will be 
     - [Stake Culling Method](https://discord.com/channels/1111875355758837830/1128775917376897145/1462584623975633010)
     - [Mineru FE + Portacull Method](https://discord.com/channels/1086729144307564648/1110956205624532993/1462063753406320754)
 
-    Duga Dipping:
+    Duga DI:
 
     - [Original Discovery](https://discord.com/channels/1111875355758837830/1128775917376897145/1466939998023450796)
     - [Minimal Mineru Limbo Method](https://discord.com/channels/1086729144307564648/1105598687167664239/1482109073104306366)
@@ -577,8 +645,10 @@ Due to their differing attack patterns, the detailed instructions below will be 
     - [Portacull Mitosis Method](https://discord.com/channels/1086729144307564648/1113557914444111873/1468008448451940605)
     - [Wall-less Mineru Limbo Method](https://discord.com/channels/1086729144307564648/1113557914444111873/1468543353040928971)
     - [Dog Duga Dip](https://discord.com/channels/1086729144307564648/1113557914444111873/1467059196003352587)
+    - [Optimised Direct Fusion](https://discord.com/channels/1086729144307564648/1113557914444111873/1514300087210213418)
     - I don't have a ref for the wall-climb Mineru FE method the page came with
 
 ## Related
 - [Fuse Entanglement](search:Fuse Entanglement)
 - [Detanglement](search:Detanglement)
+- [Despawn Interrupt](search:Despawn Interrupt)
