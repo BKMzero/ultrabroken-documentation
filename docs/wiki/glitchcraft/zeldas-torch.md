@@ -45,7 +45,7 @@ _First obtained by mulberry - Dec 07th, 2025_
     notoc: true
     ---
 
-    1. By whichever means desired, get the "canonical minimum" Zuggle Overload (9 on `1.0.0`, 13 on `1.1.0`)
+    1. By whichever means desired, get the "canonical minimum" Zuggle Overload (9 on `1.0.0`, 13 on `1.1.0+`)
     2. Prepare a DI Ghost Shield (`E`). This is technically optional, but it saves time and complexity and the steps assume you have it. Get it.
     3. Create an Intangible Aerophasing setup at (location).
     4. You will also need several unfused weapons and shields, a bow, at least one arrow, and a material.
@@ -109,7 +109,7 @@ _First obtained by mulberry - Dec 07th, 2025_
     notoc: true
     ---
 
-    - This is a lot of work for a torch, even if it's really cool. But if you're careful, you can also obtain Mineru's Arm and Prologue Master Sword during this setup, for very little extra work.
+    - This is a lot of work for a torch, even if it's really cool. But if you're careful, you can also obtain Mineru's Arm and Prologue Master Sword during this setup, for very little extra work. Like shockingly little.
 
     ##### Adjustments for Mineru's Arm
 
@@ -135,7 +135,7 @@ _First obtained by mulberry - Dec 07th, 2025_
     - It also cannot perform Save Load Dupe, because the LSW required to avoid the "Callback" prevents the SLD from transferring the torch to a controlled location.
     - Furthermore, it cannot perform Swap Resync Zuggle _or_ SFO Method 1.
     - Thus, it must first perform SFO Method 4, then use a combination of LSW Lock and Cull Storage Zuggle.
-
+    - Unless ☝️ someone figures out how to do long cull storage consistently
 
     #### Part 1: Prep
     ---
@@ -208,7 +208,7 @@ _First obtained by mulberry - Dec 07th, 2025_
     notoc: true
     ---
 
-    - This is a lot of work for a torch, even if it's really cool. But if you're careful, you can also obtain Mineru's Arm and Prologue Master Sword during this setup, for very little extra work.
+    - This is a lot of work for a torch, even if it's really cool. But if you're careful, you can also obtain Mineru's Arm and the Prologue Master Sword during this setup, for much less total work than obtaining all three one-by-one.
 
     ##### Adjustments for Mineru's Arm
 
@@ -221,30 +221,6 @@ _First obtained by mulberry - Dec 07th, 2025_
     ##### Adjustments for the Prologue Master Sword
 
     - need to figure out if the CSZ is even reusable. If not it's fine, just need to do the setup twice. but that's not "very little extra work" anymore.
-
-    
-    #### Prep Phase
-    
-    - Get 13 overload (doesn't really matter how)
-    - also get a DI Ghost Shield
-    - Create Aerophasing setup
-
-    #### SFO Phase
-
-    - Do SFO 4 in rasi to limit
-    - title
-
-    #### Collection Phase
-
-    - do dance and grab it
-    - get prologue 3
-    - close game
-
-    #### Transfer Phase
-
-    - Go to domizuin and set up cull storage and lsw
-    - If needed, return to prologue 3 and get prologue 4 to buy more autosaves
-    - do cull storage zuggle I guess
 
 === "SFO Method 1 + LSW Lock + SRZ" ###
     ---
@@ -263,10 +239,14 @@ _First obtained by mulberry - Dec 07th, 2025_
 
     1. By whichever means desired, prepare 13 Zuggle Overload (such that having all equipment equipped acts normal, but drawing bow causes swaps to overload drop).
     2. Prepare 7 "Gen 2" DI Ghosts: 5 shields, 2 weapons, and a bow, with none of them sharing any dependencies (direct or indirect).
-    3. Zuggle 2 of the shields and the bow, then travel to (shrine).
-    4. Drop said DI Ghosts at (location), being sure to undo the resulting Zuggle Drops. Here, they will be able to be collected within the prologue.
+    3. Zuggle 2 of the shields and the bow, then travel to Mayatat Shrine (_A Sliding Device_) at Kara Kara Bazaar.
+    4. Drop said DI Ghosts at the location pictured below, being sure to undo the resulting Zuggle Drops. Here, they will be able to be collected within the prologue at a specific desired time.
     5. Leave the third DI Ghost Shield at Akkala Citadel Ruins (or another preferred culling area).
     6. Zuggle the remaining 2 shields and 2 weapons and travel to (shrine).
+
+    ??? info "Where to drop the Ghosts"
+
+        placeholder
 
     #### Part 2: SFO and Torch Collection
     ---
@@ -278,19 +258,19 @@ _First obtained by mulberry - Dec 07th, 2025_
     
     ##### 2a: Creating the base setup
 
-    1. Enter Rasitakiwak Shrine, defeat all the constructs, and dispose of their weapons (for example by leaving/reentering)
-    2. (In this case, Rasitakiwak is ideal, as it contains both an overlapping area with the prologue, and multiple steering sticks to create a Portacull with)
+    1. Enter (shrine), defeat any constructs present, and dispose of their weapons (for example by leaving/reentering)
+    2. (Need a little more testing to decide best shrine)
     3. `B1` [Overload FE](uid:0XV#method-3-vddi-smugglezuggle) weapon `B2`
     4. [Recall Lock](uid:EY8) `B2`
     5. `A1` and normal weapon `A2` [Ghost DI](uid:BEW#method-1-fuse-drop-swap-120) shield `A3`
     6. `A1` **Overload FE** normal shield `A4`; Leave `A1` [Zuggle Dropped](uid:L84) 
     7. Equip `A2`, [Smuggle](uid:TGY) `A3`, and [Overload Pickup](uid:8QH) `A4`
     8. `A2-A4` [Overload Batch DI](uid:PG3#method-1-overload-pf-drop-swap-culling-120) 19 weapons `C1-C19`:
-        8a. Place Link's back to a wall so that `A2` can be fail-dropped
-        8b. Drop a weapon `C1` on the ground and **fuse** it to `A4`
-        8c. **Fuse** `C1` to `A4` again and **pause** a few frames later
-        8d. **Drop** `A2`, **swap** to another weapon, **unequip** that weapon, and finally **unpause**
-        8e. Repeat Steps 8b-8d 18 more times, creating 19 total weapons `C1-C19`
+        1. Place Link's back to a wall so that `A2` can be fail-dropped
+        2. Drop a weapon `C1` on the ground and **fuse** it to `A4`
+        3. **Fuse** `C1` to `A4` again and **pause** a few frames later
+        4. **Drop** `A2`, **swap** to another weapon, **unequip** that weapon, and finally **unpause**
+        5. Repeat Steps 8b-8d 18 more times, creating 19 total weapons `C1-C19`
     9. Confirm `C1-C19` all exist, then **Fail-Drop** `A4` to move it to Link's hand
     10. `A3` & `A4` **Ghost DI** weapon `C20`
     11. **Drop** `A4`
@@ -299,31 +279,31 @@ _First obtained by mulberry - Dec 07th, 2025_
     15. Repeat step 11 to Purgatorize _all_ `C`, using a random weapon for the final throw (it can be unequipped after)
     16. **Recall Lock** `A4`, discarding `A2` and `A3` through the load
 
-    ##### 2b: Performing and SFO
+    ##### 2b: Performing SFO
 
     1. Zuggle Drop `B1`, equip `A4`, and **Overload Pickup** `B2`
     2. `C1-20`, `B2`, & `A4` **Overload Batch DI** 30 Shields `D1-D30`:
-        2a. _Do not_ place Link's back to a wall; it is likely you will badly mess up if you do.
-        2b. Drop a shield `D1` on the ground and **fuse** it to `B2`
-        2c. **Fuse** `D1` to `B2` again and **open** the Shield Quick Menu a few frames later
-        2d. Without letting the game unpause, **drop** `A4`, **swap** to another shield, and **unequip** that shield
-        2e. If `B2` is a Zonaite-series weapon, check if the blade is present; if not, this DI was successful.
-        2f. Repeat Steps 2b-2d 29 more times, creating 30 total shields `D1-D30`
-        2g. There will be a substantial lag on Step 2b for each shield after `D1`, hence the recommendation to use the D-Pad (and thus to not fail-.
-        2h. This lag makes it likely to pause _too early_, which can be detected by checking if the twice-fused `D[n]` is still "Fuse-Target Blue".
+        1. _Do not_ place Link's back to a wall; it is likely you will badly mess up if you do.
+        2. Drop a shield `D1` on the ground and **fuse** it to `B2`
+        3. **Fuse** `D1` to `B2` again and **open** the Shield Quick Menu a few frames later
+        4. Without letting the game unpause, **drop** `A4`, **swap** to another shield, and **unequip** that shield
+        5. If `B2` is a Zonaite-series weapon, check if the blade is present; if not, this DI was successful.
+        6. Repeat Steps 2b-2d 29 more times, creating 30 total shields `D1-D30`
+        7. There will be a substantial lag on Step 2b for each shield after `D1`, hence the recommendation to use the D-Pad (and thus to not fail-drop).
+        8. This lag makes it likely to pause _too early_, which can be detected by checking if the twice-fused `D[n]` is still "Fuse-Target Blue".
     4. _Super Fuse Overload_ should occur on the 30th shield. If confirmation is needed, pick `A4` back up, then attempt to nock an arrow. If it fails to attach to the bow, and hangs in midair, SFO is fully active
     5. Leaving `A4` dropped, **fail-drop** `B2` and **drop** it _after_ it returns to Link's hand. Finally, un-Zuggle Drop `B1`
     6. The entire setup will now persist, and SFO will be fully active as long as Link equips each type of equipment (with exactly _one_ being fused)
 
     ##### 2c: Collecting Zelda's Torch in the prologue
 
-    1. Return to the title screen and begin a new file. This will only enter the prologue scenario and create occasional autosaves (up to 4), so don't fret about your progressed file.
+    1. Return to the title screen and begin a new file. This will only enter the prologue scenario and create occasional autosaves (up to 5), so don't fret about your progressed file.
     2. Progress to the _second_ autosave (give timing cue but it's just after the first dialogue cutscene thing), then return to (shrine name).
     3. Use the D-Pad to unequip all equipment, then resync Link's armor, and finally use the D-Pad to re-equip items until a nocked arrow fails to attach to the bow (and instead just floats there).
     4. Load the second prologue autosave. Zelda will drop her torch, so pick it up.
     5. If she does not, try loading back to (shrine) and repeating steps 3-4; It may take a few tries for her torch to be one of the dependencies that fails.
     6. After collecting the torch, use overload duping to obtain additional torches/swords for buffer drop purposes. Additionally, collect 3 shields and a bow from the pre-placed DI Ghosts.
-    7. Proceed until receiving the _third prologue autosave, then load the (shrine) autosave.
+    7. Proceed until receiving the _third_ prologue autosave (timing cue), then load the (shrine) autosave.
     8. One by one, **pick up** and **unequip** all `D[n]` to destroy them, deleting all the dependencies and ending SFO.
 
     #### Part 3: Performing Drop Zuggle and LSW Lock
@@ -333,8 +313,8 @@ _First obtained by mulberry - Dec 07th, 2025_
 
     1. Warp to Domizuin Shrine and go to the small culling area there; dispose of the Scary Grabber if needed
     2. Prepare two portaculls, at least one being a shield 
-    3. [Overload FE]() a Battery or other liftable to the pre-placed DI Ghost (`E`)
-    4. If `E` is not currently smuggled, smuggle it
+    3. [Overload FE](uid:0XV#method-3-vddi-smugglezuggle) a Battery or other liftable to the pre-placed DI Ghost (`E`)
+    4. Unequip shield, leaving `E` smuggled/zuggled
     5. Overload pickup a portacull shield and drop it; `E` will drop and prevent D-Pad lock. Pick up and drop it to undo the resulting Zuggle Drop.
     6. Pick the portacull shield back up; it should "equip" to Link's feet.
     7. **Pause** the game, **drop** the portacull, and **swap** to another shield
@@ -372,7 +352,7 @@ _First obtained by mulberry - Dec 07th, 2025_
     notoc: true
     ---
 
-    - This is a lot of work for a torch, even if it's really cool. But if you're careful, you can also obtain Mineru's Arm and Prologue Master Sword during this setup, for very little extra work.
+    - This is a lot of work for a torch, even if it's really cool. But if you're careful, you can also obtain Mineru's Arm and the Prologue Master Sword during this setup, for much less total work than obtaining all three one-by-one.
 
     ##### Adjustments for Mineru's Arm
 
@@ -415,9 +395,10 @@ notoc: true
 
 #### As a tool:
 
-- ...I haven't really played with it to see if it has tool uses besides being, uh, warm?
-- Yeah. WIPs, amirite?
-- You can overload or cold drop it with a bow unsheathed but not drawn and it'll light your arrow?
+- Fused with a Pine Cone, it can be overload dropped to instantly boost any nearby fire, then unequipped to preserve the Pine Cone.
+- Fused with an explosive, it can be overload dropped to almost instantly blow Link up. I don't... know why you would do this. But you can.
+- You can overload or cold drop it with a bow unsheathed but not drawn and it'll light your arrow. Neat.
+- Ought to play with it more and find fun tool uses...
 
 ### Credits ?
 
