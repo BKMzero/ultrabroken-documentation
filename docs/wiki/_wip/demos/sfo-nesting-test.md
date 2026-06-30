@@ -1276,3 +1276,234 @@ notoc: true
 - [Zuggle Overload](search:Zuggle Overload)
 - [Despawn Interrupt](search:Despawn Interrupt)
 - [Fuse Entanglement](search:Fuse Entanglement)
+
+
+
+## Ultra Testing Zone ?
+---
+notoc: true
+---
+
+### Idea 1 ?
+
+- Idea 1: Condense steps into minimum form as the header of a dropdown, so that the more verbose steps can be revealed as the reader desires.
+- This is a faux tutorial. That, for some reason, is a real tutorial for Mineruvian DI Dpurg
+
+=== "Idea 1 Method 1" ####
+
+    - This method is the preferred one on new patches.
+
+    ##### Variant 1A ?
+
+    - Fast method.
+
+    Steps:
+
+    ###### Step 1: Mineru CF the target ?
+
+    1. Get a portacull of opposite type to target
+    2. Drop target `A`
+    3. Fuse to Mineru and portacull 1-2f later
+
+    ###### Step 2: Overload FE the target ?
+
+    1. Smuggle future DI Ghost Parent `B`
+    2. Overload drop item of same type `C`
+    3. Fuse `C` to opposite type
+    4. Fuse target to `C`
+    5. Swap from `C` to another item of that type
+    6. Warm drop it
+    7. Pick up/drop `B` to reduce overload
+
+    ###### Step 3: Overload Pickup target and equip portacull
+
+    ###### Step 4: Fuse+Faildrop target and late portacull
+
+    1. Mount Mineru and highlight the target with her Fuse
+    2. If Mineru's Arm is not owned, place Mineru's back to a wall
+    3. Ensure there will be room to re-equip the target when it is fail-dropped later (for example, unequip Link's bow)
+    4. Fuse the target to the same slot it is CF'd to and pause at the same time (this may even feel like pressing + before the fuse button)
+    5. Fail-drop the target using either the wall or Mineru's Arm. It may be wise to unequip bow/desync
+    6. Perform a slow pause buffer or 2 perfect ones, so that the target no longer appears in the inventory
+    7. Use the portacull
+
+### Idea 2 ?
+
+- Idea 2: the same thing, but use title-less headers beneath each condensed step to contain the corresponding verbose steps, allowing plain formatting to be maintained on all steps.
+- Currently, this method is not workable due to the way headers automatically aggregate instead of aggregating by indentation level.
+- Even though I know this, I'm still stupidly trying it :)
+
+=== "Idea 2 Method 1" ####
+
+    - This method is the preferred one on new patches.
+
+    ##### Variant 1A ?
+
+    - Fast method.
+
+    Steps:
+
+    1. Mineru CF the target
+        ###### ?
+        1. Get a portacull of opposite type to target
+        2. Drop target `A`
+        3. Fuse to Mineru and portacull 1-2f later
+    2. Overload FE the target ?
+        ###### ?
+        1. Smuggle future DI Ghost Parent `B`
+        2. Overload drop item of same type `C`
+        3. Fuse `C` to opposite type
+        4. Fuse target to `C`
+        5. Swap from `C` to another item of that type
+        6. Warm drop it
+        7. Pick up/drop `B` to reduce overload
+    3. Overload Pickup target and equip portacull
+    4. Fuse+Faildrop target and late portacull
+        ###### ?
+        1. Mount Mineru and highlight the target with her Fuse
+        2. If Mineru's Arm is not owned, place Mineru's back to a wall
+        3. Ensure there will be room to re-equip the target when it is fail-dropped later (for example, unequip Link's bow)
+        4. Fuse the target to the same slot it is CF'd to and pause at the same time (this may even feel like pressing + before the fuse button)
+        5. Fail-drop the target using either the wall or Mineru's Arm. It may be wise to unequip bow/desync
+        6. Perform a slow pause buffer or 2 perfect ones, so that the target no longer appears in the inventory
+        7. Use the portacull
+
+### Idea 3 ?
+
+- Idea 3: the same thing again, but use admonitions.
+
+=== "Idea 3 Method 1" ####
+
+    - This method is the preferred one on new patches.
+
+    ##### Variant 1A ?
+
+    - Fast method.
+
+    Steps:
+
+    ??? abstract "1. Mineru CF the target"
+
+        1. Get a portacull of opposite type to target
+        2. Drop target `A`
+        3. Fuse to Mineru and portacull 1-2f later
+
+    ??? abstract "2. Overload FE the target"
+
+        1. Smuggle future DI Ghost Parent `B`
+        2. Overload drop item of same type `C`
+        3. Fuse `C` to opposite type
+        4. Fuse target to `C`
+        5. Swap from `C` to another item of that type
+        6. Warm drop it
+        7. Pick up/drop `B` to reduce overload
+
+    ??? abstract "3. Overload Pickup target and equip portacull"
+
+    ??? abstract "4. Fuse+Faildrop target and late portacull"
+
+        1. Mount Mineru and highlight the target with her Fuse
+        2. If Mineru's Arm is not owned, place Mineru's back to a wall
+        3. Ensure there will be room to re-equip the target when it is fail-dropped later (for example, unequip Link's bow)
+        4. Fuse the target to the same slot it is CF'd to and pause at the same time (this may even feel like pressing + before the fuse button)
+        5. Fail-drop the target using either the wall or Mineru's Arm. It may be wise to unequip bow/desync
+        6. Perform a slow pause buffer or 2 perfect ones, so that the target no longer appears in the inventory
+        7. Use the portacull
+
+### Idea 4 ?
+
+- Idea 4: the same thing again, but use tabs (this freaking woman istg)
+- Hoping the h6 delineations I'm using Work, instead of Don't Work. Will be sad otherwise
+
+=== "Idea 4 Method 1" ####
+
+    - This method is the preferred one on new patches.
+
+    ##### Variant 1A ?
+
+    - Fast method.
+
+    Steps:
+
+    === "1. Mineru CF the target" ######
+
+    === "1. Mineru CF the target" ######
+
+        1. Get a portacull of opposite type to target
+        2. Drop target `A`
+        3. Fuse to Mineru and portacull 1-2f later
+
+    ######
+
+    === "2. Overload FE the target" ######
+
+    === "2. Overload FE the target" ######
+
+        1. Smuggle future DI Ghost Parent `B`
+        2. Overload drop item of same type `C`
+        3. Fuse `C` to opposite type
+        4. Fuse target to `C`
+        5. Swap from `C` to another item of that type
+        6. Warm drop it
+        7. Pick up/drop `B` to reduce overload
+
+    ######
+
+    === "3. Overload Pickup target and equip portacull" ######
+
+    ######
+
+    === "4. Fuse+Faildrop target and late portacull" ######
+
+    === "4. Fuse+Faildrop target and late portacull" ######
+
+        1. Mount Mineru and highlight the target with her Fuse
+        2. If Mineru's Arm is not owned, place Mineru's back to a wall
+        3. Ensure there will be room to re-equip the target when it is fail-dropped later (for example, unequip Link's bow)
+        4. Fuse the target to the same slot it is CF'd to and pause at the same time (this may even feel like pressing + before the fuse button)
+        5. Fail-drop the target using either the wall or Mineru's Arm. It may be wise to unequip bow/desync
+        6. Perform a slow pause buffer or 2 perfect ones, so that the target no longer appears in the inventory
+        7. Use the portacull
+
+### Idea 5 ?
+
+- Idea 5: tabs again, but a single selector at the top of the tutorial chooses between a condensed and a verbose mode.
+
+=== "Idea 5 Method 1" ####
+
+    - This method is the preferred one on new patches.
+
+    ##### Variant 1A ?
+
+    - Fast method.
+
+    === "Steps (condensed):" ######
+
+    1. Mineru CF the target
+    2. Overload FE the target
+    3. Overload Pickup target and re-equip portacull
+    4. Fuse+Faildrop target and late portacull
+
+    === "Steps (Expanded):" ######
+
+    1. Mineru CF the target
+        1. Get a portacull of opposite type to target
+        2. Drop target `A`
+        3. Fuse to Mineru and portacull 1-2f later
+    2. Overload FE the target
+        1. Smuggle future DI Ghost Parent `B`
+        2. Overload drop item of same type `C`
+        3. Fuse `C` to opposite type
+        4. Fuse target to `C`
+        5. Swap from `C` to another item of that type
+        6. Warm drop it
+        7. Pick up/drop `B` to reduce overload
+    3. Overload Pickup target and re-equip portacull
+    4. Fuse+Faildrop target and late portacull
+        1. Mount Mineru and highlight the target with her Fuse
+        2. If Mineru's Arm is not owned, place Mineru's back to a wall
+        3. Ensure there will be room to re-equip the target when it is fail-dropped later (for example, unequip Link's bow)
+        4. Fuse the target to the same slot it is CF'd to and pause at the same time (this may even feel like pressing + before the fuse button)
+        5. Fail-drop the target using either the wall or Mineru's Arm. It may be wise to unequip bow/desync
+        6. Perform a slow pause buffer or 2 perfect ones, so that the target no longer appears in the inventory
+        7. Use the portacull
