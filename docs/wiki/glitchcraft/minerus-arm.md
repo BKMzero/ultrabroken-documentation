@@ -17,7 +17,7 @@ tags: ["Equipment", "Zuggle", "Mineru", "Crash"]
 
 By completely filling the game's global dependency array, Sages and Sage Avatars can be forced to Overload Drop their equipment. Uniquely of all such equipment, Mineru's "arm" equipment can be picked up and retained.
 
-_Discovered by mulberry; Mainfield route by Squidwest_
+_Discovered by mulberry; Mainfield route theorized by mulberry, found by Squidwest_
 
 ## Instructions
 
@@ -34,21 +34,22 @@ _Discovered by mulberry; Mainfield route by Squidwest_
     - Mineru
     - All the requirements for [Method 2](https://nan-gogh.github.io/ultrabroken-documentation/wiki/BW8/?sfo-nesting-test#method-2-localpurgatory-di) or [Method 3](https://nan-gogh.github.io/ultrabroken-documentation/wiki/BW8/?sfo-nesting-test#method-3-localoverload-cold-fuse) of Super Fuse Overload
     - A few fused equipment items
-    - A bucket-shaped Autobuild schematic, ideally with a Hover Stone and several Big Batteries (useful for Method 2 and required for Method 3)
+    - A bucket-shaped Autobuild schematic, ideally with a Hover Stone and one or more Big Batteries (useful for Method 2 and mandatory for Method 3)
     - If on `1.2.0+`, a Portacull Shield or the resources to make one portably via Zuggle Overload
+    - If on `1.1.2`, an SDC shield with, some special setup idk. Just update to current, doofus. Learn to live again. It's better than everything except 1.0.0, what are you waiting for.
     
     #### Collecting Mineru's Arm
     ---
     notoc: true
     ---
     
-    ##### Via SFO Method 2 ?
-    
+    === "Via SFO Method 2" #####
+
     1. Defeat Ganondorf's Army (and any dungeon bosses not already defeated; best not to take any chances)
     2. Enter the tunnel before Ganondorf's Room
-    3. Perform Method 2 of Super Fuse Overload, but Zuggle `C` instead of Zuggle Dropping it (or else it will remain in the tunnel)
+    3. Perform Method 2 of Super Fuse Overload, but Zuggle `C` instead of Zuggle Dropping it (or else it will unhelpfully remain in the tunnel)
     4. Glue together all `G[n]` (or put them in the bucket if available) and Ultrahand it into Ganondorf's Room
-    5. Ganondorf should Overload Drop his Gloom Sword in the cutscene, though not seeing this isn't always a failure
+    5. Ganondorf should Overload Drop his Gloom Sword in the cutscene, though not seeing this isn't _always_ a failure
     6. Without getting too far from any `G[n]` (they can still distance despawn and must not), Progress the fight to Phase 2 (2nd Form)
     7. One by one, drop fused equipment items until the fuse is deleted from one (this step isn't strictly necessary, but is good insurance)
     8. Once confident that SFO is _fully_ active, proceed to phase 3 (sages blown away) and find Mineru
@@ -57,9 +58,10 @@ _Discovered by mulberry; Mainfield route by Squidwest_
     11. **Inventory pickup** at least several `G[n]` (ideally all of them) to correctly end SFO
     12. _Undock the console._ Fusing to Mineru's Arm while docked crashes the game, which assuredly you do not want
     13. Fuse something to Mineru's Arm; this will give it a model to target with Recall later
+    14. Leave the fused Mineru's Arm equipped; this is necessary to Zuggle it
     
-    ##### Via SFO Method 3 ?
-    
+    === "Via SFO Method 3" #####
+
     1. Defeat Ganondorf's Army (any any dungeon bosses not already defeated; best not to take any chances)
     2. Enter the tunnel before Ganondorf's Room
     3. Perform Method 3 of Super Fuse Overload
@@ -81,7 +83,7 @@ _Discovered by mulberry; Mainfield route by Squidwest_
     notoc: true
     ---
     
-    ##### Map Zuggle ?
+    === "Map Zuggle" #####
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1"]
     ---
@@ -95,7 +97,7 @@ _Discovered by mulberry; Mainfield route by Squidwest_
     5. Drop the swapped-to weapon and unpause
     6. Mineru's Arm will cause both itself and the swapped-to weapon to fail-drop, so a wall is not needed to Zuggle it
     
-    ##### Cull Storage Zuggle ?
+    === "Cull Storage Zuggle" #####
     ---
     versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     ---
@@ -103,7 +105,7 @@ _Discovered by mulberry; Mainfield route by Squidwest_
     Though possible on all versions, this Zuggle method is only preferred on `1.1.2`, the awkward middle child that has no other options.
 
     1. I do not know how to set up cull storage within the bounds of the Ganon Room.
-    2. Probably aerophasing works
+    2. I think Aeroculling works but I don't remember how or if what I got was actually cull storage
 
     But the gist:
 
@@ -117,7 +119,7 @@ _Discovered by mulberry; Mainfield route by Squidwest_
     8. Drop the swapped-to weapon and unpause
     9. Mineru's Arm will cause both itself and the swapped-to weapon to fail-drop, so a wall is not needed to Zuggle it
 
-    ##### Swap Resync Zuggle ?
+    === "Swap Resync Zuggle" #####
     ---
     versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
     ---
@@ -156,7 +158,7 @@ _Discovered by mulberry; Mainfield route by Squidwest_
     ---
 
     - Mineru
-    - All the requirements for [Method 1](https://nan-gogh.github.io/ultrabroken-documentation/wiki/BW8/?sfo-nesting-test#method-1-persistentpurgatory-overload-batch-di) or [Method 4](https://nan-gogh.github.io/ultrabroken-documentation/wiki/BW8/?sfo-nesting-test#method-4-permanentoverload-cold-fuse-permacull) of Super Fuse Overload
+    - All the requirements for [Method 1](uid:BW8#method-1-persistentpurgatory-overload-batch-di) or [Method 4](uid:BW8#method-4-permanentoverload-cold-fuse-permacull) of Super Fuse Overload
     - The warp-point for Mogisari Shrine at the Lomei Sky Labyrinth. Other low-gravity zones may work, but are untested for stability during SFO.
 
     #### Preparing SFO
@@ -164,22 +166,22 @@ _Discovered by mulberry; Mainfield route by Squidwest_
     notoc: true
     ---
 
-    ##### Via SFO Method 1 ?
+    === "Via SFO Method 1" #####
 
     1. Ensure Mineru is summoned; this will save some headache later
     2. Enter Rasitakiwak Shrine and dispose of _all_ the constructs and their weapons
     3. (most shrines work, so long as there are no enemies and enough room to work)
     4. Perform Method 1 of Super Fuse Overload
     5. Equip extra equipment via the D-Pad menus (with fuses on weapon and/or shield if needed) until SFO is _fully_ active
-    6. (this can be proven by attempting to nock an arrow; it should remain where the quiver was when ZR was pressed)
+    6. This can be proven by attempting to nock an arrow; it should appear but remain where the quiver was when ZR was pressed. If it attaches correctly or doesn't appear at all, SFO is not reached.
 
-    ##### Via SFO Method 4 ?
+    === "Via SFO Method 4" #####
 
     1. Ensure Mineru is summoned; this will save some headache later
     2. Perform Method 4 of Super Fuse Overload within the selected shrine
     3. After completing SFO, re-equip the Aerophasing parent equipment to prevent its fuses from unloading
     4. Equip extra equipment via the D-Pad menus, with a fuse on the non-aerophasing base type if needed, until SFO is _fully_ active
-    5. (this can be proven by attempting to nock an arrow; it should remain where the quiver was when ZR was pressed)
+    5. This can be proven by attempting to nock an arrow; it should appear but remain where the quiver was when ZR was pressed. If it attaches to the bow or doesn't appear at all, SFO is not reached.
 
     #### Collecting Mineru's Arm
     ---
@@ -204,28 +206,28 @@ _Discovered by mulberry; Mainfield route by Squidwest_
 notoc: true
 ---
 
-- Mineru's Arm is a 40 damage, 40 durability 2-handed weapon with no model, collision, name, or description
-- It can be guarded with, even if it does not have a shield fused to it
-- It can be fused to, but doing so can crash the game (see below)
-- Though there is a seperate Left and Right arm, picking up either adds the Left arm to the pouch
+- Mineru's Arm is a 40 damage, 40 durability 2-handed weapon with no model, collision, name, or description.
+- It can be guarded with, even if it does not have a shield fused to it.
+- It can be fused to, but doing so can crash the game (see below).
+- Though there is a seperate Left and Right arm, picking up either adds the Left arm to the pouch.
 
 #### Crashing:
 ---
 notoc: true
 ---
 
-- If the game attempts to generate an icon for a fused Mineru's Arm while running in Docked Mode, the game will crash
-- This happens both on the initial fuse, and when picking up or fail-dropping a fused arm
-- By having another fused item generate an icon just before Mineru's Arm does, it will inherit a corrupted version of the first item's icon. This prevents the game crash above
+- If the game attempts to generate an icon for a fused Mineru's Arm while running in Docked Mode, the game will crash.
+- This happens both on the initial fuse, and when picking up or fail-dropping a fused arm.
+- By having another fused item generate an icon just before Mineru's Arm does, it will inherit a corrupted version of the first item's icon. This prevents the game crash above.
 
 #### As a tool:
 ---
 notoc: true
 ---
 
-- While standing on the ground, or in certain (very limited) airborne circumstances, Mineru's Arm will always fail-drop
-- This also causes anything later than it in the drop queue to fail-drop as well
-- Thus, Mineru's Arm can be used as a portable wall whenever _nearly any_ glitch requires a fail-drop to occur at some moment
+- While standing on the ground, or in certain (very limited) airborne circumstances, Mineru's Arm will always fail-drop.
+- This also causes anything later than it in the drop queue to fail-drop as well.
+- Thus, Mineru's Arm can be used as a portable wall whenever _nearly any_ glitch requires a fail-drop to occur at some moment.
 
 ### Credits
 
@@ -239,6 +241,11 @@ notoc: true
     - [Original Mineru's Arm Get](https://discord.com/channels/1086729144307564648/1110956205624532993/1447304812197838930)
     - [Mainfield Mineru's Arm Route](https://discord.com/channels/1086729144307564648/1113557914444111873/1484238374909902868)
     - [Mainfield Route Backup Method](https://discord.com/channels/1086729144307564648/1110956205624532993/1510038404178383040)
+
+??? tip "Video Resources"
+
+    [mainfield main strat]
+    [mainfield backup strat]
 
 ### Related
 - [Zuggle Overload](search:Zuggle Overload)
