@@ -1289,6 +1289,8 @@ notoc: true
 - Idea 1: Condense steps into minimum form as the header of a dropdown, so that the more verbose steps can be revealed as the reader desires.
 - This is a faux tutorial. That, for some reason, is a real tutorial for Mineruvian DI Dpurg
 - Ugly af
+- Still no better on H5 level
+- This would need new site features to work well, namely an H7 header level which uses completely normal formatting (except, possibly, a subtly clickable text color)
 
 === "Idea 1 Method 1" ####
 
@@ -1333,6 +1335,7 @@ notoc: true
 - Currently, this method is not workable due to the way headers automatically aggregate instead of aggregating by indentation level.
 - Even though I know this, I'm still stupidly trying it :)
 - As expected, formatting rules don't support this
+- Or do they?
 
 === "Idea 2 Method 1" ####
 
@@ -1346,14 +1349,16 @@ notoc: true
 
     1. Mineru CF the target
     
-        ###### ?
+        ######   ?
+        
         1. Get a portacull of opposite type to target
         2. Drop target `A`
         3. Fuse to Mineru and portacull 1-2f later
     
     2. Overload FE the target ?
     
-        ###### ?
+        ###### - ?
+        
         1. Smuggle future DI Ghost Parent `B`
         2. Overload drop item of same type `C`
         3. Fuse `C` to opposite type
@@ -1366,7 +1371,8 @@ notoc: true
     
     4. Fuse+Faildrop target and late portacull
     
-        ###### ?
+        ###### Details ?
+        
         1. Mount Mineru and highlight the target with her Fuse
         2. If Mineru's Arm is not owned, place Mineru's back to a wall
         3. Ensure there will be room to re-equip the target when it is fail-dropped later (for example, unequip Link's bow)
@@ -1379,6 +1385,7 @@ notoc: true
 
 - Idea 3: the same thing again, but use admonitions.
 - Technically functional but not very pretty
+- There's really not much else to try, and I'm not convinced any new/modified site features would make this work better. It's just a misuse of admonitions.
 
 === "Idea 3 Method 1" ####
 
@@ -1423,6 +1430,8 @@ notoc: true
 - Idea 4: the same thing again, but use tabs (this freaking woman istg)
 - Hoping the h6 delineations I'm using Work, instead of Don't Work. Will be sad otherwise
 - H6 delineations technically work but in practice add too much whitespace between, trying dash delineators
+- Dash delineators are better but I'm still not fond of the whitespace
+- Unfortunately I think removing the line breaks will just break the formatting instead of condensing the pagespace, but I'm trying it
 
 === "Idea 4 Method 1" ####
 
@@ -1436,17 +1445,15 @@ notoc: true
 
     === "1. Mineru CF the target" ######
 
-    === "1. (Detailed)" ######
+    === "Details" ######
 
         1. Get a portacull of opposite type to target
         2. Drop target `A`
         3. Fuse to Mineru and portacull 1-2f later
-
     ---
-
     === "2. Overload FE the target" ######
 
-    === "2. (Detailed)" ######
+    === "Details" ######
 
         1. Smuggle future DI Ghost Parent `B`
         2. Overload drop item of same type `C`
@@ -1455,16 +1462,12 @@ notoc: true
         5. Swap from `C` to another item of that type
         6. Warm drop it
         7. Pick up/drop `B` to reduce overload
-
     ---
-
     === "3. Overload Pickup target and equip portacull" ######
-
     ---
-
     === "4. Fuse+Faildrop target and late portacull" ######
 
-    === "4. (Detailed)" ######
+    === "Details" ######
 
         1. Mount Mineru and highlight the target with her Fuse
         2. If Mineru's Arm is not owned, place Mineru's back to a wall
@@ -1478,6 +1481,8 @@ notoc: true
 
 - Idea 5: tabs again, but a single selector at the top of the tutorial chooses between a condensed and a verbose mode.
 - Think I'd like this more if it didn't letter the substeps. Numbers is fine boss
+- Eh the letters are okay I guess
+- This is probably the closest thing we have to a fully supported and intentional way to do this.
 
 === "Idea 5 Method 1" ####
 
@@ -1487,7 +1492,7 @@ notoc: true
 
     - Fast method.
 
-    === "Steps (condensed):" ######
+    === "Steps (Condensed):" ######
 
         1. Mineru CF the target
         2. Overload FE the target
@@ -1504,7 +1509,7 @@ notoc: true
             1. Smuggle future DI Ghost Parent `B`
             2. Overload drop item of same type `C`
             3. Fuse `C` to opposite type
-            4. Fuse target to `C`
+            4. Fuse `A` to `C`
             5. Swap from `C` to another item of that type
             6. Warm drop it
             7. Pick up/drop `B` to reduce overload
@@ -1515,5 +1520,5 @@ notoc: true
             3. Ensure there will be room to re-equip the target when it is fail-dropped later (for example, unequip Link's bow)
             4. Fuse the target to the same slot it is CF'd to and pause at the same time (this may even feel like pressing + before the fuse button)
             5. Fail-drop the target using either the wall or Mineru's Arm. It may be wise to unequip bow/desync
-            6. Perform a slow pause buffer or 2 perfect ones, so that the target no longer appears in the inventory
+            6. Perform a slow pause buffer or 2 perfect ones, so that the target no longer appears in the inventory, but has not yet fully despawned
             7. Use the portacull
