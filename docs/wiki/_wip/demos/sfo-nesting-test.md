@@ -924,7 +924,8 @@ If the global dependency array is nearly full, a Panic Blood Moon will be trigge
     4. **Collect** the materials in the bucket to undo SFO, then _UNDOCK THE CONSOLE._
     5. **Fuse** something to Mineru's Arm. _If the console is docked, this will crash the game._
     6. Zuggle Mineru's Arm. It will always fail-drop while on the ground, so either version can be done without a wall
-    7. If on `1.1.2` or earlier, Map Zuggle Mineru's Arm
+    7. If on `1.1.1` or earlier, Map Zuggle Mineru's Arm
+    8. If on `1.1.2`, [Insert genius and triumphant zuggle method here, once it gets found]
     8. If on `1.2.0` or later, use the portacull to SRZ Mineru's Arm
     9. Load a save. If you undid SFO, there will be no crash risk
     10. Go somewhere you can see a long way down and prepare Recall (atop a Hover Stone raised with a Rocket is excellent)
