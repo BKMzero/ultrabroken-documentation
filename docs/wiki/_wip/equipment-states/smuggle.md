@@ -58,8 +58,8 @@ Smuggles can come in different variants, depending on their [equip position](uid
     </tr>
 </table>
 
-!!! warning
-    The steps to unsmuggle a smuggle in the above table assume that the smuggle is unculled (fully visible on Link). If it's [culled](uid:445), you will either upgrade it into an invizuggle, or send it to [culled purgatory](uid:TAO).
+!!! note
+    The steps to unsmuggle a smuggle in the above table assume that the smuggle is unculled (fully visible on Link). If it's [culled](uid:445), you will likely upgrade it into an invizuggle.
 
 The distinction between different equip positions is less important for culled smuggles and zuggles.
 
