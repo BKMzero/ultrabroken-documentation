@@ -191,7 +191,7 @@ Sorry if you're viewing this page right now. The table was not good and I'm acti
 | Index | Base Actor Name<br/>`Base Actor ID` | Replacement Actor Name<br/>`Replacement Actor ID` | Self-replacing? | Defuse Replacement Name<br/>`Defuse Replacement ID`<br/>(If Applicable) | Additional Info |
 | --- | --- | --- | --- | --- | --- |
 | 1 | Small Icicle<br/>`AsbObj_Icicle_A_01` | Small Icicle<br/>`AsbObj_Icicle_A_01` | ✔️ | ❌ |  |
-| 2 | Large Icicle<br/>`AsbObj_Icicle_A_02` | Small Icicle<br/>`AsbObj_Icicle_A_01`<br/>(If scale <0.6 when fused)<br/>Large Icicle<br/>`AsbObj_Icicle_A_02`<br/>(If scale ≥0.6 when fused) | ❌ \n ✔️ | ❌ |  |
+| 2 | Large Icicle<br/>`AsbObj_Icicle_A_02` | Small Icicle<br/>`AsbObj_Icicle_A_01`<br/>(If scale <0.6 when fused)<br/>Large Icicle<br/>`AsbObj_Icicle_A_02`<br/>(If scale ≥0.6 when fused) | ❌<br/>✔️ | ❌ |  |
 | 3 | Tattered Sail<br/>`AsbObj_WoodSail_A_01` | Fused Tattered Sail<br/>`AsbObj_WoodSail_A_01_ForAttachment` | ❌ | Tattered Sail<br/>`AsbObj_WoodSail_A_01` | Replacement does not pivot |
 | 4 | Pristine Sail<br/>`AsbObj_WoodSail_A_02` | Fused Pristine Sail<br/>`AsbObj_WoodSail_A_02_ForAttachment` | ❌ | Pristine Sail<br/>`AsbObj_WoodSail_A_02` | Replacement Does not pivot |
 | 5 | Bomb Flower<br/>`BombFruit` | Bomb Flower<br/>`BombFruit` | ✔️ | ❌ |  |
@@ -205,10 +205,10 @@ Sorry if you're viewing this page right now. The table was not good and I'm acti
 | 13 | Large Water Globule<br/>`DgnObj_FloatingWater_A_02` | Fused Large Water Globule<br/>`DgnObj_FloatingWater_A_02_ForAttachment` | ❌ | ❌ | Replacement has fake water |
 | 14 | Shrine Ice Block<br/>`DgnObj_IceBlock` | Shrine Ice Block<br/>`DgnObj_IceBlock` | ✔️ | ❌ |  |
 | 15 | 12x12m Shrine Stone Board<br/>`DgnObj_Small_BoardStone_A_03` | 8x8m Shrine Stone Board<br/>`Dgn_Obj_BoardStone_A_04` | ❌ | ❌ | Only in Kimayat - _Proving Grounds: Smash_ |
-| 16 | 2x2x2m Shrine Iron Box (Heavy)<br/>DgnObj_Small_BoxIron_B_06 | 2x2x2m Shrine Iron Box (Normal)<br/>`Obj_BoxIron_B_2x2x2_01` | ❌ | ❌ | Only in Wao-os - _Lever Power_ |
+| 16 | 2x2x2m Shrine Iron Box (Heavy)<br/>`DgnObj_Small_BoxIron_B_06` | 2x2x2m Shrine Iron Box (Normal)<br/>`Obj_BoxIron_B_2x2x2_01` | ❌ | ❌ | Only in Wao-os - _Lever Power_ |
 | 17 | Stone Pole (?)<br/>`DgnObj_Small_StonePole_A_02` | Stone Pole (Normal)<br/>`DgnObj_Small_StonePole_A_01` | ❌ | ❌ | Only in Mayachin - _A Fixed Device_ todo |
-| 18 | Stone Pole (Heavy)<br/>`DgnObj_Small_StonePole_A_03` | Stone Pole (Normal)<br/>`DgnObj_Small_StonePole_A_01` | Stone Pole (Normal) | ❌ | ❌ | Only in Riogok - _Force Transfer_ |
-| 19 | Flame Ball (pre-lit)<br/>`DgnObj_StoneBall_Fire` | Only In Lightning Temple | Flame Ball (not pre-lit)<br/>`DgnObj_StoneBall_NoFire` | ❌ | ❌ | Only in Lightning Temple |
+| 18 | Stone Pole (Heavy)<br/>`DgnObj_Small_StonePole_A_03` | Stone Pole (Normal)<br/>`DgnObj_Small_StonePole_A_01` | ❌ | ❌ | Only in Riogok - _Force Transfer_ |
+| 19 | Flame Ball (pre-lit)<br/>`DgnObj_StoneBall_Fire` | Flame Ball (not pre-lit)<br/>`DgnObj_StoneBall_NoFire` | ❌ | ❌ | Only in Lightning Temple |
 | 20 | Long Shrine Log<br/>`DgnObj_WoodPole_A` | Short Shrine Log<br/>`DgnObj_WoodPole_A_02` | ❌ | ❌ |
 | 21 | Gleeok Icicle<br/>`Drake_Icicle` | Fused Gleeok Icicle<br/>`Drake_IcicleForAttachment` | ❌ | ❌ | todo |
 | 22 | Small Gloom Rock<br/>`DungeonBoss_Goron_Rock_Weapon` | Small Gloom Rock<br/>`DungeonBoss_Goron_Rock_Weapon` | ✔️ | ❌ |  |
@@ -224,7 +224,7 @@ Sorry if you're viewing this page right now. The table was not good and I'm acti
 | 32 | Red Chuchu Jelly<br/>`Item_Enemy_15` | Red Chuchu Jelly<br/>`Item_Enemy_15` | ✔️ | ❌ |  |
 | 33 | Yellow Chuchu Jelly<br/>`Item_Enemy_16` | Yellow Chuchu Jelly<br/>`Item_Enemy_16` | ✔️ | ❌ |  |
 | 34 | White Chuchu Jelly<br/>`Item_Enemy_17` | White Chuchu Jelly<br/>`Item_Enemy_17` | ✔️ | ❌ |  |
-| 35 | Bird Egg`Item_Material_04` | Bird Egg<br/>`Item_Material_04` | ✔️ | ❌ |  |
+| 35 | Bird Egg<br/>`Item_Material_04` | Bird Egg<br/>`Item_Material_04` | ✔️ | ❌ |  |
 | 36 | Rushroom (Planted)<br/>`Item_Mushroom_D` | Rushroom<br/>`Item_MushroomGet_D` | ❌ | ❌ | todo |
 | 37 | Brightcap (Planted)<br/>`Item_Mushroom_K` | Brightcap<br/>`Item_MushroomGet_K` | ❌ | ❌ | todo |
 | 38 | Hyrule Herb (Planted)<br/>`Item_Plant_A` | Hyrule Herb<br/>`Item_PlantGet_A` | ❌ | ❌ | todo |
@@ -243,10 +243,10 @@ Sorry if you're viewing this page right now. The table was not good and I'm acti
 | 51 | Electric Safflina (Planted)<br/>`Item_Plant_L` | Electric Safflina<br/>`Item_PlantGet_L` | ❌ | ❌ | todo |
 | 52 | Swift Carrot (Planted)<br/>`Item_Plant_M` | Swift Carrot<br/>`Item_PlantGet_M` | ❌ | ❌ | todo |
 | 53 | Swift Carrot (Kakariko Garden)<br/>`Item_Plant_M_OwnedByNpc` | Swift Carrot<br/>`Item_PlantGet_M` | ❌ | ❌ | todo |
-| 54 | Swift Carrot (Garden Tutorial)`Item_Plant_M_TemporaryOwnedByNpc` | Swift Carrot<br/>`Item_PlantGet_M` | ❌ | ❌ | todo |
+| 54 | Swift Carrot (Garden Tutorial)<br/>`Item_Plant_M_TemporaryOwnedByNpc` | Swift Carrot<br/>`Item_PlantGet_M` | ❌ | ❌ | todo |
 | 55 | Swift Violet (Planted)`Item_Plant_O` | Swift Violet<br/>`Item_PlantGet_O` | ❌ | ❌ | todo |
 | 56 | Endura Carrot (Planted)`Item_Plant_Q` | Endura Carrot<br/>`Item_PlantGet_Q` | ❌ | ❌ | todo |
-| 57 | Endura Carrot (Garden Tutorial)`Item_Plant_Q_TemporaryOwnedByNpc` | Endura Carrot<br/>`Item_PlantGet_Q` | ❌ | ❌ | todo |
+| 57 | Endura Carrot (Garden Tutorial)<br/>`Item_Plant_Q_TemporaryOwnedByNpc` | Endura Carrot<br/>`Item_PlantGet_Q` | ❌ | ❌ | todo |
 | 58 | Sundelion (Planted)<br/>`Item_Plant_R` | Sundelion<br/>`Item_PlantGet_R` | ❌ | ❌ | todo |
 | 59 | Sundelion (Mellie's)<br/>`Item_Plant_R_Kakariko_008` | Sundelion<br/>`Item_PlantGet_R` | ❌ | ❌ | todo |
 | 60 | Stambulb (Planted)`Item_Plant_S` | Stambulb<br/>`Item_PlantGet_S` | ❌ | ❌ | todo |
@@ -257,7 +257,7 @@ Sorry if you're viewing this page right now. The table was not good and I'm acti
 | 65 | Short Depths Log<br/>`MinusObj_TreeGeneralleaf_A_01_Trunk_Aligned` | Fused Depths Log<br/>`Obj_TreeGeneralleaf_C_01_ForAttachment` | ❌ | Long Depths Log<br/>`MinusObj_TreeGeneralleaf_C_01_Trunk_Aligned` |  |
 | 66 | Medium Depths Log (From Tree)<br/>`MinusObj_TreeGeneralleaf_B_01_Trunk` | Fused Depths Log<br/>`Obj_TreeGeneralleaf_C_01_ForAttachment` | ❌ | Long Depths Log<br/>`MinusObj_TreeGeneralleaf_C_01_Trunk_Aligned` |  |
 | 67 | Medium Depths Log<br/>`MinusObj_TreeGeneralleaf_B_01_Trunk_Aligned` | Fused Depths Log<br/>`Obj_TreeGeneralleaf_C_01_ForAttachment` | ❌ | Long Depths Log<br/>`MinusObj_TreeGeneralleaf_C_01_Trunk_Aligned` |  |
-| 68 | Long Depths Log (From Tree)`MinusObj_TreeGeneralleaf_C_01_Trunk` | Fused Depths Log<br/>`Obj_TreeGeneralleaf_C_01_ForAttachment` | ❌ | Long Depths Log<br/>`MinusObj_TreeGeneralleaf_C_01_Trunk_Aligned` |  |
+| 68 | Long Depths Log (From Tree)<br/>`MinusObj_TreeGeneralleaf_C_01_Trunk` | Fused Depths Log<br/>`Obj_TreeGeneralleaf_C_01_ForAttachment` | ❌ | Long Depths Log<br/>`MinusObj_TreeGeneralleaf_C_01_Trunk_Aligned` |  |
 | 69 | Long Depths Log<br/>`MinusObj_TreeGeneralleaf_C_01_Trunk_Aligned` | Fused Depths Log<br/>`Obj_TreeGeneralleaf_C_01_ForAttachment` | ❌ | Long Depths Log<br/>`MinusObj_TreeGeneralleaf_C_01_Trunk_Aligned` |  |
 | 70 | Long Blue Depths Log (From Tree)<br/>`MinusObj_TreeGeneralleaf_D_01_Trunk` | Fused Blue Depths Log<br/>`Obj_TreeGeneralleaf_D_01_ForAttachment` | ❌ | Long Blue Depths Log<br/>`MinusObj_TreeGeneralleaf_C_01_Trunk_Aligned` |  |
 | 71 | Long Blue Depths Log<br/>`MinusObj_TreeGeneralleaf_D_01_Trunk_Aligned` | Fused Blue Depths Log<br/>`Obj_TreeGeneralleaf_C_01_ForAttachment` | ❌ | Long Blue Depths Log<br/>`MinusObj_TreeGeneralleaf_C_01_Trunk_Aligned` |  |
@@ -271,25 +271,25 @@ Sorry if you're viewing this page right now. The table was not good and I'm acti
 | 79 | Oak Log<br/>`Obj_TreeBroadleaf_A_L_Trunk_Aligned` | Fused Oak Log<br/>`Obj_TreeWood_A_01_ForAttachment` | ❌ | Oak Log<br/>`Obj_TreeBroadleaf_A_L_Trunk` |  |
 | 80 | Medium Burned Log<br/>`Obj_TreeBurned_B_01_Trunk` | Short Burned Log (From Tree)<br/>`Obj_TreeBurned_A_01_Trunk` | ❌ | ❌ | todo |
 | 81 | Long Burned Log<br/>`Obj_TreeBurned_B_02_Trunk` | Short Burned Log (From Tree)<br/>`Obj_TreeBurned_A_01_Trunk` | ❌ | ❌ | todo |
-| 82 | Long Dead Spruce Log (From Tree)<br/>`Obj_TreeConiferousDead_A_01_Trunk` | Fused Spruce Log<br/>`Obj_TreeConiferous_A_01_ForAttachment` | ❌ | Short Spruce Log<br/>Obj_TreeConiferous_A_01_Trunk_Aligned | todo |
-| 83 | Long Dead Spruce Log<br/>`Obj_TreeConiferousDead_A_01_Trunk_Aligned` | Fused Spruce Log<br/>`Obj_TreeConiferous_A_01_ForAttachment` | ❌ | Short Spruce Log<br/>Obj_TreeConiferous_A_01_Trunk_Aligned | todo |
-| 84 | Short Dead Spruce Log<br/>`Obj_TreeConiferousDead_A_02_Trunk` | Fused Spruce Log<br/>`Obj_TreeConiferous_A_01_ForAttachment` | ❌ | Short Spruce Log<br/>Obj_TreeConiferous_A_01_Trunk_Aligned | todo |
-| 85 | Long Dead Snowy Spruce Log (From Tree)<br/>`Obj_TreeConiferousDead_A_Snow_01_Trunk` | Fused Spruce Log<br/>`Obj_TreeConiferous_A_01_ForAttachment` | ❌ | Short Spruce Log<br/>Obj_TreeConiferous_A_01_Trunk_Aligned | todo |
-| 86 | Long Dead Snowy Spruce Log<br/>`Obj_TreeConiferousDead_A_Snow_01_Trunk_Aligned` | Fused Spruce Log<br/>`Obj_TreeConiferous_A_01_ForAttachment` | ❌ | Short Spruce Log<br/>Obj_TreeConiferous_A_01_Trunk_Aligned | todo |
-| 87 | Short Spruce Log (From Tree)<br/>`Obj_TreeConiferous_A_01_Trunk` | Fused Spruce Log<br/>`Obj_TreeConiferous_A_01_ForAttachment` | ❌ | Short Spruce Log<br/>Obj_TreeConiferous_A_01_Trunk_Aligned | todo |
-| 88 | Short Spruce Log<br/>`Obj_TreeConiferous_A_01_Trunk_Aligned` | Fused Spruce Log<br/>`Obj_TreeConiferous_A_01_ForAttachment` | ❌ | Short Spruce Log<br/>Obj_TreeConiferous_A_01_Trunk_Aligned | todo |
-| 89 | Long Spruce Log<br/>`Obj_TreeConiferous_A_02_Trunk` | Fused Spruce Log<br/>`Obj_TreeConiferous_A_01_ForAttachment` | ❌ | Short Spruce Log<br/>Obj_TreeConiferous_A_01_Trunk_Aligned | todo |
-| 90 | Large Spruce Log<br/>`Obj_TreeConiferous_A_03_Trunk` | Fused Spruce Log<br/>`Obj_TreeConiferous_A_01_ForAttachment` | ❌ | Short Spruce Log<br/>Obj_TreeConiferous_A_01_Trunk_Aligned | todo |
-| 91 | Short Snowy Spruce Log (From Tree)<br/>`Obj_TreeConiferous_A_Snow_01_Trunk` | Fused Spruce Log<br/>`Obj_TreeConiferous_A_01_ForAttachment` | ❌ | Short Spruce Log<br/>Obj_TreeConiferous_A_01_Trunk_Aligned | todo |
-| 92 | Short Snowy Spruce Log<br/>`Obj_TreeConiferous_A_Snow_01_Trunk_Aligned` | Fused Spruce Log<br/>`Obj_TreeConiferous_A_01_ForAttachment` | ❌ | Short Spruce Log<br/>Obj_TreeConiferous_A_01_Trunk_Aligned | todo |
-| 93 | Long Snowy Spruce Log<br/>`Obj_TreeConiferous_A_Snow_02_Trunk` | Fused Spruce Log<br/>`Obj_TreeConiferous_A_01_ForAttachment` | ❌ | Short Spruce Log<br/>Obj_TreeConiferous_A_01_Trunk_Aligned | todo |
-| 94 | Large Snowy Spruce Log<br/>`Obj_TreeConiferous_A_Snow_03_Trunk` | Fused Spruce Log<br/>`Obj_TreeConiferous_A_01_ForAttachment` | ❌ | Short Spruce Log<br/>Obj_TreeConiferous_A_01_Trunk_Aligned | todo |
-| 95 | Short Pale Spruce Log (From Tree)<br/>`Obj_TreeConiferous_C_01_Trunk` | Fused Spruce Log<br/>`Obj_TreeConiferous_A_01_ForAttachment` | ❌ | Short Spruce Log<br/>Obj_TreeConiferous_A_01_Trunk_Aligned | todo |
-| 96 | Short Pale Spruce Log<br/>`Obj_TreeConiferous_C_01_Trunk_Aligned` | Fused Spruce Log<br/>`Obj_TreeConiferous_A_01_ForAttachment` | ❌ | Short Spruce Log<br/>Obj_TreeConiferous_A_01_Trunk_Aligned | todo |
-| 97 | Long Pale Spruce Log<br/>`Obj_TreeConiferous_C_02_Trunk` | Fused Spruce Log<br/>`Obj_TreeConiferous_A_01_ForAttachment` | ❌ | Short Spruce Log<br/>Obj_TreeConiferous_A_01_Trunk_Aligned | todo |
-| 98 | Large Pale Spruce Log<br/>`Obj_TreeConiferous_C_03_Trunk` | Fused Spruce Log<br/>`Obj_TreeConiferous_A_01_ForAttachment` | ❌ | Short Spruce Log<br/>Obj_TreeConiferous_A_01_Trunk_Aligned | todo |
+| 82 | Long Dead Spruce Log (From Tree)<br/>`Obj_TreeConiferousDead_A_01_Trunk` | Fused Spruce Log<br/>`Obj_TreeConiferous_A_01_ForAttachment` | ❌ | Short Spruce Log<br/>`Obj_TreeConiferous_A_01_Trunk_Aligned` | todo |
+| 83 | Long Dead Spruce Log<br/>`Obj_TreeConiferousDead_A_01_Trunk_Aligned` | Fused Spruce Log<br/>`Obj_TreeConiferous_A_01_ForAttachment` | ❌ | Short Spruce Log<br/>`Obj_TreeConiferous_A_01_Trunk_Aligned` | todo |
+| 84 | Short Dead Spruce Log<br/>`Obj_TreeConiferousDead_A_02_Trunk` | Fused Spruce Log<br/>`Obj_TreeConiferous_A_01_ForAttachment` | ❌ | Short Spruce Log<br/>`Obj_TreeConiferous_A_01_Trunk_Aligned` | todo |
+| 85 | Long Dead Snowy Spruce Log (From Tree)<br/>`Obj_TreeConiferousDead_A_Snow_01_Trunk` | Fused Spruce Log<br/>`Obj_TreeConiferous_A_01_ForAttachment` | ❌ | Short Spruce Log<br/>`Obj_TreeConiferous_A_01_Trunk_Aligned` | todo |
+| 86 | Long Dead Snowy Spruce Log<br/>`Obj_TreeConiferousDead_A_Snow_01_Trunk_Aligned` | Fused Spruce Log<br/>`Obj_TreeConiferous_A_01_ForAttachment` | ❌ | Short Spruce Log<br/>`Obj_TreeConiferous_A_01_Trunk_Aligned` | todo |
+| 87 | Short Spruce Log (From Tree)<br/>`Obj_TreeConiferous_A_01_Trunk` | Fused Spruce Log<br/>`Obj_TreeConiferous_A_01_ForAttachment` | ❌ | Short Spruce Log<br/>`Obj_TreeConiferous_A_01_Trunk_Aligned` | todo |
+| 88 | Short Spruce Log<br/>`Obj_TreeConiferous_A_01_Trunk_Aligned` | Fused Spruce Log<br/>`Obj_TreeConiferous_A_01_ForAttachment` | ❌ | Short Spruce Log<br/>`Obj_TreeConiferous_A_01_Trunk_Aligned` | todo |
+| 89 | Long Spruce Log<br/>`Obj_TreeConiferous_A_02_Trunk` | Fused Spruce Log<br/>`Obj_TreeConiferous_A_01_ForAttachment` | ❌ | Short Spruce Log<br/>`Obj_TreeConiferous_A_01_Trunk_Aligned` | todo |
+| 90 | Large Spruce Log<br/>`Obj_TreeConiferous_A_03_Trunk` | Fused Spruce Log<br/>`Obj_TreeConiferous_A_01_ForAttachment` | ❌ | Short Spruce Log<br/>`Obj_TreeConiferous_A_01_Trunk_Aligned` | todo |
+| 91 | Short Snowy Spruce Log (From Tree)<br/>`Obj_TreeConiferous_A_Snow_01_Trunk` | Fused Spruce Log<br/>`Obj_TreeConiferous_A_01_ForAttachment` | ❌ | Short Spruce Log<br/>`Obj_TreeConiferous_A_01_Trunk_Aligned` | todo |
+| 92 | Short Snowy Spruce Log<br/>`Obj_TreeConiferous_A_Snow_01_Trunk_Aligned` | Fused Spruce Log<br/>`Obj_TreeConiferous_A_01_ForAttachment` | ❌ | Short Spruce Log<br/>`Obj_TreeConiferous_A_01_Trunk_Aligned` | todo |
+| 93 | Long Snowy Spruce Log<br/>`Obj_TreeConiferous_A_Snow_02_Trunk` | Fused Spruce Log<br/>`Obj_TreeConiferous_A_01_ForAttachment` | ❌ | Short Spruce Log<br/>`Obj_TreeConiferous_A_01_Trunk_Aligned` | todo |
+| 94 | Large Snowy Spruce Log<br/>`Obj_TreeConiferous_A_Snow_03_Trunk` | Fused Spruce Log<br/>`Obj_TreeConiferous_A_01_ForAttachment` | ❌ | Short Spruce Log<br/>`Obj_TreeConiferous_A_01_Trunk_Aligned` | todo |
+| 95 | Short Pale Spruce Log (From Tree)<br/>`Obj_TreeConiferous_C_01_Trunk` | Fused Spruce Log<br/>`Obj_TreeConiferous_A_01_ForAttachment` | ❌ | Short Spruce Log<br/>`Obj_TreeConiferous_A_01_Trunk_Aligned` | todo |
+| 96 | Short Pale Spruce Log<br/>`Obj_TreeConiferous_C_01_Trunk_Aligned` | Fused Spruce Log<br/>`Obj_TreeConiferous_A_01_ForAttachment` | ❌ | Short Spruce Log<br/>`Obj_TreeConiferous_A_01_Trunk_Aligned` | todo |
+| 97 | Long Pale Spruce Log<br/>`Obj_TreeConiferous_C_02_Trunk` | Fused Spruce Log<br/>`Obj_TreeConiferous_A_01_ForAttachment` | ❌ | Short Spruce Log<br/>`Obj_TreeConiferous_A_01_Trunk_Aligned` | todo |
+| 98 | Large Pale Spruce Log<br/>`Obj_TreeConiferous_C_03_Trunk` | Fused Spruce Log<br/>`Obj_TreeConiferous_A_01_ForAttachment` | ❌ | Short Spruce Log<br/>`Obj_TreeConiferous_A_01_Trunk_Aligned` | todo |
 | 99 | Apple Log Stump (With Leaf)<br/>`Obj_TreeDeadLeaf_A_01_Trunk` | Apple Log Stump (No Leaf)<br/>`Obj_TreeDead_A_01_Trunk` | ❌ | ❌ | todo |
-| 100 | Seres Scablands Tree Log<br/>`Obj_TreeDragonBlood_A_03_Trunk` | Fused Birch Log<br/>`Obj_TreeWhiteBirch_A_01_ForAttachment` | ❌ | Birch Log 1<br/>`Obj_TreeWhiteBirch_A_01_Trunk_Aligned | todo |
+| 100 | Seres Scablands Tree Log<br/>`Obj_TreeDragonBlood_A_03_Trunk` | Fused Birch Log<br/>`Obj_TreeWhiteBirch_A_01_ForAttachment` | ❌ | Birch Log 1<br/>`Obj_TreeWhiteBirch_A_01_Trunk_Aligned` | todo |
 | 101 | Lost Woods Tree Log<br/>`Obj_TreeGhost_A_03_Trunk` | Fused Oak Log<br/>`Obj_TreeWood_A_01_ForAttachment` | ❌ | Oak Log<br/>`Obj_TreeBroadleaf_A_L_Trunk` |  |
 | 102 | Long Maple Log (From Tree)<br/>`Obj_TreeMaple_A_01_Trunk` | Fused Maple Log<br/>`Obj_TreeMaple_A_01_ForAttachment` | ❌ | Long Maple Log<br/>`Obj_TreeMaple_A_01_Trunk_Aligned` | todo |
 | 103 | Long Maple Log<br/>`Obj_TreeMaple_A_01_Trunk_Aligned` | Fused Maple Log<br/>`Obj_TreeMaple_A_01_ForAttachment` | ❌ | Long Maple Log<br/>`Obj_TreeMaple_A_01_Trunk_Aligned` | todo |
@@ -298,11 +298,11 @@ Sorry if you're viewing this page right now. The table was not good and I'm acti
 | 106 | Short Maple Log 2<br/>`Obj_TreeMaple_B_02_Trunk` | Fused Maple Log<br/>`Obj_TreeMaple_A_01_ForAttachment` | ❌ | Long Maple Log<br/>`Obj_TreeMaple_A_01_Trunk_Aligned` | todo |
 | 107 | Long Maple Log 3<br/>`Obj_TreeMaple_C_01_Trunk` | Fused Maple Log<br/>`Obj_TreeMaple_A_01_ForAttachment` | ❌ | Long Maple Log<br/>`Obj_TreeMaple_A_01_Trunk_Aligned` | todo |
 | 108 | Short Maple Log 3<br/>`Obj_TreeMaple_C_02_Trunk` | Fused Maple Log<br/>`Obj_TreeMaple_A_01_ForAttachment` | ❌ | Long Maple Log<br/>`Obj_TreeMaple_A_01_Trunk_Aligned` | todo |
-| 109 | Straight Beach Palm Log (From Tree)<br/>`Obj_TreePalmBeach_A_01_Trunk` | Fused Beach Palm Log<br/>`Obj_TreePalmBeach_A_01_ForAttachment` | ❌ | Straight Beach Palm Log<br/>`Obj_TreePalmBeach_A_01_Trunk_Aligned |  |
-| 110 | Sraight Beach Palm Log<br/>`Obj_TreePalmBeach_A_01_Trunk_Aligned` | Fused Beach Palm Log<br/>`Obj_TreePalmBeach_A_01_ForAttachment` | ❌ | Straight Beach Palm Log<br/>`Obj_TreePalmBeach_A_01_Trunk_Aligned |  |
-| 111 | Curved Beach Palm Log<br/>`Obj_TreePalmBeach_A_02_Trunk` | Fused Beach Palm Log<br/>`Obj_TreePalmBeach_A_01_ForAttachment` | ❌ | Straight Beach Palm Log<br/>`Obj_TreePalmBeach_A_01_Trunk_Aligned |  |
-| 112 | Long Oasis Palm Log<br/>`Obj_TreePalm_A_01_Trunk` | Fused Beach Palm Log<br/>`Obj_TreePalmBeach_A_01_ForAttachment` | ❌ | Straight Beach Palm Log<br/>`Obj_TreePalmBeach_A_01_Trunk_Aligned | todo |
-| 113 | Short Oasis Palm Log<br/>`Obj_TreePalm_A_02_Trunk` | Fused Beach Palm Log<br/>`Obj_TreePalmBeach_A_01_ForAttachment` | ❌ | Straight Beach Palm Log<br/>`Obj_TreePalmBeach_A_01_Trunk_Aligned | todo |
+| 109 | Straight Beach Palm Log (From Tree)<br/>`Obj_TreePalmBeach_A_01_Trunk` | Fused Beach Palm Log<br/>`Obj_TreePalmBeach_A_01_ForAttachment` | ❌ | Straight Beach Palm Log<br/>`Obj_TreePalmBeach_A_01_Trunk_Aligned` |  |
+| 110 | Sraight Beach Palm Log<br/>`Obj_TreePalmBeach_A_01_Trunk_Aligned` | Fused Beach Palm Log<br/>`Obj_TreePalmBeach_A_01_ForAttachment` | ❌ | Straight Beach Palm Log<br/>`Obj_TreePalmBeach_A_01_Trunk_Aligned` |  |
+| 111 | Curved Beach Palm Log<br/>`Obj_TreePalmBeach_A_02_Trunk` | Fused Beach Palm Log<br/>`Obj_TreePalmBeach_A_01_ForAttachment` | ❌ | Straight Beach Palm Log<br/>`Obj_TreePalmBeach_A_01_Trunk_Aligned` |  |
+| 112 | Long Oasis Palm Log<br/>`Obj_TreePalm_A_01_Trunk` | Fused Beach Palm Log<br/>`Obj_TreePalmBeach_A_01_ForAttachment` | ❌ | Straight Beach Palm Log<br/>`Obj_TreePalmBeach_A_01_Trunk_Aligned` | todo |
+| 113 | Short Oasis Palm Log<br/>`Obj_TreePalm_A_02_Trunk` | Fused Beach Palm Log<br/>`Obj_TreePalmBeach_A_01_ForAttachment` | ❌ | Straight Beach Palm Log<br/>`Obj_TreePalmBeach_A_01_Trunk_Aligned` | todo |
 | 114 | Long Sky Apple Log (From Tree)<br/>`Obj_TreeSkyApple_A_L_01_Trunk` | Medium Sky Apple Log<br/>`Obj_TreeSkyApple_A_M_01_Trunk` | ❌ | ❌ | todo |
 | 115 | Long Sky Apple Log<br/>`Obj_TreeSkyApple_A_L_01_Trunk_Aligned` | Medium Sky Apple Log<br/>`Obj_TreeSkyApple_A_M_01_Trunk` | ❌ | ❌ | todo |
 | 116 | Long Sky Oak Log (From Tree)<br/>`Obj_TreeSkyBroadleaf_A_L_Trunk` | Fused Sky Oak Log<br/>`Obj_TreeWhiteWood_A_01_ForAttachment` | ❌ | Long Sky Oak Log<br/>`Obj_TreeSkyBroadleaf_A_L_Trunk_Aligned` | todo |
@@ -347,7 +347,8 @@ Sorry if you're viewing this page right now. The table was not good and I'm acti
 | 155 | Flux Construct I Block<br/>`Zonau_BlockMaster_Block` | Fused Flux Construct I Block<br/>`Zonau_BlockMaster_Block_ForAttachment` | ❌ | ❌ |  |
 | 156 | Flux Construct II Block<br/>`Zonau_BlockMaster_Block_Middle` | Fused Flux Construct II Block<br/>`Zonau_BlockMaster_Block_Middle_ForAttachment` | ❌ | ❌ |  |
 | 157 | Flux Construct III Block<br/>`Zonau_BlockMaster_Block_Senior` | Fused Flux Construct III Block<br/>`Zonau_BlockMaster_Block_Senior_ForAttachment` | ❌ | ❌ |  |
-| "158" | LetsTestWhatHappensIfTheresALongUnbrokenStringInEveryColumn | BecauseMyNewHypothesisIsThatTheseCantBeBrokenUp | AndCanThusForceAnArbitraryColumnWidth | WhichInTurnWillPreventTheAutoLinebreaks | FromBreakingMyCarefullyFormattedTableIntoAHauntedGarbageMess |
+|  | LetsTestWhatHappensIfTheresALongUnbrokenString | BecauseMyNewHypothesisIsThatTheseCantBeBrokenUp |  | WhichInTurnWillPreventTheAutoLinebreaksFrom |  |
+|  |  |  | ------------------ |  | --------------- |
 
 ### Environmental & Enemy Objects ?
 
