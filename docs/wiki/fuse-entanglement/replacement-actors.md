@@ -179,26 +179,19 @@ Sorry if you're viewing this page right now. The table was not good and I'm acti
 
 ## Testing zone ?
 
-### alt newline test augh ?
-
-| Index | Base Actor Name \n `Base Actor ID` | Replacement Actor Name \n `Replacement Actor ID` | Self-replacing? | Defuse Replacement Name \n `Defuse Replacement ID` \n (If Applicable) | Additional Info |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Small Icicle \n `AsbObj_Icicle_A_01` | Small Icicle \n `AsbObj_Icicle_A_01` | ✔️ | ❌ |  |
-| 2 | Large Icicle \n `AsbObj_Icicle_A_02` | Small Icicle \n `AsbObj_Icicle_A_01` \n (If scale <0.6 when fused) \n Large Icicle \n `AsbObj_Icicle_A_02` \n (If scale ≥0.6 when fused) | ❌ \n ✔️ | ❌ |  |
-
 ### full table reformat ?
 
-| Index | Base Actor Name<br/>`Base Actor ID` | Replacement Actor Name<br/>`Replacement Actor ID` | Self-replacing? | Defuse Replacement Name<br/>`Defuse Replacement ID`<br/>(If Applicable) | Additional Info |
+| Index | Base Actor Name<br/>`Base Actor ID` | Replacement Actor Name<br/>`Replacement Actor ID` | Self-replacing? | Defuse Replacement Name (If Applicable)<br/>`Defuse Replacement ID` | Additional Info |
 | --- | --- | --- | --- | --- | --- |
 | 1 | Small Icicle<br/>`AsbObj_Icicle_A_01` | Small Icicle<br/>`AsbObj_Icicle_A_01` | ✔️ | ❌ |  |
-| 2 | Large Icicle<br/>`AsbObj_Icicle_A_02` | Small Icicle<br/>`AsbObj_Icicle_A_01`<br/>(If scale <0.6 when fused)<br/>Large Icicle<br/>`AsbObj_Icicle_A_02`<br/>(If scale ≥0.6 when fused) | ❌<br/>✔️ | ❌ |  |
+| 2 | Large Icicle<br/>`AsbObj_Icicle_A_02` | Small Icicle (If scale <0.6 when fused)<br/>`AsbObj_Icicle_A_01`<br/>Large Icicle (If scale ≥0.6 when fused)<br/>`AsbObj_Icicle_A_02` | ❌<br/><br/>✔️ | ❌ |  |
 | 3 | Tattered Sail<br/>`AsbObj_WoodSail_A_01` | Fused Tattered Sail<br/>`AsbObj_WoodSail_A_01_ForAttachment` | ❌ | Tattered Sail<br/>`AsbObj_WoodSail_A_01` | Replacement does not pivot |
 | 4 | Pristine Sail<br/>`AsbObj_WoodSail_A_02` | Fused Pristine Sail<br/>`AsbObj_WoodSail_A_02_ForAttachment` | ❌ | Pristine Sail<br/>`AsbObj_WoodSail_A_02` | Replacement Does not pivot |
 | 5 | Bomb Flower<br/>`BombFruit` | Bomb Flower<br/>`BombFruit` | ✔️ | ❌ |  |
-| 6 | Snowball<br/>`BrokenSnowBall` | Small Fused Snowball<br/>`BrokenSnowBallForAttachmentSmall`<br/>(If scale <1.25 when fused)<br/>Large Fused Snowball<br/>`BrokenSnowballForAttachmentLarge`<br/>(If scale ≥1.25 when fused) | ❌<br/>❌ | Snowball<br/>`BrokenSnowBall` |  |
-| 7 | Small Fused Snowball<br/>`BrokenSnowBallForAttachmentSmall` | Small Fused Snowball<br/>`BrokenSnowBallForAttachmentSmall`<br/>(If scale <1.25 when fused)<br/>Large Fused Snowball<br/>`BrokenSnowballForAttachmentLarge`<br/>(If scale ≥1.25 when fused) | ✔️<br/>❌ | Snowball<br/>`BrokenSnowBall` | Only accessible with DI |
+| 6 | Snowball<br/>`BrokenSnowBall` | Small Fused Snowball (If scale <1.25 when fused)<br/>`BrokenSnowBallForAttachmentSmall`<br/>Large Fused Snowball (If scale ≥1.25 when fused)<br/>`BrokenSnowballForAttachmentLarge` | ❌<br/><br/>❌ | Snowball<br/>`BrokenSnowBall` |  |
+| 7 | Small Fused Snowball<br/>`BrokenSnowBallForAttachmentSmall` | Small Fused Snowball (If scale <1.25 when fused)<br/>`BrokenSnowBallForAttachmentSmall`<br/>Large Fused Snowball (If scale ≥1.25 when fused)<br/>`BrokenSnowballForAttachmentLarge` | ✔️<br/><br/>❌ | Snowball<br/>`BrokenSnowBall` | Only accessible with DI |
 | 8 | Large Fused Snowball<br/>`BrokenSnowBallForAttachmentLarge` | Small Fused Snowball<br/>`BrokenSnowBallForAttachmentSmall`<br/>(If scale <1.25 when fused)<br/>Large Fused Snowball<br/>`BrokenSnowballForAttachmentLarge`<br/>(If scale ≥1.25 when fused) | ❌<br/>✔️ | Snowball<br/>`BrokenSnowBall` | Only accessible with DI |
-| 9 | Gleeok Snowball<br/>`BrokenSnowBallForDrake` | Small Fused Snowball<br/>`BrokenSnowBallForAttachmentSmall`<br/>(If scale <1.25 when fused)<br/>Large Fused Snowball<br/>`BrokenSnowballForAttachmentLarge`<br/>(If scale ≥1.25 when fused) | ❌<br/>❌ | Snowball<br/>`BrokenSnowBall` |  |
+| 9 | Gleeok Snowball<br/>`BrokenSnowBallForDrake` | Small Fused Snowball (If scale <1.25 when fused)<br/>`BrokenSnowBallForAttachmentSmall`<br/>Large Fused Snowball (If scale ≥1.25 when fused)<br/>`BrokenSnowballForAttachmentLarge` | ❌<br/>❌ | Snowball<br/>`BrokenSnowBall` |  |
 | 10 | Muddle Bud (Planted)<br/>`ConfusionFruit_Static` | Muddle Bud<br/>`ConfusionFruit` | ❌ | ❌ | todo |
 | 11 | 8x4m Shrine Metal Plate<br/>`DgnObj_BoardIron_E_Cart_02`<br/>Has extra snap points | 8x4m Shrine Metal Plate<br/>`DgnObj_BoardIron_E` | ❌ | ❌ |  Only in Marakuguc - _Wheeled Wonders_ |
 | 12 | Small Water Globule<br/>`DgnObj_FloatingWater_A_01` | Fused Small Water Globule<br/>`DgnObj_FloatingWater_A_01_ForAttachment` | ❌ | ❌ | Replacement has fake water |
@@ -347,8 +340,7 @@ Sorry if you're viewing this page right now. The table was not good and I'm acti
 | 155 | Flux Construct I Block<br/>`Zonau_BlockMaster_Block` | Fused Flux Construct I Block<br/>`Zonau_BlockMaster_Block_ForAttachment` | ❌ | ❌ |  |
 | 156 | Flux Construct II Block<br/>`Zonau_BlockMaster_Block_Middle` | Fused Flux Construct II Block<br/>`Zonau_BlockMaster_Block_Middle_ForAttachment` | ❌ | ❌ |  |
 | 157 | Flux Construct III Block<br/>`Zonau_BlockMaster_Block_Senior` | Fused Flux Construct III Block<br/>`Zonau_BlockMaster_Block_Senior_ForAttachment` | ❌ | ❌ |  |
-|  | LetsTestWhatHappensIfTheresALongUnbrokenString | BecauseMyNewHypothesisIsThatTheseCantBeBrokenUp |  | WhichInTurnWillPreventTheAutoLinebreaksFrom |  |
-|  |  |  | ------------------ |  | --------------- |
+|  | ──────────────────────────────────────────────────────────── | ──────────────────────────────────────────────────────────── |  | ──────────────────────────────────────────────────────────── | ──────────────────────────────────────────────────────────── |
 
 ### Environmental & Enemy Objects ?
 
