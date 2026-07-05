@@ -617,34 +617,42 @@ Unique to DI:
 - Protected against the "Deletion Flag" under most circumstances
 - Protected against the "FarDelete" deletion type as long as it has a DI FE/Fuse parent
 
-=== "Equipment (1.0.0-1.1.2)" ###
+### Equipment
 
-Shared with Void Dipping:
+=== "(1.0.0-1.1.2)" ####
+    ---
+    notoc: true
+    ---
 
-- Some single-use fuses become infinite (eg Ancient Blades)
-- Faildrop and Faildrop-Swap cause unequipped smuggle
-- Drop-Swap-Unequip and Drop-Swap-Drop drop normally
-- Does not induce D-Pad Lock when smuggled on `1.1.2` (except if there is no dependency to Link)
+    Shared with Void Dipping:
 
-Unique to DI:
+    - Some single-use fuses become infinite (eg Ancient Blades)
+    - Faildrop and Faildrop-Swap cause unequipped smuggle
+    - Drop-Swap-Unequip and Drop-Swap-Drop drop normally
+    - Does not induce D-Pad Lock when smuggled on `1.1.2` (except if there is no dependency to Link)
 
-- Due to the lower death reason number, it is immune to being destroyed by inventory pickup. Therefore, it can be used to duplicate that equipment en masse simply by picking it up with something else equipped
-- Propagates the Eaten death reason to anything fused to it (slightly conditional). This can in turn be interrupted to create a [DI Ghost](uid:BEW) (see linked page for details and methods)
+    Unique to DI:
 
-=== "(1.2.0+)" ###
+    - Due to the lower death reason number, it is immune to being destroyed by inventory pickup. Therefore, it can be used to duplicate that equipment en masse simply by picking it up with something else equipped
+    - Propagates the Eaten death reason to anything fused to it (slightly conditional). This can in turn be interrupted to create a [DI Ghost](uid:BEW) (see linked page for details and methods)
 
-Shared with Void Dipping:
+=== "(1.2.0+)" ####
+    ---
+    notoc: true
+    ---
 
-- Some single-use fuses become infinite (eg Ancient Blades)
-- Does not directly cull from Drop-Swap Culling
-- Faildrop causes Equipped Smuggle
-- Faildrop-Swap, Drop-Swap-Unequip, and Drop-Swap-Drop cause unequipped smuggle
-- Does not induce D-Pad Lock when smuggled (except if there is no dependency to Link)
+    Shared with Void Dipping:
 
-Unique to DI:
+    - Some single-use fuses become infinite (eg Ancient Blades)
+    - Does not directly cull from Drop-Swap Culling
+    - Faildrop causes Equipped Smuggle
+    - Faildrop-Swap, Drop-Swap-Unequip, and Drop-Swap-Drop cause unequipped smuggle
+    - Does not induce D-Pad Lock when smuggled (except if there is no dependency to Link)
 
-- Due to the lower death reason number, it is immune to being destroyed by inventory pickup. Therefore, it can be used to duplicate that equipment en masse simply by picking it up with something else equipped
-- Propagates the Eaten death reason to anything fused to it (slightly conditional). This can in turn be interrupted to create a [DI Ghost](uid:BEW) (see linked page for details and methods)
+    Unique to DI:
+
+    - Due to the lower death reason number, it is immune to being destroyed by inventory pickup. Therefore, it can be used to duplicate that equipment en masse simply by picking it up with something else equipped
+    - Propagates the Eaten death reason to anything fused to it (slightly conditional). This can in turn be interrupted to create a [DI Ghost](uid:BEW) (see linked page for details and methods)
 
 ## Notes
 - Sometimes known as "Eaten DI". "Frox Dipping" and "Frox Licking" are disused and discouraged monikers.
