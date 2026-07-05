@@ -183,7 +183,7 @@ Sorry if you're viewing this page right now. The table was not good and I'm acti
 
 Rather long. Feel free to peruse the sorted tables below.
 
-| Index | Base Actor Name<br/>`Base Actor ID` | Replacement Actor Name<br/>`Replacement Actor ID` | Self-replacing? | Defuse Replacement Name (If Applicable)<br/>`Defuse Replacement ID` | Additional Info |
+| Index | Base Actor Name<br/>`Base Actor ID` | Replacement Actor Name<br/>`Replacement Actor ID` | Self-replacing? | Defuse Replacement Name (If Applicable)<br/>`Defuse Replacement ID` | Info |
 | --- | --- | --- | --- | --- | --- |
 | 1 | Small Icicle<br/>`AsbObj_Icicle_A_01` | Small Icicle<br/>`AsbObj_Icicle_A_01` | ✔️ | ❌ |  |
 | 2 | Large Icicle<br/>`AsbObj_Icicle_A_02` | Small Icicle (If scale <0.6 when fused)<br/>`AsbObj_Icicle_A_01`<br/>Large Icicle (If scale ≥0.6 when fused)<br/>`AsbObj_Icicle_A_02` | ❌<br/><br/>✔️ | ❌ |  |
@@ -192,7 +192,7 @@ Rather long. Feel free to peruse the sorted tables below.
 | 5 | Bomb Flower<br/>`BombFruit` | Bomb Flower<br/>`BombFruit` | ✔️ | ❌ |  |
 | 6 | Snowball<br/>`BrokenSnowBall` | Small Fused Snowball (If scale <1.25 when fused)<br/>`BrokenSnowBallForAttachmentSmall`<br/>Large Fused Snowball (If scale ≥1.25 when fused)<br/>`BrokenSnowballForAttachmentLarge` | ❌<br/><br/>❌ | Snowball<br/>`BrokenSnowBall` |  |
 | 7 | Small Fused Snowball<br/>`BrokenSnowBallForAttachmentSmall` | Small Fused Snowball (If scale <1.25 when fused)<br/>`BrokenSnowBallForAttachmentSmall`<br/>Large Fused Snowball (If scale ≥1.25 when fused)<br/>`BrokenSnowballForAttachmentLarge` | ✔️<br/><br/>❌ | Snowball<br/>`BrokenSnowBall` | Only accessible with DI |
-| 8 | Large Fused Snowball<br/>`BrokenSnowBallForAttachmentLarge` | Small Fused Snowball<br/>`BrokenSnowBallForAttachmentSmall`<br/>(If scale <1.25 when fused)<br/>Large Fused Snowball<br/>`BrokenSnowballForAttachmentLarge`<br/>(If scale ≥1.25 when fused) | ❌<br/>✔️ | Snowball<br/>`BrokenSnowBall` | Only accessible with DI |
+| 8 | Large Fused Snowball<br/>`BrokenSnowBallForAttachmentLarge` | Small Fused Snowball (If scale <1.25 when fused)<br/>`BrokenSnowBallForAttachmentSmall`<br/>Large Fused Snowball (If scale ≥1.25 when fused)<br/>`BrokenSnowballForAttachmentLarge` | ❌<br/>✔️ | Snowball<br/>`BrokenSnowBall` | Only accessible with DI |
 | 9 | Gleeok Snowball<br/>`BrokenSnowBallForDrake` | Small Fused Snowball (If scale <1.25 when fused)<br/>`BrokenSnowBallForAttachmentSmall`<br/>Large Fused Snowball (If scale ≥1.25 when fused)<br/>`BrokenSnowballForAttachmentLarge` | ❌<br/>❌ | Snowball<br/>`BrokenSnowBall` |  |
 | 10 | Muddle Bud (Planted)<br/>`ConfusionFruit_Static` | Muddle Bud<br/>`ConfusionFruit` | ❌ | ❌ | todo |
 | 11 | 8x4m Shrine Metal Plate<br/>`DgnObj_BoardIron_E_Cart_02`<br/>Has extra snap points | 8x4m Shrine Metal Plate<br/>`DgnObj_BoardIron_E` | ❌ | ❌ |  Only in Marakuguc - _Wheeled Wonders_ |
@@ -239,8 +239,8 @@ Rather long. Feel free to peruse the sorted tables below.
 | 52 | Swift Carrot (Planted)<br/>`Item_Plant_M` | Swift Carrot<br/>`Item_PlantGet_M` | ❌ | ❌ | todo |
 | 53 | Swift Carrot (Kakariko Garden)<br/>`Item_Plant_M_OwnedByNpc` | Swift Carrot<br/>`Item_PlantGet_M` | ❌ | ❌ | todo |
 | 54 | Swift Carrot (Garden Tutorial)<br/>`Item_Plant_M_TemporaryOwnedByNpc` | Swift Carrot<br/>`Item_PlantGet_M` | ❌ | ❌ | todo |
-| 55 | Swift Violet (Planted)`Item_Plant_O` | Swift Violet<br/>`Item_PlantGet_O` | ❌ | ❌ | todo |
-| 56 | Endura Carrot (Planted)`Item_Plant_Q` | Endura Carrot<br/>`Item_PlantGet_Q` | ❌ | ❌ | todo |
+| 55 | Swift Violet (Planted)<br/>`Item_Plant_O` | Swift Violet<br/>`Item_PlantGet_O` | ❌ | ❌ | todo |
+| 56 | Endura Carrot (Planted)<br/>`Item_Plant_Q` | Endura Carrot<br/>`Item_PlantGet_Q` | ❌ | ❌ | todo |
 | 57 | Endura Carrot (Garden Tutorial)<br/>`Item_Plant_Q_TemporaryOwnedByNpc` | Endura Carrot<br/>`Item_PlantGet_Q` | ❌ | ❌ | todo |
 | 58 | Sundelion (Planted)<br/>`Item_Plant_R` | Sundelion<br/>`Item_PlantGet_R` | ❌ | ❌ | todo |
 | 59 | Sundelion (Mellie's)<br/>`Item_Plant_R_Kakariko_008` | Sundelion<br/>`Item_PlantGet_R` | ❌ | ❌ | todo |
@@ -342,13 +342,13 @@ Rather long. Feel free to peruse the sorted tables below.
 | 155 | Flux Construct I Block<br/>`Zonau_BlockMaster_Block` | Fused Flux Construct I Block<br/>`Zonau_BlockMaster_Block_ForAttachment` | ❌ | ❌ |  |
 | 156 | Flux Construct II Block<br/>`Zonau_BlockMaster_Block_Middle` | Fused Flux Construct II Block<br/>`Zonau_BlockMaster_Block_Middle_ForAttachment` | ❌ | ❌ |  |
 | 157 | Flux Construct III Block<br/>`Zonau_BlockMaster_Block_Senior` | Fused Flux Construct III Block<br/>`Zonau_BlockMaster_Block_Senior_ForAttachment` | ❌ | ❌ |  |
-|  | ───────────────────────────────── | ──────────────────────────────────── |  | ─────────────────────────────── | ──────────── |
+|  | ────────────────────────────────── | ───────────────────────────────────── |  | ──────────────────────────────── | ──────────── |
 
 ### Environmental & Enemy Objects ?
 
 Natural inorganic objects, along with objects which are spawned by/are part of enemies.
 
-| Index | Base Actor Name<br/>`Base Actor ID` | Replacement Actor Name<br/>`Replacement Actor ID` | Self-replacing? | Defuse Replacement Name (If Applicable)<br/>`Defuse Replacement ID` | Additional Info |
+| Index | Base Actor Name<br/>`Base Actor ID` | Replacement Actor Name<br/>`Replacement Actor ID` | Self-replacing? | Defuse Replacement Name (If Applicable)<br/>`Defuse Replacement ID` | Info |
 | --- | --- | --- | --- | --- | --- |
 | 1 | Small Icicle<br/>`AsbObj_Icicle_A_01` | Small Icicle<br/>`AsbObj_Icicle_A_01` | ✔️ | ❌ |  |
 | 2 | Large Icicle<br/>`AsbObj_Icicle_A_02` | Small Icicle (If scale <0.6 when fused)<br/>`AsbObj_Icicle_A_01`<br/>Large Icicle (If scale ≥0.6 when fused)<br/>`AsbObj_Icicle_A_02` | ❌<br/><br/>✔️ | ❌ |  |
@@ -372,13 +372,13 @@ Natural inorganic objects, along with objects which are spawned by/are part of e
 | 155 | Flux Construct I Block<br/>`Zonau_BlockMaster_Block` | Fused Flux Construct I Block<br/>`Zonau_BlockMaster_Block_ForAttachment` | ❌ | ❌ |  |
 | 156 | Flux Construct II Block<br/>`Zonau_BlockMaster_Block_Middle` | Fused Flux Construct II Block<br/>`Zonau_BlockMaster_Block_Middle_ForAttachment` | ❌ | ❌ |  |
 | 157 | Flux Construct III Block<br/>`Zonau_BlockMaster_Block_Senior` | Fused Flux Construct III Block<br/>`Zonau_BlockMaster_Block_Senior_ForAttachment` | ❌ | ❌ |  |
-|  | ───────────────────────────────── | ──────────────────────────────────── |  | ─────────────────────────────── | ──────────── |
+|  | ──────────────────────────────── | ───────────────────────────────────── |  | ──────────────────────────────── | ────────── |
 
 ### Manufactured Objects ?
 
 Objects which are not natural, but are also not from an enemy.
 
-| Index | Base Actor Name<br/>`Base Actor ID` | Replacement Actor Name<br/>`Replacement Actor ID` | Self-replacing? | Defuse Replacement Name (If Applicable)<br/>`Defuse Replacement ID` | Additional Info |
+| Index | Base Actor Name<br/>`Base Actor ID` | Replacement Actor Name<br/>`Replacement Actor ID` | Self-replacing? | Defuse Replacement Name (If Applicable)<br/>`Defuse Replacement ID` | Info |
 | --- | --- | --- | --- | --- | --- |
 | 3 | Tattered Sail<br/>`AsbObj_WoodSail_A_01` | Fused Tattered Sail<br/>`AsbObj_WoodSail_A_01_ForAttachment` | ❌ | Tattered Sail<br/>`AsbObj_WoodSail_A_01` | Replacement does not pivot |
 | 4 | Pristine Sail<br/>`AsbObj_WoodSail_A_02` | Fused Pristine Sail<br/>`AsbObj_WoodSail_A_02_ForAttachment` | ❌ | Pristine Sail<br/>`AsbObj_WoodSail_A_02` | Replacement Does not pivot |
@@ -422,52 +422,52 @@ Objects which are not natural, but are also not from an enemy.
 | 152 | Time Bomb (Capsule)<br/>`SpObj_TimerBomb_Capsule_A_01` | Time Bomb<br/>`SpObj_TimerBomb_A_01` | ❌ | ❌ |  |
 | 153 | Fan (Capsule)<br/>`SpObj_WindGenerator_Capsule_A_01` | Fan<br/>`SpObj_WindGenerator_A_01` | ❌ | ❌ |  |
 | 154 | Tenoko Island Boat<br/>`TwnObj_Village_Fishing_Boat_A_02` | Fused Tenoko Island Boat<br/>`TwnObj_Village_Fishing_Boat_A_02_ForAttachment` | ❌ | Tenoko Island Boat<br/>`TwnObj_Village_Fishing_Boat_A_02` |  |
-|  | ───────────────────────────────── | ──────────────────────────────────── |  | ─────────────────────────────── | ──────────── |
+|  | ───────────────────────────── | ────────────────────────────────── |  | ─────────────────────────── | ──────────── |
 
 ### Plants (except logs) ?
 
 Living plants, excluding logs. When taken out from the inventory, these are always their replacement and not the original (except for self-replacing items).
 
-| Index | Base Actor Name<br/>`Base Actor ID` | Replacement Actor Name<br/>`Replacement Actor ID` | Self-replacing? | Defuse Replacement Name (If Applicable)<br/>`Defuse Replacement ID` | Additional Info |
-| --- | --- | --- | --- | --- | --- |
-| 5 | Bomb Flower<br/>`BombFruit` | Bomb Flower<br/>`BombFruit` | ✔️ | ❌ |  |
-| 10 | Muddle Bud (Planted)<br/>`ConfusionFruit_Static` | Muddle Bud<br/>`ConfusionFruit` | ❌ | ❌ | todo |
-| 24 | Shock Fruit<br/>`ElectricalFruit` | Shock Fruit<br/>`ElectricalFruit` | ✔️ | ❌ |  |
-| 25 | Fire Fruit<br/>`FireFruit` | Fire Fruit<br/>`FireFruit` | ✔️ | ❌ |  |
-| 28 | Ice Fruit<br/>`IceFruit` | Ice Fruit<br/>`IceFruit` | ✔️ | ❌ |  |
-| 36 | Rushroom (Planted)<br/>`Item_Mushroom_D` | Rushroom<br/>`Item_MushroomGet_D` | ❌ | ❌ | todo |
-| 37 | Brightcap (Planted)<br/>`Item_Mushroom_K` | Brightcap<br/>`Item_MushroomGet_K` | ❌ | ❌ | todo |
-| 38 | Hyrule Herb (Planted)<br/>`Item_Plant_A` | Hyrule Herb<br/>`Item_PlantGet_A` | ❌ | ❌ | todo |
-| 39 | Hearty Radish (Planted)<br/>`Item_Plant_B` | Hearty Radish<br/>`Item_PlantGet_B` | ❌ | ❌ | todo |
-| 40 | Hearty Radish (Garden Tutorial)<br/>`Item_Plant_B_TemporaryOwnedByNpc` | Hearty Radish<br/>`Item_PlantGet_B` | ❌ | ❌ | todo |
-| 41 | Big Hearty Radish (Planted)<br/>`Item_Plant_C` | Big Hearty Radish<br/>`Item_PlantGet_C` | ❌ | ❌ | todo |
-| 42 | Big Hearty Radish (Garden Tutorial)<br/>`Item_Plant_C_TemporaryOwnedByNpc` | Big Heary Radish<br/>`Item_PlantGet_C` | ❌ | ❌ | todo |
-| 43 | Cool Safflina (Planted)<br/>`Item_Plant_E` | Cool Safflina<br/>`Item_PlantGet_E` | ❌ | ❌ | todo |
-| 44 | Warm Safflina (Planted)<br/>`Item_Plant_F` | Warm Safflina<br/>`Item_PlantGet_F` | ❌ | ❌ | todo |
-| 45 | Mighty Thistle (Planted)<br/>`Item_Plant_G` | Mighty Thistle<br/>`Item_PlantGet_G` | ❌ | ❌ | todo |
-| 46 | Armoranth (Planted)<br/>`Item_Plant_H` | Armoranth<br/>`Item_PlantGet_H` | ❌ | ❌ | todo |
-| 47 | Blue Nightshade (Planted)<br/>`Item_Plant_I` | Blue Nightshade<br/>`Item_PlantGet_I` | ❌ | ❌ | todo |
-| 48 | Blue Nightshade (Oaki's)<br/>`Item_Plant_I_OwnedByNpc` | Blue Nightshade<br/>`Item_PlantGet_I` | ❌ | ❌ | todo |
-| 49 | Silent Princess (Planted)<br/>`Item_Plant_J` | Silent Princess<br/>`Item_PlantGet_J` | ❌ | ❌ | todo |
-| 50 | Silent Princess (Oaki's)<br/>`Item_Plant_J_OwnedByNpc` | Silent Princess<br/>`Item_PlantGet_J` | ❌ | ❌ | todo |
-| 51 | Electric Safflina (Planted)<br/>`Item_Plant_L` | Electric Safflina<br/>`Item_PlantGet_L` | ❌ | ❌ | todo |
-| 52 | Swift Carrot (Planted)<br/>`Item_Plant_M` | Swift Carrot<br/>`Item_PlantGet_M` | ❌ | ❌ | todo |
-| 53 | Swift Carrot (Kakariko Garden)<br/>`Item_Plant_M_OwnedByNpc` | Swift Carrot<br/>`Item_PlantGet_M` | ❌ | ❌ | todo |
-| 54 | Swift Carrot (Garden Tutorial)<br/>`Item_Plant_M_TemporaryOwnedByNpc` | Swift Carrot<br/>`Item_PlantGet_M` | ❌ | ❌ | todo |
-| 55 | Swift Violet (Planted)`Item_Plant_O` | Swift Violet<br/>`Item_PlantGet_O` | ❌ | ❌ | todo |
-| 56 | Endura Carrot (Planted)`Item_Plant_Q` | Endura Carrot<br/>`Item_PlantGet_Q` | ❌ | ❌ | todo |
-| 57 | Endura Carrot (Garden Tutorial)<br/>`Item_Plant_Q_TemporaryOwnedByNpc` | Endura Carrot<br/>`Item_PlantGet_Q` | ❌ | ❌ | todo |
-| 58 | Sundelion (Planted)<br/>`Item_Plant_R` | Sundelion<br/>`Item_PlantGet_R` | ❌ | ❌ | todo |
-| 59 | Sundelion (Mellie's)<br/>`Item_Plant_R_Kakariko_008` | Sundelion<br/>`Item_PlantGet_R` | ❌ | ❌ | todo |
-| 60 | Stambulb (Planted)`Item_Plant_S` | Stambulb<br/>`Item_PlantGet_S` | ❌ | ❌ | todo |
-| 126 | Puffshroom (Planted)<br/>`SmokeFuit_Static` | Puffshroom<br/>`SmokeFruit` | ❌ | ❌ | _sic_ |
-|  | ───────────────────────────────── | ──────────────────────────────────── |  | ─────────────────────────────── | ──────────── |
+| Index | Base Actor Name<br/>`Base Actor ID` | Replacement Actor Name<br/>`Replacement Actor ID` | Self-replacing? | Info |
+| --- | --- | --- | --- | --- |
+| 5 | Bomb Flower<br/>`BombFruit` | Bomb Flower<br/>`BombFruit` | ✔️ |  |
+| 10 | Muddle Bud (Planted)<br/>`ConfusionFruit_Static` | Muddle Bud<br/>`ConfusionFruit` | ❌ | todo |
+| 24 | Shock Fruit<br/>`ElectricalFruit` | Shock Fruit<br/>`ElectricalFruit` | ✔️ |  |
+| 25 | Fire Fruit<br/>`FireFruit` | Fire Fruit<br/>`FireFruit` | ✔️ |  |
+| 28 | Ice Fruit<br/>`IceFruit` | Ice Fruit<br/>`IceFruit` | ✔️ |  |
+| 36 | Rushroom (Planted)<br/>`Item_Mushroom_D` | Rushroom<br/>`Item_MushroomGet_D` | ❌ | todo |
+| 37 | Brightcap (Planted)<br/>`Item_Mushroom_K` | Brightcap<br/>`Item_MushroomGet_K` | ❌ | todo |
+| 38 | Hyrule Herb (Planted)<br/>`Item_Plant_A` | Hyrule Herb<br/>`Item_PlantGet_A` | ❌ | todo |
+| 39 | Hearty Radish (Planted)<br/>`Item_Plant_B` | Hearty Radish<br/>`Item_PlantGet_B` | ❌ | todo |
+| 40 | Hearty Radish (Garden Tutorial)<br/>`Item_Plant_B_TemporaryOwnedByNpc` | Hearty Radish<br/>`Item_PlantGet_B` | ❌ | todo |
+| 41 | Big Hearty Radish (Planted)<br/>`Item_Plant_C` | Big Hearty Radish<br/>`Item_PlantGet_C` | ❌ | todo |
+| 42 | Big Hearty Radish (Garden Tutorial)<br/>`Item_Plant_C_TemporaryOwnedByNpc` | Big Heary Radish<br/>`Item_PlantGet_C` | ❌ | todo |
+| 43 | Cool Safflina (Planted)<br/>`Item_Plant_E` | Cool Safflina<br/>`Item_PlantGet_E` | ❌ | todo |
+| 44 | Warm Safflina (Planted)<br/>`Item_Plant_F` | Warm Safflina<br/>`Item_PlantGet_F` | ❌ | todo |
+| 45 | Mighty Thistle (Planted)<br/>`Item_Plant_G` | Mighty Thistle<br/>`Item_PlantGet_G` | ❌ | todo |
+| 46 | Armoranth (Planted)<br/>`Item_Plant_H` | Armoranth<br/>`Item_PlantGet_H` | ❌ | todo |
+| 47 | Blue Nightshade (Planted)<br/>`Item_Plant_I` | Blue Nightshade<br/>`Item_PlantGet_I` | ❌ | todo |
+| 48 | Blue Nightshade (Oaki's)<br/>`Item_Plant_I_OwnedByNpc` | Blue Nightshade<br/>`Item_PlantGet_I` | ❌ | todo |
+| 49 | Silent Princess (Planted)<br/>`Item_Plant_J` | Silent Princess<br/>`Item_PlantGet_J` | ❌ | todo |
+| 50 | Silent Princess (Oaki's)<br/>`Item_Plant_J_OwnedByNpc` | Silent Princess<br/>`Item_PlantGet_J` | ❌ | todo |
+| 51 | Electric Safflina (Planted)<br/>`Item_Plant_L` | Electric Safflina<br/>`Item_PlantGet_L` | ❌ | todo |
+| 52 | Swift Carrot (Planted)<br/>`Item_Plant_M` | Swift Carrot<br/>`Item_PlantGet_M` | ❌ | todo |
+| 53 | Swift Carrot (Kakariko Garden)<br/>`Item_Plant_M_OwnedByNpc` | Swift Carrot<br/>`Item_PlantGet_M` | ❌ | todo |
+| 54 | Swift Carrot (Garden Tutorial)<br/>`Item_Plant_M_TemporaryOwnedByNpc` | Swift Carrot<br/>`Item_PlantGet_M` | ❌ | todo |
+| 55 | Swift Violet (Planted)<br/>`Item_Plant_O` | Swift Violet<br/>`Item_PlantGet_O` | ❌ | todo |
+| 56 | Endura Carrot (Planted)<br/>`Item_Plant_Q` | Endura Carrot<br/>`Item_PlantGet_Q` | ❌ | todo |
+| 57 | Endura Carrot (Garden Tutorial)<br/>`Item_Plant_Q_TemporaryOwnedByNpc` | Endura Carrot<br/>`Item_PlantGet_Q` | ❌ | todo |
+| 58 | Sundelion (Planted)<br/>`Item_Plant_R` | Sundelion<br/>`Item_PlantGet_R` | ❌ | todo |
+| 59 | Sundelion (Mellie's)<br/>`Item_Plant_R_Kakariko_008` | Sundelion<br/>`Item_PlantGet_R` | ❌ | todo |
+| 60 | Stambulb (Planted)`Item_Plant_S` | Stambulb<br/>`Item_PlantGet_S` | ❌ | todo |
+| 126 | Puffshroom (Planted)<br/>`SmokeFuit_Static` | Puffshroom<br/>`SmokeFruit` | ❌ | _sic_ |
+|  | ──────────────────────── | ──────────────────────── |  | ────────── |
 
 ### Logs ?
 
 Logs. Includes anything considered logs by the game.
 
-| Index | Base Actor Name<br/>`Base Actor ID` | Replacement Actor Name<br/>`Replacement Actor ID` | Self-replacing? | Defuse Replacement Name (If Applicable)<br/>`Defuse Replacement ID` | Additional Info |
+| Index | Base Actor Name<br/>`Base Actor ID` | Replacement Actor Name<br/>`Replacement Actor ID` | Self-replacing? | Defuse Replacement Name (If Applicable)<br/>`Defuse Replacement ID` | Info |
 | --- | --- | --- | --- | --- | --- |
 | 20 | Long Shrine Log<br/>`DgnObj_WoodPole_A` | Short Shrine Log<br/>`DgnObj_WoodPole_A_02` | ❌ | ❌ |
 | 63 | Evermean Log (Depths)<br/>`MinusObj_TreeGeneralleaf_A_01_Trent_Trunk` | Fused Evermean Log (Depths)<br/>`MinusObj_TreeGeneralleaf_A_01_Treant_ForAttachment` | ❌ | Evermean Log (Depths)<br/>`MinusObj_TreeGeneralleaf_A_01_Trent_Trunk` | _sic_ |
@@ -531,112 +531,112 @@ Logs. Includes anything considered logs by the game.
 | 123 | Birch Log 3 (From Tree)<br/>`Obj_TreeWhiteBirch_A_03_Trunk` | Fused Birch Log<br/>`Obj_TreeWhiteBirch_A_01_ForAttachment` | ❌ | Birch Log 1<br/>`Obj_TreeWhiteBirch_A_01_Trunk` | todo |
 | 124 | Birch Log 4 (From Tree)<br/>`Obj_TreeWhiteBirch_A_04_Trunk` | Fused Birch Log<br/>`Obj_TreeWhiteBirch_A_01_ForAttachment` | ❌ | Birch Log 1<br/>`Obj_TreeWhiteBirch_A_01_Trunk` | todo |
 | 125 | Willow Log<br/>`Obj_TreeWillow_A_01_Trunk` | Fused Willow Log<br/>`Obj_TreeWillow_A_01_ForAttachment` | ❌ | Willow Log<br/>`Obj_TreeWillow_A_01_Trunk` |  |
-|  | ───────────────────────────────── | ──────────────────────────────────── |  | ─────────────────────────────── | ──────────── |
+|  | ────────────────────────────────── | ───────────────────────────────────── |  | ──────────────────────────────── | ─────────── |
 
 ### Items and Materials ?
 
 Anything which can enter the inventory. All such actors brought out from the inventory are the replacement, except thrown capsules.
 
-| Index | Base Actor Name<br/>`Base Actor ID` | Replacement Actor Name<br/>`Replacement Actor ID` | Self-replacing? | Defuse Replacement Name (If Applicable)<br/>`Defuse Replacement ID` | Additional Info |
-| --- | --- | --- | --- | --- | --- |
-| 5 | Bomb Flower<br/>`BombFruit` | Bomb Flower<br/>`BombFruit` | ✔️ | ❌ |  |
-| 10 | Muddle Bud (Planted)<br/>`ConfusionFruit_Static` | Muddle Bud<br/>`ConfusionFruit` | ❌ | ❌ | todo |
-| 24 | Shock Fruit<br/>`ElectricalFruit` | Shock Fruit<br/>`ElectricalFruit` | ✔️ | ❌ |  |
-| 25 | Fire Fruit<br/>`FireFruit` | Fire Fruit<br/>`FireFruit` | ✔️ | ❌ |  |
-| 28 | Ice Fruit<br/>`IceFruit` | Ice Fruit<br/>`IceFruit` | ✔️ | ❌ |  |
-| 31 | Star Fragment (Skydiving)<br/>`Item_CatchInAir` | Star Fragment<br/>`Item_Ore_J` | ❌ | ❌ |  |
-| 32 | Red Chuchu Jelly<br/>`Item_Enemy_15` | Red Chuchu Jelly<br/>`Item_Enemy_15` | ✔️ | ❌ |  |
-| 33 | Yellow Chuchu Jelly<br/>`Item_Enemy_16` | Yellow Chuchu Jelly<br/>`Item_Enemy_16` | ✔️ | ❌ |  |
-| 34 | White Chuchu Jelly<br/>`Item_Enemy_17` | White Chuchu Jelly<br/>`Item_Enemy_17` | ✔️ | ❌ |  |
-| 35 | Bird Egg<br/>`Item_Material_04` | Bird Egg<br/>`Item_Material_04` | ✔️ | ❌ |  |
-| 36 | Rushroom (Planted)<br/>`Item_Mushroom_D` | Rushroom<br/>`Item_MushroomGet_D` | ❌ | ❌ | todo |
-| 37 | Brightcap (Planted)<br/>`Item_Mushroom_K` | Brightcap<br/>`Item_MushroomGet_K` | ❌ | ❌ | todo |
-| 38 | Hyrule Herb (Planted)<br/>`Item_Plant_A` | Hyrule Herb<br/>`Item_PlantGet_A` | ❌ | ❌ | todo |
-| 39 | Hearty Radish (Planted)<br/>`Item_Plant_B` | Hearty Radish<br/>`Item_PlantGet_B` | ❌ | ❌ | todo |
-| 40 | Hearty Radish (Garden Tutorial)<br/>`Item_Plant_B_TemporaryOwnedByNpc` | Hearty Radish<br/>`Item_PlantGet_B` | ❌ | ❌ | todo |
-| 41 | Big Hearty Radish (Planted)<br/>`Item_Plant_C` | Big Hearty Radish<br/>`Item_PlantGet_C` | ❌ | ❌ | todo |
-| 42 | Big Hearty Radish (Garden Tutorial)<br/>`Item_Plant_C_TemporaryOwnedByNpc` | Big Heary Radish<br/>`Item_PlantGet_C` | ❌ | ❌ | todo |
-| 43 | Cool Safflina (Planted)<br/>`Item_Plant_E` | Cool Safflina<br/>`Item_PlantGet_E` | ❌ | ❌ | todo |
-| 44 | Warm Safflina (Planted)<br/>`Item_Plant_F` | Warm Safflina<br/>`Item_PlantGet_F` | ❌ | ❌ | todo |
-| 45 | Mighty Thistle (Planted)<br/>`Item_Plant_G` | Mighty Thistle<br/>`Item_PlantGet_G` | ❌ | ❌ | todo |
-| 46 | Armoranth (Planted)<br/>`Item_Plant_H` | Armoranth<br/>`Item_PlantGet_H` | ❌ | ❌ | todo |
-| 47 | Blue Nightshade (Planted)<br/>`Item_Plant_I` | Blue Nightshade<br/>`Item_PlantGet_I` | ❌ | ❌ | todo |
-| 48 | Blue Nightshade (Oaki's)<br/>`Item_Plant_I_OwnedByNpc` | Blue Nightshade<br/>`Item_PlantGet_I` | ❌ | ❌ | todo |
-| 49 | Silent Princess (Planted)<br/>`Item_Plant_J` | Silent Princess<br/>`Item_PlantGet_J` | ❌ | ❌ | todo |
-| 50 | Silent Princess (Oaki's)<br/>`Item_Plant_J_OwnedByNpc` | Silent Princess<br/>`Item_PlantGet_J` | ❌ | ❌ | todo |
-| 51 | Electric Safflina (Planted)<br/>`Item_Plant_L` | Electric Safflina<br/>`Item_PlantGet_L` | ❌ | ❌ | todo |
-| 52 | Swift Carrot (Planted)<br/>`Item_Plant_M` | Swift Carrot<br/>`Item_PlantGet_M` | ❌ | ❌ | todo |
-| 53 | Swift Carrot (Kakariko Garden)<br/>`Item_Plant_M_OwnedByNpc` | Swift Carrot<br/>`Item_PlantGet_M` | ❌ | ❌ | todo |
-| 54 | Swift Carrot (Garden Tutorial)<br/>`Item_Plant_M_TemporaryOwnedByNpc` | Swift Carrot<br/>`Item_PlantGet_M` | ❌ | ❌ | todo |
-| 55 | Swift Violet (Planted)`Item_Plant_O` | Swift Violet<br/>`Item_PlantGet_O` | ❌ | ❌ | todo |
-| 56 | Endura Carrot (Planted)`Item_Plant_Q` | Endura Carrot<br/>`Item_PlantGet_Q` | ❌ | ❌ | todo |
-| 57 | Endura Carrot (Garden Tutorial)<br/>`Item_Plant_Q_TemporaryOwnedByNpc` | Endura Carrot<br/>`Item_PlantGet_Q` | ❌ | ❌ | todo |
-| 58 | Sundelion (Planted)<br/>`Item_Plant_R` | Sundelion<br/>`Item_PlantGet_R` | ❌ | ❌ | todo |
-| 59 | Sundelion (Mellie's)<br/>`Item_Plant_R_Kakariko_008` | Sundelion<br/>`Item_PlantGet_R` | ❌ | ❌ | todo |
-| 60 | Stambulb (Planted)`Item_Plant_S` | Stambulb<br/>`Item_PlantGet_S` | ❌ | ❌ | todo |
-| 126 | Puffshroom (Planted)<br/>`SmokeFuit_Static` | Puffshroom<br/>`SmokeFruit` | ❌ | ❌ | _sic_ |
-| 127 | Balloon (Capsule)<br/>`SpObj_BalloonEnvelope_Capsule_A_01` | Balloon<br/>`SpObj_BalloonEnvelope_A_01` | ❌ | ❌ |  |
-| 128 | Beam Emitter (Capsule)<br/>`SpObj_Beamos_Capsule_A_01` | Beam Emitter<br/>`SpObj_Beamos_A_01` | ❌ | ❌ |  |
-| 129 | Cannon (Capsule)<br/>`SpObj_Cannon_Capsule_A_01` | Cannon<br/>`SpObj_Cannon_A_01` | ❌ | ❌ |  |
-| 130 | Cart (Capsule)<br/>`SpObj_Cart_Capsule_A_01` | Cart<br/>`SpObj_Cart_A_01` | ❌ | ❌ |  |
-| 131 | Homing Cart (Capsule)<br/>`SpObj_Chaser_Capsule_A_01` | Homing Cart<br/>`SpObj_Chaser_A_01` | ❌ | ❌ |  |
-| 132 | Steering Stick (Capsule)<br/>`SpObj_ControlStick_Capsule_A_01` | Steering Stick<br/>`SpObj_ControlStick_A_01` | ❌ | ❌ |  |
-| 133 | Portable Pot (Capsule)<br/>`SpObj_CookSet_Capsule_A_01` | Portable Pot<br/>`SpObj_CookSet_A_01` | ❌ | ❌ |  |
-| 134 | Shock Emitter (Capsule)<br/>`SpObj_ElectricBoxGenerator_Capsule_A_01` | Shock Emitter<br/>`SpObj_ElectricBoxGenerator` | ❌ | ❌ |  |
-| 135 | Battery (Capsule)<br/>`SpObj_EnergyBank_Capsule_A_01` | Battery<br/>`SpObj_EnergyBank_A_01` | ❌ | ❌ |  |
-| 136 | Big Battery (Capsule)<br/>`SpObj_EnergyBank_Capsule_A_02` | Big Battery<br/>`SpObj_EnergyBank_A_02` | ❌ | ❌ |  |
-| 137 | Small Wheel (Capsule)<br/>`SpObj_FastWheel_Capsule_A_01` | Small Wheel<br/>`SpObj_FastWheel_A_01` | ❌ | ❌ |  |
-| 138 | Big Wheel (Capsule)<br/>`SpObj_FastWheel_Capsule_A_02` | Big Wheel<br/>`SpObj_SwitchWheel_A_01` | ❌ | ❌ | _sic_ |
-| 139 | Flame Emitter (Capsule)<br/>`SpObj_FlameThrower_Capsule_A_01` | Flame Emitter<br/>`SpObj_FlameThrower_A_01` | ❌ | ❌ |  |
-| 140 | Light (Capsule)<br/>`SpObj_FlashLight_Capsule_A_01` | Light<br/>`SpObj_FlashLight_A_01` | ❌ | ❌ |  |
-| 141 | Hover Stone (Capsule<br/>`SpObj_FloatingStone_Capsule_A_01` | Hover Stone<br/>`SpObj_FloatingStone_A_01` | ❌ | ❌ |  |
-| 142 | Construct Head (Capsule)<br/>`SpObj_GolemHead_Capsule_A_01` | Construct Head<br/>`SpObj_GolemHead_A_01` | ❌ | ❌ |  |
-| 143 | Hydrant (Capsule)<br/>`SpObj_LiftableWaterPump_Capsule_A_01` | Hydrant<br/>`SpObj_WaterPump_A_01` | ❌ | ❌ |  |
-| 144 | Wing (Capsule)<br/>`SpObj_LiftGeneratorWing_Capsule_A_01` | Wing<br/>`SpObj_LiftGeneratorWing_A_01` | ❌ | ❌ |  |
-| 145 | Mirror (Capsule)<br/>`SpObj_LightMirror_Capsule_A_01` | Mirror<br/>`SpObj_LightMirror_A_01` | ❌ | ❌ |  |
-| 146 | Stake (Capsule)<br/>`SpObj_Pile_Capsule_A_01` | Stake<br/>`SpObj_Pile_A_01` | ❌ | ❌ |  |
-| 147 | Rocket (Capsule)<br/>`SpObj_Rocket_Capsule_A_01` | Rocket<br/>`SpObj_Rocket_A_01` | ❌ | ❌ |  |
-| 148 | Sled (Capsule)<br/>`SpObj_SlipBoard_Capsule_A_01` | Sled<br/>`SpObj_SlipBoard_A_01` | ❌ | ❌ |  |
-| 149 | Frost Emitter (Capsule)<br/>`SpObj_SnowMachine_Capsule_A_01` | Frost Emitter<br/>`SpObj_SnowMachine_A_01` | ❌ | ❌ |  |
-| 150 | Spring (Capsule)<br/>`SpObj_SpringPiston_Capsule_A_01` | Spring<br/>`SpObj_SpringPiston_A_01` | ❌ | ❌ |  |
-| 151 | Stabilizer<br/>`SpObj_TiltingDoll_Capsule_A_01` | Stabilizer<br/>`SpObj_TiltingDoll_A_01` | ❌ | ❌ |  |
-| 152 | Time Bomb (Capsule)<br/>`SpObj_TimerBomb_Capsule_A_01` | Time Bomb<br/>`SpObj_TimerBomb_A_01` | ❌ | ❌ |  |
-| 153 | Fan (Capsule)<br/>`SpObj_WindGenerator_Capsule_A_01` | Fan<br/>`SpObj_WindGenerator_A_01` | ❌ | ❌ |  |
-|  | ───────────────────────────────── | ──────────────────────────────────── |  | ─────────────────────────────── | ──────────── |
+| Index | Base Actor Name<br/>`Base Actor ID` | Replacement Actor Name<br/>`Replacement Actor ID` | Self-replacing? | Info |
+| --- | --- | --- | --- | --- |
+| 5 | Bomb Flower<br/>`BombFruit` | Bomb Flower<br/>`BombFruit` | ✔️ |  |
+| 10 | Muddle Bud (Planted)<br/>`ConfusionFruit_Static` | Muddle Bud<br/>`ConfusionFruit` | ❌ | todo |
+| 24 | Shock Fruit<br/>`ElectricalFruit` | Shock Fruit<br/>`ElectricalFruit` | ✔️ |  |
+| 25 | Fire Fruit<br/>`FireFruit` | Fire Fruit<br/>`FireFruit` | ✔️ |  |
+| 28 | Ice Fruit<br/>`IceFruit` | Ice Fruit<br/>`IceFruit` | ✔️ |  |
+| 31 | Star Fragment (Skydiving)<br/>`Item_CatchInAir` | Star Fragment<br/>`Item_Ore_J` | ❌ |  |
+| 32 | Red Chuchu Jelly<br/>`Item_Enemy_15` | Red Chuchu Jelly<br/>`Item_Enemy_15` | ✔️ |  |
+| 33 | Yellow Chuchu Jelly<br/>`Item_Enemy_16` | Yellow Chuchu Jelly<br/>`Item_Enemy_16` | ✔️ |  |
+| 34 | White Chuchu Jelly<br/>`Item_Enemy_17` | White Chuchu Jelly<br/>`Item_Enemy_17` | ✔️ |  |
+| 35 | Bird Egg<br/>`Item_Material_04` | Bird Egg<br/>`Item_Material_04` | ✔️ |  |
+| 36 | Rushroom (Planted)<br/>`Item_Mushroom_D` | Rushroom<br/>`Item_MushroomGet_D` | ❌ | todo |
+| 37 | Brightcap (Planted)<br/>`Item_Mushroom_K` | Brightcap<br/>`Item_MushroomGet_K` | ❌ | todo |
+| 38 | Hyrule Herb (Planted)<br/>`Item_Plant_A` | Hyrule Herb<br/>`Item_PlantGet_A` | ❌ | todo |
+| 39 | Hearty Radish (Planted)<br/>`Item_Plant_B` | Hearty Radish<br/>`Item_PlantGet_B` | ❌ | todo |
+| 40 | Hearty Radish (Garden Tutorial)<br/>`Item_Plant_B_TemporaryOwnedByNpc` | Hearty Radish<br/>`Item_PlantGet_B` | ❌ | todo |
+| 41 | Big Hearty Radish (Planted)<br/>`Item_Plant_C` | Big Hearty Radish<br/>`Item_PlantGet_C` | ❌ | todo |
+| 42 | Big Hearty Radish (Garden Tutorial)<br/>`Item_Plant_C_TemporaryOwnedByNpc` | Big Heary Radish<br/>`Item_PlantGet_C` | ❌ | todo |
+| 43 | Cool Safflina (Planted)<br/>`Item_Plant_E` | Cool Safflina<br/>`Item_PlantGet_E` | ❌ | todo |
+| 44 | Warm Safflina (Planted)<br/>`Item_Plant_F` | Warm Safflina<br/>`Item_PlantGet_F` | ❌ | todo |
+| 45 | Mighty Thistle (Planted)<br/>`Item_Plant_G` | Mighty Thistle<br/>`Item_PlantGet_G` | ❌ | todo |
+| 46 | Armoranth (Planted)<br/>`Item_Plant_H` | Armoranth<br/>`Item_PlantGet_H` | ❌ | todo |
+| 47 | Blue Nightshade (Planted)<br/>`Item_Plant_I` | Blue Nightshade<br/>`Item_PlantGet_I` | ❌ | todo |
+| 48 | Blue Nightshade (Oaki's)<br/>`Item_Plant_I_OwnedByNpc` | Blue Nightshade<br/>`Item_PlantGet_I` | ❌ | todo |
+| 49 | Silent Princess (Planted)<br/>`Item_Plant_J` | Silent Princess<br/>`Item_PlantGet_J` | ❌ | todo |
+| 50 | Silent Princess (Oaki's)<br/>`Item_Plant_J_OwnedByNpc` | Silent Princess<br/>`Item_PlantGet_J` | ❌ | todo |
+| 51 | Electric Safflina (Planted)<br/>`Item_Plant_L` | Electric Safflina<br/>`Item_PlantGet_L` | ❌ | todo |
+| 52 | Swift Carrot (Planted)<br/>`Item_Plant_M` | Swift Carrot<br/>`Item_PlantGet_M` | ❌ | todo |
+| 53 | Swift Carrot (Kakariko Garden)<br/>`Item_Plant_M_OwnedByNpc` | Swift Carrot<br/>`Item_PlantGet_M` | ❌ | todo |
+| 54 | Swift Carrot (Garden Tutorial)<br/>`Item_Plant_M_TemporaryOwnedByNpc` | Swift Carrot<br/>`Item_PlantGet_M` | ❌ | todo |
+| 55 | Swift Violet (Planted)<br/>`Item_Plant_O` | Swift Violet<br/>`Item_PlantGet_O` | ❌ | todo |
+| 56 | Endura Carrot (Planted)<br/>`Item_Plant_Q` | Endura Carrot<br/>`Item_PlantGet_Q` | ❌ | todo |
+| 57 | Endura Carrot (Garden Tutorial)<br/>`Item_Plant_Q_TemporaryOwnedByNpc` | Endura Carrot<br/>`Item_PlantGet_Q` | ❌ | todo |
+| 58 | Sundelion (Planted)<br/>`Item_Plant_R` | Sundelion<br/>`Item_PlantGet_R` | ❌ | todo |
+| 59 | Sundelion (Mellie's)<br/>`Item_Plant_R_Kakariko_008` | Sundelion<br/>`Item_PlantGet_R` | ❌ | todo |
+| 60 | Stambulb (Planted)`Item_Plant_S` | Stambulb<br/>`Item_PlantGet_S` | ❌ | todo |
+| 126 | Puffshroom (Planted)<br/>`SmokeFuit_Static` | Puffshroom<br/>`SmokeFruit` | ❌ | _sic_ |
+| 127 | Balloon (Capsule)<br/>`SpObj_BalloonEnvelope_Capsule_A_01` | Balloon<br/>`SpObj_BalloonEnvelope_A_01` | ❌ |  |
+| 128 | Beam Emitter (Capsule)<br/>`SpObj_Beamos_Capsule_A_01` | Beam Emitter<br/>`SpObj_Beamos_A_01` | ❌ |  |
+| 129 | Cannon (Capsule)<br/>`SpObj_Cannon_Capsule_A_01` | Cannon<br/>`SpObj_Cannon_A_01` | ❌ |  |
+| 130 | Cart (Capsule)<br/>`SpObj_Cart_Capsule_A_01` | Cart<br/>`SpObj_Cart_A_01` | ❌ |  |
+| 131 | Homing Cart (Capsule)<br/>`SpObj_Chaser_Capsule_A_01` | Homing Cart<br/>`SpObj_Chaser_A_01` | ❌ |  |
+| 132 | Steering Stick (Capsule)<br/>`SpObj_ControlStick_Capsule_A_01` | Steering Stick<br/>`SpObj_ControlStick_A_01` | ❌ |  |
+| 133 | Portable Pot (Capsule)<br/>`SpObj_CookSet_Capsule_A_01` | Portable Pot<br/>`SpObj_CookSet_A_01` | ❌ |  |
+| 134 | Shock Emitter (Capsule)<br/>`SpObj_ElectricBoxGenerator_Capsule_A_01` | Shock Emitter<br/>`SpObj_ElectricBoxGenerator` | ❌ | _sic_ |
+| 135 | Battery (Capsule)<br/>`SpObj_EnergyBank_Capsule_A_01` | Battery<br/>`SpObj_EnergyBank_A_01` | ❌ |  |
+| 136 | Big Battery (Capsule)<br/>`SpObj_EnergyBank_Capsule_A_02` | Big Battery<br/>`SpObj_EnergyBank_A_02` | ❌ |  |
+| 137 | Small Wheel (Capsule)<br/>`SpObj_FastWheel_Capsule_A_01` | Small Wheel<br/>`SpObj_FastWheel_A_01` | ❌ |  |
+| 138 | Big Wheel (Capsule)<br/>`SpObj_FastWheel_Capsule_A_02` | Big Wheel<br/>`SpObj_SwitchWheel_A_01` | ❌ | _sic_ |
+| 139 | Flame Emitter (Capsule)<br/>`SpObj_FlameThrower_Capsule_A_01` | Flame Emitter<br/>`SpObj_FlameThrower_A_01` | ❌ |  |
+| 140 | Light (Capsule)<br/>`SpObj_FlashLight_Capsule_A_01` | Light<br/>`SpObj_FlashLight_A_01` | ❌ |  |
+| 141 | Hover Stone (Capsule<br/>`SpObj_FloatingStone_Capsule_A_01` | Hover Stone<br/>`SpObj_FloatingStone_A_01` | ❌ |  |
+| 142 | Construct Head (Capsule)<br/>`SpObj_GolemHead_Capsule_A_01` | Construct Head<br/>`SpObj_GolemHead_A_01` | ❌ |  |
+| 143 | Hydrant (Capsule)<br/>`SpObj_LiftableWaterPump_Capsule_A_01` | Hydrant<br/>`SpObj_WaterPump_A_01` | ❌ |  |
+| 144 | Wing (Capsule)<br/>`SpObj_LiftGeneratorWing_Capsule_A_01` | Wing<br/>`SpObj_LiftGeneratorWing_A_01` | ❌ |  |
+| 145 | Mirror (Capsule)<br/>`SpObj_LightMirror_Capsule_A_01` | Mirror<br/>`SpObj_LightMirror_A_01` | ❌ |  |
+| 146 | Stake (Capsule)<br/>`SpObj_Pile_Capsule_A_01` | Stake<br/>`SpObj_Pile_A_01` | ❌ |  |
+| 147 | Rocket (Capsule)<br/>`SpObj_Rocket_Capsule_A_01` | Rocket<br/>`SpObj_Rocket_A_01` | ❌ |  |
+| 148 | Sled (Capsule)<br/>`SpObj_SlipBoard_Capsule_A_01` | Sled<br/>`SpObj_SlipBoard_A_01` | ❌ |  |
+| 149 | Frost Emitter (Capsule)<br/>`SpObj_SnowMachine_Capsule_A_01` | Frost Emitter<br/>`SpObj_SnowMachine_A_01` | ❌ |  |
+| 150 | Spring (Capsule)<br/>`SpObj_SpringPiston_Capsule_A_01` | Spring<br/>`SpObj_SpringPiston_A_01` | ❌ |  |
+| 151 | Stabilizer<br/>`SpObj_TiltingDoll_Capsule_A_01` | Stabilizer<br/>`SpObj_TiltingDoll_A_01` | ❌ |  |
+| 152 | Time Bomb (Capsule)<br/>`SpObj_TimerBomb_Capsule_A_01` | Time Bomb<br/>`SpObj_TimerBomb_A_01` | ❌ |  |
+| 153 | Fan (Capsule)<br/>`SpObj_WindGenerator_Capsule_A_01` | Fan<br/>`SpObj_WindGenerator_A_01` | ❌ |  |
+|  | ───────────────────────────── | ───────────────────── |  | ────────── |
 
 ### Zonai Device Capsules ?
 
 Capsules. Strictly a subset of the items category, but a little extra emphasis on this one can't hurt. Sorted to match the sort order in the inventory.
 
-| Index | Base Actor Name<br/>`Base Actor ID` | Replacement Actor Name<br/>`Replacement Actor ID` | Self-replacing? | Defuse Replacement Name (If Applicable)<br/>`Defuse Replacement ID` | Additional Info |
-| --- | --- | --- | --- | --- | --- |
-| 153 | Fan (Capsule)<br/>`SpObj_WindGenerator_Capsule_A_01` | Fan<br/>`SpObj_WindGenerator_A_01` | ❌ | ❌ |  |
-| 144 | Wing (Capsule)<br/>`SpObj_LiftGeneratorWing_Capsule_A_01` | Wing<br/>`SpObj_LiftGeneratorWing_A_01` | ❌ | ❌ |  |
-| 130 | Cart (Capsule)<br/>`SpObj_Cart_Capsule_A_01` | Cart<br/>`SpObj_Cart_A_01` | ❌ | ❌ |  |
-| 127 | Balloon (Capsule)<br/>`SpObj_BalloonEnvelope_Capsule_A_01` | Balloon<br/>`SpObj_BalloonEnvelope_A_01` | ❌ | ❌ |  |
-| 147 | Rocket (Capsule)<br/>`SpObj_Rocket_Capsule_A_01` | Rocket<br/>`SpObj_Rocket_A_01` | ❌ | ❌ |  |
-| 152 | Time Bomb (Capsule)<br/>`SpObj_TimerBomb_Capsule_A_01` | Time Bomb<br/>`SpObj_TimerBomb_A_01` | ❌ | ❌ |  |
-| 133 | Portable Pot (Capsule)<br/>`SpObj_CookSet_Capsule_A_01` | Portable Pot<br/>`SpObj_CookSet_A_01` | ❌ | ❌ |  |
-| 139 | Flame Emitter (Capsule)<br/>`SpObj_FlameThrower_Capsule_A_01` | Flame Emitter<br/>`SpObj_FlameThrower_A_01` | ❌ | ❌ |  |
-| 149 | Frost Emitter (Capsule)<br/>`SpObj_SnowMachine_Capsule_A_01` | Frost Emitter<br/>`SpObj_SnowMachine_A_01` | ❌ | ❌ |  |
-| 134 | Shock Emitter (Capsule)<br/>`SpObj_ElectricBoxGenerator_Capsule_A_01` | Shock Emitter<br/>`SpObj_ElectricBoxGenerator` | ❌ | ❌ |  |
-| 128 | Beam Emitter (Capsule)<br/>`SpObj_Beamos_Capsule_A_01` | Beam Emitter<br/>`SpObj_Beamos_A_01` | ❌ | ❌ |  |
-| 143 | Hydrant (Capsule)<br/>`SpObj_LiftableWaterPump_Capsule_A_01` | Hydrant<br/>`SpObj_WaterPump_A_01` | ❌ | ❌ |  |
-| 132 | Steering Stick (Capsule)<br/>`SpObj_ControlStick_Capsule_A_01` | Steering Stick<br/>`SpObj_ControlStick_A_01` | ❌ | ❌ |  |
-| 138 | Big Wheel (Capsule)<br/>`SpObj_FastWheel_Capsule_A_02` | Big Wheel<br/>`SpObj_SwitchWheel_A_01` | ❌ | ❌ | _sic_ |
-| 137 | Small Wheel (Capsule)<br/>`SpObj_FastWheel_Capsule_A_01` | Small Wheel<br/>`SpObj_FastWheel_A_01` | ❌ | ❌ |  |
-| 148 | Sled (Capsule)<br/>`SpObj_SlipBoard_Capsule_A_01` | Sled<br/>`SpObj_SlipBoard_A_01` | ❌ | ❌ |  |
-| 135 | Battery (Capsule)<br/>`SpObj_EnergyBank_Capsule_A_01` | Battery<br/>`SpObj_EnergyBank_A_01` | ❌ | ❌ |  |
-| 136 | Big Battery (Capsule)<br/>`SpObj_EnergyBank_Capsule_A_02` | Big Battery<br/>`SpObj_EnergyBank_A_02` | ❌ | ❌ |  |
-| 150 | Spring (Capsule)<br/>`SpObj_SpringPiston_Capsule_A_01` | Spring<br/>`SpObj_SpringPiston_A_01` | ❌ | ❌ |  |
-| 129 | Cannon (Capsule)<br/>`SpObj_Cannon_Capsule_A_01` | Cannon<br/>`SpObj_Cannon_A_01` | ❌ | ❌ |  |
-| 151 | Stabilizer<br/>`SpObj_TiltingDoll_Capsule_A_01` | Stabilizer<br/>`SpObj_TiltingDoll_A_01` | ❌ | ❌ |  |
-| 141 | Hover Stone (Capsule<br/>`SpObj_FloatingStone_Capsule_A_01` | Hover Stone<br/>`SpObj_FloatingStone_A_01` | ❌ | ❌ |  |
-| 140 | Light (Capsule)<br/>`SpObj_FlashLight_Capsule_A_01` | Light<br/>`SpObj_FlashLight_A_01` | ❌ | ❌ |  |
-| 146 | Stake (Capsule)<br/>`SpObj_Pile_Capsule_A_01` | Stake<br/>`SpObj_Pile_A_01` | ❌ | ❌ |  |
-| 145 | Mirror (Capsule)<br/>`SpObj_LightMirror_Capsule_A_01` | Mirror<br/>`SpObj_LightMirror_A_01` | ❌ | ❌ |  |
-| 131 | Homing Cart (Capsule)<br/>`SpObj_Chaser_Capsule_A_01` | Homing Cart<br/>`SpObj_Chaser_A_01` | ❌ | ❌ |  |
-| 142 | Construct Head (Capsule)<br/>`SpObj_GolemHead_Capsule_A_01` | Construct Head<br/>`SpObj_GolemHead_A_01` | ❌ | ❌ |  |
-|  | ───────────────────────────────── | ──────────────────────────────────── |  | ─────────────────────────────── | ──────────── |
+| Index | Base Actor Name<br/>`Base Actor ID` | Replacement Actor Name<br/>`Replacement Actor ID` | Self-replacing? | Info |
+| --- | --- | --- | --- | --- |
+| 153 | Fan (Capsule)<br/>`SpObj_WindGenerator_Capsule_A_01` | Fan<br/>`SpObj_WindGenerator_A_01` | ❌ |  |
+| 144 | Wing (Capsule)<br/>`SpObj_LiftGeneratorWing_Capsule_A_01` | Wing<br/>`SpObj_LiftGeneratorWing_A_01` | ❌ |  |
+| 130 | Cart (Capsule)<br/>`SpObj_Cart_Capsule_A_01` | Cart<br/>`SpObj_Cart_A_01` | ❌ |  |
+| 127 | Balloon (Capsule)<br/>`SpObj_BalloonEnvelope_Capsule_A_01` | Balloon<br/>`SpObj_BalloonEnvelope_A_01` | ❌ |  |
+| 147 | Rocket (Capsule)<br/>`SpObj_Rocket_Capsule_A_01` | Rocket<br/>`SpObj_Rocket_A_01` | ❌ |  |
+| 152 | Time Bomb (Capsule)<br/>`SpObj_TimerBomb_Capsule_A_01` | Time Bomb<br/>`SpObj_TimerBomb_A_01` | ❌ |  |
+| 133 | Portable Pot (Capsule)<br/>`SpObj_CookSet_Capsule_A_01` | Portable Pot<br/>`SpObj_CookSet_A_01` | ❌ |  |
+| 139 | Flame Emitter (Capsule)<br/>`SpObj_FlameThrower_Capsule_A_01` | Flame Emitter<br/>`SpObj_FlameThrower_A_01` | ❌ |  |
+| 149 | Frost Emitter (Capsule)<br/>`SpObj_SnowMachine_Capsule_A_01` | Frost Emitter<br/>`SpObj_SnowMachine_A_01` | ❌ |  |
+| 134 | Shock Emitter (Capsule)<br/>`SpObj_ElectricBoxGenerator_Capsule_A_01` | Shock Emitter<br/>`SpObj_ElectricBoxGenerator` | ❌ | _sic_ |
+| 128 | Beam Emitter (Capsule)<br/>`SpObj_Beamos_Capsule_A_01` | Beam Emitter<br/>`SpObj_Beamos_A_01` | ❌ |  |
+| 143 | Hydrant (Capsule)<br/>`SpObj_LiftableWaterPump_Capsule_A_01` | Hydrant<br/>`SpObj_WaterPump_A_01` | ❌ |  |
+| 132 | Steering Stick (Capsule)<br/>`SpObj_ControlStick_Capsule_A_01` | Steering Stick<br/>`SpObj_ControlStick_A_01` | ❌ |  |
+| 138 | Big Wheel (Capsule)<br/>`SpObj_FastWheel_Capsule_A_02` | Big Wheel<br/>`SpObj_SwitchWheel_A_01` | ❌ | _sic_ |
+| 137 | Small Wheel (Capsule)<br/>`SpObj_FastWheel_Capsule_A_01` | Small Wheel<br/>`SpObj_FastWheel_A_01` | ❌ |  |
+| 148 | Sled (Capsule)<br/>`SpObj_SlipBoard_Capsule_A_01` | Sled<br/>`SpObj_SlipBoard_A_01` | ❌ |  |
+| 135 | Battery (Capsule)<br/>`SpObj_EnergyBank_Capsule_A_01` | Battery<br/>`SpObj_EnergyBank_A_01` | ❌ |  |
+| 136 | Big Battery (Capsule)<br/>`SpObj_EnergyBank_Capsule_A_02` | Big Battery<br/>`SpObj_EnergyBank_A_02` | ❌ |  |
+| 150 | Spring (Capsule)<br/>`SpObj_SpringPiston_Capsule_A_01` | Spring<br/>`SpObj_SpringPiston_A_01` | ❌ |  |
+| 129 | Cannon (Capsule)<br/>`SpObj_Cannon_Capsule_A_01` | Cannon<br/>`SpObj_Cannon_A_01` | ❌ |  |
+| 151 | Stabilizer<br/>`SpObj_TiltingDoll_Capsule_A_01` | Stabilizer<br/>`SpObj_TiltingDoll_A_01` | ❌ |  |
+| 141 | Hover Stone (Capsule<br/>`SpObj_FloatingStone_Capsule_A_01` | Hover Stone<br/>`SpObj_FloatingStone_A_01` | ❌ |  |
+| 140 | Light (Capsule)<br/>`SpObj_FlashLight_Capsule_A_01` | Light<br/>`SpObj_FlashLight_A_01` | ❌ |  |
+| 146 | Stake (Capsule)<br/>`SpObj_Pile_Capsule_A_01` | Stake<br/>`SpObj_Pile_A_01` | ❌ |  |
+| 145 | Mirror (Capsule)<br/>`SpObj_LightMirror_Capsule_A_01` | Mirror<br/>`SpObj_LightMirror_A_01` | ❌ |  |
+| 131 | Homing Cart (Capsule)<br/>`SpObj_Chaser_Capsule_A_01` | Homing Cart<br/>`SpObj_Chaser_A_01` | ❌ |  |
+| 142 | Construct Head (Capsule)<br/>`SpObj_GolemHead_Capsule_A_01` | Construct Head<br/>`SpObj_GolemHead_A_01` | ❌ |  |
+|  | ───────────────────────────── | ───────────────────── |  | ────────── |
 
 
