@@ -541,12 +541,12 @@ Due to their differing attack patterns, the detailed instructions below will be 
         7. Then, as Link travels away from the ground, Mineru will exit Limbo into the culled state, culling the target during the DI window.
         8. The most likely failure state is for Mineru to not exit Limbo soon enough, causing the target to fully despawn and be destroyed.
     
-        _Discovered by Kleric - Feb 4th, 2026_
+        _Methods discovered by Kleric - Feb 4th, 2026_
 
     === "Wall Only" #####
 
         - Using only terrain to force Mineru into the Limbo state makes this method completely waste-free, while still being almost completely reliable.
-        - However, the specific terrain required is both very rare, and can occasionally fail to work. In the latter case, the attempt will need to be aborted (lest the target be destroyed).
+        - However, the specific terrain required is both very rare, and can occasionally fail to induce Limbo. In the latter case, the attempt will need to be aborted (lest the target be destroyed).
 
         Prepare:
     
@@ -572,7 +572,7 @@ Due to their differing attack patterns, the detailed instructions below will be 
 
             - I don't think there's a Location 2 yet lemme cook sometime
 
-        _Discovered by Squidwest - Mar 13th, 2026_
+        _Method and locations developed by Squidwest - Mar 13th, 2026_
 
     #### Method 16: Mineru FE Only (Either) ?
     ---
@@ -614,9 +614,24 @@ Shared with Void Dipping:
 
 Unique to DI:
 
-- idk
+- Protected against the "Deletion Flag" under most circumstances
+- Protected against the "FarDelete" deletion type as long as it has a DI FE/Fuse parent
 
-### Equipment
+=== "Equipment (1.0.0-1.1.2)" ###
+
+Shared with Void Dipping:
+
+- Some single-use fuses become infinite (eg Ancient Blades)
+- Faildrop and Faildrop-Swap cause unequipped smuggle
+- Drop-Swap-Unequip and Drop-Swap-Drop drop normally
+- Does not induce D-Pad Lock when smuggled on `1.1.2` (except if there is no dependency to Link)
+
+Unique to DI:
+
+- Due to the lower death reason number, it is immune to being destroyed by inventory pickup. Therefore, it can be used to duplicate that equipment en masse simply by picking it up with something else equipped
+- Propagates the Eaten death reason to anything fused to it (slightly conditional). This can in turn be interrupted to create a [DI Ghost](uid:BEW) (see linked page for details and methods)
+
+=== "(1.2.0+)" ###
 
 Shared with Void Dipping:
 
@@ -624,7 +639,7 @@ Shared with Void Dipping:
 - Does not directly cull from Drop-Swap Culling
 - Faildrop causes Equipped Smuggle
 - Faildrop-Swap, Drop-Swap-Unequip, and Drop-Swap-Drop cause unequipped smuggle
-- Does not induce D-Pad Lock when smuggled on `1.1.2+` (except if there is no dependency to Link)
+- Does not induce D-Pad Lock when smuggled (except if there is no dependency to Link)
 
 Unique to DI:
 
@@ -633,7 +648,7 @@ Unique to DI:
 
 ## Notes
 - Sometimes known as "Eaten DI". "Frox Dipping" and "Frox Licking" are disused and discouraged monikers.
-- Although void dipping is also technically a form of Despawn Interrupt, DI and Despawn Interrupt refers _only_ to the eaten variation by convention.
+- Although void dipping is also technically a form of Despawn Interrupt, "DI" and "Despawn Interrupt" refer _only_ to the Eaten variation by convention.
 
 ## Resources
 - [Spreadsheet link](https://docs.google.com/spreadsheets/d/1xNB1gOLZRSF9yp1mHUsS9ymogRJa1Wz8rTliTXezeRM/edit?pli=1&hl=de&gid=0#gid=0&range=294:294)
