@@ -77,7 +77,16 @@ Although a smuggle is technically created whenever you [warm drop](uid:C6H) equi
     Overload pickup the equipment, then drop it. This will be a Ground Drop Smuggle.
 
 === "Despawn Interrupt" ###
-    DI equipment never unsmuggles itself when fail dropped, doesn't cull when replaced with another equip, and doesn't cause D-Pad Lock. Equip some DI equipment and drop–swap it against a wall. (The equip is due to the animation state desync mentioned below).
+    DI equipment never unsmuggles itself when fail dropped, doesn't cull when replaced with another equip, and doesn't cause D-Pad Lock. Equip some DI equipment and drop (or drop–swap) it against a wall.
+
+    Unlike typical fail drops, you won't get the DI item back in your inventory when you do this.
+
+=== "DSU Auto-Smuggle" ###
+    ---
+    versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+    ---
+
+    DI equipment also self-smuggles when you drop–swap–unequip: pause, drop the DI equipment, swap to something else, unequip the item you just swapped to, unpause. You don't need a fail drop for this to work.
 
 ## Comparison to zuggles
 
@@ -93,7 +102,7 @@ Smuggles and zuggles are very similar in behaviour and nature. From the equipmen
     - Smuggling [espawn Interrupted equipment doesn't cause d-pad lock on any version.
     - D-Pad Lock doesn't happen while Link is culled.
 - **Fuse Entanglement** - Anything fused, fuse entangled, or animated cold fused to intended equipment will also fuse entangle to any unculled smuggle.
-- **Link equip state desync** - Most methods of smuggling equipment don't make Link realise he can directly equip new pickups. If you need to equip something after smuggling without it going straight into the inventory, you'll need to equip and unequip something else first.
+- **Link equip state desync** - Most methods of smuggling equipment don't make Link realise he can directly equip new pickups. If you need to pick up something after smuggling in order to equip it, you'll need to equip and unequip something else first. If the smuggle will cause you D-Pad Lock, you'll need to perform the drop, swap unequip all in the same pause session.
 
 ## See also
 
