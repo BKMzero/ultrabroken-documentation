@@ -31,7 +31,7 @@ Makes a zonai device fused to a shield/weapon constantly active.
 
 === "Cull GAS"
 	---
-	versions: ["1.0.0", "1.1.0", "1.1.1.", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+	versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 	---
 	
 	1. Fuse entangle a zonai device that can be activated to equipment A
