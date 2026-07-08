@@ -3,7 +3,7 @@ title: "Guard-less Active Shield"
 uid: "ZJ2"
 label: "GAS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
-credits: ["Venaticus, Zas"]
+credits: ["Venaticus", "Zas"]
 date: "2023-06-12"
 description: "Makes the fuse of a shield/weapon constantly active"
 aliases: ["guard-less-active-shield"]
