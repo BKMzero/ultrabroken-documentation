@@ -5,7 +5,7 @@ label: "GAS"
 versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
 credits: ["Venaticus", "Zas"]
 date: "2023-06-12"
-description: "Makes the fuse of a shield/weapon constantly active"
+description: "Makes a zonai device fused to a shield/weapon constantly active"
 aliases: ["guard-less-active-shield"]
 tags: ["equipment", "fuse", "shield"]
 ---
@@ -13,10 +13,14 @@ tags: ["equipment", "fuse", "shield"]
 # Guard-less Active Shield
 
 ## Summary
-Makes a zonai device fused to a shield/weapon constantly active
+Makes a zonai device fused to a shield/weapon constantly active.
 
 ## Instructions
-=== "Shock GAS `1.0.0-1.1.2`" 
+=== "Shock GAS"
+	---
+	versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+	---
+	
 	1. Fuse an zonai device that can be activated to a shield
 	2. Equip a one-handed weapon and take out a shock emitter
 	3. Activate the shock emitter by swinging it with your weapon while holding ZL
@@ -25,7 +29,11 @@ Makes a zonai device fused to a shield/weapon constantly active
 
 	_Discovered by Venaticus - June 12 2023_
 
-=== "Cull GAS `All versions`"
+=== "Cull GAS"
+	---
+	versions: ["1.0.0", "1.1.0", "1.1.1.", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+	---
+	
 	1. Fuse entangle a zonai device that can be activated to equipment A
 	2. Fuse the zonai device to equipment B
 	3. Place equipment A inside culling area
@@ -34,7 +42,7 @@ Makes a zonai device fused to a shield/weapon constantly active
 	6. (optional) Zuggle both equipment A and B to carry GAS through saves
 
 	!!! note "Note" 
-		Alternative methods to cull equipment A are also compatible
+		Alternative methods to cull equipment A are also compatible.
 
 	_Discovered by Zas - June 22 2023_
 
@@ -42,6 +50,7 @@ Makes a zonai device fused to a shield/weapon constantly active
 - If the equipment that the device is fused to is a weapon, GAS will not consume energy cells
 - Dropping, unequipping, or swinging/guarding with the equipment that the device is fused to will end GAS
 - Can also be performed with ARAZ by fusing a zonai device to a zuggle with an item of the same type equipped, then swinging/guarding with the FE base equipment out of the device's activation range
+- Having a GAS'd equipment attached to Link prevents the "Safe Respawn Coordinates" from being updated, except during certain cutscenes
 
 ## Resources
 - [Discord](https://discord.com/channels/1086729144307564648/1110956205624532993/1118279347325894746)
@@ -49,7 +58,7 @@ Makes a zonai device fused to a shield/weapon constantly active
 - [Cull GAS Example](https://youtu.be/XclMLu6vFyQ)
 
 ## Related
-- [Fuse Entanglement](https://nan-gogh.github.io/ultrabroken-documentation/wiki/K4F/)
-- [Cull Zone Culling](https://nan-gogh.github.io/ultrabroken-documentation/wiki/RID/)
-- [Zuggle](https://nan-gogh.github.io/ultrabroken-documentation/wiki/MCM/)
-- [Attached Rangeless Active Zonai (ARAZ)](https://nan-gogh.github.io/ultrabroken-documentation/wiki/ZTD/)
+- [Fuse Entanglement](search:Fuse Entanglement)
+- [Cull Zone Culling](uid:RID)
+- [Zuggle](search:Zuggle)
+- [Attached Rangeless Active Zonai (ARAZ)](uid:ZTD)
