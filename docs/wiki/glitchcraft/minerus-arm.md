@@ -342,25 +342,25 @@ _Discovered by mulberry; Mainfield route theorized by mulberry, found by Squidwe
 			4. `A2` Overload FE weapon `D1`; leave `A2` Zuggle Dropped
 			5. Equip `B`, Smuggle `C`, and Overload Pickup `D1`
 			6. `B`, `C`, and `D1` Overload Batch DI 25 weapons `E1-E25`:
-				a. Fuse `E[n]` to weapons twice and pause 2-7 frames after the second Fuse input
-				b. Drop-swap-unequip `B` to DI `E[n]`; can use faildrop-swap-unequip to not have to pick up `B` every cycle
-				c. Pick up `B` (if needed) and repeat 6a-6b with the next `E[n]`
+				1. Fuse `E[n]` to weapons twice and pause 2-7 frames after the second Fuse input
+				2. Drop-swap-unequip `B` to DI `E[n]`; can use faildrop-swap-unequip to not have to pick up `B` every cycle
+				3. Pick up `B` (if needed) and repeat 6a-6b with the next `E[n]`
 			7. Drop `D1` (don't bother faildropping), then pick up and drop `C` to undo its Zuggle Drop
 			8. `A2` Overload FE weapon `D2`; leave `A2` Zuggle Dropped
 			9. Throw purgatorize `E1-E25`:
-				a. Smuggle `E1`
-				b. Pick up E2 and throw it
-				c. Unsheathe E2 to return it to hand
-				d. Repeat 9a-9c with each E, using any random weapon for the last throw
-				e. If there are fewer than 25 weapons, don't worry about it
+				1. Smuggle `E1`
+				2. Pick up E2 and throw it
+				3. Unsheathe E2 to return it to hand
+				4. Repeat 9a-9c with each E, using any random weapon for the last throw
+				5. If there are fewer than 25 weapons, don't worry about it
 			10. Equip `B` and Overload Pickup `D2`
 			11. `B`, `E1-E25`, and `D2` Overload Batch DI 24 shields `F1-F24`:
-				a. Fuse `F[n]` to weapons twice and pause 2-7 frames after the second Fuse input
-				b. Starting with `F2`, the second Fuse input will cause a strong lag spike, so pausing with the D-Pad is easier
-				c. Drop-swap-unequip `B` to DI `F[n]`; _faildrop is not advised_ due to the risk of dropping the D-Pad input
-				d. Pick up `B` and repeat 11a-11c with the next `F[n]`
-				e. If there were more/fewer than 25 weapons in Step 9, fewer/more shields may be needed to compensate
-				f. For the last few fuses, check on Menu Link after each DI. When he starts looking folded, SFO is likely complete
+				1. Fuse `F[n]` to weapons twice and pause 2-7 frames after the second Fuse input
+				2. Starting with `F2`, the second Fuse input will cause a strong lag spike, so pausing with the D-Pad is easier
+				3. Drop-swap-unequip `B` to DI `F[n]`; _faildrop is not advised_ due to the risk of dropping the D-Pad input
+				4. Pick up `B` and repeat 11a-11c with the next `F[n]`
+				5. If there were more/fewer than 25 weapons in Step 9, fewer/more shields may be needed to compensate
+				6. For the last few fuses, check on Menu Link after each DI. When he starts looking folded, SFO is likely complete
 			12. Leave `B` dropped, then faildrop `D2` and drop it once it returns, and finally pick up and drop `A2` to undo its Zuggle Drop
 			13. If desired, check for "full" SFO: Use the D-Pad to equip an unfused weapon and shield, then try to nock an arrow. If it appears, but does not attach to Link's hand, full SFO is reached
 
@@ -368,46 +368,46 @@ _Discovered by mulberry; Mainfield route theorized by mulberry, found by Squidwe
 
 			1. Enter a shrine (Rasitakiwak is the most tested choice), defeat any constructs which are present, and delete their weapons
 			2. `A1` Overload FE shield `B` and Recall Lock it:
-				a. Smuggle `A1`
-				b. Overload Drop a weapon and fuse it to a shield
-				c. Fuse `B` to weapons just once
-				d. Swap weapon to resync, then drop it
-				e. Pick up and drop `A1` to remove its Zuggle Drop
-				f. Position `B` where desired, Recall it, and load a save while Recall is active
+				1. Smuggle `A1`
+				2. Overload Drop a weapon and fuse it to a shield
+				3. Fuse `B` to weapons just once
+				4. Swap weapon to resync, then drop it
+				5. Pick up and drop `A1` to remove its Zuggle Drop
+				6. Position `B` where desired, Recall it, and load a save while Recall is active
 			3. `A2` and `B` Ghost DI weapon `C`:
-				a. Smuggle `A2` and equip `B`
-				b. Fuse `C` to shields and pause a few frames later
-				c. Drop-swap-unequip `B` to DI `C`
+				1. Smuggle `A2` and equip `B`
+				2. Fuse `C` to shields and pause a few frames later
+				3. Drop-swap-unequip `B` to DI `C`
 			4. `A2` Overload FE weapon `D1`; leave `A2` Zuggle Dropped:
-				a. Smuggle `A2`
-				b. Overload Drop a shield and fuse it to a weapon
-				c. Fuse `D1` to shields just once
-				d. Swap shield to resync, then drop it
+				1. Smuggle `A2`
+				2. Overload Drop a shield and fuse it to a weapon
+				3. Fuse `D1` to shields just once
+				4. Swap shield to resync, then drop it
 			5. Equip `B`, Smuggle `C`, and Overload Pickup `D1`
 			6. `B`, `C`, and `D1` Overload Batch DI 25 weapons `E1-E25`:
-				a. Fuse `E[n]` to weapons twice and pause 2-7 frames after the second Fuse input
-				b. Drop-swap-unequip `B` to DI `E[n]`; can use faildrop-swap-unequip to not have to pick up `B` every cycle
-				c. Pick up `B` (if needed) and repeat 6a-6b with the next `E[n]`
+				1. Fuse `E[n]` to weapons twice and pause 2-7 frames after the second Fuse input
+				2. Drop-swap-unequip `B` to DI `E[n]`; can use faildrop-swap-unequip to not have to pick up `B` every cycle
+				3. Pick up `B` (if needed) and repeat 6a-6b with the next `E[n]`
 			7. Drop `D1` (don't bother faildropping), then pick up and drop `C` to undo its Zuggle Drop
 			8. `A2` Overload FE weapon `D2`; leave `A2` Zuggle Dropped:
-				a. Smuggle `A2`
-				b. Overload Drop a shield and fuse it to a weapon
-				c. Fuse `D2` to shields just once
-				d. Swap shield to resync, then drop it
+				1. Smuggle `A2`
+				2. Overload Drop a shield and fuse it to a weapon
+				3. Fuse `D2` to shields just once
+				4. Swap shield to resync, then drop it
 			9. Throw purgatorize `E1-E25`:
-				a. Smuggle `E1`
-				b. Pick up E2 and throw it
-				c. Unsheathe E2 to return it to hand
-				d. Repeat 9a-9c with each E, using any random weapon for the last throw
-				e. If there are fewer than 25 weapons, don't worry about it
+				1. Smuggle `E1`
+				2. Pick up E2 and throw it
+				3. Unsheathe E2 to return it to hand
+				4. Repeat 9a-9c with each E, using any random weapon for the last throw
+				5. If there are fewer than 25 weapons, don't worry about it as long as there are at least 20
 			10. Equip `B` and Overload Pickup `D2`
 			11. `B`, `E1-E25`, and `D2` Overload Batch DI 24 shields `F1-F24`:
-				a. Fuse `F[n]` to weapons twice and pause 2-7 frames after the second Fuse input
-				b. Starting with `F2`, the second Fuse input will cause a strong lag spike, so pausing with the D-Pad is easier
-				c. Drop-swap-unequip `B` to DI `F[n]`; _faildrop is not advised_ due to the risk of dropping the D-Pad input
-				d. Pick up `B` and repeat 11a-11c with the next `F[n]`
-				e. If there were more/fewer than 25 weapons in Step 9, fewer/more shields may be needed to compensate
-				f. For the last few fuses, check on Menu Link after each DI. When he starts looking folded, SFO is likely complete
+				1. Fuse `F[n]` to weapons twice and pause 2-7 frames after the second Fuse input
+				2. Starting with `F2`, the second Fuse input will cause a strong lag spike, so pausing with the D-Pad is easier
+				3. Drop-swap-unequip `B` to DI `F[n]`; _faildrop is not advised_ due to the risk of dropping the D-Pad input
+				4. Pick up `B` and repeat 11a-11c with the next `F[n]`
+				5. If there were more/fewer than 25 weapons in Step 9, fewer/more shields may be needed to compensate
+				6. For the last few fuses, check on Menu Link after each DI. When he starts looking folded, SFO is likely complete
 			12. Leave `B` dropped, then faildrop `D2` and drop it once it returns, and finally pick up and drop `A2` to undo its Zuggle Drop
 			13. If desired, check for "full" SFO: Use the D-Pad to equip an unfused weapon and shield, then try to nock an arrow. If it appears, but does not attach to Link's hand, full SFO is reached
 
@@ -415,8 +415,8 @@ _Discovered by mulberry; Mainfield route theorized by mulberry, found by Squidwe
 		---
 		notoc: true
 		---
-		
-	    1. Equip a weapon and ensure there is space in your weapon pouch
+
+		1. Equip a weapon and ensure there is space in your weapon pouch
 		2. Warp to any of the three Sky Labyrinths. Other low-gravity zones are observed to crash the game during SFO
 		3. As soon as you gain control, walk in a small clockwise circle while spamming A (see "Mainfield Mineru's Arm Route" resource below)
 		4. Execution permitting, you will pick up a new 2-handed weapon, dealing 38 damage (as listed in the menu), which has no icon, description, model, or collision, and is called MsgNotFound
@@ -464,7 +464,7 @@ notoc: true
 
 ### Resources
 
-??? Video Resources
+??? info "Video Resources"
 
 	??? tip "Retrieving Fused+Zuggled Mineru's Arm"
 
