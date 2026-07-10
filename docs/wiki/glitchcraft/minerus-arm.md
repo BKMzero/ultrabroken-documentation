@@ -23,202 +23,407 @@ _Discovered by mulberry; Mainfield route theorized by mulberry, found by Squidwe
 
 - There are two known routes to obtain Mineru's Arm: the "Ganon" route, which uses the version of Mineru in the Ganondorf battle, and the "Mainfield" route, which uses Mineru's sage avatar.
 - The former is best performed with a "Local" SFO method, while the latter only works with a "Persistent" or "Permanent" SFO method.
+- This page offers specific instructions per route, per version range. It is very possible to mix-and-match strategies, but the ones provided will usually be the fastest and easiest for the given version/route.
 
 === "Ganon Route" ###
 
-    #### Requirements
-    ---
-    notoc: true
-    ---
+	=== "Overload Cold Fuse -> Map Zuggle" ####
+		---
+		versions: ["1.0.0", "1.1.0", "1.1.1"]
+		---
+	
+		##### Requirements
+		---
+		notoc: true
+		---
+	
+		- Mineru
+		- 13 Zuggle Overload (9 on `1.0.0`)
+		- At least 3 shields, 2 weapons, and a bow
+		- A bucket-shaped Autobuild schematic, ideally with a Hover Stone and one or more Big Batteries
+		- The Autobuild ability
 
-    - Mineru
-    - All the requirements for [Method 2](https://nan-gogh.github.io/ultrabroken-documentation/wiki/BW8/?sfo-nesting-test#method-2-localpurgatory-di) or [Method 3](https://nan-gogh.github.io/ultrabroken-documentation/wiki/BW8/?sfo-nesting-test#method-3-localoverload-cold-fuse) of Super Fuse Overload
-    - A few fused equipment items
-    - A bucket-shaped Autobuild schematic, ideally with a Hover Stone and one or more Big Batteries (useful for Method 2 and mandatory for Method 3)
-    - If on `1.2.0+`, a Portacull Shield or the resources to make one portably via Zuggle Overload
-    - If on `1.1.2`, an SDC shield with, some special setup idk. Just update to current, doofus. Learn to live again. It's better than everything except 1.0.0, what are you waiting for.
+		##### Performing Super Fuse Overload
+		---
+		notoc: true
+		---
 
-    #### Collecting Mineru's Arm
-    ---
-    notoc: true
-    ---
+		1. Defeat Ganondorf's Army (and any dungeon bosses present in the boss rush; no promises you won't crash if you don't)
+		2. Enter the tunnel before Ganondorf's Room
+		3. Overload Drop a weapon (`A`) and fuse it to a shield (`B`)
+		4. Drop `B`, then duplicate 21 shields (`C1-C21`) using Overload (up to 20 of these may be dropped on the ground during this step, just be careful not to despawn `B`)
+		5. Pick up B and Overload Cold Fuse `C1-C21` to `A`
+		6. Faildrop `A` and drop `B`
+		7. Overload Pickup `C1`
+		8. Hold and drop 5 materials (`D1-D5`), Cold Fuse them to `C1`, then repeat until there are 30 materials (`D1-D30`) on the ground
+		9. Faildrop `C1` and drop it aside
+		10. Repeat steps 7-9 with each `C[n]`, using the same `D1-D30`
+		11. After every other repetition, fuse pairs of `C[n]` together to keep under the drop limit
+		12. Around halfway through `C20`, Link will begin Overload Dropping equipment inside the pause menu. _When you see this, move to step 13._
+		13. Cold Fuse a random material to the current `C`. If it works correctly, collect the material and Cold Fuse the next `D[n]`, then repeat step 13. _If it fails, move to step 14._
+		14. Unequip bow to free a dependency slot, then faildrop `C[n]` and drop it aside
+		15. Drop `A` to prevent it from being deleted during the coming cutscene, then equip a shield and a weapon (the Master Sword, if it is owned)
+		16. Create the bucket autobuild, activate it, and Ultrahand `B`, `C1-C21`, and `D1-D30` into the bucket
+		17. Carry the bucket into Ganon's Room, keeping it plenty ahead of Link and out of the way of the upcoming battle
 
-    === "Via SFO Method 2" #####
+		##### Collecting Mineru's Arm
+		---
+		notoc: true
+		---
 
-        1. Defeat Ganondorf's Army (and any dungeon bosses not already defeated; best not to take any chances)
-        2. Enter the tunnel before Ganondorf's Room
-        3. Perform Method 2 of Super Fuse Overload, but Zuggle `C` instead of Zuggle Dropping it (or else it will unhelpfully remain in the tunnel)
-        4. Glue together all `G[n]` (or put them in the bucket if available) and Ultrahand it into Ganondorf's Room
-        5. Ganondorf should Overload Drop his Gloom Sword in the cutscene, though not seeing this isn't _always_ a failure
-        6. Without getting too far from any `G[n]` (they can still distance despawn and must not), Progress the fight to Phase 2 (2nd Form)
-        7. One by one, drop fused equipment items until the fuse is deleted from one (this step isn't strictly necessary, but is good insurance)
-        8. Once confident that SFO is _fully_ active, proceed to phase 3 (sages blown away) and find Mineru
-        9. Dropping from near each of her arms, there should be an undiscovered item. It cannot be collected without a weapon equipped.
-        10. Upon collection, a "MsgNotFound" weapon with no icon and 38 damage should be collected. It will respawn immediately, so feel free to take several to be safe
-        11. **Inventory pickup** at least several `G[n]` (ideally all of them) to correctly end SFO
-        12. _Undock the console._ Fusing to Mineru's Arm while docked crashes the game, which assuredly you do not want
-        13. Fuse something to Mineru's Arm; this will give it a model to target with Recall later
-        14. Leave the fused Mineru's Arm equipped; this is necessary to Zuggle it
+		1. Ganondorf should Overload Drop his Gloom Sword during the cutscene, though not seeing this isn't necessarily a failure
+		2. Check for "full" SFO by nocking an arrow. It should appear at Link's quiver, but not attach to his hand
+		3. Without getting too far from the bucket (everything inside can still despawn from distance and must not), progress the fight to Phase 3 (sages blown away)
+		4. Still without allowing SFO to lapse, find Mineru along the outer wall. From each of her arms, an undiscovered equipment should be repeatedly dropping
+		5. With another weapon equipped and a free weapon pouch slot, pick up this equipment. It will immediately respawn, so there's no reason not to take a bunch
+		6. Collect `D1-D30` to end SFO, then _undock the console_. Fusing to Mineru's Arm while docked crashes the game, which you assuredly do not want
+		7. Fuse something to Mineru's Arm, it cannot be targeted with Recall otherwise, which will be needed later
+		8. Equip the fused Arm, this is necessary to Zuggle it
 
-    === "Via SFO Method 3" #####
+		##### Map Zuggle and Retrieval
+		---
+		notoc: true
+		---
 
-        1. Defeat Ganondorf's Army (any any dungeon bosses not already defeated; best not to take any chances)
-        2. Enter the tunnel before Ganondorf's Room
-        3. Perform Method 3 of Super Fuse Overload
-        4. After Step 12 of Method 3, drop `A` just after the ledge before Ganondorf's Room (not too close to the doorway), and **equip** the Portacull if already made
-        5. Collect all of `B`, `C[n]`, and `D[n]` into the bucket and Ultrahand it into Ganondorf's Room
-        6. Ganondorf should Overload Drop his Gloom Sword in the cutscene, though not seeing this isn't always a failure
-        7. Without getting too far from the entrance or the bucket (All the parts can still distance despawn and must not), Progress the fight to Phase 2 (2nd Form)
-        8. One by one, drop fused equipment items until the fuse is deleted from one (this step isn't strictly necessary, but is good insurance)
-        9. Once confident that SFO is _fully_ active, proceed to phase 3 (sages blown away) and find Mineru
-        10. Dropping from near each of her arms, there should be an undiscovered item. It cannot be collected without a weapon equipped.
-        11. Upon collection, a "MsgNotFound" 2-handed weapon with no icon and 38 damage should be added to the inventory. It will respawn immediately, so feel free to take several to be safe
-        12. **Collect** at least several `D[n]` (ideally all of them) to end SFO
-        13. _Undock the console._ Fusing to Mineru's Arm while docked crashes the game, which assuredly you do not want
-        14. Fuse something to Mineru's Arm; this will give it a model to target with Recall later
-        15. Leave the fused Mineru's Arm equipped; this is necessary to Zuggle it
+		Mineru's Arm will naturally faildrop, so a wall is not needed to Zuggle it.
 
-    #### Zuggling Mineru's Arm
-    ---
-    notoc: true
-    ---
+		1. Hold `L` and select the Map Rune
+		2. Release `L`. While the Ability Wheel is closing, press (or mash) `D-Pad Right` to open the weapon Quick Menu
+		3. Without letting the Quick Menu close, drop Mineru's Arm and swap to a droppable weapon (ie not the Master Sword)
+		4. Let the Quick Menu close, which will open the Map. From there, open the weapon pouch and drop the newly-equipped weapon
+		5. Unpause to confirm that Mineru's Arm has been zuggled, then load a save
+		6. Go somewhere you can see a long way down (atop a Hover Stone raised with a Rocket is excellent), and prepare Recall
+		7. Drop an equipped weapon and use Recall to catch Mineru's Arm
+		8. Equip a weapon and collect Mineru's Arm, then save the game
+		9. Before using Mineru's Arm as a portable faildrop wall, destroy the fuse
 
-    === "Map Zuggle" #####
-        ---
-        versions: ["1.0.0", "1.1.0", "1.1.1"]
-        ---
+	=== "Overload Cold Fuse -> Simulated Portacull Zuggle" ####
+		---
+		versions: ["1.1.2"]
+		---
 
-        Preferred Zuggle method for all working patches.
+		This zuggle method also works on `1.0.0-1.1.1`, but is needlessly complex.
 
-        1. Hold L to open the ability wheel and select the Map rune
-        2. As soon as the wheel closes, use D-Pad Right to open the Weapon Quick Menu (spamming usually works)
-        3. Drop Mineru's Arm and reopen the Weapon QM immediately, then equip a droppable weapon (ie not the Master Sword)
-        4. Let the Map open, and press + to enter the inventory
-        5. Drop the swapped-to weapon and unpause
-        6. Mineru's Arm will cause both itself and the swapped-to weapon to fail-drop, so a wall is not needed to Zuggle it
+		##### Requirements
+		---
+		notoc: true
+		---
+	
+		- Mineru
+		- 13 Zuggle Overload
+		- At least 3 shields, 2 weapons, and a bow
+		- A bucket-shaped Autobuild schematic, ideally with a Hover Stone and one or more Big Batteries
+		- An Intangible Aeroculling setup with a shield (`E`) as the SDC base, and the SDC/Wind in a depths culling area
+		- The Autobuild ability
 
-    === "Cull Storage Zuggle" #####
-        ---
-        versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
-        ---
+		##### Performing Super Fuse Overload
+		---
+		notoc: true
+		---
 
-        Though possible on all versions, this Zuggle method is only preferred on `1.1.2`, the awkward middle child that has no other options.
+		1. Defeat Ganondorf's Army (and any dungeon bosses present in the boss rush; no promises you won't crash if you don't)
+		2. Enter the tunnel before Ganondorf's Room and drop `E` aside
+		3. Overload Drop a weapon (`A`) and fuse it to a shield (`B`)
+		4. Drop `B`, then duplicate 21 shields (`C1-C21`) using Overload (up to 19 of these may be dropped on the ground during this step, just be careful not to despawn `B` or `E`)
+		5. Pick up B and Overload Cold Fuse `C1-C21` to `A`
+		6. Faildrop `A` and drop `B`
+		7. Overload Pickup `C1`
+		8. Hold and drop 5 materials (`D1-D5`), Cold Fuse them to `C1`, then repeat until there are 30 materials (`D1-D30`) on the ground
+		9. Faildrop `C1` and drop it aside
+		10. Repeat steps 7-9 with each `C[n]`, using the same `D1-D30`
+		11. After every other repetition, fuse pairs of `C[n]` together to keep under the drop limit
+		12. Around halfway through `C20`, Link will begin Overload Dropping equipment inside the pause menu. _When you see this, move to step 13._
+		13. Cold Fuse a random material to the current `C`. If it works correctly, collect the material and Cold Fuse the next `D[n]`, then repeat step 13. _If it fails, move to step 14._
+		14. Unequip bow to free a dependency slot, then faildrop `C[n]` and drop it aside
+		15. Drop `A` to prevent it from being deleted during the coming cutscene, then pick up `E` and equip a weapon (the Master Sword, if it is owned)
+		16. Create the bucket autobuild, activate it, and Ultrahand `B`, `C1-C21`, and `D1-D30` into the bucket
+		16. Carry the bucket into Ganon's Room, keeping it plenty ahead of Link and out of the way of the upcoming battle
 
-        1. I do not know how to set up cull storage within the bounds of the Ganon Room.
-        2. I think Aeroculling works but I don't remember how or if what I got was actually cull storage
+		##### Collecting Mineru's Arm
+		---
+		notoc: true
+		---
 
-        But the gist:
+		1. Ganondorf should Overload Drop his Gloom Sword during the cutscene, though not seeing this isn't necessarily a failure
+		2. Check for "full" SFO by nocking an arrow. It should appear at Link's quiver, but not attach to his hand
+		3. Without getting too far from the bucket (everything inside can still despawn from distance and must not), progress the fight to Phase 3 (sages blown away)
+		4. Still without allowing SFO to lapse, find Mineru along the outer wall. From each of her arms, an undiscovered equipment should be repeatedly dropping
+		5. With another weapon equipped and a free weapon pouch slot, pick up this equipment. It will immediately respawn, so there's no reason not to take a bunch
+		6. Collect `D1-D30` to end SFO, then _undock the console_. Fusing to Mineru's Arm while docked crashes the game, which you assuredly do not want
+		7. Fuse something to Mineru's Arm, it cannot be targeted with Recall otherwise, which will be needed later
+		8. Equip the fused Arm, this is necessary to Zuggle it
 
-        1. **Pause**
-        2. Drop a buffer drop, then an SDC shield with a cull stored
-        3. Hold `L`, then **unpause**, so that the ability wheel opens as soon as possible
-        4. Select the Map Rune
-        5. As soon as the wheel closes, use D-Pad Right to open the Weapon Quick Menu (spamming usually works)
-        6. Drop Mineru's Arm and reopen the Weapon QM immediately, then equip a droppable weapon (ie not the Master Sword)
-        7. Let the Map open, and press + to enter the inventory
-        8. Drop the swapped-to weapon and unpause
-        9. Mineru's Arm will cause both itself and the swapped-to weapon to fail-drop, so a wall is not needed to Zuggle it
+		##### Simulated Portacull Map Zuggle and Retrieval
+		---
+		notoc: true
+		---
 
-    === "Swap Resync Zuggle" #####
-        ---
-        versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
-        ---
+		Mineru's Arm will naturally fail-drop, so a wall is not needed to Zuggle it.
 
-        Preferred Zuggle Method for all working patches. Steps given include additional buffer drops to widen the timing window.
+		1. Use Ultrahand and Autobuild to create a build of a real, collectible material attached to a "goo" Steering Stick, with the Steering Stick able to sit flat on the ground
+		2. Drop the `E` and stand on the Steering Stick
+		3. Press `A` and a D-Pad direction at the same time, so that the material is collected and a Quick Menu is opened
+		4. Allow the Quick Menu to close while holding `L`, so that the Ability Wheel opens at the earliest possible moment, and select the Map Rune
+		5. Release `L`. While the Ability Wheel is closing, press (or mash) `D-Pad Right` to open the weapon Quick Menu
+		6. Without letting the Quick Menu close, drop Mineru's Arm and swap to a droppable weapon (ie not the Master Sword)
+		7. Let the Quick Menu close, which will open the Map. From there, open the weapon pouch and drop the newly-equipped weapon
+		8. If it cannot be dropped, Link did not cull at the correct time. Ensure the Aeroculling setup is functional and try again
+		9. After a success, unpause to confirm that Mineru's Arm has been zuggled, then load a save
+		10. Go somewhere you can see a long way down (atop a Hover Stone raised with a Rocket is excellent), and prepare Recall
+		10. Drop an equipped weapon and use Recall to catch Mineru's Arm
+		11. Equip a weapon and collect Mineru's Arm, then save the game
+		12. Before using Mineru's Arm as a portable faildrop wall, destroy the fuse
 
-        1. If a Portacull Shield is not already prepared, create one
-        2. **Pause** the game
-        3. **Drop** a buffer equipment item
-        4. **Drop** the Portacull Shield and **swap** to another shield
-        5. **Drop** 2 more buffer items (not the swapped-to shield)
-        6. **Drop** Mineru's Arm and **swap** to another droppable weapon (ie not the master Sword)
-        7. **Pause Buffer** (unpause and pause again 3 frames later; any faster will eat the input)
-        8. **Swap**, **equip**, or **unequip** any armor or bow
-        9. **Drop** the swapped-to weapon and **unpause**
-        10. Mineru's Arm will cause both itself and the swapped-to weapon to fail-drop, so a wall is not needed to Zuggle it
+	=== "Overload Cold Fuse -> Swap Resync Zuggle" ####
+		---
+		versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+		---
 
-    #### Retrieving Mineru's Arm
-    ---
-    notoc: true
-    ---
+		"Purgatory + Ghost DI" will probably be faster as an SFO method, but it's more complex. Go learn that if you like.
 
-    1. After successfully zuggling Mineru's Arm, load a save. If SFO was fully undone, this will not carry any risk of crashing
-    2. Go somewhere you can see a long way down (atop a Hover Stone raised by a Rocket is excellent), and prepare Recall as the active rune
-    3. **Drop** an equipped weapon to drop the zuggled Mineru's Arm and _immediately_ open Recall
-    4. **Recall** the material fused to Mineru's Arm
-    5. **Equip** any weapon and **collect** Mineru's Arm (it was reverted to being undiscovered)
-    6. If intending to use Mineru's Arm as a fail-drop wall, destroy the fuse (fail-dropping a fused Mineru's Arm while docked crashes the game)
-    7. Save the game or get an autosave to lock in your prize
+		##### Requirements
+		---
+		notoc: true
+		---
+	
+		- Mineru
+		- 13 Zuggle Overload
+		- At least 3 shields, 2 weapons, and a bow
+		- A bucket-shaped Autobuild schematic, ideally with a Hover Stone and one or more Big Batteries
+		- A Portacull Shield or the resources to make one later via Overload Cold Fuse/Arrow SDC
+		- The Autobuild ability
 
-    #### Video Resources
-    ---
-    notoc: true
-    ---
+		##### Performing Super Fuse Overload
+		---
+		notoc: true
+		---
 
-    ??? tip "Retrieving Fused+Zuggled Mineru's Arm"
+		1. Defeat Ganondorf's Army (and any dungeon bosses present in the boss rush; no promises you won't crash if you don't)
+		2. Enter the tunnel before Ganondorf's Room
+		3. Overload Drop a weapon (`A`) and fuse it to a shield (`B`)
+		4. Drop `B`, then duplicate 21 shields (`C1-C21`) using Overload (up to 19 of these may be dropped on the ground during this step, just be careful not to despawn `B` or `E`)
+		5. Pick up B and Overload Cold Fuse `C1-C21` to `A`
+		6. Faildrop `A` and drop `B`
+		7. Overload Pickup `C1`
+		8. Hold and drop 5 materials (`D1-D5`), Cold Fuse them to `C1`, then repeat until there are 30 materials (`D1-D30`) on the ground
+		9. Faildrop `C1` and drop it aside
+		10. Repeat steps 7-9 with each `C[n]`, using the same `D1-D30`
+		11. After every other repetition, fuse pairs of `C[n]` together to keep under the drop limit
+		12. Around halfway through `C20`, Link will begin Overload Dropping equipment inside the pause menu. _When you see this, move to step 13._
+		13. Cold Fuse a random material to the current `C`. If it works correctly, collect the material and Cold Fuse the next `D[n]`, then repeat step 13. _If it fails, move to step 14._
+		14. Unequip bow to free a dependency slot, then faildrop `C[n]` and drop it aside
+		15. Drop `A` to prevent it from being deleted during the coming cutscene, then pick up `E` and equip a weapon (the Master Sword, if it is owned)
+		16. Create the bucket autobuild, activate it, and Ultrahand `B`, `C1-C21`, and `D1-D30` into the bucket
+		16. Carry the bucket into Ganon's Room, keeping it plenty ahead of Link and out of the way of the upcoming battle
 
-        placeholder
+		##### Collecting Mineru's Arm
+		---
+		notoc: true
+		---
+
+		1. Ganondorf should Overload Drop his Gloom Sword during the cutscene, though not seeing this isn't necessarily a failure
+		2. Check for "full" SFO by nocking an arrow. It should appear at Link's quiver, but not attach to his hand
+		3. Without getting too far from the bucket (everything inside can still despawn from distance and must not), progress the fight to Phase 3 (sages blown away)
+		4. Still without allowing SFO to lapse, find Mineru along the outer wall. From each of her arms, an undiscovered equipment should be repeatedly dropping
+		5. With another weapon equipped and a free weapon pouch slot, pick up this equipment. It will immediately respawn, so there's no reason not to take a bunch
+		6. Collect `D1-D30` to end SFO, then _undock the console_. Fusing to Mineru's Arm while docked crashes the game, which you assuredly do not want
+		7. Fuse something to Mineru's Arm, it cannot be targeted with Recall otherwise, which will be needed later
+		8. Equip the fused Arm, this is necessary to Zuggle it
+
+		##### Swap Resync Zuggle and Retrieval
+		---
+		notoc: true
+		---
+
+		Mineru's Arm will naturally faildrop, so a wall is not needed to Zuggle it. These steps include additional buffer drops to widen the Pause Buffer timing window.
+
+		1. If a Portacull Shield is not already prepared, create one. Either way, equip it and **pause** the game
+		2. **Drop** a buffer equipment item
+		3. **Drop** the Portacull Shield and **swap** to another shield
+		4. **Drop** 2 more buffer items (not the swapped-to shield)
+		5. **Drop** Mineru's Arm and **swap** to another droppable weapon (ie not the master Sword)
+		6. **Pause Buffer** (unpause and pause again 3 frames later; any faster will eat the input)
+		7. **Swap**, **equip**, or **unequip** any armor or bow
+		8. **Drop** the swapped-to weapon and **unpause**
+		9. Check that Mineru's Arm has been zuggled, then load a save
+		10. Go somewhere you can see a long way down (atop a Hover Stone raised with a Rocket is excellent), and prepare Recall
+		11. Drop an equipped weapon and use Recall to catch Mineru's Arm
+		12. Equip a weapon and collect Mineru's Arm, then save the game
+		13. Before using Mineru's Arm as a portable faildrop wall, destroy the fuse
 
 === "Mainfield Route" ###
 
-    #### Requirements
-    ---
-    notoc: true
-    ---
+	=== "Aerophasing Permacull" ####
+		---
+		versions: ["1.0.0", "1.1.0", "1.1.1", "1.1.2"]
+		---
 
-    - Mineru
-    - All the requirements for [Method 1](uid:BW8#method-1-persistentpurgatory-overload-batch-di) or [Method 4](uid:BW8#method-4-permanentoverload-cold-fuse-permacull) of Super Fuse Overload
-    - The warp-point for Mogisari Shrine at the Lomei Sky Labyrinth. Other low-gravity zones may work, but are untested for stability during SFO.
+		Ooh I have to test an absurd idea. Or maybe I _get_ to test it? Well for now I'm gonna write the aerophasing steps as a placeholder.
 
-    #### Preparing SFO
-    ---
-    notoc: true
-    ---
+		##### Requirements
+		---
+		notoc: true
+		---
 
-    === "Via SFO Method 1" #####
+		- Mineru
+		- An Intangible Aeroculling setup
 
-        1. Ensure Mineru is summoned; this will save some headache later
-        2. Enter Rasitakiwak Shrine and dispose of _all_ the constructs and their weapons
-        3. (most shrines work, so long as there are no enemies and enough room to work)
-        4. Perform Method 1 of Super Fuse Overload
-        5. Equip extra equipment via the D-Pad menus (with fuses on weapon and/or shield if needed) until SFO is _fully_ active
-        6. This can be proven by attempting to nock an arrow; it should appear but remain where the quiver was when ZR was pressed. If it attaches correctly or doesn't appear at all, SFO is not reached.
+		##### Performing SFO
+		---
+		notoc: true
+		---
 
-    === "Via SFO Method 4" #####
+		1. Enter a shrine/Ganon's Tunnel or, whatever. Sorry I'm still thinking this through
+		2. Drop the Aeroculling base and make an unglued platform
+		3. Get a weapon and/or shield Drop Smuggle/Zuggle and duplicate fused items of the same type
+		4. Stand on the platform so that Link begins phasing
+		5. Do... whatever the thing you're supposed to is... to pcull the fused items. I have migraine approaching
+		6. Keep going. Continue. You need to do MORE. 600 at LEAST.
+		7. And then, when the equipped items stop attaching correctly and/or lose their fuses in-world, you're done.
 
-        1. Ensure Mineru is summoned; this will save some headache later
-        2. Perform Method 4 of Super Fuse Overload within the selected shrine
-        3. After completing SFO, re-equip the Aerophasing parent equipment to prevent its fuses from unloading
-        4. Equip extra equipment via the D-Pad menus, with a fuse on the non-aerophasing base type if needed, until SFO is _fully_ active
-        5. This can be proven by attempting to nock an arrow; it should appear but remain where the quiver was when ZR was pressed. If it attaches to the bow or doesn't appear at all, SFO is not reached.
+		##### Collecting Mineru's Arm
+		---
+		notoc: true
+		---
 
-    #### Collecting Mineru's Arm
-    ---
-    notoc: true
-    ---
+		1. Equip a weapon and ensure there is space in your weapon pouch
+		2. Warp to any of the three Sky Labyrinths. Other low-gravity zones are observed to crash the game during SFO
+		3. As soon as you gain control of Link, walk in a small clockwise circle while spamming A (see "Mainfield Mineru's Arm Route" resource below)
+		4. Execution permitting, you will pick up a new 2-handed weapon, dealing 38 damage (as listed in the menu), which has no icon, description, model, or collision, and is called MsgNotFound
+		5. If unsuccessful, stand about halfway between the shrine's warp point and its left/east "Dragon pillar", and spam A between Panic Blood Moons (see "Mainfield Route Backup Strat" resource below)
+		6. If Mineru was not summoned in advance, simply summon her after the warp (and optionally warp again to get a go at the primary strat)
+		7. About 3 seconds after control is gained, a panic blood moon will occur, which will _usually_ give an autosave. Further PBMs will occur much sooner than the first, and are unlikely to provide an autosave
+		8. Make a hard save if desired, then close the game to clear SFO if desired
 
-    1. Equip a weapon and ensure there is space in your weapon pouch
-    2. Warp to Mogisari Shrine
-    3. As soon as you gain control, walk in a small clockwise circle while spamming A (see "Mainfield Mineru's Arm Route" resource below)
-    4. Execution permitting, you will pick up a new 2-handed weapon, dealing 38 damage (as listed in the menu), which has no icon, description, model, or collision, and is called MsgNotFound
-    5. If unsuccessful, stand about halfway between the shrine's warp point and its left/east "Dragon pillar", and spam A between Panic Blood Moons (see "Mainfield Route Backup Strat" resource below)
-    6. If Mineru was not summoned in advance, simply summon her after the warp (and optionally warp again to get a go at the primary strat)
-    7. About 3 seconds after control is gained, a panic blood moon will occur, which will _usually_ give an autosave. Further PBMs will occur much sooner than the first, and are unlikely to provide an autosave
-    8. Make a hard save if desired, then close the game to clear SFO if desired
+	=== "Nested Overload Batch DI" ####
+		---
+		versions: ["1.2.0", "1.2.1", "1.3.0/1.4.0", "1.4.1", "1.4.2", "1.4.3", "Switch 2"]
+		---
 
-    #### Video Resources
-    ---
-    notoc: true
-    ---
+		You get a better and more streamlined setup because you're on current. Yay!
 
-    ??? tip "Mainfield Route Primary Strat"
+		##### Requirements
+		---
+		notoc: true
+		---
 
-        placeholder
+		- Mineru
+		- 13 Zuggle Overload
+		- 2 DI Ghost weapons (one is `A1`, the other is unnamed)
+		- 2 DI Ghost shields (one is `A2`, the other is unnamed)
+		- A bow and at least one arrow
 
+		##### Performing Super Fuse Overload
+		---
+		notoc: true
+		---
 
-    ??? tip "Mainfield Route Backup Strat"
+		=== "Condensed" ######
+		
+			1. Enter a shrine (Rasitakiwak is the most tested choice), defeat any constructs which are present, and delete their weapons
+			2. `A1` Overload FE shield `B` and Recall Lock it
+			3. `A2` and `B` Ghost DI weapon `C`
+			4. `A2` Overload FE weapon `D1`; leave `A2` Zuggle Dropped
+			5. Equip `B`, Smuggle `C`, and Overload Pickup `D1`
+			6. `B`, `C`, and `D1` Overload Batch DI 25 weapons `E1-E25`
+			7. Drop `D1` (don't bother faildropping), then pick up and drop `C` to undo its Zuggle Drop
+			8. `A2` Overload FE weapon `D2`; leave `A2` Zuggle Dropped
+			9. Throw purgatorize `E1-E25`:
+			10. Equip `B` and Overload Pickup `D2`
+			11. `B`, `E1-E25`, and `D2` Overload Batch DI 24 shields `F1-F24`:
+			12. Leave `B` dropped, then faildrop `D2` and drop it once it returns, and finally pick up and drop `A2` to undo its Zuggle Drop
+			13. If desired, check for "full" SFO: Use the D-Pad to equip an unfused weapon and shield, then try to nock an arrow. If it appears, but does not attach to Link's hand, full SFO is reached
 
-        placeholder
+		=== "Expanded" ######
+
+			1. Enter a shrine (Rasitakiwak is the most tested choice), defeat any constructs which are present, and delete their weapons
+			2. `A1` Overload FE shield `B` and Recall Lock it
+			3. `A2` and `B` Ghost DI weapon `C`
+			4. `A2` Overload FE weapon `D1`; leave `A2` Zuggle Dropped
+			5. Equip `B`, Smuggle `C`, and Overload Pickup `D1`
+			6. `B`, `C`, and `D1` Overload Batch DI 25 weapons `E1-E25`:
+				a. Fuse `E[n]` to weapons twice and pause 2-7 frames after the second Fuse input
+				b. Drop-swap-unequip `B` to DI `E[n]`; can use faildrop-swap-unequip to not have to pick up `B` every cycle
+				c. Pick up `B` (if needed) and repeat 6a-6b with the next `E[n]`
+			7. Drop `D1` (don't bother faildropping), then pick up and drop `C` to undo its Zuggle Drop
+			8. `A2` Overload FE weapon `D2`; leave `A2` Zuggle Dropped
+			9. Throw purgatorize `E1-E25`:
+				a. Smuggle `E1`
+				b. Pick up E2 and throw it
+				c. Unsheathe E2 to return it to hand
+				d. Repeat 9a-9c with each E, using any random weapon for the last throw
+				e. If there are fewer than 25 weapons, don't worry about it
+			10. Equip `B` and Overload Pickup `D2`
+			11. `B`, `E1-E25`, and `D2` Overload Batch DI 24 shields `F1-F24`:
+				a. Fuse `F[n]` to weapons twice and pause 2-7 frames after the second Fuse input
+				b. Starting with `F2`, the second Fuse input will cause a strong lag spike, so pausing with the D-Pad is easier
+				c. Drop-swap-unequip `B` to DI `F[n]`; _faildrop is not advised_ due to the risk of dropping the D-Pad input
+				d. Pick up `B` and repeat 11a-11c with the next `F[n]`
+				e. If there were more/fewer than 25 weapons in Step 9, fewer/more shields may be needed to compensate
+				f. For the last few fuses, check on Menu Link after each DI. When he starts looking folded, SFO is likely complete
+			12. Leave `B` dropped, then faildrop `D2` and drop it once it returns, and finally pick up and drop `A2` to undo its Zuggle Drop
+			13. If desired, check for "full" SFO: Use the D-Pad to equip an unfused weapon and shield, then try to nock an arrow. If it appears, but does not attach to Link's hand, full SFO is reached
+
+		=== "Extremely Verbose" ######
+
+			1. Enter a shrine (Rasitakiwak is the most tested choice), defeat any constructs which are present, and delete their weapons
+			2. `A1` Overload FE shield `B` and Recall Lock it:
+				a. Smuggle `A1`
+				b. Overload Drop a weapon and fuse it to a shield
+				c. Fuse `B` to weapons just once
+				d. Swap weapon to resync, then drop it
+				e. Pick up and drop `A1` to remove its Zuggle Drop
+				f. Position `B` where desired, Recall it, and load a save while Recall is active
+			3. `A2` and `B` Ghost DI weapon `C`:
+				a. Smuggle `A2` and equip `B`
+				b. Fuse `C` to shields and pause a few frames later
+				c. Drop-swap-unequip `B` to DI `C`
+			4. `A2` Overload FE weapon `D1`; leave `A2` Zuggle Dropped:
+				a. Smuggle `A2`
+				b. Overload Drop a shield and fuse it to a weapon
+				c. Fuse `D1` to shields just once
+				d. Swap shield to resync, then drop it
+			5. Equip `B`, Smuggle `C`, and Overload Pickup `D1`
+			6. `B`, `C`, and `D1` Overload Batch DI 25 weapons `E1-E25`:
+				a. Fuse `E[n]` to weapons twice and pause 2-7 frames after the second Fuse input
+				b. Drop-swap-unequip `B` to DI `E[n]`; can use faildrop-swap-unequip to not have to pick up `B` every cycle
+				c. Pick up `B` (if needed) and repeat 6a-6b with the next `E[n]`
+			7. Drop `D1` (don't bother faildropping), then pick up and drop `C` to undo its Zuggle Drop
+			8. `A2` Overload FE weapon `D2`; leave `A2` Zuggle Dropped:
+				a. Smuggle `A2`
+				b. Overload Drop a shield and fuse it to a weapon
+				c. Fuse `D2` to shields just once
+				d. Swap shield to resync, then drop it
+			9. Throw purgatorize `E1-E25`:
+				a. Smuggle `E1`
+				b. Pick up E2 and throw it
+				c. Unsheathe E2 to return it to hand
+				d. Repeat 9a-9c with each E, using any random weapon for the last throw
+				e. If there are fewer than 25 weapons, don't worry about it
+			10. Equip `B` and Overload Pickup `D2`
+			11. `B`, `E1-E25`, and `D2` Overload Batch DI 24 shields `F1-F24`:
+				a. Fuse `F[n]` to weapons twice and pause 2-7 frames after the second Fuse input
+				b. Starting with `F2`, the second Fuse input will cause a strong lag spike, so pausing with the D-Pad is easier
+				c. Drop-swap-unequip `B` to DI `F[n]`; _faildrop is not advised_ due to the risk of dropping the D-Pad input
+				d. Pick up `B` and repeat 11a-11c with the next `F[n]`
+				e. If there were more/fewer than 25 weapons in Step 9, fewer/more shields may be needed to compensate
+				f. For the last few fuses, check on Menu Link after each DI. When he starts looking folded, SFO is likely complete
+			12. Leave `B` dropped, then faildrop `D2` and drop it once it returns, and finally pick up and drop `A2` to undo its Zuggle Drop
+			13. If desired, check for "full" SFO: Use the D-Pad to equip an unfused weapon and shield, then try to nock an arrow. If it appears, but does not attach to Link's hand, full SFO is reached
+
+		##### Collecting Mineru's Arm
+		---
+		notoc: true
+		---
+		
+	    1. Equip a weapon and ensure there is space in your weapon pouch
+		2. Warp to any of the three Sky Labyrinths. Other low-gravity zones are observed to crash the game during SFO
+		3. As soon as you gain control, walk in a small clockwise circle while spamming A (see "Mainfield Mineru's Arm Route" resource below)
+		4. Execution permitting, you will pick up a new 2-handed weapon, dealing 38 damage (as listed in the menu), which has no icon, description, model, or collision, and is called MsgNotFound
+		5. If unsuccessful, stand about halfway between the shrine's warp point and its right "Dragon pillar", and spam A between Panic Blood Moons (see "Mainfield Route Backup Strat" resource below)
+		6. If Mineru was not summoned in advance, simply summon her after the warp (and optionally warp again to get a go at the primary strat)
+		7. About 3 seconds after control is gained, a panic blood moon will occur, which will _usually_ give an autosave. Further PBMs will occur much sooner than the first, and are unlikely to provide an autosave
+		8. Make a hard save if desired, then close the game to clear SFO if desired
 
 ## Notes
 
@@ -259,11 +464,25 @@ notoc: true
 
 ### Resources
 
+??? Video Resources
+
+	??? tip "Retrieving Fused+Zuggled Mineru's Arm"
+
+		placeholder
+
+	??? tip "Mainfield Route Primary Strat"
+
+		placeholder
+
+	??? tip "Mainfield Route Backup Strat"
+
+		placeholder
+
 ??? quote "Discord Resources"
 
-    - [Original Mineru's Arm Get](https://discord.com/channels/1086729144307564648/1110956205624532993/1447304812197838930)
-    - [Mainfield Mineru's Arm Route](https://discord.com/channels/1086729144307564648/1113557914444111873/1484238374909902868)
-    - [Mainfield Route Backup Method](https://discord.com/channels/1086729144307564648/1110956205624532993/1510038404178383040)
+	- [Original Mineru's Arm Get](https://discord.com/channels/1086729144307564648/1110956205624532993/1447304812197838930)
+	- [Mainfield Mineru's Arm Route](https://discord.com/channels/1086729144307564648/1113557914444111873/1484238374909902868)
+	- [Mainfield Route Backup Method](https://discord.com/channels/1086729144307564648/1110956205624532993/1510038404178383040)
 
 ### Related
 - [Zuggle Overload](search:Zuggle Overload)
@@ -276,5 +495,6 @@ notoc: true
 ---
 
 - embed important clips instead of just linking to them
-- do CSZ to figure out how best to do it in ganons loser cave
-- format mainfield route section better, it's messy
+- do that crazy Mineru SDC Pcull idea and see if it's peak
+- double-check steps and formatting
+- see about adding the verbosity meter to other step lists if pertinent
